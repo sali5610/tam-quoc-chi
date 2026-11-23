@@ -1,12 +1,16 @@
 # EP-0003 — Năm 189: kinh thành đổi chủ
 *Đông Hán · 189, dẫn sang 190*
 
-> Hà Tiến muốn loại trừ hoạn quan. Ông gọi quân bên ngoài về gây sức ép. Nhưng trước khi đạo quân ấy tới, Hà Tiến đã chết. Còn người được gọi tới? Ông ta sẽ tham gia thay luôn hoàng đế.
+> **Người gọi quân về kinh thành chết trước khi quân tới.** Còn vị tướng được gọi đến sẽ tiến vào trung tâm quyền lực và tham gia quyết định ai được ngồi trên ngai vàng. Nghe như một cú phản kèo được biên kịch cố tình sắp đặt. Nhưng đây là mạch sự kiện được ghi trong sử năm **189**.
+
+Để khỏi lạc giữa một rừng tên, nhớ lại hai tập trước: **nhà Hán** vẫn là triều đình cai trị chung; **hoạn quan** có ảnh hưởng trong nội cung; còn các tướng lĩnh đã có cơ hội cầm quân qua những cuộc dẹp loạn. Người nổi bật ở tập này là **Hà Tiến**, đại tướng quân thuộc phe ngoại thích; **Viên Thiệu**, một nhân vật có thế lực trong giới quan lại; và **Đổng Trác**, vị tướng từng đánh Khăn Vàng không thành.
+
+Họ chưa phải ba ông vua của ba nước. Nhưng những lựa chọn của họ sẽ khiến chiếc ngai vàng nhà Hán ngày càng khó kiểm soát. Đặc biệt là Viên Thiệu: ông sẽ còn xuất hiện khi các lực lượng chống Đổng Trác tụ họp, và về sau trở thành đối thủ lớn của Tào Tháo.
 
 ## Hoàng đế qua đời, bàn cờ chưa kịp ổn định
 *Một cuộc kế vị đáng lẽ phải củng cố triều đình. Tại sao nó lại mở màn cho một cuộc thanh trừng?*
 
-Năm 189, Hán Linh Đế qua đời. Thiếu Đế lên ngôi, nhưng trong cung vẫn còn cuộc tranh chấp gay gắt quanh hoạn quan và những người muốn loại bỏ họ. Đại tướng quân Hà Tiến và Viên Thiệu bàn kế hoạch trừ hoạn quan. Theo 《三國志》卷1, Hà Thái hậu không đồng ý với việc ấy.
+Năm 189, **Hán Linh Đế**, cậu bé lên ngôi từ tập đầu, qua đời. Con ông kế vị, được gọi là **Hán Thiếu Đế**. Đổi hoàng đế nhưng chưa đổi được mâu thuẫn trong cung: hoạn quan vẫn là mục tiêu của những người muốn loại bỏ họ. **Hà Tiến**, anh của Hà Thái hậu và là đại tướng quân, cùng **Viên Thiệu** bàn kế hoạch trừ hoạn quan. Theo 《三國志》卷1, Hà Thái hậu không đồng ý với việc ấy.
 
 Hà Thái hậu không thuận. Hà Tiến vẫn muốn giải quyết vấn đề. Và rồi một lựa chọn nguy hiểm được đưa lên bàn: **gọi quân từ ngoài vào gây sức ép trong cung**. Một khi đã mở cánh cửa ấy, liệu người trong cung còn quyết định được ai sẽ bước qua?
 
@@ -45,7 +49,7 @@ Khi Đổng Trác tiến vào, câu hỏi không còn là phe hoạn quan có b�
 ## Đổng Trác không chỉ tới để “giúp”
 *Một tướng lĩnh có thể phế hoàng đế — vậy hoàng đế còn là người nắm quyền hay chỉ là người được chọn?*
 
-Đổng Trác nắm được ảnh hưởng quân sự ở kinh thành và thúc đẩy việc phế Thiếu Đế, lập Trần Lưu vương. 《三國志》卷6 ghi Viên Thiệu phản đối việc phế lập và rời khỏi trung tâm quyền lực.
+Đổng Trác — vị tướng từng xuất hiện trong cuộc chiến Khăn Vàng năm 184 — nay có ảnh hưởng quân sự ở kinh thành và thúc đẩy việc phế **Thiếu Đế**, lập **Trần Lưu vương**, em của Thiếu Đế, lên ngôi. 《三國志》卷6 ghi Viên Thiệu phản đối việc phế lập và rời khỏi trung tâm quyền lực.
 
 [Chính sử] 《三國志》卷6, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷06), EVD-0029.
 
