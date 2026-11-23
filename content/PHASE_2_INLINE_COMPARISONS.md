@@ -15,6 +15,13 @@ Status: DRAFT, designed to be inserted adjacent to relevant prose. This is **con
 **[Đối chiếu]** The oath ceremony is not confirmed by the cited histories; the closeness of the three men has historical textual support. Absence from the consulted histories is not proof of impossibility.
 **[Châm biếm của biên tập]** Tiểu thuyết có vườn đào; chính sử có quan hệ chiến hữu. Đừng bắt hai loại tài liệu làm chung một công việc.
 
+
+## EP-0002 — Who beat the inspector? (after Liu Bei's first military service)
+**[Chính sử]** 《三國志》卷32〈先主傳〉 records **Liu Bei** tying up and beating the supervising inspector (督郵) after he was denied a meeting; he subsequently abandoned his office. https://zh.wikisource.org/wiki/三國志/卷32
+**[Tiểu thuyết]** 《三國演義》hồi 2 famously assigns the beating to **Zhang Fei**. https://zh.wikisource.org/wiki/三國演義/第002回
+**[Đối chiếu]** This is a change of *agent*, not merely decorative dialogue. Place as an after-campaign digression; the record does not warrant a specific day in 184.
+**[Châm biếm của biên tập]** Truyện giao cho Trương Phi nhận phần nóng tính. Chính sử lại để Lưu Bị tự cầm roi.
+
 ## EP-0003 — Yuan Shao vs Dong Zhuo
 **Placement:** immediately after deposition disagreement.
 **[Chính sử]** 《三國志》卷6 records Dong Zhuo's proposal to replace the emperor and Yuan Shao's opposition. https://zh.wikisource.org/wiki/三國志/卷06
