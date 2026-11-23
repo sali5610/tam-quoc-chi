@@ -6,7 +6,7 @@
 ## Trương Giác: một phong trào không nằm gọn trong một thành
 *Nếu người nổi dậy không chỉ tập trung ở một chỗ, triều đình sẽ đánh vào đâu trước?*
 
-《後漢書》卷71 kể Trương Giác tập hợp tín đồ, tổ chức thành **ba mươi sáu phương**. Chữ “phương” (方) ở đây chỉ đơn vị tổ chức được sử gia ghi lại, không nên tự động hiểu là ba mươi sáu đạo quân có quy mô ngang nhau. Phong trào gắn với thực hành tôn giáo và phát triển thành cuộc nổi dậy năm 184.
+《後漢書》卷71 kể Trương Giác tập hợp tín đồ, tổ chức thành **ba mươi sáu phương**. Ba mươi sáu “phương” (方) là cách nguồn sử mô tả tổ chức phong trào; không phải bản kiểm kê ba mươi sáu đạo quân có sức mạnh ngang nhau. Phong trào gắn với thực hành tôn giáo và phát triển thành cuộc nổi dậy năm 184.
 
 Chỉ riêng cách tổ chức được ghi trong sử cũng cho thấy vì sao biến động này khó xử lý như một vụ nổi loạn đơn lẻ. Một đạo quân kéo tới một thành còn có thể tập trung đối phó. Nhiều địa bàn cùng rung chuyển thì câu hỏi khó hơn: chia lực lượng thế nào, giao cho ai, và ai chịu trách nhiệm khi thất bại?
 
@@ -32,7 +32,7 @@ Một người trong số họ thua trận. Người kia bị vây. Và tình th
 
 Chu Tuấn giao chiến với quân của Ba Tài và thất bại. Trong khi đó, Hoàng Phủ Tung bị vây tại Trường Xã. Theo lời chép trong 《後漢書》, Hoàng Phủ Tung dùng hỏa công để phá thế vây. Sau đó Tào Tháo đem quân tới, phối hợp đánh lực lượng nổi dậy.
 
-Thứ tự rất quan trọng. **Chu Tuấn thất trận**, **Hoàng Phủ Tung thoát thế vây bằng hỏa công**, **Tào Tháo tới tham chiến**. Gộp cả ba thành một cú đại thắng do một “nhân vật chính” đạo diễn thì tiện, nhưng sai nhịp sự kiện.
+Ba cái tên, ba vị trí khác nhau trong cùng cơn khủng hoảng. Chu Tuấn nếm thất bại. Hoàng Phủ Tung tìm đường thoát vòng vây bằng lửa. Tào Tháo đến sau, khi cục diện đã chuyển. Lịch sử không trao toàn bộ chiến công cho một nhân vật chính.
 
 [Chính sử] 《後漢書》卷71, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷71), EVD-0034/35.
 
@@ -76,7 +76,7 @@ Nhưng còn một nhân vật không có màn ra mắt đẹp như vậy. Năm 1
 ## Đổng Trác: trước khi khuynh đảo triều đình, từng đánh thua
 *Một người sau này có thể phế lập hoàng đế. Vậy lần đầu ta gặp ông ta trên chiến trường, kết quả ra sao?*
 
-《三國志》卷6 ghi Đổng Trác từng được giao nhiệm vụ đánh Khăn Vàng, nhưng thất bại và bị quy trách nhiệm. Đặt chi tiết này ở đây không phải để suy đoán ông “ôm hận” rồi quyết định làm loạn năm 189. Đó sẽ là tiểu thuyết hóa tâm lý mà nguồn chưa chứng minh.
+《三國志》卷6 ghi Đổng Trác từng được giao nhiệm vụ đánh Khăn Vàng, nhưng thất bại và bị quy trách nhiệm. Thất bại ấy không nói cho ta biết Đổng Trác nghĩ gì trong lòng. Nó nói một điều thú vị hơn: người sau này nắm quyền phế lập hoàng đế từng có một lần ra trận chẳng vẻ vang gì.
 
 Điều đáng nhớ hơn: **Đổng Trác không xuất hiện đột ngột từ hư không vào năm 189**. Ông có quá khứ quân sự, và quá khứ ấy không toàn chiến công.
 
