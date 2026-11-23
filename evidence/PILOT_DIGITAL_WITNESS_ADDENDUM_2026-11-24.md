@@ -30,3 +30,14 @@ Status: **digital passage inspected**, NOT edition-collated, not approved for st
 - EP-0002: inspect Sun Jian's 184 military role, if any, before writing it.
 - Full nine-character biography matrix, edition collation, rights audit.
 - No story draft, art, UI or deployment authorized.
+
+
+## CORRECTION — follow-up direct reading (2026-11-24)
+**Supersedes the misleading earlier caution** that might suggest Sun Jian lacked a Yellow Turban role. In 《三國志》卷46 孫堅, the 172 Xu Chang revolt and the **184 Yellow Turban campaign are two separate episodes, both directly recorded in Chen Shou's unbracketed base text.** In the 中平元年 paragraph, Zhu Jun recommends Sun Jian as 佐軍司馬, and he participates in operations against Yellow Turbans; following the campaign he is appointed 別部司馬. Evidence **EVD-0014**; source SRC-0007; https://zh.wikisource.org/wiki/三國志/卷46 (孫堅, 中平元年 paragraph). Digital witness inspected; edition collation pending. Do not conflate the two events or omit Sun Jian from EP-0002.
+
+**EVD-0015**: 《後漢書》卷8 孝靈帝紀 建寧元年: 「庚子，即皇帝位」 — Emperor Ling's accession in 168; https://zh.wikisource.org/wiki/後漢書/卷8 . Digital witness inspected; edition collation pending.
+
+**EVD-0016**: Same annal, 建寧元年九月: 「曹節矯詔誅太傅陳蕃、大將軍竇武」 — the court crisis and killing of Chen Fan and Dou Wu in 168. Digital witness inspected; attribution of responsibility follows the source's wording, not independent proof of every detail.
+
+## Correction handling
+Preserve original text for audit trail, but this correction **overrides** earlier speculative gap statement about Sun Jian's 184 participation. Update any downstream chronology or episode matrix before approval. No story prose authorized.
