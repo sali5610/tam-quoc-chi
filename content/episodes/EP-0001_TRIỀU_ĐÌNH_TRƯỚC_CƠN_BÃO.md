@@ -8,7 +8,7 @@
 
 Năm 168, Hán Linh Đế lên ngôi. Một triều đại lâu đời vẫn có đầy đủ nghi lễ, chức tước và triều phục. Nhìn từ xa, mọi thứ giống như đang vận hành. Nhìn gần hơn, quyền lực trong cung là cuộc giằng co giữa ngoại thích, hoạn quan và những quan lại có mạng lưới sĩ nhân phía sau.
 
-Ở đây, đừng vội chia đội theo kiểu “hoạn quan toàn ác, sĩ đại phu toàn thiện”. Sử liệu có đánh giá về các phe, nhưng mỗi phe vẫn gồm nhiều con người và lợi ích khác nhau. Điều quan trọng cho câu chuyện này là: một cuộc kế vị đã không giải quyết được cuộc tranh quyền.
+Ngai vàng đã có chủ. Quyền quyết định thì chưa chắc. Ngoại thích có quan hệ huyết thống với hoàng gia; hoạn quan có đường tiếp cận nội đình; giới quan lại có uy tín và mạng lưới riêng. Không phe nào chỉ cần một lời tuyên bố là khiến các phe còn lại tự rút lui.
 
 [Chính sử] 《後漢書》卷8〈孝靈帝紀〉, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷8), EVD-0015/17.
 
@@ -19,7 +19,7 @@ Và năm ấy, có người quyết định không chờ cuộc tranh giành t�
 
 Đậu Vũ và Trần Phồn đối đầu với thế lực hoạn quan. Họ không chỉ bất mãn bằng lời: cuộc xung đột đã đi đến hành động chính trị quyết liệt. Nhưng cán cân trong cung không nghiêng về phía họ. Kế hoạch thất bại; Đậu Vũ và Trần Phồn chết trong biến cố.
 
-Câu chuyện này dễ bị kể như một màn “trung thần diệt gian thần” bị phản diện đánh úp. Đó là một cách đọc có tính phán xét. Ở tầng sự kiện, điều chắc hơn là **một phe tìm cách triệt hạ phe kia và thất bại**, để lại một cuộc tái phân bố quyền lực nghiêm trọng.
+Nếu đây là một câu chuyện anh hùng, Đậu Vũ và Trần Phồn có lẽ phải thắng ngay tại đây. Nhưng lịch sử không chiều người kể: **phe định loại trừ đối thủ lại là phe thất bại**. Và hậu quả không khép lại cùng hai cái chết.
 
 [Chính sử] 《後漢書》卷8, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷8), EVD-0016/18.
 
@@ -49,7 +49,7 @@ Năm 184 — mốc mở đầu tập kế tiếp — cuộc nổi dậy Khăn V�
 
 [Chính sử] 《後漢書》卷67, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷67), EVD-0026.
 
-Không thể từ một chiếu lệnh mà suy ra chính xác mọi tính toán kín của triều đình. Nhưng đặt hai thời điểm cạnh nhau đã thấy nghịch lý: khi mối nguy thay đổi, chính sách cũng đổi theo.
+Lệnh tha không xóa đi những năm tháng cấm đoán. Nó chỉ khiến người ta phải nhìn lại một nghịch lý: khi cuộc khủng hoảng đổi hình dạng, chính triều đình cũng đổi cách đối xử với những người từng bị gạt ra ngoài.
 
 > **[Châm biếm của biên tập]** Hôm qua là đối tượng cần đề phòng. Hôm nay có thể là người mà triều đình không muốn tiếp tục gạt ra ngoài. Chính trị đổi giọng nhanh hơn lời mở đầu một bản chiếu.
 
