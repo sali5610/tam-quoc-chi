@@ -1,29 +1,37 @@
-# Phase 1 QA gate — research readiness (2026-11-24)
-**Gate state: NOT READY FOR PO APPROVAL**. The user asked for batching, not premature approvals.
+# Phase 1 — Lean content readiness (2026-11-24)
+Scope: private, single-reader historical story site. **Only check historical accuracy, completeness of important stories, and usable Reader attribution.** No rights QA, legal review, publication engineering or unrelated checklists.
 
-| Check | State | Evidence / issue |
+## Research scope already authorized
+- EP-0001 (168–183): Lingdi accession, Dou Wu / Chen Fan, party prohibitions and Han court politics.
+- EP-0002 (184): Zhang Jiao, Huangfu Song, Zhu Jun, Cao Cao, Liu Bei, Sun Jian, He Jin; Dong Zhuo's failed campaign as cameo.
+- EP-0003 (189, 190 transition): Lingdi's death, He Jin, Yuan Shao, eunuchs, Dong Zhuo, Emperor Xian.
+- Nine initial wiki character sheets have direct source paths, but are not polished biographies.
+- Reader must embed historical, Pei, Romance/legend and sourced community comparisons at relevant beats. Editorial jokes are original and visibly labeled.
+
+## Essential checks only
+| Check | Status | Why it matters |
 |---|---|---|
-| Source hierarchy and base vs Pei commentary | PASS as policy | docs/HISTORICAL_RULES.md |
-| Three pilot outlines and nine candidate wikis | APPROVED for research | DEC-016 |
-| At least 3 locatable passages per pilot | PRELIMINARY | Multiple online witnesses; not edition-collated |
-| 168–183 political context | PARTIAL | Accession, court crisis, party prohibition; year-by-year context incomplete |
-| 184 campaign map and actor links | PARTIAL | SRC-0002; newly checked EVD-0032–36 |
-| 189 relative chronology | PARTIAL | He Jin, Yuan Shao, Dong Zhuo, Xian; day/date alignment pending |
-| Direct source anchors for nine characters | PARTIAL | Matrix has links; not nine finished profiles |
-| Digital vs print edition collation | BLOCKED | Reference edition and variant review not performed |
-| Rights / reuse QA | OUT OF SCOPE | Private, single-reader project. Do not gate Phase 1 on a license audit; reassess only if distribution scope changes |
-| Community reactions with real permalinks | NOT STARTED | Must not fabricate community consensus |
-| Evidence IDs / claim dedup | NEEDS FIX | EVD-0015/17, 0016/18, 0030/37 duplicate claims |
-| Literary completeness | PARTIAL | Peach Garden, Cao Cao/Lü Boshe variants recorded; full pilot sweep incomplete |
-| Storytelling, art, deployment | NOT AUTHORIZED | Keep locked |
+| Relevant events have traceable historical passages | PARTIAL | Avoid invented history |
+| Major popular variants not silently omitted | PARTIAL | User specifically wants Peach Garden, Cao Cao/Lü Boshe and other memorable versions |
+| Base text / Pei / novel / community clearly distinguished | READY AS RULE | Avoid confusing fiction with history |
+| Timeline and character cross-links coherent | PARTIAL | Reader + Wiki + Atlas consistency |
+| Genuine community reactions where included | NOT COLLECTED | Do not invent a 'popular' joke |
+| Full print-edition collation | NOT REQUIRED FOR PRIVATE PILOT | Only revisit an actual disputed reading that affects the story |
+| Rights / reuse QA | OUT OF SCOPE | Private single reader |
+| Deploy / art / storytelling | NOT AUTHORIZED | Await the appropriate PO gate |
 
-## Operational correction
-The previous batch messages sometimes equated 'online passage checked' with historical verification. **They are not equivalent**. Evidence IDs are research locators, not approved publication facts. Likewise '9/9 mapped' means source-path mapping, not nine finished biographies.
+## Known factual dedup (no more mechanical audit project)
+- Lingdi accession: EVD-0015 = EVD-0017
+- Dou Wu / Chen Fan: EVD-0016 = EVD-0018
+- Xian accession: EVD-0030 = EVD-0037
+- Sun Jian 184: EVD-0014 ≈ EVD-0021
+- Liu Bei anti-Yellow-Turban: EVD-0011 = EVD-0020
+Preserve old IDs, but never count these as independent historical attestations.
 
-## Remaining independent work
-1. Establish a reference edition and compare passages; document actual edition, not just catalog record.
-2. Complete nine character fact sheets with direct locators and conflicts.
-3. Cross-check 168–183 and 184 chronology against later annals/chronicle, retaining disagreements.
-4. Rights/license audit is out of scope for the current private single-reader product; keep source attribution for historical accuracy.
-5. Locate and assess genuine public community reactions if useful; if absent, show no community claims.
-6. Normalize duplicated EVD IDs and submit one coherent QA dossier for PO approval. Do not ask for repeated Next between tasks.
+## Focused remaining work, no side quests
+1. Fill **story-affecting** gaps in 168–183, 184, 189, checking conflicting passages only where they change the plot.
+2. Identify important Romance/legend differences for the three pilots; link to specific chapters.
+3. Source a small number of genuine community jokes if available; otherwise omit community cards, never block the pilot.
+4. Present **one** concise PO content gate when the pilot research is sufficient. Do not ask for approval between research batches.
+
+All prior broader QA worksheets are superseded for the private pilot. No historical storytelling has been authorized.
