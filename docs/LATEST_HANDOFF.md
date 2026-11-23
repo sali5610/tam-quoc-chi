@@ -31,3 +31,9 @@ Added evidence/PHASE_1_189_SEQUENCE_AND_VARIANTS.md: eight relative-order anchor
 - Added docs/PHASE_1_READER_MODULE_INVENTORY.md with eight source-linked inline reader modules; not scripts.
 - Updated chronology and wiki matrix: Yuan Shao and Emperor Xian now have direct biography/annal anchors; party-prohibition history connects EP-0001 to EP-0002.
 - Remaining QA: edition collation, rights, full 9 wiki profiles, multi-region 184 campaign, independent source conflicts, verifiable public reaction samples. **No approval gate yet.** Do not write narrative or deploy.
+
+## 184 source QA batch (2026-11-24)
+- Added evidence/PHASE_1_184_CAMPAIGN_AND_SOURCE_QA_2026-11-24.md (EVD-0032–37; EVD-0037 intentionally flags duplicate of 0030).
+- Added docs/PHASE_1_QA_GATE_CHECKLIST.md. Phase 1 **NOT READY**; source/edition rights, chronology and full wiki sheets incomplete.
+- Dong Zhuo's failed Yellow Turban campaign in Sanguozhi 6 changes EP-0002 cameo plan; Huangfu Song / Zhu Jun / Cao Cao campaign roles disentangled.
+- Continue research without intermediate PO approvals; no scripts, art or deployment.
