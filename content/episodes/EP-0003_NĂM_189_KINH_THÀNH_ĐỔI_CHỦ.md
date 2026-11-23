@@ -8,7 +8,7 @@
 
 Năm 189, Hán Linh Đế qua đời. Thiếu Đế lên ngôi, nhưng trong cung vẫn còn cuộc tranh chấp gay gắt quanh hoạn quan và những người muốn loại bỏ họ. Đại tướng quân Hà Tiến và Viên Thiệu bàn kế hoạch trừ hoạn quan. Theo 《三國志》卷1, Hà Thái hậu không đồng ý với việc ấy.
 
-Đây là lúc một cuộc khủng hoảng chính trị có thể được giải quyết theo nhiều cách — nhưng những người tham gia đã chọn con đường có rủi ro rất lớn: dùng sức ép quân sự từ bên ngoài kinh thành.
+Hà Thái hậu không thuận. Hà Tiến vẫn muốn giải quyết vấn đề. Và rồi một lựa chọn nguy hiểm được đưa lên bàn: **gọi quân từ ngoài vào gây sức ép trong cung**. Một khi đã mở cánh cửa ấy, liệu người trong cung còn quyết định được ai sẽ bước qua?
 
 [Chính sử] 《三國志》卷1〈武帝紀〉, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷01), EVD-0027; đối chiếu [《後漢書》卷69〈何進列傳〉](https://zh.wikisource.org/wiki/後漢書/卷69).
 
@@ -17,7 +17,7 @@ Kế hoạch còn chưa kịp thực hiện đúng như dự tính, người kh�
 ## Hà Tiến gọi Đổng Trác. Hà Tiến chết trước.
 *Mời quân đến để xử lý một phe trong cung — nhưng ai sẽ kiểm soát đạo quân sau khi người mời chết?*
 
-Hà Tiến triệu Đổng Trác tiến về kinh thành. Tuy nhiên, theo 《三國志》卷1, **Hà Tiến bị giết trước khi Đổng Trác tới**. Đây là điểm xoay của toàn bộ câu chuyện. Một người dùng sự hiện diện của quân ngoài để gây sức ép đã không còn cơ hội kiểm soát kết quả.
+Hà Tiến triệu Đổng Trác tiến về kinh thành. Tuy nhiên, theo 《三國志》卷1, **Hà Tiến bị giết trước khi Đổng Trác tới**. Người gửi lời triệu tập không còn sống để đón người được triệu tập. Nhưng đoàn quân không vì thế mà biến mất. Chính khoảng trống ấy khiến mọi chuyện trượt khỏi dự tính ban đầu.
 
 [Chính sử] 《三國志》卷1, EVD-0004/5.
 
@@ -30,7 +30,7 @@ Cái chết ấy không làm mọi phe bình tĩnh lại. Nó châm ngòi cho m�
 ## Khi việc “trừ hoạn quan” vượt khỏi tầm kiểm soát
 *Trong một cuộc thanh trừng, điều gì xảy ra khi người cầm vũ khí không còn phân biệt nổi ai là mục tiêu?*
 
-Sau khi Hà Tiến chết, lực lượng của Viên Thiệu tiến hành giết hoạn quan. 《三國志》卷6 ghi cả chuyện những người không có râu bị giết nhầm trong cơn hỗn loạn. Đó là một chi tiết ngắn nhưng ghê gớm: một cuộc thanh trừng nhân danh loại bỏ một nhóm đã gây hại tới cả những người bị nhận diện sai.
+Sau khi Hà Tiến chết, lực lượng của Viên Thiệu tiến hành giết hoạn quan. 《三國志》卷6 ghi cả chuyện những người không có râu bị giết nhầm trong cơn hỗn loạn. Chỉ một chi tiết ấy đã đủ cho thấy cuộc thanh trừng trượt tới đâu: trong hỗn loạn, ngay cả vẻ ngoài cũng có thể quyết định một mạng người.
 
 [Chính sử] 《三國志》卷6〈袁紹傳〉, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷06), EVD-0028.
 
@@ -73,7 +73,7 @@ Cũng theo phần biên niên ấy, Hà Thái hậu bị Đổng Trác giết sa
 ## Năm 190 đang tới
 *Nếu một người có thể thay hoàng đế, những người khác sẽ lấy danh nghĩa gì để chống lại ông ta?*
 
-Năm 190, liên minh chống Đổng Trác trở thành diễn biến tiếp theo. Đây là **sự kiện của năm 190**, không phải màn kết giả tạo được kéo lùi về năm 189. Những người từng cùng đứng dưới danh nghĩa nhà Hán bắt đầu đối diện một vấn đề: chống Đổng Trác thì có thể cùng khẩu hiệu, nhưng sau đó ai sẽ nghe ai?
+Năm 190, liên minh chống Đổng Trác trở thành diễn biến tiếp theo. Năm 189 khép lại với Đổng Trác ở trung tâm quyền lực. Sang năm 190, các lực lượng chống ông tụ họp. Cùng giương danh nghĩa nhà Hán là một chuyện; cùng chấp nhận ai chỉ huy lại là chuyện khác.
 
 [Sử liệu khác] 《資治通鑑》卷59, [nguyên văn](https://zh.wikisource.org/wiki/資治通鑑/卷059), EVD-0008.
 
