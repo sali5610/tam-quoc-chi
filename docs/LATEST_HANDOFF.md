@@ -56,3 +56,9 @@ Project is PRIVATE, single-reader personal use. **Remove licensing/rights QA fro
 - docs/PHASE_1_PILOT_CONTENT_GATE.md contains the three episode beat outlines, nine wiki entry points, novel/Pei comparison placements, and only story-affecting cautions.
 - No extra QA required for rights or blanket edition collation. Community reactions optional, never fabricated.
 - **Await one PO approval to begin Phase 2 text drafting**; do not start prose, art, code or deploy without it. This is the actual decision gate, not a request for more 'Next' turns.
+
+## Phase 2 writing authorized and executed (2026-11-24)
+- PO explicitly approved writing all three pilot episodes and inline comparisons; **no images, UI code, deployment**.
+- Created content/episodes/EP-0001_TRIỀU_ĐÌNH_TRƯỚC_CƠN_BÃO.md, EP-0002_KHĂN_VÀNG_184.md, EP-0003_NĂM_189_KINH_THÀNH_ĐỔI_CHỦ.md. Full Vietnamese prose, evidence-linked inline labels, original clearly labeled editorial jokes, and forward hooks.
+- Created content/PHASE_2_INLINE_COMPARISONS.md with four comparison modules (three inline and one deferred), no invented community posts.
+- Status: **Phase 2 first drafts COMPLETE, editorial revision NOT YET APPROVED**. Historical attribution is source-linked but not independently re-collated this turn. No illustrations, UI or deployment performed.
