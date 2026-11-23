@@ -1,3 +1,5 @@
+**ARCHIVED / OUT OF SCOPE (PO decision 2026-11-24):** Private, single-reader personal project. Do not run rights/license QA or block Phase 1 on it. Retained solely as an obsolete historical record. Source/edition verification for historical accuracy remains relevant; do not equate it with legal review.
+
 # Phase 1 — Rights, provenance and edition decision worksheet
 Status: **NOT CLEARED**. No unverified legal conclusion is made.
 
