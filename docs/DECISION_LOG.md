@@ -14,3 +14,7 @@
 | DEC-010 | Art exploration: Ink & Silk | Approved 2026-11-24 |
 | DEC-011 | Tone: strong gossip, no fabricated facts | Approved 2026-11-24 |
 | DEC-012 | Phase 1 source research may proceed; source list requires PO approval before writing | Approved 2026-11-24 |
+
+| DEC-013 | Phase 1: four-tier source hierarchy approved | Approved 2026-11-24 |
+| DEC-014 | CText/Wikisource conditional access sources pending fidelity/license verification | Approved 2026-11-24 |
+| DEC-015 | Pilot research begins in late Eastern Han; exact episodes pending approval | Approved 2026-11-24 |
