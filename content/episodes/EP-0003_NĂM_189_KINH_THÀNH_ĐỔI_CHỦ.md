@@ -34,7 +34,7 @@ Sau khi Hà Tiến chết, lực lượng của Viên Thiệu tiến hành giế
 
 [Chính sử] 《三國志》卷6〈袁紹傳〉, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷06), EVD-0028.
 
-Trong lúc ấy, hoạn quan đưa Thiếu Đế và Trần Lưu vương rời cung. 《後漢書》卷72 kể hành trình này trong bối cảnh Đổng Trác đang tiến quân về kinh thành. Hoàng đế — người đáng lẽ là trung tâm của mọi mệnh lệnh — lại trở thành người phải được đưa đi giữa một cuộc chạy loạn.
+Trong lúc ấy, hoạn quan đưa Thiếu Đế và Trần Lưu vương rời cung, chạy về phía Tiểu Bình Tân trong đêm. 《後漢書》卷72 còn ghi Đổng Trác từ xa thấy lửa bốc lên, liền thúc quân tiến tới. Một bên là những người mang hoàng đế đi giữa hỗn loạn; bên kia là đoàn quân đang tới. **Hai chuyển động ấy sắp gặp nhau.** Hoàng đế — người đáng lẽ là trung tâm của mọi mệnh lệnh — lại trở thành người phải được đưa đi giữa một cuộc chạy loạn.
 
 [Sử liệu khác] 《後漢書》卷72〈董卓列傳〉, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷72).
 
@@ -73,7 +73,9 @@ Cũng theo phần biên niên ấy, Hà Thái hậu bị Đổng Trác giết sa
 ## Năm 190 đang tới
 *Nếu một người có thể thay hoàng đế, những người khác sẽ lấy danh nghĩa gì để chống lại ông ta?*
 
-Năm 190, liên minh chống Đổng Trác trở thành diễn biến tiếp theo. Năm 189 khép lại với Đổng Trác ở trung tâm quyền lực. Sang năm 190, các lực lượng chống ông tụ họp. Cùng giương danh nghĩa nhà Hán là một chuyện; cùng chấp nhận ai chỉ huy lại là chuyện khác.
+Nhưng năm 189 chưa kết thúc trong im lặng. 《三國志》卷1 chép rằng **tháng mười hai âm lịch**, Tào Tháo bắt đầu dấy binh ở Kỷ Ngô. Cùng năm mà Đổng Trác can dự vào việc phế lập hoàng đế, một người khác đã bắt đầu tập hợp lực lượng ở ngoài kinh thành. [Chính sử: 《三國志》卷1, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷01), đoạn “冬十二月，始起兵於己吾”.]
+
+Sang năm 190, các lực lượng chống Đổng Trác tụ họp. Cùng giương danh nghĩa nhà Hán là một chuyện; cùng chấp nhận ai chỉ huy lại là chuyện khác.
 
 [Sử liệu khác] 《資治通鑑》卷59, [nguyên văn](https://zh.wikisource.org/wiki/資治通鑑/卷059), EVD-0008.
 
