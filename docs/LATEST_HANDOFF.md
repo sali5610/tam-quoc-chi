@@ -37,3 +37,9 @@ Added evidence/PHASE_1_189_SEQUENCE_AND_VARIANTS.md: eight relative-order anchor
 - Added docs/PHASE_1_QA_GATE_CHECKLIST.md. Phase 1 **NOT READY**; source/edition rights, chronology and full wiki sheets incomplete.
 - Dong Zhuo's failed Yellow Turban campaign in Sanguozhi 6 changes EP-0002 cameo plan; Huangfu Song / Zhu Jun / Cao Cao campaign roles disentangled.
 - Continue research without intermediate PO approvals; no scripts, art or deployment.
+
+## Normalization and structured character batch (2026-11-24)
+- Added evidence/PHASE_1_CLAIM_NORMALIZATION_V0_1.md: seven known claim groups, non-destructive duplicate mapping; NOT full-registry dedup.
+- Added knowledge/PHASE_1_NINE_CHARACTER_FACT_SHEETS_V0_1.md: nine research-only sourced fact sheets and Atlas relations, NOT nine approved biographies.
+- Added docs/PHASE_1_RIGHTS_AND_EDITION_REVIEW_V0_1.md: clearance worksheet, NOT actual license approval.
+- Phase 1 remains OPEN: actual edition collation, rights checks, source-dependent chronology, sourced community reactions, reviewer gate. Do not claim readiness, write storytelling or deploy.
