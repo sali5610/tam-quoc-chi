@@ -19,7 +19,7 @@ Triều đình cần người đánh trận. Và những người được gọi
 ## Hoàng Phủ Tung và Chu Tuấn: người gánh trận thật
 *Nếu nghĩ Tào Tháo hay Lưu Bị đã là trung tâm mọi chiến dịch ngay từ đầu, có lẽ ta đang xem lịch sử qua poster của phần sau.*
 
-Hoàng Phủ Tung và Chu Tuấn được triều đình cử chỉ huy quân chống Khăn Vàng. Theo 《後漢書》卷71, Hoàng Phủ Tung làm Tả trung lang tướng, Chu Tuấn làm Hữu trung lang tướng. Họ phải đối mặt với lực lượng nổi dậy trên thực địa, không phải chỉ đứng cạnh các nhân vật sẽ nổi danh về sau.
+Hoàng Phủ Tung và Chu Tuấn được triều đình cử chỉ huy quân chống Khăn Vàng. Theo 《後漢書》卷71, Hoàng Phủ Tung làm Tả trung lang tướng, Chu Tuấn làm Hữu trung lang tướng. Đây là cuộc huy động của cả triều đình: ở kinh thành, Hà Tiến cũng được đặt vào vai trò chỉ huy quân sự trong cuộc khủng hoảng. Các tướng lĩnh ngoài mặt trận phải đối mặt với lực lượng nổi dậy trên thực địa, không phải chỉ đứng cạnh các nhân vật sẽ nổi danh về sau. [Đối chiếu: 《後漢書》卷8〈孝靈帝紀〉, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷8).]
 
 [Chính sử] 《後漢書》卷71, EVD-0002/33.
 
