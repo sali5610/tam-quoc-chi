@@ -3,7 +3,7 @@
 
 ## Hoàng đế băng hà, kế hoạch thanh trừng bắt đầu
 
-Năm 189, Hán Linh Đế qua đời. Thiếu Đế lên ngôi, nhưng câu chuyện quyền lực không vì thế mà ổn định. Theo 《三國志》卷1〈武帝紀〉, đại tướng quân Hà Tiến và Viên Thiệu bàn chuyện trừ hoạn quan; Hà Thái hậu không đồng ý. Đây là điểm khởi đầu của một chuỗi quyết định có hậu quả vượt xa kế hoạch ban đầu. [Chính sử: 《三國志》卷1, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷01), EVD-0027; đối chiếu 《後漢書》卷69](https://zh.wikisource.org/wiki/後漢書/卷69)
+Năm 189, Hán Linh Đế qua đời. Thiếu Đế lên ngôi, nhưng câu chuyện quyền lực không vì thế mà ổn định. Theo 《三國志》卷1〈武帝紀〉, đại tướng quân Hà Tiến và Viên Thiệu bàn chuyện trừ hoạn quan; Hà Thái hậu không đồng ý. Đây là điểm khởi đầu của một chuỗi quyết định có hậu quả vượt xa kế hoạch ban đầu. [Chính sử: 《三國志》卷1, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷01), EVD-0027; đối chiếu [《後漢書》卷69](https://zh.wikisource.org/wiki/後漢書/卷69)
 
 Hà Tiến tìm cách gây sức ép bằng việc gọi các lực lượng bên ngoài, trong đó có Đổng Trác. Nhưng theo lời chép trong 《三國志》, **Đổng Trác còn chưa tới thì Hà Tiến đã bị giết**. Sự kiện này cần đặt đúng thứ tự: không thể viết Đổng Trác đã có mặt chỉ huy vụ giết Hà Tiến khi nguồn nền nói ông ta chưa tới. [Chính sử: 《三國志》卷1, EVD-0004/5]
 
