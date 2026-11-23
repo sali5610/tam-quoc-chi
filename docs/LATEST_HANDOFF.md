@@ -46,3 +46,8 @@ Added evidence/PHASE_1_189_SEQUENCE_AND_VARIANTS.md: eight relative-order anchor
 
 ## PO scope correction (2026-11-24)
 Project is PRIVATE, single-reader personal use. **Remove licensing/rights QA from Phase 1 blockers**; do not undertake legal/reuse audits or other unrelated QA. Historical accuracy/source provenance still required for editorial quality. Do not add extra gates, checklists or overengineering. Reassess distribution requirements only if PO explicitly changes the private-use scope. Batch useful work; ask PO only at actual approval gate.
+
+## Lean scope and episode handoff (2026-11-24)
+- Replaced docs/PHASE_1_QA_GATE_CHECKLIST.md with minimal content-only readiness: accuracy, meaningful variants, chronology, character links. No rights QA, blanket print-edition collation or community-reception requirement as release blocker.
+- Updated docs/PHASE_1_CHRONOLOGY_V0_2.md with 14 evidence-linked beats for the three pilot episodes and precise placement of literary comparisons. Not narrative prose.
+- Next useful research is ONLY unresolved story-affecting claims; no new infrastructure, audit framework, checklist proliferation, art or deploy without approval. One PO gate when pilot content research is sufficient.
