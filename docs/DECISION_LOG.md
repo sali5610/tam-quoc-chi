@@ -18,3 +18,5 @@
 | DEC-013 | Phase 1: four-tier source hierarchy approved | Approved 2026-11-24 |
 | DEC-014 | CText/Wikisource conditional access sources pending fidelity/license verification | Approved 2026-11-24 |
 | DEC-015 | Pilot research begins in late Eastern Han; exact episodes pending approval | Approved 2026-11-24 |
+
+| DEC-016 | Three pilot episode outlines (168–190) and nine wiki candidates approved for detailed research; no storytelling/deploy | Approved 2026-11-24 |
