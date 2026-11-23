@@ -24,3 +24,10 @@ No event scripts, invented motives, fictional dialogue or art generated.
 - 中平六年九月甲戌 (189): Emperor Xian accession at age nine, SRC-0013 / EVD-0030. Exact Gregorian conversion intentionally omitted.
 - 中平六年九月丙子 (189): death of Empress Dowager He recorded in SRC-0013 / EVD-0031.
 - 189 Yuan Shao's role in palace conflict and disagreement with Dong Zhuo: SRC-0012 / EVD-0027–29.
+
+## 184 campaign addendum (2026-11-24)
+- Zhang Jiao movement organized into thirty-six 方 (source-reported), EVD-0032, Hou Hanshu 71.
+- Huangfu Song and Zhu Jun assigned command, EVD-0033.
+- Zhu Jun setback against Bo Cai precedes Changshe siege; Huangfu Song's fire tactic and Cao Cao's later arrival, EVD-0034/35.
+- Dong Zhuo's unsuccessful campaign against Yellow Turbans is attested separately in Sanguozhi 6, EVD-0036; cameo in EP-0002, main arc EP-0003.
+- Exact dates/locations not inferred beyond passages. See evidence/PHASE_1_184_CAMPAIGN_AND_SOURCE_QA_2026-11-24.md.
