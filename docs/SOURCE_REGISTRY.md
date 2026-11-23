@@ -13,3 +13,9 @@ Each verified edition needs SRC ID, bibliography, juan, locator, access date, ri
 - SRC-0009: 三國志 卷36 關張馬黃趙傳 — https://zh.wikisource.org/wiki/三國志/卷36
 - SRC-0010: 三國演義 第一回 (LITERARY ONLY) — https://zh.wikisource.org/wiki/三國演義/第001回
 These IDs denote online witnesses and their work/section, **not** a certified print edition or a copyright clearance. See evidence/PHASE_1_BATCH_VERIFICATION_2026-11-24.md.
+
+## Additional online witnesses (2026-11-24)
+- SRC-0011 《後漢書》卷67 黨錮列傳 https://zh.wikisource.org/wiki/後漢書/卷67
+- SRC-0012 《三國志》卷06 魏書·董二袁劉傳 https://zh.wikisource.org/wiki/三國志/卷06
+- SRC-0013 《後漢書》卷9 孝獻帝紀 https://zh.wikisource.org/wiki/後漢書/卷9
+Digital transcriptions inspected; print edition and reuse rights pending.
