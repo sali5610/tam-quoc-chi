@@ -20,3 +20,5 @@
 | DEC-015 | Pilot research begins in late Eastern Han; exact episodes pending approval | Approved 2026-11-24 |
 
 | DEC-016 | Three pilot episode outlines (168–190) and nine wiki candidates approved for detailed research; no storytelling/deploy | Approved 2026-11-24 |
+
+| DEC-017 | Include noteworthy Romance/folklore versions with explicit literary provenance, comparison and citations; perform completeness sweep, never silently omit | Approved 2026-11-24 |
