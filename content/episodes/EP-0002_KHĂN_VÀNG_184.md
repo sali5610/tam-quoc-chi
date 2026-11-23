@@ -1,9 +1,9 @@
 # EP-0002 — Khăn Vàng: cuộc nổi dậy năm 184
 **184 · Bản viết lại Phase 2**
 
-> **Hook toàn tập:** Người đời sau nhớ năm 184 như lúc nhiều anh hùng Tam Quốc bắt đầu lộ diện. Nhưng đối với triều đình Đông Hán, đây không phải buổi tuyển diễn viên chính. Đây là lúc nhiều nơi cùng nổi dậy, và quân đội phải thật sự ra trận.
+> Người đời sau nhớ năm 184 như lúc nhiều anh hùng Tam Quốc bắt đầu lộ diện. Nhưng đối với triều đình Đông Hán, đây không phải buổi tuyển diễn viên chính. Đây là lúc nhiều nơi cùng nổi dậy, và quân đội phải thật sự ra trận.
 
-## Cảnh 1 — Trương Giác: một phong trào không nằm gọn trong một thành
+## Trương Giác: một phong trào không nằm gọn trong một thành
 *Nếu người nổi dậy không chỉ tập trung ở một chỗ, triều đình sẽ đánh vào đâu trước?*
 
 《後漢書》卷71 kể Trương Giác tập hợp tín đồ, tổ chức thành **ba mươi sáu phương**. Chữ “phương” (方) ở đây chỉ đơn vị tổ chức được sử gia ghi lại, không nên tự động hiểu là ba mươi sáu đạo quân có quy mô ngang nhau. Phong trào gắn với thực hành tôn giáo và phát triển thành cuộc nổi dậy năm 184.
@@ -16,7 +16,7 @@ Chỉ riêng cách tổ chức được ghi trong sử cũng cho thấy vì sao 
 
 Triều đình cần người đánh trận. Và những người được gọi tên đầu tiên chưa chắc là những cái tên nổi tiếng nhất trong tiểu thuyết.
 
-## Cảnh 2 — Hoàng Phủ Tung và Chu Tuấn: người gánh trận thật
+## Hoàng Phủ Tung và Chu Tuấn: người gánh trận thật
 *Nếu nghĩ Tào Tháo hay Lưu Bị đã là trung tâm mọi chiến dịch ngay từ đầu, có lẽ ta đang xem lịch sử qua poster của phần sau.*
 
 Hoàng Phủ Tung và Chu Tuấn được triều đình cử chỉ huy quân chống Khăn Vàng. Theo 《後漢書》卷71, Hoàng Phủ Tung làm Tả trung lang tướng, Chu Tuấn làm Hữu trung lang tướng. Họ phải đối mặt với lực lượng nổi dậy trên thực địa, không phải chỉ đứng cạnh các nhân vật sẽ nổi danh về sau.
@@ -27,7 +27,7 @@ Rồi chiến sự chứng minh rằng có chức tướng không đồng nghĩa
 
 Một người trong số họ thua trận. Người kia bị vây. Và tình thế chỉ đảo chiều khi lửa xuất hiện.
 
-## Cảnh 3 — Trường Xã: thất bại, vòng vây và hỏa công
+## Trường Xã: thất bại, vòng vây và hỏa công
 *Một trận thua chưa khép lại chiến dịch. Nhưng một vòng vây kéo dài có thể khiến cả cánh quân biến mất.*
 
 Chu Tuấn giao chiến với quân của Ba Tài và thất bại. Trong khi đó, Hoàng Phủ Tung bị vây tại Trường Xã. Theo lời chép trong 《後漢書》, Hoàng Phủ Tung dùng hỏa công để phá thế vây. Sau đó Tào Tháo đem quân tới, phối hợp đánh lực lượng nổi dậy.
@@ -40,7 +40,7 @@ Thứ tự rất quan trọng. **Chu Tuấn thất trận**, **Hoàng Phủ Tung
 
 Giữa những chiến dịch ấy, vài cái tên khác bắt đầu đi vào sử sách. Có người sau này lập nghiệp lớn. Có người lại được tiểu thuyết tặng hẳn một cảnh mở màn huyền thoại.
 
-## Cảnh 4 — Lưu Bị, Tôn Kiên và khu vườn đào nổi tiếng
+## Lưu Bị, Tôn Kiên và khu vườn đào nổi tiếng
 *Ba anh em kết nghĩa trong vườn đào — một cảnh ai cũng nhớ. Nhưng sử sách thật sự ghi gì?*
 
 Tôn Kiên tham gia chiến dịch chống Khăn Vàng dưới quyền Chu Tuấn, theo 《三國志》卷46. Ông từng tham gia dẹp cuộc nổi dậy Hứa Xương vào năm 172, nhưng đó là **một chiến dịch khác**. Hai mốc thời gian không thể nhập làm một chỉ vì cùng là Tôn Kiên cầm quân.
@@ -73,7 +73,7 @@ Lưu Bị được 《三國志》卷32 ghi là theo Trâu Tĩnh đánh Khăn V�
 
 Nhưng còn một nhân vật không có màn ra mắt đẹp như vậy. Năm 184, ông ta thậm chí không có một chiến thắng để khoe.
 
-## Cảnh 5 — Đổng Trác: trước khi khuynh đảo triều đình, từng đánh thua
+## Đổng Trác: trước khi khuynh đảo triều đình, từng đánh thua
 *Một người sau này có thể phế lập hoàng đế. Vậy lần đầu ta gặp ông ta trên chiến trường, kết quả ra sao?*
 
 《三國志》卷6 ghi Đổng Trác từng được giao nhiệm vụ đánh Khăn Vàng, nhưng thất bại và bị quy trách nhiệm. Đặt chi tiết này ở đây không phải để suy đoán ông “ôm hận” rồi quyết định làm loạn năm 189. Đó sẽ là tiểu thuyết hóa tâm lý mà nguồn chưa chứng minh.
@@ -84,7 +84,7 @@ Nhưng còn một nhân vật không có màn ra mắt đẹp như vậy. Năm 1
 
 > **[Châm biếm của biên tập]** CV quân sự không phải lúc nào cũng đẹp. Nhưng vài năm sau, người ta sẽ phải quan tâm tới Đổng Trác vì một lý do khác hẳn chuyện thắng hay thua Khăn Vàng.
 
-### Cliffhanger — Người có quân sẽ có tiếng nói
+### Người có quân sẽ có tiếng nói
 Năm 184, nhà Hán vẫn có thể cử tướng đi đánh loạn nhân danh hoàng đế. Nhưng năm năm sau, một tướng lĩnh sẽ tiến tới kinh thành và tham gia quyết định **ai được làm hoàng đế**.
 
 Từ chiến trường Khăn Vàng đến chính biến năm 189, câu hỏi đổi hẳn: **quân đội còn bảo vệ ngai vàng — hay ngai vàng bắt đầu phải dựa vào quân đội?**
