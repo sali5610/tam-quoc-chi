@@ -68,3 +68,8 @@ Project is PRIVATE, single-reader personal use. **Remove licensing/rights QA fro
 - Rewrote all three content/episodes/*.md **in place**, preserving filenames, source labels and existing historical scope.
 - EP1: 4 scenes; EP2: 5 scenes; EP3: 6 scenes. Each has a distinct question/tension hook, scene transition and ending cliffhanger. Inline novel/Pei comparison and clearly labeled original satire retained; no fabricated speech or community reaction.
 - Phase 2 remains prose-only; no illustration, UI code, deployment or unrelated QA. These are revised drafts, not a claim of final editorial approval.
+
+## Phase 2 reader-facing polish (2026-11-24)
+- Removed workshop labels 'Hook', 'Cú chuyển cảnh', 'Cảnh N' and 'Cliffhanger' from all three episode drafts, preserving the narrative openings and transitions themselves.
+- Added substantive historical-vs-Romance inspector beating contrast to EP-0002: Liu Bei in Sanguozhi 32 vs Zhang Fei in Romance chapter 2; no invented 184 day. Mirrored in content/PHASE_2_INLINE_COMPARISONS.md.
+- No UI/art/deploy, no new QA framework. Draft status remains.
