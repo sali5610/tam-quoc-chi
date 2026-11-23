@@ -22,3 +22,6 @@ Next: verify sources passage by passage, update evidence with exact locators and
 - New EVD-0017/18 duplicate existing EVD-0015/16 claims; dedup required at data-import stage.
 - **Not done:** comprehensive 189 sequence, edition collation, reuse rights, 9 full biographies, real community reception sourcing. Phase 1 remains OPEN; no writing, art or deployment.
 - User requested batching: work through remaining research without asking for repetitive Next; only request PO decision at substantive approval gate.
+
+## 189 sequence batch (2026-11-24)
+Added evidence/PHASE_1_189_SEQUENCE_AND_VARIANTS.md: eight relative-order anchors from Sanguozhi Wei 1 and Hou Hanshu 72; isolated Pei commentary vs base text; documented contradictory Lü Boshe/Cao Cao accounts as future inline-comparison material. Online source excerpts checked; edition collation, rights, full nine biographies, community reception and 168–183/184 full QA remain open. Do not call Phase 1 PASS or write storytelling. User preference: batch all independent work, only interrupt at substantive PO approval gate.
