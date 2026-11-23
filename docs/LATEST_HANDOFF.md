@@ -43,3 +43,6 @@ Added evidence/PHASE_1_189_SEQUENCE_AND_VARIANTS.md: eight relative-order anchor
 - Added knowledge/PHASE_1_NINE_CHARACTER_FACT_SHEETS_V0_1.md: nine research-only sourced fact sheets and Atlas relations, NOT nine approved biographies.
 - Added docs/PHASE_1_RIGHTS_AND_EDITION_REVIEW_V0_1.md: clearance worksheet, NOT actual license approval.
 - Phase 1 remains OPEN: actual edition collation, rights checks, source-dependent chronology, sourced community reactions, reviewer gate. Do not claim readiness, write storytelling or deploy.
+
+## PO scope correction (2026-11-24)
+Project is PRIVATE, single-reader personal use. **Remove licensing/rights QA from Phase 1 blockers**; do not undertake legal/reuse audits or other unrelated QA. Historical accuracy/source provenance still required for editorial quality. Do not add extra gates, checklists or overengineering. Reassess distribution requirements only if PO explicitly changes the private-use scope. Batch useful work; ask PO only at actual approval gate.
