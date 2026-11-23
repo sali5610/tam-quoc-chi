@@ -28,3 +28,7 @@ No fake community comments or assumed popularity.
 - Emperor Xian: **direct annal** 《後漢書》卷9, EVD-0030/31; previous 'direct annals missing' status superseded. Date 九月甲戌, 189; Gregorian day not converted.
 - Emperor Ling / court context: 《後漢書》卷67 黨錮列傳 EVD-0025/26; party-prohibition policy and 184 amnesty documented.
 - Remaining: complete direct biography and passage-level coverage for all nine; do not equate one anchor with a complete profile.
+
+## 184 role correction (2026-11-24)
+- Dong Zhuo has **direct base-text evidence** of an earlier failed Yellow Turban campaign: Sanguozhi 6, EVD-0036. Add EP-0002 cameo and link to EP-0003, rather than introducing him with no earlier military context.
+- Huangfu Song and Zhu Jun: Hou Hanshu 71 has distinct campaign roles; Zhu Jun's setback against Bo Cai, Huangfu Song's Changshe fire attack, Cao Cao's arrival (EVD-0033–35). Character profiles remain research-only.
