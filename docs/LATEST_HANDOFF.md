@@ -78,3 +78,10 @@ Project is PRIVATE, single-reader personal use. **Remove licensing/rights QA fro
 - Completed one cross-episode editorial pass on EP-0001/2/3. Removed phase/workshop metadata from reader-facing text; trimmed meta-writing commentary and repeated Dong Zhuo exposition; retained source-linked historical/literary labels and hooks.
 - EP2 source line now reflects Romance chapter 2 for inspector-beating variant. EP3 Lü Boshe sidebar reads as a properly labeled variant, not an author-to-do note.
 - Phase 2 approved deliverables exist: three complete narrative drafts plus inline comparisons. No image/UI/deploy. Next scope expansion (nine wiki prose, illustration, UI, deployment) needs explicit PO approval; avoid endless micro-edits without concrete feedback.
+
+## Phase 2 complete beginner-first rewrite (2026-11-24)
+- PO rejected incremental polish and required complete rewrite for Vietnamese readers with no assumed Three Kingdoms knowledge, plus foreshadowing/payoff for people/events. Replaced full text of EP-0001/2/3 in place, not merely adding intros.
+- EP1 establishes one Han empire (no Wei/Shu/Wu yet), Luoyang, eunuchs/consort kin/scholar-officials, child Lingdi, 168 purge and party prohibitions, 184 bridge, 189 foreshadowing.
+- EP2 explains Yellow Turbans, commander roles, Changshe, Cao Cao, Liu Bei, Sun Jian and future successor Sun Quan; includes Peach Garden and inspector beating comparisons; Dong Zhuo's 184 loss foreshadows 189.
+- EP3 recaps cast, explains He Jin/Empress Dowager/Yuan Shao/Dong Zhuo, He Jin summons army then dies, palace flight and deposition, Emperor Xian, Cao Cao's 189 rising, Yuan Shao rivalry, 190 bridge. No fabricated historical dialogue, motives, art, UI or deploy.
+- This supersedes previous incremental prose passes. Await substantive PO reading feedback rather than endless self-initiated micro-edits.
