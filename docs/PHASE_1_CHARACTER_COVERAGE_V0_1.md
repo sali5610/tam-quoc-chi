@@ -22,3 +22,9 @@ Liu Bei (SRC-0006), Guan Yu and Zhang Fei (SRC-0009), Sun Jian (SRC-0007), Dou W
 | Court/eunuch crisis | Hou Hanshu 8,69 | Romance chapter 1 dramatization | **No sourced reactions collected** | Not drafted |
 
 No fake community comments or assumed popularity.
+
+## Additional checked anchors (2026-11-24)
+- Yuan Shao: **direct** 《三國志》卷6 袁紹 biography, EVD-0027/28/29; previous 'indirect only' status superseded. Historical dispute over deposition in base text; vivid extended dialogue in Pei-cited 《獻帝春秋》 explicitly doubted by Pei.
+- Emperor Xian: **direct annal** 《後漢書》卷9, EVD-0030/31; previous 'direct annals missing' status superseded. Date 九月甲戌, 189; Gregorian day not converted.
+- Emperor Ling / court context: 《後漢書》卷67 黨錮列傳 EVD-0025/26; party-prohibition policy and 184 amnesty documented.
+- Remaining: complete direct biography and passage-level coverage for all nine; do not equate one anchor with a complete profile.
