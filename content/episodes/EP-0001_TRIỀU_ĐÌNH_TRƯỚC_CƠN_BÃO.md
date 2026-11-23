@@ -1,23 +1,32 @@
 # EP-0001 — Triều đình trước cơn bão
 *Đông Hán · 168–183*
 
-> Trước khi Khăn Vàng nổi dậy, nhà Hán đã đánh một trận rất lớn. Không phải ngoài biên ải. Mà ngay trong triều đình. Và người thua trận không chỉ mất chức.
+> **Ba nước Ngụy, Thục, Ngô chưa tồn tại.** Tào Tháo chưa dựng nên thế lực phương Bắc. Lưu Bị chưa có đất để gọi là nước Thục. Nhà họ Tôn cũng chưa làm chủ Giang Đông. Vậy tại sao người đời lại gọi cả câu chuyện sắp tới là *Tam Quốc*?
 
-## Một đứa trẻ lên ngôi. Ai thực sự nắm quyền?
-*Hoàng đế mới đã có. Nhưng chiếc ngai vàng không tự trả lời câu hỏi ai được quyền ra lệnh.*
+Trước khi ba thế lực ấy xuất hiện, có một đế quốc chung: **nhà Hán**. Triều đại này đã cai trị Trung Hoa qua nhiều thế hệ; tới giai đoạn chúng ta sắp kể, đó là **Đông Hán**, với kinh đô ở **Lạc Dương**. Hoàng đế là người đứng đầu trên danh nghĩa. Quan lại thay triều đình quản lý các địa phương. Quân đội được huy động để bảo vệ trật tự ấy.
 
-Năm 168, Hán Linh Đế lên ngôi. Một triều đại lâu đời vẫn có đầy đủ nghi lễ, chức tước và triều phục. Nhìn từ xa, mọi thứ giống như đang vận hành. Nhìn gần hơn, quyền lực trong cung là cuộc giằng co giữa ngoại thích, hoạn quan và những quan lại có mạng lưới sĩ nhân phía sau.
+Nếu ví thiên hạ như một căn nhà rất lớn, thì lúc này chưa có ba người chia nhau ba phòng. **Cả căn nhà vẫn mang một họ. Chỉ có điều, người giữ chìa khóa đang đánh nhau.**
 
-Ngai vàng đã có chủ. Quyền quyết định thì chưa chắc. Ngoại thích có quan hệ huyết thống với hoàng gia; hoạn quan có đường tiếp cận nội đình; giới quan lại có uy tín và mạng lưới riêng. Không phe nào chỉ cần một lời tuyên bố là khiến các phe còn lại tự rút lui.
+Và cuộc đánh nhau đầu tiên không có Tào Tháo, Lưu Bị hay Tôn Quyền đứng giữa. Nó bắt đầu từ những người có thể ra vào cung điện.
+
+## Một cậu bé ngồi lên ngai vàng, ba phe nhìn vào chiếc ghế
+
+Năm **168**, Hán Linh Đế lên ngôi khi còn nhỏ. Để dễ hình dung, đây không phải một ông vua từng trải đang tự mình điều khiển cả bộ máy. Quanh ngai vàng là những nhóm người có quyền lực theo những cách rất khác nhau.
+
+**Ngoại thích** là họ hàng bên gia đình hoàng hậu hoặc thái hậu: có quan hệ với hoàng gia nên có thể nắm chức vụ và binh quyền. **Hoạn quan** là những người phục vụ trong nội cung, có cơ hội tiếp cận hoàng đế và truyền đạt mệnh lệnh. **Sĩ đại phu** là tầng lớp quan lại, học giả và những người có mạng lưới thầy trò, đồng liêu.
+
+Ba nhóm này không phải ba đội có đồng phục cố định, càng không phải cứ thuộc nhóm nào là tốt hay xấu. Nhưng họ cùng tranh một thứ: **ai được quyết định việc nước khi hoàng đế còn nhỏ?**
+
+Đừng vội quên cuộc tranh chấp này. **Hai mươi mốt năm sau**, vào năm 189, triều đình lại định giải quyết chuyện hoạn quan bằng một cuộc thanh trừng. Lần đó, người được gọi đến để can thiệp sẽ là **Đổng Trác** — cái tên làm cả kinh thành đổi chủ.
 
 [Chính sử] 《後漢書》卷8〈孝靈帝紀〉, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷8), EVD-0015/17.
 
-Và năm ấy, có người quyết định không chờ cuộc tranh giành tự lắng xuống.
+Ngay năm 168, cuộc tranh quyền đã có người quyết định ra tay. Hai cái tên cần nhớ lúc này là **Đậu Vũ**, người thuộc thế lực ngoại thích, và **Trần Phồn**, đại thần đứng cùng phía ông.
 
 ## Đậu Vũ và Trần Phồn: kế hoạch loại trừ hoạn quan
 *Họ muốn dọn sạch đối thủ trong cung. Kết quả, chính phe của họ bị quét khỏi bàn cờ.*
 
-Đậu Vũ và Trần Phồn đối đầu với thế lực hoạn quan. Họ không chỉ bất mãn bằng lời: cuộc xung đột đã đi đến hành động chính trị quyết liệt. Nhưng cán cân trong cung không nghiêng về phía họ. Kế hoạch thất bại; Đậu Vũ và Trần Phồn chết trong biến cố.
+**Đậu Vũ và Trần Phồn** muốn loại trừ thế lực hoạn quan trong cung. Họ không phải nhân vật chính của ba nước về sau, nhưng thất bại của họ giúp giải thích vì sao triều đình Đông Hán ngày càng khó tự giải quyết xung đột. Họ không chỉ bất mãn bằng lời: cuộc xung đột đã đi đến hành động chính trị quyết liệt. Nhưng cán cân trong cung không nghiêng về phía họ. Kế hoạch thất bại; Đậu Vũ và Trần Phồn chết trong biến cố.
 
 Người định ra tay trước lại không phải người chiến thắng: **phe định loại trừ đối thủ lại là phe thất bại**. Và hậu quả không khép lại cùng hai cái chết.
 
@@ -40,7 +49,7 @@ Một người có thể tránh đứng giữa cuộc đối đầu. Nhưng nế
 
 > **[Châm biếm của biên tập]** Chưa cần mạng xã hội, chỉ cần quan hệ thầy trò cũng đủ khiến một vụ chính trị lan rộng.
 
-Triều đình đã dành nhiều năm đề phòng những người bên trong hệ thống. Rồi một mối nguy khác xuất hiện — không cần xin phép bước vào cung.
+Triều đình mải nghi ngờ những người từng làm quan, từng dạy học, từng có quan hệ với nhau. Nhưng ở ngoài kinh thành, một phong trào khác đang hình thành. Người đứng đầu phong trào ấy không cần được phong chức trong cung. Tên ông là **Trương Giác** — và ông sẽ khiến triều đình phải điều quân đi khắp nơi.
 
 ## Một quyết định đảo chiều
 *Từng cấm họ tham gia chính sự. Vậy tại sao khi biến loạn tới, triều đình lại phải đổi ý?*
