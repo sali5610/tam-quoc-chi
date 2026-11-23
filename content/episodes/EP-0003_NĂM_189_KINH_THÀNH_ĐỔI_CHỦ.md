@@ -1,5 +1,5 @@
 # EP-0003 — Năm 189: kinh thành đổi chủ
-**189; móc sang 190 · Bản thảo truyện Phase 2**
+*Đông Hán · 189, dẫn sang 190*
 
 > Hà Tiến muốn loại trừ hoạn quan. Ông gọi quân bên ngoài về gây sức ép. Nhưng trước khi đạo quân ấy tới, Hà Tiến đã chết. Còn người được gọi tới? Ông ta sẽ tham gia thay luôn hoàng đế.
 
@@ -58,7 +58,7 @@ Và quyết định ấy sớm trở thành sự thật.
 ## Hán Hiến Đế: lên ngôi giữa một cuộc khủng hoảng
 *Được lập làm hoàng đế có nghĩa là nắm quyền — hay chỉ là ngồi vào chỗ nguy hiểm nhất?*
 
-《後漢書》卷9〈孝獻帝紀〉 ghi Trần Lưu vương lên ngôi vào **tháng chín âm lịch, ngày Giáp Tuất, năm Trung Bình thứ sáu (189)**, tức Hán Hiến Đế. Sử liệu ghi ông chín tuổi theo cách tính đương thời. Bản kể này giữ nguyên niên đại âm lịch thay vì tự quy đổi ngày dương lịch khi chưa đối chiếu lịch.
+《後漢書》卷9〈孝獻帝紀〉 ghi Trần Lưu vương lên ngôi vào **tháng chín âm lịch, ngày Giáp Tuất, năm Trung Bình thứ sáu (189)**, tức Hán Hiến Đế. Theo sử liệu, ông mới chín tuổi (cách tính tuổi đương thời). Một đứa trẻ nhận tước hiệu cao nhất đế quốc, trong khi người cầm quân đang chi phối cuộc phế lập.
 
 [Chính sử] 《後漢書》卷9, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷9), EVD-0030.
 
@@ -84,7 +84,7 @@ Một triều đình có thể đổi hoàng đế bằng sức ép quân sự. 
 
 **Tập tiếp theo sẽ bắt đầu từ câu hỏi ấy.**
 
-> **[Móc tư liệu cho tuyến Tào Tháo · Bùi chú]** Các dị bản về Tào Tháo và nhà Lã Bá Sa trong chú giải 《三國志》卷1 không đồng nhất: 《魏書》, 《世語》 và ghi chép của Tôn Thịnh kể khác nhau. Câu “寧我負人，毋人負我” thuộc một dị bản được dẫn, không phải chính văn Trần Thọ. Khi kể tuyến Tào Tháo rời kinh, cần đặt chúng cạnh nhau; không nhét thành cảnh trong cung năm 189. [Nguồn](https://zh.wikisource.org/wiki/三國志/卷01).
+> **[Bùi chú · Dị bản bên lề] Tào Tháo và nhà Lã Bá Sa** — Về chặng Tào Tháo rời kinh, chú giải 《三國志》卷1 bảo lưu những cách kể không đồng nhất từ 《魏書》, 《世語》 và ghi chép của Tôn Thịnh. Câu “寧我負人，毋人負我” thuộc một dị bản được dẫn, **không phải chính văn Trần Thọ**. Đó là một câu chuyện đáng kể riêng, nhưng không phải lời thoại của cảnh phế lập vừa diễn ra. [Đọc các dị bản](https://zh.wikisource.org/wiki/三國志/卷01).
 
 ---
-**Nguồn:** 《三國志》卷1,6; 《後漢書》卷9,69,72; 《資治通鑑》卷59. Không sáng tác lời thoại lịch sử, động cơ nội tâm hay bình luận cộng đồng giả.
+**Tư liệu:** 《三國志》卷1,6; 《後漢書》卷9,69,72; 《資治通鑑》卷59.
