@@ -73,3 +73,8 @@ Project is PRIVATE, single-reader personal use. **Remove licensing/rights QA fro
 - Removed workshop labels 'Hook', 'Cú chuyển cảnh', 'Cảnh N' and 'Cliffhanger' from all three episode drafts, preserving the narrative openings and transitions themselves.
 - Added substantive historical-vs-Romance inspector beating contrast to EP-0002: Liu Bei in Sanguozhi 32 vs Zhang Fei in Romance chapter 2; no invented 184 day. Mirrored in content/PHASE_2_INLINE_COMPARISONS.md.
 - No UI/art/deploy, no new QA framework. Draft status remains.
+
+## Phase 2 reader-facing copyedit complete (2026-11-24)
+- Completed one cross-episode editorial pass on EP-0001/2/3. Removed phase/workshop metadata from reader-facing text; trimmed meta-writing commentary and repeated Dong Zhuo exposition; retained source-linked historical/literary labels and hooks.
+- EP2 source line now reflects Romance chapter 2 for inspector-beating variant. EP3 Lü Boshe sidebar reads as a properly labeled variant, not an author-to-do note.
+- Phase 2 approved deliverables exist: three complete narrative drafts plus inline comparisons. No image/UI/deploy. Next scope expansion (nine wiki prose, illustration, UI, deployment) needs explicit PO approval; avoid endless micro-edits without concrete feedback.
