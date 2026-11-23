@@ -17,3 +17,10 @@
 - EP-0003: 189 court crisis, He Jin, eunuchs, Dong Zhuo, Emperor Xian; 190 coalition as forward link, not conflated with 189.
 
 No event scripts, invented motives, fictional dialogue or art generated.
+
+## Chronology addendum — inspected online (2026-11-24)
+- 熹平五年 (176): party-prohibition reach broadened to students, former subordinates and relatives, SRC-0011 / EVD-0025.
+- 中平元年 (184): in Yellow Turban context the court pardoned proscribed party members, SRC-0011 / EVD-0026.
+- 中平六年九月甲戌 (189): Emperor Xian accession at age nine, SRC-0013 / EVD-0030. Exact Gregorian conversion intentionally omitted.
+- 中平六年九月丙子 (189): death of Empress Dowager He recorded in SRC-0013 / EVD-0031.
+- 189 Yuan Shao's role in palace conflict and disagreement with Dong Zhuo: SRC-0012 / EVD-0027–29.
