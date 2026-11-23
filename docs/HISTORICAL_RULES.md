@@ -6,7 +6,7 @@
 4. Substantive claims require traceable evidence: work, juan, section, excerpt, edition and locator.
 5. Never invent dialogue, private thoughts, motives or historical events.
 6. Distinguish late Eastern Han from the formal Three Kingdoms era.
-7. Check rights for translations, illustrations and assets.
+7. For this private single-reader project, rights/license QA is out of scope; retain historical attribution and provenance.
 8. Portraits are artistic reconstructions, not authenticated likenesses.
 
 ## Historical completeness and popular tradition (PO direction, 2026-11-24)
