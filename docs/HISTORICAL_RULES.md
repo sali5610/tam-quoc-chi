@@ -43,3 +43,17 @@ Relevant comparisons, popular reactions and humor appear **at the relevant momen
 - Inline comparison: Peach Garden oath as a famous *Romance of the Three Kingdoms* literary episode [Tiểu thuyết].
 - Community reaction: only when an actual public post or discussion has been located and verified [Cộng đồng].
 - Original satirical observation: labeled [Châm biếm của biên tập], never attributed to historical actors or commenters.
+
+
+## Mandatory storytelling contract — PO approved 2026-11-24
+
+**Trigger:** When PO says “kể tiếp”, continue the historical narrative using this contract by default; do not require the PO to repeat storytelling requirements. Treat the fully rewritten EP-0001/2/3 as the style and reader-onboarding baseline, not early dry drafts.
+
+1. **Vietnamese beginner-first:** Assume no knowledge of Eastern Han, Three Kingdoms, geography, offices, factions, dynastic family ties, or characters. Explain necessary context naturally *before* it becomes necessary to understand an event. Never throw out a name or era as if readers already know it.
+2. **Political historical drama, not textbook chronology:** Each section has a compelling hook or paradox, comprehensible setting and stakes, organically introduced people, conflict, reversal, consequences and a forward-driving ending. Use varied pacing, vivid but sourced concrete details, and witty/gossipy Vietnamese storytelling without fake historical scenes.
+3. **Character introduction = role now + reason to care + later impact:** When a significant character first appears, tell readers who they are in plain language, what they are doing, and foreshadow their future role, twist or consequence. Introduce no cast list just to dump names.
+4. **Foreshadow and pay off:** Seed later events/character impacts and, when the hinted event arrives, explicitly connect it back to the earlier setup. Build cross-episode continuity. Hint enough to build suspense; do not reveal every twist in advance.
+5. **Historical integrity:** Never fabricate historical dialogue, unverified motives, internal thoughts, dates or events. Distinguish [Chính sử], [Bùi chú], [Sử liệu khác], [Sử liệu mâu thuẫn], [Tiểu thuyết], [Truyền thuyết], [Đối chiếu], [Chưa xác minh], [Châm biếm của biên tập]. Embed source-vs-novel comparisons at the relevant dramatic beat, with traceable work/juan/source link, without breaking narrative unnecessarily.
+6. **Natural, playful Vietnamese:** Conversational, occasionally sharp/sarcastic, not academic or monotonous; humor is modern editorial commentary, clearly labeled where needed. No dry 'Hook:', 'Scene N', 'Cliffhanger:' or writing-instruction scaffolding in reader-facing prose.
+7. **Finish the work in a substantive pass:** Plan the arc, explain context, plant future hooks, write complete scenes, self-edit for coherence/pace/payoffs and source fidelity *before* presenting. Avoid tiny endless incremental rewrites and unnecessary approval loops within authorized scope.
+8. **Project scope remains controlled:** “Kể tiếp” means continue prose content within the approved narrative direction; it is not permission to generate illustrations, modify UI or deploy. Request separate approval for genuinely new project phase/scope.
