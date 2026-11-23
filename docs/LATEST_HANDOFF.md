@@ -51,3 +51,8 @@ Project is PRIVATE, single-reader personal use. **Remove licensing/rights QA fro
 - Replaced docs/PHASE_1_QA_GATE_CHECKLIST.md with minimal content-only readiness: accuracy, meaningful variants, chronology, character links. No rights QA, blanket print-edition collation or community-reception requirement as release blocker.
 - Updated docs/PHASE_1_CHRONOLOGY_V0_2.md with 14 evidence-linked beats for the three pilot episodes and precise placement of literary comparisons. Not narrative prose.
 - Next useful research is ONLY unresolved story-affecting claims; no new infrastructure, audit framework, checklist proliferation, art or deploy without approval. One PO gate when pilot content research is sufficient.
+
+## Phase 1 single content gate prepared (2026-11-24)
+- docs/PHASE_1_PILOT_CONTENT_GATE.md contains the three episode beat outlines, nine wiki entry points, novel/Pei comparison placements, and only story-affecting cautions.
+- No extra QA required for rights or blanket edition collation. Community reactions optional, never fabricated.
+- **Await one PO approval to begin Phase 2 text drafting**; do not start prose, art, code or deploy without it. This is the actual decision gate, not a request for more 'Next' turns.
