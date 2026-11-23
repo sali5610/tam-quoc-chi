@@ -25,3 +25,9 @@ Next: verify sources passage by passage, update evidence with exact locators and
 
 ## 189 sequence batch (2026-11-24)
 Added evidence/PHASE_1_189_SEQUENCE_AND_VARIANTS.md: eight relative-order anchors from Sanguozhi Wei 1 and Hou Hanshu 72; isolated Pei commentary vs base text; documented contradictory Lü Boshe/Cao Cao accounts as future inline-comparison material. Online source excerpts checked; edition collation, rights, full nine biographies, community reception and 168–183/184 full QA remain open. Do not call Phase 1 PASS or write storytelling. User preference: batch all independent work, only interrupt at substantive PO approval gate.
+
+## Further research batch (2026-11-24)
+- Added evidence/PHASE_1_COURT_YUANSHAO_XIANDI_2026-11-24.md with EVD-0025–0031, SRC-0011–0013, direct online witness locators.
+- Added docs/PHASE_1_READER_MODULE_INVENTORY.md with eight source-linked inline reader modules; not scripts.
+- Updated chronology and wiki matrix: Yuan Shao and Emperor Xian now have direct biography/annal anchors; party-prohibition history connects EP-0001 to EP-0002.
+- Remaining QA: edition collation, rights, full 9 wiki profiles, multi-region 184 campaign, independent source conflicts, verifiable public reaction samples. **No approval gate yet.** Do not write narrative or deploy.
