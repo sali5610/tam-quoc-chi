@@ -57,3 +57,31 @@ Relevant comparisons, popular reactions and humor appear **at the relevant momen
 6. **Natural, playful Vietnamese:** Conversational, occasionally sharp/sarcastic, not academic or monotonous; humor is modern editorial commentary, clearly labeled where needed. No dry 'Hook:', 'Scene N', 'Cliffhanger:' or writing-instruction scaffolding in reader-facing prose.
 7. **Finish the work in a substantive pass:** Plan the arc, explain context, plant future hooks, write complete scenes, self-edit for coherence/pace/payoffs and source fidelity *before* presenting. Avoid tiny endless incremental rewrites and unnecessary approval loops within authorized scope.
 8. **Project scope remains controlled:** “Kể tiếp” means continue prose content within the approved narrative direction; it is not permission to generate illustrations, modify UI or deploy. Request separate approval for genuinely new project phase/scope.
+
+## Approved narrative framework — 2026-11-24 (mandatory for “kể tiếp”)
+
+Use **Three-Act Structure (episode level) + Scene–Sequel (scene level) + Setup–Payoff (across episodes)**. This is an editorial arrangement of documented history, **not** permission to invent dramatic incidents or force a false three-act historical causality.
+
+### Episode: three acts
+- **Act I — Orientation / disturbance:** First-time Vietnamese readers understand time, place, existing order, protagonists and stakes; a concrete disruption raises a dramatic question.
+- **Act II — Escalation / reversal:** Each event changes what the actors can do next; show decisions, constraints, setbacks, reversals and costs. Do not present an unordered parade of names, battles or dates.
+- **Act III — Consequence / new imbalance:** Pay off the central question, reveal how power and ordinary lives are affected, then open the next historically grounded problem. Do not pretend the whole historical conflict resolves at the episode boundary.
+
+### Scene–Sequel
+- **Scene:** a sourced, concrete situation → someone's attested objective or institutional task (no invented inner desire) → opposition → sourced change/outcome.
+- **Sequel:** clarify who bears the consequence, what political or human cost follows, and what new dilemma is created; this may be a brief passage, not a repetitive heading.
+- Alternate external events with reader processing; do not repeat only “X happened; this mattered because…” across sections. Include sensory detail **only** when attested, otherwise rely on concrete stakes and juxtaposition.
+
+### Setup–Payoff ledger
+- For every meaningful hint record **setup episode/beat → promised question → payoff episode/beat → source**. On payoff, explicitly recall the earlier moment in natural prose. Mark future/unwritten payoffs as OPEN, not completed.
+- Foreshadow without giving away the full reveal. Prioritize surprising historical reversals and recognizable family/character continuities.
+- Track reader emotional investment through *what can be lost* (life, safety, office, family, legitimacy, home, autonomy), never invented thoughts, dialogue or motives.
+
+### Mandatory editorial QA before committing
+1. Can a reader unfamiliar with China/Tam Quốc understand every essential person, faction, place and office at first encounter?
+2. Does each act change the dramatic situation? Is the middle escalating, rather than merely cataloguing facts?
+3. Does each scene have tension and each consequential scene a reaction/consequence beat?
+4. Does every setup have a truthful eventual payoff or an explicit OPEN status?
+5. Is the human stake concrete without invented interiority, scenery or conversation?
+6. Are histories, Pei annotations, Romance, variants and editorial jokes attributed at the moment they matter?
+7. Is the resulting prose a finished story, not framework labels, writer instructions or a dry outline?
