@@ -1,31 +1,62 @@
 # EP-0001 — Triều đình trước cơn bão
-**Thời gian:** 168–183 · **Bản thảo Phase 2** · **Bối cảnh:** Đông Hán, chưa phải thời Tam Quốc phân lập
+**168–183 · Bản viết lại Phase 2 · Đông Hán, chưa phải thời Tam Quốc**
 
-## Một ngai vàng, quá nhiều người muốn quyết định
+> **Hook toàn tập:** Trước khi Khăn Vàng nổi dậy, nhà Hán đã đánh một trận rất lớn. Không phải ngoài biên ải. Mà ngay trong triều đình. Và người thua trận không chỉ mất chức.
 
-Năm 168, Hán Linh Đế lên ngôi. Trên giấy tờ, ngôi hoàng đế là trung tâm của trật tự thiên hạ. Nhưng một đứa trẻ bước vào hoàng cung không đồng nghĩa với việc mọi phe phái lập tức ngừng tranh quyền. Triều đình Đông Hán khi ấy có những nhóm quyền lực đan xen: ngoại thích, hoạn quan, quan lại và mạng lưới sĩ nhân. Mỗi nhóm có cách tiếp cận hoàng quyền riêng; không nhóm nào có thể được tóm gọn thành một nhãn “toàn người tốt” hoặc “toàn kẻ xấu”. [Chính sử: 《後漢書》卷8〈孝靈帝紀〉, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷8), EVD-0015/17]
+## Cảnh 1 — Một đứa trẻ lên ngôi. Ai thực sự nắm quyền?
+*Hook: Hoàng đế mới đã có. Nhưng chiếc ngai vàng không tự trả lời câu hỏi ai được quyền ra lệnh.*
 
-Chính trong năm ấy, cuộc đối đầu giữa Đậu Vũ, Trần Phồn và phe hoạn quan đi tới kết cục dữ dội. Đậu Vũ và Trần Phồn muốn loại trừ các hoạn quan mà họ xem là mối họa chính trị. Nhưng kế hoạch thất bại; thế lực của họ bị đánh bại, bản thân họ không sống sót qua biến cố. Đây không phải một màn “trừ gian” thắng lợi để mở đầu câu chuyện, mà là một thất bại làm thay đổi cán cân quyền lực trong cung. [Chính sử: 《後漢書》卷8, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷8), EVD-0016/18]
+Năm 168, Hán Linh Đế lên ngôi. Một triều đại lâu đời vẫn có đầy đủ nghi lễ, chức tước và triều phục. Nhìn từ xa, mọi thứ giống như đang vận hành. Nhìn gần hơn, quyền lực trong cung là cuộc giằng co giữa ngoại thích, hoạn quan và những quan lại có mạng lưới sĩ nhân phía sau.
 
-> **[Châm biếm của biên tập]** Triều đình có một chiếc ngai vàng, nhưng danh sách người muốn cầm tay lái thì dài hơn cả sớ tấu. Đây là lời bình hiện đại, không phải lời của sử quan hay nhân vật lịch sử.
+Ở đây, đừng vội chia đội theo kiểu “hoạn quan toàn ác, sĩ đại phu toàn thiện”. Sử liệu có đánh giá về các phe, nhưng mỗi phe vẫn gồm nhiều con người và lợi ích khác nhau. Điều quan trọng cho câu chuyện này là: một cuộc kế vị đã không giải quyết được cuộc tranh quyền.
 
-### Khi bất đồng chính trị lan khỏi cửa cung
+[Chính sử] 《後漢書》卷8〈孝靈帝紀〉, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷8), EVD-0015/17.
 
-Sau những cuộc thanh trừng, “đảng nhân” trở thành đối tượng bị cấm đoán và truy xét. Điều đáng chú ý không chỉ là số quan lại trực tiếp bị nhắm tới. Theo 《後漢書》卷67〈黨錮列傳〉, việc truy xét còn vươn tới môn sinh, cố lại và người thân. Nói cách khác, một vụ án chính trị có thể trở thành chuyện của cả mạng lưới xã hội, chứ không dừng ở người đứng tên trong bản án. [Sử liệu khác: 《後漢書》卷67, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷67), EVD-0025]
+**Cú chuyển cảnh:** Và năm ấy, có người quyết định không chờ cuộc tranh giành tự lắng xuống.
 
-Đây là chỗ cần phân biệt hai chuyện: **sử liệu ghi lại sự mở rộng của cấm đoán**; còn mức độ mà chính sách ấy trực tiếp làm suy yếu khả năng ứng phó với khởi nghĩa sau này là một **cách giải thích lịch sử**, không phải phép cộng đơn giản “cấm đảng nhân = Khăn Vàng nổi dậy”. Chính trị, kinh tế địa phương, tín ngưỡng và năng lực quân sự đều cần được xét khi nói về khủng hoảng cuối Đông Hán. [Suy luận: giới hạn nhân quả từ EVD-0025 và EVD-0026]
+## Cảnh 2 — Đậu Vũ và Trần Phồn: kế hoạch loại trừ hoạn quan
+*Hook: Họ muốn dọn sạch đối thủ trong cung. Kết quả, chính phe của họ bị quét khỏi bàn cờ.*
 
-> **[Đối chiếu · Tiểu thuyết]** Hồi 1 《三國演義》 mở màn bằng một nhãn quan đạo đức hóa sự suy tàn của nhà Hán, gắn biến loạn với điềm báo và sự hư hỏng của triều đình. Đó là cách một tiểu thuyết lịch sử tạo không khí, không phải chứng cứ rằng mọi điềm lạ trong truyện đã xảy ra như mô tả. [Đọc hồi 1](https://zh.wikisource.org/wiki/三國演義/第001回)
+Đậu Vũ và Trần Phồn đối đầu với thế lực hoạn quan. Họ không chỉ bất mãn bằng lời: cuộc xung đột đã đi đến hành động chính trị quyết liệt. Nhưng cán cân trong cung không nghiêng về phía họ. Kế hoạch thất bại; Đậu Vũ và Trần Phồn chết trong biến cố.
 
-> **[Châm biếm của biên tập]** Khi chính sách kiểm soát chính trị có thể vươn tới cả người quen của người bị nghi ngờ, khái niệm “đứng ngoài cuộc” bỗng trở nên khá xa xỉ.
+Câu chuyện này dễ bị kể như một màn “trung thần diệt gian thần” bị phản diện đánh úp. Đó là một cách đọc có tính phán xét. Ở tầng sự kiện, điều chắc hơn là **một phe tìm cách triệt hạ phe kia và thất bại**, để lại một cuộc tái phân bố quyền lực nghiêm trọng.
 
-### Cánh cửa mở sang năm 184
+[Chính sử] 《後漢書》卷8, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷8), EVD-0016/18.
 
-Điều trớ trêu nằm ở bước ngoặt kế tiếp: khi cuộc nổi dậy Khăn Vàng bùng phát năm 184, triều đình lại ban lệnh tha cho những người thuộc diện đảng cấm. 《後漢書》卷67 ghi việc này trong bối cảnh khủng hoảng Khăn Vàng. Chính quyền từng coi một bộ phận sĩ nhân là vấn đề an ninh, rồi phải điều chỉnh chính sách khi một mối đe dọa khác xuất hiện. [Chính sử: 《後漢書》卷67, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷67), EVD-0026]
+> **[Châm biếm của biên tập]** Cải tổ triều đình bằng một cú thanh trừng nghe có vẻ dứt khoát. Vấn đề là đối thủ cũng có quyền thanh trừng ngược.
 
-Không cần bịa một cuộc họp kín hay một câu nói cay độc của hoàng đế để thấy nghịch lý ấy. Chỉ riêng sự thay đổi chính sách đã đủ sức nặng: trước khi người ta nghe tiếng hô của Khăn Vàng, triều đình đã mang sẵn nhiều vết nứt.
+**Cú chuyển cảnh:** Nhưng thua một cuộc đấu trong cung vẫn chưa phải đoạn kết. Cuộc truy xét còn đi xa hơn những người trực tiếp tham gia.
 
-**Móc sang tập 2:** Năm 184, một phong trào do Trương Giác gắn với Thái Bình đạo nổi lên trên nhiều địa bàn. Khi đó, câu hỏi không còn chỉ là ai nắm quyền trong cung, mà là triều đình có thể điều động ai, đi đâu và đánh như thế nào.
+## Cảnh 3 — Đảng cố: một người bị nhắm tới, cả mạng lưới chịu liên lụy
+*Hook: Nếu một người bị coi là nguy hiểm, chuyện gì xảy ra với học trò, thuộc hạ cũ và người thân của họ?*
+
+Đảng cố chi họa không chỉ là danh sách những quan lại mất đường làm quan. 《後漢書》卷67〈黨錮列傳〉 ghi nhận phạm vi truy xét mở rộng đến môn sinh, cố lại và thân thuộc. Từ một xung đột quyền lực, hệ quả lan sang những mối quan hệ từng được xem là vốn liếng của giới sĩ nhân.
+
+Một người có thể tránh đứng giữa cuộc đối đầu. Nhưng nếu quan hệ với người bị cấm cũng trở thành vấn đề, “đứng ngoài” không còn đơn giản.
+
+[Chính sử] 《後漢書》卷67, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷67), EVD-0025.
+
+> **[Đối chiếu · Tiểu thuyết]** Hồi 1 《三國演義》 dùng điềm lạ và giọng kể đạo đức hóa để báo trước nhà Hán suy tàn. [Đọc hồi 1](https://zh.wikisource.org/wiki/三國演義/第001回). **[Chính sử]** Các cuộc đấu đá và cấm đoán có ghi trong sử; điềm báo của tiểu thuyết không vì thế trở thành sự kiện đã xác minh.
+
+> **[Châm biếm của biên tập]** Chưa cần mạng xã hội, chỉ cần quan hệ thầy trò cũng đủ khiến một vụ chính trị lan rộng.
+
+**Cú chuyển cảnh:** Triều đình đã dành nhiều năm đề phòng những người bên trong hệ thống. Rồi một mối nguy khác xuất hiện — không cần xin phép bước vào cung.
+
+## Cảnh 4 — Một quyết định đảo chiều
+*Hook: Từng cấm họ tham gia chính sự. Vậy tại sao khi biến loạn tới, triều đình lại phải đổi ý?*
+
+Năm 184 — mốc mở đầu tập kế tiếp — cuộc nổi dậy Khăn Vàng bùng phát. Trong bối cảnh đó, nhà Hán ban lệnh tha cho những người thuộc diện đảng cấm. Điều trước đây bị xem là vấn đề chính trị giờ được điều chỉnh trước một khủng hoảng quân sự rộng hơn.
+
+[Chính sử] 《後漢書》卷67, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷67), EVD-0026.
+
+Không thể từ một chiếu lệnh mà suy ra chính xác mọi tính toán kín của triều đình. Nhưng đặt hai thời điểm cạnh nhau đã thấy nghịch lý: khi mối nguy thay đổi, chính sách cũng đổi theo.
+
+> **[Châm biếm của biên tập]** Hôm qua là đối tượng cần đề phòng. Hôm nay có thể là người mà triều đình không muốn tiếp tục gạt ra ngoài. Chính trị đổi giọng nhanh hơn lời mở đầu một bản chiếu.
+
+### Cliffhanger — Tiếng động ngoài kinh thành
+Các cuộc thanh trừng trong cung có thể quyết định ai mất quyền. Nhưng năm 184 đặt ra câu hỏi khác hẳn: **nếu hàng loạt địa phương cùng nổi dậy, ai sẽ là người đủ sức giữ lại thiên hạ cho nhà Hán?**
+
+Tập sau, một cái tên bước ra khỏi các cuộc tranh quyền trong cung: **Trương Giác**.
 
 ---
-**Nguồn chính:** 《後漢書》卷8, 卷67. **Không có thẻ [Cộng đồng]** vì chưa thu thập phản ứng công khai có đường dẫn kiểm chứng. **Không có lời thoại lịch sử được sáng tác.**
+**Dẫn nguồn chính:** 《後漢書》卷8, 卷67. Các đoạn châm biếm là lời biên tập hiện đại. Không có lời thoại lịch sử được sáng tác; sự kiện 184 là móc chuyển tập, không bị gán vào giai đoạn 168–183.
