@@ -11,7 +11,7 @@
 | 189 relative chronology | PARTIAL | He Jin, Yuan Shao, Dong Zhuo, Xian; day/date alignment pending |
 | Direct source anchors for nine characters | PARTIAL | Matrix has links; not nine finished profiles |
 | Digital vs print edition collation | BLOCKED | Reference edition and variant review not performed |
-| Digital-text rights and publication permissions | BLOCKED | No page-by-page license review; public-domain original does not automatically license modern translations or editorial apparatus |
+| Rights / reuse QA | OUT OF SCOPE | Private, single-reader project. Do not gate Phase 1 on a license audit; reassess only if distribution scope changes |
 | Community reactions with real permalinks | NOT STARTED | Must not fabricate community consensus |
 | Evidence IDs / claim dedup | NEEDS FIX | EVD-0015/17, 0016/18, 0030/37 duplicate claims |
 | Literary completeness | PARTIAL | Peach Garden, Cao Cao/Lü Boshe variants recorded; full pilot sweep incomplete |
@@ -24,6 +24,6 @@ The previous batch messages sometimes equated 'online passage checked' with hist
 1. Establish a reference edition and compare passages; document actual edition, not just catalog record.
 2. Complete nine character fact sheets with direct locators and conflicts.
 3. Cross-check 168–183 and 184 chronology against later annals/chronicle, retaining disagreements.
-4. Inspect the precise Wikisource reuse license and each transcription's source/provenance before copying text.
+4. Rights/license audit is out of scope for the current private single-reader product; keep source attribution for historical accuracy.
 5. Locate and assess genuine public community reactions if useful; if absent, show no community claims.
 6. Normalize duplicated EVD IDs and submit one coherent QA dossier for PO approval. Do not ask for repeated Next between tasks.
