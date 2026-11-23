@@ -1,9 +1,9 @@
 # EP-0003 — Năm 189: kinh thành đổi chủ
 **189; móc sang 190 · Bản thảo truyện Phase 2**
 
-> **Hook toàn tập:** Hà Tiến muốn loại trừ hoạn quan. Ông gọi quân bên ngoài về gây sức ép. Nhưng trước khi đạo quân ấy tới, Hà Tiến đã chết. Còn người được gọi tới? Ông ta sẽ tham gia thay luôn hoàng đế.
+> Hà Tiến muốn loại trừ hoạn quan. Ông gọi quân bên ngoài về gây sức ép. Nhưng trước khi đạo quân ấy tới, Hà Tiến đã chết. Còn người được gọi tới? Ông ta sẽ tham gia thay luôn hoàng đế.
 
-## Cảnh 1 — Hoàng đế qua đời, bàn cờ chưa kịp ổn định
+## Hoàng đế qua đời, bàn cờ chưa kịp ổn định
 *Một cuộc kế vị đáng lẽ phải củng cố triều đình. Tại sao nó lại mở màn cho một cuộc thanh trừng?*
 
 Năm 189, Hán Linh Đế qua đời. Thiếu Đế lên ngôi, nhưng trong cung vẫn còn cuộc tranh chấp gay gắt quanh hoạn quan và những người muốn loại bỏ họ. Đại tướng quân Hà Tiến và Viên Thiệu bàn kế hoạch trừ hoạn quan. Theo 《三國志》卷1, Hà Thái hậu không đồng ý với việc ấy.
@@ -14,7 +14,7 @@ Năm 189, Hán Linh Đế qua đời. Thiếu Đế lên ngôi, nhưng trong cun
 
 Kế hoạch còn chưa kịp thực hiện đúng như dự tính, người khởi xướng đã không còn sống.
 
-## Cảnh 2 — Hà Tiến gọi Đổng Trác. Hà Tiến chết trước.
+## Hà Tiến gọi Đổng Trác. Hà Tiến chết trước.
 *Mời quân đến để xử lý một phe trong cung — nhưng ai sẽ kiểm soát đạo quân sau khi người mời chết?*
 
 Hà Tiến triệu Đổng Trác tiến về kinh thành. Tuy nhiên, theo 《三國志》卷1, **Hà Tiến bị giết trước khi Đổng Trác tới**. Đây là điểm xoay của toàn bộ câu chuyện. Một người dùng sự hiện diện của quân ngoài để gây sức ép đã không còn cơ hội kiểm soát kết quả.
@@ -27,7 +27,7 @@ Hà Tiến triệu Đổng Trác tiến về kinh thành. Tuy nhiên, theo 《�
 
 Cái chết ấy không làm mọi phe bình tĩnh lại. Nó châm ngòi cho một cuộc tàn sát trong cung.
 
-## Cảnh 3 — Khi việc “trừ hoạn quan” vượt khỏi tầm kiểm soát
+## Khi việc “trừ hoạn quan” vượt khỏi tầm kiểm soát
 *Trong một cuộc thanh trừng, điều gì xảy ra khi người cầm vũ khí không còn phân biệt nổi ai là mục tiêu?*
 
 Sau khi Hà Tiến chết, lực lượng của Viên Thiệu tiến hành giết hoạn quan. 《三國志》卷6 ghi cả chuyện những người không có râu bị giết nhầm trong cơn hỗn loạn. Đó là một chi tiết ngắn nhưng ghê gớm: một cuộc thanh trừng nhân danh loại bỏ một nhóm đã gây hại tới cả những người bị nhận diện sai.
@@ -42,7 +42,7 @@ Trong lúc ấy, hoạn quan đưa Thiếu Đế và Trần Lưu vương rời c
 
 Khi Đổng Trác tiến vào, câu hỏi không còn là phe hoạn quan có bị loại bỏ hay không. Câu hỏi là **ai được giữ ngai vàng**.
 
-## Cảnh 4 — Đổng Trác không chỉ tới để “giúp”
+## Đổng Trác không chỉ tới để “giúp”
 *Một tướng lĩnh có thể phế hoàng đế — vậy hoàng đế còn là người nắm quyền hay chỉ là người được chọn?*
 
 Đổng Trác nắm được ảnh hưởng quân sự ở kinh thành và thúc đẩy việc phế Thiếu Đế, lập Trần Lưu vương. 《三國志》卷6 ghi Viên Thiệu phản đối việc phế lập và rời khỏi trung tâm quyền lực.
@@ -55,7 +55,7 @@ Khi Đổng Trác tiến vào, câu hỏi không còn là phe hoạn quan có b�
 
 Và quyết định ấy sớm trở thành sự thật.
 
-## Cảnh 5 — Hán Hiến Đế: lên ngôi giữa một cuộc khủng hoảng
+## Hán Hiến Đế: lên ngôi giữa một cuộc khủng hoảng
 *Được lập làm hoàng đế có nghĩa là nắm quyền — hay chỉ là ngồi vào chỗ nguy hiểm nhất?*
 
 《後漢書》卷9〈孝獻帝紀〉 ghi Trần Lưu vương lên ngôi vào **tháng chín âm lịch, ngày Giáp Tuất, năm Trung Bình thứ sáu (189)**, tức Hán Hiến Đế. Sử liệu ghi ông chín tuổi theo cách tính đương thời. Bản kể này giữ nguyên niên đại âm lịch thay vì tự quy đổi ngày dương lịch khi chưa đối chiếu lịch.
@@ -70,14 +70,14 @@ Cũng theo phần biên niên ấy, Hà Thái hậu bị Đổng Trác giết sa
 
 Đổng Trác đã chen vào trung tâm quyền lực. Còn những người ở ngoài kinh thành, liệu họ có chấp nhận?
 
-## Cảnh 6 — Năm 190 đang tới
+## Năm 190 đang tới
 *Nếu một người có thể thay hoàng đế, những người khác sẽ lấy danh nghĩa gì để chống lại ông ta?*
 
 Năm 190, liên minh chống Đổng Trác trở thành diễn biến tiếp theo. Đây là **sự kiện của năm 190**, không phải màn kết giả tạo được kéo lùi về năm 189. Những người từng cùng đứng dưới danh nghĩa nhà Hán bắt đầu đối diện một vấn đề: chống Đổng Trác thì có thể cùng khẩu hiệu, nhưng sau đó ai sẽ nghe ai?
 
 [Sử liệu khác] 《資治通鑑》卷59, [nguyên văn](https://zh.wikisource.org/wiki/資治通鑑/卷059), EVD-0008.
 
-### Cliffhanger — Danh nghĩa và binh quyền
+### Danh nghĩa và binh quyền
 Một triều đình có thể đổi hoàng đế bằng sức ép quân sự. Nhưng liệu các đạo quân nhân danh “phò Hán” sẽ cứu được trật tự cũ, hay mở ra một cuộc tranh giành mới?
 
 **Tập tiếp theo sẽ bắt đầu từ câu hỏi ấy.**
