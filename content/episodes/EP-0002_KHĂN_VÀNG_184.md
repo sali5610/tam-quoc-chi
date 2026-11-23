@@ -1,5 +1,5 @@
 # EP-0002 — Khăn Vàng: cuộc nổi dậy năm 184
-**184 · Bản viết lại Phase 2**
+*Đông Hán · 184*
 
 > Người đời sau nhớ năm 184 như lúc nhiều anh hùng Tam Quốc bắt đầu lộ diện. Nhưng đối với triều đình Đông Hán, đây không phải buổi tuyển diễn viên chính. Đây là lúc nhiều nơi cùng nổi dậy, và quân đội phải thật sự ra trận.
 
@@ -8,7 +8,7 @@
 
 《後漢書》卷71 kể Trương Giác tập hợp tín đồ, tổ chức thành **ba mươi sáu phương**. Ba mươi sáu “phương” (方) là cách nguồn sử mô tả tổ chức phong trào; không phải bản kiểm kê ba mươi sáu đạo quân có sức mạnh ngang nhau. Phong trào gắn với thực hành tôn giáo và phát triển thành cuộc nổi dậy năm 184.
 
-Chỉ riêng cách tổ chức được ghi trong sử cũng cho thấy vì sao biến động này khó xử lý như một vụ nổi loạn đơn lẻ. Một đạo quân kéo tới một thành còn có thể tập trung đối phó. Nhiều địa bàn cùng rung chuyển thì câu hỏi khó hơn: chia lực lượng thế nào, giao cho ai, và ai chịu trách nhiệm khi thất bại?
+Chỉ riêng cách tổ chức được ghi trong sử cũng cho thấy vì sao biến động này khó xử lý như một vụ nổi loạn đơn lẻ. Một địa điểm nổi loạn còn có thể tập trung đối phó. Nhiều địa bàn cùng rung chuyển thì câu hỏi khó hơn: chia lực lượng thế nào, giao cho ai, và ai chịu trách nhiệm khi thất bại?
 
 [Chính sử] 《後漢書》卷71〈皇甫嵩朱儁列傳〉, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷71), EVD-0001/9/32. Số lượng là lời chép của nguồn.
 
@@ -47,7 +47,7 @@ Tôn Kiên tham gia chiến dịch chống Khăn Vàng dưới quyền Chu Tuấ
 
 [Chính sử] 《三國志》卷46〈孫破虜討逆傳〉, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷46), EVD-0014/21.
 
-Lưu Bị được 《三國志》卷32 ghi là theo Trâu Tĩnh đánh Khăn Vàng. Nguồn này không cung cấp một ngày tháng chính xác để ta dựng cảnh ông đứng ở một chiến trường cụ thể trong một buổi sáng cụ thể của năm 184.
+Lưu Bị được 《三國志》卷32 ghi là theo Trâu Tĩnh đánh Khăn Vàng. Sử chỉ kể ngắn gọn như vậy; ngày tháng và cảnh trí cụ thể không hiện ra. Cái tên Lưu Bị có mặt, nhưng chưa phải mọi chi tiết về ông đều sáng tỏ.
 
 [Chính sử] 《三國志》卷32〈先主傳〉, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷32), EVD-0011/20.
 
@@ -78,7 +78,7 @@ Nhưng còn một nhân vật không có màn ra mắt đẹp như vậy. Năm 1
 
 《三國志》卷6 ghi Đổng Trác từng được giao nhiệm vụ đánh Khăn Vàng, nhưng thất bại và bị quy trách nhiệm. Thất bại ấy không nói cho ta biết Đổng Trác nghĩ gì trong lòng. Nó nói một điều thú vị hơn: người sau này nắm quyền phế lập hoàng đế từng có một lần ra trận chẳng vẻ vang gì.
 
-Điều đáng nhớ hơn: **Đổng Trác không xuất hiện đột ngột từ hư không vào năm 189**. Ông có quá khứ quân sự, và quá khứ ấy không toàn chiến công.
+**Năm 189, Đổng Trác sẽ trở lại câu chuyện** — lần này không phải để đối đầu Khăn Vàng, mà để can dự vào ngôi vị hoàng đế.
 
 [Chính sử] 《三國志》卷6〈董卓傳〉, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷06), EVD-0036.
 
@@ -90,4 +90,4 @@ Năm 184, nhà Hán vẫn có thể cử tướng đi đánh loạn nhân danh h
 Từ chiến trường Khăn Vàng đến chính biến năm 189, câu hỏi đổi hẳn: **quân đội còn bảo vệ ngai vàng — hay ngai vàng bắt đầu phải dựa vào quân đội?**
 
 ---
-**Nguồn:** 《後漢書》卷71; 《三國志》卷6,32,36,46; 《三國演義》hồi 1 (lớp tiểu thuyết). Không gán ngày chính xác cho Lưu Bị khi nguồn không ghi.
+**Tư liệu:** 《後漢書》卷71; 《三國志》卷6,32,36,46; 《三國演義》hồi 1–2 (lớp tiểu thuyết).
