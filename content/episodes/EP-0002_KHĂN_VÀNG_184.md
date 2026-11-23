@@ -1,97 +1,97 @@
-# EP-0002 — Khăn Vàng: cuộc nổi dậy năm 184
+# EP-0002 — Khăn Vàng: cuộc chiến để cứu một triều đại
 *Đông Hán · 184*
 
-> Nhà Hán vừa trải qua nhiều năm nghi kỵ và thanh trừng trong triều. Rồi năm **184**, một phong trào nổi dậy lan rộng khiến triều đình phải gọi tướng ra trận. Trớ trêu thay, những cuộc dẹp loạn nhằm **cứu nhà Hán** lại đưa một số người vào con đường nắm quân — thứ sẽ làm thay đổi số phận nhà Hán về sau.
+**Năm 184, triều đình nhà Hán cần người đi cứu mình.** Trớ trêu ở chỗ, những cuộc dẹp loạn nhân danh hoàng đế sẽ giúp một số người tích lũy kinh nghiệm và vị thế quân sự — thứ về sau khiến chính hoàng đế khó kiểm soát thiên hạ.
 
-Ở tập trước, quyền lực xoay quanh những người có thể vào cung. Tập này, hãy nhìn ra ngoài kinh thành: ai có người đi theo, ai cầm quân, ai thắng trận, và ai bắt đầu được biết tên?
+Nếu vừa bước vào câu chuyện, mày chỉ cần nhớ: lúc này **chưa có ba nước**. Tất cả vẫn thuộc nhà Hán. Ở tập trước, giới cầm quyền tranh giành ảnh hưởng quanh một hoàng đế trẻ. Giờ rắc rối không còn nằm gọn trong cung ở Lạc Dương.
 
-Nếu chưa từng đọc Tam Quốc, mày chỉ cần nhớ ba người sẽ còn gặp lại: **Tào Tháo**, về sau xây dựng thế lực mạnh ở phương Bắc; **Lưu Bị**, người về sau lập nước Thục Hán; và **Tôn Kiên**, cha của Tôn Quyền — người về sau lập nước Ngô. Năm 184, tất cả những kết cục ấy vẫn còn ở phía trước.
+Nó xuất hiện ở nhiều địa phương cùng lúc.
 
-## Trương Giác: một phong trào không nằm gọn trong một thành
-*Nếu người nổi dậy không chỉ tập trung ở một chỗ, triều đình sẽ đánh vào đâu trước?*
+## Trương Giác: người không cần chức quan vẫn có người đi theo
 
-**Trương Giác** không phải một vị tướng được triều đình bổ nhiệm. Ông gắn với phong trào tôn giáo Thái Bình đạo, thu hút người đi theo và trở thành thủ lĩnh cuộc nổi dậy mà sử gọi là **Khăn Vàng**. 《後漢書》卷71 kể ông tổ chức tín đồ thành **ba mươi sáu phương**. Ba mươi sáu “phương” (方) là cách nguồn sử mô tả tổ chức phong trào; không phải bản kiểm kê ba mươi sáu đạo quân có sức mạnh ngang nhau. Phong trào gắn với thực hành tôn giáo và phát triển thành cuộc nổi dậy năm 184.
+**Trương Giác** gắn với **Thái Bình đạo**, một phong trào tôn giáo thu hút tín đồ. 《後漢書》卷71 ghi ông tổ chức người đi theo thành **ba mươi sáu “phương”** (方), tức những đơn vị tổ chức được nguồn sử nhắc tới — không phải bằng chứng rằng có đúng ba mươi sáu đạo quân mạnh ngang nhau.
 
-Chỉ riêng cách tổ chức được ghi trong sử cũng cho thấy vì sao biến động này khó xử lý như một vụ nổi loạn đơn lẻ. Một địa điểm nổi loạn còn có thể tập trung đối phó. Nhiều địa bàn cùng rung chuyển thì câu hỏi khó hơn: chia lực lượng thế nào, giao cho ai, và ai chịu trách nhiệm khi thất bại?
+Năm 184, phong trào trở thành cuộc nổi dậy thường được gọi là **Khăn Vàng**. Đối với triều đình, vấn đề không phải một nhóm người chiếm một góc thành rồi chờ quân đến. Cuộc nổi dậy trải rộng, khiến việc đối phó trở thành bài toán điều quân, chia lực lượng và giữ các địa phương.
 
-[Chính sử] 《後漢書》卷71〈皇甫嵩朱儁列傳〉, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷71), EVD-0001/9/32. Số lượng là lời chép của nguồn.
+Trương Giác không phải người lập ra một trong ba nước sau này. Nhưng chính biến động gắn với ông đã mở màn cho nhiều con đường quân sự mà người đọc Tam Quốc sẽ gặp lại.
 
-> **[Châm biếm của biên tập]** Trên bản đồ, “dẹp loạn” nghe như một động từ. Trên chiến trường, nó là rất nhiều bài toán cùng lúc.
+[Chính sử] 《後漢書》卷71〈皇甫嵩朱儁列傳〉, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷71).
 
-Triều đình cần người đánh trận. Và những người được gọi tên đầu tiên chưa chắc là những cái tên nổi tiếng nhất trong tiểu thuyết.
+> **[Châm biếm của biên tập]** Trong triều, người ta còn đang tranh xem ai có quyền ra lệnh. Ngoài kia, có người đã tập hợp được cả một phong trào mà chẳng cần chức quan nào của triều đình.
 
-## Hoàng Phủ Tung và Chu Tuấn: người gánh trận thật
-*Nếu nghĩ Tào Tháo hay Lưu Bị đã là trung tâm mọi chiến dịch ngay từ đầu, có lẽ ta đang xem lịch sử qua poster của phần sau.*
+## Hai vị tướng mà truyện về sau dễ khiến người ta quên
 
-Để đối phó, triều đình cử **Hoàng Phủ Tung** và **Chu Tuấn** chỉ huy quân chống Khăn Vàng. Đây là hai vị tướng thực sự gánh phần lớn diễn biến chiến dịch mà tập này theo dõi; những nhân vật nổi danh Tam Quốc về sau chưa phải ai cũng là người chỉ huy chính. Theo 《後漢書》卷71, Hoàng Phủ Tung làm Tả trung lang tướng, Chu Tuấn làm Hữu trung lang tướng. Đây là cuộc huy động của cả triều đình: ở kinh thành, Hà Tiến cũng được đặt vào vai trò chỉ huy quân sự trong cuộc khủng hoảng. Các tướng lĩnh ngoài mặt trận phải đối mặt với lực lượng nổi dậy trên thực địa, không phải chỉ đứng cạnh các nhân vật sẽ nổi danh về sau. [Đối chiếu: 《後漢書》卷8〈孝靈帝紀〉, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷8).]
+Khi nghe “Khăn Vàng”, nhiều người lập tức nghĩ đến Lưu Bị, Quan Vũ, Trương Phi. Nhưng những chiến dịch mà sử ghi lại không được dựng quanh ba nhân vật ấy.
 
-[Chính sử] 《後漢書》卷71, EVD-0002/33.
+Triều đình cử **Hoàng Phủ Tung** làm Tả trung lang tướng và **Chu Tuấn** làm Hữu trung lang tướng, chỉ huy lực lượng chống nổi dậy. Đây là hai người phải gánh những trận đánh mà thắng thua đều có hậu quả thật. Ở kinh thành, **Hà Tiến** cũng được giao vai trò quân sự trong thời kỳ khủng hoảng. Nhớ tên Hà Tiến một chút: **năm năm nữa, quyết định gọi quân ngoài về kinh của ông sẽ mở ra một tai họa khác**.
 
-Rồi chiến sự chứng minh rằng có chức tướng không đồng nghĩa với thắng ngay.
+[Chính sử] 《後漢書》卷71, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷71); 《後漢書》卷8, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷8).
 
-Một người trong số họ thua trận. Người kia bị vây. Và tình thế chỉ đảo chiều khi lửa xuất hiện.
+Rồi chiến trường đưa ra lời nhắc rất thẳng: được bổ làm tướng không có nghĩa là sẽ thắng ngay.
 
-## Trường Xã: thất bại, vòng vây và hỏa công
-*Một trận thua chưa khép lại chiến dịch. Nhưng một vòng vây kéo dài có thể khiến cả cánh quân biến mất.*
+## Trường Xã: lửa đổi cục diện, nhưng ai mới là người thắng?
 
-Chu Tuấn giao chiến với quân của **Ba Tài**, một thủ lĩnh lực lượng nổi dậy, và thất bại. Trong khi đó, Hoàng Phủ Tung bị vây tại Trường Xã. Theo lời chép trong 《後漢書》, Hoàng Phủ Tung dùng hỏa công để phá thế vây. Sau đó Tào Tháo đem quân tới, phối hợp đánh lực lượng nổi dậy.
+**Chu Tuấn** giao chiến với quân của **Ba Tài**, một thủ lĩnh lực lượng nổi dậy, và thất bại. **Hoàng Phủ Tung** thì bị vây tại **Trường Xã**.
 
-Ba cái tên, ba vị trí khác nhau trong cùng cơn khủng hoảng. Chu Tuấn nếm thất bại. Hoàng Phủ Tung tìm đường thoát vòng vây bằng lửa. Tào Tháo đến sau, khi cục diện đã chuyển. Lịch sử không trao toàn bộ chiến công cho một nhân vật chính.
+Một người thua trận. Một người mắc trong vòng vây. Nhà Hán cần một bước ngoặt.
 
-[Chính sử] 《後漢書》卷71, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷71), EVD-0034/35.
+Theo 《後漢書》卷71, Hoàng Phủ Tung sử dụng **hỏa công** để phá thế vây. Rồi **Tào Tháo** đem quân đến, tham gia đợt đánh tiếp theo cùng lực lượng triều đình.
 
-> **[Châm biếm của biên tập]** Nếu lịch sử là một trailer, đoạn hỏa công chắc chắn được cắt lên đầu. Nhưng phần trước trailer vẫn có người thua trận và người bị vây — đừng cắt mất họ.
+Khoan đã — **Tào Tháo**? Chính là người về sau xây dựng thế lực hùng mạnh ở phương Bắc, đặt nền móng cho nước Ngụy. Nhưng năm 184, ông chưa phải người thống lĩnh phương Bắc, càng không phải hoàng đế. Trong câu chuyện Trường Xã, ông **đến sau diễn biến hỏa công**. Nếu kể như Tào Tháo một mình nghĩ ra mọi thứ và cứu cả chiến dịch thì đúng là thiên vị nhân vật chính quá mức.
 
-Giữa những chiến dịch ấy, vài cái tên khác bắt đầu đi vào sử sách. Có người sau này lập nghiệp lớn. Có người lại được tiểu thuyết tặng hẳn một cảnh mở màn huyền thoại.
+[Chính sử] 《後漢書》卷71, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷71). Nguồn phân biệt trận thua của Chu Tuấn, việc Hoàng Phủ Tung phá vây và sự xuất hiện của Tào Tháo.
 
-## Lưu Bị, Tôn Kiên và khu vườn đào nổi tiếng
-*Ba anh em kết nghĩa trong vườn đào — một cảnh ai cũng nhớ. Nhưng sử sách thật sự ghi gì?*
+> **[Châm biếm của biên tập]** Tào Tháo vừa xuất hiện đã có khí chất nhân vật lớn. Nhưng đoạn này Hoàng Phủ Tung mới là người không thể bị cắt khỏi cảnh hỏa công.
 
-**Tôn Kiên** tham gia chiến dịch chống Khăn Vàng dưới quyền Chu Tuấn, theo 《三國志》卷46. Hãy nhớ họ **Tôn** này: người con Tôn Quyền của ông sẽ gắn với nước Ngô sau này. Nhưng đó là chuyện nhiều thập niên sau, không phải một nước Ngô đã tồn tại từ năm 184. Ông từng tham gia dẹp cuộc nổi dậy Hứa Xương vào năm 172, nhưng đó là **một chiến dịch khác**. Hai mốc thời gian không thể nhập làm một chỉ vì cùng là Tôn Kiên cầm quân.
+## Hai họ Lưu, Tôn: những hạt giống chưa ai gọi là vua
 
-[Chính sử] 《三國志》卷46〈孫破虜討逆傳〉, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷46), EVD-0014/21.
+Trong những người tham gia chống Khăn Vàng có **Tôn Kiên**, chiến đấu dưới quyền Chu Tuấn. Tôn Kiên chưa lập nước Ngô. Thật ra người gắn với việc lập nước Ngô sau này là **Tôn Quyền, con trai ông**. Hãy nhớ họ **Tôn**: ở thời điểm này, một gia tộc đang có những bước đi quân sự; về sau, gia tộc ấy sẽ thành một trong ba thế lực lớn.
 
-**Lưu Bị** — người sau này trở thành hoàng đế Thục Hán — được 《三國志》卷32 ghi là theo **Trâu Tĩnh**, một chỉ huy quân sự, đánh Khăn Vàng. Sử chỉ kể ngắn gọn như vậy; ngày tháng và cảnh trí cụ thể không hiện ra. Cái tên Lưu Bị có mặt, nhưng chưa phải mọi chi tiết về ông đều sáng tỏ.
+Tôn Kiên từng tham gia dẹp cuộc nổi dậy **Hứa Xương năm 172**, nhưng đó là **chuyện khác**, không phải trận Khăn Vàng năm 184.
 
-[Chính sử] 《三國志》卷32〈先主傳〉, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷32), EVD-0011/20.
+[Chính sử] 《三國志》卷46〈孫破虜討逆傳〉, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷46).
 
-> **[Đối chiếu · Tiểu thuyết] Đào viên kết nghĩa**
+Còn **Lưu Bị**? Ông là người sau này lập **Thục Hán**, một trong ba nước. Nhưng 《三國志》卷32 chỉ ghi ngắn rằng ông theo **Trâu Tĩnh** đánh Khăn Vàng. Trâu Tĩnh là người chỉ huy quân sự trong chặng đường này; nguồn không cung cấp đủ chi tiết để biến cuộc tham chiến của Lưu Bị thành một trận đánh có giờ giấc, địa điểm và lời thoại cụ thể.
+
+[Chính sử] 《三國志》卷32〈先主傳〉, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷32).
+
+Đến đây, nếu mày thấy thiếu hai cái tên **Quan Vũ** và **Trương Phi**, thì không phải tao quên. Chính sử ghi họ gắn bó với Lưu Bị; nhưng màn ba anh em thề sống chết trong vườn đào là một chuyện khác.
+
+> **[Đối chiếu · Chính sử / Tiểu thuyết] Đào viên kết nghĩa**
 >
-> Hồi 1 《三國演義》 kể Lưu Bị, Quan Vũ và Trương Phi kết nghĩa trong vườn đào. Đó là một cảnh kinh điển của **tiểu thuyết**. [Nguồn: 《三國演義》hồi 1](https://zh.wikisource.org/wiki/三國演義/第001回).
+> **[Tiểu thuyết]** 《三國演義》hồi 1 kể Lưu Bị, Quan Vũ, Trương Phi kết nghĩa trong vườn đào — một cảnh mở màn quá đẹp để độc giả quên. [Đọc hồi 1](https://zh.wikisource.org/wiki/三國演義/第001回).
 >
-> **[Chính sử]** 《三國志》卷36 mô tả sự gắn bó của Quan Vũ và Trương Phi với Lưu Bị. [Nguồn: 《三國志》卷36](https://zh.wikisource.org/wiki/三國志/卷36).
+> **[Chính sử]** 《三國志》卷36 có ghi sự thân thiết giữa họ, nhưng **không xác nhận nghi lễ kết nghĩa trong vườn đào**. [Đọc卷36](https://zh.wikisource.org/wiki/三國志/卷36).
 >
-> **[Kết luận]** Quan hệ thân thiết có nguồn sử; nghi thức kết nghĩa ở vườn đào **không được xác nhận trong những đoạn sử đang dẫn**. Không có nghĩa ta được tuyên bố chắc chắn rằng nghi thức ấy chưa từng tồn tại.
+> **[Đối chiếu]** Có bằng chứng về quan hệ gắn bó; không có căn cứ trong các đoạn sử này để dựng lễ thề như một sự kiện chắc chắn.
 
-> **[Châm biếm của biên tập]** Tiểu thuyết biết cách tổ chức một màn debut. Chính sử thì không có nghĩa vụ thuê vườn đào làm bối cảnh.
+Và có một cú đổi vai khác còn thú vị hơn.
 
 > **[Đối chiếu · Chính sử / Tiểu thuyết] Ai đánh Đốc bưu?**
 >
-> Một chuyện nổi tiếng khác gắn với thời Lưu Bị mới lập nghiệp: quan Đốc bưu bị đánh. **[Chính sử]** 《三國志》卷32〈先主傳〉 kể Lưu Bị được bổ làm An Hỉ úy sau công đánh Khăn Vàng; khi Đốc bưu tới huyện, Lưu Bị muốn gặp nhưng không được, rồi chính **Lưu Bị** trói và đánh viên quan, sau đó bỏ chức. [Đọc chính sử](https://zh.wikisource.org/wiki/三國志/卷32).
+> Sau chặng đánh Khăn Vàng, Lưu Bị được bổ làm **An Hỉ úy**, một chức quan địa phương. Khi một viên **Đốc bưu** — người có nhiệm vụ giám sát từ cấp trên — đến huyện, Lưu Bị muốn gặp mà không được. **[Chính sử]** 《三國志》卷32 ghi **chính Lưu Bị** trói và đánh viên quan rồi bỏ chức. [Đọc卷32](https://zh.wikisource.org/wiki/三國志/卷32).
 >
-> **[Tiểu thuyết]** 《三國演義》hồi 2 chuyển vai người đánh Đốc bưu sang **Trương Phi**, tạo một màn bộc phát rất hợp hình tượng nhân vật trong truyện. [Đọc hồi 2](https://zh.wikisource.org/wiki/三國演義/第002回).
+> **[Tiểu thuyết]** 《三國演義》hồi 2 chuyển người đánh Đốc bưu thành **Trương Phi**. [Đọc hồi 2](https://zh.wikisource.org/wiki/三國演義/第002回).
 >
-> **[Đối chiếu]** Cùng một sự kiện nổi tiếng, người trực tiếp ra tay đã bị thay đổi giữa hai lớp kể. Đây là chuyện xảy ra trong chặng đường lập nghiệp của Lưu Bị sau việc đánh Khăn Vàng; không tự gán một ngày cụ thể của năm 184.
->
-> **[Châm biếm của biên tập]** Tiểu thuyết cho Trương Phi nhận phần nóng tính. Chính sử lại để Lưu Bị tự chịu trách nhiệm cú đánh. Hình tượng nhân vật đúng là một thứ cần được biên tập cẩn thận.
+> **[Đối chiếu]** Một sự kiện, hai cách phân vai. Tiểu thuyết trao màn nổi nóng cho Trương Phi; chính sử lại để Lưu Bị tự ra tay. Chuyện thuộc giai đoạn sau công đánh Khăn Vàng, không có căn cứ để đóng đinh vào một ngày cụ thể của năm 184.
 
-Nhưng còn một nhân vật không có màn ra mắt đẹp như vậy. Năm 184, ông ta thậm chí không có một chiến thắng để khoe.
+## Người thua trận năm nay, người thay vua năm sau
 
-## Đổng Trác: trước khi khuynh đảo triều đình, từng đánh thua
-*Một người sau này có thể phế lập hoàng đế. Vậy lần đầu ta gặp ông ta trên chiến trường, kết quả ra sao?*
+Một cái tên nữa cần giữ lại: **Đổng Trác**.
 
-**Đổng Trác** là một tướng lĩnh có kinh nghiệm quân sự, không phải nhân vật tự nhiên xuất hiện trong cung năm 189. 《三國志》卷6 ghi ông từng được giao nhiệm vụ đánh Khăn Vàng, nhưng thất bại và bị quy trách nhiệm. Thất bại ấy không nói cho ta biết Đổng Trác nghĩ gì trong lòng. Nó nói một điều thú vị hơn: người sau này nắm quyền phế lập hoàng đế từng có một lần ra trận chẳng vẻ vang gì.
+Năm 184, ông được giao nhiệm vụ chống Khăn Vàng, nhưng **thất bại và bị quy trách nhiệm**, theo 《三國志》卷6. Vậy mà năm **189**, chính người này sẽ tiến về kinh thành và can dự vào việc phế một hoàng đế, lập một hoàng đế khác.
 
-**Năm 189, Đổng Trác sẽ trở lại câu chuyện** — lần này không phải để đối đầu Khăn Vàng, mà để can dự vào ngôi vị hoàng đế.
+Không có căn cứ để nói thất bại năm 184 khiến Đổng Trác nuôi ý định trả thù. Điều đáng chú ý là **một người từng đánh thua vẫn có thể trở thành nhân vật quyết định vận mệnh triều đình** chỉ vài năm sau.
 
-[Chính sử] 《三國志》卷6〈董卓傳〉, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷06), EVD-0036.
+[Chính sử] 《三國志》卷6〈董卓傳〉, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷06).
 
-> **[Châm biếm của biên tập]** CV quân sự không phải lúc nào cũng đẹp. Nhưng vài năm sau, người ta sẽ phải quan tâm tới Đổng Trác vì một lý do khác hẳn chuyện thắng hay thua Khăn Vàng.
+### Tiếp theo — Ai cầm quân, người ấy có tiếng nói?
 
-### Người có quân sẽ có tiếng nói
-Năm 184, nhà Hán vẫn có thể cử tướng đi đánh loạn nhân danh hoàng đế. Nhưng năm năm sau, một tướng lĩnh sẽ tiến tới kinh thành và tham gia quyết định **ai được làm hoàng đế**.
+Cuộc nổi dậy Khăn Vàng không lập tức tạo ra ba nước. Nhà Hán vẫn tồn tại. Nhưng giờ ta đã biết mặt một số người cầm quân, những người đang gây dựng kinh nghiệm và ảnh hưởng.
 
-Từ chiến trường Khăn Vàng đến chính biến năm 189, câu hỏi đổi hẳn: **quân đội còn bảo vệ ngai vàng — hay ngai vàng bắt đầu phải dựa vào quân đội?**
+**Năm 189, một đại tướng quân sẽ gọi Đổng Trác về kinh thành để gây sức ép với hoạn quan. Đại tướng quân ấy chết trước khi Đổng Trác tới.**
+
+Và đó là lúc cuộc tranh quyền từ tập đầu quay lại — lần này với quân đội đứng ngay trước cửa.
 
 ---
-**Tư liệu:** 《後漢書》卷71; 《三國志》卷6,32,36,46; 《三國演義》hồi 1–2 (lớp tiểu thuyết).
+*Tư liệu: 《後漢書》卷8, 卷71; 《三國志》卷6, 32, 36, 46; 《三國演義》hồi 1–2 ở lớp tiểu thuyết.*
