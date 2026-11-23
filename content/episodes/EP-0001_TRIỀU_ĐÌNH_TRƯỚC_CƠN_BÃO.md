@@ -1,5 +1,5 @@
 # EP-0001 — Triều đình trước cơn bão
-**168–183 · Bản thảo truyện Phase 2 · Đông Hán, chưa phải thời Tam Quốc**
+*Đông Hán · 168–183*
 
 > Trước khi Khăn Vàng nổi dậy, nhà Hán đã đánh một trận rất lớn. Không phải ngoài biên ải. Mà ngay trong triều đình. Và người thua trận không chỉ mất chức.
 
@@ -19,7 +19,7 @@ Và năm ấy, có người quyết định không chờ cuộc tranh giành t�
 
 Đậu Vũ và Trần Phồn đối đầu với thế lực hoạn quan. Họ không chỉ bất mãn bằng lời: cuộc xung đột đã đi đến hành động chính trị quyết liệt. Nhưng cán cân trong cung không nghiêng về phía họ. Kế hoạch thất bại; Đậu Vũ và Trần Phồn chết trong biến cố.
 
-Nếu đây là một câu chuyện anh hùng, Đậu Vũ và Trần Phồn có lẽ phải thắng ngay tại đây. Nhưng lịch sử không chiều người kể: **phe định loại trừ đối thủ lại là phe thất bại**. Và hậu quả không khép lại cùng hai cái chết.
+Người định ra tay trước lại không phải người chiến thắng: **phe định loại trừ đối thủ lại là phe thất bại**. Và hậu quả không khép lại cùng hai cái chết.
 
 [Chính sử] 《後漢書》卷8, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷8), EVD-0016/18.
 
@@ -59,4 +59,4 @@ Các cuộc thanh trừng trong cung có thể quyết định ai mất quyền.
 Tập sau, một cái tên bước ra khỏi các cuộc tranh quyền trong cung: **Trương Giác**.
 
 ---
-**Dẫn nguồn chính:** 《後漢書》卷8, 卷67. Các đoạn châm biếm là lời biên tập hiện đại. Không có lời thoại lịch sử được sáng tác; sự kiện 184 là móc chuyển tập, không bị gán vào giai đoạn 168–183.
+**Tư liệu:** 《後漢書》卷8, 卷67. Những lời châm biếm được ghi nhãn là bình luận của biên tập.
