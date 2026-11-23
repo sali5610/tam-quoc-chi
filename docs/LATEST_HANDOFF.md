@@ -62,3 +62,9 @@ Project is PRIVATE, single-reader personal use. **Remove licensing/rights QA fro
 - Created content/episodes/EP-0001_TRIỀU_ĐÌNH_TRƯỚC_CƠN_BÃO.md, EP-0002_KHĂN_VÀNG_184.md, EP-0003_NĂM_189_KINH_THÀNH_ĐỔI_CHỦ.md. Full Vietnamese prose, evidence-linked inline labels, original clearly labeled editorial jokes, and forward hooks.
 - Created content/PHASE_2_INLINE_COMPARISONS.md with four comparison modules (three inline and one deferred), no invented community posts.
 - Status: **Phase 2 first drafts COMPLETE, editorial revision NOT YET APPROVED**. Historical attribution is source-linked but not independently re-collated this turn. No illustrations, UI or deployment performed.
+
+## Phase 2 storytelling rewrite (2026-11-24)
+- PO requested correction to original drafts: act as cinematic, witty, historically disciplined storyteller rather than academic summarizer.
+- Rewrote all three content/episodes/*.md **in place**, preserving filenames, source labels and existing historical scope.
+- EP1: 4 scenes; EP2: 5 scenes; EP3: 6 scenes. Each has a distinct question/tension hook, scene transition and ending cliffhanger. Inline novel/Pei comparison and clearly labeled original satire retained; no fabricated speech or community reaction.
+- Phase 2 remains prose-only; no illustration, UI code, deployment or unrelated QA. These are revised drafts, not a claim of final editorial approval.
