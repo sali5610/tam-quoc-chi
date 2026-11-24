@@ -1978,12 +1978,12 @@
       },
       "power": {
         "level": 4,
-        "evidence": "EVD-B03-006",
+        "evidence": "EVD-B02-021",
         "reason": "Giữ căn cứ Ký Châu."
       },
       "legitimacy": {
         "level": 3,
-        "evidence": "EVD-B03-006",
+        "evidence": "EVD-B02-021",
         "reason": "Danh nghĩa đã có, chưa thêm chiếu mới ở mốc này."
       }
     }
@@ -2424,19 +2424,19 @@
     "ratings": {
       "strategy": {
         "level": 2,
-        "evidence": "EVD-B03-044",
+        "evidence": "EVD-0034",
         "reason": "Kế thừa đánh giá thận trọng từ hoạt động trước, bị giữ.",
         "confidence": "low"
       },
       "military": {
         "level": 2,
-        "evidence": "EVD-B03-044",
+        "evidence": "EVD-0034",
         "reason": "Không gán thêm chiến công năm 195.",
         "confidence": "low"
       },
       "leadership": {
         "level": 3,
-        "evidence": "EVD-B03-044",
+        "evidence": "EVD-0033",
         "reason": "Kinh nghiệm điều hành trước đó, phạm vi giảm khi bị giữ.",
         "confidence": "low"
       },
@@ -4595,12 +4595,12 @@
       },
       "power": {
         "level": 2,
-        "evidence": "EVD-B03-027",
+        "evidence": "EVD-B03-080",
         "reason": "Quyền thực tế hạn chế khi chạy loạn."
       },
       "legitimacy": {
         "level": 3,
-        "evidence": "EVD-B03-027",
+        "evidence": "EVD-B03-080",
         "reason": "Giữ chức Vệ úy trước khi mất."
       }
     }
