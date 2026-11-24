@@ -59,7 +59,7 @@ try {
     const images=page.locator('.people-grid img.historical-portrait');
     if(await images.count()!==8||await page.locator('.people-grid .portrait-placeholder').count()!==15)throw Error('Unexpected portrait/fallback counts');
     for(let i=0;i<8;i++){const img=images.nth(i);await img.scrollIntoViewIfNeeded();await img.evaluate(el=>el.decode());}
-    const dong=page.locator('.people-grid button').filter({hasText:'Đổng Trác'});
+    const dong=page.locator('.people-grid button').filter({has:page.locator('[data-person-name="Đổng Trác"]')});
     const src=await dong.locator('img').getAttribute('src');
     await dong.click();
     const dialog=page.locator('dialog[open]');
@@ -136,7 +136,7 @@ try {
     await page.goto(base+'#/search');await page.getByRole('textbox',{name:'Tìm tập'}).fill('dong trac chet');
     await page.locator('main a[href="#/read/ep-0006"]').waitFor();
     await page.goto(base+'#/people');await page.locator('main input').fill('Vương Doãn');
-    await page.locator('.people-grid button').filter({hasText:'Vương Doãn'}).click();
+    await page.locator('.people-grid button').filter({has:page.locator('[data-person-name="Vương Doãn"]')}).click();
     const detail=page.locator('dialog[open]');await detail.waitFor();
     check(await detail.locator('.portrait-placeholder').count()===1,'new wiki fallback');
     await detail.locator('a[href="#/read/ep-0006"]').click();await page.locator('main h1').filter({hasText:'EP-0006'}).waitFor();
