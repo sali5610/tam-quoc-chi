@@ -1,0 +1,28 @@
+name: Publish isolated React preview
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-audit --no-fund
+      - run: npm run build
+      - run: |
+          mkdir -p docs/react-preview
+          cp -a dist/. docs/react-preview/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/react-preview
+          if ! git diff --cached --quiet; then
+            git commit -m "preview: publish React build"
+            git push
+          fi
