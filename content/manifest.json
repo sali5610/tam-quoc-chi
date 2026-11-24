@@ -76,6 +76,36 @@
               ]
             }
           ]
+        },
+        {
+          "id": "arc-warlord-rise",
+          "title": "Chư hầu dựng thế lực",
+          "chapters": [
+            {
+              "id": "ch-provincial-rivalry",
+              "title": "Dựng căn cứ, tranh thiên hạ",
+              "episodes": [
+                {
+                  "id": "ep-0007",
+                  "title": "Tào Tháo: từ một quận đến cả một châu",
+                  "years": "192–193",
+                  "source": "content/episodes/EP-0007_DỰNG_THẾ_LỰC_TẠI_DUYỆN_CHÂU.md"
+                },
+                {
+                  "id": "ep-0008",
+                  "title": "Báo thù Từ Châu, mất gần hết Duyện Châu",
+                  "years": "193–194",
+                  "source": "content/episodes/EP-0008_BÁO_THÙ_TỪ_CHÂU.md"
+                },
+                {
+                  "id": "ep-0009",
+                  "title": "Tào Tháo lấy lại Duyện Châu, thiên tử mất chỗ ở",
+                  "years": "194–195",
+                  "source": "content/episodes/EP-0009_DUYỆN_CHÂU_VÀ_TRIỀU_ĐÌNH_TAN_RÃ.md"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
