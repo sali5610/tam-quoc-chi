@@ -85,3 +85,14 @@ Use **Three-Act Structure (episode level) + Scene–Sequel (scene level) + Setup
 5. Is the human stake concrete without invented interiority, scenery or conversation?
 6. Are histories, Pei annotations, Romance, variants and editorial jokes attributed at the moment they matter?
 7. Is the resulting prose a finished story, not framework labels, writer instructions or a dry outline?
+
+## Optional modern-life insight notes — PO approved 2026-11-24
+
+Use **[Ngẫm chuyện nay]** as a distinct *modern interpretive note*, never a historical-source label or a claim that the historical actors intended to teach this lesson.
+
+- Add **only when a specific, sourced event supports a genuinely useful, non-obvious analogy** to modern life (workplace, leadership, organizational design, critical thinking, relationships or personal decisions). **Zero notes is acceptable**; do not impose one per scene or episode.
+- Place immediately **after** the relevant historical beat and source, preferably after the consequence/sequel, never before a twist or inside a source quotation.
+- Keep it short (typically 2–4 sentences): **historical mechanism → practical insight → one concrete question or action**. No generic moralizing, motivational clichés, forced corporate metaphors or claims of universal law.
+- Mark clearly as **[Ngẫm chuyện nay · Góc nhìn hiện đại]**; distinguish analogy/inference from attested history. Avoid anachronistic claims (“they practiced modern management theory”), false causal certainty, and victim-blaming.
+- Preserve narrative pace: if the note interrupts suspense, move or omit it. Never let notes replace historical storytelling or Setup–Payoff.
+- Future “kể tiếp” automatically follows this selective-note rule alongside the approved Three-Act / Scene–Sequel / Setup–Payoff framework.
