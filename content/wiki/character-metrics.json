@@ -3639,7 +3639,9 @@
         "evidence": "EVD-B03-061",
         "reason": "Có chức chính thức dù bị cáo buộc mua quan."
       }
-    }
+    },
+    "datePrecision": "reign",
+    "dateNote": "Năm 189 chỉ là mốc sắp xếp ở cuối thời Linh Đế, không xác định năm được bổ Thái úy."
   },
   {
     "personId": "cao-song",
@@ -3681,7 +3683,9 @@
         "evidence": "EVD-B03-062",
         "reason": "Còn địa vị cựu quan."
       }
-    }
+    },
+    "datePrecision": "range",
+    "dateNote": "193 theo trình tự chiến dịch trong Tư trị thông giám; Vũ Đế kỷ nhắc hồi cố ở 194, không xác định ngày mất."
   },
   {
     "personId": "que-xuan",
