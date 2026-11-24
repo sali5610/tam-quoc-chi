@@ -47,3 +47,6 @@ Additional banners, authority symbols and local SVG assets only after exact sour
 
 ## Implementation handoff
 Next package: asset inventory and download/local verification for shortlisted assets, inspect existing portrait and art registry, validate exact anchors and sources, then wire three reusable visual patterns for all 6 episodes in a single batch. Preserve source layer distinctions. Add structural checks for unique IDs, episode coverage and exact heading/beat anchor, asset files and existing art coverage; browser regression on phone/tablet/desktop. Do not deploy until approved. No new hosted page.
+
+## PO clarification — supersedes asset shortlist
+No additional historical artwork or museum image acquisition. A01–A04 and A06 are dropped from this batch. Reuse existing imagery and local Game-icons symbols (scroll, grain, flag objective, broken shield). Editorial diagrams are rendered from explicitly authored nodes and sourced relationships, not new historical depictions.

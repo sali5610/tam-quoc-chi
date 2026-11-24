@@ -15,3 +15,12 @@ for(const s of metricSnapshots){
 }
 for(const person of atlas.people){if(Object.hasOwn(entities.people,person.name)&&!metricPeople.has(person.id))throw Error('Missing Wiki radar '+person.id);}
 console.log('Validated six radar axes for '+metricSnapshots.length+' snapshots / '+metricPeople.size+' people');
+
+const visualData=JSON.parse(fs.readFileSync('content/episode-visuals.json','utf8'));
+const iconData=JSON.parse(fs.readFileSync('content/story-icon-assets.json','utf8'));
+const visualIds=new Set(),iconKeys=new Set(iconData.map(a=>a.key));
+for(const a of iconData){if(!a.author||!a.source||!a.license||!fs.existsSync('public/'+a.path))throw Error('Invalid story icon '+a.key)}
+const visualEpisodes=m.eras.flatMap(e=>e.arcs.flatMap(a=>a.chapters.flatMap(c=>c.episodes)));
+for(const v of visualData){const ep=visualEpisodes.find(e=>e.id===v.episode);if(!ep||visualIds.has(v.id)||!v.title||!['network','sequence','comparison'].includes(v.kind)||!v.items.length||!v.sources.length)throw Error('Invalid visual '+v.id);visualIds.add(v.id);const lines=fs.readFileSync(ep.source,'utf8').split(/^---\s*$/m)[0].split('\n').map(l=>l.replaceAll('**',''));if(lines.filter(l=>v.placement==='blockquote'?l.startsWith('>')&&l.includes(v.anchor):l.startsWith(v.anchor)).length!==1)throw Error('Visual anchor mismatch '+v.id);for(const n of [...v.items,...(v.center?[v.center]:[])])if(!n.name||!n.text||n.person&&!Object.hasOwn(entities.people,n.person)||n.icon&&!iconKeys.has(n.icon))throw Error('Invalid visual node '+v.id);for(const s of v.sources)if(!s.label||!s.url.startsWith('https://'))throw Error('Missing visual source '+v.id)}
+for(const ep of visualEpisodes)if(!visualData.some(v=>v.episode===ep.id))throw Error('Episode without contextual visual '+ep.id);
+console.log('Validated '+visualIds.size+' contextual visuals across '+visualEpisodes.length+' episodes');

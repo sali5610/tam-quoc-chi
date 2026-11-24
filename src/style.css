@@ -272,3 +272,45 @@ body:has(.reader-layout) footer{background:var(--v5-paper);color:var(--v5-ink);b
 .reader-layout .scene-title,.reader-layout .reader-atlas{scroll-margin-top:calc(132px + env(safe-area-inset-top))}
 @media(min-width:768px){header.site-header.reading-header .reader-dock button{flex:0 1 150px;font-size:12px;min-height:44px;flex-direction:row;gap:7px}}
 @media(min-width:1000px){.reader-layout .sidebar{top:calc(126px + env(safe-area-inset-top));max-height:calc(100dvh - 210px)}}
+
+/* V6 editorial diagrams: no extra historical image assets. Scoped to Reader. */
+.reader-layout .episode-visual{margin:28px 0 36px;padding:18px 14px 12px;border:1px solid var(--v5-line);background:#f1eadb;position:relative;isolation:isolate;font:14px/1.5 system-ui;color:var(--v5-ink);min-width:0}
+.episode-visual:before{content:"";position:absolute;inset:0;z-index:-1;background:repeating-linear-gradient(0deg,transparent 0 19px,#82643d09 20px);pointer-events:none}
+.episode-visual .v6-heading{display:flex;align-items:flex-start;gap:9px;margin-bottom:17px;color:var(--v5-seal)}
+.episode-visual .v6-heading svg{flex:none;margin-top:3px}
+.episode-visual .v6-heading h3{font:600 19px/1.3 Georgia,serif;margin:0;color:var(--v5-ink)}
+.episode-visual .v6-items{display:grid;gap:10px;min-width:0}
+.episode-visual .v6-item{min-width:0;position:relative}
+.episode-visual .v6-node{padding:12px;background:#fffcf5;border:1px solid #d8cebd;min-width:0}
+.episode-visual .v6-node-inner{display:flex;gap:10px;align-items:center;min-width:0;flex-wrap:wrap}
+.episode-visual .v6-node-copy{display:grid;gap:3px;min-width:0;overflow-wrap:anywhere;flex:1 1 96px}
+.episode-visual .v6-node-copy strong{font:650 14px/1.3 system-ui;color:#233b38}
+.episode-visual .v6-node-copy span{font:13px/1.5 system-ui;color:#49463f}
+.episode-visual .v6-symbol{width:36px;height:36px;object-fit:contain;flex:none;color:#82643d}
+.episode-visual .v6-person{display:block;padding:0;border:0;background:none;flex:0 0 46px;min-width:44px;min-height:44px;align-self:center}
+.episode-visual .v6-person .portrait-frame{width:46px;height:59px;aspect-ratio:auto;overflow:hidden}
+.episode-visual .v6-person .portrait{width:100%;height:100%;object-fit:cover;object-position:center top;max-width:100%;margin:0}
+.episode-visual .v6-person .portrait-placeholder{font-size:16px}
+.episode-visual .v6-center{max-width:380px;margin:auto}
+.episode-visual .v6-center .v6-node{border-top:2px solid #9a342c}
+.episode-visual .v6-branch{height:18px;width:1px;border-left:1px dashed #82643d;margin:auto}
+.episode-visual.v6-network .v6-items{border-left:1px dashed #82643d;padding-left:10px}
+.episode-visual.v6-network .v6-item:before{content:"";position:absolute;width:10px;top:50%;left:-11px;border-top:1px dashed #82643d}
+.episode-visual.v6-sequence .v6-items{gap:0}
+.episode-visual.v6-sequence .v6-item{display:grid;grid-template-columns:29px minmax(0,1fr);column-gap:8px;align-items:start}
+.episode-visual .v6-step{font:700 12px/28px system-ui;text-align:center;color:#9a342c;border:1px solid #9a342c;border-radius:50%;width:28px;height:28px;margin-top:11px}
+.episode-visual .v6-next{grid-column:2;justify-self:center;color:#82643d;margin:5px 0}
+.episode-visual .v6-layer{display:block;font:650 11px/1.3 system-ui;letter-spacing:.03em;color:#82643d;margin-bottom:9px}
+.episode-visual.v6-comparison .v6-items{grid-template-columns:repeat(2,minmax(0,1fr))}
+.episode-visual.v6-comparison .v6-node-inner{align-items:flex-start;flex-direction:column}
+.episode-visual.v6-comparison .v6-node-copy{flex:auto}
+.episode-visual.v6-comparison .v6-node{height:100%}
+.episode-visual.v6-comparison .v6-item:nth-child(3){grid-column:1/-1}
+.episode-visual .v6-note{font:12px/1.5 system-ui!important;color:#635e54;margin:12px 0 4px}
+.episode-visual .v6-sources{border-top:1px solid #d8cebd;margin:10px 0 0;padding:0;font:12px/1.5 system-ui}
+.episode-visual .v6-sources summary{display:flex;align-items:center;gap:6px;min-height:44px;list-style:none;font-weight:500;color:#635e54}
+.episode-visual .v6-sources summary::-webkit-details-marker{display:none}
+.episode-visual .v6-sources summary svg:last-child{margin-left:auto}
+.episode-visual .v6-sources a{display:block;padding:5px 0;color:#635e54;overflow-wrap:anywhere}
+@media(max-width:359px){.episode-visual.v6-comparison .v6-items{grid-template-columns:1fr}}
+@media(min-width:640px){.reader-layout .episode-visual{padding:22px}.episode-visual.v6-network .v6-items{grid-template-columns:repeat(2,minmax(0,1fr))}.episode-visual.v6-network .v6-item:before{display:none}.episode-visual.v6-comparison .v6-node-inner{flex-direction:row}}
