@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: await each zoom transition before testing next
+# Release: sourced portraits and historical journey layer, full regression gate
 on:
   workflow_dispatch:
   push:
@@ -40,6 +40,15 @@ jobs:
               for(const id of e.people)if(!pilot.people.some(p=>p.id===id)||!e.roles[id])throw Error('Missing person or role '+id);
               console.log('PASS input',e.id,city.name,city.p,city.precision,e.people);
             }
+          }
+          const registry=JSON.parse(fs.readFileSync('content/atlas/portraits.json','utf8'));
+          const enabled=registry.portraits.filter(p=>p.enabled);
+          if(enabled.length!==8||new Set(enabled.map(p=>p.id)).size!==enabled.length)throw Error('Unexpected portrait coverage');
+          for(const p of enabled){if(!pilot.people.some(x=>x.id===p.id)||!fs.existsSync('dist/'+p.path))throw Error('Missing portrait '+p.id);}
+          if(pilot.trajectories.length!==2)throw Error('Missing pilot journeys');
+          for(const t of pilot.trajectories){
+            if(!pilot.people.some(p=>p.id===t.person))throw Error('Unknown journey person '+t.id);
+            for(const s of t.stops){const place=pilot.places.find(p=>p.id===s.place);if(!place||!s.evidence||!s.sourceUrl||!Number.isInteger(s.order))throw Error('Invalid journey stop '+s.place);const loc=resolveAtlasPlace(atlas,place);console.log('JOURNEY',t.id,s.order,s.place,loc?.precision||'unresolved');}
           }
           const html=fs.readFileSync('dist/index.html','utf8');
           const asset=html.match(/src="([^"]+\.js)"/)?.[1];
@@ -84,6 +93,8 @@ jobs:
               await page.getByRole('dialog',{name:'Chi tiết sự kiện'}).waitFor({state:'visible'});
               await page.getByRole('button',{name:'Đóng sự kiện'}).click();
               if(id==='ep-0003'){
+                await page.waitForFunction(()=>{const images=Array.from(document.querySelectorAll('[data-event-id="capital-189"] .atlas-portrait-image'));return images.length===2&&images.every(img=>img.complete&&img.naturalWidth>0&&getComputedStyle(img).visibility==='visible')},{},{timeout:10000});
+                console.log('PASS atlas portrait pair');
                 const board=page.locator('main .strategy-board');
                 const initial=await marker.evaluate(el=>({scale:Number(el.getAttribute('data-marker-scale')),width:el.querySelector('.atlas-marker-content').getBoundingClientRect().width}));
                 await board.locator('.leaflet-control-zoom-out').click();
@@ -103,6 +114,47 @@ jobs:
               } catch(e){failures.push(id+': '+String(e));console.error('FAIL',id,String(e));}
 
             }
+            try {
+              const base='http://localhost:4173/tam-quoc-chi/react-preview/';
+              await page.goto(base+'#/people');
+              await page.locator('.people-grid button').first().waitFor();
+              const cards=page.locator('.people-grid .portrait-frame');
+              if(await cards.count()!==11)throw Error('Unexpected person library count');
+              const images=page.locator('.people-grid img.historical-portrait');
+              if(await images.count()!==8||await page.locator('.people-grid .portrait-placeholder').count()!==3)throw Error('Unexpected portrait/fallback counts');
+              for(let i=0;i<8;i++){const img=images.nth(i);await img.scrollIntoViewIfNeeded();await img.evaluate(el=>el.decode());}
+              const dong=page.locator('.people-grid button').filter({hasText:'Đổng Trác'});
+              const src=await dong.locator('img').getAttribute('src');
+              await dong.click();
+              const dialog=page.locator('dialog[open]');
+              await dialog.waitFor();
+              if(await dialog.locator('img.historical-portrait').getAttribute('src')!==src)throw Error('Inconsistent portrait in detail');
+              await dialog.locator('img').evaluate(el=>el.decode());
+              await dialog.locator('.portrait-credit a').waitFor();
+              await dialog.getByRole('button',{name:'Đóng ×'}).click();
+              console.log('PASS library portraits, fallback and detail attribution');
+              await page.goto(base+'#/read/ep-0002');
+              const selector=page.getByLabel('Hành trình nhân vật');
+              await selector.waitFor();
+              if(await page.locator('.atlas-journey-stop').count())throw Error('Journey enabled by default');
+              for(const [id,count] of [['huangfu-song-184',6],['zhu-jun-184',4]]){
+                await selector.selectOption(id);
+                const panel=page.locator('.atlas-journey-panel');
+                await panel.waitFor();
+                await page.waitForFunction(n=>document.querySelectorAll('.atlas-journey-list li').length===n,count);
+                await page.locator('.atlas-journey-stop').first().waitFor({state:'attached'});
+                const resolved=await panel.locator('li button:not([disabled])').count();
+                if(resolved<1)throw Error('No mapped stops '+id);
+                if(await panel.locator('li details a').count()!==count)throw Error('Missing source links '+id);
+                await page.getByRole('button',{name:'Xem toàn hành trình'}).click();
+                const first=panel.locator('li button:not([disabled])').first();
+                await first.click();
+                console.log('PASS journey',id,'stops',count,'located',resolved);
+              }
+              await selector.selectOption('');
+              await page.waitForFunction(()=>!document.querySelector('.atlas-journey-panel,.atlas-journey-stop,.atlas-journey-line'));
+              console.log('PASS journey layer cleanup');
+            } catch(e){failures.push('portrait/journey: '+String(e));console.error('FAIL portrait/journey',e);}
             if(failures.length||errors.length)throw Error(JSON.stringify({failures,errors}));
           } finally {await browser.close()}
           JS
