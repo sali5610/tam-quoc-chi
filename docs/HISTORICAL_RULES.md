@@ -106,3 +106,6 @@ Supersedes the earlier editorial rule allowing missing radar axes. Every charact
 
 ## DEC-UX-027 reader-facing copy
 Keep research identifiers and checklists internal; retain substantive uncertainty and source distinctions naturally in narrative. Consolidate sources, collapse optional literary variants and modern asides without hiding relevant illustrations. No interface copy to prove a feature exists. Apply to future content batches. Canonical evidence is unchanged.
+
+## Mandatory cross-surface batch completeness — DEC-UX-037
+All future content batches follow docs/BATCH_DELIVERY_RULES.md and AGENTS.md. Research must support Reader visual/motion anchors, every new or changed Wiki profile, all six timeline ratings, notable sourced quotes, Atlas events/roles/relations/places and documented journeys where applicable. Preserve historical distinctions on every surface. No missing mandatory elements, invented facts or forced optional content. Prose-only package remains prose-only; full-batch release requires downstream integration and coverage evidence.

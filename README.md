@@ -6,8 +6,10 @@ Vietnamese cinematic history reader + Wiki + Historical Atlas, centered on Trầ
 
 React + TypeScript + Vite + Leaflet; Markdown/JSON and localStorage. No backend, paid services or Vercel. Run npm install and npm run dev locally; npm run build validates/builds content and retrieves the Atlas dataset/portraits.
 
-Read docs/LATEST_HANDOFF.md, docs/DECISION_LOG.md, docs/HISTORICAL_RULES.md and content/manifest.json before work. One scoped batch per chat; no release without PO authorization. Keep evidence and source provenance distinct from editorial and presentation layers.
+Read AGENTS.md, docs/LATEST_HANDOFF.md, docs/DECISION_LOG.md, docs/HISTORICAL_RULES.md, docs/BATCH_DELIVERY_RULES.md and content/manifest.json before work. One scoped batch per chat; no release without PO authorization. Keep evidence and source provenance distinct from editorial and presentation layers.
 
 Chat 00 reconciliation is docs-only; do not merge/deploy merely to update docs.
 
 Publication uses only the Vite `dist` artifact at the repository root URL. Historical `docs/` prototypes remain archival source files, not a second hosted site. CI runs on GitHub runners; no publicly hosted preview. The old `/react-preview/` URL is retired. Existing same-origin localStorage keys and hash routes are unchanged.
+
+All future content batches must meet the v6 end-to-end Reader/visual/motion/Wiki/Atlas delivery contract in docs/BATCH_DELIVERY_RULES.md; prose completion is not release readiness.
