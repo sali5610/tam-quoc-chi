@@ -1,0 +1,1 @@
+export const searchIndex=import.meta.glob('../content/episodes/*.md',{query:'?raw',import:'default',eager:true}) as Record<string,string>;
