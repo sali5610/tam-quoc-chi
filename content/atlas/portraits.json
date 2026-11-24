@@ -1,0 +1,69 @@
+{
+  "source": "https://github.com/wonton1984/sanguo-map",
+  "sourceRevision": "4876b0226e02e979b154a2abb10d40b2b3516296",
+  "portraits": [
+    {
+      "id": "dong-zhuo",
+      "upstreamId": "dongzhuo",
+      "path": "assets/portraits/dongzhuo.jpg",
+      "credit": "清代《三国演义》版画（Wikimedia Commons，公有领域）",
+      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
+      "enabled": false
+    },
+    {
+      "id": "xiandi",
+      "upstreamId": "liuxie",
+      "path": "assets/portraits/liuxie.jpg",
+      "credit": "清代《三国演义》版画（Wikimedia Commons，公有领域）",
+      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
+      "enabled": false
+    },
+    {
+      "id": "yuan-shao",
+      "upstreamId": "yuanshao",
+      "path": "assets/portraits/yuanshao.jpg",
+      "credit": "清代《三国演义》版画（Wikimedia Commons，公有领域）",
+      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
+      "enabled": false
+    },
+    {
+      "id": "zhang-jue",
+      "upstreamId": "zhangjiao",
+      "path": "assets/portraits/zhangjiao.jpg",
+      "credit": "清代《三国演义》版画（Wikimedia Commons，公有领域）",
+      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
+      "enabled": false
+    },
+    {
+      "id": "cao-cao",
+      "upstreamId": "caocao",
+      "path": "assets/portraits/caocao.jpg",
+      "credit": "《三才图会》曹操像（明，王圻辑，公有领域）",
+      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
+      "enabled": false
+    },
+    {
+      "id": "liu-bei",
+      "upstreamId": "liubei",
+      "path": "assets/portraits/liubei.jpg",
+      "credit": "清代《三国演义》版画（Wikimedia Commons，公有领域）",
+      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
+      "enabled": false
+    },
+    {
+      "id": "sun-jian",
+      "upstreamId": "sunjian",
+      "path": "assets/portraits/sunjian.jpg",
+      "credit": "清代《三国演义》版画（Wikimedia Commons，公有领域）",
+      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
+      "enabled": false
+    }
+  ],
+  "fallback": [
+    "lingdi",
+    "huangfu-song",
+    "zhu-jun",
+    "he-jin"
+  ],
+  "policy": "Use named seal fallback until original image provenance is verified; portraits are later artistic depictions, not contemporary likenesses."
+}
