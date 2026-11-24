@@ -169,5 +169,11 @@
       "label": "Lập Hiến Đế",
       "direction": "directed"
     }
-  ]
+  ],
+  "trajectories": [],
+  "timelinePolicy": {
+    "yearPrecision": "Show annual event anchors, not continuous presence",
+    "trajectory": "Only connect independently sourced chronological locations; no inferred marching route",
+    "reader": "Limit to episode context"
+  }
 }
