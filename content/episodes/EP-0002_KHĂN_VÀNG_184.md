@@ -82,7 +82,7 @@ Và có một cú đổi vai khác còn thú vị hơn.
 >
 > **[Đối chiếu]** Một sự kiện, hai cách phân vai. Tiểu thuyết trao màn nổi nóng cho Trương Phi; chính sử lại để Lưu Bị tự ra tay. Chuyện thuộc giai đoạn sau công đánh Khăn Vàng, không có căn cứ để đóng đinh vào một ngày cụ thể của năm 184.
 
-## Người thua trận năm nay, người thay vua năm sau
+## Một kẻ bại trận
 
 Một cái tên nữa cần giữ lại: **Đổng Trác**.
 
