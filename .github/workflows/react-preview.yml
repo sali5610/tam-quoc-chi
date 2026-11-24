@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: character and relationship layers
+# Release: character visibility fix
 on:
   workflow_dispatch:
   push:
