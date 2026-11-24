@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: PO-approved Hybrid v4; retain prior QA and verify public deployment SHA
+# Release: PO-approved Wiki quotes + radar; retain Hybrid v4 and Batch-02 QA
 on:
   workflow_dispatch:
   push:
@@ -127,6 +127,41 @@ jobs:
                     if(route==='/read/ep-0006'){const img=page.locator('figure[data-art-id="VIS-B02-012"] img');await img.scrollIntoViewIfNeeded();await img.evaluate(e=>e.decode());}
                   }
                   if(route==='/people'){
+                    await page.goto(base+'#/people');
+                    await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Đổng Trác"]')}).click();
+                    const radarSheet=page.locator('dialog[open]');
+                    const radar=radarSheet.locator('.character-radar');
+                    await radar.waitFor();
+                    const before=await radar.locator('svg').getAttribute('aria-label');
+                    await radar.getByRole('button',{name:'189',exact:true}).click();
+                    const after=await radar.locator('svg').getAttribute('aria-label');
+                    if(before===after||!after.includes('Quyền lực 5'))throw Error('Radar timeline did not change');
+                    await radar.locator('summary').click();
+                    await radar.getByText('EVD-0006',{exact:true}).first().waitFor();
+                    if(!await radarSheet.evaluate(el=>el.scrollWidth<=el.clientWidth+1))throw Error('Radar sheet overflow');
+                    await radarSheet.getByRole('button',{name:'Đóng ×'}).click();
+                    await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Tào Hồng"]')}).click();
+                    if(await radarSheet.locator('.character-radar').count())throw Error('Empty radar rendered');
+                    await radarSheet.getByRole('button',{name:'Đóng ×'}).click();
+                    console.log('PASS radar timeline, source evidence, empty state and overflow');
+                    await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Tào Tháo"]')}).click();
+                    const quoteSheet=page.locator('dialog[open]');
+                    const quoteCards=quoteSheet.locator('.character-quote');
+                    if(await quoteCards.count()!==3)throw Error('Missing Cao Cao quotes');
+                    if(await quoteSheet.locator('.character-radar').count()!==1)throw Error('Radar and quote integration missing');
+                    const labels=await quoteCards.locator('.quote-layer').allTextContents();
+                    if(JSON.stringify(labels)!==JSON.stringify(['[Bùi chú]','[Tiểu thuyết]','[Chính sử]']))throw Error('Quote provenance '+JSON.stringify(labels));
+                    await quoteCards.first().locator('summary').click();
+                    await quoteCards.first().locator('[lang="zh-Hant"]').waitFor({state:'visible'});
+                    if(!await quoteCards.first().locator('.quote-source a').getAttribute('href'))throw Error('Missing quote source');
+                    await quoteSheet.locator('.character-radar').getByRole('button',{name:'190',exact:true}).click();
+                    if(await quoteCards.count()!==3)throw Error('Quotes lost on radar switch');
+                    if(!await quoteSheet.evaluate(el=>el.scrollWidth<=el.clientWidth+1))throw Error('Wiki sheet overflow');
+                    await quoteSheet.getByRole('button',{name:'Đóng ×'}).click();
+                    await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Hán Linh Đế"]')}).click();
+                    if(await quoteSheet.locator('.character-quotes').count())throw Error('Empty quote section');
+                    await quoteSheet.getByRole('button',{name:'Đóng ×'}).click();
+                    console.log('PASS combined Wiki quotes, provenance, disclosure, radar switch and empty state');
                     const img=page.locator('.people-grid img.historical-portrait').first();await img.scrollIntoViewIfNeeded();await img.evaluate(e=>e.decode());
                     await page.getByRole('button',{name:'Thưởng lãm cuộn chân dung'}).click();await page.locator('.portrait-scroll button').first().click();await page.getByRole('button',{name:'Phóng to'}).click();await page.getByRole('button',{name:'Đóng ×'}).click();
                   }

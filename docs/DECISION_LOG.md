@@ -50,3 +50,5 @@ The earlier decisions remain historical records; the following supersede stale d
 - PO approved Wiki timeline radar: six axes (strategy, military, leadership, politics, power, legitimacy), time-specific evidence, explicitly editorial ordinal scale, unknown axes not scored. No future narrative spoilers, no deploy authorization.
 
 - PO requested notable sourced quotations on Wiki in prior package. Consolidate with approved radar on integration branch only; source layers and existing stable person IDs retained; no new release authorization.
+
+- 2026-11-25: PO approves publishing combined Wiki quotations and time-varying radar on existing GitHub Pages after exact combined CI PASS. Scope limited to these features and release verification, no other changes.
