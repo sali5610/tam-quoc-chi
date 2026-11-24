@@ -4,19 +4,25 @@
   "portraits": [
     {
       "id": "dong-zhuo",
-      "upstreamId": "dongzhuo",
-      "path": "assets/portraits/dongzhuo.jpg",
-      "credit": "清代《三国演义》版画（Wikimedia Commons，公有领域）",
-      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
-      "enabled": false
+      "path": "assets/portraits/dong-zhuo.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dong_Zhuo_Portrait.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Dong_Zhuo_Portrait.jpg",
+      "sha1": "2f2d2e8a0bc0490ef39a96774a64ec773d992f2b",
+      "credit": "Tranh khắc Tam Quốc diễn nghĩa đời Thanh; Wikimedia Commons",
+      "rightsStatus": "public domain (Commons file record)",
+      "enabled": true,
+      "kind": "later artistic depiction"
     },
     {
       "id": "xiandi",
-      "upstreamId": "liuxie",
-      "path": "assets/portraits/liuxie.jpg",
-      "credit": "清代《三国演义》版画（Wikimedia Commons，公有领域）",
-      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
-      "enabled": false
+      "path": "assets/portraits/xiandi.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Xian_Qing_illustration.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Emperor_Xian_Qing_illustration.jpg",
+      "sha1": "23d4b63090bdd1e20c55193785ed7d7354aad069",
+      "credit": "Tăng tượng toàn đồ Tam Quốc diễn nghĩa, 1906; Wikimedia Commons",
+      "rightsStatus": "public domain (Commons file record)",
+      "enabled": true,
+      "kind": "later artistic depiction"
     },
     {
       "id": "yuan-shao",
@@ -65,5 +71,10 @@
     "zhu-jun",
     "he-jin"
   ],
-  "policy": "Use named seal fallback until original image provenance is verified; portraits are later artistic depictions, not contemporary likenesses."
+  "policy": "Use named seal fallback until original image provenance is verified; portraits are later artistic depictions, not contemporary likenesses.",
+  "preferredSource": {
+    "title": "三國志圖像",
+    "url": "https://sourcelibrary.org/zh/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms",
+    "status": "preferred for identified illustrations; no isolated pilot portraits verified yet"
+  }
 }
