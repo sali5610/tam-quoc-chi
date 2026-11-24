@@ -77,3 +77,5 @@ The earlier decisions remain historical records; the following supersede stale d
 - DEC-UX-032 clarification (PO): remove redundant Sử truyện link from Reader header; episode number is a static context label, not another library link. Primary Sử truyện destination exists in persistent bottom navigation only; keep Mục lục and the four contextual Reader tools.
 
 - DEC-UX-032 clarification (PO): approved differentiating contextual Reader actions from app destinations: top labels Trong tập, Cỡ chữ (opens existing reading settings), Dấu trang, Địa điểm (Lucide MapPin, jumps to current episode map); bottom Atlas retains Lucide Map and global route. No changes to map data or destination behavior.
+
+- DEC-UX-033 (PO, 2026-11-25): approves release of the Reader navigation consistency and contextual labels fix after CI 45476166397 SUCCESS (tested app 7ae01fdc28ac2b989ebd9ba73c90cfe32b6245d0). Publish once to canonical GitHub Pages only. Preserve all other UI, historical content and motion behavior. Physical iPhone acceptance remains separate.
