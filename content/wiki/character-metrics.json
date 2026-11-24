@@ -1640,5 +1640,3044 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "personId": "cao-cao",
+    "year": 192,
+    "label": "Mùa đông 192 · Thanh Châu binh",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B03-004",
+        "reason": "Chiêu hàng thay cho chỉ giao chiến."
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B03-003",
+        "reason": "Thắng sau chiến sự khó khăn."
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B03-004",
+        "reason": "Tuyển và tổ chức quân Thanh Châu."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-001",
+        "reason": "Quan lại địa phương chủ động mời."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B03-001",
+        "reason": "Nắm căn cứ Duyện Châu."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-001",
+        "reason": "Danh nghĩa địa phương chưa là chiếu vua."
+      }
+    }
+  },
+  {
+    "personId": "cao-cao",
+    "year": 194,
+    "label": "Mùa hè 194 · Duyện Châu biến loạn",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-022",
+        "reason": "Đánh Từ Châu để hở hậu phương."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-022",
+        "reason": "Thắng tại Từ Châu nhưng phải quay về."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-025",
+        "reason": "Những người giữ thành vẫn theo Tào."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-024",
+        "reason": "Phe Trương Mạc phản lại."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-025",
+        "reason": "Chỉ còn ba nơi giữ được."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-001",
+        "reason": "Còn danh nghĩa từ lời mời năm 192."
+      }
+    }
+  },
+  {
+    "personId": "cao-cao",
+    "year": 195,
+    "label": "Cuối 195 · Khôi phục Duyện Châu",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B03-039",
+        "reason": "Ưu tiên căn cứ trước Từ Châu."
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B03-040",
+        "reason": "Đánh bại Lữ Bố và lấy lại huyện."
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B03-025",
+        "reason": "Giữ được mạng lưới thuộc cấp."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-041",
+        "reason": "Được thiên tử chính thức bổ nhiệm."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B03-040",
+        "reason": "Khôi phục địa bàn Duyện Châu."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B03-041",
+        "reason": "Chức châu mục được triều đình trao."
+      }
+    }
+  },
+  {
+    "personId": "liu-bei",
+    "year": 194,
+    "label": "Đầu 194 · Cứu viện Từ Châu",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-020",
+        "reason": "Cứu viện rồi chuyển sang theo Đào Khiêm.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-020",
+        "reason": "Tham gia cứu Từ Châu."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-021",
+        "reason": "Được Đào Khiêm cấp quân."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-021",
+        "reason": "Có sự bảo trợ của Đào Khiêm."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-021",
+        "reason": "Đóng tại Tiểu Bái."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-021",
+        "reason": "Được tiến cử Dự Châu thứ sử."
+      }
+    }
+  },
+  {
+    "personId": "liu-bei",
+    "year": 194,
+    "label": "Cuối 194–195 · Cai quản Từ Châu",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-028",
+        "reason": "Tham gia bàn việc kế nhiệm.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-020",
+        "reason": "Kinh nghiệm cứu viện trước đó còn áp dụng."
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B03-028",
+        "reason": "Có sự ủng hộ của người địa phương."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-028",
+        "reason": "Nhận việc cai quản và được Viên Thiệu tán thành theo Bùi chú."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B03-028",
+        "reason": "Nắm Từ Châu."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B03-027",
+        "reason": "Được đón nhận tại địa phương, chưa thấy chiếu bổ nhiệm."
+      }
+    }
+  },
+  {
+    "personId": "lu-bu",
+    "year": 193,
+    "label": "193",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-011",
+        "reason": "Thay đổi nơi nương nhờ.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B03-011",
+        "reason": "Chiến đấu với quân Trương Yến."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-011",
+        "reason": "Có nhóm quân theo mình."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-011",
+        "reason": "Bị từ chối hoặc bất hòa với người bảo trợ."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-011",
+        "reason": "Phụ thuộc nơi nương nhờ."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-011",
+        "reason": "Chưa có châu riêng."
+      }
+    }
+  },
+  {
+    "personId": "lu-bu",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-024",
+        "reason": "Chớp cơ hội được đón về Duyện Châu."
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B03-032",
+        "reason": "Tranh chiến tại Bộc Dương."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-024",
+        "reason": "Có liên minh nổi dậy hỗ trợ."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-024",
+        "reason": "Được phe Trương Mạc mời."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B03-024",
+        "reason": "Nắm phần lớn địa bàn Duyện Châu."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-024",
+        "reason": "Danh nghĩa do phe nổi dậy trao."
+      }
+    }
+  },
+  {
+    "personId": "lu-bu",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-040",
+        "reason": "Thất thế và tìm chỗ nương nhờ.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-040",
+        "reason": "Bị đánh bại ở Duyện Châu."
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B03-040",
+        "reason": "Lực lượng còn lại sau thất bại."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-054",
+        "reason": "Quan hệ khách với Lưu Bị."
+      },
+      "power": {
+        "level": 1,
+        "evidence": "EVD-B03-040",
+        "reason": "Không còn căn cứ riêng."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-040",
+        "reason": "Dựa vào sự tiếp nhận của Lưu Bị."
+      }
+    }
+  },
+  {
+    "personId": "yuan-shao",
+    "year": 193,
+    "label": "193",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B03-006",
+        "reason": "Phối hợp cùng Tào Tháo.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B03-011",
+        "reason": "Có chiến sự ở miền bắc."
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B03-006",
+        "reason": "Có khả năng tập hợp liên minh."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-011",
+        "reason": "Có mạng lưới bảo trợ."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B03-006",
+        "reason": "Giữ căn cứ Ký Châu."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-006",
+        "reason": "Danh nghĩa đã có, chưa thêm chiếu mới ở mốc này."
+      }
+    }
+  },
+  {
+    "personId": "yuan-shao",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-049",
+        "reason": "Không nhận lời khuyên của Cư Thụ."
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B03-051",
+        "reason": "Quân dưới quyền Khúc Nghĩa thắng."
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B03-051",
+        "reason": "Có quân do Khúc Nghĩa chỉ huy."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-049",
+        "reason": "Ý kiến các mưu sĩ bất đồng."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B03-051",
+        "reason": "Giữ thế lực miền bắc."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B03-049",
+        "reason": "Được trao chức Hữu tướng quân tháng giêng năm 195."
+      }
+    }
+  },
+  {
+    "personId": "yuan-shu",
+    "year": 193,
+    "label": "193",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-007",
+        "reason": "Bị gián đoạn nguồn lương."
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-007",
+        "reason": "Thất bại trước quân Tào."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-007",
+        "reason": "Di chuyển lực lượng còn lại."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-006",
+        "reason": "Có mạng lưới đồng minh."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-007",
+        "reason": "Dựa vào địa bàn Cửu Giang."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-007",
+        "reason": "Chưa gán việc xưng đế vào thời điểm này.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "yuan-shu",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-055",
+        "reason": "Giao nhiệm vụ phía nam cho Tôn Sách.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-055",
+        "reason": "Huy động lực lượng thông qua thuộc tướng.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-055",
+        "reason": "Có người dưới quyền là Tôn Sách."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-055",
+        "reason": "Tiến cử tướng hiệu."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B03-055",
+        "reason": "Có khả năng bảo trợ ở Hoài Nam."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-055",
+        "reason": "Tiến cử chức quan, không phải quyền của thiên tử.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "liu-biao",
+    "year": 193,
+    "label": "193",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-007",
+        "reason": "Chặn nguồn tiếp tế Viên Thuật."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-007",
+        "reason": "Kiểm soát hậu cần, không suy thành công cá nhân trên chiến trường.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-007",
+        "reason": "Chỉ đạo việc cắt lương."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-007",
+        "reason": "Thực hiện chính sách riêng tại Kinh Châu."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B03-007",
+        "reason": "Giữ căn cứ Kinh Châu."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-007",
+        "reason": "Chức vụ đã có, chưa ghi thêm bổ nhiệm."
+      }
+    }
+  },
+  {
+    "personId": "liu-yu",
+    "year": 193,
+    "label": "193 · Trước thất bại",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-010",
+        "reason": "Cuộc đối đầu Công Tôn Toản thất bại."
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-010",
+        "reason": "Lực lượng không thắng được đối thủ."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-010",
+        "reason": "Có sự ủng hộ ở địa phương."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-060",
+        "reason": "Từ chối đề nghị tôn làm vua."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-010",
+        "reason": "Nắm bộ máy U Châu trước thất bại."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B03-060",
+        "reason": "Chức nhà Hán và tư cách hoàng tộc."
+      }
+    }
+  },
+  {
+    "personId": "xiandi",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-036",
+        "reason": "Tự kiểm tra việc nấu cháo cứu đói.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 1,
+        "evidence": "EVD-B03-036",
+        "reason": "Không có quyền chỉ huy độc lập rõ ràng.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B03-036",
+        "reason": "Phạm vi điều hành cứu đói hạn chế.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-036",
+        "reason": "Can thiệp công việc cứu đói."
+      },
+      "power": {
+        "level": 1,
+        "evidence": "EVD-B03-037",
+        "reason": "Bị các tướng nắm quân hạn chế."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B03-036",
+        "reason": "Vẫn là hoàng đế được thừa nhận."
+      }
+    }
+  },
+  {
+    "personId": "xiandi",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-048",
+        "reason": "Từ chối bỏ đại thần khi chạy loạn.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 1,
+        "evidence": "EVD-B03-046",
+        "reason": "Phụ thuộc quân hộ tống.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B03-048",
+        "reason": "Giữ đoàn quan lại bên mình."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-046",
+        "reason": "Hòa giải chủ yếu do tướng lĩnh."
+      },
+      "power": {
+        "level": 1,
+        "evidence": "EVD-B03-043",
+        "reason": "Bị khống chế và phải rời kinh đô."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B03-048",
+        "reason": "Vẫn là hoàng đế nhà Hán."
+      }
+    }
+  },
+  {
+    "personId": "li-jue",
+    "year": 195,
+    "label": "Đầu 195 · Triều đình bị giữ",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-042",
+        "reason": "Giết Phàn Trù khiến liên minh bất ổn."
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B03-043",
+        "reason": "Có quân kiểm soát kinh thành."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-043",
+        "reason": "Điều động thuộc quân nhưng liên minh chia rẽ."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-043",
+        "reason": "Cưỡng ép hoàng đế."
+      },
+      "power": {
+        "level": 5,
+        "evidence": "EVD-B03-043",
+        "reason": "Kiểm soát thiên tử."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-044",
+        "reason": "Tự nhận Đại tư mã."
+      }
+    }
+  },
+  {
+    "personId": "li-jue",
+    "year": 195,
+    "label": "Cuối 195 · Triều đình rời kinh",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-046",
+        "reason": "Không giữ được hòa giải lâu dài."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-047",
+        "reason": "Đem quân đuổi theo triều đình."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-047",
+        "reason": "Còn lực lượng phối hợp."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-047",
+        "reason": "Lật lại thỏa thuận."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-048",
+        "reason": "Thiên tử thoát khỏi kiểm soát."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-046",
+        "reason": "Không có danh nghĩa bổ nhiệm mới được ghi."
+      }
+    }
+  },
+  {
+    "personId": "guo-si",
+    "year": 195,
+    "label": "Đầu 195 · Triều đình bị giữ",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-043",
+        "reason": "Mâu thuẫn với Lý Giác."
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B03-043",
+        "reason": "Dùng binh lực giữ đại thần."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-043",
+        "reason": "Có lực lượng riêng."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-043",
+        "reason": "Giữ công khanh làm con tin."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B03-043",
+        "reason": "Một trong các tướng nắm triều đình."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-043",
+        "reason": "Quyền cưỡng ép không đồng nghĩa chính danh."
+      }
+    }
+  },
+  {
+    "personId": "guo-si",
+    "year": 195,
+    "label": "Cuối 195 · Triều đình rời kinh",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-046",
+        "reason": "Đổi thái độ sau hòa giải."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-047",
+        "reason": "Tham gia truy đuổi triều đình."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-047",
+        "reason": "Còn lực lượng dưới quyền."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-047",
+        "reason": "Liên minh thay đổi."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-048",
+        "reason": "Triều đình thoát khỏi sự chi phối."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-046",
+        "reason": "Danh nghĩa cũ không bảo đảm quyền kiểm soát."
+      }
+    }
+  },
+  {
+    "personId": "zhu-jun",
+    "year": 195,
+    "label": "195 · Trước khi mất",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-044",
+        "reason": "Kế thừa đánh giá thận trọng từ hoạt động trước, bị giữ.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-044",
+        "reason": "Không gán thêm chiến công năm 195.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-044",
+        "reason": "Kinh nghiệm điều hành trước đó, phạm vi giảm khi bị giữ.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-044",
+        "reason": "Là đại thần trong triều."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-044",
+        "reason": "Bị giữ và qua đời."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-044",
+        "reason": "Giữ chức Đại tư nông trước khi mất."
+      }
+    }
+  },
+  {
+    "personId": "bao-xin",
+    "year": 192,
+    "label": "192",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-001",
+        "reason": "Khuyên chọn Tào Tháo."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-003",
+        "reason": "Tham chiến và tử trận."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-001",
+        "reason": "Cùng tổ chức việc đón Tào."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-001",
+        "reason": "Liên kết quan lại địa phương."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-003",
+        "reason": "Giữ chức Tế Bắc tướng."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-001",
+        "reason": "Chức quan trong hệ thống nhà Hán."
+      }
+    }
+  },
+  {
+    "personId": "chen-gong",
+    "year": 192,
+    "label": "192 · Dị bản Thế ngữ",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-002",
+        "reason": "Khuyên đón Tào theo Thế ngữ.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-002",
+        "reason": "Vai trò vận động quan lại, không có chỉ huy riêng được ghi.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-002",
+        "reason": "Thuyết phục quan lại theo dị bản.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-002",
+        "reason": "Tác động việc chọn người đứng đầu theo dị bản.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-002",
+        "reason": "Không phải người đứng đầu châu.",
+        "confidence": "low"
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-002",
+        "reason": "Ảnh hưởng địa phương theo Bùi chú.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "chen-gong",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-024",
+        "reason": "Đề xuất đón Lữ Bố."
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-024",
+        "reason": "Tổ chức chính trị, không xác nhận chỉ huy trận riêng.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-024",
+        "reason": "Cùng tổ chức phe nổi dậy."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-024",
+        "reason": "Tham gia đổi phe."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-024",
+        "reason": "Có ảnh hưởng trong liên minh."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-024",
+        "reason": "Danh nghĩa từ phe chống Tào."
+      }
+    }
+  },
+  {
+    "personId": "xun-yu",
+    "year": 192,
+    "label": "192",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-008",
+        "reason": "Chọn theo Tào từ năm 191.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-008",
+        "reason": "Phạm vi tư mã, không suy ra tài trận mạc.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B03-008",
+        "reason": "Làm việc trong bộ máy thuộc cấp.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-008",
+        "reason": "Chọn phe Tào."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-008",
+        "reason": "Giữ chức phụ tá."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-008",
+        "reason": "Chức tư mã trong bộ máy Tào."
+      }
+    }
+  },
+  {
+    "personId": "xun-yu",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B03-025",
+        "reason": "Tổ chức giữ ba nơi."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-025",
+        "reason": "Phối hợp phòng thủ, không suy ra chỉ huy trực tiếp mọi trận.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B03-025",
+        "reason": "Giữ mạng lưới quan lại."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-025",
+        "reason": "Xử lý việc Quách Cống đến."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-025",
+        "reason": "Có trách nhiệm tại Quyên Thành."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-025",
+        "reason": "Chức phụ tá trong phe Tào."
+      }
+    }
+  },
+  {
+    "personId": "xun-yu",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B03-039",
+        "reason": "Khuyên giữ Duyện Châu."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-039",
+        "reason": "Tính toán lương và phòng thủ, không phải chỉ huy trận đánh.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B03-025",
+        "reason": "Năng lực phối hợp đã thể hiện năm 194."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-039",
+        "reason": "Thuyết phục Tào đổi ưu tiên."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-039",
+        "reason": "Phạm vi mưu sĩ."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-039",
+        "reason": "Chức vụ trước đó còn là căn cứ đánh giá."
+      }
+    }
+  },
+  {
+    "personId": "cheng-yu",
+    "year": 192,
+    "label": "192",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-009",
+        "reason": "Khuyên ưu tiên liên kết gần."
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-009",
+        "reason": "Phạm vi huyện lệnh, không chứng minh đánh trận.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B03-009",
+        "reason": "Điều hành địa phương.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-009",
+        "reason": "Được Tào tuyển dụng."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-009",
+        "reason": "Quyền cấp huyện."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-009",
+        "reason": "Chức huyện lệnh."
+      }
+    }
+  },
+  {
+    "personId": "cheng-yu",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B03-025",
+        "reason": "Tổ chức giữ địa bàn và không lệ thuộc Viên Thiệu."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-026",
+        "reason": "Huy động phòng thủ, chưa phải tổng chỉ huy.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B03-026",
+        "reason": "Thuyết phục Cận Doãn."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-026",
+        "reason": "Giữ quan hệ và phối hợp địa phương."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-026",
+        "reason": "Được bổ Đông Bình tướng, phạm vi địa phương."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-026",
+        "reason": "Chức Đông Bình tướng trong phe Tào."
+      }
+    }
+  },
+  {
+    "personId": "mao-jie",
+    "year": 192,
+    "label": "192–193",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B03-058",
+        "reason": "Đề xuất phò vua và chuẩn bị hậu cần."
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-058",
+        "reason": "Phụ trách công việc hành chính, không phải tướng trận.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B03-058",
+        "reason": "Phạm vi viên chức cấp châu.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-058",
+        "reason": "Đề xuất đường lối."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-058",
+        "reason": "Trị trung tòng sự không phải châu mục."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-058",
+        "reason": "Được vời giữ chức trong bộ máy."
+      }
+    }
+  },
+  {
+    "personId": "gongsun-zan",
+    "year": 193,
+    "label": "193",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-010",
+        "reason": "Đánh bại Lưu Ngu."
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B03-010",
+        "reason": "Quân giành thắng lợi."
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B03-010",
+        "reason": "Điều động lực lượng riêng."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-010",
+        "reason": "Xung đột với người đứng đầu U Châu."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B03-010",
+        "reason": "Có thế lực ở miền bắc."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-010",
+        "reason": "Quyền quân sự đã có, không thêm chiếu mới."
+      }
+    }
+  },
+  {
+    "personId": "gongsun-zan",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-051",
+        "reason": "Thất bại trước Khúc Nghĩa."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-051",
+        "reason": "Thua trận Bảo Khâu."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-051",
+        "reason": "Vẫn có phe và quân theo."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-051",
+        "reason": "Chịu sức ép từ Viên Thiệu."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-051",
+        "reason": "Thế lực suy yếu."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-051",
+        "reason": "Không có thêm chức mới được ghi.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "tao-qian",
+    "year": 193,
+    "label": "193",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-012",
+        "reason": "Từng trấn áp Khăn Vàng."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-018",
+        "reason": "Tổ chức chống chiến dịch Tào."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-012",
+        "reason": "Có lực lượng cấp châu."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-012",
+        "reason": "Dâng cống và được bổ chức."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B03-012",
+        "reason": "Quản Từ Châu."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B03-012",
+        "reason": "Được thiên tử bổ châu mục và phong hầu."
+      }
+    }
+  },
+  {
+    "personId": "tao-qian",
+    "year": 194,
+    "label": "194 · Trước khi mất",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-020",
+        "reason": "Cầu cứu và cấp quân Lưu Bị."
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-022",
+        "reason": "Chịu thất bại trong chiến dịch thứ hai."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-021",
+        "reason": "Huy động Lưu Bị hỗ trợ."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-027",
+        "reason": "Đề nghị người kế nhiệm."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-022",
+        "reason": "Địa bàn chịu sức ép."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B03-020",
+        "reason": "Vẫn có danh nghĩa châu mục trước khi chết."
+      }
+    }
+  },
+  {
+    "personId": "tian-kai",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-020",
+        "reason": "Quyết định cứu viện.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-020",
+        "reason": "Tham gia lực lượng cứu Từ Châu."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-020",
+        "reason": "Có quân phối hợp."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-006",
+        "reason": "Thuộc mạng lưới Công Tôn Toản.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-006",
+        "reason": "Phạm vi người được giao việc ở Thanh Châu."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-006",
+        "reason": "Chức vụ từ phe Công Tôn.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "zhang-miao",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-024",
+        "reason": "Tổ chức nổi dậy."
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-024",
+        "reason": "Không có chiến công chỉ huy riêng được ghi.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-024",
+        "reason": "Liên kết người tham gia."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-023",
+        "reason": "Đổi phe chống Tào."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-024",
+        "reason": "Có ảnh hưởng Trần Lưu."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-024",
+        "reason": "Danh nghĩa cũ và phe nổi dậy."
+      }
+    }
+  },
+  {
+    "personId": "zhang-chao",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-041",
+        "reason": "Giữ Ung Khâu trong tình thế cô lập.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-041",
+        "reason": "Tổ chức chống giữ."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-041",
+        "reason": "Có lực lượng trong thành."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-041",
+        "reason": "Liên minh thất bại."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-041",
+        "reason": "Chỉ còn cứ điểm."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-041",
+        "reason": "Từng giữ chức quan, sau theo phe nổi dậy."
+      }
+    }
+  },
+  {
+    "personId": "mi-zhu",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-056",
+        "reason": "Thực hiện di mệnh."
+      },
+      "military": {
+        "level": 1,
+        "evidence": "EVD-B03-056",
+        "reason": "Phạm vi dân sự, không phải chỉ huy quân.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-028",
+        "reason": "Tổ chức đón người kế nhiệm."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-028",
+        "reason": "Hỗ trợ chuyển giao Từ Châu."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-056",
+        "reason": "Biệt giá và gia tộc giàu."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-056",
+        "reason": "Được Đào Khiêm giao nhiệm vụ."
+      }
+    }
+  },
+  {
+    "personId": "chen-deng",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-028",
+        "reason": "Khuyên Lưu Bị nhận châu."
+      },
+      "military": {
+        "level": 1,
+        "evidence": "EVD-B03-028",
+        "reason": "Phạm vi tư vấn và nông nghiệp, không phải chiến công.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B03-083",
+        "reason": "Có mạng lưới địa phương và công việc thủy lợi theo Bùi chú.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-028",
+        "reason": "Thuyết phục việc kế nhiệm."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-028",
+        "reason": "Có ảnh hưởng địa phương, không đứng đầu châu."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-083",
+        "reason": "Vai trò được tham vấn và chức điển nông theo Bùi chú.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "kong-rong",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-028",
+        "reason": "Khuyên Lưu Bị nhận việc."
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-028",
+        "reason": "Phạm vi Bắc Hải tướng, không suy thành chiến công.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-028",
+        "reason": "Có vai trò quản lý địa phương."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-028",
+        "reason": "Can dự bằng lời khuyên."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-028",
+        "reason": "Có quyền tại địa bàn Bắc Hải."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-028",
+        "reason": "Chức quan nhà Hán."
+      }
+    }
+  },
+  {
+    "personId": "xiahou-dun",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-059",
+        "reason": "Giữ hậu phương và gia thuộc."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-059",
+        "reason": "Có nhiệm vụ giữ thành."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-059",
+        "reason": "Có thuộc quân."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-025",
+        "reason": "Tiếp tục phục vụ phe Tào."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-059",
+        "reason": "Giữ Đông quận thái thú."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-059",
+        "reason": "Có chức quan được giao."
+      }
+    }
+  },
+  {
+    "personId": "dian-wei",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-057",
+        "reason": "Có ứng xử chiến đấu được chép.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B03-057",
+        "reason": "Có công ở Bộc Dương."
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B03-057",
+        "reason": "Phạm vi chỉ huy và hộ vệ.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 1,
+        "evidence": "EVD-B03-057",
+        "reason": "Không có vai trò triều chính riêng được ghi.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-057",
+        "reason": "Được dùng làm đô úy."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-057",
+        "reason": "Chức quân sự dưới quyền Tào."
+      }
+    }
+  },
+  {
+    "personId": "fan-chou",
+    "year": 195,
+    "label": "195 · Trước khi mất",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-042",
+        "reason": "Tham gia chiến sự trước khi bị giết.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B03-042",
+        "reason": "Là tướng có quân."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-042",
+        "reason": "Có phe và thuộc quân."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-042",
+        "reason": "Xung đột với Lý Giác."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B03-042",
+        "reason": "Có lực lượng riêng trước khi chết."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-042",
+        "reason": "Danh nghĩa trong bộ máy do các tướng chi phối."
+      }
+    }
+  },
+  {
+    "personId": "yang-biao",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-044",
+        "reason": "Phản đối việc bắt vua và quan."
+      },
+      "military": {
+        "level": 1,
+        "evidence": "EVD-B03-044",
+        "reason": "Đại thần dân sự, không có quân tự chủ.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-044",
+        "reason": "Giữ chức cao trong triều."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-044",
+        "reason": "Công khai phản đối sự cưỡng ép."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-043",
+        "reason": "Bị giữ, quyền thực tế hạn chế."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B03-044",
+        "reason": "Chức Thái úy."
+      }
+    }
+  },
+  {
+    "personId": "zhang-ji",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-046",
+        "reason": "Hòa giải các tướng."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-046",
+        "reason": "Có vai trò dựa vào lực lượng quân sự.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-046",
+        "reason": "Có quân dưới quyền."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-046",
+        "reason": "Tham gia thương lượng."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-046",
+        "reason": "Là tướng có lực lượng riêng."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-046",
+        "reason": "Có chức tướng, không phải thiên tử."
+      }
+    }
+  },
+  {
+    "personId": "yang-feng",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-047",
+        "reason": "Huy động thêm đồng minh."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-047",
+        "reason": "Tham gia chiến sự hộ tống."
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B03-047",
+        "reason": "Tập hợp lực lượng Bạch Ba và đồng minh."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-046",
+        "reason": "Rời phe Lý Giác để hộ tống vua."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-047",
+        "reason": "Có quân dưới quyền."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-047",
+        "reason": "Vai trò hộ tống triều đình."
+      }
+    }
+  },
+  {
+    "personId": "dong-cheng",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-046",
+        "reason": "Phối hợp liên minh hộ tống.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-047",
+        "reason": "Tham gia bảo vệ triều đình."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-047",
+        "reason": "Có lực lượng dưới quyền."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-047",
+        "reason": "Quan hệ với các tướng thay đổi."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-047",
+        "reason": "Nắm một phần lực lượng hộ tống."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-046",
+        "reason": "Tham gia bảo vệ thiên tử."
+      }
+    }
+  },
+  {
+    "personId": "ju-shou",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B03-049",
+        "reason": "Đề xuất đón thiên tử."
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-049",
+        "reason": "Phạm vi mưu sĩ, không chỉ huy độc lập.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B03-049",
+        "reason": "Ảnh hưởng trong bộ máy tham mưu.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-049",
+        "reason": "Lời khuyên không được dùng."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-049",
+        "reason": "Không có căn cứ riêng."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-049",
+        "reason": "Phục vụ Viên Thiệu.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "sun-ce",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-055",
+        "reason": "Xin phép xuất quân và tìm người hỗ trợ."
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B03-055",
+        "reason": "Chỉ huy đoàn quân phía nam."
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B03-055",
+        "reason": "Tập hợp lực lượng."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-055",
+        "reason": "Dựa vào bảo trợ Viên Thuật."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-055",
+        "reason": "Có lực lượng đang phát triển, chưa lập nước."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-055",
+        "reason": "Được tiến cử tướng hiệu."
+      }
+    }
+  },
+  {
+    "personId": "zhou-yu",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-055",
+        "reason": "Đem người và nguồn lực hỗ trợ.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-055",
+        "reason": "Chưa có chiến dịch riêng được ghi ở mốc này.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-055",
+        "reason": "Huy động người hỗ trợ."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-055",
+        "reason": "Liên kết với Tôn Sách."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-055",
+        "reason": "Vai trò thuộc nhóm đang hình thành."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-055",
+        "reason": "Phạm vi bảo trợ địa phương.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "cao-song",
+    "year": 189,
+    "label": "Cuối thời Linh Đế · Tại chức (không rõ năm)",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-061",
+        "reason": "Dùng tiền và quan hệ nội cung để đạt chức.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-061",
+        "reason": "Thẩm quyền hành chính quân sự của Thái úy, không phải chiến công.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-061",
+        "reason": "Phạm vi chức Tam Công, không xác nhận hiệu quả.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-061",
+        "reason": "Tiếp cận nội quan."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B03-061",
+        "reason": "Có chức Thái úy, chưa xác nhận tự chủ binh quyền."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-061",
+        "reason": "Có chức chính thức dù bị cáo buộc mua quan."
+      }
+    }
+  },
+  {
+    "personId": "cao-song",
+    "year": 193,
+    "label": "193–194 · Hồi cố, đã thôi chức",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-062",
+        "reason": "Di chuyển lánh nạn, chưa chứng minh kế hoạch riêng.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 1,
+        "evidence": "EVD-B03-062",
+        "reason": "Đã thôi chức, không có quyền chỉ huy đương nhiệm.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B03-062",
+        "reason": "Phạm vi gia thuộc.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-062",
+        "reason": "Quan cũ, không còn tại chức.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-078",
+        "reason": "Có tài sản theo dị bản, không có căn cứ riêng."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-062",
+        "reason": "Còn địa vị cựu quan."
+      }
+    }
+  },
+  {
+    "personId": "que-xuan",
+    "year": 193,
+    "label": "193",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-063",
+        "reason": "Liên kết rồi thất bại.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-013",
+        "reason": "Có lực lượng nhưng không có chiến công cá nhân.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-013",
+        "reason": "Tập hợp người theo."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-063",
+        "reason": "Hợp tác với Đào rồi bị giết."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-063",
+        "reason": "Lực lượng bị thu nhận."
+      },
+      "legitimacy": {
+        "level": 1,
+        "evidence": "EVD-B03-013",
+        "reason": "Tự xưng thiên tử không được nhà Hán công nhận."
+      }
+    }
+  },
+  {
+    "personId": "cao-bao",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-064",
+        "reason": "Phối hợp Lưu Bị nhưng thất bại.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-064",
+        "reason": "Bị quân Tào đánh bại."
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B03-064",
+        "reason": "Vai trò thuộc tướng.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-064",
+        "reason": "Phục vụ Đào Khiêm.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-064",
+        "reason": "Không phải người đứng đầu châu."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-064",
+        "reason": "Là tướng thuộc Đào, không rõ nguồn bổ nhiệm cụ thể.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "zhang-yang",
+    "year": 193,
+    "label": "193",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-011",
+        "reason": "Tiếp nhận Lữ Bố và thay đổi liên kết.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-065",
+        "reason": "Có quân riêng."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-065",
+        "reason": "Giữ người theo."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-011",
+        "reason": "Làm người bảo trợ ở Hà Nội."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-065",
+        "reason": "Giữ Hà Nội."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-065",
+        "reason": "Có chức tướng và thái thú."
+      }
+    }
+  },
+  {
+    "personId": "zhang-yang",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-065",
+        "reason": "Đề nghị về Lạc Dương không được nhận."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-065",
+        "reason": "Đem quân đến An Ấp, không gán chiến thắng.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-065",
+        "reason": "Huy động quân."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-065",
+        "reason": "Can dự vào việc triều đình."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-065",
+        "reason": "Giữ thế lực Hà Nội."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B03-065",
+        "reason": "Được trao An Quốc tướng quân và Tấn Dương hầu."
+      }
+    }
+  },
+  {
+    "personId": "zhang-yan",
+    "year": 192,
+    "label": "192–193",
+    "episodeId": "ep-0007",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-066",
+        "reason": "Hỗ trợ Công Tôn qua thuộc tướng.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-066",
+        "reason": "Có lực lượng dù gặp thất bại."
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B03-066",
+        "reason": "Tập hợp nhiều thủ lĩnh."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-066",
+        "reason": "Có liên kết và từng quy phục."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-066",
+        "reason": "Có mạng lưới khu vực."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-066",
+        "reason": "Có chức Bình Nan trung lang tướng."
+      }
+    }
+  },
+  {
+    "personId": "guo-gong",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-068",
+        "reason": "Đánh giá tình thế Quyên Thành rồi rút."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-068",
+        "reason": "Có quân nhưng không giao chiến ở đây.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-068",
+        "reason": "Huy động lực lượng."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-068",
+        "reason": "Gặp Tuân Úc để xử lý tình thế."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-068",
+        "reason": "Có lực lượng khu vực."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-068",
+        "reason": "Sử gọi Dự Châu thứ sử, nguồn bổ nhiệm chưa rõ.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "jin-yun",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-069",
+        "reason": "Quyết định giữ thành khi gia đình gặp nguy hiểm."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-069",
+        "reason": "Tổ chức phòng thủ."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-069",
+        "reason": "Giữ quân địa phương."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-069",
+        "reason": "Chọn phe sau lời khuyên Trình Dục."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-069",
+        "reason": "Quyền cấp huyện."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-069",
+        "reason": "Chức huyện lệnh, tách đánh giá đạo đức."
+      }
+    }
+  },
+  {
+    "personId": "zao-zhi",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-069",
+        "reason": "Chuẩn bị phòng thủ."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-069",
+        "reason": "Chống việc tiếp quản."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-069",
+        "reason": "Huy động quan dân."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-069",
+        "reason": "Giữ liên kết với Tào."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-069",
+        "reason": "Phạm vi huyện."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-069",
+        "reason": "Chức huyện lệnh."
+      }
+    }
+  },
+  {
+    "personId": "han-hao",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B03-070",
+        "reason": "Xử lý biến cố con tin."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-070",
+        "reason": "Can thiệp với tư cách thuộc tướng."
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B03-070",
+        "reason": "Tập hợp người giữ trật tự."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-070",
+        "reason": "Cách xử lý được Tào dùng thành nguyên tắc."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-070",
+        "reason": "Chỉ huy cấp dưới."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-070",
+        "reason": "Có nhiệm vụ quân sự được ghi."
+      }
+    }
+  },
+  {
+    "personId": "ma-teng",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-071",
+        "reason": "Gây sức ép lên triều đình nhưng thất bại."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-071",
+        "reason": "Chỉ huy quân trong trận thua."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-071",
+        "reason": "Giữ lực lượng sau khi rút."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-071",
+        "reason": "Được tha và thương lượng."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-071",
+        "reason": "Có căn cứ quân sự Lương Châu."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-071",
+        "reason": "Được trao An Địch tướng quân."
+      }
+    }
+  },
+  {
+    "personId": "han-sui",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-071",
+        "reason": "Từ hòa giải chuyển sang tham chiến.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-071",
+        "reason": "Có quân nhưng thất bại."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-071",
+        "reason": "Có lực lượng độc lập."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-071",
+        "reason": "Thay đổi liên kết và được tha."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-071",
+        "reason": "Có quân ở Lương Châu."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-071",
+        "reason": "Được trao An Hàng tướng quân."
+      }
+    }
+  },
+  {
+    "personId": "qu-yi",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-072",
+        "reason": "Chỉ huy cuộc đối đầu thắng."
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B03-072",
+        "reason": "Thắng Bảo Khâu và có chiến sự trước đó."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-072",
+        "reason": "Chỉ huy quân Viên Thiệu."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-072",
+        "reason": "Vai trò thuộc tướng.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-072",
+        "reason": "Có quyền điều động quân."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-072",
+        "reason": "Là tướng thuộc phe Viên Thiệu."
+      }
+    }
+  },
+  {
+    "personId": "guo-tu",
+    "year": 195,
+    "label": "195 · Tranh luận đón thiên tử",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-073",
+        "reason": "Hai nguồn kể lời khuyên trái ngược.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-073",
+        "reason": "Phạm vi mưu sĩ và sứ vụ, không phải chỉ huy trận.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B03-073",
+        "reason": "Tham gia tư vấn.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-073",
+        "reason": "Có tác động trong tranh luận dù dị bản mâu thuẫn.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-073",
+        "reason": "Ảnh hưởng cấp phụ tá."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-073",
+        "reason": "Thuộc bộ máy Viên Thiệu, không thêm chức mới.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "chunyu-qiong",
+    "year": 195,
+    "label": "195 · Tranh luận đón thiên tử",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-073",
+        "reason": "Lời phản đối được ghi trong nguồn chú.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-073",
+        "reason": "Từng giữ chức hiệu úy Tây Viên, không gán trận mới.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B03-073",
+        "reason": "Kinh nghiệm chức chỉ huy và tham mưu trước đó.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-073",
+        "reason": "Tham gia bàn việc đón vua."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-073",
+        "reason": "Ảnh hưởng cấp thuộc tướng."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-073",
+        "reason": "Cựu quan nhà Hán theo Viên Thiệu.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "fu-shou",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-074",
+        "reason": "Tham gia cuộc chạy loạn, không gán kế hoạch riêng.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 1,
+        "evidence": "EVD-B03-074",
+        "reason": "Vai trò hoàng gia, không có quân riêng.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B03-074",
+        "reason": "Phạm vi hậu cung trong khủng hoảng.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-074",
+        "reason": "Có địa vị nhưng chịu cưỡng ép.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-074",
+        "reason": "Không có lực lượng độc lập."
+      },
+      "legitimacy": {
+        "level": 5,
+        "evidence": "EVD-B03-074",
+        "reason": "Được lập hoàng hậu."
+      }
+    }
+  },
+  {
+    "personId": "yang-ding",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-075",
+        "reason": "Có chức quân sự tại triều.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-075",
+        "reason": "Phạm vi An Tây tướng quân, không gán chiến công riêng.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-075",
+        "reason": "Có quân và chức vụ.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-075",
+        "reason": "Được trao chức."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-075",
+        "reason": "Có vị trí quân sự."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-075",
+        "reason": "Chức được ghi trong biên niên."
+      }
+    }
+  },
+  {
+    "personId": "yang-ding",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-075",
+        "reason": "Hộ tống rồi đánh Đoàn Ổi không thành."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-075",
+        "reason": "Có quân nhưng bỏ chạy."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-075",
+        "reason": "Điều động lực lượng rồi thất thế."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-075",
+        "reason": "Cáo buộc Đoàn Ổi còn tranh cãi."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-075",
+        "reason": "Mất quyền tại địa bàn khi bỏ chạy."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-075",
+        "reason": "Từng giữ Hậu tướng quân, không tự khẳng định mất chức."
+      }
+    }
+  },
+  {
+    "personId": "hu-cai",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-076",
+        "reason": "Tham gia liên minh cứu viện.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-076",
+        "reason": "Có quân và nhiệm vụ phía sau."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-076",
+        "reason": "Có người dưới quyền."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-076",
+        "reason": "Được mời hỗ trợ hộ tống.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-076",
+        "reason": "Có lực lượng khu vực."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-076",
+        "reason": "Từng là thủ lĩnh Bạch Ba, chưa gán chức năm 196.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "li-le",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-077",
+        "reason": "Lo phương tiện qua sông."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-076",
+        "reason": "Có quân hộ tống."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-077",
+        "reason": "Huy động quân và thuyền."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-077",
+        "reason": "Phối hợp trong tình thế khẩn cấp.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-077",
+        "reason": "Nắm một phần việc hộ tống và vận chuyển."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-076",
+        "reason": "Giúp triều đình, chưa gán chức năm 196.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "han-xian",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-076",
+        "reason": "Tham gia cứu viện và giữ phía sau.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-076",
+        "reason": "Có hoạt động quân sự."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-076",
+        "reason": "Có lực lượng riêng."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-076",
+        "reason": "Tham gia liên minh hỗ trợ vua.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-076",
+        "reason": "Có người theo trong khu vực."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B03-076",
+        "reason": "Từng là thủ lĩnh Bạch Ba, không gán chức sau này.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "qubei",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B03-076",
+        "reason": "Tham gia liên minh cứu viện.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-077",
+        "reason": "Được ghi giữ phía sau."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-076",
+        "reason": "Đem lực lượng Hung Nô hỗ trợ."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-076",
+        "reason": "Phối hợp quân hộ tống."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-076",
+        "reason": "Có địa vị và lực lượng riêng."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-076",
+        "reason": "Có tước vương, nguồn khác nhau về Tả hay Hữu Hiền vương.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "jia-xu",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B03-079",
+        "reason": "Thuyết phục các lực lượng rời đi."
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B03-079",
+        "reason": "Vai trò thuyết phục và thương lượng, không phải chỉ huy trận.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-079",
+        "reason": "Huy động sự đồng thuận."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B03-079",
+        "reason": "Can thiệp cho vua và quan."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-079",
+        "reason": "Có khả năng tiếp cận triều đình."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-079",
+        "reason": "Giữ Tuyên Nghĩa tướng quân."
+      }
+    }
+  },
+  {
+    "personId": "shisun-rui",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B02-027",
+        "reason": "Kế thừa đánh giá từ việc bàn kế năm 192, không có kế mới được ghi.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B02-027",
+        "reason": "Kinh nghiệm trước đó, không gán chiến công năm 195.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B02-027",
+        "reason": "Phạm vi chức vụ và hoạt động cũ, không khẳng định mới.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B02-027",
+        "reason": "Kinh nghiệm triều chính cũ, bị giữ trong khủng hoảng.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-027",
+        "reason": "Quyền thực tế hạn chế khi chạy loạn."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-027",
+        "reason": "Giữ chức Vệ úy trước khi mất."
+      }
+    }
+  },
+  {
+    "personId": "cao-hong",
+    "year": 194,
+    "label": "194",
+    "episodeId": "ep-0008",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-081",
+        "reason": "Hỗ trợ lương thực.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-081",
+        "reason": "Tham gia chiến sự Duyện Châu."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-081",
+        "reason": "Huy động nguồn lực tiếp tế."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B03-081",
+        "reason": "Phục vụ Tào, không có đường lối độc lập.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B03-081",
+        "reason": "Vai trò thuộc tướng và hậu cần."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-081",
+        "reason": "Có vị trí quân sự trong phe Tào.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "duan-wei",
+    "year": 195,
+    "label": "195",
+    "episodeId": "ep-0009",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B03-084",
+        "reason": "Cung ứng cho triều đình và chống cuộc công kích."
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B03-084",
+        "reason": "Giữ được vị trí."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B03-084",
+        "reason": "Duy trì nguồn tiếp tế."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B03-084",
+        "reason": "Được các quan bênh vực."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B03-084",
+        "reason": "Có lực lượng địa phương."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B03-084",
+        "reason": "Giữ Ninh Tập tướng quân."
+      }
+    }
   }
 ]
