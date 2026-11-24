@@ -1,18 +1,7 @@
-# Project Charter — Phase 0
+# Project Charter — current MVP baseline
 
-## Vision
-Vietnamese interactive history reader with witty gossip-style narration, character wiki, cross-linked episodes, timelines, historical atlas and traceable citations.
+Vietnamese beginner-first history reader: Cinematic Reader + Wiki + Historical Atlas, Ink & Silk, witty political gossip without invented facts. Personal-reader purpose; current repository visibility public, not private access.
 
-## Structure
-Era > Arc > Chapter > Episode > Event > Evidence; wiki links bidirectionally.
+Era > Arc > Chapter > Episode > Event > Evidence. Reuse stable cross-linked person/place/event IDs and components. Primary Trần Thọ's 《三國志》 (65 juan: Wei 30, Shu 15, Wu 20); Bùi Tùng Chi commentary and other histories distinct. Follow Historical Rules for Three-Act / Scene–Sequel / Setup–Payoff, attribution, variants, provenance and historical uncertainty.
 
-## Editorial framework
-Hook → Context → Trigger → Stakes → Moves → Turning Point → Fallout → Bigger Picture → Receipts → What's Next. Never invent historical dialogue, thoughts or motives.
-
-## Sources
-Primary: Trần Thọ, 《三國志》 (65 juan: Wei 30, Shu 15, Wu 20). Bùi Tùng Chi's commentary and other histories remain distinct evidence layers.
-
-## Gates
-Phase 0 PRD → 1 Research → 2 Content Pilot → 3 Art/UX → 4 MVP Build → 5 QA/Expansion → 6 Vercel Release. STOP for Human PO approval at each gate.
-
-No Vercel deployment authorized; no paid services without approval.
+MVP already implemented: React + TypeScript + Vite + Leaflet, Markdown/JSON/localStorage, free GitHub Pages. Do not restart phases or introduce paid hosting, Vercel, backend or database. PO controls scope and release. Research, prose, illustration, integration and QA in scoped work packages; no automatic release authorization. Latest Handoff and Decision Log record current baseline and next batch.

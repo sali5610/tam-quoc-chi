@@ -24,3 +24,13 @@
 | DEC-017 | Include noteworthy Romance/folklore versions with explicit literary provenance, comparison and citations; perform completeness sweep, never silently omit | Approved 2026-11-24 |
 
 | DEC-018 | Inline reader includes sourced history/literary comparisons, verifiable public community jokes and clearly labeled original editorial satire; distinct UI provenance required | Approved 2026-11-24 |
+
+## Current decisions / observed state — 2026-11-24 (Chat 00 reconciliation)
+The earlier decisions remain historical records; the following supersede stale descriptions, not retroactive approvals.
+- DEC-001: superseded as factual repository status; GitHub reports PUBLIC. Personal use intent remains distinct from actual access. No visibility change authorized in Chat 00.
+- DEC-006/007: superseded by approved Phase 4 architecture: free GitHub Pages only; React + Vite + TypeScript + Leaflet, Markdown/JSON/localStorage. No Vercel/backend/paid services.
+- DEC-009/012/016: pilot research-only restriction superseded by subsequent PO approval to draft and implement pilot; three episodes exist and are deployed. Separate editorial acceptance is not inferred.
+- DEC-018: community reactions optional and must be real, original satire separately labeled.
+- DEC-019 (PO direction carried from prior work): prioritize 三國志圖像 for suitable verified illustrations; supplement with other suitable sourced artwork; no AI art without explicit request. Ink & Silk remains.
+- DEC-020 (PO instruction for Chat 00): reconcile docs/backlog only, no feature code, narrative or deployment; work package handoff and stop.
+- Release evidence: main 20c0b7cde08914da707cd4b490b780f2c0ea427a, successful runs 45312216495 and 45312216688. Actual public site fetch not independently verified in Chat 00.
