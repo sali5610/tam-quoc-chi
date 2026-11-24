@@ -230,7 +230,7 @@ header.site-header.reading-header .menu{color:var(--v5-ink)}
 .reading-header .reader-dock button{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:3px;font-size:11px;min-height:52px;line-height:1.15}
 .reader-settings button,.person-sheet-top button,.gallery-controls button,.gallery-heading button,.wiki-gallery-action,.reader-context-heading button,.atlas-month button,.atlas-layer-panel button{display:inline-flex;align-items:center;justify-content:center;gap:6px}
 .hand-mark{position:relative;display:inline;box-decoration-break:clone}.hand-circle{display:inline-block}.hand-mark .inline-person{border-bottom:0}
-.decision-seal{display:table;max-width:100%;margin:12px 0 4px auto;border:2px solid #9a342c;outline:1px solid #9a342c;outline-offset:3px;color:#9a342c;padding:5px 9px;text-transform:uppercase;letter-spacing:.08em;font:700 11px/1.4 system-ui;transform:rotate(-3deg);background:#f7f2e8}
+.decision-seal{display:table;max-width:80%;margin:12px 8px 4px auto;transform-origin:right center;overflow-wrap:anywhere;border:2px solid #9a342c;outline:1px solid #9a342c;outline-offset:3px;color:#9a342c;padding:5px 9px;text-transform:uppercase;letter-spacing:.08em;font:700 11px/1.4 system-ui;transform:rotate(-3deg);background:#f7f2e8}
 .decision-seal svg{vertical-align:middle;margin-right:6px}
 .ink-disclosure{position:relative;border:0!important;background:#e9e7da;padding:0 14px!important;margin:20px 0;isolation:isolate}
 .ink-disclosure>summary{display:flex;align-items:center;gap:8px;list-style:none;cursor:pointer;min-height:44px;padding:12px 0;color:#233b38;font:600 14px/1.4 system-ui}
