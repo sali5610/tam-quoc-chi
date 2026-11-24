@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: source-pinned portrait downloads without API dependency; retain full regression gate
+# Release: explicit journey selector and pinned portrait checksums
 on:
   workflow_dispatch:
   push:
@@ -52,7 +52,9 @@ jobs:
           }
           const html=fs.readFileSync('dist/index.html','utf8');
           const asset=html.match(/src="([^"]+\.js)"/)?.[1];
-          if(!asset||!fs.readFileSync('dist/'+asset.replace(/^\.\//,''),'utf8').includes('Atlas characters'))throw Error('Built asset missing character renderer');
+          if(!asset)throw Error('Missing built asset');
+          const bundle=fs.readFileSync('dist/'+asset.replace(/^\.\//,''),'utf8');
+          if(!bundle.includes('Atlas characters')||!bundle.includes('atlas-journey-select'))throw Error('Built asset missing character or journey renderer');
           JS
           rm -rf docs/react-preview
           mkdir -p docs/react-preview
@@ -134,8 +136,12 @@ jobs:
               await dialog.getByRole('button',{name:'Đóng ×'}).click();
               console.log('PASS library portraits, fallback and detail attribution');
               await page.goto(base+'#/read/ep-0002');
-              const selector=page.getByLabel('Hành trình nhân vật');
-              await selector.waitFor();
+              const reader=page.locator('section[data-atlas-year="184"]');
+              await reader.locator('.strategy-board').waitFor({state:'visible'});
+              const selector=reader.getByTestId('atlas-journey-select');
+              try{await selector.waitFor({state:'visible',timeout:5000});}catch(e){console.error('JOURNEY DOM',page.url(),await page.locator('main').innerText(),await page.locator('main select').count());throw e;}
+              const options=await selector.locator('option').evaluateAll(els=>els.map(el=>el.value));
+              if(JSON.stringify(options)!==JSON.stringify(['','huangfu-song-184','zhu-jun-184']))throw Error('Wrong journey options '+JSON.stringify(options));
               if(await page.locator('.atlas-journey-stop').count())throw Error('Journey enabled by default');
               for(const [id,count] of [['huangfu-song-184',6],['zhu-jun-184',4]]){
                 await selector.selectOption(id);
