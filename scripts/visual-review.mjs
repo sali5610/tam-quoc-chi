@@ -39,10 +39,15 @@ for(const engine of [chromium,webkit]){
   if(await page.locator('header.reading-header .reader-tools').count()!==1||await page.locator('main .reader-tools').count())throw Error('Reader toolbar not in header');
   if(await page.locator('header.reading-header a[href="#/library"]').count()||await page.locator('header.reading-header .reader-brand').evaluate(e=>e.tagName!=='SPAN'))throw Error('Duplicate library navigation in Reader header');
   const dock=page.locator('header.reading-header .reader-dock');
+  const locations=dock.getByRole('button',{name:'Địa điểm',exact:true});
+  if(await locations.locator('svg.lucide-map-pin').count()!==1||await footer.getByRole('link',{name:'Atlas',exact:true}).locator('svg.lucide-map').count()!==1||await dock.getByRole('button',{name:'Atlas',exact:true}).count())throw Error('Context and global Atlas not differentiated');
+  await locations.click();await page.waitForFunction(()=>{const r=document.querySelector('#reader-atlas').getBoundingClientRect(),h=document.querySelector('header.reading-header').getBoundingClientRect();return r.top>=h.bottom-2&&r.top<innerHeight});
+  if(!page.url().endsWith('#/read/ep-0002'))throw Error('Episode locations left reader');
+  await page.evaluate(()=>window.scrollTo(0,0));
   if(!await dock.evaluate(e=>[...e.querySelectorAll('button')].every(b=>{const r=b.getBoundingClientRect();return r.height>=44&&r.width>=44&&r.left>=0&&r.right<=innerWidth+1})))throw Error('Reader dock target');
   await shot('reader');
   const art=page.locator('figure.scene-art img').first();await decode(art,'reader-art',true);if(!await dock.evaluate(e=>{const r=e.getBoundingClientRect();return r.top>=0&&r.bottom<innerHeight/2}))throw Error('Reader toolbar is not sticky at top');await shot('reader-art');
-  await page.getByRole('button',{name:'Cài đặt đọc',exact:true}).click();if(!await page.locator('.reader-settings').evaluate(e=>{const r=e.getBoundingClientRect(),h=document.querySelector('header.reading-header').getBoundingClientRect();return r.top>=h.bottom-2&&r.bottom<=innerHeight+1&&r.left>=0&&r.right<=innerWidth+1}))throw Error('Reader settings position');
+  await page.getByRole('button',{name:'Cỡ chữ',exact:true}).click();if(!await page.locator('.reader-settings').evaluate(e=>{const r=e.getBoundingClientRect(),h=document.querySelector('header.reading-header').getBoundingClientRect();return r.top>=h.bottom-2&&r.bottom<=innerHeight+1&&r.left>=0&&r.right<=innerWidth+1}))throw Error('Reader settings position');
   await page.getByRole('button',{name:'Tăng cỡ chữ'}).focus();
   for(let i=0;i<6;i++)await page.getByRole('button',{name:'Tăng cỡ chữ'}).click();
   if(await page.locator('.reader-text').evaluate(e=>e.style.getPropertyValue('--reader-size'))!=='25px')throw Error('Font max');

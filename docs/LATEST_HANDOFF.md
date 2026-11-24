@@ -1,3 +1,6 @@
+# Latest Handoff — Reader contextual navigation labels (2026-11-25)
+- PO approves distinguishing episode map from global Atlas. Reader toolbar now Trong tập / Cỡ chữ / Dấu trang / Địa điểm, MapPin for episode jump and Map for primary Atlas. Existing settings, bookmark and episode map behaviors unchanged; global five-tab footer remains. Updated reading-settings test selectors in CI and live workflow; visual regression now checks distinct icons/labels, local episode jump and route retention. Prior candidate 2b2e31bfe447fbe3f387d2a369f9b2cc618dc58a CI 45475835185 observed in progress. New candidate CODED, CI pending; physical iPhone NOT TESTED. No deploy; next verify exact CI and release approval. STOP.
+
 # Latest Handoff — Reader duplicate navigation correction (2026-11-25)
 - PO rejected duplicate Sử truyện destination in proposed header. Removed top library action and converted linked episode number to static centered label. Preserve Mục lục, four contextual actions in sticky header and shared five-tab bottom nav. Added explicit regression for no library links in reader header. Based on prior navigation candidate 5dd004c5e55b54090c8db3701c5c62348f1dc0eb (CI 45475605397 observed in progress); new candidate pending CI. No deploy or unrelated changes. Next verify exact CI and request PO release approval. STOP.
 

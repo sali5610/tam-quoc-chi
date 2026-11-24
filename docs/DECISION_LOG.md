@@ -75,3 +75,5 @@ The earlier decisions remain historical records; the following supersede stale d
 - DEC-UX-032 (PO, 2026-11-25): live v5.1 visual feedback: improved appearance, but replacing global bottom navigation while reading is inappropriate. Keep the same five primary tabs everywhere (Sử truyện active in Reader); move existing four contextual Reader tools and progress into sticky top header, with settings opening beneath it. Preserve labels, behavior, bookmarks, reading position and Lucide. No unrelated redesign. Release only after regression and PO approval.
 
 - DEC-UX-032 clarification (PO): remove redundant Sử truyện link from Reader header; episode number is a static context label, not another library link. Primary Sử truyện destination exists in persistent bottom navigation only; keep Mục lục and the four contextual Reader tools.
+
+- DEC-UX-032 clarification (PO): approved differentiating contextual Reader actions from app destinations: top labels Trong tập, Cỡ chữ (opens existing reading settings), Dấu trang, Địa điểm (Lucide MapPin, jumps to current episode map); bottom Atlas retains Lucide Map and global route. No changes to map data or destination behavior.
