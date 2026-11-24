@@ -12,19 +12,32 @@ permissions:
 jobs:
   import:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: pip install Pillow
+      - uses: actions/cache/restore@v4
+        with:
+          path: public/story-art/
+          key: story-art-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: story-art-${{ runner.os }}-
       - run: python scripts/import-story-art.py
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: public/story-art/
+          key: story-art-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: story-art
+          path: public/story-art/
+          if-no-files-found: warn
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
       - run: npm ci
       - run: npm run build
-      - uses: actions/upload-artifact@v4
-        with:
-          name: story-art
-          path: public/story-art/
