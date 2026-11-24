@@ -6,7 +6,7 @@ export function CharacterQuotes({name}:{name:string}){
   const quotes=quoteRecords.filter(quote=>quote.personId===personId);
   if(!quotes.length)return null;
   return <section className="character-quotes" aria-label="Lời lưu truyền">
-    <h3>名言 · Lời lưu truyền</h3>
+    <h3>Lời lưu truyền</h3>
     {quotes.map(quote=><article className="character-quote" key={quote.id} data-quote-id={quote.id}>
       <span className="quote-layer">[{quote.layer}]</span>
       <blockquote><p>{quote.translation}</p></blockquote>

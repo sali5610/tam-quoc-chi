@@ -66,7 +66,7 @@ try {
     await dialog.waitFor();
     if(await dialog.locator('img.historical-portrait').getAttribute('src')!==src)throw Error('Inconsistent portrait in detail');
     await dialog.locator('img').evaluate(el=>el.decode());
-    await dialog.locator('.portrait-credit a').waitFor();
+    await dialog.locator('.wiki-sources summary').click();await dialog.locator('.portrait-credit a').waitFor();
     await dialog.getByRole('button',{name:'Đóng ×'}).click();
     console.log('PASS library portraits, fallback and detail attribution');
     await page.goto(base+'#/read/ep-0002');
@@ -114,7 +114,7 @@ try {
         await marker.scrollIntoViewIfNeeded();await marker.click();
       }else{await fallback.first().click();console.log('UNRESOLVED location (explicit fallback)',event)}
       const sheet=page.getByRole('dialog',{name:'Chi tiết sự kiện'});
-      await sheet.waitFor();check((await sheet.innerText()).includes('EVD-B02-'),'missing event evidence');
+      await sheet.waitFor();check(!(await sheet.innerText()).includes('EVD-'),'event internal ID leaked');await sheet.locator('.atlas-event-sources summary').click();
       await sheet.locator('a[href*="wikisource.org"]').waitFor();
       await page.getByRole('button',{name:'Đóng sự kiện'}).click();
       check(await page.getByRole('link',{name:'Xem trên sa bàn →'}).getAttribute('href')==='#/atlas/'+year,'incorrect atlas route '+id);

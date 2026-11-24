@@ -17,7 +17,7 @@ export function CharacterRadar({name,close}:{name:string;close:()=>void}){
  const values=axes.map(([key])=>ratings[key]?.level);
  const coords=values.map((v,i)=>v===undefined?null:pt(i,v*18));
  return <section className="character-radar" aria-label="Lục diện nhân vật">
- <span className="eyebrow">人物六維</span><h3>Lục diện nhân vật</h3>
+ <h3>Lục diện nhân vật</h3>
  <p className="radar-note">[Suy luận] Tổng hợp biên tập theo sử liệu từng mốc. Không phải điểm gốc trong sử sách.</p>
  <label className="radar-select">Mốc thời gian <select value={index} onChange={e=>setIndex(Number(e.target.value))}>{timeline.map((s,i)=><option key={s.label} value={i}>{s.label}</option>)}</select></label>
  <div className="radar-steps">{timeline.map((s,i)=><button key={s.label} aria-pressed={index===i} onClick={()=>setIndex(i)}>{s.year}{s.label.startsWith('Cuối')?'*':''}</button>)}</div>
@@ -28,9 +28,9 @@ export function CharacterRadar({name,close}:{name:string;close:()=>void}){
  {coords.map((p,i)=>{const q=coords[(i+1)%6];return p&&q?<line key={i} x1={p[0]} y1={p[1]} x2={q[0]} y2={q[1]} stroke="#a18453" strokeWidth="2.5"/>:null})}
  {coords.map((p,i)=>p?<circle key={i} cx={p[0]} cy={p[1]} r="4.5" fill="#a18453" stroke="currentColor" strokeWidth=".5"/>:null)}
  </svg>
- <p className="radar-note">1–5: mức thể hiện tại mốc, từ hạn chế đến rất cao. *: ước lượng biên tập độ tin cậy thấp, không phải kết luận về tài năng tiềm ẩn. Quyền lực là thực quyền; chính danh là mức thừa nhận ở mốc đó, không phải đạo đức.</p>
- <details className="radar-explain"><summary>Vì sao có đánh giá này?</summary>
- <dl>{axes.map(([k,l])=>{const v=ratings[k];return <div key={k}><dt>{l} · {v?levels[v.level]+' ('+v.level+'/5)':'Chưa đủ chứng cứ'}</dt><dd>{v?<>{v.confidence==='low'&&<strong>Ước lượng · độ tin cậy thấp. </strong>}{v.reason} <small>{v.evidence}</small></>:'Không suy từ chức danh hay sự im lặng của sử liệu.'}</dd></div>})}</dl>
+ <p className="radar-note">Đánh giá tham khảo theo từng thời kỳ. *: Ước lượng độ tin cậy thấp.</p>
+ <details className="radar-explain"><summary>Vì sao có đánh giá này?</summary><p className="radar-note">1–5: hạn chế → rất cao. Quyền lực là thực quyền; chính danh là mức thừa nhận, không phải đạo đức hay tài năng tiềm ẩn.</p>
+ <dl>{axes.map(([k,l])=>{const v=ratings[k];return <div key={k}><dt>{l} · {v?levels[v.level]+' ('+v.level+'/5)':'Chưa đủ chứng cứ'}</dt><dd>{v?<>{v.confidence==='low'&&<strong>Ước lượng · độ tin cậy thấp. </strong>}{v.reason}</>:'Không suy từ chức danh hay sự im lặng của sử liệu.'}</dd></div>})}</dl>
  <a href={'#/read/'+snap.episodeId} onClick={close}>Đọc diễn biến liên quan</a></details>
  </section>
 }
