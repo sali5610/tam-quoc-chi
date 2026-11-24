@@ -1,0 +1,112 @@
+[
+  {
+    "episode": "ep-0001",
+    "anchor": "Chiếc ngai vàng quá lớn",
+    "file": "Late Eastern Han pottery castle.JPG",
+    "caption": "Mô hình thành lũy bằng gốm thời Đông Hán",
+    "kind": "Hiện vật bối cảnh"
+  },
+  {
+    "episode": "ep-0001",
+    "anchor": "Chiếc ngai vàng quá lớn",
+    "file": "東漢 鉛綠釉陶明器建築模型（一組）-Multistoried Watchtower with Front Court MET 2000 662 3 L35614.jpg",
+    "caption": "Mô hình kiến trúc Đông Hán — The Met",
+    "kind": "Hiện vật bối cảnh"
+  },
+  {
+    "episode": "ep-0002",
+    "anchor": "Trương Giác:",
+    "file": "Zhang Jue Qing portrait.jpg",
+    "caption": "Trương Giác trong tranh đời Thanh",
+    "kind": "Chân dung hậu thế"
+  },
+  {
+    "episode": "ep-0002",
+    "anchor": "Hai họ Lưu, Tôn",
+    "file": "RTK - 002.jpg",
+    "caption": "Lưu Bị, Quan Vũ, Trương Phi giao chiến với Khăn Vàng",
+    "kind": "Minh họa diễn nghĩa"
+  },
+  {
+    "episode": "ep-0002",
+    "anchor": "Hai họ Lưu, Tôn",
+    "file": "桃园三结义（余象斗评本）.png",
+    "caption": "Kết nghĩa vườn đào — bản khắc đời Minh",
+    "kind": "Minh họa diễn nghĩa"
+  },
+  {
+    "episode": "ep-0002",
+    "anchor": "Hai họ Lưu, Tôn",
+    "file": "RTK - 001.jpg",
+    "caption": "Kết nghĩa vườn đào — phiên bản tranh đời Thanh",
+    "kind": "Minh họa diễn nghĩa"
+  },
+  {
+    "episode": "ep-0003",
+    "anchor": "Hoàng đế vừa mất",
+    "file": "He Jin Qing illustration.jpg",
+    "caption": "Hà Tiến trong tranh đời Thanh",
+    "kind": "Chân dung hậu thế"
+  },
+  {
+    "episode": "ep-0003",
+    "anchor": "Đổng Trác: từ khách",
+    "file": "Dong Zhuo Qing Dynasty Illustration.jpg",
+    "caption": "Đổng Trác trong tranh đời Thanh",
+    "kind": "Chân dung hậu thế"
+  },
+  {
+    "episode": "ep-0003",
+    "anchor": "Vị hoàng đế chín tuổi",
+    "file": "Dong Zhuo plots to depose Emperor Shao of Han.jpg",
+    "caption": "Đổng Trác mưu phế Hán Thiếu Đế — tranh đời Minh",
+    "kind": "Minh họa diễn nghĩa"
+  },
+  {
+    "episode": "ep-0002",
+    "anchor": "một cảnh mở màn quá đẹp",
+    "file": "sl-0004-peach-oath",
+    "caption": "Kết nghĩa vườn đào — Tam Quốc Chí Đồ Tượng, hồi 1",
+    "kind": "Minh họa diễn nghĩa",
+    "placement": "paragraph",
+    "source": "https://sourcelibrary.org/zh/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms/page/6992f3d7dc69844b023ff3d5"
+  },
+  {
+    "episode": "ep-0003",
+    "anchor": "Hà Tiến bàn chuyện trừ hoạn quan",
+    "file": "sl-0006-he-jin",
+    "caption": "Hà Tiến mưu trừ Thập thường thị — tranh khắc đời Thanh",
+    "kind": "Minh họa diễn nghĩa",
+    "placement": "paragraph",
+    "source": "https://sourcelibrary.org/zh/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms/page/6992f3d7dc69844b023ff3d7"
+  },
+  {
+    "episode": "ep-0003",
+    "anchor": "Trần Lưu vương** lên thay",
+    "file": "sl-0006-dong-zhuo",
+    "caption": "Đổng Trác bàn lập Trần Lưu vương — hồi 3",
+    "kind": "Minh họa diễn nghĩa",
+    "placement": "paragraph",
+    "source": "https://sourcelibrary.org/zh/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms/page/6992f3d7dc69844b023ff3d7"
+  },
+  {
+    "episode": "ep-0002",
+    "anchor": "ông theo **Trâu Tĩnh** đánh Khăn Vàng",
+    "file": "sl-0005-luu-bi-doc-buu",
+    "caption": "Lưu Huyền Đức lập công — Tam Quốc Chí Đồ Tượng, hồi 2",
+    "kind": "Minh họa diễn nghĩa",
+    "placement": "paragraph",
+    "source": "https://sourcelibrary.org/zh/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms/page/6992f3d7dc69844b023ff3d6",
+    "crop": "right"
+  },
+  {
+    "episode": "ep-0002",
+    "anchor": "Tiểu thuyết trao màn nổi nóng cho Trương Phi",
+    "file": "sl-0005-luu-bi-doc-buu",
+    "caption": "Trương Phi đánh Đốc bưu — Tam Quốc Chí Đồ Tượng, hồi 2",
+    "kind": "Minh họa diễn nghĩa",
+    "placement": "paragraph",
+    "source": "https://sourcelibrary.org/zh/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms/page/6992f3d7dc69844b023ff3d6",
+    "crop": "left"
+  }
+]

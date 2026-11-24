@@ -1,0 +1,288 @@
+{
+  "edition": "三國志圖像",
+  "publication": "1644–1735",
+  "institution": "Library of Congress",
+  "mirror": "https://sourcelibrary.org/zh/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms",
+  "gallery": "https://sourcelibrary.org/gallery?bookId=6992f3d6dc69844b023ff3d1",
+  "sourceReportedScans": 127,
+  "sourceReportedGalleryItems": 150,
+  "notes": "Candidate page index based on mirror table of contents plus inspected scan 5. Not verified image crops or historical evidence. Inspect each scan before mapping.",
+  "pages": [
+    {
+      "page": 4,
+      "topics": "Kết nghĩa vườn đào",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=4",
+      "status": "partially-bundled"
+    },
+    {
+      "page": 5,
+      "topics": "Lưu Bị lập công; Trương Phi đánh Đốc bưu",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=5",
+      "status": "partially-bundled"
+    },
+    {
+      "page": 6,
+      "topics": "Hà Tiến mưu trừ hoạn quan; Đổng Trác bàn lập Trần Lưu vương",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=6",
+      "status": "partially-bundled"
+    },
+    {
+      "page": 13,
+      "topics": "Lý Giác và Quách Dĩ; biến động Trường An",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=13",
+      "status": "candidate"
+    },
+    {
+      "page": 18,
+      "topics": "Tôn Sách giao chiến Thái Sử Từ; Lữ Bố chiếm Từ Châu",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=18",
+      "status": "candidate"
+    },
+    {
+      "page": 19,
+      "topics": "Lữ Bố bắn kích; Tôn Sách đánh Nghiêm Bạch Hổ",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=19",
+      "status": "candidate"
+    },
+    {
+      "page": 30,
+      "topics": "Quan Vũ trả ấn, đi ngàn dặm",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=30",
+      "status": "candidate"
+    },
+    {
+      "page": 31,
+      "topics": "Quan Vũ qua năm ải",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=31",
+      "status": "candidate"
+    },
+    {
+      "page": 34,
+      "topics": "Quan Độ; Tôn Quyền cai quản Giang Đông",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=34",
+      "status": "candidate"
+    },
+    {
+      "page": 38,
+      "topics": "Kế của Quách Gia ở Liêu Đông; Lưu Bị rời Phàn Thành",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=38",
+      "status": "candidate"
+    },
+    {
+      "page": 42,
+      "topics": "Tam cố thảo lư; Long Trung đối sách",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=42",
+      "status": "candidate"
+    },
+    {
+      "page": 47,
+      "topics": "Gia Cát Lượng thuyết Chu Du; Lưu Bị chạy tới Hạ Khẩu",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=47",
+      "status": "candidate"
+    },
+    {
+      "page": 48,
+      "topics": "Gia Cát Lượng tranh luận với quần nho; Chu Du lập kế chống Tào",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=48",
+      "status": "candidate"
+    },
+    {
+      "page": 49,
+      "topics": "Chu Du giao chiến với Tào; Gia Cát Lượng khích Tôn Quyền",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=49",
+      "status": "candidate"
+    },
+    {
+      "page": 52,
+      "topics": "Tào Tháo làm thơ; Bàng Thống hiến liên hoàn kế",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=52",
+      "status": "candidate"
+    },
+    {
+      "page": 53,
+      "topics": "Thất tinh đàn; Tào Tháo duyệt thủy quân",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=53",
+      "status": "candidate"
+    },
+    {
+      "page": 59,
+      "topics": "Triệu Vân cứu chúa theo cẩm nang; Lưu Bị cưới Tôn phu nhân",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=59",
+      "status": "candidate"
+    },
+    {
+      "page": 60,
+      "topics": "Yến Đồng Tước đài; Gia Cát Lượng chọc giận Chu Du",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=60",
+      "status": "candidate"
+    },
+    {
+      "page": 69,
+      "topics": "Gia Cát Lượng lập kế bắt Trương Nhiệm",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=69",
+      "status": "candidate"
+    },
+    {
+      "page": 70,
+      "topics": "Dương Phụ mượn quân đánh Mã Siêu",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=70",
+      "status": "candidate"
+    },
+    {
+      "page": 74,
+      "topics": "Tào Tháo thử Quản Lộ; Tả Từ",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=74",
+      "status": "candidate"
+    },
+    {
+      "page": 75,
+      "topics": "Trương Phi đánh Trương Hợp; âm mưu chống Tào",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=75",
+      "status": "candidate"
+    },
+    {
+      "page": 78,
+      "topics": "Lưu Bị làm Hán Trung vương; Dương Tu bị xử tử",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=78",
+      "status": "candidate"
+    },
+    {
+      "page": 80,
+      "topics": "Quan Vũ làm ngập bảy đạo quân; cạo xương trị độc",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=80",
+      "status": "candidate"
+    },
+    {
+      "page": 81,
+      "topics": "Quan Vũ giao chiến Từ Hoảng; Lã Mông lấy Kinh Châu",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=81",
+      "status": "candidate"
+    },
+    {
+      "page": 84,
+      "topics": "Tào Thực làm thơ bảy bước; Tào Phi chấp chính",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=84",
+      "status": "candidate"
+    },
+    {
+      "page": 87,
+      "topics": "Triệu Tư đi sứ; Lưu Bị đánh Ngô",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=87",
+      "status": "candidate"
+    },
+    {
+      "page": 88,
+      "topics": "Cứu Trương Bào; chiến sự Hiêu Đình",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=88",
+      "status": "candidate"
+    },
+    {
+      "page": 90,
+      "topics": "Bạch Đế thác cô; trận Bát Quái",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=90",
+      "status": "candidate"
+    },
+    {
+      "page": 91,
+      "topics": "Tần Mật đối đáp Trương Ôn; quân Ngụy tiến Tây Xuyên",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=91",
+      "status": "candidate"
+    },
+    {
+      "page": 92,
+      "topics": "Gia Cát Lượng đi đánh Mạnh Hoạch; Phạm Cương, Trương Đạt sang Ngô",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=92",
+      "status": "candidate"
+    },
+    {
+      "page": 93,
+      "topics": "Bảy lần bắt Mạnh Hoạch",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=93",
+      "status": "candidate"
+    },
+    {
+      "page": 99,
+      "topics": "Gia Cát Lượng đối phó chiến xa; chiến sự Kỳ Sơn",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=99",
+      "status": "candidate"
+    },
+    {
+      "page": 100,
+      "topics": "Tư Mã Ý lấy Nhai Đình; bắt Mạnh Đạt",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=100",
+      "status": "candidate"
+    },
+    {
+      "page": 101,
+      "topics": "Gia Cát Lượng khiến Tư Mã Ý lui quân",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=101",
+      "status": "candidate"
+    },
+    {
+      "page": 102,
+      "topics": "Gia Cát Lượng xử Mã Tốc",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=102",
+      "status": "candidate"
+    },
+    {
+      "page": 107,
+      "topics": "Gia Cát Lượng lần thứ năm ra Kỳ Sơn; Bát trận",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=107",
+      "status": "candidate"
+    },
+    {
+      "page": 109,
+      "topics": "Mộc ngưu lưu mã; chiến sự Mộc Sách",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=109",
+      "status": "candidate"
+    },
+    {
+      "page": 114,
+      "topics": "Ngô–Ngụy giao chiến ở Nhu Tu; Khương Duy ở núi Ngưu Đầu",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=114",
+      "status": "candidate"
+    },
+    {
+      "page": 115,
+      "topics": "Khương Duy vây Tư Mã Chiêu; Tôn Tuấn mưu giết Gia Cát Khác",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=115",
+      "status": "candidate"
+    },
+    {
+      "page": 118,
+      "topics": "Vu Thuyên; Tư Mã Chiêu đánh Gia Cát Đản",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=118",
+      "status": "candidate"
+    },
+    {
+      "page": 119,
+      "topics": "Tôn Lâm phế Tôn Lượng; Khương Duy đánh Đặng Ngải",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=119",
+      "status": "candidate"
+    },
+    {
+      "page": 121,
+      "topics": "Khương Duy đánh Thao Dương",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=121",
+      "status": "candidate"
+    },
+    {
+      "page": 122,
+      "topics": "Chung Hội, Đặng Ngải lấy Hán Trung; Khương Duy đồn điền",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=122",
+      "status": "candidate"
+    },
+    {
+      "page": 123,
+      "topics": "Đặng Ngải qua Âm Bình; Khương Duy giữ Kiếm Môn",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=123",
+      "status": "candidate"
+    },
+    {
+      "page": 126,
+      "topics": "Tư Mã Viêm nhận thiện nhượng; Dương Hỗ tiến cử Đỗ Dự",
+      "source": "https://sourcelibrary.org/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms?page=126",
+      "status": "candidate"
+    }
+  ]
+}
