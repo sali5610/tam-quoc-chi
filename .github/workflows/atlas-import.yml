@@ -1,0 +1,26 @@
+name: Inspect historical atlas dataset
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          curl --fail --location --retry 2 --max-time 60 https://swordandstate.com/history-open/atlas.json -o atlas.json
+          python - <<'PY'
+          import json
+          d=json.load(open('atlas.json'))
+          assert d.get('license')=='CC-BY-SA-4.0'
+          for k,v in d.items():
+              print(k,type(v).__name__,len(v) if isinstance(v,(dict,list,str)) else v)
+              if isinstance(v,list) and v:
+                  print(json.dumps(v[0],ensure_ascii=False)[:2500])
+              elif isinstance(v,dict):
+                  print(list(v.keys())[:40])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: historical-atlas-source
+          path: atlas.json
+          retention-days: 3
