@@ -153,4 +153,4 @@ Nhà Hán vẫn chưa chính thức kết thúc. Nhưng từ nay, chỉ nhìn v�
 - Tháng sáu: Trường An thất thủ, Lữ Bố rời thành, Vương Doãn bị giết; dị bản thời gian vây thành giữ riêng.
 - Tháng chín: chức vụ các tướng cũ của Đổng Trác theo biên niên; biến động Khăn Vàng ở Duyện Châu trong năm 192 làm cầu nối, không khẳng định thứ tự tương đối với tháng chín.
 - Nhân vật trọng tâm: Đổng Trác, Lữ Bố, Vương Doãn, Hán Hiến Đế, Sĩ Tôn Thụy, Lý Giác, Quách Dĩ, Giả Hủ; phụ trợ: Lý Túc, Hoàng Phủ Tung, Ngưu Phụ, Trương Tế, Phàn Trù, Lưu Đại, Tào Tháo. Điêu Thuyền chỉ xuất hiện trong lớp đối chiếu tiểu thuyết.
-- Đọc trước: [EP-0005](EP-0005_KẺ_THÙ_CÒN_SỐNG_ĐỒNG_MINH_ĐÃ_TRỞ_MẶT.md). Đọc sau: batch tiếp theo chưa được chốt; không tạo liên kết giả.
+- Đọc trước: [EP-0005](EP-0005_KẺ_THÙ_CÒN_SỐNG_ĐỒNG_MINH_ĐÃ_TRỞ_MẶT.md). Đọc sau: [EP-0007](EP-0007_DỰNG_THẾ_LỰC_TẠI_DUYỆN_CHÂU.md).
