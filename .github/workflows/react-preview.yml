@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: transparent character overlay UI
+# Release: character readability and label collision regression
 on:
   workflow_dispatch:
   push:
@@ -77,6 +77,8 @@ jobs:
               if(!ok)throw Error('Marker clipped or obscured: '+name);
               const transparent=await marker.evaluate(el=>{const s=getComputedStyle(el);return (s.backgroundColor==='rgba(0, 0, 0, 0)'||s.backgroundColor==='transparent')&&s.borderTopWidth==='0px'&&s.boxShadow==='none'});
               if(!transparent)throw Error('Opaque character overlay: '+name);
+              await marker.locator('.atlas-person-name').first().waitFor({state:'visible'});
+              await page.waitForFunction(()=>{const root=document.querySelector('main .strategy-board');const marker=root?.querySelector('.atlas-person-marker');if(!root||!marker)return false;const r=marker.getBoundingClientRect();return Array.from(root.querySelectorAll('.atlas-auto-label')).filter(el=>getComputedStyle(el).visibility!=='hidden').every(el=>{const b=el.getBoundingClientRect();return b.right<=r.left||b.left>=r.right||b.bottom<=r.top||b.top>=r.bottom})},{},{timeout:5000});
               if(id!=='ep-0001')await marker.locator('.atlas-local-relation svg').waitFor({state:'visible'});
               await marker.click();
               await page.getByRole('dialog',{name:'Chi tiết sự kiện'}).waitFor({state:'visible'});
