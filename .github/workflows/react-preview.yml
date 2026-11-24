@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: Vietnamese map labels
+# Release: character and relationship layers
 on:
   workflow_dispatch:
   push:
