@@ -50,6 +50,10 @@ jobs:
               console.log('PASS input',e.id,city.name,city.p,city.precision,e.people);
             }
           }
+          const resolution=JSON.parse(fs.readFileSync('evidence/BATCH_03_ATLAS_RESOLUTION.json','utf8'));
+          for(const p of resolution.places){const loc=resolveAtlasPlace(atlas,pilot.places.find(x=>x.id===p.id));if(p.display==='site'||p.display==='region'){if(loc?.precision!==p.display||!loc.p.every(Number.isFinite))throw Error('B03 resolver mismatch '+p.id);}else if(loc)throw Error('Invented location '+p.id);}
+          for(const e of pilot.events.filter(e=>e.episode>='ep-0007')){const loc=resolveAtlasPlace(atlas,pilot.places.find(x=>x.id===e.place));if(!loc||!loc.p.every(Number.isFinite))throw Error('Unresolved B03 event '+e.id);}
+          console.log('PASS B03 45 place precision and 17 event anchors');
           const registry=JSON.parse(fs.readFileSync('content/atlas/portraits.json','utf8'));
           const enabled=registry.portraits.filter(p=>p.enabled);
           if(enabled.length!==8||new Set(enabled.map(p=>p.id)).size!==enabled.length)throw Error('Unexpected portrait coverage');
@@ -76,6 +80,7 @@ jobs:
           trap 'kill "$server_pid" 2>/dev/null || true' EXIT
           curl --fail --silent --show-error --retry 5 --retry-connrefused --retry-delay 1 --max-time 5 http://localhost:4173/tam-quoc-chi/ >/dev/null
           node scripts/browser-smoke.mjs
+          node scripts/batch-03-atlas-smoke.mjs
       - name: All-episode visual regression
         timeout-minutes: 5
         run: |

@@ -2732,7 +2732,7 @@
         "EVD-B03-006"
       ],
       "type": "documented",
-      "direction": "directed",
+      "direction": "mutual",
       "sources": [
         {
           "url": "https://zh.wikisource.org/wiki/三國志/卷01",
@@ -2789,7 +2789,7 @@
         "EVD-B03-010"
       ],
       "type": "documented",
-      "direction": "directed",
+      "direction": "mutual",
       "sources": [
         {
           "url": "https://zh.wikisource.org/wiki/資治通鑑/卷060",
@@ -2810,7 +2810,7 @@
         "EVD-B03-062"
       ],
       "type": "documented",
-      "direction": "directed",
+      "direction": "mutual",
       "sources": [
         {
           "url": "https://zh.wikisource.org/wiki/三國志/卷01",
@@ -2852,7 +2852,7 @@
         "EVD-B03-020"
       ],
       "type": "documented",
-      "direction": "directed",
+      "direction": "mutual",
       "sources": [
         {
           "url": "https://zh.wikisource.org/wiki/三國志/卷32",
@@ -2909,7 +2909,7 @@
         "EVD-B03-024"
       ],
       "type": "documented",
-      "direction": "directed",
+      "direction": "mutual",
       "sources": [
         {
           "url": "https://zh.wikisource.org/wiki/三國志/卷07",
@@ -3118,7 +3118,7 @@
         "EVD-B03-032"
       ],
       "type": "documented",
-      "direction": "directed",
+      "direction": "mutual",
       "sources": [
         {
           "url": "https://zh.wikisource.org/wiki/三國志/卷01",
@@ -3175,7 +3175,7 @@
         "EVD-B03-040"
       ],
       "type": "documented",
-      "direction": "directed",
+      "direction": "mutual",
       "sources": [
         {
           "url": "https://zh.wikisource.org/wiki/三國志/卷01",
@@ -3256,7 +3256,7 @@
         "EVD-B03-043"
       ],
       "type": "documented",
-      "direction": "directed",
+      "direction": "mutual",
       "sources": [
         {
           "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
@@ -3389,7 +3389,7 @@
         "EVD-B03-047"
       ],
       "type": "documented",
-      "direction": "directed",
+      "direction": "mutual",
       "sources": [
         {
           "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
@@ -3408,7 +3408,7 @@
         "EVD-B03-047"
       ],
       "type": "documented",
-      "direction": "directed",
+      "direction": "mutual",
       "sources": [
         {
           "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
@@ -3504,7 +3504,7 @@
         "EVD-B03-055"
       ],
       "type": "documented",
-      "direction": "directed",
+      "direction": "mutual",
       "sources": [
         {
           "url": "https://zh.wikisource.org/wiki/三國志/卷01",
@@ -3910,6 +3910,26 @@
           "url": "https://zh.wikisource.org/wiki/三國志/卷06",
           "label": "三國志/卷06"
         }
+      ],
+      "edges": [
+        {
+          "from": "ju-shou",
+          "to": "yuan-shao",
+          "label": "Khuyên đón thiên tử",
+          "direction": "directed"
+        },
+        {
+          "from": "guo-tu",
+          "to": "yuan-shao",
+          "label": "Dị bản: khuyên đón / phản đối",
+          "direction": "directed"
+        },
+        {
+          "from": "chunyu-qiong",
+          "to": "yuan-shao",
+          "label": "Phản đối theo Bùi chú",
+          "direction": "directed"
+        }
       ]
     },
     {
@@ -3927,6 +3947,20 @@
         {
           "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
           "label": "後漢書/卷9"
+        }
+      ],
+      "edges": [
+        {
+          "from": "yuan-shao",
+          "to": "qu-yi",
+          "label": "Sai tướng",
+          "direction": "directed"
+        },
+        {
+          "from": "qu-yi",
+          "to": "gongsun-zan",
+          "label": "Đánh bại",
+          "direction": "directed"
         }
       ]
     }

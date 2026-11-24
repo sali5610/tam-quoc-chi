@@ -35,3 +35,12 @@ for(const q of quotes)if(!peopleIds.has(q.personId)||!q.original||!q.translation
 for(const e of staged.atlas.events){const actual=atlas.events.find(x=>x.id===e.id);if(!actual||actual.year!==e.year||actual.place!==e.place||JSON.stringify(actual.people)!==JSON.stringify(e.markers.map(x=>x.person))||!actual.sources.length)throw Error('B03 event mismatch '+e.id);}
 for(const r of staged.atlas.relations){const actual=atlas.relations.find(x=>x.id===r.id);if(!actual||actual.from!==r.from||actual.to!==r.to||actual.event!==r.event||!actual.sources.length)throw Error('B03 relation mismatch '+r.id);}
 console.log('Validated B03 Atlas data and Wiki counts');
+
+const resolved=JSON.parse(fs.readFileSync('evidence/BATCH_03_ATLAS_RESOLUTION.json','utf8'));
+for(const p of resolved.places){const a=atlas.places.find(x=>x.id===p.id);if(!a||a.display!==p.display||JSON.stringify(a.regionAliases)!==JSON.stringify(p.regionAliases)||p.id!=='changan'&&JSON.stringify(a.atlasIds)!==JSON.stringify(p.atlasIds))throw Error('Atlas place precision mismatch '+p.id);}
+const court=atlas.trajectories.find(t=>t.id==='xiandi-195');if(!court||court.stops.length!==11||JSON.stringify(court.expectedSegments)!==JSON.stringify(resolved.journey.expectedSegments)||!court.allApproximate||court.stops[8].place!=='yellow-river-crossing'||!atlas.places.find(p=>p.id==='yellow-river-crossing')||atlas.places.find(p=>p.id==='yellow-river-crossing').atlasIds.length)throw Error('Court journey policy');
+if(atlas.additionalGraphContexts.length!==2||atlas.additionalGraphContexts.some(c=>!c.sources.length||!c.edges.length||c.edges.some(e=>!peopleIds.has(e.from)||!peopleIds.has(e.to))))throw Error('Missing graph context');
+if(portraits.fallback.length!==59||new Set([...portraits.fallback,...portraits.portraits.filter(p=>p.enabled).map(p=>p.id)]).size!==67)throw Error('Portrait fallback coverage');
+for(const person of atlas.people){const refs=entities.references[person.name];for(const ep of visualEpisodes){const text=fs.readFileSync(ep.source,'utf8').split(/^---\\s*$/m)[0].replaceAll('**','');if(text.includes(person.name)!==refs.episodes.includes(ep.id))throw Error('Wiki backlink '+person.id+' '+ep.id);}}
+for(const e of staged.atlas.events){const ep=visualEpisodes.find(p=>p.id===e.episode);if(!fs.readFileSync(ep.source,'utf8').replaceAll('**','').includes(e.anchor))throw Error('Missing Atlas story anchor '+e.id);}
+console.log('PASS B03 place policy, court route, graph context, 67 Wiki backlinks, 17 event anchors');
