@@ -34,12 +34,14 @@ for(const engine of [chromium,webkit]){
   await shot('home');
   await page.goto(base+'#/read/ep-0002');await page.locator('.reader-hero h1').waitFor();
   await page.locator('.story-content>p').first().waitFor({state:'attached'});
-  if(await page.locator('footer').count())throw Error('Duplicate reader navigation');
-  const dock=page.locator('.reader-dock');
+  const footer=page.locator('footer[aria-label="Điều hướng chính"]');
+  if(await footer.count()!==1||await footer.locator('a').count()!==5||await footer.locator('a[aria-current="page"]').getAttribute('href')!=='#/library')throw Error('Primary navigation inconsistent in Reader');
+  if(await page.locator('header.reading-header .reader-tools').count()!==1||await page.locator('main .reader-tools').count())throw Error('Reader toolbar not in header');
+  const dock=page.locator('header.reading-header .reader-dock');
   if(!await dock.evaluate(e=>[...e.querySelectorAll('button')].every(b=>{const r=b.getBoundingClientRect();return r.height>=44&&r.width>=44&&r.left>=0&&r.right<=innerWidth+1})))throw Error('Reader dock target');
   await shot('reader');
-  const art=page.locator('figure.scene-art img').first();await decode(art,'reader-art',true);await shot('reader-art');
-  await page.getByRole('button',{name:'Cài đặt đọc',exact:true}).click();
+  const art=page.locator('figure.scene-art img').first();await decode(art,'reader-art',true);if(!await dock.evaluate(e=>{const r=e.getBoundingClientRect();return r.top>=0&&r.bottom<innerHeight/2}))throw Error('Reader toolbar is not sticky at top');await shot('reader-art');
+  await page.getByRole('button',{name:'Cài đặt đọc',exact:true}).click();if(!await page.locator('.reader-settings').evaluate(e=>{const r=e.getBoundingClientRect(),h=document.querySelector('header.reading-header').getBoundingClientRect();return r.top>=h.bottom-2&&r.bottom<=innerHeight+1&&r.left>=0&&r.right<=innerWidth+1}))throw Error('Reader settings position');
   await page.getByRole('button',{name:'Tăng cỡ chữ'}).focus();
   for(let i=0;i<6;i++)await page.getByRole('button',{name:'Tăng cỡ chữ'}).click();
   if(await page.locator('.reader-text').evaluate(e=>e.style.getPropertyValue('--reader-size'))!=='25px')throw Error('Font max');

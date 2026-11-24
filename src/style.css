@@ -127,20 +127,20 @@ body:has(.home-layout) footer,body:has(.library-layout) footer{background:var(--
 .reader-layout .episode-sources{background:none;border:0;border-top:1px solid var(--v5-line);padding:16px 0;margin:36px 0 10px}
 .reader-layout .episode-sources summary{font:600 14px/1.5 system-ui;min-height:44px;padding:9px 0;color:var(--v5-muted)}
 .reader-layout .episode-sources p{font:14px/1.6 system-ui;overflow-wrap:anywhere}
-.reader-layout .reader-tools{position:fixed;top:auto;bottom:0;left:0;right:0;z-index:24;background:var(--v5-paper);border-top:1px solid var(--v5-line);margin:0;padding-bottom:env(safe-area-inset-bottom)}
-.reader-layout .reader-progress{height:2px;background:var(--v5-line)}.reader-layout .reader-progress span{background:var(--v5-seal)}
-.reader-layout .reader-dock{display:flex;justify-content:space-around;gap:0;max-width:720px;margin:auto;padding:6px;overflow:visible}
-.reader-layout .reader-dock button{flex:1;min-width:0;min-height:48px;background:none;border:0;font:600 12px/1.3 system-ui;color:var(--v5-ink);padding:4px 3px;white-space:normal}
-.reader-layout .reader-dock .saved{color:var(--v5-seal);background:none}
-.reader-settings{position:absolute;bottom:calc(100% + 8px);right:max(12px,calc((100vw - 700px)/2));width:min(320px,calc(100vw - 24px));background:var(--v5-raised);border:1px solid var(--v5-line);padding:14px;box-shadow:0 8px 28px #242b2a22;display:grid;gap:8px;font:14px/1.5 system-ui}
+.reading-header .reader-tools{position:relative;grid-column:1/-1;top:auto;bottom:auto;left:auto;right:auto;z-index:auto;background:var(--v5-paper);border-top:1px solid var(--v5-line);margin:0;padding:0;min-width:0;display:flex;flex-direction:column}
+.reading-header .reader-progress{height:2px;background:var(--v5-line)}.reading-header .reader-progress span{background:var(--v5-seal)}
+.reading-header .reader-dock{display:flex;justify-content:space-around;gap:0;max-width:720px;margin:auto;padding:6px;overflow:visible}
+.reading-header .reader-dock button{flex:1;min-width:0;min-height:48px;background:none;border:0;font:600 12px/1.3 system-ui;color:var(--v5-ink);padding:4px 3px;white-space:normal}
+.reading-header .reader-dock .saved{color:var(--v5-seal);background:none}
+.reader-settings{position:absolute;top:calc(100% + 8px);bottom:auto;right:max(0px,calc((100vw - 700px)/2));width:min(320px,calc(100vw - 24px));background:var(--v5-raised);border:1px solid var(--v5-line);padding:14px;box-shadow:0 8px 28px #242b2a22;display:grid;gap:8px;font:14px/1.5 system-ui}
 .reader-settings-title,.reader-settings-row{display:flex;align-items:center;justify-content:space-between;gap:8px}.reader-settings button{background:none;min-height:44px;border-color:var(--v5-line)}.reader-settings-row button+button{margin-left:6px}
-.reader-layout dialog.reader-context{position:fixed;inset:auto 0 0;margin:0 auto;width:min(100%,560px);max-width:100%;max-height:80dvh;background:var(--v5-paper);border:0;border-top:1px solid var(--v5-line);border-radius:18px 18px 0 0;padding:22px 20px calc(22px + env(safe-area-inset-bottom));overflow:auto;animation:sheet-in .2s ease-out}
+.reading-header dialog.reader-context{position:fixed;inset:auto 0 0;margin:0 auto;width:min(100%,560px);max-width:100%;max-height:80dvh;background:var(--v5-paper);border:0;border-top:1px solid var(--v5-line);border-radius:18px 18px 0 0;padding:22px 20px calc(22px + env(safe-area-inset-bottom));overflow:auto;animation:sheet-in .2s ease-out}
 .reader-context-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}.reader-context-heading h2{margin:4px 0;font:500 25px/1.2 Georgia,serif}
-.reader-layout .scene-strip{display:flex;flex-direction:column;gap:0;overflow:visible}.reader-layout .scene-strip button{display:flex;gap:12px;align-items:center;width:100%;text-align:left;flex:auto;background:none;border:0;border-top:1px solid var(--v5-line);border-radius:0;min-height:48px;font:14px/1.45 system-ui;padding:10px 0}.reader-layout .scene-strip button span{color:var(--v5-brass)}
+.reading-header .scene-strip{display:flex;flex-direction:column;gap:0;overflow:visible}.reading-header .scene-strip button{display:flex;gap:12px;align-items:center;width:100%;text-align:left;flex:auto;background:none;border:0;border-top:1px solid var(--v5-line);border-radius:0;min-height:48px;font:14px/1.45 system-ui;padding:10px 0}.reading-header .scene-strip button span{color:var(--v5-brass)}
 .reader-layout .reader-atlas{max-width:700px;margin:36px auto 0;border-top:1px solid var(--v5-line);scroll-margin-top:76px}
 .reader-layout .pager{max-width:700px;margin:20px auto 0;border-top:1px solid var(--v5-line);font:600 14px system-ui}
-@media(min-width:768px){.layout.home-layout main,.layout.library-layout main{padding:32px 32px 110px}.home-layout .home-hero{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr)}.home-copy{padding:48px 40px}.home-art img{max-height:430px}.home-layout .home-links{grid-template-columns:1fr 1fr;gap:20px}.home-layout .home-links>a+a{border-top:0;border-left:1px solid var(--v5-line);padding-left:20px}.layout .reader-main{padding:40px 32px 120px}.reader-layout .reader-hero{margin-bottom:36px}.reader-layout .reader-dock button{font-size:14px}.reader-layout dialog.reader-context{inset:0;margin:auto;border-radius:12px;max-height:78dvh}}
-@media(max-width:359px){.site-header .menu span{display:none}.site-header .brand{letter-spacing:.03em}.layout .reader-main{padding-inline:16px}.reader-layout .reader-dock button{font-size:11px}.home-copy{padding:24px 18px}}
+@media(min-width:768px){.layout.home-layout main,.layout.library-layout main{padding:32px 32px 110px}.home-layout .home-hero{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr)}.home-copy{padding:48px 40px}.home-art img{max-height:430px}.home-layout .home-links{grid-template-columns:1fr 1fr;gap:20px}.home-layout .home-links>a+a{border-top:0;border-left:1px solid var(--v5-line);padding-left:20px}.layout .reader-main{padding:40px 32px 120px}.reader-layout .reader-hero{margin-bottom:36px}.reading-header .reader-dock button{font-size:14px}.reading-header dialog.reader-context{inset:0;margin:auto;border-radius:12px;max-height:78dvh}}
+@media(max-width:359px){.site-header .menu span{display:none}.site-header .brand{letter-spacing:.03em}.layout .reader-main{padding-inline:16px}.reading-header .reader-dock button{font-size:11px}.home-copy{padding:24px 18px}}
 
 /* Hybrid v5 — Wiki dossiers and Atlas workspace */
 body:has(.wiki-layout),body:has(.atlas-layout){background:var(--v5-paper);color:var(--v5-ink)}
@@ -227,7 +227,7 @@ header.site-header.reading-header .menu{color:var(--v5-ink)}
 /* v5.1 library-first motion/collage. Motion and Rough Notation handle animation and drawing. */
 .site-header>a,.primary-action,.pager a,.person-related a,.atlas-event-sheet>a,.atlas-inspector>a{display:inline-flex;align-items:center;gap:6px}
 .site-header .brand{display:flex}.site-header .menu svg,footer svg{flex-shrink:0}
-.reader-layout .reader-dock button{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:3px;font-size:11px;min-height:52px;line-height:1.15}
+.reading-header .reader-dock button{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:3px;font-size:11px;min-height:52px;line-height:1.15}
 .reader-settings button,.person-sheet-top button,.gallery-controls button,.gallery-heading button,.wiki-gallery-action,.reader-context-heading button,.atlas-month button,.atlas-layer-panel button{display:inline-flex;align-items:center;justify-content:center;gap:6px}
 .hand-mark{position:relative;display:inline;box-decoration-break:clone}.hand-circle{display:inline-block}.hand-mark .inline-person{border-bottom:0}
 .decision-seal{display:table;max-width:100%;margin:12px 0 4px auto;border:2px solid #9a342c;outline:1px solid #9a342c;outline-offset:3px;color:#9a342c;padding:5px 9px;text-transform:uppercase;letter-spacing:.08em;font:700 11px/1.4 system-ui;transform:rotate(-3deg);background:#f7f2e8}
@@ -259,3 +259,17 @@ header.site-header.reading-header .menu{color:var(--v5-ink)}
 
 /* Dedicated handle: SVG must not become a separate pointer target; prevent native selection/drag on the handle only. */
 .scrap-grip{user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}.scrap-grip svg{pointer-events:none}
+
+/* DEC-UX-032: one primary bottom navigation on every page. Reader tools are a contextual second row of the sticky header. */
+header.site-header.reading-header{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);column-gap:6px;row-gap:0;padding-bottom:0;align-items:center}
+.reading-header>.menu{justify-self:start}
+.reading-header>.reader-brand{justify-self:center}
+.reading-header>a:last-of-type{justify-self:end;white-space:nowrap}
+.reading-header .reader-dock{width:100%;max-width:720px;padding:2px 0;gap:0}
+.reading-header .reader-dock button{min-height:44px;font-size:11px;gap:2px;padding:3px 2px;flex:1}
+.reading-header .reader-progress{order:2}
+.reading-header .reader-settings{max-height:calc(100dvh - 155px - env(safe-area-inset-top));overflow:auto;color:var(--v5-ink)}
+body:has(.reader-layout) footer{background:var(--v5-paper);color:var(--v5-ink);border-color:var(--v5-line)}
+.reader-layout .scene-title,.reader-layout .reader-atlas{scroll-margin-top:calc(132px + env(safe-area-inset-top))}
+@media(min-width:768px){header.site-header.reading-header .reader-dock button{flex:0 1 150px;font-size:12px;min-height:44px;flex-direction:row;gap:7px}}
+@media(min-width:1000px){.reader-layout .sidebar{top:calc(126px + env(safe-area-inset-top));max-height:calc(100dvh - 210px)}}
