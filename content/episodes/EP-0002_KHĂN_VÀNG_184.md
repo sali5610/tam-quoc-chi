@@ -7,6 +7,8 @@ Nếu vừa bước vào câu chuyện, mày chỉ cần nhớ: lúc này **chư
 
 Nó xuất hiện ở nhiều địa phương cùng lúc.
 
+**Câu hỏi của tập này:** những người được huy động để bảo vệ nhà Hán sẽ chỉ giúp triều đình vượt qua nguy hiểm, hay chính chiến tranh sẽ đưa họ đến những vị trí mà triều đình không còn dễ kiểm soát?
+
 ## Trương Giác: người không cần chức quan vẫn có người đi theo
 
 **Trương Giác** gắn với **Thái Bình đạo**, một phong trào tôn giáo thu hút tín đồ. 《後漢書》卷71 ghi ông tổ chức người đi theo thành **ba mươi sáu “phương”** (方), tức những đơn vị tổ chức được nguồn sử nhắc tới — không phải bằng chứng rằng có đúng ba mươi sáu đạo quân mạnh ngang nhau.
@@ -34,6 +36,8 @@ Rồi chiến trường đưa ra lời nhắc rất thẳng: được bổ làm 
 **Chu Tuấn** giao chiến với quân của **Ba Tài**, một thủ lĩnh lực lượng nổi dậy, và thất bại. **Hoàng Phủ Tung** thì bị vây tại **Trường Xã**.
 
 Một người thua trận. Một người mắc trong vòng vây. Nhà Hán cần một bước ngoặt.
+
+Ở Trường Xã, vấn đề không còn là ai được bổ chức gì. Nếu vòng vây không bị phá, một cánh quân triều đình sẽ tiếp tục bị kẹt ngay trong cuộc chiến mà họ được cử đi giải quyết.
 
 Theo 《後漢書》卷71, Hoàng Phủ Tung sử dụng **hỏa công** để phá thế vây. Rồi **Tào Tháo** đem quân đến, tham gia đợt đánh tiếp theo cùng lực lượng triều đình.
 
@@ -81,13 +85,15 @@ Một cái tên nữa cần giữ lại: **Đổng Trác**.
 
 Năm 184, ông được giao nhiệm vụ chống Khăn Vàng, nhưng **thất bại và bị quy trách nhiệm**, theo 《三國志》卷6. Vậy mà năm **189**, chính người này sẽ tiến về kinh thành và can dự vào việc phế một hoàng đế, lập một hoàng đế khác.
 
+Đến đây, lời gài từ đầu tập đã bắt đầu có hình dạng: cuộc chiến chống Khăn Vàng không chỉ tạo ra danh sách thắng thua, mà còn để lại những tướng lĩnh có kinh nghiệm và vị thế. **Đổng Trác là cú đảo chiều khó đoán nhất trong nhóm này:** thất bại ở chiến dịch năm 184, nhưng sẽ can dự vào việc thay vua năm 189.
+
 Không có căn cứ để nói thất bại năm 184 khiến Đổng Trác nuôi ý định trả thù. Điều đáng chú ý là **một người từng đánh thua vẫn có thể trở thành nhân vật quyết định vận mệnh triều đình** chỉ vài năm sau.
 
 [Chính sử] 《三國志》卷6〈董卓傳〉, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷06).
 
 ### Tiếp theo — Ai cầm quân, người ấy có tiếng nói?
 
-Cuộc nổi dậy Khăn Vàng không lập tức tạo ra ba nước. Nhà Hán vẫn tồn tại. Nhưng giờ ta đã biết mặt một số người cầm quân, những người đang gây dựng kinh nghiệm và ảnh hưởng.
+Cuộc nổi dậy Khăn Vàng không lập tức tạo ra ba nước. Nhà Hán vẫn tồn tại. **Câu hỏi đầu tập chưa có lời giải cuối cùng:** các tướng vẫn hành động nhân danh triều đình, nhưng giờ người đọc đã biết những người cầm quân ấy là ai, và vì sao quyền lực quân sự sẽ trở thành chuyện đáng sợ ở kinh thành. Đó là hậu quả lâu dài cần theo dõi, không phải kết luận rằng ai đánh Khăn Vàng cũng sẽ phản Hán.
 
 **Năm 189, một đại tướng quân sẽ gọi Đổng Trác về kinh thành để gây sức ép với hoạn quan. Đại tướng quân ấy chết trước khi Đổng Trác tới.**
 
