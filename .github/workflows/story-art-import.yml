@@ -3,16 +3,17 @@ on:
   workflow_dispatch:
   pull_request:
     branches: [main]
-    paths:
-      - 'src/story-art.json'
-      - 'scripts/import-story-art.py'
-      - '.github/workflows/story-art-import.yml'
+    types: [labeled]
 permissions:
   contents: read
+concurrency:
+  group: story-art-import
+  cancel-in-progress: false
 jobs:
   import:
+    if: github.event_name == 'workflow_dispatch' || github.event.label.name == 'import-story-art'
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,6 +26,7 @@ jobs:
           key: story-art-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: story-art-${{ runner.os }}-
       - run: python scripts/import-story-art.py
+        timeout-minutes: 2
       - uses: actions/cache/save@v4
         if: always()
         with:
@@ -36,8 +38,4 @@ jobs:
           name: story-art
           path: public/story-art/
           if-no-files-found: warn
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - run: npm ci
-      - run: npm run build
+          retention-days: 7
