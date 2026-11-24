@@ -45,6 +45,9 @@ Khoan đã — **Tào Tháo**? Chính là người về sau xây dựng thế l�
 
 [Chính sử] 《後漢書》卷71, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷71). Nguồn phân biệt trận thua của Chu Tuấn, việc Hoàng Phủ Tung phá vây và sự xuất hiện của Tào Tháo.
 
+> **[Ngẫm chuyện nay · Góc nhìn hiện đại]** Một kết quả chung thường có nhiều công đoạn và nhiều người góp sức. Khi nhìn lại thành công của một dự án, đừng chỉ nhớ người xuất hiện ở đoạn kết: **ai xử lý nút thắt, ai đến tiếp sức, và việc nào thực sự đổi cục diện?** Đó là cách phân công công lao công bằng hơn — không phải bài học được ghi nguyên văn trong sử.
+
+
 > **[Châm biếm của biên tập]** Tào Tháo vừa xuất hiện đã có khí chất nhân vật lớn. Nhưng đoạn này Hoàng Phủ Tung mới là người không thể bị cắt khỏi cảnh hỏa công.
 
 ## Hai họ Lưu, Tôn: những hạt giống chưa ai gọi là vua
