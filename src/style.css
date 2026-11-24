@@ -325,3 +325,8 @@ body:has(.reader-layout) footer{background:var(--v5-paper);color:var(--v5-ink);b
 
 /* B03: existing ink/paper relationship treatment, readable independent edges without overlapping labels. */
 .batch-relation-graph{margin:8px 0;min-width:0}.batch-relation-edge{display:grid;grid-template-columns:minmax(0,1fr) 28px minmax(0,1fr);align-items:center;gap:4px;background:var(--paper);border:1px solid var(--line);padding:8px;border-radius:4px;margin:8px 0}.batch-relation-edge button{font-size:13px;overflow-wrap:anywhere;white-space:normal;padding:6px;min-width:0}.batch-relation-label{grid-column:1/-1;text-align:center;font-size:12px;color:var(--v5-muted);overflow-wrap:anywhere}.batch-relation-arrow{text-align:center;color:var(--seal);font-weight:600}.atlas-anchor>div{flex-wrap:wrap}.atlas-b03-marker .atlas-person-name{overflow-wrap:anywhere}.atlas-b03-marker .atlas-label-suppressed{visibility:hidden}.atlas-map-notes button{max-width:100%;white-space:normal;overflow-wrap:anywhere}.atlas-event-sheet button{max-width:100%;white-space:normal;overflow-wrap:anywhere}
+
+/* Constrain the native event selector's intrinsic option width in WebKit, including narrow Reader and Atlas inspector panels. */
+.batch-relation-select{display:grid;grid-template-columns:minmax(0,1fr);gap:6px;min-width:0;max-width:100%;font:14px/1.5 system-ui;color:var(--v5-muted)}
+.batch-relation-select select{display:block;width:100%;min-width:0;max-width:100%;min-height:44px;padding:8px;font:14px system-ui;background:var(--v5-raised);color:var(--v5-ink);border:1px solid var(--v5-line);border-radius:3px;text-overflow:ellipsis}
+.reader-atlas>details,.atlas-relation-panel{min-width:0;max-width:100%;overflow-wrap:anywhere}
