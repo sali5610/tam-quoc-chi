@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: independent character layer with input and browser verification
+# Release: shared location resolver and regional precision
 on:
   workflow_dispatch:
   push:
@@ -25,8 +25,9 @@ jobs:
       - run: npm run build
       - run: |
           node --input-type=module -e "import fs from 'node:fs';const d=JSON.parse(fs.readFileSync('dist/atlas/atlas.json'));if(d.license!=='CC-BY-SA-4.0'||d.version!==2||d.regions.length!==80||!d.events.length)throw Error('Atlas validation failed')"
-          node --input-type=module <<'JS'
+          node --experimental-strip-types --input-type=module <<'JS'
           import fs from 'node:fs';
+          import {resolveAtlasPlace} from './src/atlas-location.ts';
           const pilot=JSON.parse(fs.readFileSync('content/atlas/pilot.json','utf8'));
           const atlas=JSON.parse(fs.readFileSync('dist/atlas/atlas.json','utf8'));
           for(const year of [168,184,189]){
@@ -34,10 +35,10 @@ jobs:
             if(events.length!==1)throw Error('Unexpected pilot event count for '+year);
             for(const e of events){
               const p=pilot.places.find(p=>p.id===e.place);
-              const city=atlas.cities.find(c=>p&&(p.aliases.includes(c.name)||p.atlasIds.includes(c.id)));
+              const city=resolveAtlasPlace(atlas,p);
               if(!city||!Array.isArray(city.p)||!city.p.every(Number.isFinite))throw Error('Unresolved pilot coordinates '+e.id);
               for(const id of e.people)if(!pilot.people.some(p=>p.id===id)||!e.roles[id])throw Error('Missing person or role '+id);
-              console.log('PASS input',e.id,city.name,city.p,e.people);
+              console.log('PASS input',e.id,city.name,city.p,city.precision,e.people);
             }
           }
           const html=fs.readFileSync('dist/index.html','utf8');
