@@ -83,7 +83,15 @@
       ],
       "title": "Hán Linh Đế lên ngôi",
       "source": "後漢書/卷8",
-      "kind": "historical"
+      "kind": "historical",
+      "roles": {
+        "lingdi": {
+          "rank": 5,
+          "influence": 5,
+          "faction": "han",
+          "title": "Hoàng đế"
+        }
+      }
     },
     {
       "id": "changshe-184",
@@ -97,7 +105,21 @@
       ],
       "title": "Chiến sự Trường Xã",
       "source": "後漢書/卷71",
-      "kind": "historical"
+      "kind": "historical",
+      "roles": {
+        "huangfu-song": {
+          "rank": 3,
+          "influence": 3,
+          "faction": "han",
+          "title": "Chủ tướng"
+        },
+        "zhu-jun": {
+          "rank": 3,
+          "influence": 3,
+          "faction": "han",
+          "title": "Chủ tướng"
+        }
+      }
     },
     {
       "id": "capital-189",
@@ -111,7 +133,21 @@
       ],
       "title": "Biến động phế lập",
       "source": "三國志/卷06",
-      "kind": "historical"
+      "kind": "historical",
+      "roles": {
+        "dong-zhuo": {
+          "rank": 3,
+          "influence": 5,
+          "faction": "dong",
+          "title": "Quyền thần"
+        },
+        "xiandi": {
+          "rank": 5,
+          "influence": 2,
+          "faction": "han",
+          "title": "Hoàng đế"
+        }
+      }
     }
   ],
   "relations": [
