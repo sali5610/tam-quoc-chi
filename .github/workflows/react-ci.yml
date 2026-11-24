@@ -191,6 +191,16 @@ jobs:
             }finally{await browser.close()}
           }
           JS
+      - name: Hybrid v5 visual review capture
+        run: |
+          python3 -m http.server 4175 --directory dist >/tmp/visual-server.log 2>&1 &
+          node scripts/visual-review.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: hybrid-v5-visual-review
+          path: qa-v5
+          retention-days: 3
       - uses: actions/upload-artifact@v4
         with:
           name: react-preview
