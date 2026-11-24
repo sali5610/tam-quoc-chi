@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: unique reader keys and navigation regression
+# Release: transparent character overlay UI
 on:
   workflow_dispatch:
   push:
@@ -75,6 +75,8 @@ jobs:
               if(await page.locator('.atlas-person-marker').count()!==1)throw Error('Stale or duplicate character markers after navigation');
               const ok=await marker.evaluate(el=>{const r=el.getBoundingClientRect(),b=el.closest('.strategy-board').getBoundingClientRect();const x=r.left+r.width/2,y=r.top+r.height/2;return x>b.left&&x<b.right&&y>b.top&&y<b.bottom&&el.contains(document.elementFromPoint(x,y))});
               if(!ok)throw Error('Marker clipped or obscured: '+name);
+              const transparent=await marker.evaluate(el=>{const s=getComputedStyle(el);return (s.backgroundColor==='rgba(0, 0, 0, 0)'||s.backgroundColor==='transparent')&&s.borderTopWidth==='0px'&&s.boxShadow==='none'});
+              if(!transparent)throw Error('Opaque character overlay: '+name);
               if(id!=='ep-0001')await marker.locator('.atlas-local-relation svg').waitFor({state:'visible'});
               await marker.click();
               await page.getByRole('dialog',{name:'Chi tiết sự kiện'}).waitFor({state:'visible'});
