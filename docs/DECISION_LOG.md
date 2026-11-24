@@ -29,3 +29,5 @@
 ## Hybrid UI — 2026-11-24
 - DEC-021/022: PO approved Hybrid, iPhone/iPad first, Ink & Silk; source-compatible Chinese motion patterns.
 - DEC-023: PO approved Hybrid v4 prototype integration into React on isolated branch, regression required, no deployment or main merge. See docs/hybrid-ui-refinement for prototype decisions. Batch-02 content remains separate.
+
+- DEC-024: PO explicitly approves release of Hybrid v4 to existing GitHub Pages. Publish only tested Hybrid code plus release verification/docs; no Batch-02 content, stack changes or paid services. Require public SHA and live smoke evidence; physical device acceptance separate.
