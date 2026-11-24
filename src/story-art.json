@@ -1,0 +1,65 @@
+[
+  {
+    "episode": "ep-0001",
+    "anchor": "Chiếc ngai vàng quá lớn",
+    "file": "Late Eastern Han pottery castle.JPG",
+    "caption": "Mô hình thành lũy bằng gốm thời Đông Hán",
+    "kind": "Hiện vật bối cảnh"
+  },
+  {
+    "episode": "ep-0001",
+    "anchor": "Chiếc ngai vàng quá lớn",
+    "file": "東漢 鉛綠釉陶明器建築模型（一組）-Multistoried Watchtower with Front Court MET 2000 662 3 L35614.jpg",
+    "caption": "Mô hình kiến trúc Đông Hán — The Met",
+    "kind": "Hiện vật bối cảnh"
+  },
+  {
+    "episode": "ep-0002",
+    "anchor": "Trương Giác:",
+    "file": "Zhang Jue Qing portrait.jpg",
+    "caption": "Trương Giác trong tranh đời Thanh",
+    "kind": "Chân dung hậu thế"
+  },
+  {
+    "episode": "ep-0002",
+    "anchor": "Hai họ Lưu, Tôn",
+    "file": "RTK - 002.jpg",
+    "caption": "Lưu Bị, Quan Vũ, Trương Phi giao chiến với Khăn Vàng",
+    "kind": "Minh họa diễn nghĩa"
+  },
+  {
+    "episode": "ep-0002",
+    "anchor": "Hai họ Lưu, Tôn",
+    "file": "桃园三结义（余象斗评本）.png",
+    "caption": "Kết nghĩa vườn đào — bản khắc đời Minh",
+    "kind": "Minh họa diễn nghĩa"
+  },
+  {
+    "episode": "ep-0002",
+    "anchor": "Hai họ Lưu, Tôn",
+    "file": "RTK - 001.jpg",
+    "caption": "Kết nghĩa vườn đào — phiên bản tranh đời Thanh",
+    "kind": "Minh họa diễn nghĩa"
+  },
+  {
+    "episode": "ep-0003",
+    "anchor": "Hoàng đế vừa mất",
+    "file": "He Jin Qing illustration.jpg",
+    "caption": "Hà Tiến trong tranh đời Thanh",
+    "kind": "Chân dung hậu thế"
+  },
+  {
+    "episode": "ep-0003",
+    "anchor": "Đổng Trác: từ khách",
+    "file": "Dong Zhuo Qing Dynasty Illustration.jpg",
+    "caption": "Đổng Trác trong tranh đời Thanh",
+    "kind": "Chân dung hậu thế"
+  },
+  {
+    "episode": "ep-0003",
+    "anchor": "Vị hoàng đế chín tuổi",
+    "file": "Dong Zhuo plots to depose Emperor Shao of Han.jpg",
+    "caption": "Đổng Trác mưu phế Hán Thiếu Đế — tranh đời Minh",
+    "kind": "Minh họa diễn nghĩa"
+  }
+]
