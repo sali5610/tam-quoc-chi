@@ -34,3 +34,7 @@ The earlier decisions remain historical records; the following supersede stale d
 - DEC-019 (PO direction carried from prior work): prioritize 三國志圖像 for suitable verified illustrations; supplement with other suitable sourced artwork; no AI art without explicit request. Ink & Silk remains.
 - DEC-020 (PO instruction for Chat 00): reconcile docs/backlog only, no feature code, narrative or deployment; work package handoff and stop.
 - Release evidence: main 20c0b7cde08914da707cd4b490b780f2c0ea427a, successful runs 45312216495 and 45312216688. Actual public site fetch not independently verified in Chat 00.
+
+
+## UI design decision — 2026-11-24
+- DEC-021: PO selects Hybrid: cinematic homepage and story-first Reader, Chronicle information architecture/Wiki/Library, War Room Atlas. Preserve Ink & Silk and existing stack/components. Approved direction only; refine isolated HTML prototype, no deploy. Prototype visual acceptance and production implementation are separate gates.
