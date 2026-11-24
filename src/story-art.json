@@ -91,11 +91,22 @@
   },
   {
     "episode": "ep-0002",
-    "anchor": "Tiểu thuyết trao màn nổi nóng cho Trương Phi",
+    "anchor": "ông theo **Trâu Tĩnh** đánh Khăn Vàng",
     "file": "sl-0005-luu-bi-doc-buu",
-    "caption": "Lưu Bị lập công và Trương Phi đánh Đốc bưu — hai tranh nguyên trang, hồi 1–2",
+    "caption": "Lưu Huyền Đức lập công — Tam Quốc Chí Đồ Tượng, hồi 2",
     "kind": "Minh họa diễn nghĩa",
     "placement": "paragraph",
-    "source": "https://sourcelibrary.org/zh/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms/page/6992f3d7dc69844b023ff3d6"
+    "source": "https://sourcelibrary.org/zh/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms/page/6992f3d7dc69844b023ff3d6",
+    "crop": "right"
+  },
+  {
+    "episode": "ep-0002",
+    "anchor": "Tiểu thuyết trao màn nổi nóng cho Trương Phi",
+    "file": "sl-0005-luu-bi-doc-buu",
+    "caption": "Trương Phi đánh Đốc bưu — Tam Quốc Chí Đồ Tượng, hồi 2",
+    "kind": "Minh họa diễn nghĩa",
+    "placement": "paragraph",
+    "source": "https://sourcelibrary.org/zh/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms/page/6992f3d7dc69844b023ff3d6",
+    "crop": "left"
   }
 ]
