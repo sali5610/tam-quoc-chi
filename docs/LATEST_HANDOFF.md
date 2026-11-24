@@ -85,3 +85,10 @@ Project is PRIVATE, single-reader personal use. **Remove licensing/rights QA fro
 - EP2 explains Yellow Turbans, commander roles, Changshe, Cao Cao, Liu Bei, Sun Jian and future successor Sun Quan; includes Peach Garden and inspector beating comparisons; Dong Zhuo's 184 loss foreshadows 189.
 - EP3 recaps cast, explains He Jin/Empress Dowager/Yuan Shao/Dong Zhuo, He Jin summons army then dies, palace flight and deposition, Emperor Xian, Cao Cao's 189 rising, Yuan Shao rivalry, 190 bridge. No fabricated historical dialogue, motives, art, UI or deploy.
 - This supersedes previous incremental prose passes. Await substantive PO reading feedback rather than endless self-initiated micro-edits.
+
+## Phase 3 approved and first prototype delivered (2026-11-24)
+- PO explicitly approved Phase 3 visual design/interactive prototype and expanded it to **cinematic motion, silk unveil, twist reveals, shock dispatch, optional sound effects**.
+- Added `docs/PHASE_3_CINEMATIC_EXPERIENCE.md` defining motion grammar, Ink & Silk tokens, Reader/Wiki/Atlas component map, mobile, accessibility, sound OFF by default, reduced-motion and performance safeguards.
+- Added self-contained interactive `prototype/ink-silk-cinematic.html`: responsive opening silk curtains, reader with sourced 168/184/189 beats, twist reveal, shock headline effect, opt-in Web Audio cue, modern note, source links, character popover, keyboard/reduced-motion support.
+- This is **a static design prototype committed to GitHub**, not React implementation, not verified in real Safari/iPhone, not deployed. Existing root `package.json` was not found. No image assets generated, no paid services, no deployment.
+- Next implementation decision: inspect reusable React animation/accessibility libraries and migrate approved prototype to React in a separately approved implementation step. Do not claim Phase 3 production ready.
