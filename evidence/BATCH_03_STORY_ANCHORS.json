@@ -9,7 +9,7 @@
     {
       "id": "B03-V07-01",
       "episode": "ep-0007",
-      "anchor": "Đây là lời mời của quan lại địa phương, chưa phải chiếu bổ nhiệm của thiên tử.",
+      "anchor": "Bảo Tín đã đặt cược vào người mới, nhưng không sống để chứng kiến hết kết quả.",
       "placement": "paragraph",
       "kind": "network",
       "icon": "scroll",
@@ -57,7 +57,7 @@
     {
       "id": "B03-V08-01",
       "episode": "ep-0008",
-      "anchor": "Các nguồn không thống nhất về người ra lệnh giết Tào Tung.",
+      "anchor": "Điều có thể nói chắc trong phạm vi nguồn đã đối chiếu",
       "placement": "paragraph",
       "kind": "comparison",
       "icon": "scroll",
@@ -69,7 +69,7 @@
     {
       "id": "B03-V08-02",
       "episode": "ep-0008",
-      "anchor": "Lương thực buộc Tào Tháo phải rút quân.",
+      "anchor": "Đào Khiêm có thêm một lực lượng hỗ trợ, Lưu Bị có một căn cứ",
       "placement": "paragraph",
       "kind": "sequence",
       "icon": "grain",
@@ -81,7 +81,7 @@
     {
       "id": "B03-V08-03",
       "episode": "ep-0008",
-      "anchor": "Quyên Thành, Phạm và Đông A",
+      "anchor": "Có được nơi quay về không chỉ nhờ một người giỏi",
       "placement": "paragraph",
       "kind": "network",
       "icon": "banner",
@@ -105,7 +105,7 @@
     {
       "id": "B03-V09-01",
       "episode": "ep-0009",
-      "anchor": "Châu chấu và nạn đói khiến hai phe phải ngừng giằng co.",
+      "anchor": "Nó chỉ cho thấy một vị vua bị hạn chế quyền lực vẫn có thể can thiệp vào một việc hành chính cụ thể.",
       "placement": "paragraph",
       "kind": "comparison",
       "icon": "grain",
@@ -122,20 +122,20 @@
       "kind": "sequence",
       "icon": "banner",
       "title": "Giữ gốc rồi mới đi xa",
-      "description": "Định Đào đầu 195 chưa xong; Tuân Úc khuyên giữ gốc; hè lấy lại đất; Lữ nương Lưu; tháng mười mới được bổ chính thức.",
-      "evidence": "038–041",
+      "description": "Định Đào đầu 195 chưa xong; Tuân Úc khuyên giữ gốc; hè lấy lại đất; Lữ nương Lưu. Chưa kể bổ nhiệm tháng mười tại anchor này.",
+      "evidence": "038–040",
       "art": "Không thêm tranh sử; dùng symbol v6"
     },
     {
       "id": "B03-V09-03",
       "episode": "ep-0009",
-      "anchor": "Lý Giác giữ hoàng đế, Quách Dĩ giữ các đại thần.",
+      "anchor": "Người từng chiến đấu để bảo vệ nhà Hán lại kết thúc cuộc đời trong chính cuộc tranh quyền giữa các lực lượng nắm triều đình.",
       "placement": "paragraph",
       "kind": "network",
       "icon": "scroll",
       "title": "Triều đình bị chia đôi",
-      "description": "Lý Giác giữ vua; Quách Dĩ giữ công khanh; Dương Bưu phản đối; Trương Tế hòa giải về sau; không suy vị trí doanh trại.",
-      "evidence": "042–046",
+      "description": "Lý Giác giữ vua; Quách Dĩ giữ công khanh; Dương Bưu phản đối (nội dung sau đoạn giữ đại thần). Không suy vị trí doanh trại hoặc tiết lộ hòa giải.",
+      "evidence": "042–044",
       "art": "Không thêm tranh sử; dùng symbol v6"
     },
     {
