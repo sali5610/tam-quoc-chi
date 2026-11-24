@@ -3,7 +3,7 @@ import {List,Type,BookmarkPlus,BookmarkCheck,MapPin,ArrowDown,X,Minus,Plus,Arrow
 import {CharacterQuotes} from './CharacterQuotes';
 import {CharacterRadar} from './CharacterRadar';
 import {portraitForName,portraitUrl} from './portrait';
-import {useState,useEffect,useRef,useId} from 'react';import Markdown from 'react-markdown';import entities from './entities.json';import manifest from '../content/manifest.json';
+import {useState,useEffect,useRef,useId,Children,type ReactNode} from 'react';import Markdown from 'react-markdown';import entities from './entities.json';import manifest from '../content/manifest.json';
 import sceneArt from '../content/scene-art.json';
 type Person=[string,string,string,string,number];const people=entities.people as unknown as Record<string,Person>;const episodes=manifest.eras.flatMap(e=>e.arcs.flatMap(a=>a.chapters.flatMap(c=>c.episodes)));
 type Mark={id:string,y:number};function read<T>(k:string,f:T):T{try{return JSON.parse(localStorage.getItem(k)||'null')??f}catch{return f}}function save(k:string,v:unknown){try{localStorage.setItem(k,JSON.stringify(v))}catch{}}
@@ -83,15 +83,22 @@ export function Collection(){const [marks,setMarks]=useState(()=>read<Mark[]>('t
 export function StoryBody({body,id,satire=true}:{body:string,id:string,satire?:boolean}){
  const [name,setName]=useState('');const {story,sources}=readerCopy(body);const list=scenes(story);
  const closePerson=()=>setName('');const beats=storyBeats[id];const visuals=episodeVisuals.filter(v=>v.episode===id);const visual=(raw:string,placement:string)=>visuals.filter(v=>v.placement===placement&&(placement==='blockquote'?raw.includes(v.anchor):raw.startsWith(v.anchor))).map(v=><EpisodeVisual key={v.id} visual={v} person={n=><button className="v6-person" aria-label={'Hồ sơ '+n} onClick={()=>setName(n)}><Portrait name={n}/></button>}/>);const flatten=(n:any):string=>n?.value||n?.children?.map(flatten).join('')||'';
+ // Mark plain-text anchors too; bold anchors continue to use the existing strong renderer.
+ const markText=(children:ReactNode)=>id<'ep-0007'?children:Children.map(children,child=>{
+  if(typeof child!=='string'||!beats)return child;
+  const targets=[...beats.circle.map(anchor=>({anchor,type:'circle' as const})),...beats.underline.map(anchor=>({anchor,type:'underline' as const}))];
+  const hit=targets.map(t=>({...t,index:child.indexOf(t.anchor)})).filter(t=>t.index>=0).sort((a,b)=>a.index-b.index)[0];
+  return hit?<>{child.slice(0,hit.index)}<HandMark type={hit.type}>{hit.anchor}</HandMark>{child.slice(hit.index+hit.anchor.length)}</>:child;
+ });
  return <><div className={satire?'story-content':'story-content hide-satire'}><Markdown components={{
  a:({href,children})=>{let decoded=href;try{decoded=href?decodeURIComponent(href):href}catch{}const target=episodes.find(e=>e.source.split('/').pop()===decoded);return <a href={target?'#/read/'+target.id:href}>{children}</a>},
  strong:({children})=>{const n=typeof children==='string'?children:'';if(n==='[Châm biếm của biên tập]'||n==='[Ngẫm chuyện nay · Góc nhìn hiện đại]')return null;const item=people[n]?<button className="inline-person" onClick={()=>setName(n)}>{n}</button>:<strong>{children}</strong>;const type=beats?.circle.includes(n)?'circle':beats?.underline.includes(n)?'underline':null;return type?<HandMark type={type}>{item}</HandMark>:item},
  h1:()=>null,
- p:({children,node})=>{const raw=flatten(node);const decision=beats?.decisions.find(d=>raw.includes(d.anchor));const reveal=beats?.reveal&&raw.startsWith(beats.reveal.anchor)?beats.reveal:null;if(reveal)return <InkReveal title={reveal.title}><p>{children}</p></InkReveal>;return <><Unveil as="p">{children}{decision&&<DecisionSeal>{decision.label}</DecisionSeal>}</Unveil>{visual(raw,'paragraph')}</>},
+ p:({children,node})=>{const raw=flatten(node);const decision=beats?.decisions.find(d=>raw.includes(d.anchor));const reveal=beats?.reveal&&raw.startsWith(beats.reveal.anchor)?beats.reveal:null;if(reveal)return <InkReveal title={reveal.title}><p>{children}</p></InkReveal>;return <><Unveil as="p">{markText(children)}{decision&&<DecisionSeal>{decision.label}</DecisionSeal>}</Unveil>{visual(raw,'paragraph')}</>},
  blockquote:({children,node})=>{
  const flatten=(n:any):string=>n?.value||n?.children?.map(flatten).join("")||"";
  const raw=flatten(node);const humor=raw.includes("[Châm biếm của biên tập]");const modern=raw.includes("[Ngẫm chuyện nay");
- const paragraph=node?.children?.find(child=>child.type==='element'&&child.tagName==='p');const first=paragraph?.type==='element'?flatten(paragraph.children[0]):'';const title=first.replace(/^\[[^\]]+\]\s*/,'').trim();
+ const paragraph=node?.children?.find(child=>child.type==='element'&&child.tagName==='p');const first=paragraph?.type==='element'?flatten(paragraph.children[0]):'';const title=beats?.reveal&&raw.includes(beats.reveal.anchor)?beats.reveal.title:first.replace(/^\[[^\]]+\]\s*/,'').trim();
  const art=sceneArt.filter(a=>a.episode===id&&a.placement==='blockquote'&&childText(children).includes(a.anchor));
  return <>{humor?(satire?<blockquote className="story-aside story-humor">{children}</blockquote>:null):modern?(satire?<blockquote className="story-aside"><InkReveal title="Ngẫm chuyện nay">{children}</InkReveal></blockquote>:null):<blockquote className="story-aside"><InkReveal title={title&&title.length<85?title:raw.includes("Tiểu thuyết")?"Chuyện trong Tam Quốc diễn nghĩa":"Chuyện bên lề"}>{children}</InkReveal></blockquote>}{art.map(a=><SceneArt key={a.id} art={a}/>)}{visual(raw,'blockquote')}</>
  },

@@ -55,9 +55,9 @@ try {
     await page.goto(base+'#/people');
     await page.locator('.people-grid button').first().waitFor();
     const cards=page.locator('.people-grid .portrait-frame');
-    if(await cards.count()!==23)throw Error('Unexpected person library count');
+    if(await cards.count()!==67)throw Error('Unexpected person library count');
     const images=page.locator('.people-grid img.historical-portrait');
-    if(await images.count()!==8||await page.locator('.people-grid .portrait-placeholder').count()!==15)throw Error('Unexpected portrait/fallback counts');
+    if(await images.count()!==8||await page.locator('.people-grid .portrait-placeholder').count()!==59)throw Error('Unexpected portrait/fallback counts');
     for(let i=0;i<8;i++){const img=images.nth(i);await img.scrollIntoViewIfNeeded();await img.evaluate(el=>el.decode());}
     const dong=page.locator('.people-grid button').filter({has:page.locator('[data-person-name="Đổng Trác"]')});
     const src=await dong.locator('img').getAttribute('src');

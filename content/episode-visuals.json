@@ -768,5 +768,687 @@
       }
     ],
     "note": "Năm 192; Hán Hiến Đế vẫn tại vị. Nguồn ghi thời gian vây thành khác nhau: tám hoặc mười ngày."
+  },
+  {
+    "id": "B03-V07-01",
+    "episode": "ep-0007",
+    "anchor": "Bảo Tín đã đặt cược vào người mới, nhưng không sống để chứng kiến hết kết quả.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Ai mời Tào Tháo quản Duyện Châu?",
+    "center": {
+      "name": "Tào Tháo",
+      "text": "Được đón về quản Duyện Châu năm 192.",
+      "person": "Tào Tháo"
+    },
+    "items": [
+      {
+        "name": "Bảo Tín",
+        "text": "Cùng quan lại trong châu đón Tào.",
+        "person": "Bảo Tín"
+      },
+      {
+        "name": "Vạn Tiềm và quan lại",
+        "text": "Tham gia đoàn đón tại Đông quận.",
+        "icon": "scroll"
+      },
+      {
+        "name": "Trần Cung",
+        "text": "Vận động đón Tào theo Thế ngữ.",
+        "person": "Trần Cung",
+        "label": "[Bùi chú]"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 1",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      }
+    ],
+    "note": "Lời mời của quan địa phương, không phải chiếu bổ nhiệm của thiên tử.",
+    "evidenceIds": [
+      "EVD-B03-001",
+      "EVD-B03-002",
+      "EVD-B03-003"
+    ]
+  },
+  {
+    "id": "B03-V07-02",
+    "episode": "ep-0007",
+    "anchor": "Người đầu hàng, dân đi theo và quân Thanh Châu không phải cùng một nhóm.",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Từ đầu hàng đến Thanh Châu binh",
+    "items": [
+      {
+        "name": "Quân Khăn Vàng đầu hàng",
+        "text": "Nhóm quân được sử ghi nhận đầu hàng.",
+        "icon": "banner"
+      },
+      {
+        "name": "Dân đi theo",
+        "text": "Nhóm dân được ghi riêng, không mặc nhiên là binh lính.",
+        "icon": "grain"
+      },
+      {
+        "name": "Thanh Châu binh",
+        "text": "Tuyển người tinh nhuệ từ quân đầu hàng.",
+        "icon": "banner"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 1",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      }
+    ],
+    "note": "Hai nhóm đầu được phân biệt trong nguồn; bước tuyển quân chỉ từ nhóm quân đầu hàng, không phải từ toàn bộ dân. Không biểu thị tỉ lệ.",
+    "evidenceIds": [
+      "EVD-B03-004",
+      "EVD-B03-005"
+    ]
+  },
+  {
+    "id": "B03-V07-03",
+    "episode": "ep-0007",
+    "anchor": "Mao Giới khuyên phò thiên tử và tích trữ quân lương.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Bộ máy Duyện Châu",
+    "center": {
+      "name": "Tào Tháo",
+      "text": "Cần bộ máy cai quản châu.",
+      "person": "Tào Tháo"
+    },
+    "items": [
+      {
+        "name": "Tuân Úc",
+        "text": "Theo Tào từ năm 191, trước khi tiếp quản Duyện Châu.",
+        "person": "Tuân Úc"
+      },
+      {
+        "name": "Trình Dục",
+        "text": "Được vời làm quan khi Tào đến Duyện Châu.",
+        "person": "Trình Dục"
+      },
+      {
+        "name": "Mao Giới",
+        "text": "Khuyên phụng sự thiên tử, canh tác và tích quân lương.",
+        "person": "Mao Giới"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 10",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷10"
+      },
+      {
+        "label": "Tam Quốc chí · quyển 14",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷14"
+      },
+      {
+        "label": "Tam Quốc chí · quyển 12",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷12"
+      }
+    ],
+    "note": "Lời khuyên của Mao Giới chưa phải chứng cứ đã triển khai đồn điền.",
+    "evidenceIds": [
+      "EVD-B03-008",
+      "EVD-B03-009",
+      "EVD-B03-058"
+    ]
+  },
+  {
+    "id": "B03-V07-04",
+    "episode": "ep-0007",
+    "anchor": "Đường tiếp tế bị chặn khiến Viên Thuật phải đổi địa bàn.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Liên kết và nguồn lương",
+    "center": {
+      "name": "Viên Thuật",
+      "text": "Tìm đồng minh nhưng gặp trở ngại tiếp tế.",
+      "person": "Viên Thuật"
+    },
+    "items": [
+      {
+        "name": "Công Tôn Toản",
+        "text": "Liên kết với Viên Thuật.",
+        "person": "Công Tôn Toản"
+      },
+      {
+        "name": "Lưu Biểu",
+        "text": "Chặn đường cung ứng lương cho Viên Thuật.",
+        "person": "Lưu Biểu"
+      },
+      {
+        "name": "Tào Tháo",
+        "text": "Phối hợp với Viên Thiệu chống đối phương; năm 193 đánh bại Viên Thuật.",
+        "person": "Tào Tháo"
+      },
+      {
+        "name": "Viên Thiệu",
+        "text": "Phối hợp cùng Tào Tháo.",
+        "person": "Viên Thiệu"
+      },
+      {
+        "name": "Cửu Giang",
+        "text": "Địa bàn Viên Thuật chuyển đến.",
+        "icon": "grain"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 1",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      }
+    ],
+    "note": "Các quan hệ theo diễn biến 192–193, không phải liên minh vĩnh viễn hay sơ đồ đường hành quân.",
+    "evidenceIds": [
+      "EVD-B03-006",
+      "EVD-B03-007"
+    ]
+  },
+  {
+    "id": "B03-V08-01",
+    "episode": "ep-0008",
+    "anchor": "Điều có thể nói chắc trong phạm vi nguồn đã đối chiếu",
+    "placement": "paragraph",
+    "kind": "comparison",
+    "title": "Ai chịu trách nhiệm?",
+    "items": [
+      {
+        "name": "Vũ Đế kỷ",
+        "text": "Quy trách nhiệm cho Đào Khiêm, không mô tả đầy đủ cơ chế ra lệnh.",
+        "icon": "scroll",
+        "label": "[Chính sử]"
+      },
+      {
+        "name": "Thế ngữ",
+        "text": "Kể Đào Khiêm bí mật sai quân bắt gia đình Tào.",
+        "icon": "scroll",
+        "label": "[Bùi chú]"
+      },
+      {
+        "name": "Ngô thư",
+        "text": "Kể Trương Khải được phái hộ tống, sau đó giết vì tài vật.",
+        "icon": "scroll",
+        "label": "[Bùi chú]"
+      },
+      {
+        "name": "Tư trị thông giám",
+        "text": "Có lời kể quân lính tham tài sản.",
+        "icon": "scroll",
+        "label": "[Sử liệu khác]"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 1",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "Tư trị thông giám · quyển 60",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷060"
+      }
+    ],
+    "note": "Các nguồn không thống nhất về người trực tiếp ra lệnh. Không dùng sơ đồ để kết tội.",
+    "evidenceIds": [
+      "EVD-B03-015",
+      "EVD-B03-016",
+      "EVD-B03-017",
+      "EVD-B03-078"
+    ]
+  },
+  {
+    "id": "B03-V08-02",
+    "episode": "ep-0008",
+    "anchor": "Thứ sử là chức đứng đầu việc giám sát, quản lý một châu; trong thời loạn, người có chức ấy chưa chắc đã kiểm soát toàn bộ địa bàn mang tên chức vụ. Lưu Bị có quân và chỗ đóng, chưa vì thế mà làm chủ cả Dự Châu. Đào Khiêm có thêm một lực lượng hỗ trợ, Lưu Bị có một căn cứ",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Tiến công và cứu viện",
+    "items": [
+      {
+        "name": "193 · Bành Thành",
+        "text": "Tào tiến công; dân chịu hậu quả, quân Tào thiếu lương phải rút.",
+        "icon": "grain"
+      },
+      {
+        "name": "Điền Khải",
+        "text": "Cùng Lưu Bị cứu viện Đào Khiêm vào giai đoạn đầu 194.",
+        "person": "Điền Khải"
+      },
+      {
+        "name": "Đào Khiêm",
+        "text": "Cấp thêm quân cho Lưu Bị.",
+        "person": "Đào Khiêm"
+      },
+      {
+        "name": "Lưu Bị",
+        "text": "Đóng tại Tiểu Bái, được tiến cử Dự Châu thứ sử.",
+        "person": "Lưu Bị"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 8",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷08"
+      },
+      {
+        "label": "Tam Quốc chí · quyển 32",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷32"
+      },
+      {
+        "label": "Tư trị thông giám · quyển 60",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷060"
+      },
+      {
+        "label": "Tư trị thông giám · quyển 61",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷061"
+      }
+    ],
+    "note": "Chức danh không đồng nghĩa kiểm soát toàn bộ Dự Châu; trình tự diễn biến, không phải tuyến quân hành.",
+    "evidenceIds": [
+      "EVD-B03-018",
+      "EVD-B03-019",
+      "EVD-B03-020",
+      "EVD-B03-021"
+    ]
+  },
+  {
+    "id": "B03-V08-03",
+    "episode": "ep-0008",
+    "anchor": "Tào Hồng, người từng cứu Tào Tháo lúc thất trận ở tập 4, lại xuất hiện trong chiến sự Duyện Châu và việc tập hợp lương tiếp tế. Có được nơi quay về không chỉ nhờ một người giỏi",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Ba nơi còn giữ được",
+    "center": {
+      "name": "Tào Tháo",
+      "text": "Phe Trương Mạc, Trần Cung và Lữ Bố chống Tào.",
+      "person": "Tào Tháo"
+    },
+    "items": [
+      {
+        "name": "Tuân Úc",
+        "text": "Giữ Quyên Thành.",
+        "person": "Tuân Úc"
+      },
+      {
+        "name": "Cận Doãn",
+        "text": "Giữ Phạm.",
+        "person": "Cận Doãn"
+      },
+      {
+        "name": "Táo Chi",
+        "text": "Tổ chức giữ Đông A.",
+        "person": "Táo Chi"
+      },
+      {
+        "name": "Trình Dục",
+        "text": "Phối hợp giữ ba nơi.",
+        "person": "Trình Dục"
+      },
+      {
+        "name": "Hạ Hầu Đôn",
+        "text": "Hỗ trợ bảo vệ hậu phương.",
+        "person": "Hạ Hầu Đôn"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 7",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷07"
+      },
+      {
+        "label": "Tam Quốc chí · quyển 10",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷10"
+      },
+      {
+        "label": "Tam Quốc chí · quyển 14",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷14"
+      },
+      {
+        "label": "Tam Quốc chí · quyển 9",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷09"
+      },
+      {
+        "label": "Tư trị thông giám · quyển 61",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷061"
+      }
+    ],
+    "note": "Ba địa điểm khác nhau; không biểu thị vị trí hay đội hình quân.",
+    "evidenceIds": [
+      "EVD-B03-024",
+      "EVD-B03-025",
+      "EVD-B03-026",
+      "EVD-B03-059",
+      "EVD-B03-069"
+    ]
+  },
+  {
+    "id": "B03-V08-04",
+    "episode": "ep-0008",
+    "anchor": "Lưu Bị nhận đứng ra cai quản Từ Châu.",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Chuyển giao Từ Châu",
+    "items": [
+      {
+        "name": "Đào Khiêm",
+        "text": "Để lại lời đề nghị Lưu Bị quản châu.",
+        "person": "Đào Khiêm"
+      },
+      {
+        "name": "My Trúc",
+        "text": "Theo di mệnh đón Lưu Bị.",
+        "person": "My Trúc"
+      },
+      {
+        "name": "Trần Đăng",
+        "text": "Khuyên Lưu Bị nhận.",
+        "person": "Trần Đăng"
+      },
+      {
+        "name": "Khổng Dung",
+        "text": "Cùng khuyên Lưu Bị nhận.",
+        "person": "Khổng Dung"
+      },
+      {
+        "name": "Lưu Bị",
+        "text": "Nhận cai quản Từ Châu; Viên Thiệu tán thành theo Bùi chú.",
+        "person": "Lưu Bị"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 32",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷32"
+      },
+      {
+        "label": "Tam Quốc chí · quyển 38",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷38"
+      }
+    ],
+    "note": "Không phải chiếu bổ nhiệm của thiên tử; không tái dựng ba lần nhường theo tiểu thuyết.",
+    "evidenceIds": [
+      "EVD-B03-027",
+      "EVD-B03-028",
+      "EVD-B03-029",
+      "EVD-B03-030",
+      "EVD-B03-056"
+    ]
+  },
+  {
+    "id": "B03-V09-01",
+    "episode": "ep-0009",
+    "anchor": "Khi việc phát thức ăn cứu đói không đem lại hiệu quả như mong đợi, hoàng đế tự cho đong nguyên liệu và thử nấu cháo ngay trước chỗ ngồi của mình. Chuyện này không chứng minh ông đã có quyền giải quyết toàn bộ nạn đói. Nó chỉ cho thấy một vị vua bị hạn chế quyền lực vẫn có thể can thiệp vào một việc hành chính cụ thể.",
+    "placement": "paragraph",
+    "kind": "comparison",
+    "title": "Hai vùng cùng thiếu lương",
+    "items": [
+      {
+        "name": "Duyện Châu · 194",
+        "text": "Chiến sự Bộc Dương, châu chấu, đói và thiếu quân lương.",
+        "icon": "grain",
+        "label": "[Chính sử]"
+      },
+      {
+        "name": "Trường An · 194",
+        "text": "Hạn hán, thiếu đói; vua tự thử nấu cháo kiểm tra việc cứu đói.",
+        "icon": "grain",
+        "label": "[Sử liệu khác]"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 1",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "Hậu Hán thư · quyển 9",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "label": "Tư trị thông giám · quyển 61",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷061"
+      }
+    ],
+    "note": "Hai địa bàn riêng, không gộp giá lương hay hậu quả; việc thử nấu cháo không chứng minh vua có toàn quyền.",
+    "evidenceIds": [
+      "EVD-B03-032",
+      "EVD-B03-033",
+      "EVD-B03-034",
+      "EVD-B03-035",
+      "EVD-B03-036",
+      "EVD-B03-037"
+    ]
+  },
+  {
+    "id": "B03-V09-02",
+    "episode": "ep-0009",
+    "anchor": "Lữ Bố nương nhờ Lưu Bị, chưa chiếm Hạ Bì.",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Giữ gốc rồi mới đi xa",
+    "items": [
+      {
+        "name": "Đầu 195 · Định Đào",
+        "text": "Việc giành thành chưa hoàn tất.",
+        "icon": "banner"
+      },
+      {
+        "name": "Tuân Úc",
+        "text": "Khuyên giữ vững Duyện Châu trước.",
+        "person": "Tuân Úc"
+      },
+      {
+        "name": "Mùa hè 195",
+        "text": "Quân Tào lấy lại đất và các huyện.",
+        "icon": "banner"
+      },
+      {
+        "name": "Lữ Bố",
+        "text": "Tìm nơi nương nhờ Lưu Bị.",
+        "person": "Lữ Bố"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 1",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "Tam Quốc chí · quyển 10",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷10"
+      },
+      {
+        "label": "Tư trị thông giám · quyển 61",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷061"
+      }
+    ],
+    "note": "Chưa kể bổ nhiệm tháng mười hay diễn biến Hạ Bì năm 196.",
+    "evidenceIds": [
+      "EVD-B03-038",
+      "EVD-B03-039",
+      "EVD-B03-040"
+    ]
+  },
+  {
+    "id": "B03-V09-03",
+    "episode": "ep-0009",
+    "anchor": "Dương Bưu, một đại thần giữ chức Thái úy, phản đối việc các bề tôi đánh nhau, một người bắt thiên tử, một người giữ công khanh làm con tin. Chu Tuấn, vị tướng từng tham gia dẹp Khăn Vàng ở tập 2, khi ấy là Đại tư nông, quan phụ trách tài chính và lương thực; ông từng giữ chức Thái úy đến năm 194. Sau khi bị giữ, ông qua đời theo Tư trị thông giám. Người từng chiến đấu để bảo vệ nhà Hán lại kết thúc cuộc đời trong chính cuộc tranh quyền giữa các lực lượng nắm triều đình.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Triều đình bị chia đôi",
+    "center": {
+      "name": "Triều đình Hán",
+      "text": "Hoàng đế và công khanh bị chia cắt.",
+      "icon": "scroll"
+    },
+    "items": [
+      {
+        "name": "Lý Giác",
+        "text": "Giữ hoàng đế.",
+        "person": "Lý Giác"
+      },
+      {
+        "name": "Quách Dĩ",
+        "text": "Giữ công khanh.",
+        "person": "Quách Dĩ"
+      },
+      {
+        "name": "Dương Bưu",
+        "text": "Phản đối việc hai tướng cưỡng ép triều đình.",
+        "person": "Dương Bưu"
+      },
+      {
+        "name": "Chu Tuấn",
+        "text": "Qua đời sau khi bị giữ theo Tư trị thông giám.",
+        "person": "Chu Tuấn"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Hậu Hán thư · quyển 9",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "label": "Tư trị thông giám · quyển 61",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷061"
+      }
+    ],
+    "note": "Mạng quan hệ quyền lực, không mô tả vị trí doanh trại.",
+    "evidenceIds": [
+      "EVD-B03-042",
+      "EVD-B03-043",
+      "EVD-B03-044"
+    ]
+  },
+  {
+    "id": "B03-V09-04",
+    "episode": "ep-0009",
+    "anchor": "Tháng chạp năm 195, thiên tử tới An Ấp.",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Đường về phía đông",
+    "items": [
+      {
+        "name": "Trường An",
+        "text": "Tháng 7 · Rời kinh thành.",
+        "icon": "banner"
+      },
+      {
+        "name": "Bá Lăng",
+        "text": "Tháng 7 · Chặng được ghi.",
+        "icon": "banner"
+      },
+      {
+        "name": "Tân Phong",
+        "text": "Tháng 8 · Triều đình đến.",
+        "icon": "banner"
+      },
+      {
+        "name": "Hoa Âm",
+        "text": "Tháng 10 · Triều đình đến.",
+        "icon": "banner"
+      },
+      {
+        "name": "Hoằng Nông",
+        "text": "Tháng 11 · Phạm vi quận.",
+        "icon": "banner"
+      },
+      {
+        "name": "Đông Giản",
+        "text": "Tháng 11 · Thất bại.",
+        "icon": "banner"
+      },
+      {
+        "name": "Tào Dương",
+        "text": "Tháng 11 · Đoàn triều đình đến.",
+        "icon": "banner"
+      },
+      {
+        "name": "Thiểm",
+        "text": "Tháng 11–12 · Không ép ngày tháng.",
+        "icon": "banner"
+      },
+      {
+        "name": "Hoàng Hà",
+        "text": "Tháng 12 · Chưa xác định bến vượt.",
+        "icon": "scroll"
+      },
+      {
+        "name": "Đại Dương",
+        "text": "Tháng 12 · Đoàn triều đình đến.",
+        "icon": "banner"
+      },
+      {
+        "name": "An Ấp",
+        "text": "Tháng 12 · Tạm có nơi nương náu.",
+        "icon": "banner"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Hậu Hán thư · quyển 9",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "label": "Tư trị thông giám · quyển 61",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷061"
+      }
+    ],
+    "note": "Tháng âm lịch năm 195; thứ tự chặng theo sử liệu, không phải tuyến đường tái dựng. Bến vượt Hoàng Hà chưa xác minh.",
+    "evidenceIds": [
+      "EVD-B03-046",
+      "EVD-B03-047",
+      "EVD-B03-048"
+    ]
+  },
+  {
+    "id": "B03-V09-05",
+    "episode": "ep-0009",
+    "anchor": "Theo tuyến niên biểu Tư trị thông giám và dị bản Giang biểu truyện được Bùi chú dẫn, năm 195 Tôn Sách được Viên Thuật cho phép tiến sang phía nam, được tiến cử làm Chiết Xung hiệu úy, tạm đảm nhiệm chức tướng quân trừ giặc (行殄寇將軍). Tôn Sách tập hợp lực lượng tại Lịch Dương.",
+    "placement": "paragraph",
+    "kind": "comparison",
+    "title": "Hai thế lực định hình",
+    "items": [
+      {
+        "name": "Tào Tháo",
+        "text": "Tháng 10 được thiên tử bổ Duyện Châu mục; tháng chạp Ung Khâu thất thủ.",
+        "person": "Tào Tháo",
+        "label": "Duyện Châu"
+      },
+      {
+        "name": "Tôn Sách",
+        "text": "Huy động lực lượng tại Lịch Dương theo tuyến niên biểu 195 có dị bản.",
+        "person": "Tôn Sách",
+        "label": "Phía nam"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 1",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "Tam Quốc chí · quyển 46",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷46"
+      },
+      {
+        "label": "Hậu Hán thư · quyển 9",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "label": "Tư trị thông giám · quyển 61",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷061"
+      }
+    ],
+    "note": "Hai tuyến riêng; mốc Tôn Sách theo biên niên 195 có khác biệt giữa nguồn. Chưa có nước Ngụy hay Ngô.",
+    "evidenceIds": [
+      "EVD-B03-041",
+      "EVD-B03-050",
+      "EVD-B03-055"
+    ]
   }
 ]
