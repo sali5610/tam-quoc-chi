@@ -51,6 +51,9 @@ Một người có thể không tham gia kế hoạch của Đậu Vũ và Trầ
 
 [Chính sử] 《後漢書》卷67〈黨錮列傳〉, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷67).
 
+> **[Ngẫm chuyện nay · Góc nhìn hiện đại]** Khi một tổ chức đánh giá con người chủ yếu qua *họ quen ai* thay vì *họ đã làm gì*, nỗi sợ dễ lan xa hơn cả người bị nhắm tới. Trong công việc hôm nay, nếu một đồng nghiệp bị gắn nhãn, hãy thử tách **hành vi có bằng chứng** khỏi **quan hệ hay lời đồn** trước khi phán xét. Đây là phép liên hệ hiện đại, không phải kết luận mà sử gia thời Hán đưa ra.
+
+
 > **[Đối chiếu · Tiểu thuyết]** Mở đầu 《三國演義》 hồi 1, nhà Hán suy tàn được báo trước bằng những điềm lạ và lời kể giàu phán xét. Đó là cách tiểu thuyết dựng không khí. Những cuộc đấu đá và đảng cấm có ghi trong sử, nhưng **điềm báo trong truyện không tự động trở thành sự thật lịch sử**. [Đọc hồi 1](https://zh.wikisource.org/wiki/三國演義/第001回).
 
 > **[Châm biếm của biên tập]** Thời ấy chưa có mạng xã hội. Mạng lưới thầy trò cũng đủ khiến một vụ chính trị lan rộng.
