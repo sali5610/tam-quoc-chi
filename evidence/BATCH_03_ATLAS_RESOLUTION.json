@@ -1,0 +1,983 @@
+{
+  "status": "research-validated; not runtime imported",
+  "supersedes": "BATCH_03_QUOTE_ATLAS_CLOSURE.md section 2 only",
+  "releaseSha": "407a116da5372a98cbd5ee6247cfbc8471409c6f",
+  "artifact": 14967466048,
+  "datasetSha256": "8e9ce98e60238751540afe02a96e99f6491231de0206b7fd85774887795d8fdd",
+  "license": "CC-BY-SA-4.0",
+  "source": {
+    "geo1": "https://zh.wikisource.org/wiki/後漢書/卷109",
+    "geo3": "https://zh.wikisource.org/wiki/後漢書/卷111",
+    "shouzhang": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_45258",
+    "court": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "courtAnnals": "https://zh.wikisource.org/wiki/後漢書/卷9",
+    "cao": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "liu": "https://zh.wikisource.org/wiki/三國志/卷32",
+    "atlas": "https://swordandstate.com/history-open/atlas.json"
+  },
+  "policy": {
+    "resolver": "Use atlasIds and regionAliases as authored; historicalNames are display metadata, not aliases for the resolver. For changan reuse canonical pilot ID. All site anchors represent dataset points, not archaeological certainty.",
+    "province": "Use existing multi-region map context, no representative site or centroid pin.",
+    "grouping": "Identical region anchors group visual markers, preserve distinct event texts; do not invent offsets.",
+    "route": "Use existing resolveJourney: omit equal-point segments, break across unresolved stops, default off; dashed approximate event connections, not actual travel path.",
+    "incidental": "Other incidental toponyms not in this 45-record scope remain source-labelled text, not silently asserted coordinates."
+  },
+  "places": [
+    {
+      "id": "changan",
+      "name": "Trường An",
+      "historicalNames": [
+        "長安"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "changan"
+      ],
+      "display": "site",
+      "note": "Dataset site anchor only; if narrative describes commandery rather than city use region context."
+    },
+    {
+      "id": "anyi",
+      "name": "An Ấp",
+      "historicalNames": [
+        "安邑"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "anyi"
+      ],
+      "display": "site",
+      "note": "Dataset site anchor only; if narrative describes commandery rather than city use region context."
+    },
+    {
+      "id": "ji",
+      "name": "Kế",
+      "historicalNames": [
+        "薊"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "ji"
+      ],
+      "display": "site",
+      "note": "Dataset site anchor only; if narrative describes commandery rather than city use region context."
+    },
+    {
+      "id": "puyang",
+      "name": "Bộc Dương",
+      "historicalNames": [
+        "濮陽"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "puyang"
+      ],
+      "display": "site",
+      "note": "Dataset site anchor only; if narrative describes commandery rather than city use region context."
+    },
+    {
+      "id": "chenliu",
+      "name": "Trần Lưu",
+      "historicalNames": [
+        "陳留"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "chenliu"
+      ],
+      "display": "site",
+      "note": "Dataset site anchor only; if narrative describes commandery rather than city use region context."
+    },
+    {
+      "id": "juancheng",
+      "name": "Quyên Thành",
+      "historicalNames": [
+        "鄄城"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "juancheng"
+      ],
+      "display": "site",
+      "note": "Dataset site anchor only; if narrative describes commandery rather than city use region context."
+    },
+    {
+      "id": "pengcheng",
+      "name": "Bành Thành",
+      "historicalNames": [
+        "彭城"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "pengcheng"
+      ],
+      "display": "site",
+      "note": "Dataset site anchor only; if narrative describes commandery rather than city use region context."
+    },
+    {
+      "id": "xiaopei",
+      "name": "Tiểu Bái",
+      "historicalNames": [
+        "小沛"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "xiaopei"
+      ],
+      "display": "site",
+      "note": "Dataset site anchor only; if narrative describes commandery rather than city use region context."
+    },
+    {
+      "id": "dingtao",
+      "name": "Định Đào",
+      "historicalNames": [
+        "定陶"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "dingtao"
+      ],
+      "display": "site",
+      "note": "Dataset site anchor only; if narrative describes commandery rather than city use region context."
+    },
+    {
+      "id": "liyang",
+      "name": "Lịch Dương",
+      "historicalNames": [
+        "歷陽"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "liyang"
+      ],
+      "display": "site",
+      "note": "Dataset site anchor only; if narrative describes commandery rather than city use region context."
+    },
+    {
+      "id": "ye",
+      "name": "Nghiệp",
+      "historicalNames": [
+        "鄴"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "ye"
+      ],
+      "display": "site",
+      "note": "Dataset site anchor only; if narrative describes commandery rather than city use region context."
+    },
+    {
+      "id": "pingyuan",
+      "name": "Bình Nguyên",
+      "historicalNames": [
+        "平原"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "pingyuan"
+      ],
+      "display": "site",
+      "note": "Dataset site anchor only; if narrative describes commandery rather than city use region context."
+    },
+    {
+      "id": "xiapi",
+      "name": "Hạ Bì",
+      "historicalNames": [
+        "下邳"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "xiapi"
+      ],
+      "display": "site",
+      "note": "Context only; no Lü Bu takeover before 196."
+    },
+    {
+      "id": "changshan",
+      "name": "Thường Sơn",
+      "historicalNames": [
+        "常山"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "常山・中山"
+      ],
+      "display": "region",
+      "note": "Suppress exact-name city match intentionally: historical claims here concern commandery/region, not precise city. historicalNames must NOT be copied into resolver aliases."
+    },
+    {
+      "id": "henei",
+      "name": "Hà Nội",
+      "historicalNames": [
+        "河內"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "河內"
+      ],
+      "display": "region",
+      "note": "Suppress exact-name city match intentionally: historical claims here concern commandery/region, not precise city. historicalNames must NOT be copied into resolver aliases."
+    },
+    {
+      "id": "shanyang",
+      "name": "Sơn Dương",
+      "historicalNames": [
+        "山陽"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "山陽・任城"
+      ],
+      "display": "region",
+      "note": "Suppress exact-name city match intentionally: historical claims here concern commandery/region, not precise city. historicalNames must NOT be copied into resolver aliases."
+    },
+    {
+      "id": "langya",
+      "name": "Lang Nha",
+      "historicalNames": [
+        "琅邪",
+        "琅琊"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "琅邪"
+      ],
+      "display": "region",
+      "note": "Suppress exact-name city match intentionally: historical claims here concern commandery/region, not precise city. historicalNames must NOT be copied into resolver aliases."
+    },
+    {
+      "id": "hongnong",
+      "name": "Hoằng Nông",
+      "historicalNames": [
+        "弘農"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "弘農"
+      ],
+      "display": "region",
+      "note": "Suppress exact-name city match intentionally: historical claims here concern commandery/region, not precise city. historicalNames must NOT be copied into resolver aliases."
+    },
+    {
+      "id": "jibei",
+      "name": "Tế Bắc",
+      "historicalNames": [
+        "濟北"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "泰山・濟北"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "shouzhang",
+      "name": "Thọ Trương",
+      "historicalNames": [
+        "壽張"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "東郡・濮陽"
+      ],
+      "display": "region",
+      "note": "Historical county belongs to Đông Bình, NOT Đông quận in 192. CHGIS temporal entry 76–456 was inspected, its published location falls within the dataset's approximate 東郡・濮陽 display polygon on a read-only affine bounds check. This is geographic display context only, not historical administrative membership or a battle coordinate; no CHGIS coordinates imported. Label Đông Bình / Duyện Châu; if UI cannot express this distinction use province context instead.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/後漢書/卷111",
+        "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_45258",
+        "https://zh.wikisource.org/wiki/三國志/卷01"
+      ]
+    },
+    {
+      "id": "fengqiu",
+      "name": "Phong Khâu",
+      "historicalNames": [
+        "封丘"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "陳留・濟陰"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "fan",
+      "name": "Phạm",
+      "historicalNames": [
+        "范"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "鄄城・范・東阿"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "donga",
+      "name": "Đông A",
+      "historicalNames": [
+        "東阿"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "鄄城・范・東阿"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "tan",
+      "name": "Đàm / Diệm",
+      "historicalNames": [
+        "郯",
+        "剡"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "下邳・東海"
+      ],
+      "display": "region",
+      "note": "郯/剡 variant kept unresolved at site scale; no claim same city."
+    },
+    {
+      "id": "donghai",
+      "name": "Đông Hải",
+      "historicalNames": [
+        "東海"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "下邳・東海"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "xiangben",
+      "name": "Tương Bôn",
+      "historicalNames": [
+        "襄賁"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "下邳・東海"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "hua-fei",
+      "name": "Hoa – Phí",
+      "historicalNames": [
+        "華",
+        "費"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "泰山・濟北"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "juye",
+      "name": "Cự Dã",
+      "historicalNames": [
+        "鉅野"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "山陽・任城"
+      ],
+      "display": "region",
+      "note": "Hậu Hán thư quyển 111, Sơn Dương quận; distinct counties, same display region.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/後漢書/卷111"
+      ]
+    },
+    {
+      "id": "dongmin",
+      "name": "Đông Mân",
+      "historicalNames": [
+        "東緡",
+        "東緍"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "山陽・任城"
+      ],
+      "display": "region",
+      "note": "Hậu Hán thư quyển 111, Sơn Dương quận; distinct counties, same display region.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/後漢書/卷111"
+      ]
+    },
+    {
+      "id": "yongqiu",
+      "name": "Ung Khâu",
+      "historicalNames": [
+        "雍丘"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "陳留・濟陰"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "xinfeng",
+      "name": "Tân Phong",
+      "historicalNames": [
+        "新豐"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "京兆・左馮翊"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "huayin",
+      "name": "Hoa Âm",
+      "historicalNames": [
+        "華陰"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "弘農"
+      ],
+      "display": "region",
+      "note": "Hậu Hán thư quyển 109 lists under Hoằng Nông; court visited lunar October 195.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/後漢書/卷109",
+        "https://zh.wikisource.org/wiki/資治通鑑/卷061"
+      ]
+    },
+    {
+      "id": "dongjian",
+      "name": "Đông Giản",
+      "historicalNames": [
+        "東澗"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "弘農"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "caoyang",
+      "name": "Tào Dương",
+      "historicalNames": [
+        "曹陽"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "弘農"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "shan",
+      "name": "Thiểm",
+      "historicalNames": [
+        "陝"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "弘農"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "dayang",
+      "name": "Đại Dương",
+      "historicalNames": [
+        "大陽"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "河東"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "bao-qiu",
+      "name": "Bảo Khâu",
+      "historicalNames": [
+        "鮑丘"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "漁陽・右北平"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "changpingguan",
+      "name": "Trường Bình Quán",
+      "historicalNames": [
+        "長平觀"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "京兆・左馮翊"
+      ],
+      "display": "region",
+      "note": "Hậu Hán thư quyển 9 commentary places site near Trì Dương; quyển 109 lists Trì Dương under Tả Phùng Dực. Approximate region only.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/後漢書/卷9",
+        "https://zh.wikisource.org/wiki/後漢書/卷109"
+      ]
+    },
+    {
+      "id": "baling",
+      "name": "Bá Lăng",
+      "historicalNames": [
+        "霸陵"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "京兆・左馮翊"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "jiujiang",
+      "name": "Cửu Giang",
+      "historicalNames": [
+        "九江"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "九江・淮南"
+      ],
+      "display": "region",
+      "note": "Region display anchor only; not a located ancient site."
+    },
+    {
+      "id": "dongjun",
+      "name": "Đông quận",
+      "historicalNames": [
+        "東郡"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "東郡・濮陽"
+      ],
+      "display": "region",
+      "note": "New context anchor for invitation in Eastern Commandery, not proof meeting occurred in Puyang.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷01",
+        "https://zh.wikisource.org/wiki/後漢書/卷111"
+      ]
+    },
+    {
+      "id": "yanzhou",
+      "name": "Duyện Châu",
+      "historicalNames": [
+        "兗州"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "display": "province-context",
+      "regionIds": [
+        "taishan",
+        "dongjun",
+        "juancheng",
+        "chenliu",
+        "shanyang"
+      ],
+      "note": "Multiple existing dataset regions by exact province field; use map context, no single pin and no claim exact historical borders or control."
+    },
+    {
+      "id": "xuzhou",
+      "name": "Từ Châu",
+      "historicalNames": [
+        "徐州"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "display": "province-context",
+      "regionIds": [
+        "langya",
+        "pengcheng",
+        "xiapi",
+        "guangling"
+      ],
+      "note": "Multiple existing dataset regions by exact province field; use map context, no single pin and no claim exact historical borders or control."
+    },
+    {
+      "id": "youzhou",
+      "name": "U Châu",
+      "historicalNames": [
+        "幽州"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "display": "province-context",
+      "regionIds": [
+        "dai",
+        "ji",
+        "yuyang",
+        "liaoxi",
+        "liaodong",
+        "xuantu",
+        "lelang"
+      ],
+      "note": "Multiple existing dataset regions by exact province field; use map context, no single pin and no claim exact historical borders or control."
+    },
+    {
+      "id": "yellow-river-crossing",
+      "name": "Vượt Hoàng Hà",
+      "historicalNames": [
+        "渡河"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "display": "text-only",
+      "sources": [
+        "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+        "https://zh.wikisource.org/wiki/後漢書/卷9"
+      ],
+      "note": "Crossing documented between Thiểm and Đại Dương, actual crossing site unresolved. Retain textual step; MUST break the journey line across it."
+    }
+  ],
+  "events": [
+    {
+      "id": "yan-invitation-192",
+      "episode": "ep-0007",
+      "year": -192,
+      "place": "dongjun",
+      "evidence": "001–003",
+      "note": "Regional invitation, not invented Puyang meeting"
+    },
+    {
+      "id": "qingzhou-surrender-192",
+      "episode": "ep-0007",
+      "year": -192,
+      "place": "jibei",
+      "evidence": "004–005",
+      "note": "Tế Bắc region"
+    },
+    {
+      "id": "fengqiu-193",
+      "episode": "ep-0007",
+      "year": -193,
+      "place": "fengqiu",
+      "evidence": "007",
+      "note": "Regional campaign, not precise battlefield"
+    },
+    {
+      "id": "you-conflict-193",
+      "episode": "ep-0007",
+      "year": -193,
+      "place": "ji",
+      "evidence": "010;060",
+      "note": "Kế capture anchor, escape elsewhere textual"
+    },
+    {
+      "id": "xu-campaign-193",
+      "episode": "ep-0008",
+      "year": -193,
+      "place": "pengcheng",
+      "evidence": "015–019",
+      "note": "Bành Thành battle, Đàm/Diệm variant textual"
+    },
+    {
+      "id": "xu-relief-194",
+      "episode": "ep-0008",
+      "year": -194,
+      "place": "xiaopei",
+      "evidence": "020–021",
+      "note": "Posting at Tiểu Bái only, not exact relief battlefield"
+    },
+    {
+      "id": "yan-rebellion-194",
+      "episode": "ep-0008",
+      "year": -194,
+      "place": "puyang",
+      "evidence": "022–024",
+      "note": "Lü occupation, not all rebels co-located"
+    },
+    {
+      "id": "three-holdings-194",
+      "episode": "ep-0008",
+      "year": -194,
+      "place": "juancheng",
+      "evidence": "025–026;059",
+      "note": "Additional Phạm and Đông A share one region anchor"
+    },
+    {
+      "id": "xu-succession-194",
+      "episode": "ep-0008",
+      "year": -194,
+      "place": "xiaopei",
+      "evidence": "027–029;056",
+      "note": "Invitation at Tiểu Bái only; accession province context"
+    },
+    {
+      "id": "puyang-contest-194",
+      "episode": "ep-0009",
+      "year": -194,
+      "place": "puyang",
+      "evidence": "032–034;057",
+      "note": "Contest city"
+    },
+    {
+      "id": "capital-famine-194",
+      "episode": "ep-0009",
+      "year": -194,
+      "place": "changan",
+      "evidence": "036–037",
+      "note": "Capital anchor"
+    },
+    {
+      "id": "dingtao-recovery-195",
+      "episode": "ep-0009",
+      "year": -195,
+      "place": "dingtao",
+      "evidence": "038–040",
+      "note": "Recovery city; Cự Dã and Đông Mân share region context"
+    },
+    {
+      "id": "court-detained-195",
+      "episode": "ep-0009",
+      "year": -195,
+      "place": "changan",
+      "evidence": "042–045",
+      "note": "City anchor, no exact camps"
+    },
+    {
+      "id": "court-departure-195",
+      "episode": "ep-0009",
+      "year": -195,
+      "place": "changan",
+      "evidence": "046",
+      "note": "July departure; separate dated journey stops"
+    },
+    {
+      "id": "court-retreat-195",
+      "episode": "ep-0009",
+      "year": -195,
+      "place": "anyi",
+      "evidence": "047–048",
+      "note": "December arrival; November defeats in Hoằng Nông region not at An Ấp"
+    },
+    {
+      "id": "yongqiu-195",
+      "episode": "ep-0009",
+      "year": -195,
+      "place": "yongqiu",
+      "evidence": "041;052",
+      "note": "Region not exact siege site"
+    },
+    {
+      "id": "sun-ce-liyang-195",
+      "episode": "ep-0009",
+      "year": -195,
+      "place": "liyang",
+      "evidence": "050;055",
+      "note": "195 chronology variant, not full conquest"
+    }
+  ],
+  "journey": {
+    "id": "xiandi-195",
+    "person": "xiandi",
+    "episode": "ep-0009",
+    "year": 195,
+    "faction": "han",
+    "kind": "documented-event-sequence",
+    "stops": [
+      {
+        "place": "changan",
+        "order": 1,
+        "year": 195,
+        "lunarMonth": "7",
+        "precision": "month",
+        "title": "Departure from capital",
+        "evidence": "EVD-B03-046",
+        "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+        "parallelSourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "place": "baling",
+        "order": 2,
+        "year": 195,
+        "lunarMonth": "7",
+        "precision": "month",
+        "title": "Night arrival",
+        "evidence": "EVD-B03-046",
+        "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+        "parallelSourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "place": "xinfeng",
+        "order": 3,
+        "year": 195,
+        "lunarMonth": "8",
+        "precision": "month",
+        "title": "Court arrives",
+        "evidence": "EVD-B03-046",
+        "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+        "parallelSourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "place": "huayin",
+        "order": 4,
+        "year": 195,
+        "lunarMonth": "10",
+        "precision": "month",
+        "title": "Court arrives",
+        "evidence": "EVD-B03-046",
+        "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+        "parallelSourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "place": "hongnong",
+        "order": 5,
+        "year": 195,
+        "lunarMonth": "11",
+        "precision": "month",
+        "title": "Court arrives in commandery",
+        "evidence": "EVD-B03-047",
+        "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+        "parallelSourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "place": "dongjian",
+        "order": 6,
+        "year": 195,
+        "lunarMonth": "11",
+        "precision": "month",
+        "title": "Defeat at Đông Giản",
+        "evidence": "EVD-B03-047",
+        "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+        "parallelSourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "place": "caoyang",
+        "order": 7,
+        "year": 195,
+        "lunarMonth": "11",
+        "precision": "month",
+        "title": "Court camps at Tào Dương",
+        "evidence": "EVD-B03-047",
+        "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+        "parallelSourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "place": "shan",
+        "order": 8,
+        "year": 195,
+        "lunarMonth": "11–12",
+        "precision": "year",
+        "title": "Arrival at Thiểm before crossing, month boundary not forced",
+        "evidence": "EVD-B03-047–048",
+        "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+        "parallelSourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "place": "yellow-river-crossing",
+        "order": 9,
+        "year": 195,
+        "lunarMonth": "12",
+        "precision": "month",
+        "title": "Exact site unknown",
+        "evidence": "EVD-B03-048",
+        "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+        "parallelSourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "place": "dayang",
+        "order": 10,
+        "year": 195,
+        "lunarMonth": "12",
+        "precision": "month",
+        "title": "Arrival in Đại Dương",
+        "evidence": "EVD-B03-048",
+        "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+        "parallelSourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "place": "anyi",
+        "order": 11,
+        "year": 195,
+        "lunarMonth": "12",
+        "precision": "month",
+        "title": "Arrival at An Ấp",
+        "evidence": "EVD-B03-048",
+        "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+        "parallelSourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      }
+    ],
+    "expectedSegments": [
+      [
+        "changan",
+        "baling"
+      ],
+      [
+        "xinfeng",
+        "huayin"
+      ],
+      [
+        "dayang",
+        "anyi"
+      ]
+    ],
+    "allApproximate": true
+  },
+  "qa": {
+    "method": "Actual release artifact data locally checked using equivalent existing resolver and journey segment logic, node v22.16.0; no runtime modifications.",
+    "places": 45,
+    "site": 13,
+    "region": 28,
+    "provinceContext": 3,
+    "textOnly": 1,
+    "finiteResolved": 41,
+    "eventAnchors": 17,
+    "journeyStops": 11,
+    "approximateSegments": 3,
+    "ui": "NOT TESTED; downstream",
+    "live": "Not rechecked"
+  }
+}
