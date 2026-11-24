@@ -55,4 +55,8 @@ The earlier decisions remain historical records; the following supersede stale d
 
 - DEC-026 (PO, 2026-11-25): all six Wiki radar ratings mandatory at every character timeline snapshot; assess/update as part of each content batch, including new characters. Supersedes earlier optional/omitted-axis decision. Keep explicit editorial inference and evidence safeguards; do not invent historical facts. Backfill existing incomplete snapshots in next content package; no separate deployment authorized by this instruction.
 
+- PO correction to DEC-026: fix existing data now, every timeline snapshot must show all six ratings, not merely the first snapshot per character. Preserve uncertainty disclosures. Separate release approval remains required.
+
+- 2026-11-25: PO explicitly approves release of DEC-026 radar completeness fix to existing GitHub Pages, based on passed CI 45457431703. No unrelated branch changes authorized.
+
 - 2026-11-25: PO authorizes Chat 03B to complete inline visual coverage of EP01–06 before next batch. Preserve Ink & Silk, prefer 三國志圖像, use sourced supplemental plates and clearly labeled context if exact scenes unavailable; no AI art. Preview and regression only; separate release approval required.
