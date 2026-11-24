@@ -76,7 +76,7 @@
 :root{--v5-paper:#f7f2e8;--v5-raised:#fffcf5;--v5-ink:#242b2a;--v5-deep:#233b38;--v5-muted:#635e54;--v5-line:#d8cebd;--v5-seal:#9a342c;--v5-brass:#82643d}
 body:has(.home-layout),body:has(.library-layout),body:has(.reader-layout){background:var(--v5-paper);color:var(--v5-ink)}
 .site-header{gap:8px}.site-header .menu,.site-header>a{min-height:44px;display:flex;align-items:center}.site-header .menu{gap:6px}.site-header .brand{letter-spacing:.1em;font-size:12px}
-body:has(.home-layout) .site-header,body:has(.library-layout) .site-header,.reading-header{background:var(--v5-paper);color:var(--v5-ink);border-bottom:1px solid var(--v5-line)}
+body:has(.home-layout) .site-header,body:has(.library-layout) .site-header,header.site-header.reading-header{background:var(--v5-paper);color:var(--v5-ink);border-bottom:1px solid var(--v5-line)}
 body:has(.home-layout) .site-header .menu,body:has(.library-layout) .site-header .menu,.reading-header .menu{color:var(--v5-ink)}
 body:has(.home-layout) footer,body:has(.library-layout) footer{background:var(--v5-paper);border-color:var(--v5-line)}
 .layout.home-layout main,.layout.library-layout main{max-width:1120px;padding:20px 18px calc(100px + env(safe-area-inset-bottom))}
@@ -220,3 +220,6 @@ dialog.person-sheet{width:min(100%,760px);max-width:calc(100vw - 32px);max-heigh
 @media(min-width:1100px){.wiki-layout .people-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.atlas-layout .atlas-workspace{grid-template-columns:minmax(0,2fr) minmax(280px,1fr);gap:24px}.atlas-layout .atlas-inspector{position:sticky;top:76px}}
 @media(min-width:1000px) and (max-width:1099px){.atlas-layout .atlas-workspace{grid-template-columns:1fr}.atlas-layout .atlas-inspector{position:static}}
 @media(prefers-reduced-motion:reduce){dialog.person-sheet{animation:none!important}}
+
+/* Visual QA: keep reader header and menu contrast consistent with paper. */
+header.site-header.reading-header .menu{color:var(--v5-ink)}
