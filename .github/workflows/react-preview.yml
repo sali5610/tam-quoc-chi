@@ -1,28 +1,42 @@
 name: Publish isolated React preview
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/react-preview.yml']
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
 jobs:
   preview:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
       - run: npm install --no-audit --no-fund
       - run: npm run build
       - run: |
+          node --input-type=module -e "import fs from 'node:fs';const d=JSON.parse(fs.readFileSync('dist/atlas/atlas.json'));if(d.license!=='CC-BY-SA-4.0'||d.version!==2||d.regions.length!==80||!d.events.length)throw Error('Atlas validation failed')"
+          rm -rf docs/react-preview
           mkdir -p docs/react-preview
           cp -a dist/. docs/react-preview/
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/react-preview
-          if ! git diff --cached --quiet; then
-            git commit -m "preview: publish React build"
-            git push
-          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+  deploy:
+    needs: preview
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
