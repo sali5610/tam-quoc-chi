@@ -23,3 +23,5 @@
 .atlas-marker-overview .atlas-local-relation{padding-top:12px}
 
 .atlas-portrait-seal{position:relative;overflow:hidden;flex-shrink:0}.atlas-portrait-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 17%;background:#f2ebdd;pointer-events:none}
+
+.portrait-frame{width:100%}.portrait-frame .portrait{width:100%;aspect-ratio:3/4;height:auto;object-fit:contain;background:#e8dfcf}.portrait-placeholder{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:6px;text-align:center;color:#765e4e}.portrait-placeholder span{font-size:24px;font-weight:bold}.portrait-placeholder small{font:10px system-ui}.portrait-credit{font:12px/1.5 system-ui;color:#765e4e}dialog .portrait-frame{width:120px;float:right;margin:0 0 10px 10px}dialog .portrait-frame .portrait{float:none;width:100%}
