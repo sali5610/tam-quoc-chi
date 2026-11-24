@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: shared location resolver and regional precision
+# Release: unique reader keys and navigation regression
 on:
   workflow_dispatch:
   push:
@@ -63,14 +63,16 @@ jobs:
             const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
             page.on('pageerror',e=>{errors.push(String(e));console.error(e)});
             page.on('response',r=>{if(r.status()>=400||r.url().includes('atlas.json'))console.log('HTTP',r.status(),r.url())});
-            page.on('console',m=>{if(m.type()==='error'||m.text().includes('Atlas marker')||m.text().includes('Atlas characters'))console.log(m.text())});
-            for(const [id,name] of [['ep-0001','Hán Linh Đế'],['ep-0002','Hoàng Phủ Tung'],['ep-0003','Đổng Trác']]){
+            page.on('console',m=>{if(m.type()==='error'||m.text().includes('Atlas marker')||m.text().includes('Atlas characters'))console.log(m.text());if(/same key|duplicate key/i.test(m.text()))errors.push(m.text());});
+            for(const [id,name] of [['ep-0001','Hán Linh Đế'],['ep-0002','Hoàng Phủ Tung'],['ep-0003','Đổng Trác'],['ep-0001','Hán Linh Đế']]){
               try {
               await page.goto('http://localhost:4173/tam-quoc-chi/react-preview/#/read/'+id);
               const marker=page.locator('.atlas-person-marker').filter({hasText:name});
               try {await marker.waitFor({state:'visible',timeout:15000});} catch(e){console.error('URL',page.url(),'MAP TEXT',await page.locator('.strategy-board').innerText().catch(()=>''));console.error('MAP',await page.locator('.strategy-board').count(),'MARKERS',await page.locator('.atlas-person-marker').count());throw e;}
               await marker.scrollIntoViewIfNeeded();
-              await page.locator('.strategy-board').scrollIntoViewIfNeeded();
+              await page.waitForFunction(()=>document.querySelectorAll('main .strategy-board').length===1,{},{timeout:5000});
+              await marker.locator('xpath=ancestor::div[contains(concat(" ",normalize-space(@class)," ")," strategy-board ")]').scrollIntoViewIfNeeded();
+              if(await page.locator('.atlas-person-marker').count()!==1)throw Error('Stale or duplicate character markers after navigation');
               const ok=await marker.evaluate(el=>{const r=el.getBoundingClientRect(),b=el.closest('.strategy-board').getBoundingClientRect();const x=r.left+r.width/2,y=r.top+r.height/2;return x>b.left&&x<b.right&&y>b.top&&y<b.bottom&&el.contains(document.elementFromPoint(x,y))});
               if(!ok)throw Error('Marker clipped or obscured: '+name);
               if(id!=='ep-0001')await marker.locator('.atlas-local-relation svg').waitFor({state:'visible'});
