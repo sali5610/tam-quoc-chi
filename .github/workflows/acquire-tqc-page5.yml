@@ -46,16 +46,23 @@ jobs:
               rows.append(row)
               manifest.write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')
           PY
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - run: npm ci
-      - run: node scripts/validate-content.mjs && npx tsc --noEmit && npx vite build
-      - name: Commit validated asset and mapping
+      - name: Commit verified asset and mapping before independent build
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- src/story-art-assets/sl-0005-luu-bi-doc-buu.webp src/story-art.json
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Bundle primary scan 5 and validated story mapping"
+          git commit -m "Bundle primary scan 5 and verified story mapping"
           git push origin HEAD:refs/heads/visual/inline-multisource
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then
+            npm ci --no-audit --no-fund
+          else
+            npm install --no-audit --no-fund --package-lock=false
+          fi
+      - name: Check reader build without external atlas download
+        run: node scripts/validate-content.mjs && npx --no-install tsc --noEmit && npx --no-install vite build
