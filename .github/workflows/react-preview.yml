@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: atlas runtime diagnostics
+# Release: native marker pane verification
 on:
   workflow_dispatch:
   push:
@@ -42,7 +42,7 @@ jobs:
             const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
             page.on('pageerror',e=>console.error(e));
             page.on('response',r=>{if(r.status()>=400||r.url().includes('atlas.json'))console.log('HTTP',r.status(),r.url())});
-            page.on('console',m=>{if(m.type()==='error')console.error(m.text())});
+            page.on('console',m=>{if(m.type()==='error'||m.text().includes('Atlas marker'))console.log(m.text())});
             for(const [id,name] of [['ep-0001','Hán Linh Đế'],['ep-0002','Hoàng Phủ Tung'],['ep-0003','Đổng Trác']]){
               await page.goto('http://localhost:4173/tam-quoc-chi/react-preview/#/read/'+id);
               const marker=page.locator('.atlas-person-marker').filter({hasText:name});
