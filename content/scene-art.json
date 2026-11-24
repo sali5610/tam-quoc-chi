@@ -16,7 +16,7 @@
     "sha1": "bac9c9007b39b12b5b76ac0fc54835bd833d0746",
     "size": 328136,
     "placement": "blockquote",
-    "visualReview": "original verified prior batch"
+    "visualReview": "Exact CI artifact 14950233018 visually inspected; dimensions and SHA1 verified 2026-11-25; see visual inventory for source limitations"
   },
   {
     "id": "VIS-B01-001",
@@ -32,7 +32,7 @@
     "width": 640,
     "height": 427,
     "rightsStatus": "CC BY-SA 4.0; VRT permission",
-    "visualReview": "preview inspected",
+    "visualReview": "Exact CI artifact 14950233018 visually inspected; dimensions and SHA1 verified 2026-11-25; see visual inventory for source limitations",
     "sha1": "18f91df4e0208d4681f0d4611a1b3c712477a43c",
     "size": 254158,
     "evidence": "EVD-0017"
@@ -51,7 +51,7 @@
     "width": 1215,
     "height": 995,
     "rightsStatus": "Public Domain Mark",
-    "visualReview": "preview inspected",
+    "visualReview": "Exact CI artifact 14950233018 visually inspected; dimensions and SHA1 verified 2026-11-25; see visual inventory for source limitations",
     "sha1": "97e2cecae25be4a914ef9d3ef0d30958a5d1ef02",
     "size": 1435607,
     "evidence": "EVD-0023"
@@ -70,8 +70,10 @@
     "width": 500,
     "height": 413,
     "rightsStatus": "Commons PD-Art; edition detail pending",
-    "visualReview": "metadata only; visual review required",
-    "evidence": "EVD-0020"
+    "visualReview": "Exact CI artifact 14950233018 visually inspected; dimensions and SHA1 verified 2026-11-25; see visual inventory for source limitations",
+    "evidence": "EVD-0020",
+    "sha1": "bd783991a6973c97d95f3b08e8ed80c35658a62d",
+    "size": 139714
   },
   {
     "id": "VIS-B01-004",
@@ -87,7 +89,7 @@
     "width": 500,
     "height": 404,
     "rightsStatus": "Commons PD-Art; edition period disputed",
-    "visualReview": "original displayed; caption inspected",
+    "visualReview": "Exact CI artifact 14950233018 visually inspected; dimensions and SHA1 verified 2026-11-25; see visual inventory for source limitations",
     "sha1": "9d133d815e0a08e780fbfa18a4ead1daaa2df69c",
     "size": 133856,
     "evidence": "EVD-0006"
@@ -106,8 +108,10 @@
     "width": 471,
     "height": 624,
     "rightsStatus": "Commons PD-Art / Public Domain Mark",
-    "visualReview": "original displayed; caption inspected",
-    "evidence": "EVD-B02-L01"
+    "visualReview": "Exact CI artifact 14950233018 visually inspected; dimensions and SHA1 verified 2026-11-25; see visual inventory for source limitations",
+    "evidence": "EVD-B02-L01",
+    "sha1": "af674f07b59527a56f45a65aa93a1a292d905f4a",
+    "size": 107483
   },
   {
     "id": "VIS-B02-009",
@@ -123,7 +127,7 @@
     "width": 500,
     "height": 416,
     "rightsStatus": "Commons PD-Art; edition detail pending",
-    "visualReview": "metadata only; visual review required",
+    "visualReview": "Exact CI artifact 14950233018 visually inspected; dimensions and SHA1 verified 2026-11-25; see visual inventory for source limitations",
     "sha1": "d0ebdcc6fa0c17554ffc8d978abb8fe7d57aadd5",
     "size": 153327,
     "evidence": "EVD-B02-005"
@@ -142,8 +146,10 @@
     "width": 1209,
     "height": 2067,
     "rightsStatus": "Commons Public Domain Mark",
-    "visualReview": "metadata only; visual review required",
-    "evidence": "EVD-B02-L04"
+    "visualReview": "Exact CI artifact 14950233018 visually inspected; dimensions and SHA1 verified 2026-11-25; see visual inventory for source limitations",
+    "evidence": "EVD-B02-L04",
+    "sha1": "f870f7c09cdee882b95a095a18b4cc40e6db3d2d",
+    "size": 420224
   },
   {
     "id": "VIS-B02-011",
@@ -159,15 +165,17 @@
     "width": 500,
     "height": 404,
     "rightsStatus": "Commons PD-Art; edition detail pending",
-    "visualReview": "original displayed; caption inspected",
-    "evidence": "EVD-B02-L05"
+    "visualReview": "Exact CI artifact 14950233018 visually inspected; dimensions and SHA1 verified 2026-11-25; see visual inventory for source limitations",
+    "evidence": "EVD-B02-L05",
+    "sha1": "f35e7e2cb30066af41a46a9ea5cf55fba519ac41",
+    "size": 140715
   },
   {
     "id": "VIS-B02-013",
     "episode": "ep-0006",
     "anchor": "Tháng sáu: Trường An đổi chủ một lần nữa",
     "placement": "heading",
-    "title": "Lý Thôi và Quách Dĩ đánh Trường An",
+    "title": "Lý Giác và Quách Dĩ đánh Trường An",
     "label": "Tranh đời sau minh họa sự kiện có ghi trong sử",
     "credit": "Bản đời Thanh theo Commons · The Scholars of Chenzhou; chưa rõ ấn bản",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Li_Jue_and_Guo_Si_sack_the_capital_at_Chang'an.jpg",
@@ -176,7 +184,9 @@
     "width": 500,
     "height": 413,
     "rightsStatus": "Commons PD-Art; edition detail pending",
-    "visualReview": "metadata only; visual review required",
-    "evidence": "EVD-B02-033"
+    "visualReview": "Exact CI artifact 14950233018 visually inspected; dimensions and SHA1 verified 2026-11-25; see visual inventory for source limitations",
+    "evidence": "EVD-B02-033",
+    "sha1": "2f5cbcd56fd326fa06f314dfb1e4bc38fdc156ca",
+    "size": 133839
   }
 ]

@@ -165,3 +165,30 @@ jobs:
           name: react-preview
           path: dist
           retention-days: 3
+
+  visual-source-probe:
+    if: github.ref == 'refs/heads/content/visual-completion-03b'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Acquire original WDL11391 scans for editorial inspection only
+        run: |
+          mkdir -p /tmp/wdl-review
+          url='https://upload.wikimedia.org/wikipedia/commons/8/88/Romance_of_the_Three_Kingdoms_in_Illustrations_WDL11391.pdf'
+          if curl --fail --location --retry 1 --max-time 90 --user-agent 'TamQuocChi educational project (https://github.com/sali5610/tam-quoc-chi)' "$url" -o /tmp/wdl11391.pdf && pdfinfo /tmp/wdl11391.pdf > /tmp/wdl-review/pdfinfo.txt && grep -Eq '^Pages:[[:space:]]+127$' /tmp/wdl-review/pdfinfo.txt; then
+            sha1sum /tmp/wdl11391.pdf | tee /tmp/wdl-review/original-sha1.txt
+            pdftoppm -f 4 -l 13 -scale-to 1800 -jpeg /tmp/wdl11391.pdf /tmp/wdl-review/scan
+          else
+            echo 'Original PDF unavailable or invalid; attempt source-library scans only' 
+            for n in $(seq 4 13); do
+              page=$(printf '%04d' "$n")
+              curl --fail --location --max-time 12 --user-agent 'TamQuocChi educational project (https://github.com/sali5610/tam-quoc-chi)' "https://images.sourcelibrary.org/pages/6992f3d6dc69844b023ff3d1/$page.jpg" -o "/tmp/wdl-review/source-$page.jpg" || rm -f "/tmp/wdl-review/source-$page.jpg"
+            done
+          fi
+          find /tmp/wdl-review -type f -name '*.jpg' -exec file {} \;
+          test "$(find /tmp/wdl-review -name '*.jpg' -size +0c | wc -l)" -gt 0
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wdl11391-review-scans
+          path: /tmp/wdl-review
+          retention-days: 3

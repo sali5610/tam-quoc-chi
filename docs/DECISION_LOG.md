@@ -53,4 +53,6 @@ The earlier decisions remain historical records; the following supersede stale d
 
 - 2026-11-25: PO approves publishing combined Wiki quotations and time-varying radar on existing GitHub Pages after exact combined CI PASS. Scope limited to these features and release verification, no other changes.
 
+- DEC-026 (PO, 2026-11-25): all six Wiki radar ratings mandatory at every character timeline snapshot; assess/update as part of each content batch, including new characters. Supersedes earlier optional/omitted-axis decision. Keep explicit editorial inference and evidence safeguards; do not invent historical facts. Backfill existing incomplete snapshots in next content package; no separate deployment authorized by this instruction.
+
 - 2026-11-25: PO authorizes Chat 03B to complete inline visual coverage of EP01–06 before next batch. Preserve Ink & Silk, prefer 三國志圖像, use sourced supplemental plates and clearly labeled context if exact scenes unavailable; no AI art. Preview and regression only; separate release approval required.
