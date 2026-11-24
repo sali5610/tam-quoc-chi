@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: zoom-responsive character marker and overview QA
+# Release: await each zoom transition before testing next
 on:
   workflow_dispatch:
   push:
@@ -90,7 +90,10 @@ jobs:
                 await page.waitForFunction(({scale,width})=>{const el=document.querySelector('[data-event-id="capital-189"]');return !!el&&Number(el.getAttribute('data-marker-scale'))<scale&&el.querySelector('.atlas-marker-content').getBoundingClientRect().width<width},{scale:initial.scale,width:initial.width},{timeout:5000});
                 await board.locator('.leaflet-control-zoom-out').click();
                 await marker.locator('.atlas-marker-overview').waitFor({state:'visible',timeout:5000});
+                const overview=await marker.evaluate(el=>Number(el.getAttribute('data-marker-scale')));
                 await board.locator('.leaflet-control-zoom-in').click();
+                await page.waitForFunction(({overview,initial})=>{const el=document.querySelector('[data-event-id="capital-189"]');const scale=Number(el?.getAttribute('data-marker-scale'));return !!el&&scale>overview&&scale<initial&&!el.querySelector('.atlas-marker-overview')},{overview,initial:initial.scale},{timeout:5000});
+                await marker.locator('.atlas-person-name').first().waitFor({state:'visible'});
                 await board.locator('.leaflet-control-zoom-in').click();
                 await page.waitForFunction(({scale,width})=>{const el=document.querySelector('[data-event-id="capital-189"]');return !!el&&Math.abs(Number(el.getAttribute('data-marker-scale'))-scale)<0.001&&Math.abs(el.querySelector('.atlas-marker-content').getBoundingClientRect().width-width)<1},initial,{timeout:5000});
                 await marker.locator('.atlas-person-name').first().waitFor({state:'visible'});
