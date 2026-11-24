@@ -104,6 +104,7 @@ try {
       await page.goto(base+'#/read/'+id);
       await page.locator('section[data-atlas-year="'+year+'"] .strategy-board').waitFor();
       await page.locator('.reader-hero h1').filter({hasText:titles[id]}).waitFor();
+      await page.locator('.episode-sources').waitFor();check(!(await page.locator('.story-content').innerText()).match(/EVD-|Evidence registry|Mốc đọc và nhân vật/),'reader metadata leaked '+id);
       const marker=page.locator('[data-event-id="'+event+'"]');
       // A named location that the external dataset cannot resolve must be shown as a text fallback, not a guessed pin.
       const fallback=page.locator('section[data-atlas-year="'+year+'"] p').filter({hasText:'Chưa định vị'}).getByRole('button');
