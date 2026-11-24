@@ -28,6 +28,97 @@
         "潁川·許",
         "潁川"
       ]
+    },
+    {
+      "id": "yangdi",
+      "name": "Dương Địch",
+      "aliases": [
+        "陽翟",
+        "阳翟"
+      ],
+      "atlasIds": [
+        "yangdi"
+      ],
+      "regionAliases": [
+        "潁川・許",
+        "潁川·許",
+        "潁川"
+      ]
+    },
+    {
+      "id": "xihua",
+      "name": "Tây Hoa",
+      "aliases": [
+        "西華",
+        "西华"
+      ],
+      "atlasIds": [
+        "xihua"
+      ],
+      "regionAliases": [
+        "汝南・弋陽",
+        "汝南·弋陽",
+        "汝南"
+      ]
+    },
+    {
+      "id": "cangting",
+      "name": "Thương Đình",
+      "aliases": [
+        "倉亭",
+        "仓亭"
+      ],
+      "atlasIds": [
+        "cangting"
+      ],
+      "regionAliases": [
+        "東郡・濮陽",
+        "東郡·濮陽",
+        "東郡"
+      ]
+    },
+    {
+      "id": "guangzong",
+      "name": "Quảng Tông",
+      "aliases": [
+        "廣宗",
+        "广宗"
+      ],
+      "atlasIds": [
+        "guangzong"
+      ]
+    },
+    {
+      "id": "xiaquyang",
+      "name": "Hạ Khúc Dương",
+      "aliases": [
+        "下曲陽",
+        "下曲阳"
+      ],
+      "atlasIds": [
+        "xiaquyang"
+      ],
+      "regionAliases": [
+        "鉅鹿",
+        "巨鹿"
+      ]
+    },
+    {
+      "id": "wan",
+      "name": "Uyển",
+      "aliases": [
+        "宛",
+        "宛城"
+      ],
+      "atlasIds": [
+        "wan",
+        "wancheng"
+      ],
+      "regionAliases": [
+        "南陽・宛",
+        "南陽·宛",
+        "南陽"
+      ]
     }
   ],
   "people": [
@@ -175,10 +266,135 @@
       "direction": "directed"
     }
   ],
-  "trajectories": [],
+  "trajectories": [
+    {
+      "id": "huangfu-song-184",
+      "person": "huangfu-song",
+      "episode": "ep-0002",
+      "year": 184,
+      "faction": "han",
+      "kind": "documented-event-sequence",
+      "stops": [
+        {
+          "place": "changshe",
+          "order": 1,
+          "year": 184,
+          "precision": "year",
+          "title": "Chiến sự Trường Xã",
+          "source": "後漢書/卷71",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷71#皇甫嵩",
+          "evidence": "嵩因進保長社；嵩、操與朱儁合兵更戰"
+        },
+        {
+          "place": "yangdi",
+          "order": 2,
+          "year": 184,
+          "precision": "year",
+          "title": "Chiến sự Dương Địch",
+          "source": "後漢書/卷71",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷71#皇甫嵩",
+          "evidence": "追波才於陽翟",
+          "sequenceGroup": "after-changshe"
+        },
+        {
+          "place": "xihua",
+          "order": 2,
+          "year": 184,
+          "precision": "year",
+          "title": "Chiến sự Tây Hoa",
+          "source": "後漢書/卷71",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷71#皇甫嵩",
+          "evidence": "擊彭脫於西華",
+          "sequenceGroup": "after-changshe"
+        },
+        {
+          "place": "cangting",
+          "order": 3,
+          "year": 184,
+          "precision": "year",
+          "title": "Chiến sự Thương Đình",
+          "source": "後漢書/卷71",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷71#皇甫嵩",
+          "evidence": "又進擊東郡黃巾卜己於倉亭"
+        },
+        {
+          "place": "guangzong",
+          "order": 4,
+          "year": 184,
+          "precision": "year",
+          "title": "Chiến sự Quảng Tông",
+          "source": "後漢書/卷71",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷71#皇甫嵩",
+          "evidence": "嵩與角弟梁戰於廣宗"
+        },
+        {
+          "place": "xiaquyang",
+          "order": 5,
+          "year": 184,
+          "precision": "year",
+          "title": "Chiến sự Hạ Khúc Dương",
+          "source": "後漢書/卷71",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷71#皇甫嵩",
+          "evidence": "嵩復與鉅鹿太守馮翊郭典攻角弟寶於下曲陽"
+        }
+      ]
+    },
+    {
+      "id": "zhu-jun-184",
+      "person": "zhu-jun",
+      "episode": "ep-0002",
+      "year": 184,
+      "faction": "han",
+      "kind": "documented-event-sequence",
+      "stops": [
+        {
+          "place": "changshe",
+          "order": 1,
+          "year": 184,
+          "precision": "year",
+          "title": "Chiến sự Trường Xã",
+          "source": "後漢書/卷71",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷71#皇甫嵩",
+          "evidence": "嵩因進保長社；嵩、操與朱儁合兵更戰"
+        },
+        {
+          "place": "yangdi",
+          "order": 2,
+          "year": 184,
+          "precision": "year",
+          "title": "Chiến sự Dương Địch",
+          "source": "後漢書/卷71",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷71#皇甫嵩",
+          "evidence": "追波才於陽翟",
+          "sequenceGroup": "after-changshe"
+        },
+        {
+          "place": "xihua",
+          "order": 2,
+          "year": 184,
+          "precision": "year",
+          "title": "Chiến sự Tây Hoa",
+          "source": "後漢書/卷71",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷71#皇甫嵩",
+          "evidence": "擊彭脫於西華",
+          "sequenceGroup": "after-changshe"
+        },
+        {
+          "place": "wan",
+          "order": 3,
+          "year": 184,
+          "precision": "year",
+          "title": "Chiến sự Uyển",
+          "source": "後漢書/卷71",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷71#朱儁",
+          "evidence": "儁與荊州刺史徐璆及秦頡合兵萬八千人圍弘"
+        }
+      ]
+    }
+  ],
   "timelinePolicy": {
     "yearPrecision": "Show annual event anchors, not continuous presence",
-    "trajectory": "Only connect independently sourced chronological locations; no inferred marching route",
+    "trajectory": "Connect independently documented historical event locations, not travel routes. Equal order denotes shared campaign phase with unknown internal order; do not connect equal-order stops as sequential. Regional anchors are approximate. Unresolved stops remain visible in textual itinerary; never invent coordinates. No inference of individual presence at every subordinate action.",
     "reader": "Limit to episode context"
   }
 }
