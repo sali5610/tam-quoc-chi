@@ -256,3 +256,6 @@ header.site-header.reading-header .menu{color:var(--v5-ink)}
 .atlas-layer-panel>summary svg,.atlas-event-sheet button svg,.leaflet-control-zoom a svg{vertical-align:middle}
 .strategy-board .leaflet-control-zoom a{display:grid;place-items:center}.leaflet-popup-close-button svg{vertical-align:middle}
 @media(prefers-reduced-motion:reduce){.ink-disclosure-body,.ink-disclosure-body:before{animation:none!important;clip-path:none!important}}
+
+/* Dedicated handle: SVG must not become a separate pointer target; prevent native selection/drag on the handle only. */
+.scrap-grip{user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}.scrap-grip svg{pointer-events:none}

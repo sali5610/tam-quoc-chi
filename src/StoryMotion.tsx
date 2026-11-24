@@ -31,5 +31,5 @@ export function PaperScrap({children,kind='figure',className,artId,quoteId}:{chi
  }
  const Tag=kind==='article'?motion.article:motion.figure;
  return <Tag className={className+' paper-scrap'} data-art-id={artId} data-quote-id={quoteId} data-paper-scrap="" drag dragControls={controls} dragListener={false} dragMomentum={false} dragElastic={0} dragConstraints={{left:-16,right:16,top:-12,bottom:12}} style={{x,y}} whileDrag={reduced?undefined:{rotate:-1.5,scale:1.015}}>
- {children}<div className="scrap-tools"><button type="button" className="scrap-grip" aria-label="Di chuyển mảnh giấy (phím mũi tên)" onPointerDown={e=>controls.start(e)} onKeyDown={keys}><Grip size={18} aria-hidden="true"/></button><button type="button" aria-label="Đặt lại mảnh giấy" onClick={reset}><RotateCcw size={16} aria-hidden="true"/></button></div></Tag>
+ {children}<div className="scrap-tools"><button type="button" className="scrap-grip" aria-label="Di chuyển mảnh giấy (phím mũi tên)" onPointerDown={e=>{if(e.button!==0)return;e.preventDefault();controls.start(e)}} onKeyDown={keys}><Grip size={18} aria-hidden="true"/></button><button type="button" aria-label="Đặt lại mảnh giấy" onClick={reset}><RotateCcw size={16} aria-hidden="true"/></button></div></Tag>
 }

@@ -15,7 +15,16 @@ for(const engine of [chromium,webkit]){
    await grip.scrollIntoViewIfNeeded();await grip.focus();const before=await art.evaluate(e=>e.getBoundingClientRect().x);await grip.press('ArrowRight');
    await page.waitForFunction(({before})=>document.querySelector('figure.scene-art').getBoundingClientRect().x>before+3,{before});
    await art.getByRole('button',{name:'Đặt lại mảnh giấy'}).click();await page.waitForFunction(({before})=>Math.abs(document.querySelector('figure.scene-art').getBoundingClientRect().x-before)<1,{before});
-   const box=await grip.boundingBox();if(!box)throw Error('Drag grip unavailable');await page.mouse.move(box.x+box.width/2,box.y+box.height/2);await page.mouse.down();await page.mouse.move(box.x+box.width/2-12,box.y+box.height/2+5,{steps:4});await page.mouse.up();
+   // Center the grip outside the fixed reader dock; sample real pointer moves
+   // over separate animation frames (WebKit can coalesce same-frame moves).
+   await grip.evaluate(e=>e.scrollIntoView({block:'center',inline:'nearest',behavior:'instant'}));
+   const box=await grip.boundingBox();if(!box)throw Error('Drag grip unavailable');
+   const cx=box.x+box.width/2,cy=box.y+box.height/2;
+   if(!await grip.evaluate((e,{cx,cy})=>e.contains(document.elementFromPoint(cx,cy)),{cx,cy}))throw Error('Drag grip covered by another element');
+   await page.mouse.move(cx,cy);await page.mouse.down();
+   for(const dx of [-5,-10,-16]){await page.mouse.move(cx+dx,cy+5);await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))))}
+   await page.mouse.up();
+   console.log('Drag result',engine.name(),reducedMotion,await art.evaluate(e=>({x:e.getBoundingClientRect().x,transform:getComputedStyle(e).transform})),before);
    await page.waitForFunction(({before})=>document.querySelector('figure.scene-art').getBoundingClientRect().x<before-3,{before});
    await art.getByRole('button',{name:'Đặt lại mảnh giấy'}).click();
    if(await page.locator('.reader-dock button svg.lucide').count()!==4)throw Error('Reader icons missing');
