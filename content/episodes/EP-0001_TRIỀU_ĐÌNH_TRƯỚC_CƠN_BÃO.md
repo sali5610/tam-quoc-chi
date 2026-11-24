@@ -7,6 +7,8 @@ Tào Tháo chưa làm chủ phương Bắc. Lưu Bị chưa dựng được Th�
 
 Nhà Hán là một triều đại cai trị Trung Hoa qua nhiều thế hệ. Đến thời kỳ này, người ta gọi là **Đông Hán**, với kinh đô ở **Lạc Dương**. Hoàng đế đứng đầu; quan lại quản lý các vùng đất; quân đội được huy động nhân danh triều đình. Để dễ hình dung: thiên hạ vẫn là **một căn nhà**, chưa ai chia thành ba phần. Chỉ có điều, những người giữ chìa khóa đang tranh nhau xem ai mới thật sự là chủ.
 
+**Câu hỏi của tập này:** nếu người ngồi ngai vàng chưa đủ sức tự nắm quyền, điều gì xảy ra khi những người nhân danh bảo vệ ngai vàng bắt đầu loại trừ nhau?
+
 Và chuyện ấy bắt đầu bằng một cậu bé.
 
 ## Chiếc ngai vàng quá lớn đối với một đứa trẻ
@@ -29,6 +31,8 @@ Họ muốn loại trừ thế lực hoạn quan. Nghe như một phương án c
 
 Kế hoạch thất bại. Đậu Vũ và Trần Phồn đều chết trong biến cố. **Người muốn thanh trừng đối thủ lại trở thành bên bị đánh bại.**
 
+Cái giá không chỉ là hai chức quan bị bỏ trống. Hai người chết trong một cuộc đấu quyền lực; những người từng dựa vào uy tín và sự bảo trợ của họ cũng không thể xem mọi việc đã kết thúc. Chiếc ngai vàng vẫn đứng đó. Nhưng ai dám đối đầu với người trong cung vừa nhận được một lời cảnh báo đắt giá.
+
 Nếu chỉ xem đây là chuyện hai người thua cuộc, ta sẽ bỏ lỡ phần đáng sợ hơn: cuộc đối đầu không dừng lại ở những người trực tiếp tham gia. Nó lan sang cả những mối quan hệ xung quanh họ.
 
 [Chính sử] 《後漢書》卷8, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷8).
@@ -41,7 +45,7 @@ Nếu chỉ xem đây là chuyện hai người thua cuộc, ta sẽ bỏ lỡ p
 
 Điều đáng sợ không chỉ là một người bị chặn đường làm quan. 《後漢書》卷67 còn ghi phạm vi liên lụy mở đến **môn sinh** (học trò), **cố lại** (người từng làm thuộc cấp) và thân thuộc.
 
-Thử tưởng tượng: mày không trực tiếp tham gia cuộc tranh quyền. Nhưng người từng dạy mày, người mày từng làm việc cho, hoặc người trong họ hàng bị nhắm tới. Bỗng nhiên, quan hệ vốn giúp người ta gây dựng sự nghiệp lại có thể biến thành gánh nặng.
+Một người có thể không tham gia kế hoạch của Đậu Vũ và Trần Phồn. Nhưng nếu thầy học, cấp trên cũ hay người thân bị liên lụy, việc đứng ngoài không bảo đảm an toàn. **Từ chỗ tranh nhau ai được ra lệnh trong cung, cuộc đấu chuyển thành câu hỏi ai còn được phép làm quan ngoài cung.**
 
 Đó là cách một cuộc đấu trong cung tạo ra vết nứt vượt xa bức tường hoàng cung.
 
@@ -61,7 +65,7 @@ Cũng trong bối cảnh cuộc nổi dậy Khăn Vàng, triều đình ban lệ
 
 [Chính sử] 《後漢書》卷67, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷67). Sự kiện năm 184 là cầu nối sang tập sau, không phải sự kiện của giai đoạn 168–183.
 
-Nghịch lý nằm ở đây: **triều đình từng dành nhiều sức để ngăn người bên trong giành quyền. Giờ họ cần người cầm quân đi đối phó một cuộc khủng hoảng từ bên ngoài.**
+Vậy câu hỏi đầu tập đã có câu trả lời: cuộc tranh quyền quanh một hoàng đế trẻ không chỉ đổi người cầm quyền; nó còn kéo theo cái chết, cấm đoán và sự đứt gãy trong giới quan lại. **Triều đình từng dành nhiều sức để ngăn người bên trong giành quyền. Giờ họ cần người cầm quân đi đối phó một cuộc khủng hoảng từ bên ngoài.**
 
 Và những người cầm quân ấy sẽ không mãi chỉ là nhân vật phụ.
 
