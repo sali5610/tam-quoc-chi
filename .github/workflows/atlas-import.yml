@@ -1,5 +1,9 @@
 name: Inspect historical atlas dataset
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/atlas-import.yml']
 permissions:
   contents: read
 jobs:
