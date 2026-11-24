@@ -1,50 +1,68 @@
-import json, pathlib, urllib.request, urllib.error, hashlib, time, sys
-from email.utils import parsedate_to_datetime
-from datetime import datetime, timezone
-from PIL import Image
+import hashlib
+import json
+import pathlib
+import sys
+import time
+import urllib.error
+import urllib.request
 from io import BytesIO
 from urllib.parse import quote
-root=pathlib.Path("public/story-art")
-root.mkdir(parents=True,exist_ok=True)
-rows=json.loads(pathlib.Path("src/story-art.json").read_text())
-errors=[]
-for row in rows:
-    name=row["file"].replace(" ","_")
-    h=hashlib.md5(name.encode()).hexdigest()
-    url=f"https://upload.wikimedia.org/wikipedia/commons/{h[0]}/{h[:2]}/{quote(name)}"
-    target=root/(row["file"]+".webp")
-    if target.exists():
-        try:
-            with Image.open(target) as im: im.verify()
-            continue
-        except Exception: target.unlink()
+from PIL import Image
+
+root = pathlib.Path("public/story-art")
+root.mkdir(parents=True, exist_ok=True)
+rows = json.loads(pathlib.Path("src/story-art.json").read_text())
+deadline = time.monotonic() + 75
+errors = []
+
+def valid(target):
     try:
-        req=urllib.request.Request(url,headers={"User-Agent":"TamQuocChiPersonalReader/1.0 (github.com/sali5610/tam-quoc-chi)"})
-        for attempt in range(3):
-            try:
-                with urllib.request.urlopen(req,timeout=40) as res:
-                    data=res.read(25*1024*1024+1)
-                break
-            except urllib.error.HTTPError as err:
-                if err.code not in (429, 503) or attempt==2: raise
-                retry=err.headers.get("Retry-After")
-                delay=60*(2**attempt)
-                if retry:
-                    try: delay=max(delay,int(retry))
-                    except ValueError:
-                        try: delay=max(delay,(parsedate_to_datetime(retry)-datetime.now(timezone.utc)).total_seconds())
-                        except Exception: pass
-                if delay>300: raise
-                print("Rate limited; respecting retry delay",delay,flush=True)
-                time.sleep(delay)
-        if len(data)>25*1024*1024: raise ValueError("image too large")
+        with Image.open(target) as im:
+            im.verify()
+        return True
+    except Exception:
+        return False
+
+for row in rows:
+    target = root / (row["file"] + ".webp")
+    if valid(target):
+        print("CACHED", row["file"], flush=True)
+        continue
+    if time.monotonic() + 15 > deadline:
+        print("Batch budget reached; defer remaining files.", flush=True)
+        break
+    name = row["file"].replace(" ", "_")
+    h = hashlib.md5(name.encode()).hexdigest()
+    url = f"https://upload.wikimedia.org/wikipedia/commons/{h[0]}/{h[:2]}/{quote(name)}"
+    tmp = target.with_suffix(".tmp")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "TamQuocChiPersonalReader/1.0 (github.com/sali5610/tam-quoc-chi)"})
+        with urllib.request.urlopen(req, timeout=12) as res:
+            data = res.read(25 * 1024 * 1024 + 1)
+        if len(data) > 25 * 1024 * 1024:
+            raise ValueError("image too large")
         with Image.open(BytesIO(data)) as im:
-            im.thumbnail((1200,1200))
-            im.convert("RGB").save(target,"WEBP",quality=85)
-        print("OK",name)
-    except Exception as e:
-        errors.append(name+": "+str(e))
-    time.sleep(10)
-if errors:
-    print("\n".join(errors),file=sys.stderr)
-    sys.exit(1)
+            im.thumbnail((1200, 1200))
+            im.convert("RGB").save(tmp, "WEBP", quality=85)
+        if not valid(tmp):
+            raise ValueError("invalid WebP")
+        tmp.replace(target)
+        print("OK", name, flush=True)
+    except urllib.error.HTTPError as err:
+        errors.append(f"{name}: HTTP {err.code}")
+        if err.code in (403, 429, 503):
+            print(f"Source unavailable or limiting requests ({err.code}); stop entire batch. Retry-After: {err.headers.get('Retry-After', 'not supplied')}", flush=True)
+            break
+    except Exception as err:
+        errors.append(f"{name}: {err}")
+    finally:
+        tmp.unlink(missing_ok=True)
+    time.sleep(3)
+
+missing = [r["file"] for r in rows if not valid(root / (r["file"] + ".webp"))]
+print(f"Available {len(rows)-len(missing)}/{len(rows)}", flush=True)
+for error in errors:
+    print(error, file=sys.stderr, flush=True)
+for name in missing:
+    print("PENDING", name, flush=True)
+sys.exit(1 if missing else 0)
