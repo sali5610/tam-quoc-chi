@@ -1,3 +1,11 @@
+## BATCH-03 / 00 — Production blocker closure (2026-11-25)
+
+- PO authorized v6 redeploy and confirmed Pages Source changed to GitHub Actions. No workflow or application code changed.
+- Run [45492269306](https://github.com/sali5610/tam-quoc-chi/actions/runs/45492269306): build 138793415689, deploy 138794547265, verify-live 138794697799 all SUCCESS.
+- PASS public SHA `407a116da5372a98cbd5ee6247cfbc8471409c6f` at 2026-11-24 21:35:35 UTC; retired preview 404 PASS. Live Chromium and WebKit at 390×844, 834×1194, 1194×834 PASS; 23 Wiki profiles and 39 six-axis snapshots PASS. No later competing workflow observed at verification. Physical devices NOT TESTED. Pages setting confirmed by PO, not independently read through API.
+- Production blocker CLOSED; canonical root https://sali5610.github.io/tam-quoc-chi/. This supersedes the previous production blocker below. No additional deployment required.
+- Next: Chat 1 Historical Research, EP07–EP09, scope unchanged; research NOT STARTED in this sync package.
+
 # Latest Handoff — BATCH-03 / Chat 00 Project Sync (2026-11-25)
 
 - Scope: docs-only sync; base main 407a116da5372a98cbd5ee6247cfbc8471409c6f. Reviewed AGENTS, Decision Log, Historical Rules, BATCH_DELIVERY_RULES, manifest (EP01–06), Setup–Payoff Ledger, six episode endings, Content Index and release workflow. DEC-UX-036/037: PO ACCEPTED Visual System v6, tested app 7e970cd894078d524250d516c1f3fb06de40ddc3; canonical root https://sali5610.github.io/tam-quoc-chi/ only. Main is one docs-only commit ahead of root release d0fe22c28669b528139aff264891119497aa3c67 (no app/data changes).
