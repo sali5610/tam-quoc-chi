@@ -8,7 +8,7 @@ try {
   page.on('console',m=>{if(m.type()==='error'||m.text().includes('Atlas marker')||m.text().includes('Atlas characters'))console.log(m.text());if(/same key|duplicate key/i.test(m.text()))errors.push(m.text());});
   for(const [id,name] of [['ep-0001','Hán Linh Đế'],['ep-0002','Hoàng Phủ Tung'],['ep-0003','Đổng Trác'],['ep-0001','Hán Linh Đế']]){
     try {
-    await page.goto('http://localhost:4173/tam-quoc-chi/react-preview/#/read/'+id);
+    await page.goto('http://localhost:4173/tam-quoc-chi/#/read/'+id);
     const marker=page.locator('.atlas-person-marker').filter({hasText:name});
     try {await marker.waitFor({state:'visible',timeout:15000});} catch(e){console.error('URL',page.url(),'MAP TEXT',await page.locator('.strategy-board').innerText().catch(()=>''));console.error('MAP',await page.locator('.strategy-board').count(),'MARKERS',await page.locator('.atlas-person-marker').count());throw e;}
     await marker.scrollIntoViewIfNeeded();
@@ -51,7 +51,7 @@ try {
 
   }
   try {
-    const base='http://localhost:4173/tam-quoc-chi/react-preview/';
+    const base='http://localhost:4173/tam-quoc-chi/';
     await page.goto(base+'#/people');
     await page.locator('.people-grid button').first().waitFor();
     const cards=page.locator('.people-grid .portrait-frame');
@@ -97,7 +97,7 @@ try {
   } catch(e){failures.push('portrait/journey: '+String(e));console.error('FAIL portrait/journey',e);}
 
   try {
-    const base='http://localhost:4173/tam-quoc-chi/react-preview/';
+    const base='http://localhost:4173/tam-quoc-chi/';
     const titles={'ep-0004':'Thiên hạ cùng khởi binh','ep-0005':'Kẻ thù còn sống, đồng minh đã trở mặt','ep-0006':'Đổng Trác chết, nhà Hán vẫn chưa được cứu'};
     const check=(v,m)=>{if(!v)throw Error(m)};
     for(const [id,year,event,person] of [['ep-0004','190','luoyang-190','Đổng Trác'],['ep-0005','191','luoyang-191','Tôn Kiên'],['ep-0006','192','changan-192','Vương Doãn']]){

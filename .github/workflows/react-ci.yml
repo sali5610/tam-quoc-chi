@@ -65,16 +65,16 @@ jobs:
           const bundle=fs.readFileSync('dist/'+asset.replace(/^\.\//,''),'utf8');
           if(!bundle.includes('Atlas characters')||!bundle.includes('atlas-journey-select'))throw Error('Built asset missing character or journey renderer');
           JS
-          rm -rf docs/react-preview
-          mkdir -p docs/react-preview
-          cp -a dist/. docs/react-preview/
       - name: Existing Atlas and portrait regression (no deployment)
         run: |
           npm install --no-save --no-audit --no-fund playwright
           npx playwright install --with-deps chromium webkit
-          python3 -m http.server 4173 --directory . > /tmp/atlas-server.log 2>&1 &
-          mkdir -p tam-quoc-chi
-          ln -s ../docs/react-preview tam-quoc-chi/react-preview
+          mkdir -p "$RUNNER_TEMP/tqc-pages"
+          ln -s "$GITHUB_WORKSPACE/dist" "$RUNNER_TEMP/tqc-pages/tam-quoc-chi"
+          python3 -m http.server 4173 --directory "$RUNNER_TEMP/tqc-pages" > /tmp/atlas-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          curl --fail --silent --show-error --retry 5 --retry-connrefused --retry-delay 1 --max-time 5 http://localhost:4173/tam-quoc-chi/ >/dev/null
           node scripts/browser-smoke.mjs
       - name: Hybrid mobile and tablet regression
         run: |
@@ -227,6 +227,6 @@ jobs:
           retention-days: 3
       - uses: actions/upload-artifact@v4
         with:
-          name: react-preview
+          name: react-build
           path: dist
           retention-days: 3
