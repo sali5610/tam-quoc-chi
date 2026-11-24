@@ -32,7 +32,7 @@ for(const p of registry.portraits.filter(p=>p.enabled)){
   console.log('PASS portrait',p.id,sha1,bytes.length,dimensions.width+'x'+dimensions.height,p.sha1?'pinned':'dimensions verified; record checksum');
 }
 
-// Scene art: a source-inspected full plate, no invented crop or hash. Keep distinct from portrait registry.
+// Scene art: pin exact source scan; crop only visually reviewed panel bounds. Keep distinct from portrait registry.
 const scenes=JSON.parse(fs.readFileSync('content/scene-art.json','utf8'));
 const knownHashes=new Set(registry.portraits.filter(p=>p.enabled&&p.sha1).map(p=>p.sha1));
 const manifest=JSON.parse(fs.readFileSync('content/manifest.json','utf8'));
@@ -40,4 +40,16 @@ const episodes=manifest.eras.flatMap(e=>e.arcs.flatMap(a=>a.chapters.flatMap(c=>
 const ids=new Set(),paths=new Set();
 for(const a of scenes){const ep=episodes.find(e=>e.id===a.episode);if(!ep||ids.has(a.id)||paths.has(a.path)||!/^assets\/scenes\/[a-z0-9-]+\.jpg$/.test(a.path)||!a.sourceUrl||!a.credit||!a.label)throw Error('Invalid scene record '+a.id);ids.add(a.id);paths.add(a.path);const lines=fs.readFileSync(ep.source,'utf8').split('\n');const matches=lines.filter(l=>a.placement==='heading'?l==='## '+a.anchor:a.placement==='blockquote'&&l.startsWith('>')&&l.includes(a.anchor));if(matches.length!==1)throw Error('Scene anchor must match exactly once: '+a.id);}
 for(const ep of episodes)if(!scenes.some(a=>a.episode===ep.id))throw Error('Episode without any contextual/scene illustration: '+ep.id);
-for(const a of scenes){const bytes=curl(a.downloadUrl);const sha1=createHash('sha1').update(bytes).digest('hex');const dim=jpegSize(bytes);if(dim.width!==a.width||dim.height!==a.height||knownHashes.has(sha1)||(a.sha1&&sha1!==a.sha1)||(a.size&&bytes.length!==a.size))throw Error('Scene identity or duplicate: '+a.id);knownHashes.add(sha1);const out=path.join('dist',a.path);fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,bytes);console.log('PASS scene',a.id,sha1,bytes.length,dim.width+'x'+dim.height);}
+const scanCache=new Map(),panelKeys=new Set();
+for(const a of scenes){let bytes;
+if(a.crop){
+  const c=a.crop,key=a.sourceSha1+':'+[c.x,c.y,c.width,c.height].join(',');
+  if(panelKeys.has(key)||!/^[a-f0-9]{40}$/.test(a.sourceSha1)||![c.x,c.y,c.width,c.height].every(Number.isInteger)||c.x<0||c.y<0||c.width<1||c.height<1||c.x+c.width>a.sourceWidth||c.y+c.height>a.sourceHeight)throw Error('Invalid or duplicate crop '+a.id);
+  panelKeys.add(key);
+  let scan=scanCache.get(a.downloadUrl);if(!scan){scan=curl(a.downloadUrl);scanCache.set(a.downloadUrl,scan);}
+  const scanHash=createHash('sha1').update(scan).digest('hex'),sourceDim=jpegSize(scan);
+  if(scanHash!==a.sourceSha1||scan.length!==a.sourceSize||sourceDim.width!==a.sourceWidth||sourceDim.height!==a.sourceHeight)throw Error('Source scan mismatch '+a.id);
+  bytes=execFileSync('convert',['jpeg:-','-crop',c.width+'x'+c.height+'+'+c.x+'+'+c.y,'+repage','-strip','-quality','92','jpeg:-'],{input:scan,maxBuffer:10*1024*1024});
+  console.log('PASS source scan and crop',a.id,scanHash,JSON.stringify(c));
+}else{bytes=curl(a.downloadUrl);}
+const sha1=createHash('sha1').update(bytes).digest('hex');const dim=jpegSize(bytes);if(dim.width!==a.width||dim.height!==a.height||knownHashes.has(sha1)||(a.sha1&&sha1!==a.sha1)||(a.size&&bytes.length!==a.size))throw Error('Scene identity or duplicate: '+a.id);knownHashes.add(sha1);const out=path.join('dist',a.path);fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,bytes);console.log('PASS scene',a.id,sha1,bytes.length,dim.width+'x'+dim.height);}

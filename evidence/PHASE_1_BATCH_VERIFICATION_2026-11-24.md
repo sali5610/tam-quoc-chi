@@ -37,3 +37,6 @@ Checked 2026-11-24. Short source anchors below are research excerpts, not publis
 184: check Huangfu Song/Zhu Jun biographies and chronology, including lunar month distinctions.
 168–183: cross-check party prohibition episodes and historical interpretation.
 All: print-edition collation, passage-level rights, biographical anchors for nine approved wiki pages, actual community discussions.
+
+## Literary scene locator for visual completion (2026-11-25)
+- EVD-0090 [Tiểu thuyết] 《三國演義》第二回「張翼德怒鞭督郵」, https://zh.wikisource.org/wiki/三國演義/第002回 (chapter heading checked). This is the novel's Zhang Fei version, not proof of historical attacker or date. EP02 already contrasts it with Chen Shou's 《三國志》卷32. No new narrative claim.
