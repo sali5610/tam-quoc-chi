@@ -145,7 +145,7 @@ jobs:
                 await select.selectOption(String(snapshotIndex));
                 if(await fullRadar.locator('svg circle').count()!==6||await fullRadar.locator('svg polygon[fill="#a18453"]').count()!==1)throw Error('Incomplete radar '+personIndex+' '+snapshotIndex);
                 const scores=await fullRadar.locator('svg text').allTextContents();
-                if(scores.filter(v=>/^[1-5]\\/5\\*?$/.test(v)).length!==6)throw Error('Missing visible score '+scores.join(','));
+                if(scores.filter(v=>['1/5','2/5','3/5','4/5','5/5'].includes(v.replace('*',''))).length!==6)throw Error('Missing visible score '+scores.join(','));
                 snapshotCount++;
                 }
                 await page.locator('dialog[open]').getByRole('button',{name:'Đóng ×'}).click();
