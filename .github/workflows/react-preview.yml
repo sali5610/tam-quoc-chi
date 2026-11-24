@@ -160,10 +160,10 @@ jobs:
                     await radar.locator('summary').click();
                     await radar.locator('.radar-explain dd').first().waitFor();if((await radar.innerText()).includes('EVD-'))throw Error('Radar internal ID leaked');
                     if(!await radarSheet.evaluate(el=>el.scrollWidth<=el.clientWidth+1))throw Error('Radar sheet overflow');
-                    await radarSheet.getByRole('button',{name:'Đóng ×'}).click();
+                    await radarSheet.getByRole('button',{name:'Đóng'}).click();
                     await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Tào Hồng"]')}).click();
                     if(await radarSheet.locator('.character-radar svg circle').count()!==6)throw Error('Missing Cao Hong radar axes');
-                    await radarSheet.getByRole('button',{name:'Đóng ×'}).click();
+                    await radarSheet.getByRole('button',{name:'Đóng'}).click();
                     console.log('PASS radar timeline, source evidence, Cao Hong coverage and overflow');
                     await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Tào Tháo"]')}).click();
                     const quoteSheet=page.locator('dialog[open]');
@@ -178,10 +178,10 @@ jobs:
                     await quoteSheet.locator('.character-radar').getByRole('button',{name:'190',exact:true}).click();
                     if(await quoteCards.count()!==3)throw Error('Quotes lost on radar switch');
                     if(!await quoteSheet.evaluate(el=>el.scrollWidth<=el.clientWidth+1))throw Error('Wiki sheet overflow');
-                    await quoteSheet.getByRole('button',{name:'Đóng ×'}).click();
+                    await quoteSheet.getByRole('button',{name:'Đóng'}).click();
                     await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Hán Linh Đế"]')}).click();
                     if(await quoteSheet.locator('.character-quotes').count())throw Error('Empty quote section');
-                    await quoteSheet.getByRole('button',{name:'Đóng ×'}).click();
+                    await quoteSheet.getByRole('button',{name:'Đóng'}).click();
                     console.log('PASS combined Wiki quotes, provenance, disclosure, radar switch and empty state');
                     const wikiCards=page.locator('.people-grid button');
                     const wikiCount=await wikiCards.count();
@@ -201,11 +201,11 @@ jobs:
                     if(scores.filter(v=>['1/5','2/5','3/5','4/5','5/5'].includes(v.replace('*',''))).length!==6)throw Error('Missing visible score '+scores.join(','));
                     snapshotCount++;
                     }
-                    await page.locator('dialog[open]').getByRole('button',{name:'Đóng ×'}).click();
+                    await page.locator('dialog[open]').getByRole('button',{name:'Đóng'}).click();
                     }
                     console.log('PASS all Wiki radar snapshots',wikiCount,snapshotCount);
                     const img=page.locator('.people-grid img.historical-portrait').first();await img.scrollIntoViewIfNeeded();await img.evaluate(e=>e.decode());
-                    await page.getByRole('button',{name:'Thưởng lãm cuộn chân dung'}).click();await page.locator('.portrait-scroll button').first().click();await page.getByRole('button',{name:'Phóng to'}).click();await page.getByRole('button',{name:'Đóng ×'}).click();
+                    await page.getByRole('button',{name:'Thưởng lãm cuộn chân dung'}).click();await page.locator('.portrait-scroll button').first().click();await page.getByRole('button',{name:'Phóng to'}).click();await page.getByRole('button',{name:'Đóng'}).click();
                   }
                   if(route.startsWith('/atlas')){
                     await page.locator('.leaflet-container').waitFor();await page.locator('.atlas-person-marker').first().waitFor();

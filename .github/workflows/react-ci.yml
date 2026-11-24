@@ -118,7 +118,7 @@ jobs:
                 if(!(await page.locator('.story-content').innerText()).includes('hỏa công'))throw Error('Missing Trường Xã narrative');await page.getByRole('button',{name:'Đóng cài đặt'}).click();
                 await page.getByRole('button',{name:'Trong tập',exact:true}).click();const context=page.getByRole('dialog',{name:'Trong tập này'});await context.waitFor();await context.locator('.scene-strip button').first().click();await context.waitFor({state:'detached'});
                 await page.getByRole('button',{name:'Cài đặt đọc',exact:true}).click();await page.getByRole('button',{name:'Bình luận: Bật'}).click();if(await page.locator('figure.scene-art').count()!==3)throw Error('Art lost when commentary off');await page.getByRole('button',{name:'Bình luận: Tắt'}).click();await page.getByRole('button',{name:'Đóng cài đặt'}).click();
-                await page.getByRole('button',{name:'＋ Dấu trang'}).click();await page.getByRole('button',{name:'✓ Đã lưu'}).waitFor();
+                await page.getByRole('button',{name:'Dấu trang'}).click();await page.getByRole('button',{name:'Đã lưu'}).waitFor();
                 await page.goto(base+'#/collection');await page.locator('main a').first().waitFor();
                 await page.goto(base+'#/');await page.locator('.home-hero h1').waitFor();if(await page.locator('.home-hero .primary-action').count()!==1||await page.locator('.chronicle-index .episode-list a').count()!==6)throw Error('Home hierarchy');if(await page.locator('.home-hero .primary-action').getAttribute('href')!=='#/read/ep-0002')throw Error('Resume route');await page.locator('.home-art img').evaluate(e=>e.decode());await page.locator('.home-hero .primary-action').click();await page.locator('.reader-hero h1').waitFor();if(await page.locator('footer').count())throw Error('Duplicate reader navigation');await page.locator('.episode-sources summary').click();if(await page.locator('.episode-sources a').count()<1)throw Error('Missing reader source links');console.log('PASS v5 home, resume, reader settings, contents and source disclosure');
                 await page.goto(base+'#/people');
@@ -134,10 +134,10 @@ jobs:
                 await radar.locator('summary').click();
                 await radar.locator('.radar-explain dd').first().waitFor();if((await radar.innerText()).includes('EVD-'))throw Error('Radar internal ID leaked');
                 if(!await radarSheet.evaluate(el=>el.scrollWidth<=el.clientWidth+1))throw Error('Radar sheet overflow');
-                await radarSheet.getByRole('button',{name:'Đóng ×'}).click();
+                await radarSheet.getByRole('button',{name:'Đóng'}).click();
                 await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Tào Hồng"]')}).click();
                 if(await radarSheet.locator('.character-radar svg circle').count()!==6)throw Error('Missing Cao Hong radar axes');
-                await radarSheet.getByRole('button',{name:'Đóng ×'}).click();
+                await radarSheet.getByRole('button',{name:'Đóng'}).click();
                 console.log('PASS radar timeline, source evidence, Cao Hong coverage and overflow');
                 await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Tào Tháo"]')}).click();
                 const quoteSheet=page.locator('dialog[open]');
@@ -152,10 +152,10 @@ jobs:
                 await quoteSheet.locator('.character-radar').getByRole('button',{name:'190',exact:true}).click();
                 if(await quoteCards.count()!==3)throw Error('Quotes lost on radar switch');
                 if(!await quoteSheet.evaluate(el=>el.scrollWidth<=el.clientWidth+1))throw Error('Wiki sheet overflow');
-                await quoteSheet.getByRole('button',{name:'Đóng ×'}).click();
+                await quoteSheet.getByRole('button',{name:'Đóng'}).click();
                 await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Hán Linh Đế"]')}).click();
                 if(await quoteSheet.locator('.character-quotes').count())throw Error('Empty quote section');
-                await quoteSheet.getByRole('button',{name:'Đóng ×'}).click();
+                await quoteSheet.getByRole('button',{name:'Đóng'}).click();
                 console.log('PASS combined Wiki quotes, provenance, disclosure, radar switch and empty state');
                 const wikiCards=page.locator('.people-grid button');
                 const wikiCount=await wikiCards.count();
@@ -175,13 +175,13 @@ jobs:
                 if(scores.filter(v=>['1/5','2/5','3/5','4/5','5/5'].includes(v.replace('*',''))).length!==6)throw Error('Missing visible score '+scores.join(','));
                 snapshotCount++;
                 }
-                await page.locator('dialog[open]').getByRole('button',{name:'Đóng ×'}).click();
+                await page.locator('dialog[open]').getByRole('button',{name:'Đóng'}).click();
                 }
                 console.log('PASS all Wiki radar snapshots',wikiCount,snapshotCount);
                 await page.goto(base+'#/people');await page.getByRole('button',{name:'Thưởng lãm cuộn chân dung'}).click();
                 await page.locator('.portrait-scroll button').first().click();await page.getByRole('button',{name:'Phóng to'}).click();
                 if(await page.locator('.gallery-zoom > div').evaluate(e=>e.style.width)!=='150%')throw Error('Gallery zoom');
-                await page.getByRole('button',{name:'Đóng ×'}).click();
+                await page.getByRole('button',{name:'Đóng'}).click();
                 await page.goto(base+'#/atlas/184');await page.locator('.atlas-anchor a').filter({hasText:'189'}).click();
                 await page.locator('section[data-atlas-year="189"] .strategy-board').waitFor();const layers=page.locator('.full-board .atlas-layer-panel');if(await layers.evaluate(e=>e.open))throw Error('Full Atlas controls open by default');await layers.locator('summary').click();await layers.getByRole('checkbox',{name:'Đường',exact:true}).waitFor();await layers.locator('summary').click();if(await page.locator('.atlas-relation-panel').evaluate(e=>e.open))throw Error('Relation panel expanded');await page.locator('.atlas-relation-panel summary').first().click();await page.locator('.atlas-relation-panel svg.graph').waitFor();console.log('PASS v5 Wiki and Atlas controls');
                 if(errors.length)throw Error(errors.join('\n'));
@@ -191,6 +191,11 @@ jobs:
             }finally{await browser.close()}
           }
           JS
+      - name: Motion and collage interaction regression
+        timeout-minutes: 3
+        run: |
+          python3 -m http.server 4176 --directory dist >/tmp/motion-server.log 2>&1 &
+          node scripts/motion-smoke.mjs
       - name: Hybrid v5 visual review capture
         timeout-minutes: 4
         run: |

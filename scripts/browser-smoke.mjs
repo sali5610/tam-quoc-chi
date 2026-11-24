@@ -67,7 +67,7 @@ try {
     if(await dialog.locator('img.historical-portrait').getAttribute('src')!==src)throw Error('Inconsistent portrait in detail');
     await dialog.locator('img').evaluate(el=>el.decode());
     await dialog.locator('.wiki-sources summary').click();await dialog.locator('.portrait-credit a').waitFor();
-    await dialog.getByRole('button',{name:'Đóng ×'}).click();
+    await dialog.getByRole('button',{name:'Đóng'}).click();
     console.log('PASS library portraits, fallback and detail attribution');
     await page.goto(base+'#/read/ep-0002');
     const reader=page.locator('section[data-atlas-year="184"]');
@@ -117,7 +117,7 @@ try {
       await sheet.waitFor();check(!(await sheet.innerText()).includes('EVD-'),'event internal ID leaked');await sheet.locator('.atlas-event-sources summary').click();
       await sheet.locator('a[href*="wikisource.org"]').waitFor();
       await page.getByRole('button',{name:'Đóng sự kiện'}).click();
-      check(await page.getByRole('link',{name:'Xem trên sa bàn →'}).getAttribute('href')==='#/atlas/'+year,'incorrect atlas route '+id);
+      check(await page.getByRole('link',{name:'Xem trên sa bàn'}).getAttribute('href')==='#/atlas/'+year,'incorrect atlas route '+id);
       console.log('PASS new reader and atlas anchor',id,year,event);
     }
     const scene=page.locator('figure[data-art-id="VIS-B02-012"]');
@@ -129,9 +129,9 @@ try {
     check(!(await page.locator('.story-content').innerText()).match(/EVD-|Evidence registry|Mốc đọc và nhân vật/),'reader internal copy leaked');await page.locator('.episode-sources summary').click();check(await page.locator('.episode-sources a').count()>0,'reader sources missing');console.log('PASS literary scene decode, attribution, no duplicate and sources');
     const back=page.locator('.pager a[href="#/read/ep-0005"]');await back.click();
     await page.locator('section[data-atlas-year="191"]').waitFor();
-    await page.getByRole('link',{name:'Tập sau →'}).click();
+    await page.getByRole('link',{name:'Tập sau'}).click();
     await page.locator('section[data-atlas-year="192"]').waitFor();
-    await page.getByRole('button',{name:'＋ Dấu trang'}).click();
+    await page.getByRole('button',{name:'Dấu trang'}).click();
     await page.goto(base+'#/collection');await page.locator('main a[href="#/read/ep-0006"]').waitFor();
     await page.locator('main a[href="#/read/ep-0006"]').click();await page.locator('.reader-hero h1').filter({hasText:titles['ep-0006']}).waitFor();
     await page.goto(base+'#/search');await page.getByRole('textbox',{name:'Tìm tập'}).fill('dong trac chet');

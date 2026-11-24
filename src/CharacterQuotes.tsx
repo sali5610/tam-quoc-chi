@@ -1,3 +1,4 @@
+import {PaperScrap} from './StoryMotion';import {Quote} from 'lucide-react';
 import quoteRecords from '../content/wiki/quotes.json';
 import pilot from '../content/atlas/pilot.json';
 
@@ -7,13 +8,13 @@ export function CharacterQuotes({name}:{name:string}){
   if(!quotes.length)return null;
   return <section className="character-quotes" aria-label="Lời lưu truyền">
     <h3>Lời lưu truyền</h3>
-    {quotes.map(quote=><article className="character-quote" key={quote.id} data-quote-id={quote.id}>
+    {quotes.map(quote=><PaperScrap kind="article" className="character-quote" key={quote.id} quoteId={quote.id}><Quote className="quote-mark" size={22} aria-hidden="true"/>
       <span className="quote-layer">[{quote.layer}]</span>
       <blockquote><p>{quote.translation}</p></blockquote>
       <details><summary>Nguyên văn &amp; bối cảnh</summary>
         <p lang="zh-Hant" className="quote-original">{quote.original}</p>
         <p>{quote.context}</p><p className="quote-source"><a href={quote.sourceUrl} target="_blank" rel="noreferrer">{quote.source}</a></p>
       </details>
-    </article>)}
+    </PaperScrap>)}
   </section>;
 }
