@@ -1,0 +1,2 @@
+import fs from 'node:fs';
+const m=JSON.parse(fs.readFileSync('content/manifest.json','utf8'));const ids=new Set();function check(x){if(!x.id||ids.has(x.id)||!x.title)throw Error('Invalid or duplicate ID: '+x.id);ids.add(x.id)}for(const e of m.eras){check(e);for(const a of e.arcs){check(a);for(const c of a.chapters){check(c);for(const p of c.episodes){check(p);if(!p.source||!fs.existsSync(p.source))throw Error('Missing source '+p.id)}}}}console.log('Validated '+ids.size+' content IDs');
