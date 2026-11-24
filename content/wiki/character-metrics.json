@@ -1,0 +1,612 @@
+[
+  {
+    "personId": "cao-cao",
+    "year": 184,
+    "label": "184 · Dẹp Khăn Vàng",
+    "episodeId": "ep-0002",
+    "ratings": {
+      "military": {
+        "level": 2,
+        "evidence": "EVD-0003",
+        "reason": "Kỵ đô úy tham chiến ở Dĩnh Xuyên."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-0003",
+        "reason": "Có chức chỉ huy quân sự, chưa có căn cứ độc lập được ghi ở mốc này."
+      }
+    }
+  },
+  {
+    "personId": "cao-cao",
+    "year": 190,
+    "label": "190 · Liên minh chống Đổng",
+    "episodeId": "ep-0004",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B02-008",
+        "reason": "Đề xuất phương án tiến quân, nhưng liên minh không sử dụng; hiệu quả chưa được kiểm chứng."
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B02-007",
+        "reason": "Chủ động xuất quân nhưng thất bại trước Từ Vinh."
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B02-008",
+        "reason": "Tuyển thêm quân nhưng xảy ra binh biến."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B02-008",
+        "reason": "Không thuyết phục được liên minh cùng tiến quân."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B02-001",
+        "reason": "Giữ danh hiệu hành Phấn Vũ tướng quân trong liên minh."
+      }
+    }
+  },
+  {
+    "personId": "cao-cao",
+    "year": 191,
+    "label": "191 · Đông quận",
+    "episodeId": "ep-0005",
+    "ratings": {
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B02-021",
+        "reason": "Thắng tại Bộc Dương."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B02-021",
+        "reason": "Được Viên Thiệu tiến cử làm Đông quận thái thú."
+      }
+    }
+  },
+  {
+    "personId": "cao-cao",
+    "year": 192,
+    "label": "192 · Duyện Châu",
+    "episodeId": "ep-0006",
+    "ratings": {
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B02-034",
+        "reason": "Bắt đầu vươn lên tại Duyện Châu sau khi Lưu Đại chết; chưa suy rộng đến các chiến dịch chưa kể."
+      }
+    }
+  },
+  {
+    "personId": "dong-zhuo",
+    "year": 184,
+    "label": "184 · Thua Khăn Vàng",
+    "episodeId": "ep-0002",
+    "ratings": {
+      "military": {
+        "level": 2,
+        "evidence": "EVD-0036",
+        "reason": "Được giao đánh Khăn Vàng nhưng thất bại, bị trị tội."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-0036",
+        "reason": "Giữ chức trung lang tướng trong chiến dịch."
+      }
+    }
+  },
+  {
+    "personId": "dong-zhuo",
+    "year": 189,
+    "label": "189 · Khống chế triều đình",
+    "episodeId": "ep-0003",
+    "ratings": {
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-0006",
+        "reason": "Can dự quyết định phế lập hoàng đế."
+      },
+      "power": {
+        "level": 5,
+        "evidence": "EVD-0006",
+        "reason": "Đủ thực lực để thay đổi người giữ ngai vàng."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-0029",
+        "reason": "Việc phế lập gây bất đồng với Viên Thiệu."
+      }
+    }
+  },
+  {
+    "personId": "dong-zhuo",
+    "year": 190,
+    "label": "190 · Dời đô",
+    "episodeId": "ep-0004",
+    "ratings": {
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B02-005",
+        "reason": "Ép triều đình dời đô, song phải ứng phó liên minh đối địch."
+      },
+      "power": {
+        "level": 5,
+        "evidence": "EVD-B02-005",
+        "reason": "Có thể cưỡng dời triều đình và dân cư."
+      },
+      "legitimacy": {
+        "level": 1,
+        "evidence": "EVD-0008",
+        "reason": "Nhiều thế lực công khai dấy binh chống lại."
+      }
+    }
+  },
+  {
+    "personId": "dong-zhuo",
+    "year": 191,
+    "label": "191 · Thái sư",
+    "episodeId": "ep-0006",
+    "ratings": {
+      "power": {
+        "level": 5,
+        "evidence": "EVD-B02-025",
+        "reason": "Tự giữ chức Thái sư, có căn cứ quyền lực riêng."
+      }
+    }
+  },
+  {
+    "personId": "yuan-shao",
+    "year": 189,
+    "label": "189 · Biến cố cung đình",
+    "episodeId": "ep-0003",
+    "ratings": {
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-0027",
+        "reason": "Tham gia kế hoạch diệt hoạn quan cùng Hà Tiến."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-0028",
+        "reason": "Có lực lượng tham gia biến cố cung đình."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-0029",
+        "reason": "Có vị thế đủ để tham gia tranh luận phế lập, không đồng nghĩa được mọi phe ủng hộ."
+      }
+    }
+  },
+  {
+    "personId": "yuan-shao",
+    "year": 190,
+    "label": "190 · Minh chủ",
+    "episodeId": "ep-0004",
+    "ratings": {
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B02-001",
+        "reason": "Được các lực lượng liên minh tôn làm minh chủ."
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B02-001",
+        "reason": "Có vai trò điều phối liên minh chống Đổng Trác."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B02-002",
+        "reason": "Có quân và danh hiệu Xa kỵ tướng quân, nhưng không toàn quyền với mọi chư hầu."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B02-001",
+        "reason": "Được các thành viên thừa nhận là minh chủ."
+      }
+    }
+  },
+  {
+    "personId": "yuan-shao",
+    "year": 191,
+    "label": "191 · Nắm Ký Châu",
+    "episodeId": "ep-0005",
+    "ratings": {
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B02-021",
+        "reason": "Gây sức ép để tiếp nhận Ký Châu từ Hàn Phức."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B02-021",
+        "reason": "Có căn cứ cấp châu, tiến cử Tào Tháo ở Đông quận."
+      }
+    }
+  },
+  {
+    "personId": "sun-jian",
+    "year": 184,
+    "label": "184 · Dưới quyền Chu Tuấn",
+    "episodeId": "ep-0002",
+    "ratings": {
+      "military": {
+        "level": 3,
+        "evidence": "EVD-0014",
+        "reason": "Tham gia chiến dịch chống Khăn Vàng và được bổ nhiệm biệt bộ tư mã."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-0021",
+        "reason": "Giữ vai trò tá quân tư mã dưới quyền Chu Tuấn."
+      }
+    }
+  },
+  {
+    "personId": "sun-jian",
+    "year": 190,
+    "label": "190 · Dấy binh",
+    "episodeId": "ep-0005",
+    "ratings": {
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B02-011",
+        "reason": "Giết Vương Duệ và Trương Tư trước khi gia nhập Viên Thuật; không suy diễn động cơ."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B02-012",
+        "reason": "Được Viên Thuật tiến cử hành Phá Lỗ tướng quân, lĩnh Dự Châu thứ sử."
+      }
+    }
+  },
+  {
+    "personId": "sun-jian",
+    "year": 191,
+    "label": "191 · Dương Nhân",
+    "episodeId": "ep-0005",
+    "ratings": {
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B02-013",
+        "reason": "Tập hợp lại lực lượng sau thất bại và thắng ở Dương Nhân."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B02-013",
+        "reason": "Khôi phục được đội quân sau thất bại."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B02-015",
+        "reason": "Phản đối việc cắt lương, khiến nguồn tiếp tế được nối lại."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B02-015",
+        "reason": "Có lực lượng chiến đấu nhưng còn phụ thuộc lương của Viên Thuật."
+      }
+    }
+  },
+  {
+    "personId": "liu-bei",
+    "year": 184,
+    "label": "Cuối thời Linh Đế · Khăn Vàng",
+    "episodeId": "ep-0002",
+    "ratings": {
+      "military": {
+        "level": 2,
+        "evidence": "EVD-0020",
+        "reason": "Tham chiến dưới quyền Trâu Tĩnh, có công; không định chính xác năm."
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-0020",
+        "reason": "Dẫn thuộc hạ theo Trâu Tĩnh; quy mô chưa rõ."
+      },
+      "power": {
+        "level": 1,
+        "evidence": "EVD-0020",
+        "reason": "Thực lực được ghi ở mức nhóm thuộc hạ, chưa có căn cứ độc lập."
+      }
+    }
+  },
+  {
+    "personId": "huangfu-song",
+    "year": 184,
+    "label": "184 · Trường Xã",
+    "episodeId": "ep-0002",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-0035",
+        "reason": "Dùng hỏa công giải vây Trường Xã."
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-0035",
+        "reason": "Phá thế bị vây và phối hợp quân tiếp viện."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-0035",
+        "reason": "Điều động được lực lượng trong chiến dịch phối hợp."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-0033",
+        "reason": "Là một trong hai chỉ huy được triều đình cử đi."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-0002",
+        "reason": "Có bổ nhiệm chính thức của triều đình."
+      }
+    }
+  },
+  {
+    "personId": "huangfu-song",
+    "year": 192,
+    "label": "192 · Xa kỵ tướng quân",
+    "episodeId": "ep-0006",
+    "ratings": {
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B02-034",
+        "reason": "Được bổ nhiệm Xa kỵ tướng quân; chức cao không chứng minh có lãnh địa riêng."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B02-034",
+        "reason": "Có danh nghĩa chức quan chính thức."
+      }
+    }
+  },
+  {
+    "personId": "zhu-jun",
+    "year": 184,
+    "label": "184 · Chống Khăn Vàng",
+    "episodeId": "ep-0002",
+    "ratings": {
+      "military": {
+        "level": 2,
+        "evidence": "EVD-0034",
+        "reason": "Ở mốc giao chiến với Ba Tài, bị thất bại; không phải đánh giá toàn bộ sự nghiệp."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-0033",
+        "reason": "Được triều đình giao một lực lượng chiến dịch."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-0033",
+        "reason": "Được bổ nhiệm hữu trung lang tướng."
+      }
+    }
+  },
+  {
+    "personId": "zhu-jun",
+    "year": 191,
+    "label": "191 · Trung Mâu",
+    "episodeId": "ep-0005",
+    "ratings": {
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B02-024",
+        "reason": "Chống Đổng Trác, kêu gọi hỗ trợ từ các lực lượng khác."
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B02-024",
+        "reason": "Rời Lạc Dương suy kiệt và cần viện trợ."
+      }
+    }
+  },
+  {
+    "personId": "he-jin",
+    "year": 184,
+    "label": "184 · Đại tướng quân",
+    "episodeId": "ep-0002",
+    "ratings": {
+      "power": {
+        "level": 4,
+        "evidence": "EVD-0019",
+        "reason": "Được bổ nhiệm đại tướng quân khi Khăn Vàng nổi dậy."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-0019",
+        "reason": "Có chức vụ được triều đình chính thức trao."
+      }
+    }
+  },
+  {
+    "personId": "he-jin",
+    "year": 189,
+    "label": "189 · Tranh quyền cung đình",
+    "episodeId": "ep-0003",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-0004",
+        "reason": "Triệu Đổng Trác để gây sức ép; kế hoạch không đạt mục tiêu trước khi bị giết."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-0005",
+        "reason": "Không kiểm soát được xung đột với hoạn quan."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-0004",
+        "reason": "Có thể triệu tướng ngoài kinh vào cuộc tranh quyền."
+      }
+    }
+  },
+  {
+    "personId": "lingdi",
+    "year": 168,
+    "label": "168 · Lên ngôi",
+    "episodeId": "ep-0001",
+    "ratings": {
+      "power": {
+        "level": 2,
+        "evidence": "EVD-0016",
+        "reason": "Biến cố cung đình cho thấy những người quanh ngai vàng chi phối chính trị."
+      },
+      "legitimacy": {
+        "level": 5,
+        "evidence": "EVD-0015",
+        "reason": "Là hoàng đế Đông Hán đã tức vị; đây là danh nghĩa, không phải năng lực."
+      }
+    }
+  },
+  {
+    "personId": "xiandi",
+    "year": 189,
+    "label": "189 · Lên ngôi",
+    "episodeId": "ep-0003",
+    "ratings": {
+      "power": {
+        "level": 1,
+        "evidence": "EVD-0006",
+        "reason": "Ngai vàng do Đổng Trác chi phối việc phế lập."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-0030",
+        "reason": "Chính thức lên ngôi hoàng đế, nhưng việc phế lập bị phản đối."
+      }
+    }
+  },
+  {
+    "personId": "xiandi",
+    "year": 192,
+    "label": "192 · Trường An đổi chủ",
+    "episodeId": "ep-0006",
+    "ratings": {
+      "power": {
+        "level": 1,
+        "evidence": "EVD-B02-033",
+        "reason": "Triều chính lại rơi vào tay các tướng kiểm soát kinh thành."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B02-033",
+        "reason": "Vẫn giữ danh nghĩa hoàng đế dù thực quyền bị hạn chế."
+      }
+    }
+  },
+  {
+    "personId": "zhang-jue",
+    "year": 184,
+    "label": "184 · Khăn Vàng nổi dậy",
+    "episodeId": "ep-0002",
+    "ratings": {
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-0032",
+        "reason": "Sử ghi phong trào được tổ chức thành 36 phương; không coi số liệu là đo đếm độc lập."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-0001",
+        "reason": "Lực lượng nổi dậy đã hình thành; chưa có căn cứ xác nhận quyền kiểm soát ổn định cấp châu."
+      }
+    }
+  },
+  {
+    "personId": "wang-yun",
+    "year": 190,
+    "label": "190 · Dời đô",
+    "episodeId": "ep-0004",
+    "ratings": {
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B02-010",
+        "reason": "Được giao việc triều chính, bảo toàn sách và văn thư."
+      },
+      "power": {
+        "level": 3,
+        "evidence": "EVD-B02-010",
+        "reason": "Giữ chức Tư đồ và làm việc tại triều đình."
+      }
+    }
+  },
+  {
+    "personId": "wang-yun",
+    "year": 192,
+    "label": "192 · Sau khi Đổng Trác chết",
+    "episodeId": "ep-0006",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B02-027",
+        "reason": "Tham gia lập kế hoạch cùng Sĩ Tôn Thụy và tuyển Lữ Bố làm nội ứng."
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B02-031",
+        "reason": "Không giải quyết được việc quân cũ của Đổng Trác sau biến cố."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B02-029",
+        "reason": "Được giao trông coi việc Thượng thư, trước khi Trường An thất thủ."
+      }
+    }
+  },
+  {
+    "personId": "lu-bu",
+    "year": 189,
+    "label": "189 · Đổi chủ",
+    "episodeId": "ep-0003",
+    "ratings": {
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B02-026",
+        "reason": "Theo Đổng Trác và về sau được trao chức trung lang tướng, phong hầu."
+      }
+    }
+  },
+  {
+    "personId": "lu-bu",
+    "year": 192,
+    "label": "192 · Ôn hầu",
+    "episodeId": "ep-0006",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B02-027",
+        "reason": "Tham gia âm mưu từ vị trí nội ứng."
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B02-029",
+        "reason": "Tham dự chính quyền sau khi Đổng Trác chết."
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B02-029",
+        "reason": "Được thăng tướng quân, phong Ôn hầu; mốc trước khi Trường An thất thủ."
+      }
+    }
+  },
+  {
+    "personId": "jia-xu",
+    "year": 192,
+    "label": "192 · Kế của Giả Hủ",
+    "episodeId": "ep-0006",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B02-032",
+        "reason": "Đề xuất tập hợp lại lực lượng; cuộc phản công sau đó thành công theo EVD-B02-033."
+      }
+    }
+  }
+]
