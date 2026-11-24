@@ -99,7 +99,10 @@
     "source": "三國志卷12 毛玠, 太祖臨兗州",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷12",
     "episodeId": "ep-0007",
-    "evidence": "EVD-B03-058"
+    "evidence": "EVD-B03-058",
+    "evidenceIds": [
+      "EVD-B03-058"
+    ]
   },
   {
     "id": "QTE-0011",
@@ -111,7 +114,10 @@
     "source": "三國志卷10 荀彧, 陶謙死",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷10",
     "episodeId": "ep-0009",
-    "evidence": "EVD-B03-039; parallel 通鑑61"
+    "evidence": "EVD-B03-039; parallel 通鑑61",
+    "evidenceIds": [
+      "EVD-B03-039"
+    ]
   },
   {
     "id": "QTE-0012",
@@ -123,7 +129,11 @@
     "source": "後漢書卷73 劉虞, 四年冬",
     "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷73",
     "episodeId": "ep-0007",
-    "evidence": "EVD-B03-010/060"
+    "evidence": "EVD-B03-010/060",
+    "evidenceIds": [
+      "EVD-B03-010",
+      "EVD-B03-060"
+    ]
   },
   {
     "id": "QTE-0013",
@@ -135,7 +145,10 @@
     "source": "三國志卷18 典韋, 太祖討呂布於濮陽",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷18",
     "episodeId": "ep-0009",
-    "evidence": "EVD-B03-057"
+    "evidence": "EVD-B03-057",
+    "evidenceIds": [
+      "EVD-B03-057"
+    ]
   },
   {
     "id": "QTE-0014",
@@ -147,7 +160,10 @@
     "source": "三國志卷32 先主傳, 謙病篤",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
     "episodeId": "ep-0008",
-    "evidence": "EVD-B03-027"
+    "evidence": "EVD-B03-027",
+    "evidenceIds": [
+      "EVD-B03-027"
+    ]
   },
   {
     "id": "QTE-0015",
@@ -159,7 +175,10 @@
     "source": "三國志卷07 張邈",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
     "episodeId": "ep-0008",
-    "evidence": "EVD-B03-023"
+    "evidence": "EVD-B03-023",
+    "evidenceIds": [
+      "EVD-B03-023"
+    ]
   },
   {
     "id": "QTE-0016",
@@ -171,7 +190,10 @@
     "source": "資治通鑑卷061 興平二年 11",
     "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
     "episodeId": "ep-0009",
-    "evidence": "EVD-B03-048"
+    "evidence": "EVD-B03-048",
+    "evidenceIds": [
+      "EVD-B03-048"
+    ]
   },
   {
     "id": "QTE-0017",
@@ -183,7 +205,10 @@
     "source": "資治通鑑卷061 興平二年 6",
     "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
     "episodeId": "ep-0009",
-    "evidence": "EVD-B03-044"
+    "evidence": "EVD-B03-044",
+    "evidenceIds": [
+      "EVD-B03-044"
+    ]
   },
   {
     "id": "QTE-0018",
@@ -195,7 +220,11 @@
     "source": "三國志卷01 武帝紀 初平三年",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
     "episodeId": "ep-0007",
-    "evidence": "EVD-B03-001/003"
+    "evidence": "EVD-B03-001/003",
+    "evidenceIds": [
+      "EVD-B03-001",
+      "EVD-B03-003"
+    ]
   },
   {
     "id": "QTE-0019",
@@ -207,7 +236,10 @@
     "source": "三國志卷01 武帝紀 初平三年 · Bùi chú dẫn 世語",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
     "episodeId": "ep-0007",
-    "evidence": "EVD-B03-002"
+    "evidence": "EVD-B03-002",
+    "evidenceIds": [
+      "EVD-B03-002"
+    ]
   },
   {
     "id": "QTE-0020",
@@ -219,7 +251,10 @@
     "source": "三國志卷07 張邈 興平元年",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
     "episodeId": "ep-0008",
-    "evidence": "EVD-B03-024"
+    "evidence": "EVD-B03-024",
+    "evidenceIds": [
+      "EVD-B03-024"
+    ]
   },
   {
     "id": "QTE-0021",
@@ -231,7 +266,10 @@
     "source": "三國志卷14 程昱, 太祖與呂布戰於濮陽",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷14",
     "episodeId": "ep-0009",
-    "evidence": "EVD-B03-035"
+    "evidence": "EVD-B03-035",
+    "evidenceIds": [
+      "EVD-B03-035"
+    ]
   },
   {
     "id": "QTE-0022",
@@ -243,7 +281,10 @@
     "source": "三國志卷32 先主傳, 謙死",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
     "episodeId": "ep-0008",
-    "evidence": "EVD-B03-028"
+    "evidence": "EVD-B03-028",
+    "evidenceIds": [
+      "EVD-B03-028"
+    ]
   },
   {
     "id": "QTE-0023",
@@ -255,7 +296,10 @@
     "source": "三國志卷32 先主傳",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
     "episodeId": "ep-0008",
-    "evidence": "EVD-B03-028"
+    "evidence": "EVD-B03-028",
+    "evidenceIds": [
+      "EVD-B03-028"
+    ]
   },
   {
     "id": "QTE-0024",
@@ -267,7 +311,10 @@
     "source": "三國志卷32 先主傳",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
     "episodeId": "ep-0008",
-    "evidence": "EVD-B03-028"
+    "evidence": "EVD-B03-028",
+    "evidenceIds": [
+      "EVD-B03-028"
+    ]
   },
   {
     "id": "QTE-0025",
@@ -279,7 +326,10 @@
     "source": "三國志卷07 張邈 · Bùi chú dẫn 英雄記",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
     "episodeId": "ep-0009",
-    "evidence": "EVD-B03-054"
+    "evidence": "EVD-B03-054",
+    "evidenceIds": [
+      "EVD-B03-054"
+    ]
   },
   {
     "id": "QTE-0026",
@@ -291,7 +341,10 @@
     "source": "資治通鑑卷061 興平二年 11 (final section)",
     "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
     "episodeId": "ep-0009",
-    "evidence": "EVD-B03-049"
+    "evidence": "EVD-B03-049",
+    "evidenceIds": [
+      "EVD-B03-049"
+    ]
   },
   {
     "id": "QTE-0027",
@@ -303,7 +356,11 @@
     "source": "資治通鑑卷061 興平二年 12",
     "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
     "episodeId": "ep-0009",
-    "evidence": "EVD-B03-050/055"
+    "evidence": "EVD-B03-050/055",
+    "evidenceIds": [
+      "EVD-B03-050",
+      "EVD-B03-055"
+    ]
   },
   {
     "id": "QTE-0028",
@@ -315,7 +372,10 @@
     "source": "三國志卷09 夏侯惇傳",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷09",
     "episodeId": "ep-0008",
-    "evidence": "EVD-B03-070"
+    "evidence": "EVD-B03-070",
+    "evidenceIds": [
+      "EVD-B03-070"
+    ]
   },
   {
     "id": "QTE-0029",
@@ -327,6 +387,9 @@
     "source": "資治通鑑卷061 興平元年 6",
     "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
     "episodeId": "ep-0008",
-    "evidence": "EVD-B03-069"
+    "evidence": "EVD-B03-069",
+    "evidenceIds": [
+      "EVD-B03-069"
+    ]
   }
 ]
