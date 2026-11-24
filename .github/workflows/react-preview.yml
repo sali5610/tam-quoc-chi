@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: explicit journey selector and pinned portrait checksums
+# Release: portrait image fills circular seal and fallback removed on successful load
 on:
   workflow_dispatch:
   push:
@@ -91,12 +91,15 @@ jobs:
               await marker.locator('.atlas-person-name').first().waitFor({state:'visible'});
               await page.waitForFunction(()=>{const root=document.querySelector('main .strategy-board');const marker=root?.querySelector('.atlas-person-marker');if(!root||!marker)return false;const r=marker.getBoundingClientRect();return Array.from(root.querySelectorAll('.atlas-auto-label')).filter(el=>getComputedStyle(el).visibility!=='hidden').every(el=>{const b=el.getBoundingClientRect();return b.right<=r.left||b.left>=r.right||b.bottom<=r.top||b.top>=r.bottom})},{},{timeout:5000});
               if(id!=='ep-0001')await marker.locator('.atlas-local-relation svg').waitFor({state:'visible'});
+              if(id==='ep-0001'||id==='ep-0002'){const fallbackCount=await marker.locator('.atlas-portrait-fallback').count();if(fallbackCount!==(id==='ep-0001'?1:2))throw Error('Missing fallback names');}
               await marker.click();
               await page.getByRole('dialog',{name:'Chi tiết sự kiện'}).waitFor({state:'visible'});
               await page.getByRole('button',{name:'Đóng sự kiện'}).click();
               if(id==='ep-0003'){
                 await page.waitForFunction(()=>{const images=Array.from(document.querySelectorAll('[data-event-id="capital-189"] .atlas-portrait-image'));return images.length===2&&images.every(img=>img.complete&&img.naturalWidth>0&&getComputedStyle(img).visibility==='visible')},{},{timeout:10000});
-                console.log('PASS atlas portrait pair');
+                const avatarLayout=await marker.locator('.atlas-portrait-seal').evaluateAll(seals=>seals.map(seal=>{const image=seal.querySelector('img.atlas-portrait-image');if(!image)return false;const r=seal.getBoundingClientRect(),i=image.getBoundingClientRect();const css=getComputedStyle(image);return seal.dataset.portraitLoaded==='true'&&!seal.querySelector('.atlas-portrait-fallback')&&!seal.textContent.trim()&&css.objectFit==='cover'&&i.width>=r.width*.8&&i.height>=r.height*.8&&Math.abs((i.left+i.right)-(r.left+r.right))<2&&Math.abs((i.top+i.bottom)-(r.top+r.bottom))<2}));
+                if(avatarLayout.length!==2||!avatarLayout.every(Boolean))throw Error('Portrait image not filling seal or fallback still visible');
+                console.log('PASS atlas portrait pair and circular crop');
                 const board=page.locator('main .strategy-board');
                 const initial=await marker.evaluate(el=>({scale:Number(el.getAttribute('data-marker-scale')),width:el.querySelector('.atlas-marker-content').getBoundingClientRect().width}));
                 await board.locator('.leaflet-control-zoom-out').click();
