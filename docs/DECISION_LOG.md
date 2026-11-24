@@ -52,3 +52,5 @@ The earlier decisions remain historical records; the following supersede stale d
 - PO requested notable sourced quotations on Wiki in prior package. Consolidate with approved radar on integration branch only; source layers and existing stable person IDs retained; no new release authorization.
 
 - 2026-11-25: PO approves publishing combined Wiki quotations and time-varying radar on existing GitHub Pages after exact combined CI PASS. Scope limited to these features and release verification, no other changes.
+
+- 2026-11-25: PO authorizes Chat 03B to complete inline visual coverage of EP01–06 before next batch. Preserve Ink & Silk, prefer 三國志圖像, use sourced supplemental plates and clearly labeled context if exact scenes unavailable; no AI art. Preview and regression only; separate release approval required.
