@@ -48,10 +48,10 @@
       "kind": "later artistic depiction",
       "width": 297,
       "height": 586,
-      "sha1": null,
-      "size": null,
+      "sha1": "b952cf09f8f9517b578c13791a9ebf892f3e9d46",
+      "size": 174790,
       "sourceRevision": 1050801458,
-      "verification": "Commons published dimensions; SHA-1 to be recorded from first successful download"
+      "verification": "SHA-1 and dimensions verified in CI run 45311328777"
     },
     {
       "id": "zhang-jue",
@@ -116,10 +116,10 @@
       "kind": "later artistic depiction",
       "width": 360,
       "height": 480,
-      "sha1": null,
-      "size": null,
+      "sha1": "ece7b85731b9772fe9c514d0b0831b8d075f1c77",
+      "size": 33056,
       "sourceRevision": null,
-      "verification": "Commons published dimensions; SHA-1 to be recorded from first successful download"
+      "verification": "SHA-1 and dimensions verified in CI run 45311328777"
     },
     {
       "id": "he-jin",
