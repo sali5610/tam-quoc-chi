@@ -16,7 +16,12 @@
       "title": "Ai mời Tào Tháo quản Duyện Châu?",
       "description": "Bảo Tín và quan lại → Tào; Trần Cung theo Thế ngữ; phân biệt chiếu bổ 195.",
       "evidence": "001–003",
-      "art": "Không thêm tranh sử; dùng symbol v6"
+      "art": "Không thêm tranh sử; dùng symbol v6",
+      "evidenceIds": [
+        "EVD-B03-001",
+        "EVD-B03-002",
+        "EVD-B03-003"
+      ]
     },
     {
       "id": "B03-V07-02",
@@ -28,7 +33,11 @@
       "title": "Từ đầu hàng đến Thanh Châu binh",
       "description": "Quân đầu hàng và dân đi theo: phân biệt; tuyển tinh nhuệ → Thanh Châu binh; không biểu thị tỉ lệ.",
       "evidence": "004–005",
-      "art": "Không thêm tranh sử; dùng symbol v6"
+      "art": "Không thêm tranh sử; dùng symbol v6",
+      "evidenceIds": [
+        "EVD-B03-004",
+        "EVD-B03-005"
+      ]
     },
     {
       "id": "B03-V07-03",
@@ -40,7 +49,12 @@
       "title": "Bộ máy Duyện Châu",
       "description": "Tuân Úc theo năm 191; Trình Dục và Mao Giới được dùng sau khi Tào đến; lời khuyên chưa phải thực thi.",
       "evidence": "008–009;058",
-      "art": "Không thêm tranh sử; dùng symbol v6"
+      "art": "Không thêm tranh sử; dùng symbol v6",
+      "evidenceIds": [
+        "EVD-B03-008",
+        "EVD-B03-009",
+        "EVD-B03-058"
+      ]
     },
     {
       "id": "B03-V07-04",
@@ -52,7 +66,11 @@
       "title": "Liên kết và nguồn lương",
       "description": "Lưu Biểu chặn lương Viên Thuật; Tào–Viên Thiệu phối hợp; Viên Thuật–Công Tôn Toản liên kết; Cửu Giang là nơi chuyển đến, không vẽ lộ trình.",
       "evidence": "006–007",
-      "art": "Không thêm tranh sử; dùng symbol v6"
+      "art": "Không thêm tranh sử; dùng symbol v6",
+      "evidenceIds": [
+        "EVD-B03-006",
+        "EVD-B03-007"
+      ]
     },
     {
       "id": "B03-V08-01",
@@ -64,7 +82,13 @@
       "title": "Ai chịu trách nhiệm?",
       "description": "Chính văn quy trách nhiệm Đào Khiêm; Thế ngữ kể lệnh bí mật; Ngô thư kể Trương Khải hộ tống; biên niên kể lính tham tài vật. Không đóng dấu kết tội.",
       "evidence": "015–017;078",
-      "art": "Không thêm tranh sử; dùng symbol v6"
+      "art": "Không thêm tranh sử; dùng symbol v6",
+      "evidenceIds": [
+        "EVD-B03-015",
+        "EVD-B03-016",
+        "EVD-B03-017",
+        "EVD-B03-078"
+      ]
     },
     {
       "id": "B03-V08-02",
@@ -76,7 +100,13 @@
       "title": "Tiến công và cứu viện",
       "description": "193 Bành Thành, thiếu lương, dân chịu hậu quả; đầu 194 Điền Khải–Lưu Bị cứu viện; Đào cấp quân, Tiểu Bái. Không minh họa số người chết.",
       "evidence": "018–021",
-      "art": "Không thêm tranh sử; dùng symbol v6"
+      "art": "Không thêm tranh sử; dùng symbol v6",
+      "evidenceIds": [
+        "EVD-B03-018",
+        "EVD-B03-019",
+        "EVD-B03-020",
+        "EVD-B03-021"
+      ]
     },
     {
       "id": "B03-V08-03",
@@ -88,7 +118,14 @@
       "title": "Ba nơi còn giữ được",
       "description": "Phe Mạc–Cung–Lữ đối lập Tào; Tuân Úc giữ Quyên Thành, Cận Doãn giữ Phạm, Táo Chi giữ Đông A; Trình Dục phối hợp, Hạ Hầu Đôn giữ hậu phương.",
       "evidence": "024–026;059;069",
-      "art": "Không thêm tranh sử; dùng symbol v6"
+      "art": "Không thêm tranh sử; dùng symbol v6",
+      "evidenceIds": [
+        "EVD-B03-024",
+        "EVD-B03-025",
+        "EVD-B03-026",
+        "EVD-B03-059",
+        "EVD-B03-069"
+      ]
     },
     {
       "id": "B03-V08-04",
@@ -100,7 +137,14 @@
       "title": "Chuyển giao Từ Châu",
       "description": "Đào di mệnh → My Trúc đón → Trần Đăng, Khổng Dung khuyên → Lưu Bị nhận; Viên Thiệu tán thành theo Bùi chú. Không tái dựng ba lần nhường.",
       "evidence": "027–030;056",
-      "art": "Không thêm tranh sử; dùng symbol v6"
+      "art": "Không thêm tranh sử; dùng symbol v6",
+      "evidenceIds": [
+        "EVD-B03-027",
+        "EVD-B03-028",
+        "EVD-B03-029",
+        "EVD-B03-030",
+        "EVD-B03-056"
+      ]
     },
     {
       "id": "B03-V09-01",
@@ -112,7 +156,15 @@
       "title": "Hai vùng cùng thiếu lương",
       "description": "Duyện Châu: Bộc Dương, đói; Trường An: hạn hán và cứu đói, vua thử nấu cháo. Không gộp địa điểm hay giá lương.",
       "evidence": "032–037",
-      "art": "Không thêm tranh sử; dùng symbol v6"
+      "art": "Không thêm tranh sử; dùng symbol v6",
+      "evidenceIds": [
+        "EVD-B03-032",
+        "EVD-B03-033",
+        "EVD-B03-034",
+        "EVD-B03-035",
+        "EVD-B03-036",
+        "EVD-B03-037"
+      ]
     },
     {
       "id": "B03-V09-02",
@@ -124,7 +176,12 @@
       "title": "Giữ gốc rồi mới đi xa",
       "description": "Định Đào đầu 195 chưa xong; Tuân Úc khuyên giữ gốc; hè lấy lại đất; Lữ nương Lưu. Chưa kể bổ nhiệm tháng mười tại anchor này.",
       "evidence": "038–040",
-      "art": "Không thêm tranh sử; dùng symbol v6"
+      "art": "Không thêm tranh sử; dùng symbol v6",
+      "evidenceIds": [
+        "EVD-B03-038",
+        "EVD-B03-039",
+        "EVD-B03-040"
+      ]
     },
     {
       "id": "B03-V09-03",
@@ -136,7 +193,12 @@
       "title": "Triều đình bị chia đôi",
       "description": "Lý Giác giữ vua; Quách Dĩ giữ công khanh; Dương Bưu phản đối (nội dung sau đoạn giữ đại thần). Không suy vị trí doanh trại hoặc tiết lộ hòa giải.",
       "evidence": "042–044",
-      "art": "Không thêm tranh sử; dùng symbol v6"
+      "art": "Không thêm tranh sử; dùng symbol v6",
+      "evidenceIds": [
+        "EVD-B03-042",
+        "EVD-B03-043",
+        "EVD-B03-044"
+      ]
     },
     {
       "id": "B03-V09-04",
@@ -148,7 +210,12 @@
       "title": "Đường về phía đông",
       "description": "11 chặng theo Atlas closure, bến vượt sông chưa rõ. Không vẽ đường đi thực tế.",
       "evidence": "046–048",
-      "art": "Không thêm tranh sử; dùng symbol v6"
+      "art": "Không thêm tranh sử; dùng symbol v6",
+      "evidenceIds": [
+        "EVD-B03-046",
+        "EVD-B03-047",
+        "EVD-B03-048"
+      ]
     },
     {
       "id": "B03-V09-05",
@@ -160,7 +227,12 @@
       "title": "Hai thế lực định hình",
       "description": "Tào được bổ tháng mười; Ung Khâu tháng chạp; Tôn Sách ở Lịch Dương theo tuyến 195 có dị bản; chưa lập nước.",
       "evidence": "041;050;055",
-      "art": "Không thêm tranh sử; dùng symbol v6"
+      "art": "Không thêm tranh sử; dùng symbol v6",
+      "evidenceIds": [
+        "EVD-B03-041",
+        "EVD-B03-050",
+        "EVD-B03-055"
+      ]
     }
   ],
   "motion": {
@@ -971,13 +1043,17 @@
             "person": "cao-cao",
             "rank": 4,
             "influence": 4,
-            "role": "Được mời quản châu"
+            "role": "Được mời quản châu",
+            "factionLabel": "Phe Tào Tháo",
+            "title": "Duyện Châu mục theo lời mời địa phương (trước tháng 10/195)"
           },
           {
             "person": "bao-xin",
             "rank": 3,
             "influence": 3,
-            "role": "Cùng đón Tào"
+            "role": "Cùng đón Tào",
+            "factionLabel": "Quan lại Duyện Châu ủng hộ Tào",
+            "title": "Tế Bắc tướng"
           }
         ],
         "contextParticipants": [
@@ -986,6 +1062,12 @@
             "role": "Vận động theo Bùi chú",
             "marker": false
           }
+        ],
+        "dateLabel": "192 · sau khi Lưu Đại mất",
+        "evidenceIds": [
+          "EVD-B03-001",
+          "EVD-B03-002",
+          "EVD-B03-003"
         ]
       },
       {
@@ -1007,10 +1089,17 @@
             "person": "cao-cao",
             "rank": 4,
             "influence": 4,
-            "role": "Nhận đầu hàng và tuyển quân"
+            "role": "Nhận đầu hàng và tuyển quân",
+            "factionLabel": "Phe Tào Tháo",
+            "title": "Duyện Châu mục theo lời mời địa phương (trước tháng 10/195)"
           }
         ],
-        "contextParticipants": []
+        "contextParticipants": [],
+        "dateLabel": "Mùa đông 192",
+        "evidenceIds": [
+          "EVD-B03-004",
+          "EVD-B03-005"
+        ]
       },
       {
         "id": "fengqiu-193",
@@ -1033,13 +1122,17 @@
             "person": "cao-cao",
             "rank": 4,
             "influence": 4,
-            "role": "Đối đầu Viên Thuật"
+            "role": "Đối đầu Viên Thuật",
+            "factionLabel": "Phe Tào Tháo",
+            "title": "Duyện Châu mục theo lời mời địa phương (trước tháng 10/195)"
           },
           {
             "person": "yuan-shu",
             "rank": 4,
             "influence": 3,
-            "role": "Thất bại"
+            "role": "Thất bại",
+            "factionLabel": "Phe Viên Thuật",
+            "title": "Thủ lĩnh thế lực Viên Thuật"
           }
         ],
         "contextParticipants": [
@@ -1048,6 +1141,10 @@
             "role": "Cắt lương từ Kinh Châu",
             "marker": false
           }
+        ],
+        "dateLabel": "Mùa xuân 193",
+        "evidenceIds": [
+          "EVD-B03-007"
         ]
       },
       {
@@ -1069,16 +1166,25 @@
             "person": "liu-yu",
             "rank": 5,
             "influence": 3,
-            "role": "U Châu mục trước khi chết"
+            "role": "U Châu mục trước khi chết",
+            "factionLabel": "Nhà Hán / U Châu",
+            "title": "U Châu mục"
           },
           {
             "person": "gongsun-zan",
             "rank": 4,
             "influence": 4,
-            "role": "Đối thủ"
+            "role": "Đối thủ",
+            "factionLabel": "Phe Công Tôn Toản",
+            "title": "Tướng có lực lượng riêng ở miền bắc"
           }
         ],
-        "contextParticipants": []
+        "contextParticipants": [],
+        "dateLabel": "Mùa đông 193",
+        "evidenceIds": [
+          "EVD-B03-010",
+          "EVD-B03-060"
+        ]
       },
       {
         "id": "xu-campaign-193",
@@ -1102,13 +1208,17 @@
             "person": "cao-cao",
             "rank": 4,
             "influence": 4,
-            "role": "Tiến công"
+            "role": "Tiến công",
+            "factionLabel": "Phe Tào Tháo",
+            "title": "Duyện Châu mục theo lời mời địa phương (trước tháng 10/195)"
           },
           {
             "person": "tao-qian",
             "rank": 4,
             "influence": 4,
-            "role": "Phòng thủ"
+            "role": "Phòng thủ",
+            "factionLabel": "Từ Châu / Đào Khiêm",
+            "title": "Từ Châu mục"
           }
         ],
         "contextParticipants": [
@@ -1117,6 +1227,14 @@
             "role": "Chết trước chiến dịch",
             "marker": false
           }
+        ],
+        "dateLabel": "Mùa thu 193",
+        "evidenceIds": [
+          "EVD-B03-015",
+          "EVD-B03-016",
+          "EVD-B03-017",
+          "EVD-B03-018",
+          "EVD-B03-019"
         ]
       },
       {
@@ -1138,7 +1256,9 @@
             "person": "liu-bei",
             "rank": 3,
             "influence": 2,
-            "role": "Được tiến cử Dự Châu thứ sử"
+            "role": "Được tiến cử Dự Châu thứ sử",
+            "factionLabel": "Lưu Bị dưới bảo trợ Đào Khiêm",
+            "title": "Dự Châu thứ sử được tiến cử"
           }
         ],
         "contextParticipants": [
@@ -1152,6 +1272,11 @@
             "role": "Cấp quân và tiến cử",
             "marker": false
           }
+        ],
+        "dateLabel": "Đầu 194 theo biên niên",
+        "evidenceIds": [
+          "EVD-B03-020",
+          "EVD-B03-021"
         ]
       },
       {
@@ -1177,7 +1302,9 @@
             "person": "lu-bu",
             "rank": 4,
             "influence": 4,
-            "role": "Chiếm Bộc Dương"
+            "role": "Chiếm Bộc Dương",
+            "factionLabel": "Phe Lữ Bố tại Duyện Châu",
+            "title": "Duyện Châu mục theo lời mời phe nổi dậy (194–195)"
           }
         ],
         "contextParticipants": [
@@ -1201,6 +1328,12 @@
             "role": "Đang ở Từ Châu lúc nổi dậy",
             "marker": false
           }
+        ],
+        "dateLabel": "Mùa hè 194",
+        "evidenceIds": [
+          "EVD-B03-022",
+          "EVD-B03-023",
+          "EVD-B03-024"
         ]
       },
       {
@@ -1223,7 +1356,9 @@
             "person": "xun-yu",
             "rank": 2,
             "influence": 3,
-            "role": "Giữ Quyên Thành"
+            "role": "Giữ Quyên Thành",
+            "factionLabel": "Phe Tào Tháo",
+            "title": "Tư mã / phụ tá phe Tào"
           }
         ],
         "contextParticipants": [
@@ -1262,6 +1397,12 @@
             "role": "Hỗ trợ lương",
             "marker": false
           }
+        ],
+        "dateLabel": "194 · biến loạn Duyện Châu",
+        "evidenceIds": [
+          "EVD-B03-025",
+          "EVD-B03-026",
+          "EVD-B03-059"
         ]
       },
       {
@@ -1283,13 +1424,17 @@
             "person": "liu-bei",
             "rank": 4,
             "influence": 4,
-            "role": "Được đón"
+            "role": "Được đón",
+            "factionLabel": "Lực lượng Lưu Bị tại Từ Châu",
+            "title": "Nhận việc cai quản Từ Châu sau khi được địa phương đón"
           },
           {
             "person": "mi-zhu",
             "rank": 2,
             "influence": 3,
-            "role": "Thực hiện di mệnh"
+            "role": "Thực hiện di mệnh",
+            "factionLabel": "Quan lại Từ Châu",
+            "title": "Biệt giá tòng sự Từ Châu"
           }
         ],
         "contextParticipants": [
@@ -1313,6 +1458,13 @@
             "role": "Tán thành theo Bùi chú",
             "marker": false
           }
+        ],
+        "dateLabel": "Cuối 194",
+        "evidenceIds": [
+          "EVD-B03-027",
+          "EVD-B03-028",
+          "EVD-B03-029",
+          "EVD-B03-056"
         ]
       },
       {
@@ -1336,22 +1488,35 @@
             "person": "cao-cao",
             "rank": 4,
             "influence": 2,
-            "role": "Đối đầu Lữ"
+            "role": "Đối đầu Lữ",
+            "factionLabel": "Phe Tào Tháo",
+            "title": "Duyện Châu mục theo lời mời địa phương (trước tháng 10/195)"
           },
           {
             "person": "lu-bu",
             "rank": 4,
             "influence": 4,
-            "role": "Đối đầu Tào"
+            "role": "Đối đầu Tào",
+            "factionLabel": "Phe Lữ Bố tại Duyện Châu",
+            "title": "Duyện Châu mục theo lời mời phe nổi dậy (194–195)"
           },
           {
             "person": "dian-wei",
             "rank": 2,
             "influence": 2,
-            "role": "Thuộc tướng"
+            "role": "Thuộc tướng",
+            "factionLabel": "Phe Tào Tháo",
+            "title": "Thuộc tướng, được bổ đô úy sau Bộc Dương"
           }
         ],
-        "contextParticipants": []
+        "contextParticipants": [],
+        "dateLabel": "194 · chiến sự Bộc Dương",
+        "evidenceIds": [
+          "EVD-B03-032",
+          "EVD-B03-033",
+          "EVD-B03-034",
+          "EVD-B03-057"
+        ]
       },
       {
         "id": "capital-famine-194",
@@ -1372,7 +1537,9 @@
             "person": "xiandi",
             "rank": 5,
             "influence": 1,
-            "role": "Kiểm tra cứu đói"
+            "role": "Kiểm tra cứu đói",
+            "factionLabel": "Triều đình Hán",
+            "title": "Hoàng đế"
           }
         ],
         "contextParticipants": [
@@ -1386,6 +1553,11 @@
             "role": "Chiến sự riêng ở Trường Bình Quán",
             "marker": false
           }
+        ],
+        "dateLabel": "194 · nạn đói kinh thành",
+        "evidenceIds": [
+          "EVD-B03-036",
+          "EVD-B03-037"
         ]
       },
       {
@@ -1410,13 +1582,17 @@
             "person": "cao-cao",
             "rank": 4,
             "influence": 4,
-            "role": "Lấy lại địa bàn"
+            "role": "Lấy lại địa bàn",
+            "factionLabel": "Phe Tào Tháo",
+            "title": "Duyện Châu mục theo lời mời địa phương (trước tháng 10/195)"
           },
           {
             "person": "lu-bu",
             "rank": 4,
             "influence": 2,
-            "role": "Thất thế"
+            "role": "Thất thế",
+            "factionLabel": "Phe Lữ Bố tại Duyện Châu",
+            "title": "Thất thế tại Duyện Châu, sau nương Lưu Bị"
           }
         ],
         "contextParticipants": [
@@ -1430,6 +1606,12 @@
             "role": "Tiếp nhận Lữ ở Từ Châu",
             "marker": false
           }
+        ],
+        "dateLabel": "Xuân–hè 195",
+        "evidenceIds": [
+          "EVD-B03-038",
+          "EVD-B03-039",
+          "EVD-B03-040"
         ]
       },
       {
@@ -1450,25 +1632,33 @@
             "person": "li-jue",
             "rank": 5,
             "influence": 5,
-            "role": "Giữ vua"
+            "role": "Giữ vua",
+            "factionLabel": "Phe Lý Giác",
+            "title": "Tướng nắm triều đình, tự nhận Đại tư mã tháng 5/195"
           },
           {
             "person": "guo-si",
             "rank": 4,
             "influence": 4,
-            "role": "Giữ quan"
+            "role": "Giữ quan",
+            "factionLabel": "Phe Quách Dĩ",
+            "title": "Hậu tướng quân theo chức năm 192; tướng nắm quân năm 195"
           },
           {
             "person": "xiandi",
             "rank": 5,
             "influence": 1,
-            "role": "Bị giữ"
+            "role": "Bị giữ",
+            "factionLabel": "Triều đình Hán",
+            "title": "Hoàng đế"
           },
           {
             "person": "yang-biao",
             "rank": 5,
             "influence": 2,
-            "role": "Phản đối"
+            "role": "Phản đối",
+            "factionLabel": "Triều đình Hán",
+            "title": "Thái úy"
           }
         ],
         "contextParticipants": [
@@ -1492,6 +1682,13 @@
             "role": "Quan bị giữ",
             "marker": false
           }
+        ],
+        "dateLabel": "Tháng 3–5 âm lịch 195",
+        "evidenceIds": [
+          "EVD-B03-042",
+          "EVD-B03-043",
+          "EVD-B03-044",
+          "EVD-B03-045"
         ]
       },
       {
@@ -1515,7 +1712,9 @@
             "person": "xiandi",
             "rank": 5,
             "influence": 1,
-            "role": "Rời Trường An"
+            "role": "Rời Trường An",
+            "factionLabel": "Triều đình Hán",
+            "title": "Hoàng đế"
           }
         ],
         "contextParticipants": [
@@ -1554,6 +1753,10 @@
             "role": "Cung ứng ở Hoa Âm",
             "marker": false
           }
+        ],
+        "dateLabel": "Tháng 7 âm lịch 195",
+        "evidenceIds": [
+          "EVD-B03-046"
         ]
       },
       {
@@ -1580,13 +1783,17 @@
             "person": "xiandi",
             "rank": 5,
             "influence": 1,
-            "role": "Đến An Ấp"
+            "role": "Đến An Ấp",
+            "factionLabel": "Triều đình Hán",
+            "title": "Hoàng đế"
           },
           {
             "person": "zhang-yang",
             "rank": 4,
             "influence": 3,
-            "role": "Đem quân đến"
+            "role": "Đem quân đến",
+            "factionLabel": "Phe Trương Dương / Hà Nội",
+            "title": "Hà Nội thái thú, được trao An Quốc tướng quân khi đến An Ấp"
           }
         ],
         "contextParticipants": [
@@ -1640,6 +1847,11 @@
             "role": "Mất trong giai đoạn chạy loạn, vị trí tranh cãi",
             "marker": false
           }
+        ],
+        "dateLabel": "Tháng 11–12 âm lịch 195",
+        "evidenceIds": [
+          "EVD-B03-047",
+          "EVD-B03-048"
         ]
       },
       {
@@ -1660,7 +1872,9 @@
             "person": "zhang-chao",
             "rank": 3,
             "influence": 2,
-            "role": "Giữ thành trước khi mất"
+            "role": "Giữ thành trước khi mất",
+            "factionLabel": "Phe Trương Mạc–Trương Siêu",
+            "title": "Cựu Quảng Lăng thái thú"
           }
         ],
         "contextParticipants": [
@@ -1674,6 +1888,11 @@
             "role": "Chết khi tìm cứu viện",
             "marker": false
           }
+        ],
+        "dateLabel": "Tháng 12 âm lịch 195",
+        "evidenceIds": [
+          "EVD-B03-041",
+          "EVD-B03-052"
         ]
       },
       {
@@ -1694,13 +1913,17 @@
             "person": "sun-ce",
             "rank": 3,
             "influence": 3,
-            "role": "Chỉ huy"
+            "role": "Chỉ huy",
+            "factionLabel": "Lực lượng Tôn Sách dưới bảo trợ Viên Thuật",
+            "title": "Chiết Xung hiệu úy, tạm đảm nhiệm 行殄寇將軍"
           },
           {
             "person": "zhou-yu",
             "rank": 1,
             "influence": 2,
-            "role": "Hỗ trợ"
+            "role": "Hỗ trợ",
+            "factionLabel": "Lực lượng hỗ trợ Tôn Sách",
+            "title": "Người hỗ trợ Tôn Sách, chưa gán chức về sau"
           }
         ],
         "contextParticipants": [
@@ -1709,6 +1932,11 @@
             "role": "Bảo trợ, không cùng điểm",
             "marker": false
           }
+        ],
+        "dateLabel": "195 theo tuyến biên niên có dị bản",
+        "evidenceIds": [
+          "EVD-B03-050",
+          "EVD-B03-055"
         ]
       }
     ],
@@ -1719,7 +1947,10 @@
         "from": "bao-xin",
         "to": "cao-cao",
         "label": "Mời quản châu",
-        "evidence": "001"
+        "evidence": "001",
+        "evidenceIds": [
+          "EVD-B03-001"
+        ]
       },
       {
         "id": "b03-rel-02",
@@ -1727,7 +1958,10 @@
         "from": "chen-gong",
         "to": "cao-cao",
         "label": "Vận động theo Bùi chú",
-        "evidence": "002"
+        "evidence": "002",
+        "evidenceIds": [
+          "EVD-B03-002"
+        ]
       },
       {
         "id": "b03-rel-03",
@@ -1735,7 +1969,10 @@
         "from": "yuan-shao",
         "to": "cao-cao",
         "label": "Phối hợp",
-        "evidence": "006"
+        "evidence": "006",
+        "evidenceIds": [
+          "EVD-B03-006"
+        ]
       },
       {
         "id": "b03-rel-04",
@@ -1743,7 +1980,10 @@
         "from": "liu-biao",
         "to": "yuan-shu",
         "label": "Chặn lương",
-        "evidence": "007"
+        "evidence": "007",
+        "evidenceIds": [
+          "EVD-B03-007"
+        ]
       },
       {
         "id": "b03-rel-05",
@@ -1751,7 +1991,10 @@
         "from": "yuan-shu",
         "to": "gongsun-zan",
         "label": "Tìm viện trợ",
-        "evidence": "006"
+        "evidence": "006",
+        "evidenceIds": [
+          "EVD-B03-006"
+        ]
       },
       {
         "id": "b03-rel-06",
@@ -1759,7 +2002,10 @@
         "from": "liu-yu",
         "to": "gongsun-zan",
         "label": "Đối đầu",
-        "evidence": "010"
+        "evidence": "010",
+        "evidenceIds": [
+          "EVD-B03-010"
+        ]
       },
       {
         "id": "b03-rel-07",
@@ -1767,7 +2013,12 @@
         "from": "cao-song",
         "to": "cao-cao",
         "label": "Cha–con",
-        "evidence": "015;061–062"
+        "evidence": "015;061–062",
+        "evidenceIds": [
+          "EVD-B03-015",
+          "EVD-B03-061",
+          "EVD-B03-062"
+        ]
       },
       {
         "id": "b03-rel-08",
@@ -1775,7 +2026,10 @@
         "from": "tao-qian",
         "to": "liu-bei",
         "label": "Cấp quân, tiến cử",
-        "evidence": "021"
+        "evidence": "021",
+        "evidenceIds": [
+          "EVD-B03-021"
+        ]
       },
       {
         "id": "b03-rel-09",
@@ -1783,7 +2037,10 @@
         "from": "tian-kai",
         "to": "liu-bei",
         "label": "Cùng cứu viện",
-        "evidence": "020"
+        "evidence": "020",
+        "evidenceIds": [
+          "EVD-B03-020"
+        ]
       },
       {
         "id": "b03-rel-10",
@@ -1791,7 +2048,10 @@
         "from": "zhang-miao",
         "to": "lu-bu",
         "label": "Đón làm châu mục",
-        "evidence": "024"
+        "evidence": "024",
+        "evidenceIds": [
+          "EVD-B03-024"
+        ]
       },
       {
         "id": "b03-rel-11",
@@ -1799,7 +2059,10 @@
         "from": "chen-gong",
         "to": "lu-bu",
         "label": "Đón làm châu mục",
-        "evidence": "024"
+        "evidence": "024",
+        "evidenceIds": [
+          "EVD-B03-024"
+        ]
       },
       {
         "id": "b03-rel-12",
@@ -1807,7 +2070,10 @@
         "from": "zhang-chao",
         "to": "zhang-miao",
         "label": "Anh em; cùng tham gia",
-        "evidence": "024"
+        "evidence": "024",
+        "evidenceIds": [
+          "EVD-B03-024"
+        ]
       },
       {
         "id": "b03-rel-13",
@@ -1815,7 +2081,10 @@
         "from": "xun-yu",
         "to": "cao-cao",
         "label": "Giữ hậu phương",
-        "evidence": "025"
+        "evidence": "025",
+        "evidenceIds": [
+          "EVD-B03-025"
+        ]
       },
       {
         "id": "b03-rel-14",
@@ -1823,7 +2092,10 @@
         "from": "cheng-yu",
         "to": "cao-cao",
         "label": "Tổ chức giữ địa bàn",
-        "evidence": "026"
+        "evidence": "026",
+        "evidenceIds": [
+          "EVD-B03-026"
+        ]
       },
       {
         "id": "b03-rel-15",
@@ -1831,7 +2103,10 @@
         "from": "xiahou-dun",
         "to": "cao-cao",
         "label": "Giữ hậu phương",
-        "evidence": "059"
+        "evidence": "059",
+        "evidenceIds": [
+          "EVD-B03-059"
+        ]
       },
       {
         "id": "b03-rel-16",
@@ -1839,7 +2114,10 @@
         "from": "han-hao",
         "to": "xiahou-dun",
         "label": "Giải cứu",
-        "evidence": "070"
+        "evidence": "070",
+        "evidenceIds": [
+          "EVD-B03-070"
+        ]
       },
       {
         "id": "b03-rel-17",
@@ -1847,7 +2125,10 @@
         "from": "cheng-yu",
         "to": "jin-yun",
         "label": "Vận động giữ Phạm",
-        "evidence": "069"
+        "evidence": "069",
+        "evidenceIds": [
+          "EVD-B03-069"
+        ]
       },
       {
         "id": "b03-rel-18",
@@ -1855,7 +2136,10 @@
         "from": "guo-gong",
         "to": "xun-yu",
         "label": "Gặp rồi rút",
-        "evidence": "068"
+        "evidence": "068",
+        "evidenceIds": [
+          "EVD-B03-068"
+        ]
       },
       {
         "id": "b03-rel-19",
@@ -1863,7 +2147,10 @@
         "from": "tao-qian",
         "to": "mi-zhu",
         "label": "Giao di mệnh",
-        "evidence": "027"
+        "evidence": "027",
+        "evidenceIds": [
+          "EVD-B03-027"
+        ]
       },
       {
         "id": "b03-rel-20",
@@ -1871,7 +2158,10 @@
         "from": "mi-zhu",
         "to": "liu-bei",
         "label": "Đón",
-        "evidence": "056"
+        "evidence": "056",
+        "evidenceIds": [
+          "EVD-B03-056"
+        ]
       },
       {
         "id": "b03-rel-21",
@@ -1879,7 +2169,10 @@
         "from": "chen-deng",
         "to": "liu-bei",
         "label": "Khuyên nhận",
-        "evidence": "028"
+        "evidence": "028",
+        "evidenceIds": [
+          "EVD-B03-028"
+        ]
       },
       {
         "id": "b03-rel-22",
@@ -1887,7 +2180,10 @@
         "from": "kong-rong",
         "to": "liu-bei",
         "label": "Khuyên nhận",
-        "evidence": "028"
+        "evidence": "028",
+        "evidenceIds": [
+          "EVD-B03-028"
+        ]
       },
       {
         "id": "b03-rel-23",
@@ -1895,7 +2191,10 @@
         "from": "cao-cao",
         "to": "lu-bu",
         "label": "Đối đầu",
-        "evidence": "032"
+        "evidence": "032",
+        "evidenceIds": [
+          "EVD-B03-032"
+        ]
       },
       {
         "id": "b03-rel-24",
@@ -1903,7 +2202,10 @@
         "from": "dian-wei",
         "to": "cao-cao",
         "label": "Thuộc tướng",
-        "evidence": "057"
+        "evidence": "057",
+        "evidenceIds": [
+          "EVD-B03-057"
+        ]
       },
       {
         "id": "b03-rel-25",
@@ -1911,7 +2213,10 @@
         "from": "xun-yu",
         "to": "cao-cao",
         "label": "Khuyên giữ gốc",
-        "evidence": "039"
+        "evidence": "039",
+        "evidenceIds": [
+          "EVD-B03-039"
+        ]
       },
       {
         "id": "b03-rel-26",
@@ -1919,7 +2224,10 @@
         "from": "cao-cao",
         "to": "lu-bu",
         "label": "Đối đầu",
-        "evidence": "040"
+        "evidence": "040",
+        "evidenceIds": [
+          "EVD-B03-040"
+        ]
       },
       {
         "id": "b03-rel-27",
@@ -1927,7 +2235,11 @@
         "from": "liu-bei",
         "to": "lu-bu",
         "label": "Tiếp nhận khách",
-        "evidence": "040;054"
+        "evidence": "040;054",
+        "evidenceIds": [
+          "EVD-B03-040",
+          "EVD-B03-054"
+        ]
       },
       {
         "id": "b03-rel-28",
@@ -1935,7 +2247,10 @@
         "from": "li-jue",
         "to": "xiandi",
         "label": "Cưỡng ép",
-        "evidence": "043"
+        "evidence": "043",
+        "evidenceIds": [
+          "EVD-B03-043"
+        ]
       },
       {
         "id": "b03-rel-29",
@@ -1943,7 +2258,10 @@
         "from": "guo-si",
         "to": "yang-biao",
         "label": "Giữ quan",
-        "evidence": "044"
+        "evidence": "044",
+        "evidenceIds": [
+          "EVD-B03-044"
+        ]
       },
       {
         "id": "b03-rel-30",
@@ -1951,7 +2269,10 @@
         "from": "li-jue",
         "to": "guo-si",
         "label": "Đối đầu",
-        "evidence": "043"
+        "evidence": "043",
+        "evidenceIds": [
+          "EVD-B03-043"
+        ]
       },
       {
         "id": "b03-rel-31",
@@ -1959,7 +2280,10 @@
         "from": "li-jue",
         "to": "fan-chou",
         "label": "Giết trước lúc chia giữ",
-        "evidence": "042"
+        "evidence": "042",
+        "evidenceIds": [
+          "EVD-B03-042"
+        ]
       },
       {
         "id": "b03-rel-32",
@@ -1967,7 +2291,10 @@
         "from": "zhang-ji",
         "to": "li-jue",
         "label": "Hòa giải",
-        "evidence": "046"
+        "evidence": "046",
+        "evidenceIds": [
+          "EVD-B03-046"
+        ]
       },
       {
         "id": "b03-rel-33",
@@ -1975,7 +2302,10 @@
         "from": "zhang-ji",
         "to": "guo-si",
         "label": "Hòa giải",
-        "evidence": "046"
+        "evidence": "046",
+        "evidenceIds": [
+          "EVD-B03-046"
+        ]
       },
       {
         "id": "b03-rel-34",
@@ -1983,7 +2313,10 @@
         "from": "yang-feng",
         "to": "xiandi",
         "label": "Hộ tống",
-        "evidence": "046"
+        "evidence": "046",
+        "evidenceIds": [
+          "EVD-B03-046"
+        ]
       },
       {
         "id": "b03-rel-35",
@@ -1991,7 +2324,10 @@
         "from": "dong-cheng",
         "to": "xiandi",
         "label": "Hộ tống",
-        "evidence": "046"
+        "evidence": "046",
+        "evidenceIds": [
+          "EVD-B03-046"
+        ]
       },
       {
         "id": "b03-rel-36",
@@ -1999,7 +2335,10 @@
         "from": "duan-wei",
         "to": "xiandi",
         "label": "Cung ứng",
-        "evidence": "084"
+        "evidence": "084",
+        "evidenceIds": [
+          "EVD-B03-084"
+        ]
       },
       {
         "id": "b03-rel-37",
@@ -2007,7 +2346,10 @@
         "from": "li-jue",
         "to": "guo-si",
         "label": "Tạm phối hợp truy đuổi",
-        "evidence": "047"
+        "evidence": "047",
+        "evidenceIds": [
+          "EVD-B03-047"
+        ]
       },
       {
         "id": "b03-rel-38",
@@ -2015,7 +2357,10 @@
         "from": "yang-feng",
         "to": "dong-cheng",
         "label": "Cùng cứu viện",
-        "evidence": "047"
+        "evidence": "047",
+        "evidenceIds": [
+          "EVD-B03-047"
+        ]
       },
       {
         "id": "b03-rel-39",
@@ -2023,7 +2368,10 @@
         "from": "li-le",
         "to": "xiandi",
         "label": "Hộ tống, lo thuyền",
-        "evidence": "077"
+        "evidence": "077",
+        "evidenceIds": [
+          "EVD-B03-077"
+        ]
       },
       {
         "id": "b03-rel-40",
@@ -2031,7 +2379,10 @@
         "from": "zhang-yang",
         "to": "xiandi",
         "label": "Đem quân tới An Ấp",
-        "evidence": "065"
+        "evidence": "065",
+        "evidenceIds": [
+          "EVD-B03-065"
+        ]
       },
       {
         "id": "b03-rel-41",
@@ -2039,7 +2390,10 @@
         "from": "yuan-shu",
         "to": "sun-ce",
         "label": "Bảo trợ",
-        "evidence": "055"
+        "evidence": "055",
+        "evidenceIds": [
+          "EVD-B03-055"
+        ]
       },
       {
         "id": "b03-rel-42",
@@ -2047,7 +2401,10 @@
         "from": "zhou-yu",
         "to": "sun-ce",
         "label": "Hỗ trợ",
-        "evidence": "055"
+        "evidence": "055",
+        "evidenceIds": [
+          "EVD-B03-055"
+        ]
       },
       {
         "id": "b03-rel-43",
@@ -2055,7 +2412,11 @@
         "from": "sun-jian",
         "to": "sun-ce",
         "label": "Cha–con, cha đã mất",
-        "evidence": "050;055"
+        "evidence": "050;055",
+        "evidenceIds": [
+          "EVD-B03-050",
+          "EVD-B03-055"
+        ]
       }
     ],
     "journey": {
