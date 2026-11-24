@@ -54,3 +54,5 @@ The earlier decisions remain historical records; the following supersede stale d
 - 2026-11-25: PO approves publishing combined Wiki quotations and time-varying radar on existing GitHub Pages after exact combined CI PASS. Scope limited to these features and release verification, no other changes.
 
 - DEC-026 (PO, 2026-11-25): all six Wiki radar ratings mandatory at every character timeline snapshot; assess/update as part of each content batch, including new characters. Supersedes earlier optional/omitted-axis decision. Keep explicit editorial inference and evidence safeguards; do not invent historical facts. Backfill existing incomplete snapshots in next content package; no separate deployment authorized by this instruction.
+
+- DEC-027 (PO, 2026-11-25): reader-facing copy must prioritize the actual story; no internal feature proof, QA language, evidence IDs, editorial scaffolding or routine correction clutter in the default UI. Keep relevant literary variants accessible as optional asides and source links in compact disclosures; preserve evidence registry and historical uncertainty internally. Apply to subsequent content batches. No release approval inferred.
