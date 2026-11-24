@@ -34,7 +34,8 @@
     "rightsStatus": "CC BY-SA 4.0; VRT permission",
     "visualReview": "preview inspected",
     "sha1": "18f91df4e0208d4681f0d4611a1b3c712477a43c",
-    "size": 254158
+    "size": 254158,
+    "evidence": "EVD-0017"
   },
   {
     "id": "VIS-B01-002",
@@ -52,7 +53,8 @@
     "rightsStatus": "Public Domain Mark",
     "visualReview": "preview inspected",
     "sha1": "97e2cecae25be4a914ef9d3ef0d30958a5d1ef02",
-    "size": 1435607
+    "size": 1435607,
+    "evidence": "EVD-0023"
   },
   {
     "id": "VIS-B01-003",
@@ -68,7 +70,8 @@
     "width": 500,
     "height": 413,
     "rightsStatus": "Commons PD-Art; edition detail pending",
-    "visualReview": "metadata only; visual review required"
+    "visualReview": "metadata only; visual review required",
+    "evidence": "EVD-0020"
   },
   {
     "id": "VIS-B01-004",
@@ -86,7 +89,8 @@
     "rightsStatus": "Commons PD-Art; edition period disputed",
     "visualReview": "original displayed; caption inspected",
     "sha1": "9d133d815e0a08e780fbfa18a4ead1daaa2df69c",
-    "size": 133856
+    "size": 133856,
+    "evidence": "EVD-0006"
   },
   {
     "id": "VIS-B02-008",
@@ -102,7 +106,8 @@
     "width": 471,
     "height": 624,
     "rightsStatus": "Commons PD-Art / Public Domain Mark",
-    "visualReview": "original displayed; caption inspected"
+    "visualReview": "original displayed; caption inspected",
+    "evidence": "EVD-B02-L01"
   },
   {
     "id": "VIS-B02-009",
@@ -120,7 +125,8 @@
     "rightsStatus": "Commons PD-Art; edition detail pending",
     "visualReview": "metadata only; visual review required",
     "sha1": "d0ebdcc6fa0c17554ffc8d978abb8fe7d57aadd5",
-    "size": 153327
+    "size": 153327,
+    "evidence": "EVD-B02-005"
   },
   {
     "id": "VIS-B02-016",
@@ -136,7 +142,8 @@
     "width": 1209,
     "height": 2067,
     "rightsStatus": "Commons Public Domain Mark",
-    "visualReview": "metadata only; visual review required"
+    "visualReview": "metadata only; visual review required",
+    "evidence": "EVD-B02-L04"
   },
   {
     "id": "VIS-B02-011",
@@ -152,7 +159,8 @@
     "width": 500,
     "height": 404,
     "rightsStatus": "Commons PD-Art; edition detail pending",
-    "visualReview": "original displayed; caption inspected"
+    "visualReview": "original displayed; caption inspected",
+    "evidence": "EVD-B02-L05"
   },
   {
     "id": "VIS-B02-013",
@@ -168,6 +176,7 @@
     "width": 500,
     "height": 413,
     "rightsStatus": "Commons PD-Art; edition detail pending",
-    "visualReview": "metadata only; visual review required"
+    "visualReview": "metadata only; visual review required",
+    "evidence": "EVD-B02-033"
   }
 ]
