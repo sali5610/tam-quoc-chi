@@ -60,3 +60,5 @@ The earlier decisions remain historical records; the following supersede stale d
 - 2026-11-25: PO explicitly approves release of DEC-026 radar completeness fix to existing GitHub Pages, based on passed CI 45457431703. No unrelated branch changes authorized.
 
 - 2026-11-25: PO authorizes Chat 03B to complete inline visual coverage of EP01–06 before next batch. Preserve Ink & Silk, prefer 三國志圖像, use sourced supplemental plates and clearly labeled context if exact scenes unavailable; no AI art. Preview and regression only; separate release approval required.
+
+- DEC-027 (PO, 2026-11-25): approved publishing Chat 03B visual package, 16 illustrations across EP01–06, including 13 三國志圖像 panels. Retain already approved radar, Wiki, Atlas and Hybrid UI. Accept the documented interim coverage limitations; require exact tested release and live verification. No new costs or unrelated features authorized.
