@@ -11,11 +11,13 @@ Ba người cần nhận mặt lần này là **Hà Tiến**, đại tướng qu
 
 Đặc biệt, hãy nhớ **Viên Thiệu**. Ông sẽ không biến mất sau cuộc chính biến này. Về sau, ông trở thành một đối thủ lớn của **Tào Tháo**.
 
+**Câu hỏi của tập này:** ai thực sự nắm quyền khi người có danh nghĩa cao nhất là hoàng đế, nhưng người có quân lại có thể quyết định số phận ngai vàng?
+
 ## Hoàng đế vừa mất, cuộc tranh quyền đã tới cửa
 
 Năm **189**, **Hán Linh Đế** qua đời. Đó chính là cậu bé lên ngôi năm 168 ở tập đầu, giờ đã trị vì hơn hai thập niên. Con ông kế vị, được gọi là **Hán Thiếu Đế**.
 
-Một vị vua mất, một vị vua lên. Nghe như triều đình vẫn vận hành. Nhưng tranh chấp cũ chưa hề biến mất.
+Một vị vua mất, một vị vua lên. Nghe như triều đình vẫn vận hành. Nhưng tranh chấp cũ chưa hề biến mất. **Đây chính là cuộc tranh giành quanh ngai vàng từng khiến Đậu Vũ và Trần Phồn mất mạng năm 168.** Lần này, phe muốn trừ hoạn quan sẽ gọi cả quân bên ngoài về.
 
 **Hà Tiến** là anh của **Hà Thái hậu**, mẹ của vị hoàng đế mới. Ông giữ chức **đại tướng quân**, một chức vụ quân sự rất cao. Cùng **Viên Thiệu**, Hà Tiến bàn chuyện trừ hoạn quan. Hà Thái hậu không đồng ý.
 
@@ -34,6 +36,8 @@ Nhưng có một điều xảy ra trước khi ông tới: **Hà Tiến bị gi�
 Theo 《三國志》卷1, thứ tự rất rõ: **Hà Tiến triệu Đổng Trác; Đổng Trác chưa đến thì Hà Tiến đã chết**.
 
 Người tính dùng quân ngoài để gây sức ép không còn sống để kiểm soát tình hình. Còn lực lượng đang tiến về kinh thành thì không vì cái chết ấy mà tự biến mất.
+
+**Kế hoạch đã mất người điều khiển, nhưng hậu quả vẫn đang tiến tới.** Đó là bước ngoặt khiến câu chuyện chuyển từ âm mưu thanh trừng trong cung sang cuộc khủng hoảng mà quân đội ngoài cung cũng có thể quyết định.
 
 [Chính sử] 《三國志》卷1, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷01).
 
@@ -55,7 +59,7 @@ Trong khi đó, hoạn quan đưa **Hán Thiếu Đế** và **Trần Lưu vươ
 
 Một bên mang theo hai đứa trẻ thuộc hoàng gia. Một bên là đạo quân được gọi về để can dự vào cuộc tranh chấp. Hai hướng di chuyển ấy đang hội tụ.
 
-Người có danh nghĩa cao nhất đế quốc giờ không thể bình yên ở chính hoàng cung của mình.
+Người có danh nghĩa cao nhất đế quốc giờ không thể bình yên ở chính hoàng cung của mình. **Cái giá của cuộc tranh quyền không chỉ nằm trên danh sách quan chức bị giết: hai đứa trẻ thuộc hoàng gia cũng phải rời nơi đáng lẽ bảo vệ họ.**
 
 [Sử liệu khác] 《後漢書》卷72〈董卓列傳〉, [nguyên văn](https://zh.wikisource.org/wiki/後漢書/卷72).
 
@@ -65,7 +69,7 @@ Người có danh nghĩa cao nhất đế quốc giờ không thể bình yên �
 
 Đổng Trác đến kinh thành, nắm ảnh hưởng quân sự và thúc đẩy việc **phế Hán Thiếu Đế**, đưa **Trần Lưu vương** lên thay.
 
-Hãy nhìn cú đảo chiều này cho rõ. Lúc đầu, Đổng Trác được gọi đến để gây sức ép trong một cuộc tranh chấp quanh hoàng đế. Đến đây, chính ông tham gia quyết định **ai còn được làm hoàng đế**.
+Hãy nhìn cú đảo chiều này cho rõ. **Nhớ vị tướng đánh Khăn Vàng thất bại ở tập trước chứ?** Lúc đầu, Đổng Trác được gọi đến để gây sức ép trong một cuộc tranh chấp quanh hoàng đế. Đến đây, chính ông tham gia quyết định **ai còn được làm hoàng đế**.
 
 **Viên Thiệu** phản đối việc phế lập rồi rời trung tâm quyền lực. Đây cũng là một bước đưa ông ra khỏi cuộc tranh chấp trong cung để bước vào những cuộc đối đầu rộng hơn.
 
@@ -79,7 +83,7 @@ Hãy nhìn cú đảo chiều này cho rõ. Lúc đầu, Đổng Trác được 
 
 《後漢書》卷9 ghi **tháng chín âm lịch năm 189, ngày Giáp Tuất**, Trần Lưu vương lên ngôi, tức **Hán Hiến Đế**. Theo cách ghi tuổi đương thời, ông mới **chín tuổi**.
 
-Một đứa trẻ được trao danh hiệu cao nhất thiên hạ. Nhưng cuộc phế lập vừa rồi cho thấy quyền lực thực tế không đơn giản nằm ở người đội mũ miện.
+Một đứa trẻ được trao danh hiệu cao nhất thiên hạ. Nhưng cuộc phế lập vừa rồi cho thấy quyền lực thực tế không đơn giản nằm ở người đội mũ miện. **Câu hỏi đầu tập đã được trả lời bằng một nghịch lý: ngai vàng vẫn thuộc nhà Hán, còn quyền quyết định ai ngồi trên đó đã bị một tướng lĩnh chi phối.**
 
 Cũng theo phần biên niên ấy, **Hà Thái hậu bị Đổng Trác giết** sau cuộc phế lập. Ngôi vua đổi chủ không khiến bạo lực chấm dứt.
 
@@ -91,7 +95,7 @@ Và nhớ tên **Hán Hiến Đế**. Ông sẽ còn ngồi trên ngai vàng nh�
 
 Đổng Trác có ảnh hưởng ở kinh thành. Nhưng thiên hạ không chỉ có Lạc Dương.
 
-《三國志》卷1 ghi **tháng mười hai âm lịch năm 189**, **Tào Tháo** bắt đầu dấy binh ở **Kỷ Ngô**. Hãy nhớ người từng xuất hiện trong chiến dịch Khăn Vàng năm 184: ông đang bước vào một giai đoạn khác.
+《三國志》卷1 ghi **tháng mười hai âm lịch năm 189**, **Tào Tháo** bắt đầu dấy binh ở **Kỷ Ngô**. Người từng đến chiến trường Trường Xã sau đợt hỏa công năm 184 nay không còn chỉ xuất hiện trong quân đội đi dẹp loạn của triều đình. Hãy nhớ người từng xuất hiện trong chiến dịch Khăn Vàng năm 184: ông đang bước vào một giai đoạn khác.
 
 [Chính sử] 《三國志》卷1, đoạn “冬十二月，始起兵於己吾”, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷01).
 
