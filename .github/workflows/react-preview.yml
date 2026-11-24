@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: sourced portraits and historical journey layer, full regression gate
+# Release: source-pinned portrait downloads without API dependency; retain full regression gate
 on:
   workflow_dispatch:
   push:
