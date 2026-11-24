@@ -1,0 +1,240 @@
+{
+  "people": {
+    "Hán Linh Đế": [
+      "漢靈帝",
+      "Hoàng đế Đông Hán",
+      "Lên ngôi năm 168 khi còn nhỏ; triều đình trải qua tranh chấp giữa ngoại thích và hoạn quan.",
+      "後漢書/卷8",
+      1
+    ],
+    "Trương Giác": [
+      "張角",
+      "Thái Bình đạo",
+      "Lãnh đạo phong trào Khăn Vàng năm 184.",
+      "後漢書/卷71",
+      2
+    ],
+    "Hoàng Phủ Tung": [
+      "皇甫嵩",
+      "Tướng nhà Hán",
+      "Chỉ huy quân triều đình chống Khăn Vàng, nổi bật tại Trường Xã.",
+      "後漢書/卷71",
+      2
+    ],
+    "Chu Tuấn": [
+      "朱儁",
+      "Tướng nhà Hán",
+      "Được giao nhiệm vụ chống Khăn Vàng cùng Hoàng Phủ Tung.",
+      "後漢書/卷71",
+      2
+    ],
+    "Tào Tháo": [
+      "曹操",
+      "Quan và tướng nhà Hán",
+      "Tham gia chiến dịch năm 184; dấy binh tại Kỷ Ngô cuối năm 189.",
+      "三國志/卷01",
+      2
+    ],
+    "Hà Tiến": [
+      "何進",
+      "Đại tướng quân",
+      "Triệu Đổng Trác về kinh, nhưng bị giết trước khi Đổng Trác tới.",
+      "後漢書/卷69",
+      3
+    ],
+    "Viên Thiệu": [
+      "袁紹",
+      "Quan lại nhà Hán",
+      "Tham gia cuộc tranh quyền năm 189; về sau là đối thủ của Tào Tháo.",
+      "三國志/卷06",
+      3
+    ],
+    "Đổng Trác": [
+      "董卓",
+      "Tướng nhà Hán",
+      "Thất bại trong chiến dịch năm 184; can dự phế lập hoàng đế năm 189.",
+      "三國志/卷06",
+      2
+    ],
+    "Hán Hiến Đế": [
+      "漢獻帝",
+      "Hoàng đế Đông Hán",
+      "Lên ngôi năm 189 sau khi Hán Thiếu Đế bị phế.",
+      "後漢書/卷9",
+      3
+    ],
+    "Lưu Bị": [
+      "劉備",
+      "Người tham gia chống Khăn Vàng",
+      "Sử ghi ông cùng Trâu Tĩnh chống Khăn Vàng; thời điểm cụ thể không được xác định chắc chắn.",
+      "三國志/卷32",
+      2
+    ],
+    "Tôn Kiên": [
+      "孫堅",
+      "Tướng nhà Hán",
+      "Tham gia chiến dịch năm 184 dưới quyền Chu Tuấn.",
+      "三國志/卷46",
+      2
+    ]
+  },
+  "atlas": [
+    {
+      "year": "168",
+      "nodes": [
+        [
+          "Hán Linh Đế",
+          50,
+          15
+        ],
+        [
+          "Ngoại thích",
+          18,
+          65
+        ],
+        [
+          "Hoạn quan",
+          82,
+          65
+        ],
+        [
+          "Sĩ đại phu",
+          50,
+          88
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1,
+          "ảnh hưởng"
+        ],
+        [
+          0,
+          2,
+          "ảnh hưởng"
+        ],
+        [
+          1,
+          2,
+          "đối đầu"
+        ],
+        [
+          1,
+          3,
+          "hợp tác"
+        ]
+      ],
+      "note": "Ba nhóm tranh giành ảnh hưởng quanh ngai vàng. Đây là sơ đồ khái quát, không phải ba phe cố định.",
+      "source": "後漢書/卷69"
+    },
+    {
+      "year": "184",
+      "nodes": [
+        [
+          "Triều đình",
+          50,
+          12
+        ],
+        [
+          "Hoàng Phủ Tung",
+          20,
+          46
+        ],
+        [
+          "Chu Tuấn",
+          80,
+          46
+        ],
+        [
+          "Trương Giác",
+          50,
+          86
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1,
+          "giao nhiệm vụ"
+        ],
+        [
+          0,
+          2,
+          "giao nhiệm vụ"
+        ],
+        [
+          1,
+          3,
+          "đối đầu"
+        ],
+        [
+          2,
+          3,
+          "đối đầu"
+        ]
+      ],
+      "note": "Triều đình huy động tướng lĩnh chống phong trào Khăn Vàng.",
+      "source": "後漢書/卷71"
+    },
+    {
+      "year": "189",
+      "nodes": [
+        [
+          "Hà Tiến",
+          20,
+          15
+        ],
+        [
+          "Viên Thiệu",
+          80,
+          15
+        ],
+        [
+          "Hoạn quan",
+          50,
+          48
+        ],
+        [
+          "Đổng Trác",
+          20,
+          85
+        ],
+        [
+          "Hán Hiến Đế",
+          80,
+          85
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1,
+          "hợp tác"
+        ],
+        [
+          0,
+          2,
+          "đối đầu"
+        ],
+        [
+          1,
+          2,
+          "đối đầu"
+        ],
+        [
+          0,
+          3,
+          "triệu về kinh"
+        ],
+        [
+          3,
+          4,
+          "phế lập"
+        ]
+      ],
+      "note": "Các quan hệ thuộc những thời điểm khác nhau trong năm 189, không đồng thời tồn tại.",
+      "source": "三國志/卷06"
+    }
+  ]
+}
