@@ -123,7 +123,7 @@ Tháng chạp, Ung Khâu thất thủ, Trương Siêu chết. Trương Mạc tì
 
 Còn nhớ Tôn Kiên, người từng đánh quân Đổng Trác rồi mất trong cuộc chiến với lực lượng của Lưu Biểu? Ngày mất của ông có khác biệt giữa các nguồn như đã nói ở tập 5. Bây giờ con trai ông, **Tôn Sách**, đang hoạt động dưới sự bảo trợ của Viên Thuật.
 
-Theo tuyến niên biểu Tư trị thông giám và dị bản Giang biểu truyện được Bùi chú dẫn, năm 195 Tôn Sách được Viên Thuật cho phép tiến sang phía nam, được tiến cử làm Chiết Xung hiệu úy, tạm giữ việc của tướng Đãng Khấu. **Tôn Sách tập hợp lực lượng tại Lịch Dương.** Chu Du, người có quan hệ thân thiết với Tôn Sách, đem người và nguồn lực tới hỗ trợ. Đó mới là một bước huy động lực lượng, chưa có nước Ngô.
+Theo tuyến niên biểu Tư trị thông giám và dị bản Giang biểu truyện được Bùi chú dẫn, năm 195 Tôn Sách được Viên Thuật cho phép tiến sang phía nam, được tiến cử làm Chiết Xung hiệu úy, tạm đảm nhiệm chức tướng quân trừ giặc (行殄寇將軍). **Tôn Sách tập hợp lực lượng tại Lịch Dương.** Chu Du, người có quan hệ thân thiết với Tôn Sách, đem người và nguồn lực tới hỗ trợ. Đó mới là một bước huy động lực lượng, chưa có nước Ngô.
 
 > [Sử liệu mâu thuẫn] Vũ Đế kỷ đặt việc Tôn Sách qua sông vào 193; Hậu Hán thư tóm lược việc chiếm cứ Giang Đông trong mục 194; Tư trị thông giám kể cuộc xuất quân vào 195, cùng mốc mà Giang biểu truyện ghi. Tập này dùng tuyến 195 có chú thích, không xóa hai cách ghi còn lại và chưa kể trọn cuộc chinh phục Giang Đông.
 
