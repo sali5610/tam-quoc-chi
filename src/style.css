@@ -16,3 +16,8 @@
 .atlas-relation-name{color:#963b32;margin:auto;font-size:9px}
 .atlas-event-location{margin:3px auto 0;font-size:10px;font-weight:600}
 .atlas-person-marker .atlas-local-relation svg{filter:drop-shadow(0 0 1px #f2ebdd) drop-shadow(0 0 1px #f2ebdd)}
+
+/* Scale only the inner artwork; Leaflet owns the outer position transform. */
+.strategy-board .atlas-person-marker{padding:0}
+.atlas-marker-content.atlas-marker-overview .atlas-person-rank,.atlas-marker-content.atlas-marker-overview .atlas-relation-name,.atlas-marker-content.atlas-marker-overview .atlas-event-location,.atlas-marker-content.atlas-marker-overview .atlas-person-name{display:none}
+.atlas-marker-overview .atlas-local-relation{padding-top:12px}
