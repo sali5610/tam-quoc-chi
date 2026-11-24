@@ -58,3 +58,5 @@ The earlier decisions remain historical records; the following supersede stale d
 - PO correction to DEC-026: fix existing data now, every timeline snapshot must show all six ratings, not merely the first snapshot per character. Preserve uncertainty disclosures. Separate release approval remains required.
 
 - 2026-11-25: PO explicitly approves release of DEC-026 radar completeness fix to existing GitHub Pages, based on passed CI 45457431703. No unrelated branch changes authorized.
+
+- DEC-027 (PO, 2026-11-25): reader-facing copy must prioritize the actual story; no internal feature proof, QA language, evidence IDs, editorial scaffolding or routine correction clutter in the default UI. Keep relevant literary variants accessible as optional asides and source links in compact disclosures; preserve evidence registry and historical uncertainty internally. Apply to subsequent content batches. No release approval inferred.

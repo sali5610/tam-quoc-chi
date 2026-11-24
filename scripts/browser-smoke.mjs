@@ -66,7 +66,7 @@ try {
     await dialog.waitFor();
     if(await dialog.locator('img.historical-portrait').getAttribute('src')!==src)throw Error('Inconsistent portrait in detail');
     await dialog.locator('img').evaluate(el=>el.decode());
-    await dialog.locator('.portrait-credit a').waitFor();
+    await dialog.locator('.wiki-sources summary').click();await dialog.locator('.portrait-credit a').waitFor();
     await dialog.getByRole('button',{name:'Đóng ×'}).click();
     console.log('PASS library portraits, fallback and detail attribution');
     await page.goto(base+'#/read/ep-0002');
@@ -104,6 +104,7 @@ try {
       await page.goto(base+'#/read/'+id);
       await page.locator('section[data-atlas-year="'+year+'"] .strategy-board').waitFor();
       await page.locator('.reader-hero h1').filter({hasText:titles[id]}).waitFor();
+      await page.locator('.episode-sources').waitFor();check(!(await page.locator('.story-content').innerText()).match(/EVD-|Evidence registry|Mốc đọc và nhân vật/),'reader metadata leaked '+id);
       const marker=page.locator('[data-event-id="'+event+'"]');
       // A named location that the external dataset cannot resolve must be shown as a text fallback, not a guessed pin.
       const fallback=page.locator('section[data-atlas-year="'+year+'"] p').filter({hasText:'Chưa định vị'}).getByRole('button');
@@ -114,7 +115,7 @@ try {
         await marker.scrollIntoViewIfNeeded();await marker.click();
       }else{await fallback.first().click();console.log('UNRESOLVED location (explicit fallback)',event)}
       const sheet=page.getByRole('dialog',{name:'Chi tiết sự kiện'});
-      await sheet.waitFor();check((await sheet.innerText()).includes('EVD-B02-'),'missing event evidence');
+      await sheet.waitFor();await sheet.locator('summary').click();check(!(await sheet.innerText()).includes('EVD-B02-'),'internal evidence ID leaked');
       await sheet.locator('a[href*="wikisource.org"]').waitFor();
       await page.getByRole('button',{name:'Đóng sự kiện'}).click();
       check(await page.getByRole('link',{name:'Xem trên sa bàn →'}).getAttribute('href')==='#/atlas/'+year,'incorrect atlas route '+id);
@@ -126,8 +127,8 @@ try {
     check(await img.evaluate(el=>el.naturalWidth===1029&&el.naturalHeight===972),'scene dimensions');
     check((await scene.innerText()).includes('Minh họa Tam Quốc diễn nghĩa'),'missing literary label');
     check((await scene.locator('a').getAttribute('href')).includes('commons.wikimedia.org'),'missing provenance');
-    console.log('PASS literary scene decode, attribution, no duplicate');
-    const back=page.locator('main a[href="#/read/ep-0005"]').filter({hasText:'EP-0005'});await back.click();
+    check(!(await page.locator('.story-content').innerText()).match(/EVD-|Evidence registry|Mốc đọc và nhân vật/),'internal metadata leaked');check(await page.locator('.episode-sources').count()===1,'missing consolidated sources');await page.locator('.episode-sources summary').click();check(await page.locator('.episode-sources a').count()>0,'missing source links');console.log('PASS literary scene decode, attribution, no duplicate and clean reader');
+    const back=page.locator('.pager a[href="#/read/ep-0005"]');await back.click();
     await page.locator('section[data-atlas-year="191"]').waitFor();
     await page.getByRole('link',{name:'Tập sau →'}).click();
     await page.locator('section[data-atlas-year="192"]').waitFor();

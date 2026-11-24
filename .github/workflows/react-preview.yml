@@ -137,7 +137,7 @@ jobs:
                     const after=await radar.locator('svg').getAttribute('aria-label');
                     if(before===after||!after.includes('Quyền lực 5'))throw Error('Radar timeline did not change');
                     await radar.locator('summary').click();
-                    await radar.getByText('EVD-0006',{exact:true}).first().waitFor();
+                    await radar.locator('.radar-explain dd').first().waitFor();if((await radar.innerText()).includes('EVD-'))throw Error('Internal radar ID leaked');
                     if(!await radarSheet.evaluate(el=>el.scrollWidth<=el.clientWidth+1))throw Error('Radar sheet overflow');
                     await radarSheet.getByRole('button',{name:'Đóng ×'}).click();
                     await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Tào Hồng"]')}).click();
