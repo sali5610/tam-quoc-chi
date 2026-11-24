@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: PO-approved Wiki quotes + radar; retain Hybrid v4 and Batch-02 QA
+# Release: PO-approved Visual System v6, tested 7e970cd / CI 170; single canonical Pages release
 on:
   workflow_dispatch:
   push:
