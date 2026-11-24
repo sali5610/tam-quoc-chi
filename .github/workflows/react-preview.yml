@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: atlas refactor pilot QA
+# Release: atlas pilot QA after sparse role type fix
 on:
   workflow_dispatch:
   push:
