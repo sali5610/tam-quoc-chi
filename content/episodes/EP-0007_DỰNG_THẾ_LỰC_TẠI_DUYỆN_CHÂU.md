@@ -43,6 +43,10 @@ Một người cầm quân không thể tự chạy hết các công việc củ
 
 **Trình Dục** là người địa phương từng không nhận lời mời của Lưu Đại. Khi Tào Tháo đến Duyện Châu, ông được vời làm quan, giữ việc ở huyện Thọ Trương. Trước đó ông đã bàn về việc nên liên kết với thế lực ở gần như Viên Thiệu thay vì Công Tôn Toản ở xa. Người này hiểu một điều rất thiết thực: một lời hứa giúp đỡ không có giá trị như nhau ở mọi khoảng cách.
 
+> [Bùi chú] Ngụy thư kể Trình Dục từng mơ ôm mặt trời và gắn giai thoại ấy với việc đổi tên thành Dục. Đây là lời kể của nguồn được chú dẫn, không xác nhận giấc mơ hay thời điểm đổi tên; không dùng địa danh trong mơ làm điểm Atlas.
+
+[Bùi chú] EVD-B03-053 — 《三國志》[卷14〈程昱傳〉](https://zh.wikisource.org/wiki/三國志/卷14) dẫn 《魏書》.
+
 Rồi đến **Mao Giới**, một người được dùng làm trị trung tòng sự, tức viên chức giúp điều hành công việc cấp châu. Ông đưa ra một đề nghị có hai phần không nên tách rời nhau.
 
 **Mao Giới khuyên phò thiên tử và tích trữ quân lương.** Sử chép lời khuyên sửa sang việc canh tác, chuẩn bị vật tư quân sự, lấy việc phụng sự thiên tử làm danh nghĩa hiệu lệnh những người không phục. Đây mới là lời đề xuất; chưa có chuyện Tào Tháo đưa hoàng đế về căn cứ hay tổ chức đồn điền vào thời điểm này.
