@@ -31,3 +31,5 @@
 - DEC-023: PO approved Hybrid v4 prototype integration into React on isolated branch, regression required, no deployment or main merge. See docs/hybrid-ui-refinement for prototype decisions. Batch-02 content remains separate.
 
 - DEC-024: PO explicitly approves release of Hybrid v4 to existing GitHub Pages. Publish only tested Hybrid code plus release verification/docs; no Batch-02 content, stack changes or paid services. Require public SHA and live smoke evidence; physical device acceptance separate.
+
+- Wiki quotations (2026-11-24): PO requests notable quotations on character Wiki; include source-layer label, Chinese original, Vietnamese translation, context and source link; hide section when no verified selection. No release authorization.
