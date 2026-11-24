@@ -109,9 +109,9 @@ jobs:
                 if(!await radarSheet.evaluate(el=>el.scrollWidth<=el.clientWidth+1))throw Error('Radar sheet overflow');
                 await radarSheet.getByRole('button',{name:'Đóng ×'}).click();
                 await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Tào Hồng"]')}).click();
-                if(await radarSheet.locator('.character-radar').count())throw Error('Empty radar rendered');
+                if(await radarSheet.locator('.character-radar svg circle').count()!==6)throw Error('Missing Cao Hong radar axes');
                 await radarSheet.getByRole('button',{name:'Đóng ×'}).click();
-                console.log('PASS radar timeline, source evidence, empty state and overflow');
+                console.log('PASS radar timeline, source evidence, Cao Hong coverage and overflow');
                 await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Tào Tháo"]')}).click();
                 const quoteSheet=page.locator('dialog[open]');
                 const quoteCards=quoteSheet.locator('.character-quote');
@@ -130,6 +130,27 @@ jobs:
                 if(await quoteSheet.locator('.character-quotes').count())throw Error('Empty quote section');
                 await quoteSheet.getByRole('button',{name:'Đóng ×'}).click();
                 console.log('PASS combined Wiki quotes, provenance, disclosure, radar switch and empty state');
+                const wikiCards=page.locator('.people-grid button');
+                const wikiCount=await wikiCards.count();
+                if(wikiCount<1)throw Error('Missing Wiki profiles');
+                let snapshotCount=0;
+                for(let personIndex=0;personIndex<wikiCount;personIndex++){
+                await wikiCards.nth(personIndex).click();
+                const fullRadar=page.locator('dialog[open] .character-radar');
+                await fullRadar.waitFor();
+                const select=fullRadar.locator('select');
+                const options=await select.locator('option').count();
+                if(options<1)throw Error('Missing radar snapshot '+personIndex);
+                for(let snapshotIndex=0;snapshotIndex<options;snapshotIndex++){
+                await select.selectOption(String(snapshotIndex));
+                if(await fullRadar.locator('svg circle').count()!==6||await fullRadar.locator('svg polygon[fill="#a18453"]').count()!==1)throw Error('Incomplete radar '+personIndex+' '+snapshotIndex);
+                const scores=await fullRadar.locator('svg text').allTextContents();
+                if(scores.filter(v=>['1/5','2/5','3/5','4/5','5/5'].includes(v.replace('*',''))).length!==6)throw Error('Missing visible score '+scores.join(','));
+                snapshotCount++;
+                }
+                await page.locator('dialog[open]').getByRole('button',{name:'Đóng ×'}).click();
+                }
+                console.log('PASS all Wiki radar snapshots',wikiCount,snapshotCount);
                 await page.goto(base+'#/people');await page.getByRole('button',{name:'Thưởng lãm cuộn chân dung'}).click();
                 await page.locator('.portrait-scroll button').first().click();await page.getByRole('button',{name:'Phóng to'}).click();
                 if(await page.locator('.gallery-zoom > div').evaluate(e=>e.style.width)!=='150%')throw Error('Gallery zoom');

@@ -5,15 +5,39 @@
     "label": "184 · Dẹp Khăn Vàng",
     "episodeId": "ep-0002",
     "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-0003",
+        "reason": "Phạm vi triển khai kế hoạch còn ở một nhiệm vụ cấp dưới trong chiến dịch Dĩnh Xuyên; chưa xác định kế sách riêng.",
+        "confidence": "low"
+      },
       "military": {
         "level": 2,
         "evidence": "EVD-0003",
         "reason": "Kỵ đô úy tham chiến ở Dĩnh Xuyên."
       },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-0035",
+        "reason": "Có quân được giao để phối hợp giải vây; quy mô và mức gắn kết riêng chưa rõ.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-0003",
+        "reason": "Hoạt động trong hệ thống bổ nhiệm của nhà Hán, ảnh hưởng ở cấp nhiệm vụ.",
+        "confidence": "low"
+      },
       "power": {
         "level": 2,
         "evidence": "EVD-0003",
         "reason": "Có chức chỉ huy quân sự, chưa có căn cứ độc lập được ghi ở mốc này."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-0003",
+        "reason": "Được triều đình bổ nhiệm kỵ đô úy để chống nổi dậy.",
+        "confidence": "low"
       }
     }
   },
@@ -47,6 +71,12 @@
         "level": 2,
         "evidence": "EVD-B02-001",
         "reason": "Giữ danh hiệu hành Phấn Vũ tướng quân trong liên minh."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B02-001",
+        "reason": "Danh hiệu hành Phấn Vũ tướng quân được ghi trong liên minh, sự thừa nhận ở phạm vi liên minh.",
+        "confidence": "low"
       }
     }
   },
@@ -56,15 +86,39 @@
     "label": "191 · Đông quận",
     "episodeId": "ep-0005",
     "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B02-008",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Đề xuất phương án tiến quân, nhưng liên minh không sử dụng; hiệu quả chưa được kiểm chứng. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
       "military": {
         "level": 3,
         "evidence": "EVD-B02-021",
         "reason": "Thắng tại Bộc Dương."
       },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B02-008",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Tuyển thêm quân nhưng xảy ra binh biến. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B02-008",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Không thuyết phục được liên minh cùng tiến quân. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
       "power": {
         "level": 3,
         "evidence": "EVD-B02-021",
         "reason": "Được Viên Thiệu tiến cử làm Đông quận thái thú."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B02-021",
+        "reason": "Được Viên Thiệu tiến cử làm Đông quận thái thú; mức thừa nhận gắn với liên minh.",
+        "confidence": "low"
       }
     }
   },
@@ -74,10 +128,40 @@
     "label": "192 · Duyện Châu",
     "episodeId": "ep-0006",
     "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B02-008",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Tạm giữ đánh giá ở mốc trước: Đề xuất phương án tiến quân, nhưng liên minh không sử dụng; hiệu quả chưa được kiểm chứng. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B02-021",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Thắng tại Bộc Dương. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B02-008",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Tạm giữ đánh giá ở mốc trước: Tuyển thêm quân nhưng xảy ra binh biến. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B02-008",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Tạm giữ đánh giá ở mốc trước: Không thuyết phục được liên minh cùng tiến quân. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
       "power": {
         "level": 4,
         "evidence": "EVD-B02-034",
         "reason": "Bắt đầu vươn lên tại Duyện Châu sau khi Lưu Đại chết; chưa suy rộng đến các chiến dịch chưa kể."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B02-021",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Được Viên Thiệu tiến cử làm Đông quận thái thú; mức thừa nhận gắn với liên minh. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
       }
     }
   },
@@ -87,15 +171,39 @@
     "label": "184 · Thua Khăn Vàng",
     "episodeId": "ep-0002",
     "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-0036",
+        "reason": "Chiến dịch không thành; mức hiệu quả phương án ở mốc này hạn chế.",
+        "confidence": "low"
+      },
       "military": {
         "level": 2,
         "evidence": "EVD-0036",
         "reason": "Được giao đánh Khăn Vàng nhưng thất bại, bị trị tội."
       },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-0036",
+        "reason": "Được giao quân chiến dịch nhưng thất bại; chưa rõ mức gắn bó của thuộc hạ.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-0036",
+        "reason": "Bị trị tội sau thất bại, ảnh hưởng trong bộ máy bị giới hạn.",
+        "confidence": "low"
+      },
       "power": {
         "level": 2,
         "evidence": "EVD-0036",
         "reason": "Giữ chức trung lang tướng trong chiến dịch."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-0036",
+        "reason": "Có bổ nhiệm trước chiến dịch nhưng bị trị tội sau đó.",
+        "confidence": "low"
       }
     }
   },
@@ -105,6 +213,24 @@
     "label": "189 · Khống chế triều đình",
     "episodeId": "ep-0003",
     "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-0006",
+        "reason": "Đạt mục tiêu thay người giữ ngai vàng; hiệu quả đoạt quyền, không phải đánh giá đạo đức.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-0006",
+        "reason": "Có lực lượng đủ để chi phối kinh thành; không coi phế lập là chiến tích trực tiếp.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-0006",
+        "reason": "Tập hợp được lực lượng chi phối triều đình; mức bền vững chưa rõ.",
+        "confidence": "low"
+      },
       "politics": {
         "level": 4,
         "evidence": "EVD-0006",
@@ -128,6 +254,24 @@
     "label": "190 · Dời đô",
     "episodeId": "ep-0004",
     "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B02-005",
+        "reason": "Dời triều đình về Trường An để thay đổi cục diện, nhưng không giải quyết được chống đối.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B02-007",
+        "reason": "Tướng dưới quyền là Từ Vinh thắng Tào Tháo; đánh giá vận hành lực lượng, không gán chiến công cá nhân.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B02-007",
+        "reason": "Duy trì lực lượng có khả năng tác chiến khi bị liên minh chống lại.",
+        "confidence": "low"
+      },
       "politics": {
         "level": 3,
         "evidence": "EVD-B02-005",
@@ -151,10 +295,40 @@
     "label": "191 · Thái sư",
     "episodeId": "ep-0006",
     "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B02-005",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Dời triều đình về Trường An để thay đổi cục diện, nhưng không giải quyết được chống đối. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B02-007",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Tướng dưới quyền là Từ Vinh thắng Tào Tháo; đánh giá vận hành lực lượng, không gán chiến công cá nhân. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B02-007",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Duy trì lực lượng có khả năng tác chiến khi bị liên minh chống lại. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B02-005",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Ép triều đình dời đô, song phải ứng phó liên minh đối địch. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
       "power": {
         "level": 5,
         "evidence": "EVD-B02-025",
         "reason": "Tự giữ chức Thái sư, có căn cứ quyền lực riêng."
+      },
+      "legitimacy": {
+        "level": 1,
+        "evidence": "EVD-0008",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Nhiều thế lực công khai dấy binh chống lại. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
       }
     }
   },
@@ -164,6 +338,24 @@
     "label": "189 · Biến cố cung đình",
     "episodeId": "ep-0003",
     "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-0027",
+        "reason": "Tham gia kế hoạch diệt hoạn quan; hiệu quả chính trị của cuộc tranh quyền bị giới hạn.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-0028",
+        "reason": "Có điều động lực lượng trong biến cố cung đình, không phải chiến dịch lớn.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-0027",
+        "reason": "Phối hợp được với Hà Tiến trong kế hoạch chính trị.",
+        "confidence": "low"
+      },
       "politics": {
         "level": 3,
         "evidence": "EVD-0027",
@@ -187,6 +379,18 @@
     "label": "190 · Minh chủ",
     "episodeId": "ep-0004",
     "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B02-001",
+        "reason": "Đứng đầu liên minh, song chưa có kết quả quyết định chung.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B02-002",
+        "reason": "Có quân đóng ở Hà Nội; mức triển khai lực lượng, không gán chiến tích của chư hầu khác.",
+        "confidence": "low"
+      },
       "leadership": {
         "level": 4,
         "evidence": "EVD-B02-001",
@@ -215,6 +419,24 @@
     "label": "191 · Nắm Ký Châu",
     "episodeId": "ep-0005",
     "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B02-021",
+        "reason": "Chuyển từ minh chủ sang kiểm soát Ký Châu bằng sức ép chính trị.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B02-021",
+        "reason": "Có căn cứ cấp châu; chuyển giao này không tự chứng minh thắng trận.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B02-021",
+        "reason": "Có khả năng bố trí nhân sự, tiến cử Tào Tháo ở Đông quận.",
+        "confidence": "low"
+      },
       "politics": {
         "level": 4,
         "evidence": "EVD-B02-021",
@@ -224,6 +446,12 @@
         "level": 4,
         "evidence": "EVD-B02-021",
         "reason": "Có căn cứ cấp châu, tiến cử Tào Tháo ở Đông quận."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B02-021",
+        "reason": "Kiểm soát Ký Châu bằng sức ép; mức đồng thuận địa phương chưa rõ.",
+        "confidence": "low"
       }
     }
   },
@@ -233,15 +461,39 @@
     "label": "184 · Dưới quyền Chu Tuấn",
     "episodeId": "ep-0002",
     "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-0014",
+        "reason": "Hoàn thành nhiệm vụ cấp dưới; chưa xác định kế hoạch riêng.",
+        "confidence": "low"
+      },
       "military": {
         "level": 3,
         "evidence": "EVD-0014",
         "reason": "Tham gia chiến dịch chống Khăn Vàng và được bổ nhiệm biệt bộ tư mã."
       },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-0014",
+        "reason": "Có công và được bổ nhiệm biệt bộ tư mã; có thể chỉ huy một bộ phận quân.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-0021",
+        "reason": "Được Chu Tuấn tiến cử, ảnh hưởng trong phạm vi hệ thống quan quân.",
+        "confidence": "low"
+      },
       "power": {
         "level": 2,
         "evidence": "EVD-0021",
         "reason": "Giữ vai trò tá quân tư mã dưới quyền Chu Tuấn."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-0021",
+        "reason": "Tham chiến với tiến cử chính thức của tướng nhà Hán.",
+        "confidence": "low"
       }
     }
   },
@@ -251,6 +503,24 @@
     "label": "190 · Dấy binh",
     "episodeId": "ep-0005",
     "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-0014",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Hoàn thành nhiệm vụ cấp dưới; chưa xác định kế hoạch riêng. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-0014",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Tham gia chiến dịch chống Khăn Vàng và được bổ nhiệm biệt bộ tư mã. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-0014",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Có công và được bổ nhiệm biệt bộ tư mã; có thể chỉ huy một bộ phận quân. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
       "politics": {
         "level": 2,
         "evidence": "EVD-B02-011",
@@ -260,6 +530,12 @@
         "level": 3,
         "evidence": "EVD-B02-012",
         "reason": "Được Viên Thuật tiến cử hành Phá Lỗ tướng quân, lĩnh Dự Châu thứ sử."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B02-012",
+        "reason": "Được Viên Thuật tiến cử chức vụ; không đồng nhất việc sát hại quan địa phương với chính danh của liên minh.",
+        "confidence": "low"
       }
     }
   },
@@ -269,6 +545,12 @@
     "label": "191 · Dương Nhân",
     "episodeId": "ep-0005",
     "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B02-013",
+        "reason": "Tập hợp lại quân sau thất bại rồi thắng ở Dương Nhân.",
+        "confidence": "low"
+      },
       "military": {
         "level": 4,
         "evidence": "EVD-B02-013",
@@ -288,6 +570,12 @@
         "level": 3,
         "evidence": "EVD-B02-015",
         "reason": "Có lực lượng chiến đấu nhưng còn phụ thuộc lương của Viên Thuật."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B02-017",
+        "reason": "Khôi phục lăng mộ nhà Hán, hành động củng cố danh nghĩa chống Đổng.",
+        "confidence": "low"
       }
     }
   },
@@ -297,6 +585,12 @@
     "label": "Cuối thời Linh Đế · Khăn Vàng",
     "episodeId": "ep-0002",
     "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-0020",
+        "reason": "Tham chiến và lập công dưới quyền Trâu Tĩnh, phạm vi triển khai nhóm nhỏ.",
+        "confidence": "low"
+      },
       "military": {
         "level": 2,
         "evidence": "EVD-0020",
@@ -307,10 +601,22 @@
         "evidence": "EVD-0020",
         "reason": "Dẫn thuộc hạ theo Trâu Tĩnh; quy mô chưa rõ."
       },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-0020",
+        "reason": "Hoạt động theo hệ thống chỉ huy nhà Hán, chưa giữ quyền điều phối chính quyền.",
+        "confidence": "low"
+      },
       "power": {
         "level": 1,
         "evidence": "EVD-0020",
         "reason": "Thực lực được ghi ở mức nhóm thuộc hạ, chưa có căn cứ độc lập."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-0020",
+        "reason": "Có công chống nổi dậy, được thừa nhận ở phạm vi nhiệm vụ.",
+        "confidence": "low"
       }
     }
   },
@@ -335,6 +641,12 @@
         "evidence": "EVD-0035",
         "reason": "Điều động được lực lượng trong chiến dịch phối hợp."
       },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-0033",
+        "reason": "Được giao một trong hai lực lượng triều đình; có vị thế phối hợp trong bộ máy, không đồng nghĩa điều hành triều chính.",
+        "confidence": "low"
+      },
       "power": {
         "level": 3,
         "evidence": "EVD-0033",
@@ -353,6 +665,30 @@
     "label": "192 · Xa kỵ tướng quân",
     "episodeId": "ep-0006",
     "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-0035",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Dùng hỏa công giải vây Trường Xã. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-0035",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Phá thế bị vây và phối hợp quân tiếp viện. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-0035",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Điều động được lực lượng trong chiến dịch phối hợp. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-0033",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Được giao một trong hai lực lượng triều đình; có vị thế phối hợp trong bộ máy, không đồng nghĩa điều hành triều chính. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
       "power": {
         "level": 3,
         "evidence": "EVD-B02-034",
@@ -371,10 +707,28 @@
     "label": "184 · Chống Khăn Vàng",
     "episodeId": "ep-0002",
     "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-0034",
+        "reason": "Phương án trong cuộc giao chiến trước Ba Tài không thành; không kết luận cả sự nghiệp.",
+        "confidence": "low"
+      },
       "military": {
         "level": 2,
         "evidence": "EVD-0034",
         "reason": "Ở mốc giao chiến với Ba Tài, bị thất bại; không phải đánh giá toàn bộ sự nghiệp."
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-0033",
+        "reason": "Được giao chỉ huy một lực lượng riêng.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-0033",
+        "reason": "Có vai trò được nhà Hán trao và phối hợp với Hoàng Phủ Tung.",
+        "confidence": "low"
       },
       "power": {
         "level": 3,
@@ -394,6 +748,24 @@
     "label": "191 · Trung Mâu",
     "episodeId": "ep-0005",
     "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-0034",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Phương án trong cuộc giao chiến trước Ba Tài không thành; không kết luận cả sự nghiệp. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-0034",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Ở mốc giao chiến với Ba Tài, bị thất bại; không phải đánh giá toàn bộ sự nghiệp. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-0033",
+        "reason": "Tạm giữ đánh giá ở mốc trước: Được giao chỉ huy một lực lượng riêng. Chưa có căn cứ đủ mạnh để điều chỉnh trục này ở mốc mới.",
+        "confidence": "low"
+      },
       "politics": {
         "level": 3,
         "evidence": "EVD-B02-024",
@@ -403,6 +775,12 @@
         "level": 2,
         "evidence": "EVD-B02-024",
         "reason": "Rời Lạc Dương suy kiệt và cần viện trợ."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B02-024",
+        "reason": "Chống Đổng Trác và được Đào Khiêm hỗ trợ; danh nghĩa được thừa nhận trong một số lực lượng.",
+        "confidence": "low"
       }
     }
   },
@@ -412,6 +790,30 @@
     "label": "184 · Đại tướng quân",
     "episodeId": "ep-0002",
     "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-0019",
+        "reason": "Được giao nhiệm vụ tổ chức chống nổi dậy, chưa xác định kế sách riêng.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-0019",
+        "reason": "Được trao quyền điều phối lực lượng với chức đại tướng quân, không phải điểm chiến tích cá nhân.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-0019",
+        "reason": "Có trách nhiệm tập hợp lực lượng triều đình.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-0019",
+        "reason": "Giữ vị trí điều phối quân sự cấp trung ương.",
+        "confidence": "low"
+      },
       "power": {
         "level": 4,
         "evidence": "EVD-0019",
@@ -435,6 +837,18 @@
         "evidence": "EVD-0004",
         "reason": "Triệu Đổng Trác để gây sức ép; kế hoạch không đạt mục tiêu trước khi bị giết."
       },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-0004",
+        "reason": "Có quyền triệu tướng ngoài kinh; chưa chứng minh tài thao lược chiến trường.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-0005",
+        "reason": "Không duy trì được sự phối hợp quanh mình trước biến cố cung đình.",
+        "confidence": "low"
+      },
       "politics": {
         "level": 2,
         "evidence": "EVD-0005",
@@ -444,6 +858,12 @@
         "level": 4,
         "evidence": "EVD-0004",
         "reason": "Có thể triệu tướng ngoài kinh vào cuộc tranh quyền."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-0004",
+        "reason": "Hành động với chức đại tướng quân; tranh chấp cung đình giới hạn đồng thuận.",
+        "confidence": "low"
       }
     }
   },
@@ -453,6 +873,30 @@
     "label": "168 · Lên ngôi",
     "episodeId": "ep-0001",
     "ratings": {
+      "strategy": {
+        "level": 1,
+        "evidence": "EVD-0015",
+        "reason": "Mới lên ngôi khi còn nhỏ; mức tự chủ hoạch định ở mốc này hạn chế, không đo tiềm năng trưởng thành.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 1,
+        "evidence": "EVD-0016",
+        "reason": "Các lực lượng quanh ngai vàng chi phối biến cố; mức trực tiếp chỉ huy của vua nhỏ tuổi.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-0015",
+        "reason": "Có vị thế quy tụ theo thiết chế nhưng mới tức vị dưới sự sắp đặt của đại thần.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-0016",
+        "reason": "Quyền xử lý tranh chấp phụ thuộc các nhóm quanh ngai vàng.",
+        "confidence": "low"
+      },
       "power": {
         "level": 2,
         "evidence": "EVD-0016",
@@ -471,6 +915,30 @@
     "label": "189 · Lên ngôi",
     "episodeId": "ep-0003",
     "ratings": {
+      "strategy": {
+        "level": 1,
+        "evidence": "EVD-0030",
+        "reason": "Lên ngôi lúc chín tuổi trong cuộc phế lập; mức tự chủ hoạch định hạn chế.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 1,
+        "evidence": "EVD-0006",
+        "reason": "Quân lực Đổng Trác chi phối ngai vàng; đánh giá mức trực tiếp chỉ huy của vua nhỏ tuổi.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-0030",
+        "reason": "Biểu tượng thiết chế nhà Hán, chưa chuyển thành điều phối độc lập.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 1,
+        "evidence": "EVD-0029",
+        "reason": "Cuộc phế lập do thế lực khác quyết định, mức chủ động của vua thấp.",
+        "confidence": "low"
+      },
       "power": {
         "level": 1,
         "evidence": "EVD-0006",
@@ -489,6 +957,30 @@
     "label": "192 · Trường An đổi chủ",
     "episodeId": "ep-0006",
     "ratings": {
+      "strategy": {
+        "level": 1,
+        "evidence": "EVD-B02-033",
+        "reason": "Triều chính sang tay các tướng, mức tự chủ hoạch định trong biến cố bị giới hạn.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 1,
+        "evidence": "EVD-B02-033",
+        "reason": "Lực lượng kiểm soát Trường An không nằm dưới quyền chỉ huy độc lập của vua.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B02-033",
+        "reason": "Ngai vàng là điểm quy chiếu chính danh nhưng không đủ sức điều phối phe quân sự.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 1,
+        "evidence": "EVD-B02-033",
+        "reason": "Các tướng nắm triều chính, đánh giá vai trò thực tế tại mốc này.",
+        "confidence": "low"
+      },
       "power": {
         "level": 1,
         "evidence": "EVD-B02-033",
@@ -507,15 +999,39 @@
     "label": "184 · Khăn Vàng nổi dậy",
     "episodeId": "ep-0002",
     "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-0032",
+        "reason": "Tổ chức phong trào thành nhiều phương, cho thấy hoạch định tổ chức.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-0001",
+        "reason": "Phong trào nổi dậy có tổ chức; chưa xác định hiệu quả chỉ huy trận đánh riêng.",
+        "confidence": "low"
+      },
       "leadership": {
         "level": 4,
         "evidence": "EVD-0032",
         "reason": "Sử ghi phong trào được tổ chức thành 36 phương; không coi số liệu là đo đếm độc lập."
       },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-0032",
+        "reason": "Xây dựng mạng lưới tổ chức ngoài thiết chế quan lại.",
+        "confidence": "low"
+      },
       "power": {
         "level": 3,
         "evidence": "EVD-0001",
         "reason": "Lực lượng nổi dậy đã hình thành; chưa có căn cứ xác nhận quyền kiểm soát ổn định cấp châu."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-0009",
+        "reason": "Danh nghĩa Hoàng Thiên trong phong trào của mình; đối lập chính danh triều đình.",
+        "confidence": "low"
       }
     }
   },
@@ -525,6 +1041,24 @@
     "label": "190 · Dời đô",
     "episodeId": "ep-0004",
     "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B02-010",
+        "reason": "Tổ chức bảo toàn văn thư giữa cuộc dời đô, cho thấy xử lý tình thế hành chính.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 1,
+        "evidence": "EVD-B02-010",
+        "reason": "Vai trò ghi nhận là hành chính, mức trực tiếp cầm quân tại mốc này rất hạn chế, không đo tiềm năng.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B02-010",
+        "reason": "Điều phối công việc triều chính và bảo toàn văn thư.",
+        "confidence": "low"
+      },
       "politics": {
         "level": 3,
         "evidence": "EVD-B02-010",
@@ -534,6 +1068,12 @@
         "level": 3,
         "evidence": "EVD-B02-010",
         "reason": "Giữ chức Tư đồ và làm việc tại triều đình."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B02-010",
+        "reason": "Giữ chức Tư đồ trong bộ máy nhà Hán dù triều đình bị chi phối.",
+        "confidence": "low"
       }
     }
   },
@@ -548,6 +1088,18 @@
         "evidence": "EVD-B02-027",
         "reason": "Tham gia lập kế hoạch cùng Sĩ Tôn Thụy và tuyển Lữ Bố làm nội ứng."
       },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B02-027",
+        "reason": "Phối hợp Lữ Bố làm nội ứng, mức tham gia quân sự gián tiếp.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B02-027",
+        "reason": "Tập hợp được nhóm đại thần và Lữ Bố, liên kết còn mong manh.",
+        "confidence": "low"
+      },
       "politics": {
         "level": 2,
         "evidence": "EVD-B02-031",
@@ -557,6 +1109,12 @@
         "level": 4,
         "evidence": "EVD-B02-029",
         "reason": "Được giao trông coi việc Thượng thư, trước khi Trường An thất thủ."
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B02-029",
+        "reason": "Trông coi việc Thượng thư nhân danh triều đình, không đồng nghĩa được quân cũ của Đổng Trác ủng hộ.",
+        "confidence": "low"
       }
     }
   },
@@ -566,10 +1124,40 @@
     "label": "189 · Đổi chủ",
     "episodeId": "ep-0003",
     "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B02-026",
+        "reason": "Thay đổi người bảo trợ, chưa thể gán kế sách dài hạn.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B02-026",
+        "reason": "Theo Đổng Trác trong vai trò võ tướng, không dựa vào Hổ Lao trong tiểu thuyết.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B02-026",
+        "reason": "Vị trí thuộc tướng trong mạng lưới Đổng Trác, mức điều phối độc lập hạn chế.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B02-026",
+        "reason": "Ảnh hưởng chính trị dựa vào người bảo trợ.",
+        "confidence": "low"
+      },
       "power": {
         "level": 2,
         "evidence": "EVD-B02-026",
         "reason": "Theo Đổng Trác và về sau được trao chức trung lang tướng, phong hầu."
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B02-026",
+        "reason": "Vị thế phụ thuộc sự thừa nhận của Đổng Trác.",
+        "confidence": "low"
       }
     }
   },
@@ -584,6 +1172,18 @@
         "evidence": "EVD-B02-027",
         "reason": "Tham gia âm mưu từ vị trí nội ứng."
       },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B02-029",
+        "reason": "Được thăng tướng quân sau biến cố; phản ánh vai trò quân sự, không coi chức danh là bằng chứng thắng trận.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B02-029",
+        "reason": "Có phần quyền điều phối chính quyền cùng Vương Doãn trước khi kinh thành thất thủ.",
+        "confidence": "low"
+      },
       "politics": {
         "level": 3,
         "evidence": "EVD-B02-029",
@@ -593,6 +1193,12 @@
         "level": 4,
         "evidence": "EVD-B02-029",
         "reason": "Được thăng tướng quân, phong Ôn hầu; mốc trước khi Trường An thất thủ."
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B02-029",
+        "reason": "Phong Ôn hầu, được thừa nhận trong chính quyền sau biến cố.",
+        "confidence": "low"
       }
     }
   },
@@ -606,6 +1212,432 @@
         "level": 4,
         "evidence": "EVD-B02-032",
         "reason": "Đề xuất tập hợp lại lực lượng; cuộc phản công sau đó thành công theo EVD-B02-033."
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B02-032",
+        "reason": "Định hướng hoạt động quân sự qua tư vấn; không có vai trò chỉ huy trực tiếp được xác nhận tại mốc này.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B02-032",
+        "reason": "Lời khuyên được nhóm tướng chấp nhận, giúp phối hợp hành động.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B02-032",
+        "reason": "Nhận diện tình thế và đưa phương án tập hợp nhóm tướng.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B02-032",
+        "reason": "Ảnh hưởng cố vấn trong nhóm tướng, không phải sở hữu quân đội.",
+        "confidence": "low"
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B02-032",
+        "reason": "Được nhóm tướng chấp nhận lời khuyên, không phải danh nghĩa cai trị được triều đình trao.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "yuan-shu",
+    "year": 191,
+    "label": "191 · Điều phối Tôn Kiên",
+    "episodeId": "ep-0005",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B02-012",
+        "reason": "Bố trí Tôn Kiên đảm nhiệm mặt trận và tiến cử chức vụ.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B02-012",
+        "reason": "Điều phối quân lực thông qua Tôn Kiên, không gán chiến tích Tôn Kiên cho Viên Thuật.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B02-015",
+        "reason": "Có khả năng cấp lại tiếp tế nhưng quan hệ phối hợp căng thẳng.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B02-012",
+        "reason": "Ảnh hưởng qua tiến cử chức vụ.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B02-015",
+        "reason": "Có quyền kiểm soát nguồn lương cho lực lượng đồng minh.",
+        "confidence": "low"
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B02-012",
+        "reason": "Tham gia liên minh với vị thế được thừa nhận trong phe của mình.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "han-fu",
+    "year": 191,
+    "label": "191 · Mất Ký Châu",
+    "episodeId": "ep-0005",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B02-021",
+        "reason": "Không giữ được quyền kiểm soát trước sức ép Viên Thiệu.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B02-002",
+        "reason": "Có vai trò hậu cần cho quân liên minh; mức cầm quân trực tiếp chưa rõ.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B02-021",
+        "reason": "Không giữ được căn cứ trước sức ép chuyển giao.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 2,
+        "evidence": "EVD-B02-021",
+        "reason": "Mất vị thế Ký Châu mục vào tay Viên Thiệu.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 1,
+        "evidence": "EVD-B02-021",
+        "reason": "Đánh giá ngay sau chuyển giao Ký Châu, thực quyền ở châu suy giảm.",
+        "confidence": "low"
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B02-002",
+        "reason": "Có danh nghĩa Ký Châu mục trước chuyển giao; mức thừa nhận còn lại chưa rõ.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "liu-yu",
+    "year": 191,
+    "label": "191 · Từ chối ngôi vua",
+    "episodeId": "ep-0005",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B02-020",
+        "reason": "Từ chối đề nghị lên ngôi giữa các phe tranh quyền.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B02-020",
+        "reason": "Vai trò U Châu mục trong đề nghị chính trị, chưa có chiến tích cá nhân được xác định ở mốc này.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B02-020",
+        "reason": "Được các thế lực đề xuất làm điểm quy tụ.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 4,
+        "evidence": "EVD-B02-020",
+        "reason": "Có vị thế được đề nghị làm hoàng đế và chủ động từ chối.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B02-020",
+        "reason": "Đang giữ chức U Châu mục, có ảnh hưởng cấp châu; chưa xác định quy mô thực lực.",
+        "confidence": "low"
+      },
+      "legitimacy": {
+        "level": 4,
+        "evidence": "EVD-B02-020",
+        "reason": "Được một số thế lực đề nghị làm vua, không đồng nghĩa toàn thiên hạ đồng thuận.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "shisun-rui",
+    "year": 192,
+    "label": "192 · Mưu trừ Đổng Trác",
+    "episodeId": "ep-0006",
+    "ratings": {
+      "strategy": {
+        "level": 4,
+        "evidence": "EVD-B02-027",
+        "reason": "Cùng Vương Doãn lập kế hoạch và sử dụng nội ứng.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B02-027",
+        "reason": "Tham gia phối hợp gián tiếp với võ tướng, không gán chiến tích cá nhân.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B02-027",
+        "reason": "Tham gia nhóm đại thần phối hợp trong kế hoạch.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B02-027",
+        "reason": "Có vai trò tại Thượng thư và tham gia hoạch định biến cố.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 2,
+        "evidence": "EVD-B02-027",
+        "reason": "Ảnh hưởng từ chức vụ và nhóm hợp tác, chưa có quân lực riêng được xác nhận.",
+        "confidence": "low"
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B02-027",
+        "reason": "Có chức Thượng thư bộc xạ và tham gia nhóm đại thần nhà Hán.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "li-jue",
+    "year": 192,
+    "label": "192 · Kiểm soát triều chính",
+    "episodeId": "ep-0006",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B02-032",
+        "reason": "Chấp nhận phương án tập hợp lại lực lượng của Giả Hủ; không gán quyền tác giả kế hoạch.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B02-033",
+        "reason": "Cùng các tướng chiếm Trường An; thành tích phối hợp, không tách thành chiến công riêng.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 4,
+        "evidence": "EVD-B02-032",
+        "reason": "Cùng nhóm tướng tập hợp lại quân.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B02-033",
+        "reason": "Cùng các tướng nắm triều chính sau biến cố.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 5,
+        "evidence": "EVD-B02-033",
+        "reason": "Là một trong nhóm tướng nắm thực quyền tại kinh thành, không phải toàn quyền riêng.",
+        "confidence": "low"
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B02-033",
+        "reason": "Có chức vụ được ghi sau khi chiếm kinh thành, mức thừa nhận rộng chưa rõ.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "guo-si",
+    "year": 192,
+    "label": "192 · Kiểm soát triều chính",
+    "episodeId": "ep-0006",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B02-032",
+        "reason": "Cùng nhóm tướng thực hiện phương án do Giả Hủ đề xuất.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 4,
+        "evidence": "EVD-B02-033",
+        "reason": "Tham gia lực lượng giành quyền kiểm soát Trường An; thành tích chung.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B02-032",
+        "reason": "Phối hợp tập hợp lại quân cùng các tướng khác.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B02-033",
+        "reason": "Tham gia nhóm nắm triều chính.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B02-033",
+        "reason": "Có thực quyền trong nhóm kiểm soát kinh thành; không gán quyền thống trị riêng.",
+        "confidence": "low"
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B02-033",
+        "reason": "Có chức vụ được ghi nhận sau biến cố, mức đồng thuận ngoài nhóm chưa rõ.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "liu-biao",
+    "year": 191,
+    "label": "191–192 · Xung đột với Tôn Kiên",
+    "episodeId": "ep-0005",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B02-023",
+        "reason": "Duy trì khả năng chống lực lượng tiến đánh Kinh Châu; không gán kế hoạch riêng chưa được ghi.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 3,
+        "evidence": "EVD-B02-023",
+        "reason": "Tướng dưới quyền là Hoàng Tổ chống Tôn Kiên; thành tích thuộc lực lượng, không gán cho Lưu Biểu đích thân.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B02-023",
+        "reason": "Có tướng dưới quyền đủ sức tham chiến.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B02-023",
+        "reason": "Giữ vị thế Kinh Châu thứ sử trong xung đột với lực lượng bên ngoài.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B02-023",
+        "reason": "Có lực lượng ở Kinh Châu; phạm vi kiểm soát thực tế chưa định lượng.",
+        "confidence": "low"
+      },
+      "legitimacy": {
+        "level": 3,
+        "evidence": "EVD-B02-023",
+        "reason": "Có danh nghĩa Kinh Châu thứ sử, mức thừa nhận địa phương chưa rõ.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "cao-hong",
+    "year": 190,
+    "label": "190 · Biện Thủy",
+    "episodeId": "ep-0004",
+    "ratings": {
+      "strategy": {
+        "level": 2,
+        "evidence": "EVD-B02-007",
+        "reason": "Ứng biến để giúp Tào Tháo thoát tình thế thất bại; không gán kế hoạch chiến dịch.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B02-007",
+        "reason": "Tham gia đoàn quân tại Biện Thủy, chưa có bằng chứng chỉ huy độc lập ở mốc này.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 2,
+        "evidence": "EVD-B02-007",
+        "reason": "Thể hiện sự hỗ trợ trong nhóm của Tào Tháo; mức quy tụ thuộc hạ chưa rõ.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 1,
+        "evidence": "EVD-B02-007",
+        "reason": "Vai trò ghi nhận tại biến cố là hỗ trợ Tào Tháo, mức tham gia điều phối chính trị rất hạn chế.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 1,
+        "evidence": "EVD-B02-007",
+        "reason": "Thực lực thể hiện tại vai trò thuộc nhóm Tào Tháo; không ghi quyền cai trị riêng.",
+        "confidence": "low"
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B02-007",
+        "reason": "Được ghi nhận trong nhóm Tào Tháo, không suy ra chức tước hay sự thừa nhận rộng.",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "personId": "liu-dai",
+    "year": 190,
+    "label": "190 · Tranh quyền Đông quận",
+    "episodeId": "ep-0005",
+    "ratings": {
+      "strategy": {
+        "level": 3,
+        "evidence": "EVD-B02-019",
+        "reason": "Loại Kiều Mạo và đặt người khác vào vị trí Đông quận; hiệu quả đoạt quyền ở biến cố.",
+        "confidence": "low"
+      },
+      "military": {
+        "level": 2,
+        "evidence": "EVD-B02-019",
+        "reason": "Có lực lượng đủ để can thiệp Đông quận, chưa có căn cứ gán chiến tích trực tiếp.",
+        "confidence": "low"
+      },
+      "leadership": {
+        "level": 3,
+        "evidence": "EVD-B02-019",
+        "reason": "Có khả năng bố trí người thay Kiều Mạo.",
+        "confidence": "low"
+      },
+      "politics": {
+        "level": 3,
+        "evidence": "EVD-B02-019",
+        "reason": "Can thiệp vào nhân sự của một quận trong tranh chấp liên minh.",
+        "confidence": "low"
+      },
+      "power": {
+        "level": 4,
+        "evidence": "EVD-B02-019",
+        "reason": "Giữ vị thế Duyện Châu thứ sử và tác động đến Đông quận.",
+        "confidence": "low"
+      },
+      "legitimacy": {
+        "level": 2,
+        "evidence": "EVD-B02-019",
+        "reason": "Có chức danh nhưng việc giết đồng minh cho thấy sự thừa nhận giữa các phe có vấn đề.",
+        "confidence": "low"
       }
     }
   }
