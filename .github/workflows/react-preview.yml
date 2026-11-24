@@ -141,11 +141,10 @@ jobs:
                       const prev=await figure.evaluate(e=>{let p=e.previousElementSibling;while(p?.matches('figure.scene-art'))p=p.previousElementSibling;return {tag:p?.tagName,text:p?.textContent||''}});
                       if(prev.tag!==(a.placement==='heading'?'H2':'BLOCKQUOTE')||!prev.text.includes(a.anchor))throw Error('Wrong placement '+a.id);
                     }
-                    console.log('PASS illustration coverage',engine.name(),width,route,expected.length);
+                    if((await page.locator('.story-content').innerText()).match(/EVD-|Evidence registry|Mốc đọc và nhân vật/))throw Error('Reader metadata '+route);if(await page.locator('.episode-sources').count()!==1)throw Error('Missing consolidated sources '+route);console.log('PASS illustration coverage',engine.name(),width,route,expected.length);
                     if(route==='/read/ep-0002'){
-                    await page.getByRole('button',{name:'Tăng cỡ chữ'}).click();
-                    await page.getByRole('button',{name:'Vén màn sử liệu'}).click();await page.locator('.ink-reveal-content').waitFor();
-                    await page.getByRole('button',{name:'Khép màn'}).click();}
+                    await page.getByRole('button',{name:'Cài đặt đọc',exact:true}).click();await page.getByRole('button',{name:'Tăng cỡ chữ'}).click();
+                    if(!(await page.locator('.story-content').innerText()).includes('hỏa công'))throw Error('Missing Trường Xã narrative');await page.getByRole('button',{name:'Đóng cài đặt'}).click();}
                     if(route==='/read/ep-0006'){const img=page.locator('figure[data-art-id="VIS-B02-012"] img');await img.scrollIntoViewIfNeeded();await img.evaluate(e=>e.decode());}
                   }
                   if(route==='/people'){

@@ -126,8 +126,8 @@ try {
     check(await img.evaluate(el=>el.naturalWidth===1029&&el.naturalHeight===972),'scene dimensions');
     check((await scene.innerText()).includes('Minh họa Tam Quốc diễn nghĩa'),'missing literary label');
     check((await scene.locator('a').getAttribute('href')).includes('commons.wikimedia.org'),'missing provenance');
-    console.log('PASS literary scene decode, attribution, no duplicate');
-    const back=page.locator('main a[href="#/read/ep-0005"]').filter({hasText:'EP-0005'});await back.click();
+    check(!(await page.locator('.story-content').innerText()).match(/EVD-|Evidence registry|Mốc đọc và nhân vật/),'reader internal copy leaked');await page.locator('.episode-sources summary').click();check(await page.locator('.episode-sources a').count()>0,'reader sources missing');console.log('PASS literary scene decode, attribution, no duplicate and sources');
+    const back=page.locator('.pager a[href="#/read/ep-0005"]');await back.click();
     await page.locator('section[data-atlas-year="191"]').waitFor();
     await page.getByRole('link',{name:'Tập sau →'}).click();
     await page.locator('section[data-atlas-year="192"]').waitFor();
