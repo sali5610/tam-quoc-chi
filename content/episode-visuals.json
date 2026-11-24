@@ -1,0 +1,772 @@
+[
+  {
+    "id": "V6-01-01",
+    "episode": "ep-0001",
+    "anchor": "Đây không phải ba phe tốt–xấu",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Quyền lực quanh ngai vàng",
+    "center": {
+      "name": "Hán Linh Đế",
+      "text": "Lên ngôi năm 168",
+      "person": "Hán Linh Đế"
+    },
+    "items": [
+      {
+        "name": "Ngoại thích",
+        "text": "Quan hệ hoàng gia; chức vụ và binh quyền.",
+        "icon": "scroll"
+      },
+      {
+        "name": "Hoạn quan",
+        "text": "Ở gần vua, ảnh hưởng truyền đạt mệnh lệnh."
+      },
+      {
+        "name": "Sĩ đại phu",
+        "text": "Uy tín, quan hệ thầy trò và đồng liêu."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Hậu Hán thư · quyển 8",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷8"
+      }
+    ],
+    "note": "Ba cách tiếp cận quyền lực, không phải ba khối thống nhất."
+  },
+  {
+    "id": "V6-01-02",
+    "episode": "ep-0001",
+    "anchor": "Kế hoạch thất bại.",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Cuộc thanh trừng bất thành",
+    "items": [
+      {
+        "name": "Đậu Vũ và Trần Phồn",
+        "text": "Muốn loại trừ thế lực hoạn quan.",
+        "icon": "scroll"
+      },
+      {
+        "name": "Kế hoạch thất bại",
+        "text": "Hai người trở thành bên bị đánh bại.",
+        "icon": "defeat"
+      },
+      {
+        "name": "Hệ quả",
+        "text": "Cả hai chết trong biến cố."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Hậu Hán thư · quyển 8",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷8"
+      }
+    ]
+  },
+  {
+    "id": "V6-01-03",
+    "episode": "ep-0001",
+    "anchor": "Một người có thể không tham gia kế hoạch",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Đảng cấm lan qua các mối quan hệ",
+    "center": {
+      "name": "Sĩ nhân, quan lại bị nhắm tới",
+      "text": "Truy xét và cấm đoán",
+      "icon": "scroll"
+    },
+    "items": [
+      {
+        "name": "Môn sinh",
+        "text": "Học trò"
+      },
+      {
+        "name": "Cố lại",
+        "text": "Thuộc cấp cũ"
+      },
+      {
+        "name": "Thân thuộc",
+        "text": "Người thân"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Hậu Hán thư · quyển 67",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷67"
+      }
+    ],
+    "note": "Các nhóm liên lụy được ghi trong nguồn, không phải quan hệ của một cá nhân cụ thể."
+  },
+  {
+    "id": "V6-02-01",
+    "episode": "ep-0002",
+    "anchor": "Năm 184, phong trào trở thành cuộc nổi dậy",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Từ phong trào đến nổi dậy",
+    "center": {
+      "name": "Trương Giác",
+      "text": "Thái Bình đạo",
+      "person": "Trương Giác"
+    },
+    "items": [
+      {
+        "name": "36 phương",
+        "text": "Đơn vị tổ chức được sử liệu nhắc đến.",
+        "icon": "banner"
+      },
+      {
+        "name": "Năm 184",
+        "text": "Cuộc nổi dậy Khăn Vàng lan rộng.",
+        "icon": "banner"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Hậu Hán thư · quyển 71",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷71"
+      }
+    ],
+    "note": "Không đồng nghĩa 36 đạo quân mạnh ngang nhau."
+  },
+  {
+    "id": "V6-02-02",
+    "episode": "ep-0002",
+    "anchor": "Triều đình cử Hoàng Phủ Tung",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Những người được giao trọng trách",
+    "center": {
+      "name": "Triều đình Đông Hán",
+      "text": "Huy động lực lượng chống nổi dậy",
+      "icon": "scroll"
+    },
+    "items": [
+      {
+        "name": "Hoàng Phủ Tung",
+        "text": "Tả trung lang tướng",
+        "person": "Hoàng Phủ Tung"
+      },
+      {
+        "name": "Chu Tuấn",
+        "text": "Hữu trung lang tướng",
+        "person": "Chu Tuấn"
+      },
+      {
+        "name": "Hà Tiến",
+        "text": "Vai trò quân sự tại kinh thành",
+        "person": "Hà Tiến"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Hậu Hán thư · quyển 71",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷71"
+      },
+      {
+        "label": "Hậu Hán thư · quyển 8",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷8"
+      }
+    ]
+  },
+  {
+    "id": "V6-02-03",
+    "episode": "ep-0002",
+    "anchor": "Khoan đã — Tào Tháo?",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Trường Xã: ai làm gì?",
+    "items": [
+      {
+        "name": "Chu Tuấn",
+        "text": "Thất bại trước lực lượng Ba Tài.",
+        "person": "Chu Tuấn"
+      },
+      {
+        "name": "Hoàng Phủ Tung",
+        "text": "Dùng hỏa công phá thế vây.",
+        "person": "Hoàng Phủ Tung"
+      },
+      {
+        "name": "Tào Tháo",
+        "text": "Đến sau hỏa công, tham gia đợt đánh tiếp.",
+        "person": "Tào Tháo"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Hậu Hán thư · quyển 71",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷71"
+      }
+    ],
+    "note": "Trình tự sự kiện, không mô phỏng đội hình hay quân số."
+  },
+  {
+    "id": "V6-02-04",
+    "episode": "ep-0002",
+    "anchor": "Ai đánh Đốc bưu?",
+    "placement": "blockquote",
+    "kind": "comparison",
+    "title": "Một chuyện, hai người ra tay",
+    "items": [
+      {
+        "name": "Lưu Bị",
+        "text": "Chính văn ghi Lưu Bị đánh Đốc bưu rồi bỏ chức.",
+        "person": "Lưu Bị",
+        "label": "Chính sử"
+      },
+      {
+        "name": "Trương Phi",
+        "text": "Tiểu thuyết chuyển hành động sang Trương Phi.",
+        "icon": "scroll",
+        "label": "Tiểu thuyết"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 32",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷32"
+      },
+      {
+        "label": "Tam Quốc diễn nghĩa · hồi 2",
+        "url": "https://zh.wikisource.org/wiki/三國演義/第002回"
+      }
+    ],
+    "note": "Không xác định ngày cụ thể của năm 184."
+  },
+  {
+    "id": "V6-03-01",
+    "episode": "ep-0003",
+    "anchor": "Hà Tiến là anh của Hà Thái hậu",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Mâu thuẫn trong hoàng cung",
+    "center": {
+      "name": "Hà Tiến",
+      "text": "Đại tướng quân",
+      "person": "Hà Tiến"
+    },
+    "items": [
+      {
+        "name": "Hà Thái hậu",
+        "text": "Em gái Hà Tiến; không đồng ý trừ hoạn quan."
+      },
+      {
+        "name": "Viên Thiệu",
+        "text": "Cùng Hà Tiến bàn chuyện trừ hoạn quan.",
+        "person": "Viên Thiệu"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Hậu Hán thư · quyển 69",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷69"
+      }
+    ]
+  },
+  {
+    "id": "V6-03-02",
+    "episode": "ep-0003",
+    "anchor": "Theo 《三國志》卷1, thứ tự rất rõ",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Lời triệu quân và biến cố",
+    "items": [
+      {
+        "name": "Triệu Đổng Trác",
+        "text": "Hà Tiến gọi quân ngoài về.",
+        "person": "Hà Tiến"
+      },
+      {
+        "name": "Hà Tiến bị giết",
+        "text": "Đổng Trác chưa đến.",
+        "icon": "defeat"
+      },
+      {
+        "name": "Đổng Trác",
+        "text": "Lực lượng được triệu vẫn tiến về kinh.",
+        "person": "Đổng Trác"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 1",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "Hậu Hán thư · quyển 69",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷69"
+      }
+    ]
+  },
+  {
+    "id": "V6-03-03",
+    "episode": "ep-0003",
+    "anchor": "Viên Thiệu phản đối việc phế lập",
+    "placement": "paragraph",
+    "kind": "comparison",
+    "title": "Ngai vàng đổi người",
+    "items": [
+      {
+        "name": "Hán Thiếu Đế",
+        "text": "Bị phế.",
+        "icon": "scroll",
+        "label": "Trước"
+      },
+      {
+        "name": "Hán Hiến Đế",
+        "text": "Trần Lưu vương được đưa lên thay.",
+        "person": "Hán Hiến Đế",
+        "label": "Sau"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 6",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷06"
+      },
+      {
+        "label": "Hậu Hán thư · quyển 9",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      }
+    ],
+    "note": "Đổng Trác thúc đẩy phế lập; Viên Thiệu phản đối. Danh vị khác quyền lực thực tế."
+  },
+  {
+    "id": "V6-04-01",
+    "episode": "ep-0004",
+    "anchor": "Viên Thiệu tự xưng Xa kỵ tướng quân",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Một minh chủ, nhiều nơi đóng quân",
+    "center": {
+      "name": "Viên Thiệu",
+      "text": "Minh chủ liên minh",
+      "person": "Viên Thiệu"
+    },
+    "items": [
+      {
+        "name": "Hà Nội",
+        "text": "Viên Thiệu và Vương Khuông."
+      },
+      {
+        "name": "Nghiệp",
+        "text": "Hàn Phức cấp lương.",
+        "person": "Hàn Phức"
+      },
+      {
+        "name": "Toan Tảo",
+        "text": "Tào Tháo, Trương Mạc và các tướng."
+      },
+      {
+        "name": "Dĩnh Xuyên",
+        "text": "Khổng Trụ."
+      },
+      {
+        "name": "Lỗ Dương",
+        "text": "Viên Thuật.",
+        "person": "Viên Thuật"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 1",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "Tư trị thông giám · quyển 60",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷060"
+      }
+    ],
+    "note": "Địa phương được ghi nhận, không phải một đại doanh hoặc tuyến hành quân."
+  },
+  {
+    "id": "V6-04-02",
+    "episode": "ep-0004",
+    "anchor": "Ba mốc khác nhau.",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Dời đô không phải một biến cố duy nhất",
+    "items": [
+      {
+        "name": "Tháng 2 âm lịch",
+        "text": "Dời đô tới Trường An.",
+        "icon": "scroll"
+      },
+      {
+        "name": "Tháng 3 âm lịch",
+        "text": "Xa giá Hán Hiến Đế tới Trường An.",
+        "person": "Hán Hiến Đế"
+      },
+      {
+        "name": "Tháng 3 âm lịch, sau đó",
+        "text": "Lạc Dương bị đốt.",
+        "icon": "defeat"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Hậu Hán thư · quyển 9",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      }
+    ],
+    "note": "Thứ tự biên niên năm 190; không dựng lộ trình."
+  },
+  {
+    "id": "V6-04-03",
+    "episode": "ep-0004",
+    "anchor": "Từ một người có chủ trương tiến quân",
+    "placement": "paragraph",
+    "kind": "comparison",
+    "title": "Biện Thủy: kết quả giao chiến",
+    "items": [
+      {
+        "name": "Tào Tháo",
+        "text": "Có Vệ Tư hỗ trợ; thua trận, được Tào Hồng cứu.",
+        "person": "Tào Tháo",
+        "label": "Lực lượng chống Đổng Trác"
+      },
+      {
+        "name": "Từ Vinh",
+        "text": "Tướng phía Đổng Trác; đánh bại quân Tào.",
+        "icon": "banner",
+        "label": "Lực lượng Đổng Trác"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 1",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      }
+    ],
+    "note": "Năm 190, vùng Huỳnh Dương/Biện Thủy; không rõ tháng riêng."
+  },
+  {
+    "id": "V6-04-04",
+    "episode": "ep-0004",
+    "anchor": "Không nên biến lời phê phán",
+    "placement": "paragraph",
+    "kind": "comparison",
+    "title": "Có kế hoạch, không có phối hợp",
+    "items": [
+      {
+        "name": "Đề xuất",
+        "text": "Tào Tháo đưa phương án phối hợp.",
+        "person": "Tào Tháo",
+        "label": "Đề nghị"
+      },
+      {
+        "name": "Thực tế",
+        "text": "Phương án không được thực hiện.",
+        "icon": "scroll",
+        "label": "Kết quả"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 1",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      }
+    ],
+    "note": "Theo tiểu sử Tào Tháo; không quy kết mọi thành viên liên minh."
+  },
+  {
+    "id": "V6-05-01",
+    "episode": "ep-0005",
+    "anchor": "Ôn tửu trảm Hoa Hùng và tam anh chiến Lữ Bố",
+    "placement": "blockquote",
+    "kind": "comparison",
+    "title": "Hoa Hùng: chính sử và tiểu thuyết",
+    "items": [
+      {
+        "name": "Quân Tôn Kiên",
+        "text": "Thắng tại Dương Nhân; Hoa Hùng bị giết. Không rõ người trực tiếp ra tay.",
+        "person": "Tôn Kiên",
+        "label": "Chính sử"
+      },
+      {
+        "name": "Quan Vũ",
+        "text": "Chém Hoa Hùng trong hồi 5.",
+        "icon": "scroll",
+        "label": "Tiểu thuyết"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 46",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷46"
+      },
+      {
+        "label": "Tam Quốc diễn nghĩa · hồi 5",
+        "url": "https://zh.wikisource.org/wiki/三國演義/第005回"
+      }
+    ]
+  },
+  {
+    "id": "V6-05-02",
+    "episode": "ep-0005",
+    "anchor": "Tôn Kiên phải đến gặp Viên Thuật phản đối.",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Nguồn lương trong tay đồng minh",
+    "items": [
+      {
+        "name": "Viên Thuật",
+        "text": "Ngừng vận lương.",
+        "person": "Viên Thuật",
+        "icon": "grain"
+      },
+      {
+        "name": "Tôn Kiên",
+        "text": "Đến gặp Viên Thuật phản đối.",
+        "person": "Tôn Kiên"
+      },
+      {
+        "name": "Viên Thuật",
+        "text": "Tiếp tục cấp lương.",
+        "person": "Viên Thuật",
+        "icon": "grain"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 46",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷46"
+      }
+    ],
+    "note": "Trình tự sau thắng lợi tại Dương Nhân, không suy diễn mức dự trữ."
+  },
+  {
+    "id": "V6-05-03",
+    "episode": "ep-0005",
+    "anchor": "Tào Tháo phản đối đề nghị này.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Một ngai vàng, hai phương án",
+    "center": {
+      "name": "Hán Hiến Đế",
+      "text": "Hoàng đế đang tại vị",
+      "person": "Hán Hiến Đế"
+    },
+    "items": [
+      {
+        "name": "Viên Thiệu và Hàn Phức",
+        "text": "Đề nghị tôn Lưu Ngu.",
+        "icon": "scroll"
+      },
+      {
+        "name": "Tào Tháo",
+        "text": "Phản đối.",
+        "person": "Tào Tháo"
+      },
+      {
+        "name": "Lưu Ngu",
+        "text": "Không nhận.",
+        "person": "Lưu Ngu"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 1",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "Tam Quốc chí · quyển 8",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷08"
+      }
+    ],
+    "note": "Đề nghị không thành; Hán Hiến Đế vẫn tại vị."
+  },
+  {
+    "id": "V6-05-04",
+    "episode": "ep-0005",
+    "anchor": "Đến tháng bảy âm lịch năm 191",
+    "placement": "paragraph",
+    "kind": "comparison",
+    "title": "Ký Châu đổi người nắm giữ",
+    "items": [
+      {
+        "name": "Hàn Phức",
+        "text": "Người quản lý Ký Châu trước đó.",
+        "person": "Hàn Phức",
+        "label": "Trước"
+      },
+      {
+        "name": "Viên Thiệu",
+        "text": "Nắm Ký Châu từ tháng bảy âm lịch 191.",
+        "person": "Viên Thiệu",
+        "label": "Sau"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 6",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷06"
+      },
+      {
+        "label": "Tư trị thông giám · quyển 60",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷060"
+      }
+    ],
+    "note": "Lưu Đại giết Kiều Mạo thuộc năm 190, không phải sau mốc này."
+  },
+  {
+    "id": "V6-06-01",
+    "episode": "ep-0006",
+    "anchor": "Chính văn 《三國志》 ghi Vương Doãn",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Mạng lưới kế hoạch trong triều",
+    "center": {
+      "name": "Vương Doãn",
+      "text": "Cùng Sĩ Tôn Thụy bàn kế hoạch",
+      "person": "Vương Doãn"
+    },
+    "items": [
+      {
+        "name": "Sĩ Tôn Thụy",
+        "text": "Cùng bàn kế hoạch.",
+        "person": "Sĩ Tôn Thụy"
+      },
+      {
+        "name": "Lữ Bố",
+        "text": "Được Vương Doãn cho biết kế hoạch.",
+        "person": "Lữ Bố"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 7",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷07"
+      },
+      {
+        "label": "Hậu Hán thư · quyển 66",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷66"
+      }
+    ],
+    "note": "Điêu Thuyền là tuyến tiểu thuyết, không đưa vào sơ đồ chính sử."
+  },
+  {
+    "id": "V6-06-02",
+    "episode": "ep-0006",
+    "anchor": "Nhớ Hoàng Phủ Tung, người từng phá vòng vây",
+    "placement": "paragraph",
+    "kind": "comparison",
+    "title": "Sau Đổng Trác: chức vụ và binh lực",
+    "items": [
+      {
+        "name": "Vương Doãn",
+        "text": "Nắm việc triều chính; xử lý quân cũ chưa ổn định.",
+        "person": "Vương Doãn",
+        "label": "Quyền triều chính"
+      },
+      {
+        "name": "Lữ Bố",
+        "text": "Phấn Vũ tướng quân, Ôn hầu; tham gia triều chính.",
+        "person": "Lữ Bố",
+        "label": "Vai trò quân sự"
+      },
+      {
+        "name": "Hoàng Phủ Tung",
+        "text": "Được bổ Xa kỵ tướng quân tháng năm; đề nghị giao quân cũ cho ông không được thực hiện.",
+        "person": "Hoàng Phủ Tung",
+        "label": "Phương án không thành"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 7",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷07"
+      },
+      {
+        "label": "Hậu Hán thư · quyển 66",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷66"
+      },
+      {
+        "label": "Hậu Hán thư · quyển 9",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "label": "Tư trị thông giám · quyển 60",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷060"
+      }
+    ]
+  },
+  {
+    "id": "V6-06-03",
+    "episode": "ep-0006",
+    "anchor": "Chính văn 《三國志》 ghi Lý Giác và Quách Dĩ",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Lời khuyên và lực lượng tập hợp lại",
+    "center": {
+      "name": "Giả Hủ",
+      "text": "Khuyên các tướng cũ tập hợp",
+      "person": "Giả Hủ"
+    },
+    "items": [
+      {
+        "name": "Lý Giác",
+        "text": "Dùng kế Giả Hủ.",
+        "person": "Lý Giác"
+      },
+      {
+        "name": "Quách Dĩ",
+        "text": "Dùng kế Giả Hủ.",
+        "person": "Quách Dĩ"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tam Quốc chí · quyển 6",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷06"
+      },
+      {
+        "label": "Tư trị thông giám · quyển 60",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷060"
+      }
+    ],
+    "note": "Sử ghi lời khuyên và kết quả tập hợp; không phải lời nói nguyên văn."
+  },
+  {
+    "id": "V6-06-04",
+    "episode": "ep-0006",
+    "anchor": "Đến tháng chín, theo biên niên",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Trường An đổi thế lực nắm quyền",
+    "items": [
+      {
+        "name": "Tháng 4 âm lịch",
+        "text": "Đổng Trác chết; Vương Doãn và Lữ Bố tham gia triều chính.",
+        "icon": "scroll"
+      },
+      {
+        "name": "Tháng 6 âm lịch",
+        "text": "Trường An thất thủ; Lữ Bố rời thành, Vương Doãn bị giết.",
+        "icon": "defeat"
+      },
+      {
+        "name": "Tháng 9 âm lịch",
+        "text": "Các tướng cũ Đổng Trác được ghi nhận chức tước.",
+        "icon": "banner"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Hậu Hán thư · quyển 9",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "label": "Tam Quốc chí · quyển 6",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷06"
+      },
+      {
+        "label": "Tư trị thông giám · quyển 60",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷060"
+      }
+    ],
+    "note": "Năm 192; Hán Hiến Đế vẫn tại vị. Nguồn ghi thời gian vây thành khác nhau: tám hoặc mười ngày."
+  }
+]

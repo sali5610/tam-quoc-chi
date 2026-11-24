@@ -1,0 +1,34 @@
+[
+  {
+    "key": "scroll",
+    "author": "Delapouite",
+    "url": "https://game-icons.net/1x1/delapouite/scroll-quill.html",
+    "source": "https://github.com/game-icons/icons/blob/master/delapouite/scroll-quill.svg",
+    "license": "CC BY 3.0",
+    "path": "assets/story-icons/scroll.svg"
+  },
+  {
+    "key": "grain",
+    "author": "Delapouite",
+    "url": "https://game-icons.net/1x1/delapouite/grain.html",
+    "source": "https://github.com/game-icons/icons/blob/master/delapouite/grain.svg",
+    "license": "CC BY 3.0",
+    "path": "assets/story-icons/grain.svg"
+  },
+  {
+    "key": "banner",
+    "author": "Delapouite",
+    "url": "https://game-icons.net/1x1/delapouite/flag-objective.html",
+    "source": "https://github.com/game-icons/icons/blob/master/delapouite/flag-objective.svg",
+    "license": "CC BY 3.0",
+    "path": "assets/story-icons/banner.svg"
+  },
+  {
+    "key": "defeat",
+    "author": "Lorc",
+    "url": "https://game-icons.net/1x1/lorc/broken-shield.html",
+    "source": "https://github.com/game-icons/icons/blob/master/lorc/broken-shield.svg",
+    "license": "CC BY 3.0",
+    "path": "assets/story-icons/defeat.svg"
+  }
+]
