@@ -12,7 +12,12 @@
       "rightsStatus": "public domain (Commons file record)",
       "enabled": true,
       "kind": "later artistic depiction",
-      "commonsFile": "Dong_Zhuo_Portrait.jpg"
+      "commonsFile": "Dong_Zhuo_Portrait.jpg",
+      "width": 276,
+      "height": 572,
+      "size": 111730,
+      "sourceRevision": 1209202993,
+      "verification": "Commons published SHA-1 and dimensions"
     },
     {
       "id": "xiandi",
@@ -24,7 +29,12 @@
       "rightsStatus": "public domain (Commons file record)",
       "enabled": true,
       "kind": "later artistic depiction",
-      "commonsFile": "Emperor_Xian_Qing_illustration.jpg"
+      "commonsFile": "Emperor_Xian_Qing_illustration.jpg",
+      "width": 366,
+      "height": 479,
+      "size": 45460,
+      "sourceRevision": 1228890160,
+      "verification": "Commons published SHA-1 and dimensions"
     },
     {
       "id": "yuan-shao",
@@ -35,7 +45,13 @@
       "credit": "Tam Quốc diễn nghĩa, đời Thanh; Wikimedia Commons",
       "rightsStatus": "public domain (Commons file record)",
       "enabled": true,
-      "kind": "later artistic depiction"
+      "kind": "later artistic depiction",
+      "width": 297,
+      "height": 586,
+      "sha1": null,
+      "size": null,
+      "sourceRevision": 1050801458,
+      "verification": "Commons published dimensions; SHA-1 to be recorded from first successful download"
     },
     {
       "id": "zhang-jue",
@@ -46,7 +62,13 @@
       "credit": "Tăng tượng toàn đồ Tam Quốc diễn nghĩa, 1906; Wikimedia Commons",
       "rightsStatus": "public domain (Commons file record)",
       "enabled": true,
-      "kind": "later artistic depiction"
+      "kind": "later artistic depiction",
+      "width": 330,
+      "height": 450,
+      "sha1": "1c93f81a30e45e260237896f9f5e39a2a5be46f6",
+      "size": 90189,
+      "sourceRevision": 1167323780,
+      "verification": "Commons published SHA-1 and dimensions"
     },
     {
       "id": "cao-cao",
@@ -57,7 +79,13 @@
       "credit": "Tam tài đồ hội, đời Minh; Wikimedia Commons",
       "rightsStatus": "public domain (Commons file record)",
       "enabled": true,
-      "kind": "later artistic depiction"
+      "kind": "later artistic depiction",
+      "width": 478,
+      "height": 730,
+      "sha1": "d2ed7f0e2e1a88e94b8c46c51b8757a7d1e9d3c9",
+      "size": 133262,
+      "sourceRevision": 1113004720,
+      "verification": "Commons published SHA-1 and dimensions"
     },
     {
       "id": "liu-bei",
@@ -68,7 +96,13 @@
       "credit": "Tam Quốc diễn nghĩa, đời Thanh; Wikimedia Commons",
       "rightsStatus": "public domain (Commons file record)",
       "enabled": true,
-      "kind": "later artistic depiction"
+      "kind": "later artistic depiction",
+      "width": 281,
+      "height": 605,
+      "sha1": "27dc4b284f1084269705c18249e23db265d6fb99",
+      "size": 158939,
+      "sourceRevision": 1144795705,
+      "verification": "Commons published SHA-1 and dimensions"
     },
     {
       "id": "sun-jian",
@@ -79,7 +113,13 @@
       "credit": "Tăng tượng toàn đồ Tam Quốc diễn nghĩa, 1906; Wikimedia Commons",
       "rightsStatus": "public domain (Commons file record)",
       "enabled": true,
-      "kind": "later artistic depiction"
+      "kind": "later artistic depiction",
+      "width": 360,
+      "height": 480,
+      "sha1": null,
+      "size": null,
+      "sourceRevision": null,
+      "verification": "Commons published dimensions; SHA-1 to be recorded from first successful download"
     },
     {
       "id": "he-jin",
@@ -90,7 +130,13 @@
       "credit": "Tăng tượng toàn đồ Tam Quốc diễn nghĩa, 1906; Wikimedia Commons",
       "rightsStatus": "public domain (Commons file record)",
       "enabled": true,
-      "kind": "later artistic depiction"
+      "kind": "later artistic depiction",
+      "width": 350,
+      "height": 472,
+      "sha1": "a9659788fc859b6ec1ef246ac070d029711d33a7",
+      "size": 25064,
+      "sourceRevision": 1007146788,
+      "verification": "Commons published SHA-1 and dimensions"
     }
   ],
   "fallback": [
