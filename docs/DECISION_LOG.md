@@ -24,3 +24,8 @@
 | DEC-017 | Include noteworthy Romance/folklore versions with explicit literary provenance, comparison and citations; perform completeness sweep, never silently omit | Approved 2026-11-24 |
 
 | DEC-018 | Inline reader includes sourced history/literary comparisons, verifiable public community jokes and clearly labeled original editorial satire; distinct UI provenance required | Approved 2026-11-24 |
+
+
+## Hybrid UI — 2026-11-24
+- DEC-021/022: PO approved Hybrid, iPhone/iPad first, Ink & Silk; source-compatible Chinese motion patterns.
+- DEC-023: PO approved Hybrid v4 prototype integration into React on isolated branch, regression required, no deployment or main merge. See docs/hybrid-ui-refinement for prototype decisions. Batch-02 content remains separate.

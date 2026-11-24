@@ -92,3 +92,8 @@ Project is PRIVATE, single-reader personal use. **Remove licensing/rights QA fro
 - Added self-contained interactive `prototype/ink-silk-cinematic.html`: responsive opening silk curtains, reader with sourced 168/184/189 beats, twist reveal, shock headline effect, opt-in Web Audio cue, modern note, source links, character popover, keyboard/reduced-motion support.
 - This is **a static design prototype committed to GitHub**, not React implementation, not verified in real Safari/iPhone, not deployed. Existing root `package.json` was not found. No image assets generated, no paid services, no deployment.
 - Next implementation decision: inspect reusable React animation/accessibility libraries and migrate approved prototype to React in a separately approved implementation step. Do not claim Phase 3 production ready.
+
+
+## Hybrid v4 React integration — 2026-11-24
+- Branch ui/hybrid-v4-react based on main 20c0b7c. PO approved v4 integration, not release. Pilot manifest and atlas data unchanged; Batch-02 separate. Reused StrategyMap, People, Atlas, StoryBody, portrait registry, Markdown and localStorage. Added mobile reader dock, scene navigation, context, cinematic home, portrait gallery, discrete anchor navigation, source disclosure and CSS motion. No dependencies or release workflow changes.
+- CODED; CI build and browser regression configured in existing non-deploy react-ci.yml, includes prior Atlas/portrait/journey assertions and new Chromium/WebKit matrix. TESTED status pending actual CI evidence; real iOS not tested. Last evidenced deployed SHA remains 20c0b7c. No dispatch, merge or deploy. Next: inspect exact branch CI logs, fix failures within scope, then PO review; do not publish absent separate approval.
