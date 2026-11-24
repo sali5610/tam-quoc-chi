@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: browser-gated character rendering
+# Release: atlas refactor pilot QA
 on:
   workflow_dispatch:
   push:
@@ -47,9 +47,13 @@ jobs:
               const marker=page.locator('.atlas-person-marker').filter({hasText:name});
               await marker.waitFor({state:'visible',timeout:15000});
               await marker.scrollIntoViewIfNeeded();
+              await page.locator('.strategy-board').scrollIntoViewIfNeeded();
               const ok=await marker.evaluate(el=>{const r=el.getBoundingClientRect(),b=el.closest('.strategy-board').getBoundingClientRect();const x=r.left+r.width/2,y=r.top+r.height/2;return x>b.left&&x<b.right&&y>b.top&&y<b.bottom&&el.contains(document.elementFromPoint(x,y))});
               if(!ok)throw Error('Marker clipped or obscured: '+name);
-              await marker.locator('.atlas-local-relation').waitFor({state:'visible'});
+              if(id!=='ep-0001')await marker.locator('.atlas-local-relation svg').waitFor({state:'visible'});
+              await marker.click();
+              await page.getByRole('dialog',{name:'Chi tiết sự kiện'}).waitFor({state:'visible'});
+              await page.getByRole('button',{name:'Đóng sự kiện'}).click();
               console.log('PASS visible character and relation: '+name);
             }
           } finally {await browser.close()}
