@@ -61,5 +61,32 @@
     "file": "Dong Zhuo plots to depose Emperor Shao of Han.jpg",
     "caption": "Đổng Trác mưu phế Hán Thiếu Đế — tranh đời Minh",
     "kind": "Minh họa diễn nghĩa"
+  },
+  {
+    "episode": "ep-0002",
+    "anchor": "một cảnh mở màn quá đẹp",
+    "file": "sl-0004-peach-oath",
+    "caption": "Kết nghĩa vườn đào — Tam Quốc Chí Đồ Tượng, hồi 1",
+    "kind": "Minh họa diễn nghĩa",
+    "placement": "paragraph",
+    "source": "https://sourcelibrary.org/zh/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms/page/6992f3d7dc69844b023ff3d5"
+  },
+  {
+    "episode": "ep-0003",
+    "anchor": "Hà Tiến bàn chuyện trừ hoạn quan",
+    "file": "sl-0006-he-jin",
+    "caption": "Hà Tiến mưu trừ Thập thường thị — tranh khắc đời Thanh",
+    "kind": "Minh họa diễn nghĩa",
+    "placement": "paragraph",
+    "source": "https://sourcelibrary.org/zh/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms/page/6992f3d7dc69844b023ff3d7"
+  },
+  {
+    "episode": "ep-0003",
+    "anchor": "Trần Lưu vương** lên thay",
+    "file": "sl-0006-dong-zhuo",
+    "caption": "Đổng Trác bàn lập Trần Lưu vương — hồi 3",
+    "kind": "Minh họa diễn nghĩa",
+    "placement": "paragraph",
+    "source": "https://sourcelibrary.org/zh/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms/page/6992f3d7dc69844b023ff3d7"
   }
 ]
