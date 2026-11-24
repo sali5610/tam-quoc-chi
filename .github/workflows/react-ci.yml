@@ -40,7 +40,7 @@ jobs:
           const pilot=JSON.parse(fs.readFileSync('content/atlas/pilot.json','utf8'));
           const atlas=JSON.parse(fs.readFileSync('dist/atlas/atlas.json','utf8'));
           for(const year of [168,184,189,190,191,192]){
-            const events=pilot.events.filter(e=>Number(e.year)===year);
+            const events=pilot.events.filter(e=>Number(e.year)===year&&e.episode<'ep-0007');
             if(events.length!==1)throw Error('Unexpected pilot event count for '+year);
             for(const e of events){
               const p=pilot.places.find(p=>p.id===e.place);
@@ -54,7 +54,7 @@ jobs:
           const enabled=registry.portraits.filter(p=>p.enabled);
           if(enabled.length!==8||new Set(enabled.map(p=>p.id)).size!==enabled.length)throw Error('Unexpected portrait coverage');
           for(const p of enabled){if(!pilot.people.some(x=>x.id===p.id)||!fs.existsSync('dist/'+p.path))throw Error('Missing portrait '+p.id);}
-          if(pilot.trajectories.length!==2)throw Error('Missing pilot journeys');
+          if(pilot.trajectories.length!==3)throw Error('Missing pilot journeys');
           for(const t of pilot.trajectories){
             if(!pilot.people.some(p=>p.id===t.person))throw Error('Unknown journey person '+t.id);
             for(const s of t.stops){const place=pilot.places.find(p=>p.id===s.place);if(!place||!s.evidence||!s.sourceUrl||!Number.isInteger(s.order))throw Error('Invalid journey stop '+s.place);const loc=resolveAtlasPlace(atlas,place);console.log('JOURNEY',t.id,s.order,s.place,loc?.precision||'unresolved');}

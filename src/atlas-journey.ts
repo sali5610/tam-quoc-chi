@@ -13,7 +13,9 @@ export function resolveJourney(data:Data,journey:Journey){
     if(a.length!==1||b.length!==1||orders[i]!==orders[i-1]+1)continue;
     const from=a[0].location,to=b[0].location;
     if(!from||!to||from.p.every((v,j)=>v===to.p[j]))continue;
-    segments.push({from,to,approximate:from.precision==='region'||to.precision==='region'});
+    const allowed='expectedSegments' in journey?journey.expectedSegments:undefined;
+    if(allowed&&!allowed.some(pair=>pair[0]===a[0].stop.place&&pair[1]===b[0].stop.place))continue;
+    segments.push({from,to,approximate:!!('allApproximate' in journey&&journey.allApproximate)||from.precision==='region'||to.precision==='region'});
   }
   return {stops,segments};
 }

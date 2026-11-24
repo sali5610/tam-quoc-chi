@@ -28,3 +28,10 @@ console.log('Validated '+visualIds.size+' contextual visuals across '+visualEpis
 const staged=JSON.parse(fs.readFileSync('evidence/BATCH_03_STORY_ANCHORS.json','utf8'));
 for(const plan of staged.visuals){const v=visualData.find(v=>v.id===plan.id);if(!v||v.episode!==plan.episode||v.kind!==plan.kind||!v.anchor.includes(plan.anchor)||JSON.stringify(v.evidenceIds)!==JSON.stringify(plan.evidenceIds)||v.evidenceIds.some(id=>!allEvidence.includes(id)))throw Error('Missing B03 visual plan '+plan.id);}
 console.log('Validated '+staged.visuals.length+' B03 staged visual beats');
+
+const quotes=JSON.parse(fs.readFileSync('content/wiki/quotes.json','utf8'));
+if(atlas.people.length!==67||metricSnapshots.length!==116||quotes.length!==29||atlas.events.length!==23||atlas.places.length!==53||atlas.relations.length!==46||atlas.trajectories.length!==3)throw Error('B03 integration counts');
+for(const q of quotes)if(!peopleIds.has(q.personId)||!q.original||!q.translation||!q.context||!q.sourceUrl||!q.source||Number(q.id.slice(-4))>9&&(!q.evidence||!allEvidence.includes(q.evidence)||!ids.has(q.episodeId)))throw Error('Invalid quote '+q.id);
+for(const e of staged.atlas.events){const actual=atlas.events.find(x=>x.id===e.id);if(!actual||actual.year!==e.year||actual.place!==e.place||JSON.stringify(actual.people)!==JSON.stringify(e.markers.map(x=>x.person))||!actual.sources.length)throw Error('B03 event mismatch '+e.id);}
+for(const r of staged.atlas.relations){const actual=atlas.relations.find(x=>x.id===r.id);if(!actual||actual.from!==r.from||actual.to!==r.to||actual.event!==r.event||!actual.sources.length)throw Error('B03 relation mismatch '+r.id);}
+console.log('Validated B03 Atlas data and Wiki counts');
