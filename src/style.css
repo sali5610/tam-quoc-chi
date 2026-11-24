@@ -59,3 +59,15 @@
 .radar-explain dt{font-weight:600;margin-top:10px}
 .radar-explain dd{margin:4px 0 10px;font-size:.9rem;line-height:1.5}
 .radar-explain small{display:block}
+
+/* Wiki quotations: scoped Ink & Silk editorial treatment. */
+.character-quotes{margin-block:24px 18px;min-width:0}
+.character-quotes h3{font-size:1.05rem;margin:0 0 12px}
+.character-quote{border-inline-start:2px solid #a18453;padding:12px 0 12px 14px;margin:0 0 12px;overflow-wrap:anywhere}
+.character-quote .quote-layer{font-size:.75rem;letter-spacing:.04em}
+.character-quote blockquote{margin:6px 0 12px;padding:0;border:0;background:none;font-size:1.15rem;line-height:1.55}
+.character-quote blockquote p{margin:0}
+.character-quote details{font-size:.9rem;line-height:1.6}
+.character-quote summary{cursor:pointer;min-height:44px;display:list-item;padding-block:10px;box-sizing:border-box}
+.character-quote .quote-original{font-size:1.03rem;line-height:1.8}
+.character-quote .quote-source{font-size:.82rem}

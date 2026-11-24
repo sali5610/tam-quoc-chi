@@ -1,0 +1,92 @@
+[
+  {
+    "id": "QTE-0001",
+    "personId": "cao-cao",
+    "layer": "Bùi chú",
+    "original": "寧我負人，毋人負我！",
+    "translation": "Thà ta phụ người, chớ để người phụ ta!",
+    "context": "Năm 189, sau vụ nhà Lã Bá Sa. Đây là lời do Tôn Thịnh chép; các nguồn khác kể vụ việc khác nhau.",
+    "source": "Tam Quốc Chí, Ngụy thư 1 · Vũ Đế kỷ · Bùi chú dẫn Tôn Thịnh tạp ký",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01"
+  },
+  {
+    "id": "QTE-0002",
+    "personId": "cao-cao",
+    "layer": "Tiểu thuyết",
+    "original": "寧教我負天下人，休教天下人負我。",
+    "translation": "Thà ta phụ người trong thiên hạ, chớ để người trong thiên hạ phụ ta.",
+    "context": "Dị bản văn học ở hồi 4, mở rộng phạm vi thành «người trong thiên hạ»; không phải nguyên văn sử liệu.",
+    "source": "Tam Quốc Diễn Nghĩa · hồi 4",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國演義/第004回"
+  },
+  {
+    "id": "QTE-0003",
+    "personId": "cao-cao",
+    "layer": "Chính sử",
+    "original": "舉義兵以誅暴亂，大衆已合，諸君何疑？",
+    "translation": "Dấy nghĩa binh để trừ bạo loạn, đại quân đã tụ họp, các ông còn ngần ngại gì?",
+    "context": "Năm 190, khi các lực lượng chống Đổng Trác chưa dám tiến.",
+    "source": "Tam Quốc Chí, Ngụy thư 1 · Vũ Đế kỷ",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01"
+  },
+  {
+    "id": "QTE-0004",
+    "personId": "huangfu-song",
+    "layer": "Sử liệu khác",
+    "original": "夙夜在公，心不忘忠，何故不安？",
+    "translation": "Sớm khuya lo việc công, lòng không quên trung nghĩa, sao lại không yên?",
+    "context": "Sau chiến dịch Khăn Vàng, đáp lời Diêm Trung khi được khuyên nắm thời cơ lập nghiệp riêng.",
+    "source": "Hậu Hán Thư, quyển 71 · Hoàng Phủ Tung truyện",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷71"
+  },
+  {
+    "id": "QTE-0005",
+    "personId": "zhu-jun",
+    "layer": "Sử liệu khác",
+    "original": "兵有形同而埶異者。",
+    "translation": "Việc binh có khi hình thế giống nhau mà tình thế lại khác.",
+    "context": "Năm 184, bàn việc có nên nhận quân Khăn Vàng đầu hàng ở Uyển Thành.",
+    "source": "Hậu Hán Thư, quyển 71 · Chu Tuấn truyện",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷71"
+  },
+  {
+    "id": "QTE-0006",
+    "personId": "dong-zhuo",
+    "layer": "Sử liệu khác",
+    "original": "智者不後時，勇者不留決。",
+    "translation": "Người trí không bỏ lỡ thời cơ, người dũng không chần chừ quyết định.",
+    "context": "Năm 188, khi tranh luận với Hoàng Phủ Tung về việc cứu Trần Thương.",
+    "source": "Hậu Hán Thư, quyển 71 · Hoàng Phủ Tung truyện",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷71"
+  },
+  {
+    "id": "QTE-0007",
+    "personId": "yuan-shao",
+    "layer": "Bùi chú",
+    "original": "天下健者，豈唯董公？",
+    "translation": "Trong thiên hạ, kẻ mạnh chẳng lẽ chỉ có Đổng công?",
+    "context": "Dị bản cuộc bàn việc phế lập năm 189 do Hiến Đế Xuân Thu chép. Chính Bùi Tùng Chi bác tính đáng tin của đối thoại này; không coi là lời nói chắc chắn.",
+    "source": "Tam Quốc Chí, Ngụy thư 6 · Viên Thiệu truyện · Bùi chú dẫn Hiến Đế Xuân Thu",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06"
+  },
+  {
+    "id": "QTE-0008",
+    "personId": "liu-bei",
+    "layer": "Chính sử",
+    "original": "夫濟大事必以人為本，今人歸吾，吾何忍棄去！",
+    "translation": "Muốn thành việc lớn phải lấy con người làm gốc. Nay họ theo ta, ta nỡ nào bỏ họ!",
+    "context": "Năm 208, khi có người khuyên đi nhanh về Giang Lăng thay vì tiếp tục dẫn đoàn dân theo mình.",
+    "source": "Tam Quốc Chí, Thục thư 2 · Tiên Chủ truyện (quyển 32)",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32"
+  },
+  {
+    "id": "QTE-0009",
+    "personId": "sun-jian",
+    "layer": "Bùi chú",
+    "original": "同舉義兵，將救社稷。逆賊垂破而各若此，吾當誰與戮力乎！",
+    "translation": "Cùng dấy nghĩa binh để cứu xã tắc. Giặc nghịch sắp bị phá mà ai nấy lại như thế, ta biết đồng lòng với ai đây!",
+    "context": "Sau khi tiến vào Lạc Dương, than về tranh chấp nội bộ giữa các lực lượng chống Đổng Trác; ghi theo Ngô lục.",
+    "source": "Tam Quốc Chí, Ngô thư 1 · Tôn Kiên truyện (quyển 46) · Bùi chú dẫn Ngô lục",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷46"
+  }
+]

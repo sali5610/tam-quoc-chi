@@ -48,3 +48,5 @@ The earlier decisions remain historical records; the following supersede stale d
 - DEC-025: PO approves BATCH-02 release, initially excluding Hybrid v4, then explicitly requests integration with Hybrid v4. Main already contains released Hybrid v4, so integrate on isolated branch based on exact main, keep both QA suites and publish only after combined QA passes. No rollback to old UI, no extra stack or costs.
 
 - PO approved Wiki timeline radar: six axes (strategy, military, leadership, politics, power, legitimacy), time-specific evidence, explicitly editorial ordinal scale, unknown axes not scored. No future narrative spoilers, no deploy authorization.
+
+- PO requested notable sourced quotations on Wiki in prior package. Consolidate with approved radar on integration branch only; source layers and existing stable person IDs retained; no new release authorization.
