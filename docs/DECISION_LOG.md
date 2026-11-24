@@ -38,3 +38,5 @@ The earlier decisions remain historical records; the following supersede stale d
 
 ## UI design decision — 2026-11-24
 - DEC-021: PO selects Hybrid: cinematic homepage and story-first Reader, Chronicle information architecture/Wiki/Library, War Room Atlas. Preserve Ink & Silk and existing stack/components. Approved direction only; refine isolated HTML prototype, no deploy. Prototype visual acceptance and production implementation are separate gates.
+
+- DEC-022: PO prioritizes iPhone and iPad, desktop secondary; enrich Hybrid through existing Three Kingdoms and Chinese UI/UX/motion resources. Reuse only license-compatible code/assets; reference patterns otherwise. Keep source provenance, Ink & Silk, reduced motion and existing free architecture. No deploy.
