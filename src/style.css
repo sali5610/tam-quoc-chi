@@ -305,7 +305,7 @@ body:has(.reader-layout) footer{background:var(--v5-paper);color:var(--v5-ink);b
 .episode-visual.v6-comparison .v6-node-inner{align-items:flex-start;flex-direction:column}
 .episode-visual.v6-comparison .v6-node-copy{flex:auto}
 .episode-visual.v6-comparison .v6-node{height:100%}
-.episode-visual.v6-comparison .v6-item:nth-child(3){grid-column:1/-1}
+.episode-visual.v6-comparison .v6-item:nth-child(3):last-child{grid-column:1/-1}
 .episode-visual .v6-note{font:12px/1.5 system-ui!important;color:#635e54;margin:12px 0 4px}
 .episode-visual .v6-sources{border-top:1px solid #d8cebd;margin:10px 0 0;padding:0;font:12px/1.5 system-ui}
 .episode-visual .v6-sources summary{display:flex;align-items:center;gap:6px;min-height:44px;list-style:none;font-weight:500;color:#635e54}
