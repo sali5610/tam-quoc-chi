@@ -1,4 +1,5 @@
 name: Publish isolated React preview
+# Release: shared reader and atlas map
 on:
   workflow_dispatch:
   push:
