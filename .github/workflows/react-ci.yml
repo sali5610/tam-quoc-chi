@@ -192,9 +192,13 @@ jobs:
           }
           JS
       - name: Hybrid v5 visual review capture
+        timeout-minutes: 4
         run: |
           python3 -m http.server 4175 --directory dist >/tmp/visual-server.log 2>&1 &
-          node scripts/visual-review.mjs
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          curl --fail --silent --show-error --retry 5 --retry-connrefused --retry-delay 1 --max-time 5 http://localhost:4175/ >/dev/null
+          timeout --signal=TERM --kill-after=5s 210s node scripts/visual-review.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
