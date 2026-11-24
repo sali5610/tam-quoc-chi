@@ -11,7 +11,9 @@
     "path": "assets/scenes/vis-b02-012.jpg",
     "width": 1029,
     "height": 972,
-    "rightsStatus": "Public Domain Mark on Commons; original scan visually inspected 2026-11-24; build download/dimensions/hash pending",
-    "evidence": "EVD-B02-L07"
+    "rightsStatus": "Public Domain Mark on Commons; original scan visually inspected 2026-11-24; JPEG size/dimensions/SHA1 verified in CI run 45315778391",
+    "evidence": "EVD-B02-L07",
+    "sha1": "bac9c9007b39b12b5b76ac0fc54835bd833d0746",
+    "size": 328136
   }
 ]

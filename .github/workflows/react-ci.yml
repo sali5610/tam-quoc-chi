@@ -17,7 +17,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -25,6 +25,15 @@ jobs:
           node-version: '22'
       - run: npm install --no-audit --no-fund
       - run: npm run build
+      - name: Browser regression (no deployment)
+        run: |
+          npm install --no-save --no-audit --no-fund playwright
+          npx playwright install --with-deps chromium
+          mkdir -p tam-quoc-chi
+          ln -s ../dist tam-quoc-chi/react-preview
+          python3 -m http.server 4173 --directory . > /tmp/atlas-server.log 2>&1 &
+          for i in {1..20}; do curl -fsS http://localhost:4173/tam-quoc-chi/react-preview/ >/dev/null && break; sleep 1; done
+          node scripts/browser-smoke.mjs
       - uses: actions/upload-artifact@v4
         with:
           name: react-preview
