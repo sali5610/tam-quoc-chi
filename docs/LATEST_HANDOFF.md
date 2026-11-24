@@ -92,3 +92,9 @@ Project is PRIVATE, single-reader personal use. **Remove licensing/rights QA fro
 - Added self-contained interactive `prototype/ink-silk-cinematic.html`: responsive opening silk curtains, reader with sourced 168/184/189 beats, twist reveal, shock headline effect, opt-in Web Audio cue, modern note, source links, character popover, keyboard/reduced-motion support.
 - This is **a static design prototype committed to GitHub**, not React implementation, not verified in real Safari/iPhone, not deployed. Existing root `package.json` was not found. No image assets generated, no paid services, no deployment.
 - Next implementation decision: inspect reusable React animation/accessibility libraries and migrate approved prototype to React in a separately approved implementation step. Do not claim Phase 3 production ready.
+
+
+## Reader illustrations (2026-11-24)
+- PO selected Tam Quốc Chí Đồ Tượng as mandatory first-choice event art; see docs/STORY_ART_DIRECTION.md.
+- PR #1: eight bundled WebP files, nine mapped scenes (five primary and four supplementary); 46 candidate scan-page index, empty reviewed queue, reusable bounded importer. No full corpus download. Superseded pilot/recovery/Wikimedia workflows omitted from integration; no downloads during normal build.
+- Prior CI 45310378671 passed against an earlier main snapshot. Review branch now incorporates current Atlas main changes without changing historical prose. Fresh combined build and browser preview verification still required; no new deployment authorized in this step.

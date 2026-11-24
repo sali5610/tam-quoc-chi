@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/validate-content.mjs && tsc --noEmit && vite build && mkdir -p dist/atlas && curl --fail --location --retry 2 --max-time 60 https://swordandstate.com/history-open/atlas.json -o dist/atlas/atlas.json"
+    "build": "node scripts/validate-content.mjs && tsc --noEmit && vite build && mkdir -p dist/atlas && curl --fail --location --retry 2 --max-time 60 https://swordandstate.com/history-open/atlas.json -o dist/atlas/atlas.json && node scripts/prepare-portraits.mjs"
   },
   "dependencies": {
     "react": "^19.0.0",

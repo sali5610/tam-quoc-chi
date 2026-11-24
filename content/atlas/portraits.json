@@ -4,66 +4,104 @@
   "portraits": [
     {
       "id": "dong-zhuo",
-      "upstreamId": "dongzhuo",
-      "path": "assets/portraits/dongzhuo.jpg",
-      "credit": "清代《三国演义》版画（Wikimedia Commons，公有领域）",
-      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
-      "enabled": false
+      "path": "assets/portraits/dong-zhuo.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dong_Zhuo_Portrait.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Dong_Zhuo_Portrait.jpg",
+      "sha1": "2f2d2e8a0bc0490ef39a96774a64ec773d992f2b",
+      "credit": "Tranh khắc Tam Quốc diễn nghĩa đời Thanh; Wikimedia Commons",
+      "rightsStatus": "public domain (Commons file record)",
+      "enabled": true,
+      "kind": "later artistic depiction",
+      "commonsFile": "Dong_Zhuo_Portrait.jpg"
     },
     {
       "id": "xiandi",
-      "upstreamId": "liuxie",
-      "path": "assets/portraits/liuxie.jpg",
-      "credit": "清代《三国演义》版画（Wikimedia Commons，公有领域）",
-      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
-      "enabled": false
+      "path": "assets/portraits/xiandi.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Xian_Qing_illustration.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Emperor_Xian_Qing_illustration.jpg",
+      "sha1": "23d4b63090bdd1e20c55193785ed7d7354aad069",
+      "credit": "Tăng tượng toàn đồ Tam Quốc diễn nghĩa, 1906; Wikimedia Commons",
+      "rightsStatus": "public domain (Commons file record)",
+      "enabled": true,
+      "kind": "later artistic depiction",
+      "commonsFile": "Emperor_Xian_Qing_illustration.jpg"
     },
     {
       "id": "yuan-shao",
-      "upstreamId": "yuanshao",
-      "path": "assets/portraits/yuanshao.jpg",
-      "credit": "清代《三国演义》版画（Wikimedia Commons，公有领域）",
-      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
-      "enabled": false
+      "path": "assets/portraits/yuan-shao.jpg",
+      "commonsFile": "Yuan_Shao_Portrait.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yuan_Shao_Portrait.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Yuan_Shao_Portrait.jpg",
+      "credit": "Tam Quốc diễn nghĩa, đời Thanh; Wikimedia Commons",
+      "rightsStatus": "public domain (Commons file record)",
+      "enabled": true,
+      "kind": "later artistic depiction"
     },
     {
       "id": "zhang-jue",
-      "upstreamId": "zhangjiao",
-      "path": "assets/portraits/zhangjiao.jpg",
-      "credit": "清代《三国演义》版画（Wikimedia Commons，公有领域）",
-      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
-      "enabled": false
+      "path": "assets/portraits/zhang-jue.jpg",
+      "commonsFile": "Zhang_Jue_Qing_portrait.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhang_Jue_Qing_portrait.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Zhang_Jue_Qing_portrait.jpg",
+      "credit": "Tăng tượng toàn đồ Tam Quốc diễn nghĩa, 1906; Wikimedia Commons",
+      "rightsStatus": "public domain (Commons file record)",
+      "enabled": true,
+      "kind": "later artistic depiction"
     },
     {
       "id": "cao-cao",
-      "upstreamId": "caocao",
-      "path": "assets/portraits/caocao.jpg",
-      "credit": "《三才图会》曹操像（明，王圻辑，公有领域）",
-      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
-      "enabled": false
+      "path": "assets/portraits/cao-cao.jpg",
+      "commonsFile": "Cao_Cao_scth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cao_Cao_scth.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Cao_Cao_scth.jpg",
+      "credit": "Tam tài đồ hội, đời Minh; Wikimedia Commons",
+      "rightsStatus": "public domain (Commons file record)",
+      "enabled": true,
+      "kind": "later artistic depiction"
     },
     {
       "id": "liu-bei",
-      "upstreamId": "liubei",
-      "path": "assets/portraits/liubei.jpg",
-      "credit": "清代《三国演义》版画（Wikimedia Commons，公有领域）",
-      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
-      "enabled": false
+      "path": "assets/portraits/liu-bei.jpg",
+      "commonsFile": "Liu_Bei_Portrait.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liu_Bei_Portrait.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Liu_Bei_Portrait.jpg",
+      "credit": "Tam Quốc diễn nghĩa, đời Thanh; Wikimedia Commons",
+      "rightsStatus": "public domain (Commons file record)",
+      "enabled": true,
+      "kind": "later artistic depiction"
     },
     {
       "id": "sun-jian",
-      "upstreamId": "sunjian",
-      "path": "assets/portraits/sunjian.jpg",
-      "credit": "清代《三国演义》版画（Wikimedia Commons，公有领域）",
-      "rightsStatus": "upstream-claimed-public-domain; original file provenance pending",
-      "enabled": false
+      "path": "assets/portraits/sun-jian.jpg",
+      "commonsFile": "Sun_Jian_Qing_dynasty_illustration.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sun_Jian_Qing_dynasty_illustration.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sun_Jian_Qing_dynasty_illustration.jpg",
+      "credit": "Tăng tượng toàn đồ Tam Quốc diễn nghĩa, 1906; Wikimedia Commons",
+      "rightsStatus": "public domain (Commons file record)",
+      "enabled": true,
+      "kind": "later artistic depiction"
+    },
+    {
+      "id": "he-jin",
+      "path": "assets/portraits/he-jin.jpg",
+      "commonsFile": "He_Jin_Qing_illustration.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:He_Jin_Qing_illustration.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/He_Jin_Qing_illustration.jpg",
+      "credit": "Tăng tượng toàn đồ Tam Quốc diễn nghĩa, 1906; Wikimedia Commons",
+      "rightsStatus": "public domain (Commons file record)",
+      "enabled": true,
+      "kind": "later artistic depiction"
     }
   ],
   "fallback": [
     "lingdi",
     "huangfu-song",
-    "zhu-jun",
-    "he-jin"
+    "zhu-jun"
   ],
-  "policy": "Use named seal fallback until original image provenance is verified; portraits are later artistic depictions, not contemporary likenesses."
+  "policy": "Use named seal fallback until original image provenance is verified; portraits are later artistic depictions, not contemporary likenesses.",
+  "preferredSource": {
+    "title": "三國志圖像",
+    "url": "https://sourcelibrary.org/zh/book/sanguo-zhi-tuxiang-illustrated-romance-of-the-three-kingdoms",
+    "status": "preferred for identified illustrations; no isolated pilot portraits verified yet"
+  }
 }

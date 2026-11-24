@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: atlas pilot QA after sparse role type fix
+# Release: await each zoom transition before testing next
 on:
   workflow_dispatch:
   push:
@@ -25,6 +25,26 @@ jobs:
       - run: npm run build
       - run: |
           node --input-type=module -e "import fs from 'node:fs';const d=JSON.parse(fs.readFileSync('dist/atlas/atlas.json'));if(d.license!=='CC-BY-SA-4.0'||d.version!==2||d.regions.length!==80||!d.events.length)throw Error('Atlas validation failed')"
+          node --experimental-strip-types --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import {resolveAtlasPlace} from './src/atlas-location.ts';
+          const pilot=JSON.parse(fs.readFileSync('content/atlas/pilot.json','utf8'));
+          const atlas=JSON.parse(fs.readFileSync('dist/atlas/atlas.json','utf8'));
+          for(const year of [168,184,189]){
+            const events=pilot.events.filter(e=>Number(e.year)===year);
+            if(events.length!==1)throw Error('Unexpected pilot event count for '+year);
+            for(const e of events){
+              const p=pilot.places.find(p=>p.id===e.place);
+              const city=resolveAtlasPlace(atlas,p);
+              if(!city||!Array.isArray(city.p)||!city.p.every(Number.isFinite))throw Error('Unresolved pilot coordinates '+e.id);
+              for(const id of e.people)if(!pilot.people.some(p=>p.id===id)||!e.roles[id])throw Error('Missing person or role '+id);
+              console.log('PASS input',e.id,city.name,city.p,city.precision,e.people);
+            }
+          }
+          const html=fs.readFileSync('dist/index.html','utf8');
+          const asset=html.match(/src="([^"]+\.js)"/)?.[1];
+          if(!asset||!fs.readFileSync('dist/'+asset.replace(/^\.\//,''),'utf8').includes('Atlas characters'))throw Error('Built asset missing character renderer');
+          JS
           rm -rf docs/react-preview
           mkdir -p docs/react-preview
           cp -a dist/. docs/react-preview/
@@ -39,23 +59,51 @@ jobs:
           import {chromium} from 'playwright';
           const browser=await chromium.launch({headless:true});
           try {
+            const errors=[]; const failures=[];
             const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
-            page.on('pageerror',e=>console.error(e));
-            page.on('console',m=>{if(m.type()==='error')console.error(m.text())});
-            for(const [id,name] of [['ep-0001','Hán Linh Đế'],['ep-0002','Hoàng Phủ Tung'],['ep-0003','Đổng Trác']]){
+            page.on('pageerror',e=>{errors.push(String(e));console.error(e)});
+            page.on('response',r=>{if(r.status()>=400||r.url().includes('atlas.json'))console.log('HTTP',r.status(),r.url())});
+            page.on('console',m=>{if(m.type()==='error'||m.text().includes('Atlas marker')||m.text().includes('Atlas characters'))console.log(m.text());if(/same key|duplicate key/i.test(m.text()))errors.push(m.text());});
+            for(const [id,name] of [['ep-0001','Hán Linh Đế'],['ep-0002','Hoàng Phủ Tung'],['ep-0003','Đổng Trác'],['ep-0001','Hán Linh Đế']]){
+              try {
               await page.goto('http://localhost:4173/tam-quoc-chi/react-preview/#/read/'+id);
               const marker=page.locator('.atlas-person-marker').filter({hasText:name});
-              await marker.waitFor({state:'visible',timeout:15000});
+              try {await marker.waitFor({state:'visible',timeout:15000});} catch(e){console.error('URL',page.url(),'MAP TEXT',await page.locator('.strategy-board').innerText().catch(()=>''));console.error('MAP',await page.locator('.strategy-board').count(),'MARKERS',await page.locator('.atlas-person-marker').count());throw e;}
               await marker.scrollIntoViewIfNeeded();
-              await page.locator('.strategy-board').scrollIntoViewIfNeeded();
+              await page.waitForFunction(()=>document.querySelectorAll('main .strategy-board').length===1,{},{timeout:5000});
+              await marker.locator('xpath=ancestor::div[contains(concat(" ",normalize-space(@class)," ")," strategy-board ")]').scrollIntoViewIfNeeded();
+              if(await page.locator('.atlas-person-marker').count()!==1)throw Error('Stale or duplicate character markers after navigation');
               const ok=await marker.evaluate(el=>{const r=el.getBoundingClientRect(),b=el.closest('.strategy-board').getBoundingClientRect();const x=r.left+r.width/2,y=r.top+r.height/2;return x>b.left&&x<b.right&&y>b.top&&y<b.bottom&&el.contains(document.elementFromPoint(x,y))});
               if(!ok)throw Error('Marker clipped or obscured: '+name);
+              const transparent=await marker.evaluate(el=>{const s=getComputedStyle(el);return (s.backgroundColor==='rgba(0, 0, 0, 0)'||s.backgroundColor==='transparent')&&s.borderTopWidth==='0px'&&s.boxShadow==='none'});
+              if(!transparent)throw Error('Opaque character overlay: '+name);
+              await marker.locator('.atlas-person-name').first().waitFor({state:'visible'});
+              await page.waitForFunction(()=>{const root=document.querySelector('main .strategy-board');const marker=root?.querySelector('.atlas-person-marker');if(!root||!marker)return false;const r=marker.getBoundingClientRect();return Array.from(root.querySelectorAll('.atlas-auto-label')).filter(el=>getComputedStyle(el).visibility!=='hidden').every(el=>{const b=el.getBoundingClientRect();return b.right<=r.left||b.left>=r.right||b.bottom<=r.top||b.top>=r.bottom})},{},{timeout:5000});
               if(id!=='ep-0001')await marker.locator('.atlas-local-relation svg').waitFor({state:'visible'});
               await marker.click();
               await page.getByRole('dialog',{name:'Chi tiết sự kiện'}).waitFor({state:'visible'});
               await page.getByRole('button',{name:'Đóng sự kiện'}).click();
+              if(id==='ep-0003'){
+                const board=page.locator('main .strategy-board');
+                const initial=await marker.evaluate(el=>({scale:Number(el.getAttribute('data-marker-scale')),width:el.querySelector('.atlas-marker-content').getBoundingClientRect().width}));
+                await board.locator('.leaflet-control-zoom-out').click();
+                await page.waitForFunction(({scale,width})=>{const el=document.querySelector('[data-event-id="capital-189"]');return !!el&&Number(el.getAttribute('data-marker-scale'))<scale&&el.querySelector('.atlas-marker-content').getBoundingClientRect().width<width},{scale:initial.scale,width:initial.width},{timeout:5000});
+                await board.locator('.leaflet-control-zoom-out').click();
+                await marker.locator('.atlas-marker-overview').waitFor({state:'visible',timeout:5000});
+                const overview=await marker.evaluate(el=>Number(el.getAttribute('data-marker-scale')));
+                await board.locator('.leaflet-control-zoom-in').click();
+                await page.waitForFunction(({overview,initial})=>{const el=document.querySelector('[data-event-id="capital-189"]');const scale=Number(el?.getAttribute('data-marker-scale'));return !!el&&scale>overview&&scale<initial&&!el.querySelector('.atlas-marker-overview')},{overview,initial:initial.scale},{timeout:5000});
+                await marker.locator('.atlas-person-name').first().waitFor({state:'visible'});
+                await board.locator('.leaflet-control-zoom-in').click();
+                await page.waitForFunction(({scale,width})=>{const el=document.querySelector('[data-event-id="capital-189"]');return !!el&&Math.abs(Number(el.getAttribute('data-marker-scale'))-scale)<0.001&&Math.abs(el.querySelector('.atlas-marker-content').getBoundingClientRect().width-width)<1},initial,{timeout:5000});
+                await marker.locator('.atlas-person-name').first().waitFor({state:'visible'});
+                console.log('PASS character zoom sizing and restored detail');
+              }
               console.log('PASS visible character and relation: '+name);
+              } catch(e){failures.push(id+': '+String(e));console.error('FAIL',id,String(e));}
+
             }
+            if(failures.length||errors.length)throw Error(JSON.stringify({failures,errors}));
           } finally {await browser.close()}
           JS
       - uses: actions/upload-pages-artifact@v3
