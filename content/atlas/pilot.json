@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "places": [
+    {
+      "id": "luoyang",
+      "name": "Lạc Dương",
+      "aliases": [
+        "洛陽",
+        "洛阳"
+      ],
+      "atlasIds": [
+        "luoyang",
+        "loyang"
+      ]
+    },
+    {
+      "id": "changshe",
+      "name": "Trường Xã",
+      "aliases": [
+        "長社",
+        "长社"
+      ],
+      "atlasIds": [
+        "changshe"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "lingdi",
+      "name": "Hán Linh Đế"
+    },
+    {
+      "id": "huangfu-song",
+      "name": "Hoàng Phủ Tung"
+    },
+    {
+      "id": "zhu-jun",
+      "name": "Chu Tuấn"
+    },
+    {
+      "id": "dong-zhuo",
+      "name": "Đổng Trác"
+    },
+    {
+      "id": "xiandi",
+      "name": "Hán Hiến Đế"
+    },
+    {
+      "id": "he-jin",
+      "name": "Hà Tiến"
+    },
+    {
+      "id": "yuan-shao",
+      "name": "Viên Thiệu"
+    },
+    {
+      "id": "zhang-jue",
+      "name": "Trương Giác"
+    },
+    {
+      "id": "cao-cao",
+      "name": "Tào Tháo"
+    },
+    {
+      "id": "liu-bei",
+      "name": "Lưu Bị"
+    },
+    {
+      "id": "sun-jian",
+      "name": "Tôn Kiên"
+    }
+  ],
+  "events": [
+    {
+      "id": "court-168",
+      "episode": "ep-0001",
+      "year": 168,
+      "precision": "year",
+      "place": "luoyang",
+      "people": [
+        "lingdi"
+      ],
+      "title": "Hán Linh Đế lên ngôi",
+      "source": "後漢書/卷8",
+      "kind": "historical"
+    },
+    {
+      "id": "changshe-184",
+      "episode": "ep-0002",
+      "year": 184,
+      "precision": "year",
+      "place": "changshe",
+      "people": [
+        "huangfu-song",
+        "zhu-jun"
+      ],
+      "title": "Chiến sự Trường Xã",
+      "source": "後漢書/卷71",
+      "kind": "historical"
+    },
+    {
+      "id": "capital-189",
+      "episode": "ep-0003",
+      "year": 189,
+      "precision": "year",
+      "place": "luoyang",
+      "people": [
+        "dong-zhuo",
+        "xiandi"
+      ],
+      "title": "Biến động phế lập",
+      "source": "三國志/卷06",
+      "kind": "historical"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r184",
+      "event": "changshe-184",
+      "from": "huangfu-song",
+      "to": "zhu-jun",
+      "type": "cooperation",
+      "label": "Phối hợp",
+      "direction": "mutual"
+    },
+    {
+      "id": "r189",
+      "event": "capital-189",
+      "from": "dong-zhuo",
+      "to": "xiandi",
+      "type": "enthronement",
+      "label": "Lập Hiến Đế",
+      "direction": "directed"
+    }
+  ]
+}
