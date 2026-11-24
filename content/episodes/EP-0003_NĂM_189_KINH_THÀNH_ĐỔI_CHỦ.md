@@ -41,6 +41,9 @@ Người tính dùng quân ngoài để gây sức ép không còn sống để 
 
 [Chính sử] 《三國志》卷1, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷01).
 
+> **[Ngẫm chuyện nay · Góc nhìn hiện đại]** Gọi một thế lực bên ngoài vào giải quyết xung đột nội bộ có thể làm thay đổi luôn **ai nắm quyền quyết định**. Trong công việc, trước khi trao quyền can thiệp cho một bên thứ ba, nên xác định rõ phạm vi, trách nhiệm, cơ chế dừng và người chịu trách nhiệm nếu kế hoạch đổ vỡ. Đây là phép so sánh về quản trị rủi ro, **không có nghĩa một quyết định công sở tương đương biến cố đẫm máu năm 189**.
+
+
 > **[Bùi chú]** Trong chú giải 《三國志》卷1, Bùi Tùng Chi dẫn 《魏書》 thuật lời nhận xét được gán cho **Tào Tháo**, phê phán cách Hà Tiến gọi tướng ngoài về. Đây là lời do một nguồn được dẫn lại ghi chép, **không phải lời thoại trực tiếp được xác nhận trong chính văn Trần Thọ**. [Đọc chú giải](https://zh.wikisource.org/wiki/三國志/卷01).
 
 > **[Châm biếm của biên tập]** Gọi người tới xử lý khủng hoảng, nhưng người gọi không còn để bàn giao. Một kế hoạch có phần hậu kỳ vượt xa dự tính.
