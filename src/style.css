@@ -21,3 +21,5 @@
 .strategy-board .atlas-person-marker{padding:0}
 .atlas-marker-content.atlas-marker-overview .atlas-person-rank,.atlas-marker-content.atlas-marker-overview .atlas-relation-name,.atlas-marker-content.atlas-marker-overview .atlas-event-location,.atlas-marker-content.atlas-marker-overview .atlas-person-name{display:none}
 .atlas-marker-overview .atlas-local-relation{padding-top:12px}
+
+.atlas-portrait-seal{position:relative;overflow:hidden;flex-shrink:0}.atlas-portrait-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 17%;background:#f2ebdd;pointer-events:none}
