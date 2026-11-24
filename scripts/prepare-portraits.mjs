@@ -39,7 +39,13 @@ const manifest=JSON.parse(fs.readFileSync('content/manifest.json','utf8'));
 const episodes=manifest.eras.flatMap(e=>e.arcs.flatMap(a=>a.chapters.flatMap(c=>c.episodes)));
 const ids=new Set(),paths=new Set();
 for(const a of scenes){const ep=episodes.find(e=>e.id===a.episode);if(!ep||ids.has(a.id)||paths.has(a.path)||!/^assets\/scenes\/[a-z0-9-]+\.jpg$/.test(a.path)||!a.sourceUrl||!a.credit||!a.label)throw Error('Invalid scene record '+a.id);ids.add(a.id);paths.add(a.path);const lines=fs.readFileSync(ep.source,'utf8').split('\n');const matches=lines.filter(l=>a.placement==='heading'?l==='## '+a.anchor:a.placement==='blockquote'&&l.startsWith('>')&&l.includes(a.anchor));if(matches.length!==1)throw Error('Scene anchor must match exactly once: '+a.id);}
-for(const ep of episodes)if(!scenes.some(a=>a.episode===ep.id))throw Error('Episode without any contextual/scene illustration: '+ep.id);
+// Keep the six accepted illustrated episodes and all their original asset validation.
+// Starting with Batch 03, DEC-UX-034 explicitly permits sourced v6 diagrams instead of additional historical art.
+const visuals=JSON.parse(fs.readFileSync('content/episode-visuals.json','utf8'));
+for(const ep of episodes){
+ if(ep.id<='ep-0006'&&!scenes.some(a=>a.episode===ep.id))throw Error('Missing accepted scene illustration: '+ep.id);
+ if(!scenes.some(a=>a.episode===ep.id)&&!visuals.some(v=>v.episode===ep.id&&v.items?.length&&v.sources?.length))throw Error('Episode without contextual visual: '+ep.id);
+}
 const scanCache=new Map(),panelKeys=new Set();
 for(const a of scenes){let bytes;
 if(a.crop){

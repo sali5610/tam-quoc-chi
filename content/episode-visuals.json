@@ -821,18 +821,18 @@
     "title": "Từ đầu hàng đến Thanh Châu binh",
     "items": [
       {
-        "name": "Quân Khăn Vàng đầu hàng",
-        "text": "Nhóm quân được sử ghi nhận đầu hàng.",
+        "name": "Hai nhóm được ghi riêng",
+        "text": "Quân Khăn Vàng đầu hàng; dân đi theo không mặc nhiên là binh lính.",
         "icon": "banner"
       },
       {
-        "name": "Dân đi theo",
-        "text": "Nhóm dân được ghi riêng, không mặc nhiên là binh lính.",
-        "icon": "grain"
+        "name": "Tuyển tinh nhuệ",
+        "text": "Chọn người trong nhóm quân đầu hàng, không phải từ toàn bộ dân.",
+        "icon": "scroll"
       },
       {
         "name": "Thanh Châu binh",
-        "text": "Tuyển người tinh nhuệ từ quân đầu hàng.",
+        "text": "Tên lực lượng được tuyển chọn.",
         "icon": "banner"
       }
     ],
@@ -842,7 +842,7 @@
         "url": "https://zh.wikisource.org/wiki/三國志/卷01"
       }
     ],
-    "note": "Hai nhóm đầu được phân biệt trong nguồn; bước tuyển quân chỉ từ nhóm quân đầu hàng, không phải từ toàn bộ dân. Không biểu thị tỉ lệ.",
+    "note": "Không coi toàn bộ quân đầu hàng là Thanh Châu binh và không biểu thị tỉ lệ.",
     "evidenceIds": [
       "EVD-B03-004",
       "EVD-B03-005"

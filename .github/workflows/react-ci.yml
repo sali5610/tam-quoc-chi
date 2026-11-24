@@ -76,6 +76,21 @@ jobs:
           trap 'kill "$server_pid" 2>/dev/null || true' EXIT
           curl --fail --silent --show-error --retry 5 --retry-connrefused --retry-delay 1 --max-time 5 http://localhost:4173/tam-quoc-chi/ >/dev/null
           node scripts/browser-smoke.mjs
+      - name: All-episode visual regression
+        timeout-minutes: 5
+        run: |
+          mkdir -p qa-v6
+          python3 -m http.server 4175 --directory dist >/tmp/v6-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          curl --fail --silent --show-error --retry 5 --retry-connrefused --retry-delay 1 --max-time 5 http://localhost:4175/ >/dev/null
+          timeout --signal=TERM --kill-after=5s 270s node scripts/episode-visual-smoke.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: episode-visual-v6
+          path: qa-v6
+          retention-days: 3
       - name: Hybrid mobile and tablet regression
         run: |
           python3 -m http.server 4174 --directory dist >/tmp/hybrid-server.log 2>&1 &
@@ -145,7 +160,7 @@ jobs:
                 if(await quoteCards.count()!==4)throw Error('Missing Cao Cao quotes');
                 if(await quoteSheet.locator('.character-radar').count()!==1)throw Error('Radar and quote integration missing');
                 const labels=await quoteCards.locator('.quote-layer').allTextContents();
-                if(JSON.stringify(labels)!==JSON.stringify(['[Bùi chú]','[Tiểu thuyết]','[Chính sử]']))throw Error('Quote provenance '+JSON.stringify(labels));
+                if(JSON.stringify(labels)!==JSON.stringify(['[Bùi chú]','[Tiểu thuyết]','[Chính sử]','[Chính sử]']))throw Error('Quote provenance '+JSON.stringify(labels));
                 await quoteCards.first().locator('summary').click();
                 await quoteCards.first().locator('[lang="zh-Hant"]').waitFor({state:'visible'});
                 if(!await quoteCards.first().locator('.quote-source a').getAttribute('href'))throw Error('Missing quote source');
@@ -196,21 +211,6 @@ jobs:
         run: |
           python3 -m http.server 4176 --directory dist >/tmp/motion-server.log 2>&1 &
           node scripts/motion-smoke.mjs
-      - name: All-episode visual regression
-        timeout-minutes: 5
-        run: |
-          mkdir -p qa-v6
-          python3 -m http.server 4175 --directory dist >/tmp/v6-server.log 2>&1 &
-          server_pid=$!
-          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
-          curl --fail --silent --show-error --retry 5 --retry-connrefused --retry-delay 1 --max-time 5 http://localhost:4175/ >/dev/null
-          timeout --signal=TERM --kill-after=5s 270s node scripts/episode-visual-smoke.mjs
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: episode-visual-v6
-          path: qa-v6
-          retention-days: 3
       - name: Hybrid v5 visual review capture
         timeout-minutes: 4
         run: |
