@@ -225,6 +225,182 @@
     {
       "id": "liu-dai",
       "name": "Lưu Đại"
+    },
+    {
+      "id": "bao-xin",
+      "name": "Bảo Tín"
+    },
+    {
+      "id": "chen-gong",
+      "name": "Trần Cung"
+    },
+    {
+      "id": "xun-yu",
+      "name": "Tuân Úc"
+    },
+    {
+      "id": "cheng-yu",
+      "name": "Trình Dục"
+    },
+    {
+      "id": "mao-jie",
+      "name": "Mao Giới"
+    },
+    {
+      "id": "gongsun-zan",
+      "name": "Công Tôn Toản"
+    },
+    {
+      "id": "tao-qian",
+      "name": "Đào Khiêm"
+    },
+    {
+      "id": "tian-kai",
+      "name": "Điền Khải"
+    },
+    {
+      "id": "zhang-miao",
+      "name": "Trương Mạc"
+    },
+    {
+      "id": "zhang-chao",
+      "name": "Trương Siêu"
+    },
+    {
+      "id": "mi-zhu",
+      "name": "My Trúc"
+    },
+    {
+      "id": "chen-deng",
+      "name": "Trần Đăng"
+    },
+    {
+      "id": "kong-rong",
+      "name": "Khổng Dung"
+    },
+    {
+      "id": "xiahou-dun",
+      "name": "Hạ Hầu Đôn"
+    },
+    {
+      "id": "dian-wei",
+      "name": "Điển Vi"
+    },
+    {
+      "id": "fan-chou",
+      "name": "Phàn Trù"
+    },
+    {
+      "id": "yang-biao",
+      "name": "Dương Bưu"
+    },
+    {
+      "id": "zhang-ji",
+      "name": "Trương Tế"
+    },
+    {
+      "id": "yang-feng",
+      "name": "Dương Phụng"
+    },
+    {
+      "id": "dong-cheng",
+      "name": "Đổng Thừa"
+    },
+    {
+      "id": "ju-shou",
+      "name": "Cư Thụ"
+    },
+    {
+      "id": "sun-ce",
+      "name": "Tôn Sách"
+    },
+    {
+      "id": "zhou-yu",
+      "name": "Chu Du"
+    },
+    {
+      "id": "cao-song",
+      "name": "Tào Tung"
+    },
+    {
+      "id": "que-xuan",
+      "name": "Khuyết Tuyên"
+    },
+    {
+      "id": "cao-bao",
+      "name": "Tào Báo"
+    },
+    {
+      "id": "zhang-yang",
+      "name": "Trương Dương"
+    },
+    {
+      "id": "zhang-yan",
+      "name": "Trương Yến"
+    },
+    {
+      "id": "guo-gong",
+      "name": "Quách Cống"
+    },
+    {
+      "id": "jin-yun",
+      "name": "Cận Doãn"
+    },
+    {
+      "id": "zao-zhi",
+      "name": "Táo Chi"
+    },
+    {
+      "id": "han-hao",
+      "name": "Hàn Hạo"
+    },
+    {
+      "id": "ma-teng",
+      "name": "Mã Đằng"
+    },
+    {
+      "id": "han-sui",
+      "name": "Hàn Toại"
+    },
+    {
+      "id": "qu-yi",
+      "name": "Khúc Nghĩa"
+    },
+    {
+      "id": "guo-tu",
+      "name": "Quách Đồ"
+    },
+    {
+      "id": "chunyu-qiong",
+      "name": "Thuần Vu Quỳnh"
+    },
+    {
+      "id": "fu-shou",
+      "name": "Phục Thọ"
+    },
+    {
+      "id": "yang-ding",
+      "name": "Dương Định"
+    },
+    {
+      "id": "hu-cai",
+      "name": "Hồ Tài"
+    },
+    {
+      "id": "li-le",
+      "name": "Lý Lạc"
+    },
+    {
+      "id": "han-xian",
+      "name": "Hàn Xiêm"
+    },
+    {
+      "id": "qubei",
+      "name": "Khứ Ti"
+    },
+    {
+      "id": "duan-wei",
+      "name": "Đoàn Ổi"
     }
   ],
   "events": [
