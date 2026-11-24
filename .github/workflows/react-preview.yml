@@ -1,5 +1,5 @@
 name: Publish isolated React preview
-# Release: character readability and label collision regression
+# Release: zoom-responsive character marker and overview QA
 on:
   workflow_dispatch:
   push:
@@ -83,6 +83,19 @@ jobs:
               await marker.click();
               await page.getByRole('dialog',{name:'Chi tiết sự kiện'}).waitFor({state:'visible'});
               await page.getByRole('button',{name:'Đóng sự kiện'}).click();
+              if(id==='ep-0003'){
+                const board=page.locator('main .strategy-board');
+                const initial=await marker.evaluate(el=>({scale:Number(el.getAttribute('data-marker-scale')),width:el.querySelector('.atlas-marker-content').getBoundingClientRect().width}));
+                await board.locator('.leaflet-control-zoom-out').click();
+                await page.waitForFunction(({scale,width})=>{const el=document.querySelector('[data-event-id="capital-189"]');return !!el&&Number(el.getAttribute('data-marker-scale'))<scale&&el.querySelector('.atlas-marker-content').getBoundingClientRect().width<width},{scale:initial.scale,width:initial.width},{timeout:5000});
+                await board.locator('.leaflet-control-zoom-out').click();
+                await marker.locator('.atlas-marker-overview').waitFor({state:'visible',timeout:5000});
+                await board.locator('.leaflet-control-zoom-in').click();
+                await board.locator('.leaflet-control-zoom-in').click();
+                await page.waitForFunction(({scale,width})=>{const el=document.querySelector('[data-event-id="capital-189"]');return !!el&&Math.abs(Number(el.getAttribute('data-marker-scale'))-scale)<0.001&&Math.abs(el.querySelector('.atlas-marker-content').getBoundingClientRect().width-width)<1},initial,{timeout:5000});
+                await marker.locator('.atlas-person-name').first().waitFor({state:'visible'});
+                console.log('PASS character zoom sizing and restored detail');
+              }
               console.log('PASS visible character and relation: '+name);
               } catch(e){failures.push(id+': '+String(e));console.error('FAIL',id,String(e));}
 
