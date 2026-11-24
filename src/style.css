@@ -263,8 +263,7 @@ header.site-header.reading-header .menu{color:var(--v5-ink)}
 /* DEC-UX-032: one primary bottom navigation on every page. Reader tools are a contextual second row of the sticky header. */
 header.site-header.reading-header{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);column-gap:6px;row-gap:0;padding-bottom:0;align-items:center}
 .reading-header>.menu{justify-self:start}
-.reading-header>.reader-brand{justify-self:center}
-.reading-header>a:last-of-type{justify-self:end;white-space:nowrap}
+.reading-header>.reader-brand{grid-column:2;justify-self:center;align-items:center;min-height:44px;white-space:nowrap;font-weight:700}
 .reading-header .reader-dock{width:100%;max-width:720px;padding:2px 0;gap:0}
 .reading-header .reader-dock button{min-height:44px;font-size:11px;gap:2px;padding:3px 2px;flex:1}
 .reading-header .reader-progress{order:2}

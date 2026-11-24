@@ -37,6 +37,7 @@ for(const engine of [chromium,webkit]){
   const footer=page.locator('footer[aria-label="Điều hướng chính"]');
   if(await footer.count()!==1||await footer.locator('a').count()!==5||await footer.locator('a[aria-current="page"]').getAttribute('href')!=='#/library')throw Error('Primary navigation inconsistent in Reader');
   if(await page.locator('header.reading-header .reader-tools').count()!==1||await page.locator('main .reader-tools').count())throw Error('Reader toolbar not in header');
+  if(await page.locator('header.reading-header a[href="#/library"]').count()||await page.locator('header.reading-header .reader-brand').evaluate(e=>e.tagName!=='SPAN'))throw Error('Duplicate library navigation in Reader header');
   const dock=page.locator('header.reading-header .reader-dock');
   if(!await dock.evaluate(e=>[...e.querySelectorAll('button')].every(b=>{const r=b.getBoundingClientRect();return r.height>=44&&r.width>=44&&r.left>=0&&r.right<=innerWidth+1})))throw Error('Reader dock target');
   await shot('reader');
