@@ -142,7 +142,19 @@
   "fallback": [
     "lingdi",
     "huangfu-song",
-    "zhu-jun"
+    "zhu-jun",
+    "yuan-shu",
+    "han-fu",
+    "liu-yu",
+    "wang-yun",
+    "lu-bu",
+    "shisun-rui",
+    "li-jue",
+    "guo-si",
+    "jia-xu",
+    "liu-biao",
+    "cao-hong",
+    "liu-dai"
   ],
   "policy": "Use named seal fallback until original image provenance is verified; portraits are later artistic depictions, not contemporary likenesses.",
   "preferredSource": {

@@ -46,6 +46,36 @@
               ]
             }
           ]
+        },
+        {
+          "id": "arc-anti-dong",
+          "title": "Thiên hạ chống Đổng Trác",
+          "chapters": [
+            {
+              "id": "ch-anti-dong",
+              "title": "Liên minh và cuộc tranh quyền",
+              "episodes": [
+                {
+                  "id": "ep-0004",
+                  "title": "Thiên hạ cùng khởi binh",
+                  "years": "190",
+                  "source": "content/episodes/EP-0004_THIÊN_HẠ_CÙNG_KHỞI_BINH.md"
+                },
+                {
+                  "id": "ep-0005",
+                  "title": "Kẻ thù còn sống, đồng minh đã trở mặt",
+                  "years": "190–191",
+                  "source": "content/episodes/EP-0005_KẺ_THÙ_CÒN_SỐNG_ĐỒNG_MINH_ĐÃ_TRỞ_MẶT.md"
+                },
+                {
+                  "id": "ep-0006",
+                  "title": "Đổng Trác chết, nhà Hán vẫn chưa được cứu",
+                  "years": "192",
+                  "source": "content/episodes/EP-0006_ĐỔNG_TRÁC_CHẾT_NHÀ_HÁN_VẪN_CHƯA_ĐƯỢC_CỨU.md"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

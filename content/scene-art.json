@@ -1,0 +1,19 @@
+[
+  {
+    "id": "VIS-B02-012",
+    "episode": "ep-0006",
+    "anchor": "Điêu Thuyền và liên hoàn kế",
+    "title": "Phượng Nghi đình",
+    "label": "Minh họa Tam Quốc diễn nghĩa — tranh đời sau",
+    "credit": "Bản Chu Viết Hiệu, 1591 · Shidian Guji, ảnh 147 · Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fengyi_Pavilion,_L%C3%BC_bu,_Daochan-Three_Kingdoms-Zhou_Yuejiao_edition.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Fengyi_Pavilion%2C_L%C3%BC_bu%2C_Daochan-Three_Kingdoms-Zhou_Yuejiao_edition.jpg",
+    "path": "assets/scenes/vis-b02-012.jpg",
+    "width": 1029,
+    "height": 972,
+    "rightsStatus": "Public Domain Mark on Commons; original scan visually inspected 2026-11-24; JPEG size/dimensions/SHA1 verified in CI run 45315778391",
+    "evidence": "EVD-B02-L07",
+    "sha1": "bac9c9007b39b12b5b76ac0fc54835bd833d0746",
+    "size": 328136
+  }
+]

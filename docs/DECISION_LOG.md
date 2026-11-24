@@ -31,3 +31,18 @@
 - DEC-023: PO approved Hybrid v4 prototype integration into React on isolated branch, regression required, no deployment or main merge. See docs/hybrid-ui-refinement for prototype decisions. Batch-02 content remains separate.
 
 - DEC-024: PO explicitly approves release of Hybrid v4 to existing GitHub Pages. Publish only tested Hybrid code plus release verification/docs; no Batch-02 content, stack changes or paid services. Require public SHA and live smoke evidence; physical device acceptance separate.
+
+## Batch 02 reconciliation
+## Current decisions / observed state — 2026-11-24 (Chat 00 reconciliation)
+The earlier decisions remain historical records; the following supersede stale descriptions, not retroactive approvals.
+- DEC-001: superseded as factual repository status; GitHub reports PUBLIC. Personal use intent remains distinct from actual access. No visibility change authorized in Chat 00.
+- DEC-006/007: superseded by approved Phase 4 architecture: free GitHub Pages only; React + Vite + TypeScript + Leaflet, Markdown/JSON/localStorage. No Vercel/backend/paid services.
+- DEC-009/012/016: pilot research-only restriction superseded by subsequent PO approval to draft and implement pilot; three episodes exist and are deployed. Separate editorial acceptance is not inferred.
+- DEC-018: community reactions optional and must be real, original satire separately labeled.
+- DEC-019 (PO direction carried from prior work): prioritize 三國志圖像 for suitable verified illustrations; supplement with other suitable sourced artwork; no AI art without explicit request. Ink & Silk remains.
+- DEC-020 (PO instruction for Chat 00): reconcile docs/backlog only, no feature code, narrative or deployment; work package handoff and stop.
+- Release evidence: main 20c0b7cde08914da707cd4b490b780f2c0ea427a, successful runs 45312216495 and 45312216688. Actual public site fetch not independently verified in Chat 00.
+
+- B02-DEC-021 (PO, 2026-11-24): personal-use intent; do not block visual discovery, mapping or local prototype evaluation solely because explicit image reuse permission has not been established. Record known rights or unknown without exhaustive clearance research; prefer suitable openly reusable art where available. Keep original source, scene/person accuracy, file decode, crop and dedup checks mandatory. Public GitHub repo/Pages is not private; personal-use intent does not establish legal permission for public redistribution. Flag unresolved rights for public release, do not claim clearance, bypass access restrictions, or auto-deploy.
+
+- DEC-025: PO approves BATCH-02 release, initially excluding Hybrid v4, then explicitly requests integration with Hybrid v4. Main already contains released Hybrid v4, so integrate on isolated branch based on exact main, keep both QA suites and publish only after combined QA passes. No rollback to old UI, no extra stack or costs.
