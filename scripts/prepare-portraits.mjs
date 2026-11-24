@@ -31,3 +31,8 @@ for(const p of registry.portraits.filter(p=>p.enabled)){
   const out=path.join('dist',p.path);fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,bytes);
   console.log('PASS portrait',p.id,sha1,bytes.length,dimensions.width+'x'+dimensions.height,p.sha1?'pinned':'dimensions verified; record checksum');
 }
+
+// Scene art: a source-inspected full plate, no invented crop or hash. Keep distinct from portrait registry.
+const scenes=JSON.parse(fs.readFileSync('content/scene-art.json','utf8'));
+const knownHashes=new Set(registry.portraits.filter(p=>p.enabled&&p.sha1).map(p=>p.sha1));
+for(const a of scenes){const bytes=curl(a.downloadUrl);const sha1=createHash('sha1').update(bytes).digest('hex');const dim=jpegSize(bytes);if(dim.width!==a.width||dim.height!==a.height||knownHashes.has(sha1)||(a.sha1&&sha1!==a.sha1))throw Error('Scene identity or duplicate: '+a.id);knownHashes.add(sha1);const out=path.join('dist',a.path);fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,bytes);console.log('PASS scene',a.id,sha1,bytes.length,dim.width+'x'+dim.height);}

@@ -39,3 +39,5 @@
 .atlas-journey-list button:disabled{border:0;background:transparent;padding:0;color:#765e4e}
 .atlas-journey-list details{padding:0;margin:4px 0}
 .atlas-journey-list details p{font-size:13px;margin:4px 0}
+
+.scene-art{margin:1.5rem 0;border:1px solid #a18453;padding:.75rem;border-radius:6px}.scene-art img{display:block;max-width:100%;height:auto;margin:auto}.scene-art figcaption{font-size:.85rem;line-height:1.5;margin-top:.6rem}

@@ -119,6 +119,18 @@
         "南陽·宛",
         "南陽"
       ]
+    },
+    {
+      "id": "changan",
+      "name": "Trường An",
+      "aliases": [
+        "長安",
+        "长安"
+      ],
+      "atlasIds": [
+        "changan",
+        "chang-an"
+      ]
     }
   ],
   "people": [
@@ -165,6 +177,54 @@
     {
       "id": "sun-jian",
       "name": "Tôn Kiên"
+    },
+    {
+      "id": "yuan-shu",
+      "name": "Viên Thuật"
+    },
+    {
+      "id": "han-fu",
+      "name": "Hàn Phức"
+    },
+    {
+      "id": "liu-yu",
+      "name": "Lưu Ngu"
+    },
+    {
+      "id": "wang-yun",
+      "name": "Vương Doãn"
+    },
+    {
+      "id": "lu-bu",
+      "name": "Lữ Bố"
+    },
+    {
+      "id": "shisun-rui",
+      "name": "Sĩ Tôn Thụy"
+    },
+    {
+      "id": "li-jue",
+      "name": "Lý Giác"
+    },
+    {
+      "id": "guo-si",
+      "name": "Quách Dĩ"
+    },
+    {
+      "id": "jia-xu",
+      "name": "Giả Hủ"
+    },
+    {
+      "id": "liu-biao",
+      "name": "Lưu Biểu"
+    },
+    {
+      "id": "cao-hong",
+      "name": "Tào Hồng"
+    },
+    {
+      "id": "liu-dai",
+      "name": "Lưu Đại"
     }
   ],
   "events": [
@@ -244,6 +304,79 @@
           "title": "Hoàng đế"
         }
       }
+    },
+    {
+      "id": "luoyang-190",
+      "episode": "ep-0004",
+      "year": 190,
+      "precision": "year",
+      "place": "luoyang",
+      "people": [
+        "dong-zhuo"
+      ],
+      "title": "Đốt Lạc Dương (tháng ba âm lịch)",
+      "source": "後漢書/卷9",
+      "kind": "historical",
+      "evidence": "EVD-B02-005",
+      "roles": {
+        "dong-zhuo": {
+          "rank": 4,
+          "influence": 5,
+          "faction": "dong",
+          "title": "Quyền thần"
+        }
+      }
+    },
+    {
+      "id": "luoyang-191",
+      "episode": "ep-0005",
+      "year": 191,
+      "precision": "year",
+      "place": "luoyang",
+      "people": [
+        "sun-jian"
+      ],
+      "title": "Tôn Kiên vào Lạc Dương, sửa các lăng",
+      "source": "三國志/卷46",
+      "kind": "historical",
+      "evidence": "EVD-B02-017",
+      "roles": {
+        "sun-jian": {
+          "rank": 3,
+          "influence": 3,
+          "faction": "yuan-shu",
+          "title": "Phá Lỗ tướng quân (hành)"
+        }
+      }
+    },
+    {
+      "id": "changan-192",
+      "episode": "ep-0006",
+      "year": 192,
+      "precision": "year",
+      "place": "changan",
+      "people": [
+        "wang-yun",
+        "lu-bu"
+      ],
+      "title": "Vương Doãn và Lữ Bố tham gia trừ Đổng Trác",
+      "source": "三國志/卷07",
+      "kind": "historical",
+      "evidence": "EVD-B02-027/028",
+      "roles": {
+        "wang-yun": {
+          "rank": 4,
+          "influence": 4,
+          "faction": "han",
+          "title": "Tư đồ"
+        },
+        "lu-bu": {
+          "rank": 3,
+          "influence": 3,
+          "faction": "dong",
+          "title": "Trung lang tướng (trước biến cố)"
+        }
+      }
     }
   ],
   "relations": [
@@ -264,6 +397,15 @@
       "type": "enthronement",
       "label": "Lập Hiến Đế",
       "direction": "directed"
+    },
+    {
+      "id": "r192",
+      "event": "changan-192",
+      "from": "wang-yun",
+      "to": "lu-bu",
+      "type": "cooperation",
+      "label": "Cùng lập kế",
+      "direction": "mutual"
     }
   ],
   "trajectories": [
