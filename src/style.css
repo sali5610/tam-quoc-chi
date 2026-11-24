@@ -314,3 +314,11 @@ body:has(.reader-layout) footer{background:var(--v5-paper);color:var(--v5-ink);b
 .episode-visual .v6-sources a{display:block;padding:5px 0;color:#635e54;overflow-wrap:anywhere}
 @media(max-width:359px){.episode-visual.v6-comparison .v6-items{grid-template-columns:1fr}}
 @media(min-width:640px){.reader-layout .episode-visual{padding:22px}.episode-visual.v6-network .v6-items{grid-template-columns:repeat(2,minmax(0,1fr))}.episode-visual.v6-network .v6-item:before{display:none}.episode-visual.v6-comparison .v6-node-inner{flex-direction:row}}
+
+/* V6 screenshot QA: fit the entire CJK fallback, and connect the network trunk to its group. */
+.episode-visual .v6-person .portrait-placeholder{padding:3px;min-width:0;min-height:0;gap:0}
+.episode-visual .v6-person .portrait-placeholder span{font-size:16px;line-height:1.15;letter-spacing:0;display:block;width:100%;max-height:100%;white-space:normal;overflow-wrap:anywhere;font-weight:500}
+.episode-visual .v6-center{max-width:none}
+.episode-visual .v6-center>.v6-node{max-width:380px;margin:0 auto}
+.episode-visual .v6-branch{width:50%;margin:0;height:18px;border-left:0;border-right:1px dashed #82643d;border-bottom:1px dashed #82643d}
+@media(min-width:640px){.episode-visual.v6-network .v6-items{border-top:1px dashed #82643d;padding-top:10px}.episode-visual .v6-branch{width:1px;border-bottom:0;margin:auto}}
