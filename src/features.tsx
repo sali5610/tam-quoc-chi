@@ -9,7 +9,7 @@ import pilot,{type AtlasEdge} from './atlas-data';
 type Person=[string,string,string,string,number];const people=entities.people as unknown as Record<string,Person>;const episodes=manifest.eras.flatMap(e=>e.arcs.flatMap(a=>a.chapters.flatMap(c=>c.episodes)));
 // The Reader and Wiki use the same episode membership; keep legacy authored
 // markers as well, and do not promote research-only names to invented profiles.
-const readerPeople=(body:string,id:string)=>Object.keys(people).filter(n=>body.includes('**'+n+'**')||(id>='ep-0007'&&entities.references[n as keyof typeof entities.references]?.episodes.includes(id)));
+const readerPeople=(body:string,id:string)=>Object.keys(people).filter(n=>body.includes('**'+n+'**')||entities.references[n as keyof typeof entities.references]?.episodes.includes(id));
 type Mark={id:string,y:number};function read<T>(k:string,f:T):T{try{return JSON.parse(localStorage.getItem(k)||'null')??f}catch{return f}}function save(k:string,v:unknown){try{localStorage.setItem(k,JSON.stringify(v))}catch{}}
 export function Portrait({name}:{name:string}){const portrait=portraitForName(name);const [failed,setFailed]=useState(false);return <div className="portrait-frame" data-person-name={name}>{portrait&&!failed?<img className="portrait historical-portrait" src={portraitUrl(portrait.path)} alt={'Tranh minh họa '+name} loading="lazy" onError={()=>setFailed(true)}/>:<div className="portrait portrait-placeholder" role="img" aria-label={'Chưa có tranh xác minh cho '+name}><span>{people[name]?.[0]||name}</span></div>}</div>}
 function childText(node:unknown):string{if(typeof node==='string')return node;if(Array.isArray(node))return node.map(childText).join(' ');if(node&&typeof node==='object'&&'props' in node)return childText((node as {props:{children?:unknown}}).props.children);return ''}
@@ -93,16 +93,16 @@ export function StoryBody({body,id,satire=true}:{body:string,id:string,satire?:b
  // B03 plain-text names with a canonical Wiki backlink may not have an
  // explicit bold marker. Link those names without changing source Markdown,
  // flattening, evidence anchors, or the existing visual and motion hierarchy.
- const unmarked=id>='ep-0007'?readerPeople(story,id).filter(n=>!story.includes('**'+n+'**')).sort((a,b)=>b.length-a.length):[];
+ const unmarked=readerPeople(story,id).filter(n=>!story.includes('**'+n+'**')&&(id>='ep-0007'||(people[n]?.[4]??0)>=10)).sort((a,b)=>b.length-a.length);
  const missingNames=new Set(unmarked);
- const aliasNames:Record<string,string>=id==='ep-0011'?{'Mi Trúc':'My Trúc'}:id==='ep-0017'?{'Lưu Đại người Bái':'Lưu Đại (Công Sơn)'}:{};
+ const aliasNames:Record<string,string>=id==='ep-0011'?{'Mi Trúc':'My Trúc'}:id==='ep-0017'?{'Lưu Đại người Bái':'Lưu Đại (Công Sơn)','Hiến Đế':'Hán Hiến Đế'}:id==='ep-0010'?{'Hiến Đế':'Hán Hiến Đế'}:{};
  const escapeName=(name:string)=>name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
  const patterns=[...unmarked.filter(n=>!(id==='ep-0017'&&n==='Lưu Đại')).map(escapeName),...Object.keys(aliasNames).map(escapeName)];
  if(id==='ep-0017')patterns.unshift('Lưu Đại(?= và Vương Trung| ở đây)','Lưu Đại(?= chết năm 192)');
  const personPattern=patterns.length?new RegExp('('+patterns.join('|')+')','g'):null;
- const linkPlain=(value:ReactNode)=>typeof value==='string'&&personPattern?value.split(personPattern).map((part,i,parts)=>{const target=aliasNames[part]||(id==='ep-0017'&&part==='Lưu Đại'&&!parts[i+1]?.startsWith(' chết năm 192')?'Lưu Đại (Công Sơn)':missingNames.has(part)?part:'');return target&&people[target]?<button key={i} className="inline-person" onClick={()=>setName(target)}>{part}</button>:part}):value;
+ const linkPlain=(value:ReactNode)=>typeof value==='string'&&personPattern?value.split(personPattern).map((part,i,parts)=>{const target=aliasNames[part]||(id==='ep-0017'&&part==='Lưu Đại'&&!parts[i+1]?.startsWith(' chết năm 192')?'Lưu Đại (Công Sơn)':missingNames.has(part)?part:'');return target&&people[target]?<button key={i} className="inline-person" data-person-name={target} onClick={()=>setName(target)}>{part}</button>:part}):value;
  // Mark plain-text anchors too; bold anchors continue to use the existing strong renderer.
- const markText=(children:ReactNode)=>id<'ep-0007'?children:Children.map(children,child=>{
+ const markText=(children:ReactNode)=>id<'ep-0007'?Children.map(children,linkPlain):Children.map(children,child=>{
   if(typeof child!=='string')return child;if(!beats)return linkPlain(child);
   const targets=[...beats.circle.map(anchor=>({anchor,type:'circle' as const})),...beats.underline.map(anchor=>({anchor,type:'underline' as const}))];
   const hit=targets.map(t=>({...t,index:child.indexOf(t.anchor)})).filter(t=>t.index>=0).sort((a,b)=>a.index-b.index)[0];
@@ -110,7 +110,7 @@ export function StoryBody({body,id,satire=true}:{body:string,id:string,satire?:b
  });
  return <><div className={satire?'story-content':'story-content hide-satire'}><Markdown components={{
  a:({href,children})=>{let decoded=href;try{decoded=href?decodeURIComponent(href):href}catch{}const target=episodes.find(e=>e.source.split('/').pop()===decoded);return <a href={target?'#/read/'+target.id:href}>{children}</a>},
- strong:({children})=>{const n=typeof children==='string'?children:'';if(n==='[Châm biếm của biên tập]'||n==='[Ngẫm chuyện nay · Góc nhìn hiện đại]')return null;const item=people[n]?<button className="inline-person" onClick={()=>setName(n)}>{n}</button>:<strong>{linkPlain(children)}</strong>;const type=beats?.circle.includes(n)?'circle':beats?.underline.includes(n)?'underline':null;return type?<HandMark type={type}>{item}</HandMark>:item},
+ strong:({children})=>{const n=typeof children==='string'?children:'';if(n==='[Châm biếm của biên tập]'||n==='[Ngẫm chuyện nay · Góc nhìn hiện đại]')return null;const item=people[n]?<button className="inline-person" data-person-name={n} onClick={()=>setName(n)}>{n}</button>:<strong>{linkPlain(children)}</strong>;const type=beats?.circle.includes(n)?'circle':beats?.underline.includes(n)?'underline':null;return type?<HandMark type={type}>{item}</HandMark>:item},
  h1:()=>null,
  p:({children,node})=>{const raw=flatten(node);const decision=beats?.decisions.find(d=>raw.includes(d.anchor));const reveal=id<'ep-0010'&&beats?.reveal&&raw.startsWith(beats.reveal.anchor)?beats.reveal:null;if(reveal)return <InkReveal title={reveal.title}><p>{children}</p></InkReveal>;return <><Unveil as="p">{markText(children)}{decision&&<DecisionSeal>{decision.label}</DecisionSeal>}</Unveil>{visual(raw,'paragraph')}</>},
  blockquote:({children,node})=>{

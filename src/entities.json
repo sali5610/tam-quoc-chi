@@ -3140,13 +3140,19 @@
     },
     "Trương Phi": {
       "episodes": [
+        "ep-0002",
+        "ep-0004",
+        "ep-0005",
         "ep-0011",
         "ep-0015"
       ],
       "evidence": [
         "EVD-B04-012",
         "EVD-B04-013",
-        "EVD-B04-131"
+        "EVD-B04-131",
+        "EVD-B02-L04",
+        "EVD-B02-013",
+        "EVD-B02-014"
       ],
       "sources": [
         {
@@ -3236,7 +3242,8 @@
     },
     "Vương Lãng": {
       "episodes": [
-        "ep-0012"
+        "ep-0012",
+        "ep-0018"
       ],
       "evidence": [
         "EVD-B04-068",
@@ -3252,7 +3259,9 @@
     "Trương Tú": {
       "episodes": [
         "ep-0014",
-        "ep-0017"
+        "ep-0015",
+        "ep-0017",
+        "ep-0018"
       ],
       "evidence": [
         "EVD-B04-027",
@@ -3262,7 +3271,9 @@
         "EVD-B04-044",
         "EVD-B04-064",
         "EVD-B04-076",
-        "EVD-B04-077"
+        "EVD-B04-077",
+        "EVD-B04-090",
+        "EVD-B04-132"
       ],
       "sources": [
         {
@@ -3281,10 +3292,12 @@
     },
     "Tuân Du": {
       "episodes": [
+        "ep-0007",
         "ep-0015"
       ],
       "evidence": [
-        "EVD-B04-034"
+        "EVD-B04-034",
+        "EVD-B03-014"
       ],
       "sources": [
         {
@@ -3295,13 +3308,15 @@
     },
     "Quách Gia": {
       "episodes": [
+        "ep-0007",
         "ep-0015",
         "ep-0017"
       ],
       "evidence": [
         "EVD-B04-034",
         "EVD-B04-050",
-        "EVD-B04-124"
+        "EVD-B04-124",
+        "EVD-B03-014"
       ],
       "sources": [
         {
@@ -3316,13 +3331,20 @@
     },
     "Quan Vũ": {
       "episodes": [
+        "ep-0002",
+        "ep-0004",
+        "ep-0005",
         "ep-0015",
-        "ep-0017"
+        "ep-0017",
+        "ep-0018"
       ],
       "evidence": [
         "EVD-B04-047",
         "EVD-B04-095",
-        "EVD-B04-120"
+        "EVD-B04-120",
+        "EVD-B02-L04",
+        "EVD-B02-013",
+        "EVD-B02-014"
       ],
       "sources": [
         {
@@ -3341,13 +3363,16 @@
     },
     "Tôn Quyền": {
       "episodes": [
+        "ep-0002",
+        "ep-0005",
         "ep-0018"
       ],
       "evidence": [
         "EVD-B04-054",
         "EVD-B04-060",
         "EVD-B04-061",
-        "EVD-B04-067"
+        "EVD-B04-067",
+        "EVD-B02-023"
       ],
       "sources": [
         {
@@ -3367,11 +3392,13 @@
     "Trương Chiêu": {
       "episodes": [
         "ep-0012",
+        "ep-0013",
         "ep-0018"
       ],
       "evidence": [
         "EVD-B04-065",
-        "EVD-B04-067"
+        "EVD-B04-067",
+        "EVD-B04-022"
       ],
       "sources": [
         {
@@ -3435,13 +3462,15 @@
     },
     "Tôn Bí": {
       "episodes": [
+        "ep-0005",
         "ep-0012",
         "ep-0013",
         "ep-0018"
       ],
       "evidence": [
         "EVD-B04-017",
-        "EVD-B04-116"
+        "EVD-B04-116",
+        "EVD-B02-023"
       ],
       "sources": [
         {
@@ -3473,10 +3502,13 @@
     "Trương Hoành": {
       "episodes": [
         "ep-0012",
+        "ep-0013",
         "ep-0018"
       ],
       "evidence": [
-        "EVD-B04-092"
+        "EVD-B04-092",
+        "EVD-B04-022",
+        "EVD-B04-065"
       ],
       "sources": [
         {
@@ -3623,10 +3655,12 @@
     },
     "Điền Phong": {
       "episodes": [
+        "ep-0014",
         "ep-0017"
       ],
       "evidence": [
-        "EVD-B04-052"
+        "EVD-B04-052",
+        "EVD-B04-032"
       ],
       "sources": [
         {
@@ -3637,12 +3671,14 @@
     },
     "Lưu Huân": {
       "episodes": [
+        "ep-0016",
         "ep-0018"
       ],
       "evidence": [
         "EVD-B04-053",
         "EVD-B04-054",
-        "EVD-B04-156"
+        "EVD-B04-156",
+        "EVD-B04-075"
       ],
       "sources": [
         {
@@ -3661,10 +3697,12 @@
     },
     "Hoàng Tổ": {
       "episodes": [
+        "ep-0005",
         "ep-0018"
       ],
       "evidence": [
-        "EVD-B04-054"
+        "EVD-B04-054",
+        "EVD-B02-023"
       ],
       "sources": [
         {
@@ -3817,13 +3855,15 @@
     },
     "Tào Ngang": {
       "episodes": [
-        "ep-0014"
+        "ep-0014",
+        "ep-0017"
       ],
       "evidence": [
         "EVD-B04-028",
         "EVD-B04-029",
         "EVD-B04-140",
-        "EVD-B04-141"
+        "EVD-B04-141",
+        "EVD-B04-064"
       ],
       "sources": [
         {
@@ -4036,11 +4076,13 @@
     },
     "Hác Manh": {
       "episodes": [
-        "ep-0011"
+        "ep-0011",
+        "ep-0015"
       ],
       "evidence": [
         "EVD-B04-016",
-        "EVD-B04-158"
+        "EVD-B04-158",
+        "EVD-B04-136"
       ],
       "sources": [
         {
