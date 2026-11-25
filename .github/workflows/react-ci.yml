@@ -10,6 +10,7 @@ on:
       - 'vite.config.ts'
       - 'index.html'
       - '.github/workflows/react-ci.yml'
+      - '.github/workflows/react-preview.yml'
   pull_request:
   workflow_dispatch:
 permissions:

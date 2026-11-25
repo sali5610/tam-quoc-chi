@@ -3,7 +3,7 @@ import fs from 'node:fs';
 const pilot=JSON.parse(fs.readFileSync('content/atlas/pilot.json','utf8'));
 const entities=JSON.parse(fs.readFileSync('src/entities.json','utf8'));
 const quotes=JSON.parse(fs.readFileSync('content/wiki/quotes.json','utf8'));
-const base='http://localhost:4173/tam-quoc-chi/';
+const base=process.env.TQC_TEST_BASE||'http://localhost:4173/tam-quoc-chi/';
 const check=(x,m)=>{if(!x)throw Error(m)};
 async function checkWidth(page,stage){const data=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,offenders:[...document.querySelectorAll('main *,header *')].filter(e=>!e.closest('.leaflet-container')&&e.getClientRects().length).map(e=>({tag:e.tagName,cls:String(e.className?.baseVal??e.className),text:e.textContent?.trim().slice(0,75),left:e.getBoundingClientRect().left,right:e.getBoundingClientRect().right,scroll:e.scrollWidth,client:e.clientWidth})).filter(e=>e.right>innerWidth+1||e.left< -1).sort((a,b)=>b.right-a.right).slice(0,15)}));check(data.scroll<=data.width+1,'Overflow '+stage+' '+JSON.stringify(data));}
 
@@ -38,5 +38,30 @@ for(const engine of [chromium,webkit]){
   const page=await browser.newPage({viewport:{width:390,height:844},hasTouch:true,reducedMotion:'reduce'});await page.goto(base+'#/people');await page.locator('.people-grid button').first().waitFor();
   for(const person of pilot.people){await page.locator('.people-grid button').filter({has:page.locator('[data-person-name="'+person.name+'"]')}).click();const dialog=page.locator('dialog.person-sheet[open]');await dialog.waitFor();check(await dialog.locator('.person-related a').count()===entities.references[person.name].episodes.length,'Wiki backlinks '+person.id);check(await dialog.locator('.character-quote').count()===quotes.filter(q=>q.personId===person.id).length,'Wiki quotes '+person.id);await dialog.getByRole('button',{name:'Đóng'}).click();}
   console.log('PASS 67 Wiki profiles and 29 quote/backlink counts',engine.name());await page.close();
+
+  const nav=await browser.newPage({viewport:{width:390,height:844},hasTouch:true,reducedMotion:'reduce'});
+  for(const [ep,query,prev,next] of [['ep-0007','dung the luc','ep-0006','ep-0008'],['ep-0008','bao thu tu chau','ep-0007','ep-0009'],['ep-0009','lay lai duyen chau','ep-0008',null]]){
+    await nav.goto(base+'#/search');await nav.getByRole('textbox',{name:'Tìm tập'}).fill(query);
+    // EP07 search is by source text as well as title; use unaccented title for deterministic coverage.
+    if(ep==='ep-0007')await nav.getByRole('textbox',{name:'Tìm tập'}).fill('tu mot quan den ca mot chau');
+    const result=nav.locator('main a[href="#/read/'+ep+'"]');await result.waitFor();await result.click();
+    await nav.locator('.reader-hero h1').waitFor();await nav.getByRole('button',{name:'Trong tập',exact:true}).waitFor();
+    check(await nav.locator('footer a').count()===5,'Navigation count '+ep);
+    check(await nav.locator('.pager a[href="#/read/'+prev+'"]').count()===1,'Previous link '+ep);
+    check(await nav.locator('.pager a').count()===(next?2:1),'Next link count '+ep);
+    if(next)check(await nav.locator('.pager a[href="#/read/'+next+'"]').count()===1,'Next link '+ep);
+    await nav.getByRole('button',{name:'Cỡ chữ',exact:true}).click();check(await nav.getByRole('button',{name:'Âm thanh: Tắt'}).getAttribute('aria-pressed')==='false','Sound default '+ep);await nav.keyboard.press('Escape');
+    await nav.getByRole('button',{name:'Trong tập',exact:true}).click();const context=nav.getByRole('dialog',{name:'Trong tập này'});await context.waitFor();
+    await context.locator('.scene-strip button').nth(1).click();await context.waitFor({state:'detached'});
+    await nav.waitForFunction(id=>{const p=JSON.parse(localStorage.getItem('tqc-v2-position')||'null');return p?.id===id&&p.y>100&&Math.abs(scrollY-p.y)<5},ep);
+    const position=await nav.evaluate(()=>JSON.parse(localStorage.getItem('tqc-v2-position')));
+    await nav.getByRole('button',{name:'Dấu trang',exact:true}).click();await nav.getByRole('button',{name:'Đã lưu'}).waitFor();
+    await nav.goto(base+'#/');await nav.locator('.home-hero .primary-action[href="#/read/'+ep+'"]').click();
+    await nav.getByRole('button',{name:'Trong tập',exact:true}).waitFor();await nav.waitForFunction(y=>Math.abs(scrollY-y)<20,position.y);
+    await nav.goto(base+'#/collection');const bookmark=nav.locator('main a[href="#/read/'+ep+'"]');await bookmark.click();await nav.getByRole('button',{name:'Trong tập',exact:true}).waitFor();await nav.waitForFunction(y=>Math.abs(scrollY-y)<20,position.y);
+    await nav.goto(base+'#/collection');await nav.locator('main p').filter({has:nav.locator('a[href="#/read/'+ep+'"]')}).getByRole('button',{name:'Xóa'}).click();check(await nav.locator('main a[href="#/read/'+ep+'"]').count()===0,'Delete bookmark '+ep);
+    console.log('PASS B03 navigation, search, resume, bookmark',engine.name(),ep);
+  }await nav.close();
+
  }finally{await browser.close()}
 }
