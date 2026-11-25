@@ -1,0 +1,4234 @@
+{
+  "status": "Editorial handoff; no runtime integration. Anchor matches verified against current Markdown. Atlas event/context candidates not coordinates.",
+  "baseline": "Visual System v6",
+  "evidenceRegistry": [
+    "evidence/BATCH_04_EVIDENCE_REGISTRY.md",
+    "evidence/BATCH_04_RADAR_CLOSURE.md",
+    "evidence/BATCH_04_QUOTE_ATLAS_CLOSURE.md"
+  ],
+  "visuals": [
+    {
+      "id": "B04-V10-01",
+      "episode": "ep-0010",
+      "anchor": "Tháng bảy, vua trở về Lạc Dương, nhưng triều đình vẫn thiếu nơi ở và lương ăn.",
+      "placement": "paragraph",
+      "kind": "sequence",
+      "icon": "scroll",
+      "title": "Triều đình trở về",
+      "description": "An Ấp → Văn Hỷ → Lạc Dương; cung ứng thiếu, các nhóm hộ giá khác nhau.",
+      "evidence": "1-3,10",
+      "evidenceIds": [
+        "EVD-B04-001",
+        "EVD-B04-002",
+        "EVD-B04-003",
+        "EVD-B04-010"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V10-02",
+      "episode": "ep-0010",
+      "anchor": "Triều đình chuyển từ Lạc Dương về Hứa, nơi Tào Tháo có thể cung ứng và bảo vệ.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "scroll",
+      "title": "Danh nghĩa và thực quyền",
+      "description": "Đổng Chiêu đề xuất; Tào đón vua; Hứa trở thành trung tâm. Không ngụ ý vua tự nguyện trao hết quyền.",
+      "evidence": "4-7,135,151",
+      "evidenceIds": [
+        "EVD-B04-004",
+        "EVD-B04-005",
+        "EVD-B04-006",
+        "EVD-B04-007",
+        "EVD-B04-135",
+        "EVD-B04-151"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V10-03",
+      "episode": "ep-0010",
+      "anchor": "Đồn điền biến bài toán quân lương thành một công việc tổ chức sản xuất dài hạn.",
+      "placement": "paragraph",
+      "kind": "sequence",
+      "icon": "grain",
+      "title": "Đồn điền",
+      "description": "Táo Chi đề xuất, Hàn Hạo được ghi cùng chủ trương, Nhậm Tuấn tổ chức; thu hoạch hỗ trợ quân lương.",
+      "evidence": "8-9,81-82",
+      "evidenceIds": [
+        "EVD-B04-008",
+        "EVD-B04-009",
+        "EVD-B04-081",
+        "EVD-B04-082"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V11-01",
+      "episode": "ep-0011",
+      "anchor": "Lữ Bố chiếm Hạ Bì khi Lưu Bị đang chống Viên Thuật.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "banner",
+      "title": "Chủ nhà mất căn cứ",
+      "description": "Lưu chống Thuật, Tào Báo và Trương Phi xung đột, Lữ chiếm Hạ Bì. Dị bản chi tiết khác nhau.",
+      "evidence": "11-14,161",
+      "evidenceIds": [
+        "EVD-B04-011",
+        "EVD-B04-012",
+        "EVD-B04-013",
+        "EVD-B04-014",
+        "EVD-B04-161"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V11-02",
+      "episode": "ep-0011",
+      "anchor": "Mi Trúc dùng gia sản để giúp Lưu Bị duy trì lực lượng sau khi mất Hạ Bì.",
+      "placement": "paragraph",
+      "kind": "sequence",
+      "icon": "grain",
+      "title": "Gia sản thành nguồn lực",
+      "description": "Mi Trúc giúp Lưu; Lưu cầu hòa, gia đình được trả, về Tiểu Bái.",
+      "evidence": "14,115,161",
+      "evidenceIds": [
+        "EVD-B04-014",
+        "EVD-B04-115",
+        "EVD-B04-161"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V11-03",
+      "episode": "ep-0011",
+      "anchor": "Lữ Bố cứu Lưu Bị vì một Viên Thuật mạnh hơn cũng có thể đe dọa Lữ Bố.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "banner",
+      "title": "Cân bằng ba phe",
+      "description": "Lữ cứu Lưu trước Kỷ Linh để tránh Viên Thuật mạnh hơn; không diễn cảnh tiểu thuyết như chính sử.",
+      "evidence": "15,102",
+      "evidenceIds": [
+        "EVD-B04-015",
+        "EVD-B04-102"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V11-04",
+      "episode": "ep-0011",
+      "anchor": "Lữ Bố giữ được Hạ Bì, nhưng ngay trong quân của mình đã có một cuộc nổi dậy.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "banner",
+      "title": "Bộ máy Lữ rạn",
+      "description": "Hác Manh nổi dậy; Cao Thuận dẹp; lời Cao Tính là chứng từ riêng.",
+      "evidence": "16,158",
+      "evidenceIds": [
+        "EVD-B04-016",
+        "EVD-B04-158"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V12-01",
+      "episode": "ep-0012",
+      "anchor": "Tôn Sách và Chu Du mở đường từ Lịch Dương vào các địa bàn của Lưu Do.",
+      "placement": "paragraph",
+      "kind": "sequence",
+      "icon": "banner",
+      "title": "Qua sông dựng thế",
+      "description": "Lịch Dương, Mạt Lăng, Khúc A là các mốc; đoạn chưa định vị không vẽ.",
+      "evidence": "17-20,117",
+      "evidenceIds": [
+        "EVD-B04-017",
+        "EVD-B04-018",
+        "EVD-B04-019",
+        "EVD-B04-020",
+        "EVD-B04-117"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V12-02",
+      "episode": "ep-0012",
+      "anchor": "Cuộc giao tranh ở Thần Đình chưa phải lúc Thái Sử Từ đầu hàng.",
+      "placement": "paragraph",
+      "kind": "comparison",
+      "icon": "scroll",
+      "title": "Thần Đình khác lúc thu hàng",
+      "description": "Tách giao tranh Thần Đình và lần bắt/thu dùng sau đó; không định ngày.",
+      "evidence": "70-72,100-101",
+      "evidenceIds": [
+        "EVD-B04-070",
+        "EVD-B04-071",
+        "EVD-B04-072",
+        "EVD-B04-100",
+        "EVD-B04-101"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V12-03",
+      "episode": "ep-0012",
+      "anchor": "Các quận Giang Đông bắt đầu được giao cho những người thuộc mạng lưới của Tôn Sách.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "scroll",
+      "title": "Quản lý quận",
+      "description": "Vương Lãng rút; Trình Phổ, Chu Trị, Ngô Cảnh và các đầu mối; không tô biên giới nhà nước.",
+      "evidence": "65,68,78,93",
+      "evidenceIds": [
+        "EVD-B04-065",
+        "EVD-B04-068",
+        "EVD-B04-078",
+        "EVD-B04-093"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V13-01",
+      "episode": "ep-0013",
+      "anchor": "Viên Thuật tự lập một triều đình trong khi triều đình nhà Hán vẫn tồn tại.",
+      "placement": "paragraph",
+      "kind": "comparison",
+      "icon": "scroll",
+      "title": "Hai trung tâm xưng đế",
+      "description": "Hán Hiến Đế ở Hứa; Viên Thuật tự xưng tại Hoài Nam. Tước hiệu không phải thực quyền.",
+      "evidence": "21,73-74,83-84,148",
+      "evidenceIds": [
+        "EVD-B04-021",
+        "EVD-B04-073",
+        "EVD-B04-074",
+        "EVD-B04-083",
+        "EVD-B04-084",
+        "EVD-B04-148"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V13-02",
+      "episode": "ep-0013",
+      "anchor": "Tôn Sách cắt quan hệ với người từng cấp quân cho mình.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "banner",
+      "title": "Tôn Sách cắt quan hệ",
+      "description": "Tách khỏi người từng cấp quân, Tôn Bí/Ngô Cảnh có lựa chọn riêng.",
+      "evidence": "22,116-117",
+      "evidenceIds": [
+        "EVD-B04-022",
+        "EVD-B04-116",
+        "EVD-B04-117"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V13-03",
+      "episode": "ep-0013",
+      "anchor": "Con gái Lữ Bố chưa tới nhà trai thì hôn ước chính trị đã bị hủy.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "scroll",
+      "title": "Hôn ước và ngoại giao",
+      "description": "Hủy hôn; Hàn Dận bị giết; Trần Khuê/Trần Đăng thay đổi quan hệ.",
+      "evidence": "23-24,97",
+      "evidenceIds": [
+        "EVD-B04-023",
+        "EVD-B04-024",
+        "EVD-B04-097"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V13-04",
+      "episode": "ep-0013",
+      "anchor": "Hàn Xiêm và Dương Phụng đổi phe, khiến liên minh đánh Lữ Bố tan vỡ.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "banner",
+      "title": "Liên minh đổi phe",
+      "description": "Hàn Xiêm, Dương Phụng chuyển sang Lữ; Trương Huân thất bại; không minh họa chiến thuật giả.",
+      "evidence": "25-26,148",
+      "evidenceIds": [
+        "EVD-B04-025",
+        "EVD-B04-026",
+        "EVD-B04-148"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V14-01",
+      "episode": "ep-0014",
+      "anchor": "Trương Tú tiếp quản quân của Trương Tế và trở thành một thế lực ở Nam Dương.",
+      "placement": "paragraph",
+      "kind": "sequence",
+      "icon": "banner",
+      "title": "Trương Tú kế quân",
+      "description": "Trương Tế mất; cháu kế quân; dựa vào Lưu Biểu.",
+      "evidence": "27,62,76",
+      "evidenceIds": [
+        "EVD-B04-027",
+        "EVD-B04-062",
+        "EVD-B04-076"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V14-02",
+      "episode": "ep-0014",
+      "anchor": "Trương Tú quay lại chống Tào sau khi đã đầu hàng.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "banner",
+      "title": "Hàng rồi phản",
+      "description": "Đầu hàng không bền; các nguyên nhân theo từng nguồn, không tái dựng cảnh bạo lực.",
+      "evidence": "28-29,62",
+      "evidenceIds": [
+        "EVD-B04-028",
+        "EVD-B04-029",
+        "EVD-B04-062"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V14-03",
+      "episode": "ep-0014",
+      "anchor": "Tào Ngang, Tào An Dân và Điển Vi không trở về từ Uyển.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "scroll",
+      "title": "Ba người không về",
+      "description": "Tào Ngang, Tào An Dân, Điển Vi; ghi cái chết theo nguồn, không dựng lời thoại.",
+      "evidence": "28-29,63,140-141",
+      "evidenceIds": [
+        "EVD-B04-028",
+        "EVD-B04-029",
+        "EVD-B04-063",
+        "EVD-B04-140",
+        "EVD-B04-141"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V14-04",
+      "episode": "ep-0014",
+      "anchor": "Vu Cấm duy trì trật tự khi quân Tào rơi vào cảnh thất bại.",
+      "placement": "paragraph",
+      "kind": "sequence",
+      "icon": "banner",
+      "title": "Giữ kỷ luật",
+      "description": "Vu Cấm tập hợp quân, xử lý cướp bóc; không diễn tập chiến thuật.",
+      "evidence": "149",
+      "evidenceIds": [
+        "EVD-B04-149"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V14-05",
+      "episode": "ep-0014",
+      "anchor": "Đến năm 198, Trương Tú vẫn còn lực lượng riêng và vẫn liên kết với Lưu Biểu.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "banner",
+      "title": "Mặt trận nam vẫn mở",
+      "description": "Tào đánh lại, Trương Tú còn quân và liên kết Lưu Biểu; năm 198 không phải đã hàng.",
+      "evidence": "30-32,76",
+      "evidenceIds": [
+        "EVD-B04-030",
+        "EVD-B04-031",
+        "EVD-B04-032",
+        "EVD-B04-076"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V15-01",
+      "episode": "ep-0015",
+      "anchor": "Lưu Bị mất Tiểu Bái và tìm sự hỗ trợ của Tào Tháo.",
+      "placement": "paragraph",
+      "kind": "sequence",
+      "icon": "banner",
+      "title": "Tiểu Bái đổi chủ",
+      "description": "Cao Thuận đánh Lưu; gia đình Lưu bị bắt; Hạ Hầu Đôn trợ chiến.",
+      "evidence": "33,122,161",
+      "evidenceIds": [
+        "EVD-B04-033",
+        "EVD-B04-122",
+        "EVD-B04-161"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V15-02",
+      "episode": "ep-0015",
+      "anchor": "Trần Đăng từ người đi xin chức cho Lữ Bố trở thành người phối hợp đánh Lữ Bố.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "scroll",
+      "title": "Trần Đăng đổi vai",
+      "description": "Từ sứ giả thành người phối hợp Tào; không gán lời hứa ngoài nguồn.",
+      "evidence": "34,138",
+      "evidenceIds": [
+        "EVD-B04-034",
+        "EVD-B04-138"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V15-03",
+      "episode": "ep-0015",
+      "anchor": "Quân Tào tiếp tục vây Hạ Bì và dùng nước gây sức ép lên thành.",
+      "placement": "paragraph",
+      "kind": "sequence",
+      "icon": "grain",
+      "title": "Áp lực lên Hạ Bì",
+      "description": "Quây thành và dùng nước theo sử; biểu tượng nước, không mô phỏng công trình hoặc hướng dòng.",
+      "evidence": "34-36,136,139,159",
+      "evidenceIds": [
+        "EVD-B04-034",
+        "EVD-B04-035",
+        "EVD-B04-036",
+        "EVD-B04-136",
+        "EVD-B04-139",
+        "EVD-B04-159"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V15-04",
+      "episode": "ep-0015",
+      "anchor": "Lữ Bố không còn một cuộc đổi chủ nào nữa.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "scroll",
+      "title": "Một lực lượng tan rã",
+      "description": "Lữ, Trần Cung, Cao Thuận bị xử tử; Trương Liêu theo Tào; gia đình Lưu được trả; không định tọa độ Bạch Môn.",
+      "evidence": "35-37,114,137,161",
+      "evidenceIds": [
+        "EVD-B04-035",
+        "EVD-B04-036",
+        "EVD-B04-037",
+        "EVD-B04-114",
+        "EVD-B04-137",
+        "EVD-B04-161"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V16-01",
+      "episode": "ep-0016",
+      "anchor": "Tháng ba năm 199, Viên Thiệu đánh bại Công Tôn Toản tại Dịch Kinh.",
+      "placement": "paragraph",
+      "kind": "sequence",
+      "icon": "banner",
+      "title": "Dịch Kinh kết thúc",
+      "description": "Viên Thiệu thắng, Công Tôn Toản mất; Dịch Kinh chưa có điểm xác định.",
+      "evidence": "39,86-87,153",
+      "evidenceIds": [
+        "EVD-B04-039",
+        "EVD-B04-086",
+        "EVD-B04-087",
+        "EVD-B04-153"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V16-02",
+      "episode": "ep-0016",
+      "anchor": "Viên Thiệu có thế lực trên bốn châu, nhưng các vùng ấy được quản qua những đầu mối khác nhau.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "scroll",
+      "title": "Bốn châu, nhiều đầu mối",
+      "description": "Chỉ sơ đồ đầu mối, không tô đa giác biên giới; danh hiệu Viên Đàm có dị bản.",
+      "evidence": "43,88,157",
+      "evidenceIds": [
+        "EVD-B04-043",
+        "EVD-B04-088",
+        "EVD-B04-157"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V16-03",
+      "episode": "ep-0016",
+      "anchor": "Hà Nội đổi chủ sau khi lực lượng của Trương Dương tan rã.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "banner",
+      "title": "Hà Nội đổi chủ",
+      "description": "Trương Dương bị giết, Dương Xú/Tuy Cố đổi thế; Tào tiếp nhận, Ngụy Chủng quản quận.",
+      "evidence": "40-41,145-146,150,152,154",
+      "evidenceIds": [
+        "EVD-B04-040",
+        "EVD-B04-041",
+        "EVD-B04-145",
+        "EVD-B04-146",
+        "EVD-B04-150",
+        "EVD-B04-152",
+        "EVD-B04-154"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V16-04",
+      "episode": "ep-0016",
+      "anchor": "Viên Thuật chết mà không duy trì được triều đình mình tự lập.",
+      "placement": "paragraph",
+      "kind": "sequence",
+      "icon": "scroll",
+      "title": "Đế hiệu không giữ được đất",
+      "description": "Viên Thuật mất chỗ dựa, chết; Từ Cầu trả ấn; không ghép đường chạy.",
+      "evidence": "42,75,85,144",
+      "evidenceIds": [
+        "EVD-B04-042",
+        "EVD-B04-075",
+        "EVD-B04-085",
+        "EVD-B04-144"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V17-01",
+      "episode": "ep-0017",
+      "anchor": "Tào Tháo nhận xét Lưu Bị là một trong hai anh hùng đương thời.",
+      "placement": "paragraph",
+      "kind": "comparison",
+      "icon": "scroll",
+      "title": "Lời nhận xét về anh hùng",
+      "description": "Lời chính văn khác bối cảnh Thanh mai chửu tửu; không vẽ rượu như sự thật.",
+      "evidence": "46,110",
+      "evidenceIds": [
+        "EVD-B04-046",
+        "EVD-B04-110"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V17-02",
+      "episode": "ep-0017",
+      "anchor": "Lưu Bị giết Xa Trụ và quay lại nắm một phần Từ Châu.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "banner",
+      "title": "Lưu Bị rời mạng lưới Tào",
+      "description": "Nhiệm vụ chặn Thuật, giết Xa Trụ, lấy một phần Từ Châu; không giả định đường đi.",
+      "evidence": "47,89,134,143,155",
+      "evidenceIds": [
+        "EVD-B04-047",
+        "EVD-B04-089",
+        "EVD-B04-134",
+        "EVD-B04-143",
+        "EVD-B04-155"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V17-03",
+      "episode": "ep-0017",
+      "anchor": "Trương Tú đầu hàng lần thứ hai, lần này được Tào tiếp nhận vào mạng lưới của mình.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "scroll",
+      "title": "Lần đầu hàng thứ hai",
+      "description": "Giả Hủ khuyên Trương Tú theo Tào, Tào tiếp nhận; hôn nhân sau đó là quan hệ riêng.",
+      "evidence": "44,64,77",
+      "evidenceIds": [
+        "EVD-B04-044",
+        "EVD-B04-064",
+        "EVD-B04-077"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V17-04",
+      "episode": "ep-0017",
+      "anchor": "Cùng một âm mưu được các sử liệu đặt trong hai cách nhìn chính trị khác nhau.",
+      "placement": "paragraph",
+      "kind": "comparison",
+      "icon": "scroll",
+      "title": "Mật chiếu và mưu phản",
+      "description": "Tách Hậu Hán thư, Tam Quốc chí, dị bản; không xác thực chiếu máu tiểu thuyết.",
+      "evidence": "45,49,108,127,142",
+      "evidenceIds": [
+        "EVD-B04-045",
+        "EVD-B04-049",
+        "EVD-B04-108",
+        "EVD-B04-127",
+        "EVD-B04-142"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V17-05",
+      "episode": "ep-0017",
+      "anchor": "Quan Vũ bị bắt và nhận chức trong quân Tào, còn Lưu Bị sang với Viên Thiệu.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "banner",
+      "title": "Hai người bị chia ra",
+      "description": "Quan Vũ theo Tào, Lưu Bị đến Viên Thiệu; chưa kể chiến công Bạch Mã.",
+      "evidence": "50-52,95,120",
+      "evidenceIds": [
+        "EVD-B04-050",
+        "EVD-B04-051",
+        "EVD-B04-052",
+        "EVD-B04-095",
+        "EVD-B04-120"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V18-01",
+      "episode": "ep-0018",
+      "anchor": "Chu Du trở lại với Tôn Sách, còn Tôn Quyền tham gia các chiến dịch của anh.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "banner",
+      "title": "Nhà Tôn mở rộng",
+      "description": "Chu Du về, Tôn Quyền tham chiến, Lưu Huân mất địa bàn; Hoàn và Uyển khác nhau.",
+      "evidence": "53-54,69,91,156",
+      "evidenceIds": [
+        "EVD-B04-053",
+        "EVD-B04-054",
+        "EVD-B04-069",
+        "EVD-B04-091",
+        "EVD-B04-156"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V18-02",
+      "episode": "ep-0018",
+      "anchor": "Dự Chương và Lư Lăng được tổ chức lại trong mạng lưới của Tôn Sách.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "scroll",
+      "title": "Tổ chức Dự Chương và Lư Lăng",
+      "description": "Hoa Hâm tiếp nhận thương lượng; Tôn Bí, Tôn Phụ được giao quản; không mặc định mọi nơi giao chiến.",
+      "evidence": "55,91,119",
+      "evidenceIds": [
+        "EVD-B04-055",
+        "EVD-B04-091",
+        "EVD-B04-119"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V18-03",
+      "episode": "ep-0018",
+      "anchor": "Sử liệu bất đồng về mục tiêu trước mắt của Tôn Sách; không có trận đánh Hứa nào của ông được thực hiện.",
+      "placement": "paragraph",
+      "kind": "comparison",
+      "icon": "scroll",
+      "title": "Kế hoạch chưa xảy ra",
+      "description": "Hứa / Trần Đăng theo nguồn khác nhau; không vẽ hành trình chưa thực hiện.",
+      "evidence": "56-57,147",
+      "evidenceIds": [
+        "EVD-B04-056",
+        "EVD-B04-057",
+        "EVD-B04-147"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    },
+    {
+      "id": "B04-V18-04",
+      "episode": "ep-0018",
+      "anchor": "Tôn Quyền nhận cơ nghiệp với sự trợ giúp của cả quan lại và tướng lĩnh cũ.",
+      "placement": "paragraph",
+      "kind": "network",
+      "icon": "scroll",
+      "title": "Người em tiếp quản",
+      "description": "Tôn Quyền nhận quyền; Trương Chiêu, Chu Du, Ngô phu nhân hỗ trợ; không dùng câu nội sự/ngoại sự như chính sử.",
+      "evidence": "59-61,67,94,118,128",
+      "evidenceIds": [
+        "EVD-B04-059",
+        "EVD-B04-060",
+        "EVD-B04-061",
+        "EVD-B04-067",
+        "EVD-B04-094",
+        "EVD-B04-118",
+        "EVD-B04-128"
+      ],
+      "art": "Reuse v6 symbols/components only; no new historical art; no fictional reconstruction."
+    }
+  ],
+  "motion": {
+    "ep-0010": {
+      "circle": [
+        "Tháng bảy, vua trở về Lạc Dương, nhưng triều đình vẫn thiếu nơi ở và lương ăn."
+      ],
+      "underline": [
+        "Triều đình chuyển từ Lạc Dương về Hứa, nơi Tào Tháo có thể cung ứng và bảo vệ.",
+        "Đồn điền biến bài toán quân lương thành một công việc tổ chức sản xuất dài hạn."
+      ],
+      "decisions": [
+        {
+          "anchor": "Đồn điền biến bài toán quân lương thành một công việc tổ chức sản xuất dài hạn.",
+          "label": "Đồn điền"
+        }
+      ],
+      "reveal": {
+        "anchor": "Tháng bảy, vua trở về Lạc Dương, nhưng triều đình vẫn thiếu nơi ở và lương ăn.",
+        "title": "Đối chiếu nguồn và bối cảnh",
+        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+      },
+      "reducedMotion": "Static state, no required animation; no automatic sound."
+    },
+    "ep-0011": {
+      "circle": [
+        "Lữ Bố chiếm Hạ Bì khi Lưu Bị đang chống Viên Thuật."
+      ],
+      "underline": [
+        "Mi Trúc dùng gia sản để giúp Lưu Bị duy trì lực lượng sau khi mất Hạ Bì.",
+        "Lữ Bố cứu Lưu Bị vì một Viên Thuật mạnh hơn cũng có thể đe dọa Lữ Bố.",
+        "Lữ Bố giữ được Hạ Bì, nhưng ngay trong quân của mình đã có một cuộc nổi dậy."
+      ],
+      "decisions": [
+        {
+          "anchor": "Lữ Bố giữ được Hạ Bì, nhưng ngay trong quân của mình đã có một cuộc nổi dậy.",
+          "label": "Bộ máy Lữ rạn"
+        }
+      ],
+      "reveal": {
+        "anchor": "Lữ Bố chiếm Hạ Bì khi Lưu Bị đang chống Viên Thuật.",
+        "title": "Đối chiếu nguồn và bối cảnh",
+        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+      },
+      "reducedMotion": "Static state, no required animation; no automatic sound."
+    },
+    "ep-0012": {
+      "circle": [
+        "Tôn Sách và Chu Du mở đường từ Lịch Dương vào các địa bàn của Lưu Do."
+      ],
+      "underline": [
+        "Cuộc giao tranh ở Thần Đình chưa phải lúc Thái Sử Từ đầu hàng.",
+        "Các quận Giang Đông bắt đầu được giao cho những người thuộc mạng lưới của Tôn Sách."
+      ],
+      "decisions": [
+        {
+          "anchor": "Các quận Giang Đông bắt đầu được giao cho những người thuộc mạng lưới của Tôn Sách.",
+          "label": "Quản lý quận"
+        }
+      ],
+      "reveal": {
+        "anchor": "Cuộc giao tranh ở Thần Đình chưa phải lúc Thái Sử Từ đầu hàng.",
+        "title": "Đối chiếu nguồn và bối cảnh",
+        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+      },
+      "reducedMotion": "Static state, no required animation; no automatic sound."
+    },
+    "ep-0013": {
+      "circle": [
+        "Viên Thuật tự lập một triều đình trong khi triều đình nhà Hán vẫn tồn tại."
+      ],
+      "underline": [
+        "Tôn Sách cắt quan hệ với người từng cấp quân cho mình.",
+        "Con gái Lữ Bố chưa tới nhà trai thì hôn ước chính trị đã bị hủy.",
+        "Hàn Xiêm và Dương Phụng đổi phe, khiến liên minh đánh Lữ Bố tan vỡ."
+      ],
+      "decisions": [
+        {
+          "anchor": "Hàn Xiêm và Dương Phụng đổi phe, khiến liên minh đánh Lữ Bố tan vỡ.",
+          "label": "Liên minh đổi phe"
+        }
+      ],
+      "reveal": {
+        "anchor": "Viên Thuật tự lập một triều đình trong khi triều đình nhà Hán vẫn tồn tại.",
+        "title": "Đối chiếu nguồn và bối cảnh",
+        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+      },
+      "reducedMotion": "Static state, no required animation; no automatic sound."
+    },
+    "ep-0014": {
+      "circle": [
+        "Trương Tú tiếp quản quân của Trương Tế và trở thành một thế lực ở Nam Dương."
+      ],
+      "underline": [
+        "Trương Tú quay lại chống Tào sau khi đã đầu hàng.",
+        "Tào Ngang, Tào An Dân và Điển Vi không trở về từ Uyển.",
+        "Vu Cấm duy trì trật tự khi quân Tào rơi vào cảnh thất bại.",
+        "Đến năm 198, Trương Tú vẫn còn lực lượng riêng và vẫn liên kết với Lưu Biểu."
+      ],
+      "decisions": [
+        {
+          "anchor": "Đến năm 198, Trương Tú vẫn còn lực lượng riêng và vẫn liên kết với Lưu Biểu.",
+          "label": "Mặt trận nam vẫn mở"
+        }
+      ],
+      "reveal": {
+        "anchor": "Trương Tú tiếp quản quân của Trương Tế và trở thành một thế lực ở Nam Dương.",
+        "title": "Đối chiếu nguồn và bối cảnh",
+        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+      },
+      "reducedMotion": "Static state, no required animation; no automatic sound."
+    },
+    "ep-0015": {
+      "circle": [
+        "Lưu Bị mất Tiểu Bái và tìm sự hỗ trợ của Tào Tháo."
+      ],
+      "underline": [
+        "Trần Đăng từ người đi xin chức cho Lữ Bố trở thành người phối hợp đánh Lữ Bố.",
+        "Quân Tào tiếp tục vây Hạ Bì và dùng nước gây sức ép lên thành.",
+        "Lữ Bố không còn một cuộc đổi chủ nào nữa."
+      ],
+      "decisions": [
+        {
+          "anchor": "Lữ Bố không còn một cuộc đổi chủ nào nữa.",
+          "label": "Một lực lượng tan rã"
+        }
+      ],
+      "reveal": {
+        "anchor": "Lưu Bị mất Tiểu Bái và tìm sự hỗ trợ của Tào Tháo.",
+        "title": "Đối chiếu nguồn và bối cảnh",
+        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+      },
+      "reducedMotion": "Static state, no required animation; no automatic sound."
+    },
+    "ep-0016": {
+      "circle": [
+        "Tháng ba năm 199, Viên Thiệu đánh bại Công Tôn Toản tại Dịch Kinh."
+      ],
+      "underline": [
+        "Viên Thiệu có thế lực trên bốn châu, nhưng các vùng ấy được quản qua những đầu mối khác nhau.",
+        "Hà Nội đổi chủ sau khi lực lượng của Trương Dương tan rã.",
+        "Viên Thuật chết mà không duy trì được triều đình mình tự lập."
+      ],
+      "decisions": [
+        {
+          "anchor": "Viên Thuật chết mà không duy trì được triều đình mình tự lập.",
+          "label": "Đế hiệu không giữ được đất"
+        }
+      ],
+      "reveal": {
+        "anchor": "Tháng ba năm 199, Viên Thiệu đánh bại Công Tôn Toản tại Dịch Kinh.",
+        "title": "Đối chiếu nguồn và bối cảnh",
+        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+      },
+      "reducedMotion": "Static state, no required animation; no automatic sound."
+    },
+    "ep-0017": {
+      "circle": [
+        "Tào Tháo nhận xét Lưu Bị là một trong hai anh hùng đương thời."
+      ],
+      "underline": [
+        "Lưu Bị giết Xa Trụ và quay lại nắm một phần Từ Châu.",
+        "Trương Tú đầu hàng lần thứ hai, lần này được Tào tiếp nhận vào mạng lưới của mình.",
+        "Cùng một âm mưu được các sử liệu đặt trong hai cách nhìn chính trị khác nhau.",
+        "Quan Vũ bị bắt và nhận chức trong quân Tào, còn Lưu Bị sang với Viên Thiệu."
+      ],
+      "decisions": [
+        {
+          "anchor": "Quan Vũ bị bắt và nhận chức trong quân Tào, còn Lưu Bị sang với Viên Thiệu.",
+          "label": "Hai người bị chia ra"
+        }
+      ],
+      "reveal": {
+        "anchor": "Tào Tháo nhận xét Lưu Bị là một trong hai anh hùng đương thời.",
+        "title": "Đối chiếu nguồn và bối cảnh",
+        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+      },
+      "reducedMotion": "Static state, no required animation; no automatic sound."
+    },
+    "ep-0018": {
+      "circle": [
+        "Chu Du trở lại với Tôn Sách, còn Tôn Quyền tham gia các chiến dịch của anh."
+      ],
+      "underline": [
+        "Dự Chương và Lư Lăng được tổ chức lại trong mạng lưới của Tôn Sách.",
+        "Sử liệu bất đồng về mục tiêu trước mắt của Tôn Sách; không có trận đánh Hứa nào của ông được thực hiện.",
+        "Tôn Quyền nhận cơ nghiệp với sự trợ giúp của cả quan lại và tướng lĩnh cũ."
+      ],
+      "decisions": [
+        {
+          "anchor": "Tôn Quyền nhận cơ nghiệp với sự trợ giúp của cả quan lại và tướng lĩnh cũ.",
+          "label": "Người em tiếp quản"
+        }
+      ],
+      "reveal": {
+        "anchor": "Sử liệu bất đồng về mục tiêu trước mắt của Tôn Sách; không có trận đánh Hứa nào của ông được thực hiện.",
+        "title": "Đối chiếu nguồn và bối cảnh",
+        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+      },
+      "reducedMotion": "Static state, no required animation; no automatic sound."
+    }
+  },
+  "atlas": {
+    "resolutionSource": "evidence/BATCH_04_ATLAS_RESOLUTION.json",
+    "places": [
+      {
+        "id": "anyi",
+        "name": "An Ấp",
+        "historicalNames": [
+          "安邑"
+        ],
+        "episodes": [
+          "ep-0010"
+        ],
+        "evidence": [
+          "EVD-B04-001"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "anyi"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Dataset site anchor, not archaeological point."
+      },
+      {
+        "id": "luoyang",
+        "name": "Lạc Dương",
+        "historicalNames": [
+          "洛陽"
+        ],
+        "episodes": [
+          "ep-0010"
+        ],
+        "evidence": [
+          "EVD-B04-003",
+          "EVD-B04-005"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "luoyang"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Dataset site anchor, not archaeological point."
+      },
+      {
+        "id": "xu",
+        "name": "Hứa",
+        "historicalNames": [
+          "許"
+        ],
+        "episodes": [
+          "ep-0010",
+          "ep-0013",
+          "ep-0017"
+        ],
+        "evidence": [
+          "EVD-B04-005",
+          "EVD-B04-006",
+          "EVD-B04-007",
+          "EVD-B04-023",
+          "EVD-B04-045",
+          "EVD-B04-049"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "xuchang"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Historical Xu county; dataset label 許昌; HHS110 許; display Hứa, not later formal renamed site."
+      },
+      {
+        "id": "wenxi",
+        "name": "Văn Hỷ",
+        "historicalNames": [
+          "聞喜"
+        ],
+        "episodes": [
+          "ep-0010"
+        ],
+        "evidence": [
+          "EVD-B04-003"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "河東"
+        ],
+        "display": "region",
+        "note": "Region-level representative anchor only; group equal markers; no claim of actual location."
+      },
+      {
+        "id": "xiapi",
+        "name": "Hạ Bì",
+        "historicalNames": [
+          "下邳"
+        ],
+        "episodes": [
+          "ep-0011",
+          "ep-0013",
+          "ep-0015",
+          "ep-0017"
+        ],
+        "evidence": [
+          "EVD-B04-011",
+          "EVD-B04-023",
+          "EVD-B04-035",
+          "EVD-B04-047"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "xiapi"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Dataset site anchor, not archaeological point."
+      },
+      {
+        "id": "xiaopei",
+        "name": "Tiểu Bái",
+        "historicalNames": [
+          "小沛"
+        ],
+        "episodes": [
+          "ep-0011",
+          "ep-0015",
+          "ep-0017"
+        ],
+        "evidence": [
+          "EVD-B04-014",
+          "EVD-B04-033",
+          "EVD-B04-047"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "xiaopei"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Dataset site anchor, not archaeological point."
+      },
+      {
+        "id": "xuyi",
+        "name": "Hu Di",
+        "historicalNames": [
+          "盱眙"
+        ],
+        "episodes": [
+          "ep-0011"
+        ],
+        "evidence": [
+          "EVD-B04-011"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "xuyi"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Dataset site anchor, not archaeological point."
+      },
+      {
+        "id": "huaiyin",
+        "name": "Hoài Âm",
+        "historicalNames": [
+          "淮陰"
+        ],
+        "episodes": [
+          "ep-0011"
+        ],
+        "evidence": [
+          "EVD-B04-011"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "huaiyin"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Dataset site anchor, not archaeological point."
+      },
+      {
+        "id": "guangling",
+        "name": "Quảng Lăng",
+        "historicalNames": [
+          "廣陵"
+        ],
+        "episodes": [
+          "ep-0011",
+          "ep-0013",
+          "ep-0018"
+        ],
+        "evidence": [
+          "EVD-B04-014",
+          "EVD-B04-024",
+          "EVD-B04-057"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "guangling"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Use site only for city; regional appointment distinct."
+      },
+      {
+        "id": "guangling-region",
+        "name": "Quảng Lăng (quận)",
+        "historicalNames": [
+          "廣陵"
+        ],
+        "episodes": [
+          "ep-0013"
+        ],
+        "evidence": [
+          "EVD-B04-024"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "廣陵"
+        ],
+        "display": "region",
+        "note": "Region-level representative anchor only; group equal markers; no claim of actual location."
+      },
+      {
+        "id": "haixi",
+        "name": "Hải Tây",
+        "historicalNames": [
+          "海西"
+        ],
+        "episodes": [
+          "ep-0011"
+        ],
+        "evidence": [
+          "EVD-B04-014"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "廣陵"
+        ],
+        "display": "region",
+        "note": "HHS111 lists Haixi under Guangling, not same site as capital."
+      },
+      {
+        "id": "liyang",
+        "name": "Lịch Dương",
+        "historicalNames": [
+          "歷陽"
+        ],
+        "episodes": [
+          "ep-0012",
+          "ep-0013"
+        ],
+        "evidence": [
+          "EVD-B04-017",
+          "EVD-B04-019",
+          "EVD-B04-091"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "liyang"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Dataset site anchor, not archaeological point."
+      },
+      {
+        "id": "danyang-region",
+        "name": "Đan Dương (quận)",
+        "historicalNames": [
+          "丹楊"
+        ],
+        "episodes": [
+          "ep-0012"
+        ],
+        "evidence": [
+          "EVD-B04-017",
+          "EVD-B04-019",
+          "EVD-B04-065"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "丹陽・秣陵"
+        ],
+        "display": "region",
+        "note": "Not a pin at a county named Danyang."
+      },
+      {
+        "id": "qua",
+        "name": "Khúc A",
+        "historicalNames": [
+          "曲阿"
+        ],
+        "episodes": [
+          "ep-0012"
+        ],
+        "evidence": [
+          "EVD-B04-019",
+          "EVD-B04-068"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "吳郡"
+        ],
+        "display": "region",
+        "note": "HHS112 lists under Wu; use region only, not modern Jingkou pin."
+      },
+      {
+        "id": "kuaiji-region",
+        "name": "Cối Kê (quận)",
+        "historicalNames": [
+          "會稽"
+        ],
+        "episodes": [
+          "ep-0012",
+          "ep-0018"
+        ],
+        "evidence": [
+          "EVD-B04-065",
+          "EVD-B04-078",
+          "EVD-B04-060"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "會稽北部"
+        ],
+        "display": "region",
+        "note": "Northern seat context only; no assertion whole commandery."
+      },
+      {
+        "id": "wu-region",
+        "name": "Ngô (quận)",
+        "historicalNames": [
+          "吳郡"
+        ],
+        "episodes": [
+          "ep-0012"
+        ],
+        "evidence": [
+          "EVD-B04-065"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "吳郡"
+        ],
+        "display": "region",
+        "note": "Region-level representative anchor only; group equal markers; no claim of actual location."
+      },
+      {
+        "id": "wu",
+        "name": "Ngô huyện",
+        "historicalNames": [
+          "吳"
+        ],
+        "episodes": [
+          "ep-0018"
+        ],
+        "evidence": [
+          "EVD-B04-060",
+          "EVD-B04-061",
+          "EVD-B04-067"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "wu"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Dataset site anchor, not archaeological point."
+      },
+      {
+        "id": "moling",
+        "name": "Mạt Lăng",
+        "historicalNames": [
+          "秣陵"
+        ],
+        "episodes": [
+          "ep-0012"
+        ],
+        "evidence": [
+          "EVD-B04-019"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "moling"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Dataset site anchor, not archaeological point."
+      },
+      {
+        "id": "niuzhu",
+        "name": "Ngưu Chử",
+        "historicalNames": [
+          "牛渚"
+        ],
+        "episodes": [
+          "ep-0012"
+        ],
+        "evidence": [
+          "EVD-B04-019",
+          "EVD-B04-018"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "No exact dataset city; keep historical name in text, do not infer route."
+      },
+      {
+        "id": "hengjiang",
+        "name": "Hoành Giang",
+        "historicalNames": [
+          "橫江"
+        ],
+        "episodes": [
+          "ep-0012"
+        ],
+        "evidence": [
+          "EVD-B04-019"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "No exact dataset city; keep historical name in text, do not infer route."
+      },
+      {
+        "id": "dangli",
+        "name": "Đương Lợi",
+        "historicalNames": [
+          "當利"
+        ],
+        "episodes": [
+          "ep-0012"
+        ],
+        "evidence": [
+          "EVD-B04-019"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "No exact dataset city; keep historical name in text, do not infer route."
+      },
+      {
+        "id": "hushu",
+        "name": "Hồ Thục",
+        "historicalNames": [
+          "湖孰"
+        ],
+        "episodes": [
+          "ep-0012"
+        ],
+        "evidence": [
+          "EVD-B04-019"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "No exact dataset city; keep historical name in text, do not infer route."
+      },
+      {
+        "id": "jiangcheng",
+        "name": "Giang Thừa",
+        "historicalNames": [
+          "江乘"
+        ],
+        "episodes": [
+          "ep-0012"
+        ],
+        "evidence": [
+          "EVD-B04-019"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "No exact dataset city; keep historical name in text, do not infer route."
+      },
+      {
+        "id": "shen-ting",
+        "name": "Thần Đình",
+        "historicalNames": [
+          "神亭"
+        ],
+        "episodes": [
+          "ep-0012"
+        ],
+        "evidence": [
+          "EVD-B04-070"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "No exact dataset city; keep historical name in text, do not infer route."
+      },
+      {
+        "id": "wuhu",
+        "name": "Vu Hồ",
+        "historicalNames": [
+          "蕪湖"
+        ],
+        "episodes": [
+          "ep-0012"
+        ],
+        "evidence": [
+          "EVD-B04-071"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "No exact dataset city; keep historical name in text, do not infer route."
+      },
+      {
+        "id": "jingxian",
+        "name": "Kính huyện",
+        "historicalNames": [
+          "涇縣"
+        ],
+        "episodes": [
+          "ep-0012"
+        ],
+        "evidence": [
+          "EVD-B04-071"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "No exact dataset city; keep historical name in text, do not infer route."
+      },
+      {
+        "id": "chen",
+        "name": "Trần",
+        "historicalNames": [
+          "陳"
+        ],
+        "episodes": [
+          "ep-0013"
+        ],
+        "evidence": [
+          "EVD-B04-026"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "chen"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Dataset site anchor, not archaeological point."
+      },
+      {
+        "id": "huainan",
+        "name": "Hoài Nam",
+        "historicalNames": [
+          "淮南"
+        ],
+        "episodes": [
+          "ep-0013",
+          "ep-0016"
+        ],
+        "evidence": [
+          "EVD-B04-021",
+          "EVD-B04-026",
+          "EVD-B04-042"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "九江・淮南"
+        ],
+        "display": "region",
+        "note": "Regional context, not entire territory."
+      },
+      {
+        "id": "wan",
+        "name": "Uyển",
+        "historicalNames": [
+          "宛"
+        ],
+        "episodes": [
+          "ep-0014"
+        ],
+        "evidence": [
+          "EVD-B04-028",
+          "EVD-B04-031"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "wan"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Dataset site anchor, not archaeological point."
+      },
+      {
+        "id": "rang",
+        "name": "Nhương",
+        "historicalNames": [
+          "穰"
+        ],
+        "episodes": [
+          "ep-0014"
+        ],
+        "evidence": [
+          "EVD-B04-030"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "南陽・宛"
+        ],
+        "display": "region",
+        "note": "HHS112 Nanyang; no city pinpoint; equal anchors group, never draw intra-region path."
+      },
+      {
+        "id": "wuyin",
+        "name": "Vũ Âm",
+        "historicalNames": [
+          "舞陰"
+        ],
+        "episodes": [
+          "ep-0014"
+        ],
+        "evidence": [
+          "EVD-B04-030"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "南陽・宛"
+        ],
+        "display": "region",
+        "note": "HHS112 Nanyang; no city pinpoint; equal anchors group, never draw intra-region path."
+      },
+      {
+        "id": "huyang",
+        "name": "Hồ Dương",
+        "historicalNames": [
+          "湖陽"
+        ],
+        "episodes": [
+          "ep-0014"
+        ],
+        "evidence": [
+          "EVD-B04-031"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "南陽・宛"
+        ],
+        "display": "region",
+        "note": "HHS112 Nanyang; no city pinpoint; equal anchors group, never draw intra-region path."
+      },
+      {
+        "id": "anzhong",
+        "name": "An Chúng",
+        "historicalNames": [
+          "安眾"
+        ],
+        "episodes": [
+          "ep-0014"
+        ],
+        "evidence": [
+          "EVD-B04-032"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "南陽・宛"
+        ],
+        "display": "region",
+        "note": "HHS112 Nanyang; no city pinpoint; equal anchors group, never draw intra-region path."
+      },
+      {
+        "id": "pengcheng",
+        "name": "Bành Thành",
+        "historicalNames": [
+          "彭城"
+        ],
+        "episodes": [
+          "ep-0015"
+        ],
+        "evidence": [
+          "EVD-B04-033"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "pengcheng"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Dataset site anchor, not archaeological point."
+      },
+      {
+        "id": "sishui",
+        "name": "Tứ Thủy",
+        "historicalNames": [
+          "泗"
+        ],
+        "episodes": [
+          "ep-0015"
+        ],
+        "evidence": [
+          "EVD-B04-034"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "Named river or structure; no site coordinates; HHS111 Xiapi regional context."
+      },
+      {
+        "id": "yishui",
+        "name": "Nghi Thủy",
+        "historicalNames": [
+          "沂"
+        ],
+        "episodes": [
+          "ep-0015"
+        ],
+        "evidence": [
+          "EVD-B04-034"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "Named river or structure; no site coordinates; HHS111 Xiapi regional context."
+      },
+      {
+        "id": "white-gate",
+        "name": "Bạch Môn Lâu",
+        "historicalNames": [
+          "白門樓"
+        ],
+        "episodes": [
+          "ep-0015"
+        ],
+        "evidence": [
+          "EVD-B04-035"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "Named river or structure; no site coordinates; HHS111 Xiapi regional context."
+      },
+      {
+        "id": "henei",
+        "name": "Hà Nội",
+        "historicalNames": [
+          "河內"
+        ],
+        "episodes": [
+          "ep-0016"
+        ],
+        "evidence": [
+          "EVD-B04-041"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "henei"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Existing ID; for commandery events use region context."
+      },
+      {
+        "id": "henei-region",
+        "name": "Hà Nội (quận)",
+        "historicalNames": [
+          "河內"
+        ],
+        "episodes": [
+          "ep-0016"
+        ],
+        "evidence": [
+          "EVD-B04-040",
+          "EVD-B04-041"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "河內"
+        ],
+        "display": "region",
+        "note": "Region-level representative anchor only; group equal markers; no claim of actual location."
+      },
+      {
+        "id": "yijing",
+        "name": "Dịch Kinh",
+        "historicalNames": [
+          "易京"
+        ],
+        "episodes": [
+          "ep-0016"
+        ],
+        "evidence": [
+          "EVD-B04-039"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "No exact dataset match; text only; no fabricated coordinates."
+      },
+      {
+        "id": "shequan",
+        "name": "Xạ Khuyển",
+        "historicalNames": [
+          "射犬"
+        ],
+        "episodes": [
+          "ep-0016"
+        ],
+        "evidence": [
+          "EVD-B04-041"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "No exact dataset match; text only; no fabricated coordinates."
+      },
+      {
+        "id": "jiangting",
+        "name": "Giang Đình",
+        "historicalNames": [
+          "江亭"
+        ],
+        "episodes": [
+          "ep-0016"
+        ],
+        "evidence": [
+          "EVD-B04-042"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "No exact dataset match; text only; no fabricated coordinates."
+      },
+      {
+        "id": "guandu",
+        "name": "Quan Độ",
+        "historicalNames": [
+          "官渡"
+        ],
+        "episodes": [
+          "ep-0016"
+        ],
+        "evidence": [
+          "EVD-B04-043"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "No exact dataset match; text only; no fabricated coordinates."
+      },
+      {
+        "id": "shouchun",
+        "name": "Thọ Xuân",
+        "historicalNames": [
+          "壽春"
+        ],
+        "episodes": [
+          "ep-0016"
+        ],
+        "evidence": [
+          "EVD-B04-042"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "shouchun"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Dataset site anchor, not archaeological point."
+      },
+      {
+        "id": "qianshan",
+        "name": "Tiềm Sơn",
+        "historicalNames": [
+          "灊山"
+        ],
+        "episodes": [
+          "ep-0016"
+        ],
+        "evidence": [
+          "EVD-B04-042",
+          "EVD-B04-085"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "廬江"
+        ],
+        "display": "region",
+        "note": "HHS112 潛/天柱山 context; exact camp unresolved."
+      },
+      {
+        "id": "pingyuan",
+        "name": "Bình Nguyên",
+        "historicalNames": [
+          "平原"
+        ],
+        "episodes": [
+          "ep-0017"
+        ],
+        "evidence": [
+          "EVD-B04-051"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "pingyuan"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Dataset site anchor, not archaeological point."
+      },
+      {
+        "id": "wancheng",
+        "name": "Hoàn Thành",
+        "historicalNames": [
+          "皖城"
+        ],
+        "episodes": [
+          "ep-0018"
+        ],
+        "evidence": [
+          "EVD-B04-053",
+          "EVD-B04-054"
+        ],
+        "aliases": [],
+        "atlasIds": [
+          "wancheng"
+        ],
+        "regionAliases": [],
+        "display": "site",
+        "note": "Distinct from wan 宛; HHS112 皖 in Lujiang; dataset city anchor only."
+      },
+      {
+        "id": "juchao",
+        "name": "Cư Sào",
+        "historicalNames": [
+          "居巢"
+        ],
+        "episodes": [
+          "ep-0018"
+        ],
+        "evidence": [
+          "EVD-B04-053"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "廬江"
+        ],
+        "display": "region",
+        "note": "Region-level representative anchor only; group equal markers; no claim of actual location."
+      },
+      {
+        "id": "lujiang-region",
+        "name": "Lư Giang",
+        "historicalNames": [
+          "廬江"
+        ],
+        "episodes": [
+          "ep-0018"
+        ],
+        "evidence": [
+          "EVD-B04-053",
+          "EVD-B04-054"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "廬江"
+        ],
+        "display": "region",
+        "note": "Region-level representative anchor only; group equal markers; no claim of actual location."
+      },
+      {
+        "id": "shaxian",
+        "name": "Sa Tiện",
+        "historicalNames": [
+          "沙羨"
+        ],
+        "episodes": [
+          "ep-0018"
+        ],
+        "evidence": [
+          "EVD-B04-054",
+          "EVD-B04-094"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "HHS112 Jiangxia; split dataset regions do not select one without independent location."
+      },
+      {
+        "id": "yuzhang-region",
+        "name": "Dự Chương",
+        "historicalNames": [
+          "豫章"
+        ],
+        "episodes": [
+          "ep-0018"
+        ],
+        "evidence": [
+          "EVD-B04-055"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "豫章"
+        ],
+        "display": "region",
+        "note": "Region-level representative anchor only; group equal markers; no claim of actual location."
+      },
+      {
+        "id": "luling-region",
+        "name": "Lư Lăng",
+        "historicalNames": [
+          "廬陵"
+        ],
+        "episodes": [
+          "ep-0018"
+        ],
+        "evidence": [
+          "EVD-B04-055",
+          "EVD-B04-091"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "廬陵・贛南"
+        ],
+        "display": "region",
+        "note": "New commandery chronology from campaign biographies; HHS112 annotation 興平元年 conflicts, record disagreement."
+      },
+      {
+        "id": "jiaoqiu",
+        "name": "Tiêu Khâu",
+        "historicalNames": [
+          "椒丘"
+        ],
+        "episodes": [
+          "ep-0018"
+        ],
+        "evidence": [
+          "EVD-B04-055"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "Not a dataset city."
+      },
+      {
+        "id": "dantu",
+        "name": "Đan Đồ",
+        "historicalNames": [
+          "丹徒"
+        ],
+        "episodes": [
+          "ep-0018"
+        ],
+        "evidence": [
+          "EVD-B04-057"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [
+          "吳郡"
+        ],
+        "display": "region",
+        "note": "HHS112; disputed source place; no exact coordinate."
+      },
+      {
+        "id": "jiangxia-region",
+        "name": "Giang Hạ",
+        "historicalNames": [
+          "江夏"
+        ],
+        "episodes": [
+          "ep-0018"
+        ],
+        "evidence": [
+          "EVD-B04-054",
+          "EVD-B04-069"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "Commandery spans north/south dataset regions; display both polygons/context, not a representative city pin."
+      },
+      {
+        "id": "qingzhou-region-unresolved",
+        "name": "Thanh Châu",
+        "historicalNames": [
+          "青州"
+        ],
+        "episodes": [
+          "ep-0017"
+        ],
+        "evidence": [
+          "EVD-B04-051"
+        ],
+        "aliases": [],
+        "atlasIds": [],
+        "regionAliases": [],
+        "display": "unresolved",
+        "note": "Province-wide refuge transition, no single coordinate; no route through unresolved stop."
+      }
+    ],
+    "placeRefsByEpisode": {
+      "ep-0010": [
+        "anyi",
+        "luoyang",
+        "xu",
+        "wenxi"
+      ],
+      "ep-0011": [
+        "xiapi",
+        "xiaopei",
+        "xuyi",
+        "huaiyin",
+        "guangling",
+        "haixi"
+      ],
+      "ep-0012": [
+        "liyang",
+        "danyang-region",
+        "qua",
+        "kuaiji-region",
+        "wu-region",
+        "moling",
+        "niuzhu",
+        "hengjiang",
+        "dangli",
+        "hushu",
+        "jiangcheng",
+        "shen-ting",
+        "wuhu",
+        "jingxian"
+      ],
+      "ep-0013": [
+        "xu",
+        "xiapi",
+        "guangling",
+        "guangling-region",
+        "liyang",
+        "chen",
+        "huainan"
+      ],
+      "ep-0014": [
+        "wan",
+        "rang",
+        "wuyin",
+        "huyang",
+        "anzhong"
+      ],
+      "ep-0015": [
+        "xiapi",
+        "xiaopei",
+        "pengcheng",
+        "sishui",
+        "yishui",
+        "white-gate"
+      ],
+      "ep-0016": [
+        "huainan",
+        "henei",
+        "henei-region",
+        "yijing",
+        "shequan",
+        "jiangting",
+        "guandu",
+        "shouchun",
+        "qianshan"
+      ],
+      "ep-0017": [
+        "xu",
+        "xiapi",
+        "xiaopei",
+        "pingyuan",
+        "qingzhou-region-unresolved"
+      ],
+      "ep-0018": [
+        "guangling",
+        "kuaiji-region",
+        "wu",
+        "wancheng",
+        "juchao",
+        "lujiang-region",
+        "shaxian",
+        "yuzhang-region",
+        "luling-region",
+        "jiaoqiu",
+        "dantu",
+        "jiangxia-region"
+      ]
+    },
+    "events": [
+      {
+        "id": "b04-ev-10-01",
+        "episode": "ep-0010",
+        "year": 196,
+        "dateLabel": "Tháng 7 âm lịch",
+        "anchor": "Tháng bảy, vua trở về Lạc Dương, nhưng triều đình vẫn thiếu nơi ở và lương ăn.",
+        "title": "Triều đình trở về",
+        "place": "anyi",
+        "placeIds": [
+          "anyi",
+          "wenxi",
+          "luoyang"
+        ],
+        "precision": "site",
+        "note": "An Ấp → Văn Hỷ → Lạc Dương; cung ứng thiếu, các nhóm hộ giá khác nhau.",
+        "evidenceIds": [
+          "EVD-B04-001",
+          "EVD-B04-002",
+          "EVD-B04-003",
+          "EVD-B04-010"
+        ],
+        "participants": [
+          {
+            "person": "xiandi",
+            "role": "Vua Hán"
+          },
+          {
+            "person": "zhang-yang",
+            "role": "Hộ giá và hỗ trợ"
+          },
+          {
+            "person": "dong-cheng",
+            "role": "Hộ giá"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-10-02",
+        "episode": "ep-0010",
+        "year": 196,
+        "dateLabel": "196",
+        "anchor": "Triều đình chuyển từ Lạc Dương về Hứa, nơi Tào Tháo có thể cung ứng và bảo vệ.",
+        "title": "Danh nghĩa và thực quyền",
+        "place": "luoyang",
+        "placeIds": [
+          "luoyang",
+          "xu"
+        ],
+        "precision": "site",
+        "note": "Đổng Chiêu đề xuất; Tào đón vua; Hứa trở thành trung tâm. Không ngụ ý vua tự nguyện trao hết quyền.",
+        "evidenceIds": [
+          "EVD-B04-004",
+          "EVD-B04-005",
+          "EVD-B04-006",
+          "EVD-B04-007",
+          "EVD-B04-135",
+          "EVD-B04-151"
+        ],
+        "participants": [
+          {
+            "person": "cao-cao",
+            "role": "Trụ cột quân sự"
+          },
+          {
+            "person": "xiandi",
+            "role": "Hoàng đế"
+          },
+          {
+            "person": "dong-zhao",
+            "role": "Đề xuất dời đô"
+          },
+          {
+            "person": "xu-huang",
+            "role": "Đổi chủ"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-10-03",
+        "episode": "ep-0010",
+        "year": 196,
+        "dateLabel": "196 · khu vực Hứa",
+        "anchor": "Đồn điền biến bài toán quân lương thành một công việc tổ chức sản xuất dài hạn.",
+        "title": "Đồn điền",
+        "place": "xu",
+        "placeIds": [
+          "xu"
+        ],
+        "precision": "site",
+        "note": "Táo Chi đề xuất, Hàn Hạo được ghi cùng chủ trương, Nhậm Tuấn tổ chức; thu hoạch hỗ trợ quân lương.",
+        "evidenceIds": [
+          "EVD-B04-008",
+          "EVD-B04-009",
+          "EVD-B04-081",
+          "EVD-B04-082"
+        ],
+        "participants": [
+          {
+            "person": "zao-zhi",
+            "role": "Đề xuất"
+          },
+          {
+            "person": "han-hao",
+            "role": "Tham gia chủ trương"
+          },
+          {
+            "person": "ren-jun",
+            "role": "Tổ chức"
+          },
+          {
+            "person": "cao-cao",
+            "role": "Chấp thuận"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-11-01",
+        "episode": "ep-0011",
+        "year": 196,
+        "dateLabel": "196",
+        "anchor": "Lữ Bố chiếm Hạ Bì khi Lưu Bị đang chống Viên Thuật.",
+        "title": "Chủ nhà mất căn cứ",
+        "place": "xiapi",
+        "placeIds": [
+          "xiapi",
+          "xuyi",
+          "huaiyin"
+        ],
+        "precision": "site",
+        "note": "Lưu chống Thuật, Tào Báo và Trương Phi xung đột, Lữ chiếm Hạ Bì. Dị bản chi tiết khác nhau.",
+        "evidenceIds": [
+          "EVD-B04-011",
+          "EVD-B04-012",
+          "EVD-B04-013",
+          "EVD-B04-014",
+          "EVD-B04-161"
+        ],
+        "participants": [
+          {
+            "person": "liu-bei",
+            "role": "Mất căn cứ"
+          },
+          {
+            "person": "lu-bu",
+            "role": "Chiếm Hạ Bì"
+          },
+          {
+            "person": "zhang-fei",
+            "role": "Giữ hậu phương"
+          },
+          {
+            "person": "cao-bao",
+            "role": "Xung đột"
+          },
+          {
+            "person": "yuan-shu",
+            "role": "Đối địch"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-11-02",
+        "episode": "ep-0011",
+        "year": 196,
+        "dateLabel": "196",
+        "anchor": "Mi Trúc dùng gia sản để giúp Lưu Bị duy trì lực lượng sau khi mất Hạ Bì.",
+        "title": "Gia sản thành nguồn lực",
+        "place": "haixi",
+        "placeIds": [
+          "haixi",
+          "xiaopei"
+        ],
+        "precision": "region",
+        "note": "Mi Trúc giúp Lưu; Lưu cầu hòa, gia đình được trả, về Tiểu Bái.",
+        "evidenceIds": [
+          "EVD-B04-014",
+          "EVD-B04-115",
+          "EVD-B04-161"
+        ],
+        "participants": [
+          {
+            "person": "mi-zhu",
+            "role": "Cấp nguồn lực"
+          },
+          {
+            "person": "liu-bei",
+            "role": "Tiếp nhận"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-11-03",
+        "episode": "ep-0011",
+        "year": 196,
+        "dateLabel": "196",
+        "anchor": "Lữ Bố cứu Lưu Bị vì một Viên Thuật mạnh hơn cũng có thể đe dọa Lữ Bố.",
+        "title": "Cân bằng ba phe",
+        "place": "xiaopei",
+        "placeIds": [
+          "xiaopei"
+        ],
+        "precision": "site",
+        "note": "Lữ cứu Lưu trước Kỷ Linh để tránh Viên Thuật mạnh hơn; không diễn cảnh tiểu thuyết như chính sử.",
+        "evidenceIds": [
+          "EVD-B04-015",
+          "EVD-B04-102"
+        ],
+        "participants": [
+          {
+            "person": "lu-bu",
+            "role": "Can thiệp"
+          },
+          {
+            "person": "liu-bei",
+            "role": "Được cứu"
+          },
+          {
+            "person": "ji-ling",
+            "role": "Quân Viên Thuật"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-11-04",
+        "episode": "ep-0011",
+        "year": 196,
+        "dateLabel": "196",
+        "anchor": "Lữ Bố giữ được Hạ Bì, nhưng ngay trong quân của mình đã có một cuộc nổi dậy.",
+        "title": "Bộ máy Lữ rạn",
+        "place": "xiapi",
+        "placeIds": [
+          "xiapi"
+        ],
+        "precision": "site",
+        "note": "Hác Manh nổi dậy; Cao Thuận dẹp; lời Cao Tính là chứng từ riêng.",
+        "evidenceIds": [
+          "EVD-B04-016",
+          "EVD-B04-158"
+        ],
+        "participants": [
+          {
+            "person": "hao-meng",
+            "role": "Nổi dậy"
+          },
+          {
+            "person": "gao-shun",
+            "role": "Dẹp loạn"
+          },
+          {
+            "person": "cao-xing",
+            "role": "Khai báo"
+          },
+          {
+            "person": "lu-bu",
+            "role": "Chủ lực"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-12-01",
+        "episode": "ep-0012",
+        "year": 196,
+        "dateLabel": "195–196 · niên đại dị bản",
+        "anchor": "Tôn Sách và Chu Du mở đường từ Lịch Dương vào các địa bàn của Lưu Do.",
+        "title": "Qua sông dựng thế",
+        "place": "liyang",
+        "placeIds": [
+          "liyang",
+          "moling",
+          "qua",
+          "danyang-region"
+        ],
+        "precision": "site",
+        "note": "Lịch Dương, Mạt Lăng, Khúc A là các mốc; đoạn chưa định vị không vẽ.",
+        "evidenceIds": [
+          "EVD-B04-017",
+          "EVD-B04-018",
+          "EVD-B04-019",
+          "EVD-B04-020",
+          "EVD-B04-117"
+        ],
+        "participants": [
+          {
+            "person": "sun-ce",
+            "role": "Chỉ huy"
+          },
+          {
+            "person": "zhou-yu",
+            "role": "Phối hợp"
+          },
+          {
+            "person": "liu-yao",
+            "role": "Đối địch"
+          },
+          {
+            "person": "wu-jing",
+            "role": "Hỗ trợ"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-12-02",
+        "episode": "ep-0012",
+        "year": 196,
+        "dateLabel": "195–196+ · chưa chắc năm",
+        "anchor": "Cuộc giao tranh ở Thần Đình chưa phải lúc Thái Sử Từ đầu hàng.",
+        "title": "Thần Đình khác lúc thu hàng",
+        "place": null,
+        "placeIds": [
+          "shen-ting",
+          "wuhu",
+          "jingxian"
+        ],
+        "precision": "text-only",
+        "note": "Tách giao tranh Thần Đình và lần bắt/thu dùng sau đó; không định ngày.",
+        "evidenceIds": [
+          "EVD-B04-070",
+          "EVD-B04-071",
+          "EVD-B04-072",
+          "EVD-B04-100",
+          "EVD-B04-101"
+        ],
+        "participants": [
+          {
+            "person": "sun-ce",
+            "role": "Thu dùng"
+          },
+          {
+            "person": "taishi-ci",
+            "role": "Đối địch rồi theo Sách"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-12-03",
+        "episode": "ep-0012",
+        "year": 196,
+        "dateLabel": "195–196",
+        "anchor": "Các quận Giang Đông bắt đầu được giao cho những người thuộc mạng lưới của Tôn Sách.",
+        "title": "Quản lý quận",
+        "place": "kuaiji-region",
+        "placeIds": [
+          "kuaiji-region",
+          "wu-region",
+          "danyang-region"
+        ],
+        "precision": "region",
+        "note": "Vương Lãng rút; Trình Phổ, Chu Trị, Ngô Cảnh và các đầu mối; không tô biên giới nhà nước.",
+        "evidenceIds": [
+          "EVD-B04-065",
+          "EVD-B04-068",
+          "EVD-B04-078",
+          "EVD-B04-093"
+        ],
+        "participants": [
+          {
+            "person": "sun-ce",
+            "role": "Phân công"
+          },
+          {
+            "person": "wang-lang",
+            "role": "Chống cự"
+          },
+          {
+            "person": "yu-fan",
+            "role": "Khuyên"
+          },
+          {
+            "person": "cheng-pu",
+            "role": "Quản quân"
+          },
+          {
+            "person": "zhu-zhi",
+            "role": "Quản quận"
+          },
+          {
+            "person": "wu-jing",
+            "role": "Quản quận"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-13-01",
+        "episode": "ep-0013",
+        "year": 197,
+        "dateLabel": "197",
+        "anchor": "Viên Thuật tự lập một triều đình trong khi triều đình nhà Hán vẫn tồn tại.",
+        "title": "Hai trung tâm xưng đế",
+        "place": "huainan",
+        "placeIds": [
+          "huainan",
+          "xu"
+        ],
+        "precision": "region",
+        "note": "Hán Hiến Đế ở Hứa; Viên Thuật tự xưng tại Hoài Nam. Tước hiệu không phải thực quyền.",
+        "evidenceIds": [
+          "EVD-B04-021",
+          "EVD-B04-073",
+          "EVD-B04-074",
+          "EVD-B04-083",
+          "EVD-B04-084",
+          "EVD-B04-148"
+        ],
+        "participants": [
+          {
+            "person": "yuan-shu",
+            "role": "Tự xưng"
+          },
+          {
+            "person": "xiandi",
+            "role": "Vua Hán"
+          },
+          {
+            "person": "yan-xiang",
+            "role": "Can trước đó (195)"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-13-02",
+        "episode": "ep-0013",
+        "year": 197,
+        "dateLabel": "197",
+        "anchor": "Tôn Sách cắt quan hệ với người từng cấp quân cho mình.",
+        "title": "Tôn Sách cắt quan hệ",
+        "place": "huainan",
+        "placeIds": [
+          "huainan",
+          "liyang"
+        ],
+        "precision": "region",
+        "note": "Tách khỏi người từng cấp quân, Tôn Bí/Ngô Cảnh có lựa chọn riêng.",
+        "evidenceIds": [
+          "EVD-B04-022",
+          "EVD-B04-116",
+          "EVD-B04-117"
+        ],
+        "participants": [
+          {
+            "person": "sun-ce",
+            "role": "Cắt quan hệ"
+          },
+          {
+            "person": "yuan-shu",
+            "role": "Người bảo trợ cũ"
+          },
+          {
+            "person": "sun-ben",
+            "role": "Không theo Thuật"
+          },
+          {
+            "person": "wu-jing",
+            "role": "Không theo Thuật"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-13-03",
+        "episode": "ep-0013",
+        "year": 197,
+        "dateLabel": "197",
+        "anchor": "Con gái Lữ Bố chưa tới nhà trai thì hôn ước chính trị đã bị hủy.",
+        "title": "Hôn ước và ngoại giao",
+        "place": "xiapi",
+        "placeIds": [
+          "xiapi",
+          "xu",
+          "guangling-region"
+        ],
+        "precision": "site",
+        "note": "Hủy hôn; Hàn Dận bị giết; Trần Khuê/Trần Đăng thay đổi quan hệ.",
+        "evidenceIds": [
+          "EVD-B04-023",
+          "EVD-B04-024",
+          "EVD-B04-097"
+        ],
+        "participants": [
+          {
+            "person": "lu-bu",
+            "role": "Hủy hôn"
+          },
+          {
+            "person": "yuan-shu",
+            "role": "Muốn kết minh"
+          },
+          {
+            "person": "chen-gui",
+            "role": "Khuyên"
+          },
+          {
+            "person": "chen-deng",
+            "role": "Đi sứ"
+          },
+          {
+            "person": "han-yin",
+            "role": "Sứ giả"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-13-04",
+        "episode": "ep-0013",
+        "year": 197,
+        "dateLabel": "197",
+        "anchor": "Hàn Xiêm và Dương Phụng đổi phe, khiến liên minh đánh Lữ Bố tan vỡ.",
+        "title": "Liên minh đổi phe",
+        "place": "xiapi",
+        "placeIds": [
+          "xiapi",
+          "huainan",
+          "chen"
+        ],
+        "precision": "site",
+        "note": "Hàn Xiêm, Dương Phụng chuyển sang Lữ; Trương Huân thất bại; không minh họa chiến thuật giả.",
+        "evidenceIds": [
+          "EVD-B04-025",
+          "EVD-B04-026",
+          "EVD-B04-148"
+        ],
+        "participants": [
+          {
+            "person": "han-xian",
+            "role": "Đổi phe"
+          },
+          {
+            "person": "yang-feng",
+            "role": "Đổi phe"
+          },
+          {
+            "person": "lu-bu",
+            "role": "Được hỗ trợ"
+          },
+          {
+            "person": "zhang-xun",
+            "role": "Chỉ huy Viên Thuật"
+          },
+          {
+            "person": "cao-cao",
+            "role": "Chống Thuật"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-14-01",
+        "episode": "ep-0014",
+        "year": 196,
+        "dateLabel": "196",
+        "anchor": "Trương Tú tiếp quản quân của Trương Tế và trở thành một thế lực ở Nam Dương.",
+        "title": "Trương Tú kế quân",
+        "place": "wan",
+        "placeIds": [
+          "wan"
+        ],
+        "precision": "site",
+        "note": "Trương Tế mất; cháu kế quân; dựa vào Lưu Biểu.",
+        "evidenceIds": [
+          "EVD-B04-027",
+          "EVD-B04-062",
+          "EVD-B04-076"
+        ],
+        "participants": [
+          {
+            "person": "zhang-ji",
+            "role": "Chủ quân trước"
+          },
+          {
+            "person": "zhang-xiu",
+            "role": "Kế quân"
+          },
+          {
+            "person": "liu-biao",
+            "role": "Chỗ dựa"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-14-02",
+        "episode": "ep-0014",
+        "year": 197,
+        "dateLabel": "Tháng giêng âm lịch 197",
+        "anchor": "Trương Tú quay lại chống Tào sau khi đã đầu hàng.",
+        "title": "Hàng rồi phản",
+        "place": "wan",
+        "placeIds": [
+          "wan"
+        ],
+        "precision": "site",
+        "note": "Đầu hàng không bền; các nguyên nhân theo từng nguồn, không tái dựng cảnh bạo lực.",
+        "evidenceIds": [
+          "EVD-B04-028",
+          "EVD-B04-029",
+          "EVD-B04-062"
+        ],
+        "participants": [
+          {
+            "person": "zhang-xiu",
+            "role": "Phản"
+          },
+          {
+            "person": "cao-cao",
+            "role": "Bị đánh bất ngờ"
+          },
+          {
+            "person": "jia-xu",
+            "role": "Trong bộ máy Trương Tú"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-14-03",
+        "episode": "ep-0014",
+        "year": 197,
+        "dateLabel": "197",
+        "anchor": "Tào Ngang, Tào An Dân và Điển Vi không trở về từ Uyển.",
+        "title": "Ba người không về",
+        "place": "wan",
+        "placeIds": [
+          "wan"
+        ],
+        "precision": "site",
+        "note": "Tào Ngang, Tào An Dân, Điển Vi; ghi cái chết theo nguồn, không dựng lời thoại.",
+        "evidenceIds": [
+          "EVD-B04-028",
+          "EVD-B04-029",
+          "EVD-B04-063",
+          "EVD-B04-140",
+          "EVD-B04-141"
+        ],
+        "participants": [
+          {
+            "person": "cao-ang",
+            "role": "Tử trận"
+          },
+          {
+            "person": "cao-anmin",
+            "role": "Tử trận"
+          },
+          {
+            "person": "dian-wei",
+            "role": "Tử trận"
+          },
+          {
+            "person": "cao-cao",
+            "role": "Mất người thân và hộ vệ"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-14-04",
+        "episode": "ep-0014",
+        "year": 197,
+        "dateLabel": "197",
+        "anchor": "Vu Cấm duy trì trật tự khi quân Tào rơi vào cảnh thất bại.",
+        "title": "Giữ kỷ luật",
+        "place": "wan",
+        "placeIds": [
+          "wan"
+        ],
+        "precision": "site",
+        "note": "Vu Cấm tập hợp quân, xử lý cướp bóc; không diễn tập chiến thuật.",
+        "evidenceIds": [
+          "EVD-B04-149"
+        ],
+        "participants": [
+          {
+            "person": "yu-jin",
+            "role": "Giữ kỷ luật"
+          },
+          {
+            "person": "cao-cao",
+            "role": "Chủ lực"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-14-05",
+        "episode": "ep-0014",
+        "year": 198,
+        "dateLabel": "197–198",
+        "anchor": "Đến năm 198, Trương Tú vẫn còn lực lượng riêng và vẫn liên kết với Lưu Biểu.",
+        "title": "Mặt trận nam vẫn mở",
+        "place": "rang",
+        "placeIds": [
+          "rang",
+          "wuyin",
+          "huyang",
+          "anzhong"
+        ],
+        "precision": "region",
+        "note": "Tào đánh lại, Trương Tú còn quân và liên kết Lưu Biểu; năm 198 không phải đã hàng.",
+        "evidenceIds": [
+          "EVD-B04-030",
+          "EVD-B04-031",
+          "EVD-B04-032",
+          "EVD-B04-076"
+        ],
+        "participants": [
+          {
+            "person": "cao-cao",
+            "role": "Tiến quân"
+          },
+          {
+            "person": "zhang-xiu",
+            "role": "Chống"
+          },
+          {
+            "person": "liu-biao",
+            "role": "Chi viện"
+          },
+          {
+            "person": "jia-xu",
+            "role": "Tham mưu"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-15-01",
+        "episode": "ep-0015",
+        "year": 198,
+        "dateLabel": "198",
+        "anchor": "Lưu Bị mất Tiểu Bái và tìm sự hỗ trợ của Tào Tháo.",
+        "title": "Tiểu Bái đổi chủ",
+        "place": "xiaopei",
+        "placeIds": [
+          "xiaopei"
+        ],
+        "precision": "site",
+        "note": "Cao Thuận đánh Lưu; gia đình Lưu bị bắt; Hạ Hầu Đôn trợ chiến.",
+        "evidenceIds": [
+          "EVD-B04-033",
+          "EVD-B04-122",
+          "EVD-B04-161"
+        ],
+        "participants": [
+          {
+            "person": "gao-shun",
+            "role": "Đánh Lưu"
+          },
+          {
+            "person": "liu-bei",
+            "role": "Mất căn cứ"
+          },
+          {
+            "person": "xiahou-dun",
+            "role": "Cứu viện"
+          },
+          {
+            "person": "lu-bu",
+            "role": "Chủ quân"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-15-02",
+        "episode": "ep-0015",
+        "year": 198,
+        "dateLabel": "198",
+        "anchor": "Trần Đăng từ người đi xin chức cho Lữ Bố trở thành người phối hợp đánh Lữ Bố.",
+        "title": "Trần Đăng đổi vai",
+        "place": "pengcheng",
+        "placeIds": [
+          "pengcheng",
+          "xiapi"
+        ],
+        "precision": "site",
+        "note": "Từ sứ giả thành người phối hợp Tào; không gán lời hứa ngoài nguồn.",
+        "evidenceIds": [
+          "EVD-B04-034",
+          "EVD-B04-138"
+        ],
+        "participants": [
+          {
+            "person": "chen-deng",
+            "role": "Phối hợp"
+          },
+          {
+            "person": "cao-cao",
+            "role": "Tiến quân"
+          },
+          {
+            "person": "lu-bu",
+            "role": "Đối địch"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-15-03",
+        "episode": "ep-0015",
+        "year": 198,
+        "dateLabel": "198",
+        "anchor": "Quân Tào tiếp tục vây Hạ Bì và dùng nước gây sức ép lên thành.",
+        "title": "Áp lực lên Hạ Bì",
+        "place": "xiapi",
+        "placeIds": [
+          "xiapi",
+          "sishui",
+          "yishui"
+        ],
+        "precision": "site",
+        "note": "Quây thành và dùng nước theo sử; biểu tượng nước, không mô phỏng công trình hoặc hướng dòng.",
+        "evidenceIds": [
+          "EVD-B04-034",
+          "EVD-B04-035",
+          "EVD-B04-036",
+          "EVD-B04-136",
+          "EVD-B04-139",
+          "EVD-B04-159"
+        ],
+        "participants": [
+          {
+            "person": "cao-cao",
+            "role": "Vây"
+          },
+          {
+            "person": "lu-bu",
+            "role": "Bị vây"
+          },
+          {
+            "person": "xun-you",
+            "role": "Hiến kế"
+          },
+          {
+            "person": "guo-jia",
+            "role": "Hiến kế"
+          },
+          {
+            "person": "hou-cheng",
+            "role": "Đổi phe"
+          },
+          {
+            "person": "wei-xu",
+            "role": "Đổi phe"
+          },
+          {
+            "person": "song-xian",
+            "role": "Đổi phe"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-15-04",
+        "episode": "ep-0015",
+        "year": 198,
+        "dateLabel": "Tháng chạp Kiến An 3",
+        "anchor": "Lữ Bố không còn một cuộc đổi chủ nào nữa.",
+        "title": "Một lực lượng tan rã",
+        "place": "xiapi",
+        "placeIds": [
+          "xiapi",
+          "white-gate"
+        ],
+        "precision": "site",
+        "note": "Lữ, Trần Cung, Cao Thuận bị xử tử; Trương Liêu theo Tào; gia đình Lưu được trả; không định tọa độ Bạch Môn.",
+        "evidenceIds": [
+          "EVD-B04-035",
+          "EVD-B04-036",
+          "EVD-B04-037",
+          "EVD-B04-114",
+          "EVD-B04-137",
+          "EVD-B04-161"
+        ],
+        "participants": [
+          {
+            "person": "lu-bu",
+            "role": "Bị xử tử"
+          },
+          {
+            "person": "chen-gong",
+            "role": "Bị xử tử"
+          },
+          {
+            "person": "gao-shun",
+            "role": "Bị xử tử"
+          },
+          {
+            "person": "zhang-liao",
+            "role": "Theo Tào"
+          },
+          {
+            "person": "liu-bei",
+            "role": "Được trả gia đình"
+          },
+          {
+            "person": "cao-cao",
+            "role": "Thắng"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-16-01",
+        "episode": "ep-0016",
+        "year": 199,
+        "dateLabel": "Tháng 3 âm lịch",
+        "anchor": "Tháng ba năm 199, Viên Thiệu đánh bại Công Tôn Toản tại Dịch Kinh.",
+        "title": "Dịch Kinh kết thúc",
+        "place": null,
+        "placeIds": [
+          "yijing"
+        ],
+        "precision": "text-only",
+        "note": "Viên Thiệu thắng, Công Tôn Toản mất; Dịch Kinh chưa có điểm xác định.",
+        "evidenceIds": [
+          "EVD-B04-039",
+          "EVD-B04-086",
+          "EVD-B04-087",
+          "EVD-B04-153"
+        ],
+        "participants": [
+          {
+            "person": "yuan-shao",
+            "role": "Thắng"
+          },
+          {
+            "person": "gongsun-zan",
+            "role": "Thua và chết"
+          },
+          {
+            "person": "guan-jing",
+            "role": "Thuộc hạ"
+          },
+          {
+            "person": "gongsun-xu",
+            "role": "Cầu viện"
+          },
+          {
+            "person": "zhang-yan",
+            "role": "Cứu viện"
+          },
+          {
+            "person": "zhang-he",
+            "role": "Tham chiến"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-16-02",
+        "episode": "ep-0016",
+        "year": 199,
+        "dateLabel": "199 · địa bàn miền bắc",
+        "anchor": "Viên Thiệu có thế lực trên bốn châu, nhưng các vùng ấy được quản qua những đầu mối khác nhau.",
+        "title": "Bốn châu, nhiều đầu mối",
+        "place": null,
+        "placeIds": [],
+        "precision": "text-only",
+        "note": "Chỉ sơ đồ đầu mối, không tô đa giác biên giới; danh hiệu Viên Đàm có dị bản.",
+        "evidenceIds": [
+          "EVD-B04-043",
+          "EVD-B04-088",
+          "EVD-B04-157"
+        ],
+        "participants": [
+          {
+            "person": "yuan-shao",
+            "role": "Trung tâm"
+          },
+          {
+            "person": "yuan-tan",
+            "role": "Thanh"
+          },
+          {
+            "person": "yuan-xi",
+            "role": "U"
+          },
+          {
+            "person": "gao-gan",
+            "role": "Tịnh"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-16-03",
+        "episode": "ep-0016",
+        "year": 199,
+        "dateLabel": "Cuối 198–199",
+        "anchor": "Hà Nội đổi chủ sau khi lực lượng của Trương Dương tan rã.",
+        "title": "Hà Nội đổi chủ",
+        "place": "henei-region",
+        "placeIds": [
+          "henei-region",
+          "shequan"
+        ],
+        "precision": "region",
+        "note": "Trương Dương bị giết, Dương Xú/Tuy Cố đổi thế; Tào tiếp nhận, Ngụy Chủng quản quận.",
+        "evidenceIds": [
+          "EVD-B04-040",
+          "EVD-B04-041",
+          "EVD-B04-145",
+          "EVD-B04-146",
+          "EVD-B04-150",
+          "EVD-B04-152",
+          "EVD-B04-154"
+        ],
+        "participants": [
+          {
+            "person": "zhang-yang",
+            "role": "Chủ cũ"
+          },
+          {
+            "person": "yang-chou",
+            "role": "Giết Trương Dương"
+          },
+          {
+            "person": "sui-gu",
+            "role": "Giết Dương Xú"
+          },
+          {
+            "person": "cao-ren",
+            "role": "Tham chiến"
+          },
+          {
+            "person": "shi-huan",
+            "role": "Tham chiến"
+          },
+          {
+            "person": "yu-jin",
+            "role": "Tham chiến"
+          },
+          {
+            "person": "xu-huang",
+            "role": "Tham chiến"
+          },
+          {
+            "person": "wei-zhong",
+            "role": "Quản quận"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-16-04",
+        "episode": "ep-0016",
+        "year": 199,
+        "dateLabel": "Tháng 6 âm lịch",
+        "anchor": "Viên Thuật chết mà không duy trì được triều đình mình tự lập.",
+        "title": "Đế hiệu không giữ được đất",
+        "place": "shouchun",
+        "placeIds": [
+          "shouchun",
+          "qianshan",
+          "jiangting"
+        ],
+        "precision": "site",
+        "note": "Viên Thuật mất chỗ dựa, chết; Từ Cầu trả ấn; không ghép đường chạy.",
+        "evidenceIds": [
+          "EVD-B04-042",
+          "EVD-B04-075",
+          "EVD-B04-085",
+          "EVD-B04-144"
+        ],
+        "participants": [
+          {
+            "person": "yuan-shu",
+            "role": "Mất thế lực"
+          },
+          {
+            "person": "xu-qiu",
+            "role": "Trả ấn"
+          },
+          {
+            "person": "liu-bei",
+            "role": "Được giao chặn"
+          },
+          {
+            "person": "zhu-ling",
+            "role": "Tham gia"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-17-01",
+        "episode": "ep-0017",
+        "year": 199,
+        "dateLabel": "199 · trước nhiệm vụ chặn Thuật",
+        "anchor": "Tào Tháo nhận xét Lưu Bị là một trong hai anh hùng đương thời.",
+        "title": "Lời nhận xét về anh hùng",
+        "place": "xu",
+        "placeIds": [
+          "xu"
+        ],
+        "precision": "site",
+        "note": "Lời chính văn khác bối cảnh Thanh mai chửu tửu; không vẽ rượu như sự thật.",
+        "evidenceIds": [
+          "EVD-B04-046",
+          "EVD-B04-110"
+        ],
+        "participants": [
+          {
+            "person": "cao-cao",
+            "role": "Nhận xét"
+          },
+          {
+            "person": "liu-bei",
+            "role": "Được nhận xét"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-17-02",
+        "episode": "ep-0017",
+        "year": 199,
+        "dateLabel": "199",
+        "anchor": "Lưu Bị giết Xa Trụ và quay lại nắm một phần Từ Châu.",
+        "title": "Lưu Bị rời mạng lưới Tào",
+        "place": "xiapi",
+        "placeIds": [
+          "xiapi",
+          "xiaopei"
+        ],
+        "precision": "site",
+        "note": "Nhiệm vụ chặn Thuật, giết Xa Trụ, lấy một phần Từ Châu; không giả định đường đi.",
+        "evidenceIds": [
+          "EVD-B04-047",
+          "EVD-B04-089",
+          "EVD-B04-134",
+          "EVD-B04-143",
+          "EVD-B04-155"
+        ],
+        "participants": [
+          {
+            "person": "liu-bei",
+            "role": "Đổi phe"
+          },
+          {
+            "person": "che-zhou",
+            "role": "Bị giết"
+          },
+          {
+            "person": "guan-yu",
+            "role": "Giữ Hạ Bì"
+          },
+          {
+            "person": "sun-qian",
+            "role": "Liên hệ Viên"
+          },
+          {
+            "person": "zhu-ling",
+            "role": "Được giao quân"
+          },
+          {
+            "person": "liu-dai-199",
+            "role": "Đánh Lưu"
+          },
+          {
+            "person": "wang-zhong",
+            "role": "Đánh Lưu"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-17-03",
+        "episode": "ep-0017",
+        "year": 199,
+        "dateLabel": "Tháng 11 âm lịch",
+        "anchor": "Trương Tú đầu hàng lần thứ hai, lần này được Tào tiếp nhận vào mạng lưới của mình.",
+        "title": "Lần đầu hàng thứ hai",
+        "place": "xu",
+        "placeIds": [
+          "xu"
+        ],
+        "precision": "site",
+        "note": "Giả Hủ khuyên Trương Tú theo Tào, Tào tiếp nhận; hôn nhân sau đó là quan hệ riêng.",
+        "evidenceIds": [
+          "EVD-B04-044",
+          "EVD-B04-064",
+          "EVD-B04-077"
+        ],
+        "participants": [
+          {
+            "person": "zhang-xiu",
+            "role": "Đầu hàng"
+          },
+          {
+            "person": "jia-xu",
+            "role": "Khuyên"
+          },
+          {
+            "person": "cao-cao",
+            "role": "Tiếp nhận"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-17-04",
+        "episode": "ep-0017",
+        "year": 200,
+        "dateLabel": "Tháng giêng âm lịch",
+        "anchor": "Cùng một âm mưu được các sử liệu đặt trong hai cách nhìn chính trị khác nhau.",
+        "title": "Mật chiếu và mưu phản",
+        "place": "xu",
+        "placeIds": [
+          "xu"
+        ],
+        "precision": "site",
+        "note": "Tách Hậu Hán thư, Tam Quốc chí, dị bản; không xác thực chiếu máu tiểu thuyết.",
+        "evidenceIds": [
+          "EVD-B04-045",
+          "EVD-B04-049",
+          "EVD-B04-108",
+          "EVD-B04-127",
+          "EVD-B04-142"
+        ],
+        "participants": [
+          {
+            "person": "dong-cheng",
+            "role": "Liên quan mật chiếu"
+          },
+          {
+            "person": "xiandi",
+            "role": "Vua"
+          },
+          {
+            "person": "cao-cao",
+            "role": "Trấn áp"
+          },
+          {
+            "person": "dong-guiren",
+            "role": "Nạn nhân"
+          },
+          {
+            "person": "wang-fu",
+            "role": "Liên quan"
+          },
+          {
+            "person": "zhong-ji",
+            "role": "Liên quan"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-17-05",
+        "episode": "ep-0017",
+        "year": 200,
+        "dateLabel": "Tháng giêng âm lịch",
+        "anchor": "Quan Vũ bị bắt và nhận chức trong quân Tào, còn Lưu Bị sang với Viên Thiệu.",
+        "title": "Hai người bị chia ra",
+        "place": "xiapi",
+        "placeIds": [
+          "xiapi",
+          "xiaopei",
+          "pingyuan",
+          "qingzhou-region-unresolved"
+        ],
+        "precision": "site",
+        "note": "Quan Vũ theo Tào, Lưu Bị đến Viên Thiệu; chưa kể chiến công Bạch Mã.",
+        "evidenceIds": [
+          "EVD-B04-050",
+          "EVD-B04-051",
+          "EVD-B04-052",
+          "EVD-B04-095",
+          "EVD-B04-120"
+        ],
+        "participants": [
+          {
+            "person": "guan-yu",
+            "role": "Bị bắt, được phong"
+          },
+          {
+            "person": "liu-bei",
+            "role": "Sang Viên"
+          },
+          {
+            "person": "cao-cao",
+            "role": "Thắng"
+          },
+          {
+            "person": "yuan-shao",
+            "role": "Tiếp nhận"
+          },
+          {
+            "person": "yuan-tan",
+            "role": "Đón Lưu"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-18-01",
+        "episode": "ep-0018",
+        "year": 199,
+        "dateLabel": "198–199",
+        "anchor": "Chu Du trở lại với Tôn Sách, còn Tôn Quyền tham gia các chiến dịch của anh.",
+        "title": "Nhà Tôn mở rộng",
+        "place": "juchao",
+        "placeIds": [
+          "juchao",
+          "wancheng",
+          "lujiang-region",
+          "shaxian",
+          "jiangxia-region"
+        ],
+        "precision": "region",
+        "note": "Chu Du về, Tôn Quyền tham chiến, Lưu Huân mất địa bàn; Hoàn và Uyển khác nhau.",
+        "evidenceIds": [
+          "EVD-B04-053",
+          "EVD-B04-054",
+          "EVD-B04-069",
+          "EVD-B04-091",
+          "EVD-B04-156"
+        ],
+        "participants": [
+          {
+            "person": "sun-ce",
+            "role": "Chủ lực"
+          },
+          {
+            "person": "zhou-yu",
+            "role": "Phối hợp"
+          },
+          {
+            "person": "sun-quan",
+            "role": "Tham chiến"
+          },
+          {
+            "person": "liu-xun",
+            "role": "Đối địch"
+          },
+          {
+            "person": "huang-zu",
+            "role": "Đối địch"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-18-02",
+        "episode": "ep-0018",
+        "year": 199,
+        "dateLabel": "199",
+        "anchor": "Dự Chương và Lư Lăng được tổ chức lại trong mạng lưới của Tôn Sách.",
+        "title": "Tổ chức Dự Chương và Lư Lăng",
+        "place": "yuzhang-region",
+        "placeIds": [
+          "yuzhang-region",
+          "luling-region"
+        ],
+        "precision": "region",
+        "note": "Hoa Hâm tiếp nhận thương lượng; Tôn Bí, Tôn Phụ được giao quản; không mặc định mọi nơi giao chiến.",
+        "evidenceIds": [
+          "EVD-B04-055",
+          "EVD-B04-091",
+          "EVD-B04-119"
+        ],
+        "participants": [
+          {
+            "person": "sun-ce",
+            "role": "Phân công"
+          },
+          {
+            "person": "hua-xin",
+            "role": "Tiếp nhận thuyết phục"
+          },
+          {
+            "person": "yu-fan",
+            "role": "Thuyết phục"
+          },
+          {
+            "person": "sun-ben",
+            "role": "Quản quận"
+          },
+          {
+            "person": "sun-fu",
+            "role": "Quản quận"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-18-03",
+        "episode": "ep-0018",
+        "year": 200,
+        "dateLabel": "Đầu 200 · kế hoạch",
+        "anchor": "Sử liệu bất đồng về mục tiêu trước mắt của Tôn Sách; không có trận đánh Hứa nào của ông được thực hiện.",
+        "title": "Kế hoạch chưa xảy ra",
+        "place": "dantu",
+        "placeIds": [
+          "dantu",
+          "guangling"
+        ],
+        "precision": "region",
+        "note": "Hứa / Trần Đăng theo nguồn khác nhau; không vẽ hành trình chưa thực hiện.",
+        "evidenceIds": [
+          "EVD-B04-056",
+          "EVD-B04-057",
+          "EVD-B04-147"
+        ],
+        "participants": [
+          {
+            "person": "sun-ce",
+            "role": "Dự định"
+          },
+          {
+            "person": "chen-deng",
+            "role": "Mục tiêu theo dị bản"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      },
+      {
+        "id": "b04-ev-18-04",
+        "episode": "ep-0018",
+        "year": 200,
+        "dateLabel": "Tháng tư âm lịch và sau đó",
+        "anchor": "Tôn Quyền nhận cơ nghiệp với sự trợ giúp của cả quan lại và tướng lĩnh cũ.",
+        "title": "Người em tiếp quản",
+        "place": "wu",
+        "placeIds": [
+          "wu",
+          "kuaiji-region"
+        ],
+        "precision": "site",
+        "note": "Tôn Quyền nhận quyền; Trương Chiêu, Chu Du, Ngô phu nhân hỗ trợ; không dùng câu nội sự/ngoại sự như chính sử.",
+        "evidenceIds": [
+          "EVD-B04-059",
+          "EVD-B04-060",
+          "EVD-B04-061",
+          "EVD-B04-067",
+          "EVD-B04-094",
+          "EVD-B04-118",
+          "EVD-B04-128"
+        ],
+        "participants": [
+          {
+            "person": "sun-quan",
+            "role": "Tiếp quản"
+          },
+          {
+            "person": "sun-ce",
+            "role": "Người tiền nhiệm"
+          },
+          {
+            "person": "zhang-zhao",
+            "role": "Hỗ trợ"
+          },
+          {
+            "person": "zhou-yu",
+            "role": "Hỗ trợ"
+          },
+          {
+            "person": "wu-furen",
+            "role": "Hỗ trợ"
+          },
+          {
+            "person": "cheng-pu",
+            "role": "Hỗ trợ"
+          }
+        ],
+        "markerPolicy": "Only place a person when the source attests presence; participants are relationship context, not inferred positions. Resolve dated office and actual influence independently at Chat04."
+      }
+    ],
+    "relations": [
+      {
+        "id": "b04-rel-001",
+        "event": "b04-ev-10-02",
+        "from": "dong-zhao",
+        "to": "cao-cao",
+        "label": "Đề xuất dời đô",
+        "evidenceIds": [
+          "EVD-B04-135"
+        ]
+      },
+      {
+        "id": "b04-rel-002",
+        "event": "b04-ev-10-02",
+        "from": "cao-cao",
+        "to": "xiandi",
+        "label": "Đón thiên tử; thực quyền khác danh nghĩa",
+        "evidenceIds": [
+          "EVD-B04-004",
+          "EVD-B04-005",
+          "EVD-B04-006",
+          "EVD-B04-007"
+        ]
+      },
+      {
+        "id": "b04-rel-003",
+        "event": "b04-ev-10-03",
+        "from": "zao-zhi",
+        "to": "cao-cao",
+        "label": "Đề xuất đồn điền",
+        "evidenceIds": [
+          "EVD-B04-008"
+        ]
+      },
+      {
+        "id": "b04-rel-004",
+        "event": "b04-ev-10-03",
+        "from": "han-hao",
+        "to": "cao-cao",
+        "label": "Tham gia chủ trương",
+        "evidenceIds": [
+          "EVD-B04-009"
+        ]
+      },
+      {
+        "id": "b04-rel-005",
+        "event": "b04-ev-10-03",
+        "from": "ren-jun",
+        "to": "cao-cao",
+        "label": "Tổ chức đồn điền",
+        "evidenceIds": [
+          "EVD-B04-081",
+          "EVD-B04-082"
+        ]
+      },
+      {
+        "id": "b04-rel-006",
+        "event": "b04-ev-11-01",
+        "from": "lu-bu",
+        "to": "liu-bei",
+        "label": "Chiếm hậu phương",
+        "evidenceIds": [
+          "EVD-B04-011"
+        ]
+      },
+      {
+        "id": "b04-rel-007",
+        "event": "b04-ev-11-02",
+        "from": "mi-zhu",
+        "to": "liu-bei",
+        "label": "Giúp nguồn lực",
+        "evidenceIds": [
+          "EVD-B04-115"
+        ]
+      },
+      {
+        "id": "b04-rel-008",
+        "event": "b04-ev-11-03",
+        "from": "lu-bu",
+        "to": "liu-bei",
+        "label": "Can thiệp chống Viên Thuật",
+        "evidenceIds": [
+          "EVD-B04-015"
+        ]
+      },
+      {
+        "id": "b04-rel-009",
+        "event": "b04-ev-11-03",
+        "from": "ji-ling",
+        "to": "liu-bei",
+        "label": "Đối địch",
+        "evidenceIds": [
+          "EVD-B04-015"
+        ]
+      },
+      {
+        "id": "b04-rel-010",
+        "event": "b04-ev-11-04",
+        "from": "gao-shun",
+        "to": "hao-meng",
+        "label": "Dẹp nổi dậy",
+        "evidenceIds": [
+          "EVD-B04-016",
+          "EVD-B04-158"
+        ]
+      },
+      {
+        "id": "b04-rel-011",
+        "event": "b04-ev-12-01",
+        "from": "zhou-yu",
+        "to": "sun-ce",
+        "label": "Hỗ trợ vượt sông",
+        "evidenceIds": [
+          "EVD-B04-019"
+        ]
+      },
+      {
+        "id": "b04-rel-012",
+        "event": "b04-ev-12-01",
+        "from": "sun-ce",
+        "to": "liu-yao",
+        "label": "Đối địch",
+        "evidenceIds": [
+          "EVD-B04-017",
+          "EVD-B04-018",
+          "EVD-B04-019",
+          "EVD-B04-020"
+        ]
+      },
+      {
+        "id": "b04-rel-013",
+        "event": "b04-ev-12-02",
+        "from": "sun-ce",
+        "to": "taishi-ci",
+        "label": "Đối địch rồi thu dùng",
+        "evidenceIds": [
+          "EVD-B04-070",
+          "EVD-B04-071",
+          "EVD-B04-072"
+        ]
+      },
+      {
+        "id": "b04-rel-014",
+        "event": "b04-ev-12-03",
+        "from": "yu-fan",
+        "to": "wang-lang",
+        "label": "Khuyên rút",
+        "evidenceIds": [
+          "EVD-B04-078"
+        ]
+      },
+      {
+        "id": "b04-rel-015",
+        "event": "b04-ev-12-03",
+        "from": "sun-ce",
+        "to": "zhu-zhi",
+        "label": "Giao quản quận",
+        "evidenceIds": [
+          "EVD-B04-065"
+        ]
+      },
+      {
+        "id": "b04-rel-016",
+        "event": "b04-ev-13-02",
+        "from": "sun-ce",
+        "to": "yuan-shu",
+        "label": "Cắt quan hệ",
+        "evidenceIds": [
+          "EVD-B04-022"
+        ]
+      },
+      {
+        "id": "b04-rel-017",
+        "event": "b04-ev-13-03",
+        "from": "lu-bu",
+        "to": "yuan-shu",
+        "label": "Hủy hôn ước",
+        "evidenceIds": [
+          "EVD-B04-023"
+        ]
+      },
+      {
+        "id": "b04-rel-018",
+        "event": "b04-ev-13-03",
+        "from": "chen-gui",
+        "to": "lu-bu",
+        "label": "Khuyên đổi hướng",
+        "evidenceIds": [
+          "EVD-B04-023"
+        ]
+      },
+      {
+        "id": "b04-rel-019",
+        "event": "b04-ev-13-03",
+        "from": "chen-deng",
+        "to": "cao-cao",
+        "label": "Đi sứ và nhận chức",
+        "evidenceIds": [
+          "EVD-B04-024"
+        ]
+      },
+      {
+        "id": "b04-rel-020",
+        "event": "b04-ev-13-04",
+        "from": "han-xian",
+        "to": "lu-bu",
+        "label": "Đổi phe",
+        "evidenceIds": [
+          "EVD-B04-025"
+        ]
+      },
+      {
+        "id": "b04-rel-021",
+        "event": "b04-ev-13-04",
+        "from": "yang-feng",
+        "to": "lu-bu",
+        "label": "Đổi phe",
+        "evidenceIds": [
+          "EVD-B04-025"
+        ]
+      },
+      {
+        "id": "b04-rel-022",
+        "event": "b04-ev-14-01",
+        "from": "zhang-xiu",
+        "to": "zhang-ji",
+        "label": "Kế quân",
+        "evidenceIds": [
+          "EVD-B04-027"
+        ]
+      },
+      {
+        "id": "b04-rel-023",
+        "event": "b04-ev-14-02",
+        "from": "zhang-xiu",
+        "to": "cao-cao",
+        "label": "Hàng rồi phản",
+        "evidenceIds": [
+          "EVD-B04-028",
+          "EVD-B04-062"
+        ]
+      },
+      {
+        "id": "b04-rel-024",
+        "event": "b04-ev-14-03",
+        "from": "dian-wei",
+        "to": "cao-cao",
+        "label": "Hộ vệ tử trận",
+        "evidenceIds": [
+          "EVD-B04-063"
+        ]
+      },
+      {
+        "id": "b04-rel-025",
+        "event": "b04-ev-14-03",
+        "from": "cao-ang",
+        "to": "cao-cao",
+        "label": "Con, tử trận",
+        "evidenceIds": [
+          "EVD-B04-140"
+        ]
+      },
+      {
+        "id": "b04-rel-026",
+        "event": "b04-ev-14-03",
+        "from": "cao-anmin",
+        "to": "cao-cao",
+        "label": "Cháu, tử trận",
+        "evidenceIds": [
+          "EVD-B04-028"
+        ]
+      },
+      {
+        "id": "b04-rel-027",
+        "event": "b04-ev-14-04",
+        "from": "yu-jin",
+        "to": "cao-cao",
+        "label": "Giữ kỷ luật quân",
+        "evidenceIds": [
+          "EVD-B04-149"
+        ]
+      },
+      {
+        "id": "b04-rel-028",
+        "event": "b04-ev-14-05",
+        "from": "zhang-xiu",
+        "to": "liu-biao",
+        "label": "Liên kết",
+        "evidenceIds": [
+          "EVD-B04-030",
+          "EVD-B04-031",
+          "EVD-B04-032"
+        ]
+      },
+      {
+        "id": "b04-rel-029",
+        "event": "b04-ev-15-01",
+        "from": "gao-shun",
+        "to": "liu-bei",
+        "label": "Đánh Tiểu Bái",
+        "evidenceIds": [
+          "EVD-B04-033"
+        ]
+      },
+      {
+        "id": "b04-rel-030",
+        "event": "b04-ev-15-02",
+        "from": "chen-deng",
+        "to": "cao-cao",
+        "label": "Phối hợp",
+        "evidenceIds": [
+          "EVD-B04-138"
+        ]
+      },
+      {
+        "id": "b04-rel-031",
+        "event": "b04-ev-15-03",
+        "from": "hou-cheng",
+        "to": "lu-bu",
+        "label": "Đổi phe",
+        "evidenceIds": [
+          "EVD-B04-035",
+          "EVD-B04-139"
+        ]
+      },
+      {
+        "id": "b04-rel-032",
+        "event": "b04-ev-15-03",
+        "from": "wei-xu",
+        "to": "lu-bu",
+        "label": "Đổi phe",
+        "evidenceIds": [
+          "EVD-B04-035",
+          "EVD-B04-159"
+        ]
+      },
+      {
+        "id": "b04-rel-033",
+        "event": "b04-ev-15-03",
+        "from": "song-xian",
+        "to": "lu-bu",
+        "label": "Đổi phe",
+        "evidenceIds": [
+          "EVD-B04-035"
+        ]
+      },
+      {
+        "id": "b04-rel-034",
+        "event": "b04-ev-15-04",
+        "from": "zhang-liao",
+        "to": "cao-cao",
+        "label": "Theo Tào",
+        "evidenceIds": [
+          "EVD-B04-114"
+        ]
+      },
+      {
+        "id": "b04-rel-035",
+        "event": "b04-ev-15-04",
+        "from": "cao-cao",
+        "to": "lu-bu",
+        "label": "Thắng, xử tử",
+        "evidenceIds": [
+          "EVD-B04-035"
+        ]
+      },
+      {
+        "id": "b04-rel-036",
+        "event": "b04-ev-16-01",
+        "from": "yuan-shao",
+        "to": "gongsun-zan",
+        "label": "Đánh bại",
+        "evidenceIds": [
+          "EVD-B04-039"
+        ]
+      },
+      {
+        "id": "b04-rel-037",
+        "event": "b04-ev-16-02",
+        "from": "yuan-shao",
+        "to": "yuan-tan",
+        "label": "Bố trí Thanh Châu",
+        "evidenceIds": [
+          "EVD-B04-088",
+          "EVD-B04-157"
+        ]
+      },
+      {
+        "id": "b04-rel-038",
+        "event": "b04-ev-16-02",
+        "from": "yuan-shao",
+        "to": "yuan-xi",
+        "label": "Bố trí U Châu",
+        "evidenceIds": [
+          "EVD-B04-088"
+        ]
+      },
+      {
+        "id": "b04-rel-039",
+        "event": "b04-ev-16-02",
+        "from": "yuan-shao",
+        "to": "gao-gan",
+        "label": "Bố trí Tịnh Châu",
+        "evidenceIds": [
+          "EVD-B04-088"
+        ]
+      },
+      {
+        "id": "b04-rel-040",
+        "event": "b04-ev-16-03",
+        "from": "yang-chou",
+        "to": "zhang-yang",
+        "label": "Giết chủ",
+        "evidenceIds": [
+          "EVD-B04-040"
+        ]
+      },
+      {
+        "id": "b04-rel-041",
+        "event": "b04-ev-16-03",
+        "from": "sui-gu",
+        "to": "yang-chou",
+        "label": "Giết Dương Xú",
+        "evidenceIds": [
+          "EVD-B04-041"
+        ]
+      },
+      {
+        "id": "b04-rel-042",
+        "event": "b04-ev-16-04",
+        "from": "xu-qiu",
+        "to": "xiandi",
+        "label": "Trả ngọc tỷ triều đình",
+        "evidenceIds": [
+          "EVD-B04-144"
+        ]
+      },
+      {
+        "id": "b04-rel-043",
+        "event": "b04-ev-17-02",
+        "from": "liu-bei",
+        "to": "che-zhou",
+        "label": "Giết, chiếm địa bàn",
+        "evidenceIds": [
+          "EVD-B04-047"
+        ]
+      },
+      {
+        "id": "b04-rel-044",
+        "event": "b04-ev-17-03",
+        "from": "jia-xu",
+        "to": "zhang-xiu",
+        "label": "Khuyên hàng Tào",
+        "evidenceIds": [
+          "EVD-B04-077"
+        ]
+      },
+      {
+        "id": "b04-rel-045",
+        "event": "b04-ev-17-03",
+        "from": "zhang-xiu",
+        "to": "cao-cao",
+        "label": "Đầu hàng",
+        "evidenceIds": [
+          "EVD-B04-044",
+          "EVD-B04-064"
+        ]
+      },
+      {
+        "id": "b04-rel-046",
+        "event": "b04-ev-17-04",
+        "from": "dong-cheng",
+        "to": "cao-cao",
+        "label": "Mật chiếu / mưu phản theo nguồn",
+        "evidenceIds": [
+          "EVD-B04-045",
+          "EVD-B04-049"
+        ]
+      },
+      {
+        "id": "b04-rel-047",
+        "event": "b04-ev-17-04",
+        "from": "dong-guiren",
+        "to": "dong-cheng",
+        "label": "Con gái, nạn nhân",
+        "evidenceIds": [
+          "EVD-B04-142"
+        ]
+      },
+      {
+        "id": "b04-rel-048",
+        "event": "b04-ev-17-05",
+        "from": "guan-yu",
+        "to": "cao-cao",
+        "label": "Bị bắt, nhận chức",
+        "evidenceIds": [
+          "EVD-B04-050",
+          "EVD-B04-095",
+          "EVD-B04-120"
+        ]
+      },
+      {
+        "id": "b04-rel-049",
+        "event": "b04-ev-17-05",
+        "from": "liu-bei",
+        "to": "yuan-shao",
+        "label": "Đến nương",
+        "evidenceIds": [
+          "EVD-B04-051"
+        ]
+      },
+      {
+        "id": "b04-rel-050",
+        "event": "b04-ev-18-01",
+        "from": "zhou-yu",
+        "to": "sun-ce",
+        "label": "Trở lại hỗ trợ",
+        "evidenceIds": [
+          "EVD-B04-053"
+        ]
+      },
+      {
+        "id": "b04-rel-051",
+        "event": "b04-ev-18-01",
+        "from": "sun-quan",
+        "to": "sun-ce",
+        "label": "Em, tham chiến",
+        "evidenceIds": [
+          "EVD-B04-054"
+        ]
+      },
+      {
+        "id": "b04-rel-052",
+        "event": "b04-ev-18-02",
+        "from": "sun-ben",
+        "to": "sun-ce",
+        "label": "Giao quản quận",
+        "evidenceIds": [
+          "EVD-B04-055"
+        ]
+      },
+      {
+        "id": "b04-rel-053",
+        "event": "b04-ev-18-02",
+        "from": "sun-fu",
+        "to": "sun-ce",
+        "label": "Giao quản quận",
+        "evidenceIds": [
+          "EVD-B04-055",
+          "EVD-B04-091"
+        ]
+      },
+      {
+        "id": "b04-rel-054",
+        "event": "b04-ev-18-04",
+        "from": "sun-quan",
+        "to": "sun-ce",
+        "label": "Kế quyền",
+        "evidenceIds": [
+          "EVD-B04-059"
+        ]
+      },
+      {
+        "id": "b04-rel-055",
+        "event": "b04-ev-18-04",
+        "from": "zhang-zhao",
+        "to": "sun-quan",
+        "label": "Phò tá",
+        "evidenceIds": [
+          "EVD-B04-067"
+        ]
+      },
+      {
+        "id": "b04-rel-056",
+        "event": "b04-ev-18-04",
+        "from": "zhou-yu",
+        "to": "sun-quan",
+        "label": "Phò tá",
+        "evidenceIds": [
+          "EVD-B04-061"
+        ]
+      },
+      {
+        "id": "b04-rel-057",
+        "event": "b04-ev-18-04",
+        "from": "wu-furen",
+        "to": "sun-quan",
+        "label": "Mẹ, hỗ trợ",
+        "evidenceIds": [
+          "EVD-B04-118"
+        ]
+      }
+    ],
+    "journeys": [
+      {
+        "ep": 10,
+        "stops": [
+          "anyi",
+          "wenxi",
+          "luoyang",
+          "xu"
+        ],
+        "evidence": [
+          "EVD-B04-001",
+          "EVD-B04-003",
+          "EVD-B04-005",
+          "EVD-B04-006"
+        ],
+        "status": "ordered historical stops, Wenxi region only; dashed approximate connection only; no exact route"
+      },
+      {
+        "ep": 12,
+        "stops": [
+          "liyang",
+          "hengjiang",
+          "dangli",
+          "moling",
+          "hushu",
+          "jiangcheng",
+          "qua"
+        ],
+        "evidence": [
+          "EVD-B04-019"
+        ],
+        "status": "ordered source account; break across unresolved, no segments across missing locations"
+      },
+      {
+        "ep": 17,
+        "stops": [
+          "xiaopei",
+          "qingzhou-region-unresolved",
+          "pingyuan"
+        ],
+        "evidence": [
+          "EVD-B04-050",
+          "EVD-B04-051"
+        ],
+        "status": "unresolved regional stop, no connecting line; do not assume Liu left Xiapi"
+      }
+    ],
+    "additionalGraphContexts": [
+      {
+        "episode": "ep-0010",
+        "note": "Cư Thụ/Quách Đồ/Thuần Vu Quỳnh: retrospective 195; not fresh 196 appointments."
+      },
+      {
+        "episode": "ep-0015",
+        "note": "Lý Giác bị giết ở Quan Trung; contextual only until region resolved, no point."
+      },
+      {
+        "episode": "ep-0016",
+        "note": "Four provinces schematic, no synthetic polygons; Guandu setup not battle."
+      },
+      {
+        "episode": "ep-0018",
+        "note": "Tôn Sách death and Vu Cát variants: no exact death point, no supernatural event; proposed attack no route."
+      }
+    ],
+    "policy": "Use existing resolveAtlasPlace. Explicit site IDs and region aliases; region anchors approximate; display context for province/commandery spans. Existing IDs reused. No new coordinates or invented geometry.",
+    "forbidden": [
+      "Sun Ce planned Xu attack as completed route",
+      "Wan 皖 merged into existing wan 宛",
+      "invented White Gate coordinates",
+      "flood engineering geometry"
+    ],
+    "yearNote": "Lunar dates; parallel episodes overlap. EP15 end Kiến An 3 may fall 199 CE; EP18 ends fourth lunar month 200."
+  },
+  "qa": {
+    "visualAnchorExactMatches": 36,
+    "motionEpisodes": 9,
+    "eventCandidates": 36,
+    "relationCandidates": 57,
+    "locationRecords": 56,
+    "journeyDispositions": 3,
+    "render": "NOT TESTED"
+  }
+}
