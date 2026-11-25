@@ -1,179 +1,1143 @@
 {
-  "status": "PARTIAL_RESEARCH_NOT_RUNTIME",
+  "status": "artifact-matched site/region/text dispositions; runtime not imported",
   "dataset": {
     "url": "https://swordandstate.com/history-open/atlas.json",
     "license": "CC-BY-SA-4.0",
-    "access": "JSON response observed; full feature matching and coordinates not validated"
+    "artifact": 14967466048,
+    "releaseSha": "407a116da5372a98cbd5ee6247cfbc8471409c6f",
+    "sha256": "8e9ce98e60238751540afe02a96e99f6491231de0206b7fd85774887795d8fdd",
+    "count": {
+      "cities": 136,
+      "regions": 80,
+      "militarySites": 2
+    },
+    "access": "Retrieved artifact ZIP and nested tar; extracted actual atlas.json; SHA-256 equals prior B03 resolution. Direct current source download DNS failed; web metadata readable. No claim current live dataset independently fetched."
   },
-  "policy": "Reuse verified existing IDs. New names remain text/region until matched by exact historical identity and time. No new coordinates, routes or geometry.",
-  "existing": [
+  "sources": [
+    "https://zh.wikisource.org/wiki/後漢書/卷109",
+    "https://zh.wikisource.org/wiki/後漢書/卷110",
+    "https://zh.wikisource.org/wiki/後漢書/卷111",
+    "https://zh.wikisource.org/wiki/後漢書/卷112"
+  ],
+  "policy": "Use existing resolveAtlasPlace. Explicit site IDs and region aliases; region anchors approximate; display context for province/commandery spans. Existing IDs reused. No new coordinates or invented geometry.",
+  "places": [
     {
       "id": "anyi",
-      "ep": 10,
-      "evidence": "EVD-B04-001",
-      "precision": "reuse existing metadata; no new coordinates"
+      "name": "An Ấp",
+      "historicalNames": [
+        "安邑"
+      ],
+      "episodes": [
+        "ep-0010"
+      ],
+      "evidence": [
+        "EVD-B04-001"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "anyi"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
     },
     {
       "id": "luoyang",
-      "ep": 10,
-      "evidence": "EVD-B04-003",
-      "precision": "reuse existing metadata; no new coordinates"
+      "name": "Lạc Dương",
+      "historicalNames": [
+        "洛陽"
+      ],
+      "episodes": [
+        "ep-0010"
+      ],
+      "evidence": [
+        "EVD-B04-003",
+        "EVD-B04-005"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "luoyang"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
+    },
+    {
+      "id": "xu",
+      "name": "Hứa",
+      "historicalNames": [
+        "許"
+      ],
+      "episodes": [
+        "ep-0010",
+        "ep-0013",
+        "ep-0017"
+      ],
+      "evidence": [
+        "EVD-B04-005",
+        "EVD-B04-006",
+        "EVD-B04-007",
+        "EVD-B04-023",
+        "EVD-B04-045",
+        "EVD-B04-049"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "xuchang"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Historical Xu county; dataset label 許昌; HHS110 許; display Hứa, not later formal renamed site."
+    },
+    {
+      "id": "wenxi",
+      "name": "Văn Hỷ",
+      "historicalNames": [
+        "聞喜"
+      ],
+      "episodes": [
+        "ep-0010"
+      ],
+      "evidence": [
+        "EVD-B04-003"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "河東"
+      ],
+      "display": "region",
+      "note": "Region-level representative anchor only; group equal markers; no claim of actual location."
     },
     {
       "id": "xiapi",
-      "ep": 11,
-      "evidence": "EVD-B04-011",
-      "precision": "reuse existing metadata; no new coordinates"
+      "name": "Hạ Bì",
+      "historicalNames": [
+        "下邳"
+      ],
+      "episodes": [
+        "ep-0011",
+        "ep-0013",
+        "ep-0015",
+        "ep-0017"
+      ],
+      "evidence": [
+        "EVD-B04-011",
+        "EVD-B04-023",
+        "EVD-B04-035",
+        "EVD-B04-047"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "xiapi"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
     },
     {
       "id": "xiaopei",
-      "ep": 11,
-      "evidence": "EVD-B04-014",
-      "precision": "reuse existing metadata; no new coordinates"
+      "name": "Tiểu Bái",
+      "historicalNames": [
+        "小沛"
+      ],
+      "episodes": [
+        "ep-0011",
+        "ep-0015",
+        "ep-0017"
+      ],
+      "evidence": [
+        "EVD-B04-014",
+        "EVD-B04-033",
+        "EVD-B04-047"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "xiaopei"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
+    },
+    {
+      "id": "xuyi",
+      "name": "Hu Di",
+      "historicalNames": [
+        "盱眙"
+      ],
+      "episodes": [
+        "ep-0011"
+      ],
+      "evidence": [
+        "EVD-B04-011"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "xuyi"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
+    },
+    {
+      "id": "huaiyin",
+      "name": "Hoài Âm",
+      "historicalNames": [
+        "淮陰"
+      ],
+      "episodes": [
+        "ep-0011"
+      ],
+      "evidence": [
+        "EVD-B04-011"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "huaiyin"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
+    },
+    {
+      "id": "guangling",
+      "name": "Quảng Lăng",
+      "historicalNames": [
+        "廣陵"
+      ],
+      "episodes": [
+        "ep-0011",
+        "ep-0013",
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-014",
+        "EVD-B04-024",
+        "EVD-B04-057"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "guangling"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Use site only for city; regional appointment distinct."
+    },
+    {
+      "id": "guangling-region",
+      "name": "Quảng Lăng (quận)",
+      "historicalNames": [
+        "廣陵"
+      ],
+      "episodes": [
+        "ep-0013"
+      ],
+      "evidence": [
+        "EVD-B04-024"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "廣陵"
+      ],
+      "display": "region",
+      "note": "Region-level representative anchor only; group equal markers; no claim of actual location."
+    },
+    {
+      "id": "haixi",
+      "name": "Hải Tây",
+      "historicalNames": [
+        "海西"
+      ],
+      "episodes": [
+        "ep-0011"
+      ],
+      "evidence": [
+        "EVD-B04-014"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "廣陵"
+      ],
+      "display": "region",
+      "note": "HHS111 lists Haixi under Guangling, not same site as capital."
     },
     {
       "id": "liyang",
-      "ep": 12,
-      "evidence": "EVD-B04-017",
-      "precision": "reuse existing metadata; no new coordinates"
+      "name": "Lịch Dương",
+      "historicalNames": [
+        "歷陽"
+      ],
+      "episodes": [
+        "ep-0012",
+        "ep-0013"
+      ],
+      "evidence": [
+        "EVD-B04-017",
+        "EVD-B04-019",
+        "EVD-B04-091"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "liyang"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
     },
     {
-      "id": "xiapi",
-      "ep": 13,
-      "evidence": "EVD-B04-023",
-      "precision": "reuse existing metadata; no new coordinates"
+      "id": "danyang-region",
+      "name": "Đan Dương (quận)",
+      "historicalNames": [
+        "丹楊"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-017",
+        "EVD-B04-019",
+        "EVD-B04-065"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "丹陽・秣陵"
+      ],
+      "display": "region",
+      "note": "Not a pin at a county named Danyang."
+    },
+    {
+      "id": "qua",
+      "name": "Khúc A",
+      "historicalNames": [
+        "曲阿"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-019",
+        "EVD-B04-068"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "吳郡"
+      ],
+      "display": "region",
+      "note": "HHS112 lists under Wu; use region only, not modern Jingkou pin."
+    },
+    {
+      "id": "kuaiji-region",
+      "name": "Cối Kê (quận)",
+      "historicalNames": [
+        "會稽"
+      ],
+      "episodes": [
+        "ep-0012",
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-065",
+        "EVD-B04-078",
+        "EVD-B04-060"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "會稽北部"
+      ],
+      "display": "region",
+      "note": "Northern seat context only; no assertion whole commandery."
+    },
+    {
+      "id": "wu-region",
+      "name": "Ngô (quận)",
+      "historicalNames": [
+        "吳郡"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-065"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "吳郡"
+      ],
+      "display": "region",
+      "note": "Region-level representative anchor only; group equal markers; no claim of actual location."
+    },
+    {
+      "id": "wu",
+      "name": "Ngô huyện",
+      "historicalNames": [
+        "吳"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-060",
+        "EVD-B04-061",
+        "EVD-B04-067"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "wu"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
+    },
+    {
+      "id": "moling",
+      "name": "Mạt Lăng",
+      "historicalNames": [
+        "秣陵"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-019"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "moling"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
+    },
+    {
+      "id": "niuzhu",
+      "name": "Ngưu Chử",
+      "historicalNames": [
+        "牛渚"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-019"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route."
+    },
+    {
+      "id": "hengjiang",
+      "name": "Hoành Giang",
+      "historicalNames": [
+        "橫江"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-019"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route."
+    },
+    {
+      "id": "dangli",
+      "name": "Đương Lợi",
+      "historicalNames": [
+        "當利"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-019"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route."
+    },
+    {
+      "id": "hushu",
+      "name": "Hồ Thục",
+      "historicalNames": [
+        "湖孰"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-019"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route."
+    },
+    {
+      "id": "jiangcheng",
+      "name": "Giang Thừa",
+      "historicalNames": [
+        "江乘"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-019"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route."
+    },
+    {
+      "id": "shen-ting",
+      "name": "Thần Đình",
+      "historicalNames": [
+        "神亭"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-070"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route."
+    },
+    {
+      "id": "wuhu",
+      "name": "Vu Hồ",
+      "historicalNames": [
+        "蕪湖"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-071"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route."
+    },
+    {
+      "id": "jingxian",
+      "name": "Kính huyện",
+      "historicalNames": [
+        "涇縣"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-071"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route."
+    },
+    {
+      "id": "chen",
+      "name": "Trần",
+      "historicalNames": [
+        "陳"
+      ],
+      "episodes": [
+        "ep-0013"
+      ],
+      "evidence": [
+        "EVD-B04-026"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "chen"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
+    },
+    {
+      "id": "huainan",
+      "name": "Hoài Nam",
+      "historicalNames": [
+        "淮南"
+      ],
+      "episodes": [
+        "ep-0013",
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-021",
+        "EVD-B04-026",
+        "EVD-B04-042"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "九江・淮南"
+      ],
+      "display": "region",
+      "note": "Regional context, not entire territory."
     },
     {
       "id": "wan",
-      "ep": 14,
-      "evidence": "EVD-B04-028",
-      "precision": "reuse existing metadata; no new coordinates"
+      "name": "Uyển",
+      "historicalNames": [
+        "宛"
+      ],
+      "episodes": [
+        "ep-0014"
+      ],
+      "evidence": [
+        "EVD-B04-028",
+        "EVD-B04-031"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "wan"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
     },
     {
-      "id": "xiaopei",
-      "ep": 15,
-      "evidence": "EVD-B04-033",
-      "precision": "reuse existing metadata; no new coordinates"
+      "id": "rang",
+      "name": "Nhương",
+      "historicalNames": [
+        "穰"
+      ],
+      "episodes": [
+        "ep-0014"
+      ],
+      "evidence": [
+        "EVD-B04-030"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "南陽・宛"
+      ],
+      "display": "region",
+      "note": "HHS112 Nanyang; no city pinpoint; equal anchors group, never draw intra-region path."
+    },
+    {
+      "id": "wuyin",
+      "name": "Vũ Âm",
+      "historicalNames": [
+        "舞陰"
+      ],
+      "episodes": [
+        "ep-0014"
+      ],
+      "evidence": [
+        "EVD-B04-030"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "南陽・宛"
+      ],
+      "display": "region",
+      "note": "HHS112 Nanyang; no city pinpoint; equal anchors group, never draw intra-region path."
+    },
+    {
+      "id": "huyang",
+      "name": "Hồ Dương",
+      "historicalNames": [
+        "湖陽"
+      ],
+      "episodes": [
+        "ep-0014"
+      ],
+      "evidence": [
+        "EVD-B04-031"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "南陽・宛"
+      ],
+      "display": "region",
+      "note": "HHS112 Nanyang; no city pinpoint; equal anchors group, never draw intra-region path."
+    },
+    {
+      "id": "anzhong",
+      "name": "An Chúng",
+      "historicalNames": [
+        "安眾"
+      ],
+      "episodes": [
+        "ep-0014"
+      ],
+      "evidence": [
+        "EVD-B04-032"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "南陽・宛"
+      ],
+      "display": "region",
+      "note": "HHS112 Nanyang; no city pinpoint; equal anchors group, never draw intra-region path."
     },
     {
       "id": "pengcheng",
-      "ep": 15,
-      "evidence": "EVD-B04-033",
-      "precision": "reuse existing metadata; no new coordinates"
+      "name": "Bành Thành",
+      "historicalNames": [
+        "彭城"
+      ],
+      "episodes": [
+        "ep-0015"
+      ],
+      "evidence": [
+        "EVD-B04-033"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "pengcheng"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
     },
     {
-      "id": "xiapi",
-      "ep": 15,
-      "evidence": "EVD-B04-035",
-      "precision": "reuse existing metadata; no new coordinates"
+      "id": "sishui",
+      "name": "Tứ Thủy",
+      "historicalNames": [
+        "泗"
+      ],
+      "episodes": [
+        "ep-0015"
+      ],
+      "evidence": [
+        "EVD-B04-034"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "Named river or structure; no site coordinates; HHS111 Xiapi regional context."
+    },
+    {
+      "id": "yishui",
+      "name": "Nghi Thủy",
+      "historicalNames": [
+        "沂"
+      ],
+      "episodes": [
+        "ep-0015"
+      ],
+      "evidence": [
+        "EVD-B04-034"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "Named river or structure; no site coordinates; HHS111 Xiapi regional context."
+    },
+    {
+      "id": "white-gate",
+      "name": "Bạch Môn Lâu",
+      "historicalNames": [
+        "白門樓"
+      ],
+      "episodes": [
+        "ep-0015"
+      ],
+      "evidence": [
+        "EVD-B04-035"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "Named river or structure; no site coordinates; HHS111 Xiapi regional context."
     },
     {
       "id": "henei",
-      "ep": 16,
-      "evidence": "EVD-B04-041",
-      "precision": "reuse existing metadata; no new coordinates"
+      "name": "Hà Nội",
+      "historicalNames": [
+        "河內"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-041"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "henei"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Existing ID; for commandery events use region context."
     },
     {
-      "id": "xiapi",
-      "ep": 17,
-      "evidence": "EVD-B04-047",
-      "precision": "reuse existing metadata; no new coordinates"
+      "id": "henei-region",
+      "name": "Hà Nội (quận)",
+      "historicalNames": [
+        "河內"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-040",
+        "EVD-B04-041"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "河內"
+      ],
+      "display": "region",
+      "note": "Region-level representative anchor only; group equal markers; no claim of actual location."
     },
     {
-      "id": "xiaopei",
-      "ep": 17,
-      "evidence": "EVD-B04-047",
-      "precision": "reuse existing metadata; no new coordinates"
+      "id": "yijing",
+      "name": "Dịch Kinh",
+      "historicalNames": [
+        "易京"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-039"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset match; text only; no fabricated coordinates."
+    },
+    {
+      "id": "shequan",
+      "name": "Xạ Khuyển",
+      "historicalNames": [
+        "射犬"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-041"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset match; text only; no fabricated coordinates."
+    },
+    {
+      "id": "jiangting",
+      "name": "Giang Đình",
+      "historicalNames": [
+        "江亭"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-042"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset match; text only; no fabricated coordinates."
+    },
+    {
+      "id": "guandu",
+      "name": "Quan Độ",
+      "historicalNames": [
+        "官渡"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-043"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset match; text only; no fabricated coordinates."
+    },
+    {
+      "id": "shouchun",
+      "name": "Thọ Xuân",
+      "historicalNames": [
+        "壽春"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-042"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "shouchun"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
+    },
+    {
+      "id": "qianshan",
+      "name": "Tiềm Sơn",
+      "historicalNames": [
+        "灊山"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-042",
+        "EVD-B04-085"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "廬江"
+      ],
+      "display": "region",
+      "note": "HHS112 潛/天柱山 context; exact camp unresolved."
     },
     {
       "id": "pingyuan",
-      "ep": 17,
-      "evidence": "EVD-B04-051",
-      "precision": "reuse existing metadata; no new coordinates"
-    }
-  ],
-  "unresolved": [
-    {
-      "name": "Xu 許/許縣",
-      "ep": 10,
-      "evidence": "EVD-B04-005",
-      "precision": "unresolved/text-only; individual anchors require dataset match"
+      "name": "Bình Nguyên",
+      "historicalNames": [
+        "平原"
+      ],
+      "episodes": [
+        "ep-0017"
+      ],
+      "evidence": [
+        "EVD-B04-051"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "pingyuan"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
     },
     {
-      "name": "Wenxi 聞喜",
-      "ep": 10,
-      "evidence": "EVD-B04-003",
-      "precision": "unresolved/text-only; individual anchors require dataset match"
+      "id": "wancheng",
+      "name": "Hoàn Thành",
+      "historicalNames": [
+        "皖城"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-053",
+        "EVD-B04-054"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "wancheng"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Distinct from wan 宛; HHS112 皖 in Lujiang; dataset city anchor only."
     },
     {
-      "name": "Xuyi 盱眙 / Huaiyin 淮陰",
-      "ep": 11,
-      "evidence": "EVD-B04-011",
-      "precision": "unresolved/text-only; individual anchors require dataset match"
+      "id": "juchao",
+      "name": "Cư Sào",
+      "historicalNames": [
+        "居巢"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-053"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "廬江"
+      ],
+      "display": "region",
+      "note": "Region-level representative anchor only; group equal markers; no claim of actual location."
     },
     {
-      "name": "Guangling 廣陵 / Haixi 海西",
-      "ep": 11,
-      "evidence": "EVD-B04-014",
-      "precision": "unresolved/text-only; individual anchors require dataset match"
+      "id": "lujiang-region",
+      "name": "Lư Giang",
+      "historicalNames": [
+        "廬江"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-053",
+        "EVD-B04-054"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "廬江"
+      ],
+      "display": "region",
+      "note": "Region-level representative anchor only; group equal markers; no claim of actual location."
     },
     {
-      "name": "Danyang 丹楊 / Qu'a 曲阿 / Kuaiji 會稽 / Wu 吳",
-      "ep": 12,
-      "evidence": "EVD-B04-019",
-      "precision": "unresolved/text-only; individual anchors require dataset match"
+      "id": "shaxian",
+      "name": "Sa Tiện",
+      "historicalNames": [
+        "沙羨"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-054",
+        "EVD-B04-094"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "HHS112 Jiangxia; split dataset regions do not select one without independent location."
     },
     {
-      "name": "Niuzhu 牛渚 / Hengjiang 橫江 / Dangli 當利 / Moling 秣陵 / Hushu 湖孰 / Jiangcheng 江乘",
-      "ep": 12,
-      "evidence": "EVD-B04-018",
-      "precision": "unresolved/text-only; individual anchors require dataset match"
+      "id": "yuzhang-region",
+      "name": "Dự Chương",
+      "historicalNames": [
+        "豫章"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-055"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "豫章"
+      ],
+      "display": "region",
+      "note": "Region-level representative anchor only; group equal markers; no claim of actual location."
     },
     {
-      "name": "Chen 陳 / Huainan 淮南",
-      "ep": 13,
-      "evidence": "EVD-B04-026",
-      "precision": "unresolved/text-only; individual anchors require dataset match"
+      "id": "luling-region",
+      "name": "Lư Lăng",
+      "historicalNames": [
+        "廬陵"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-055",
+        "EVD-B04-091"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "廬陵・贛南"
+      ],
+      "display": "region",
+      "note": "New commandery chronology from campaign biographies; HHS112 annotation 興平元年 conflicts, record disagreement."
     },
     {
-      "name": "Rang 穰 / Wuyin 舞陰 / Huyang 湖陽 / Anzhong 安眾",
-      "ep": 14,
-      "evidence": "EVD-B04-032",
-      "precision": "unresolved/text-only; individual anchors require dataset match"
+      "id": "jiaoqiu",
+      "name": "Tiêu Khâu",
+      "historicalNames": [
+        "椒丘"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-055"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "Not a dataset city."
     },
     {
-      "name": "Sishui 泗 / Yishui 沂 / White Gate 白門樓",
-      "ep": 15,
-      "evidence": "EVD-B04-034",
-      "precision": "unresolved/text-only; individual anchors require dataset match"
+      "id": "dantu",
+      "name": "Đan Đồ",
+      "historicalNames": [
+        "丹徒"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-057"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "吳郡"
+      ],
+      "display": "region",
+      "note": "HHS112; disputed source place; no exact coordinate."
     },
     {
-      "name": "Yijing 易京 / Shequan 射犬 / Shouchun 壽春 / Jiangting 江亭 / Qianshan 潛山 / Guandu 官渡",
-      "ep": 16,
-      "evidence": "EVD-B04-039",
-      "precision": "unresolved/text-only; individual anchors require dataset match"
-    },
-    {
-      "name": "Xu 許",
-      "ep": 17,
-      "evidence": "EVD-B04-045",
-      "precision": "unresolved/text-only; individual anchors require dataset match"
-    },
-    {
-      "name": "Wan 皖 (not 宛) / Juchao 居巢 / Jiangxia 江夏 / Shaxian 沙羨 / Yuzhang 豫章 / Luling 廬陵 / Jiaoqiu 椒丘 / Dantu 丹徒 / Wu 吳",
-      "ep": 18,
-      "evidence": "EVD-B04-053",
-      "precision": "unresolved/text-only; individual anchors require dataset match"
+      "id": "jiangxia-region",
+      "name": "Giang Hạ",
+      "historicalNames": [
+        "江夏"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-054",
+        "EVD-B04-069"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "Commandery spans north/south dataset regions; display both polygons/context, not a representative city pin."
     }
   ],
   "journeys": [
     {
       "ep": 10,
-      "sequence": [
-        "Anyi",
-        "Wenxi",
-        "Luoyang",
-        "Xu"
+      "stops": [
+        "anyi",
+        "wenxi",
+        "luoyang",
+        "xu"
       ],
       "evidence": [
         "EVD-B04-001",
@@ -181,36 +1145,36 @@
         "EVD-B04-005",
         "EVD-B04-006"
       ],
-      "status": "candidate, month conflict and stop matching unresolved; no line"
+      "status": "ordered historical stops, Wenxi region only; dashed approximate connection only; no exact route"
     },
     {
       "ep": 12,
-      "sequence": [
-        "Liyang",
-        "Hengjiang",
-        "Dangli",
-        "Moling",
-        "Hushu",
-        "Jiangcheng",
-        "Qu'a"
+      "stops": [
+        "liyang",
+        "hengjiang",
+        "dangli",
+        "moling",
+        "hushu",
+        "jiangcheng",
+        "qua"
       ],
       "evidence": [
         "EVD-B04-019"
       ],
-      "status": "source order only; no line"
+      "status": "ordered source account; break across unresolved, no segments across missing locations"
     },
     {
       "ep": 17,
-      "sequence": [
-        "Xiapi/Từ Châu",
-        "Thanh Châu",
-        "Pingyuan"
+      "stops": [
+        "xiaopei",
+        "qingzhou-region-unresolved",
+        "pingyuan"
       ],
       "evidence": [
         "EVD-B04-050",
         "EVD-B04-051"
       ],
-      "status": "regional sequence only, no line"
+      "status": "unresolved regional stop, no connecting line; do not assume Liu left Xiapi"
     }
   ],
   "forbidden": [
