@@ -96,9 +96,7 @@ export function StoryBody({body,id,satire=true}:{body:string,id:string,satire?:b
  const unmarked=id>='ep-0007'?readerPeople(story,id).filter(n=>!story.includes('**'+n+'**')).sort((a,b)=>b.length-a.length):[];
  const missingNames=new Set(unmarked);
  const aliasNames:Record<string,string>=id==='ep-0011'?{'Mi Trúc':'My Trúc'}:id==='ep-0017'?{'Lưu Đại người Bái':'Lưu Đại (Công Sơn)'}:{};
- const escapeName=(name:string)=>name.replace(/[.*+?^${}()|[\]\\]/g,'\\ const missingNames=new Set(unmarked);
- const personPattern=unmarked.length?new RegExp('('+unmarked.join('|')+')','g'):null;
- const linkPlain=(value:ReactNode)=>typeof value==='string'&&personPattern?value.split(personPattern).map((part,i)=>missingNames.has(part)?<button key={i} className="inline-person" onClick={()=>setName(part)}>{part}</button>:part):value;');
+ const escapeName=(name:string)=>name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
  const patterns=[...unmarked.filter(n=>!(id==='ep-0017'&&n==='Lưu Đại')).map(escapeName),...Object.keys(aliasNames).map(escapeName)];
  if(id==='ep-0017')patterns.unshift('Lưu Đại(?= và Vương Trung| ở đây)','Lưu Đại(?= chết năm 192)');
  const personPattern=patterns.length?new RegExp('('+patterns.join('|')+')','g'):null;
