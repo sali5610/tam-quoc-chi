@@ -150,4 +150,4 @@ Mao Giới từng khuyên Tào phò thiên tử, tích trữ quân lương. Cư 
 - Tháng tám–chạp: Tân Phong, Hoa Âm, Đông Giản, Tào Dương, Thiểm, vượt sông chưa xác định bến, Đại Dương, An Ấp; quan hệ các lực lượng biến đổi.
 - Tháng mười–chạp: Tào được bổ Duyện Châu mục; Ung Khâu thất thủ; song song lời khuyên đón thiên tử ở phe Viên Thiệu và tuyến Tôn Sách theo niên biểu 195 có dị bản.
 - Nhân vật: Tào Tháo, Lữ Bố, Điển Vi, Trình Dục, Tuân Úc, Hán Hiến Đế, Mã Đằng, Hàn Toại, Lý Giác, Quách Dĩ, Phàn Trù, Dương Bưu, Chu Tuấn, Phục Thọ, Trương Tế, Dương Phụng, Đổng Thừa, Dương Định, Giả Hủ, Đoàn Ổi, Hồ Tài, Lý Lạc, Hàn Xiêm, Khứ Ti, Sĩ Tôn Thụy, Trương Dương, Cư Thụ, Viên Thiệu, Quách Đồ, Thuần Vu Quỳnh, Khúc Nghĩa, Công Tôn Toản, Trương Mạc, Trương Siêu, Viên Thuật, Lưu Bị, Tôn Sách, Chu Du; Tôn Kiên, Mao Giới nhắc lại.
-- Đọc trước: [EP-0008](EP-0008_BÁO_THÙ_TỪ_CHÂU.md). Đọc sau: batch kế tiếp chưa được viết.
+- Đọc trước: [EP-0008](EP-0008_BÁO_THÙ_TỪ_CHÂU.md). Đọc sau: [EP10 — Người đón được thiên tử](EP-0010_THIÊN_TỬ_VỀ_HỨA.md).
