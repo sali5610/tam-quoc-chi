@@ -18,9 +18,11 @@ for(const engine of [chromium,webkit]){
    const page=await browser.newPage({viewport:{width,height},hasTouch:width<1400,reducedMotion:'reduce'});page.setDefaultTimeout(10000);
    const errors=[];page.on('pageerror',e=>errors.push(String(e)));
    for(const [ep,year] of [['ep-0007','193'],['ep-0008','194'],['ep-0009','195'],['ep-0010','196'],['ep-0011','196'],['ep-0012','196'],['ep-0013','197'],['ep-0014','197'],['ep-0015','198'],['ep-0016','199'],['ep-0017','200'],['ep-0018','200']]){
-    await page.goto(base+'#/read/'+ep);const board=page.locator('section[data-atlas-year="'+year+'"]');await board.locator('.strategy-board .atlas-person-marker').first().waitFor();
+    await page.goto(base+'#/read/'+ep);const board=page.locator('section[data-atlas-year="'+year+'"][data-atlas-episode="'+ep+'"]');await board.locator('.strategy-board .atlas-person-marker').first().waitFor();
     const expected=pilot.events.filter(e=>e.episode===ep);const eventList=board.locator('[data-atlas-event]');
-    check(await eventList.count()===expected.length,'Event coverage '+ep);
+    // Same-year hash navigations can temporarily expose the preceding Reader board before React commits the new episode. Wait for the exact scoped board, not just its year; retain strict coverage and membership assertions.
+    const actualEventIds=await eventList.evaluateAll(es=>es.map(e=>e.getAttribute('data-atlas-event')));
+    check(actualEventIds.length===expected.length&&expected.every(e=>actualEventIds.includes(e.id)),'Event coverage '+ep+' expected '+expected.map(e=>e.id).join(',')+' actual '+actualEventIds.join(','));
     const markerEvents=await board.locator('.atlas-person-marker').evaluateAll(es=>es.flatMap(e=>(e.getAttribute('data-event-group')||'').split(',')));
     check(markerEvents.every(id=>expected.some(e=>e.id===id)),'Cross-episode marker '+ep);
     check(new Set(markerEvents).size===expected.filter(e=>e.people.length).length&&expected.filter(e=>!e.people.length).every(e=>!markerEvents.includes(e.id)),'Missing/duplicated resolved event or contextual pin '+ep);
@@ -40,10 +42,10 @@ for(const engine of [chromium,webkit]){
       const currentVisuals=visuals.filter(v=>v.episode===ep);
       for(const v of currentVisuals){const section=page.locator('[data-visual-id="'+v.id+'"]');await section.waitFor();const linked=[v.center,...v.items].filter(n=>n?.person);check(await section.locator('.portrait-frame').count()===linked.length,'B04 visual person count '+v.id);}
       const first=expected.find(e=>e.people.length);await board.locator('[data-atlas-event="'+first.id+'"]').click();const sheet=board.getByRole('dialog',{name:'Chi tiết sự kiện'});await sheet.waitFor();const person=pilot.people.find(p=>p.id===first.people[0]);await sheet.getByRole('button',{name:person.name,exact:true}).click();const profile=page.getByRole('dialog',{name:person.name,exact:true});await profile.waitFor();check(await profile.locator('.person-related a[href="#/read/'+ep+'"]').count()===1,'Atlas to Wiki backlink '+ep);await profile.getByRole('button',{name:'Đóng',exact:true}).click();await sheet.getByRole('button',{name:'Đóng sự kiện'}).click();
-      if(width===390){await page.screenshot({path:'qa-b04/'+engine.name()+'-'+ep+'-atlas.png',fullPage:false});}
+      if(width===390){await board.locator('.strategy-board').scrollIntoViewIfNeeded();await page.screenshot({path:'qa-b04/'+engine.name()+'-'+ep+'-atlas.png',fullPage:false});}
     }
     await checkWidth(page,ep+' final '+width);
-    await page.getByRole('link',{name:'Xem trên sa bàn'}).click();await page.locator('section[data-atlas-year="'+year+'"] .strategy-board').waitFor();await page.getByRole('link',{name:'Quay lại truyện'}).click();await page.locator('.reader-hero h1').waitFor();check(page.url().endsWith('#/read/'+ep),'Atlas return');
+    await page.getByRole('link',{name:'Xem trên sa bàn'}).click();await page.locator('section[data-atlas-year="'+year+'"] .strategy-board').waitFor();await page.getByRole('link',{name:'Quay lại truyện'}).click();await board.locator('.strategy-board .atlas-person-marker').first().waitFor();check(page.url().endsWith('#/read/'+ep),'Atlas return');
    }
    for(const year of ['192','193','194','195','196','197','198','199','200']){await page.goto(base+'#/atlas/'+year);const board=page.locator('section[data-atlas-year="'+year+'"]');await board.locator('.strategy-board .atlas-person-marker').first().waitFor();check(await board.locator('[data-atlas-event]').count()===pilot.events.filter(e=>e.year===+year&&e.episode>='ep-0007').length,'Global year '+year);await checkWidth(page,'Global '+year);const rel=page.locator('.atlas-relation-panel');await rel.locator('summary').first().click();await checkWidth(page,'Global relation '+year);}
    check(!errors.length,errors.join('\n'));await page.close();console.log('PASS B03+B04 Atlas',engine.name(),width,height);
