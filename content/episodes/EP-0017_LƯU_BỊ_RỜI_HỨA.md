@@ -69,7 +69,7 @@ Hậu Hán thư ghi họ nhận mật chiếu giết Tào Tháo; Vũ Đế kỷ 
 
 [Chính sử] EVD-B04-045,049,134 — 《三國志》[卷32](https://zh.wikisource.org/wiki/三國志/卷32), [卷1](https://zh.wikisource.org/wiki/三國志/卷01). [Sử liệu khác] EVD-B04-049,127,142 — 《後漢書》[卷9](https://zh.wikisource.org/wiki/後漢書/卷9), [卷10下](https://zh.wikisource.org/wiki/後漢書/卷10下). [Tiểu thuyết] EVD-B04-108,126,130 — [hồi 20](https://zh.wikisource.org/wiki/三國演義/第020回), [hồi 23](https://zh.wikisource.org/wiki/三國演義/第023回), [hồi 24](https://zh.wikisource.org/wiki/三國演義/第024回).
 
-## Ba người thân cận bị chia ra
+## Lưu Bị và Quan Vũ bị chia ra
 
 Đầu năm 200, Tào quyết định đánh Lưu Bị. Quách Gia cũng khuyên ông làm vậy. Viên Thiệu ở phía bắc có thể tận dụng thời cơ; Điền Phong đề nghị đánh khi Tào đang bận ở phía đông, nhưng theo Tư trị thông giám, Viên Thiệu từ chối vì con bệnh. Không xác định người con nào nếu đoạn sử không ghi.
 
