@@ -42,7 +42,7 @@ for(const engine of [chromium,webkit]){
         if(!seals.flat().every(inside))return false;
         if(groups.some(g=>g.hasAttribute('data-callout-offset')&&!g.querySelector('.atlas-callout-leader circle')))return false;
         return seals.every((group,i)=>group.every(a=>seals.slice(i+1).flat().every(b=>!intersects(a.getBoundingClientRect(),b.getBoundingClientRect()))));
-      },{ep},{timeout:10000});
+      },{ep},{timeout:10000}).catch(async error=>{console.error('Atlas geometry failure',ep,width,await board.locator('.strategy-board').evaluate(map=>({bounds:map.getBoundingClientRect().toJSON(),markers:[...map.querySelectorAll('.atlas-person-marker')].map(g=>({id:g.getAttribute('data-event-id'),offset:g.getAttribute('data-callout-offset'),bounds:g.getBoundingClientRect().toJSON(),seals:[...g.querySelectorAll('.atlas-portrait-seal')].map(s=>s.getBoundingClientRect().toJSON())}))})));await page.screenshot({path:'qa-b04/'+engine.name()+'-'+width+'-'+ep+'-FAIL.png'});throw error;});
       await board.locator('.strategy-board').scrollIntoViewIfNeeded();
       await page.screenshot({path:'qa-b04/'+engine.name()+'-'+width+'-'+ep+'-initial-layout.png',fullPage:false});
       console.log('PASS narrow initial Atlas avatar geometry',engine.name(),width,ep);
