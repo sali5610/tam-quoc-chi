@@ -1,3 +1,12 @@
+# Navigation & IA / 01 — Design — COMPLETE (2026-11-26)
+
+- PO “Next” advanced audit to design only. Design spec [NAVIGATION_IA_DESIGN.md](NAVIGATION_IA_DESIGN.md), commit dd8c53ef38ce5e799c9b06ed5487040c16bedfb5 on ui/navigation-ia-01, base main 1aa3fcffa27b117954765bb71ceb64b0f76b4c23. Correct audit count: 1 era, 4 arcs, **8 chapters**, 18 episodes.
+- Design: keep five tabs/v6; compact Home, shared progressive hierarchy, chapter context and titled pager, single canonical Atlas time state and event inspector, contextual Wiki filters/bounded lists, grouped search and bookmarks, route/context restoration. Proposed user-facing label Hồi for Arc; no ID or narrative changes. Preserve actual existing Reader tools, content, historical precision, localStorage, Leaflet and links.
+- Local standalone HTML prototype delivered in Chat01, not hosted or committed as application code. Chromium 320/390/834/1194/1440 viewport smoke PASS: seven screens no horizontal overflow, 4 arcs/8 chapters/18 episodes, year selection updates placeholder, EP12 opening, session bookmark flow, no JS errors. Map/Reader body/real Wiki and event results intentionally placeholders; WebKit, full-scale fixture, exact scroll restoration, live render and physical devices NOT TESTED. Fresh live HTTP blocked by DNS; last verified live SHA inherited 5af8a0885fdfa50aefdc4510a83c29a19b67fc0c / release run 45694080738 SUCCESS. No app code, content, dependencies, workflow or deployment changes.
+- Next Chat02 Home/Library/Reader implementation on isolated branch based on latest main plus this docs branch after PO directs. Preserve baseline; follow spec and tests; no Atlas/Wiki changes, no deployment, no B05. Design is complete, PO visual acceptance not inferred. Decision Log unchanged (no separate approval of concrete proposed design or release).
+
+---
+
 # Navigation & IA audit — COMPLETE / proposal pending PO (2026-11-26)
 
 - Scope: read-only product/code audit after BATCH-04; no app code, content, historical data, redesign implementation or release authorized. Main audited: 5cd132e3c84046a7f82812952331611f143d061e. Last verified live SHA from B04 release: 5af8a0885fdfa50aefdc4510a83c29a19b67fc0c / run 45694080738 SUCCESS (inherited); fresh live HTTP/render NOT TESTED (direct network and web fetch unavailable). Existing automated B04 regression PASS remains inherited, not a new UX acceptance.
