@@ -23,7 +23,7 @@ Chính văn Tiên chủ truyện nói Tào Báo phản và bí mật đón Lữ 
 
 Lưu Bị thất bại trong diễn biến quanh Quảng Lăng, phải đến Hải Tây trong cảnh thiếu thốn. Ông không chỉ mất địa bàn mà còn phải tìm cách giữ nhóm người đi theo mình.
 
-Lúc ấy Mi Trúc, người từng góp phần mời Lưu Bị tiếp quản Từ Châu, lại xuất hiện. Mi Trúc vốn xuất thân từ nhà giàu và có kinh nghiệm trong bộ máy của Đào Khiêm. Tiểu truyện chép ông đem vàng bạc, tiền của và nô khách giúp quân, đồng thời gả em gái cho Lưu Bị. Con số hai nghìn nô khách trong nguồn không đồng nghĩa hai nghìn lính chiến đấu đã được huấn luyện.
+Lúc ấy My Trúc (cũng gọi Mi Trúc), người từng góp phần mời Lưu Bị tiếp quản Từ Châu, lại xuất hiện. Mi Trúc vốn xuất thân từ nhà giàu và có kinh nghiệm trong bộ máy của Đào Khiêm. Tiểu truyện chép ông đem vàng bạc, tiền của và nô khách giúp quân, đồng thời gả em gái cho Lưu Bị. Con số hai nghìn nô khách trong nguồn không đồng nghĩa hai nghìn lính chiến đấu đã được huấn luyện.
 
 **Mi Trúc dùng gia sản để giúp Lưu Bị duy trì lực lượng sau khi mất Hạ Bì.**
 
