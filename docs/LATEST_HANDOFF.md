@@ -1,5 +1,7 @@
 # Navigation & IA / 01 — Design — COMPLETE (2026-11-26)
 
+- PO approved DEC-UX-043: dynamic Wiki faction history and multi-role categories are permanent per-batch deliverables, including existing character changes; AGENTS.md and BATCH_DELIVERY_RULES.md updated. Design accepted for this requirement, implementation Chat04, QA Chat05; next Chat02 unchanged. Docs-only, no production or B05 changes; last verified live SHA remains inherited 5af8a0885fdfa50aefdc4510a83c29a19b67fc0c (fresh live NOT TESTED).
+
 - PO clarification DEC-UX-042: faction and character role/category filters (mưu sĩ, tướng, etc.) are mandatory in Wiki. Design spec updated with combined contextual filters, multi-role labels, source-backed affiliation history, unknown states, counts and retention, and QA gates; implementation remains Chat04, with Chat05 integration QA. No app code or deployment. Next unchanged: Chat02 Home/Library/Reader.
 
 - PO “Next” advanced audit to design only. Design spec [NAVIGATION_IA_DESIGN.md](NAVIGATION_IA_DESIGN.md), commit dd8c53ef38ce5e799c9b06ed5487040c16bedfb5 on ui/navigation-ia-01, base main 1aa3fcffa27b117954765bb71ceb64b0f76b4c23. Correct audit count: 1 era, 4 arcs, **8 chapters**, 18 episodes.

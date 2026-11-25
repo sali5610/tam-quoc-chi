@@ -9,3 +9,5 @@
 - At end update Latest Handoff with scope, changed files/SHA, per-surface coverage, evidence PASS/FAIL/BLOCKED/NOT TESTED, exact live SHA or unverified, and next package. Update Decision Log for new PO decisions; stop.
 
 - DEC-B04-039: from BATCH-04 onward the standard content batch is nine consecutive episodes (EP10–18, then EP19–27, etc.), with seven chats 00–06 and three internal three-episode checkpoints per relevant package; no separate PO approval or deployment per checkpoint. All existing per-episode/per-person quality gates remain mandatory. Batch 04 scope is planned, not a release authorization.
+
+- DEC-UX-043: every content batch MUST update source-backed, time-specific Wiki faction/allegiance and multi-role categories (mưu sĩ, võ tướng, etc.) for all new/materially affected profiles, preserving earlier records and canonical IDs; verify combined contextual filters, same-year changes, no spoilers and Reader/Wiki/Atlas consistency before release. See BATCH_DELIVERY_RULES.md.
