@@ -1,3 +1,11 @@
+# Navigation & IA / 02 — QA follow-up — corrected test, exact CI pending (2026-11-26)
+
+- Exact previous CI 45703158602 on 391c7cf805ae53d6fd6a657e4a88882d06b3f0cc completed FAILURE, job 139518212787. Build/TypeScript/content/Atlas structural validation PASS. Browser test stopped in navigation-ia-smoke.mjs at locator('.ia-arc[aria-expanded=false]').nth(2) timeout: locator.all() produces live nth locators and each open removes a match, shifting indices. Subsequent gates SKIPPED, not PASS.
+- Corrected test opens current first closed group until none remain, asserts count decreases after each click, retains full chapter/episode coverage, active TOC, Escape/focus, pager and Back assertions. Commit a8f8b549d3c241fe312838fa6389d8f8e58aea08; comparison to prior app candidate confirms only test and handoff changed, no app changes or weakened tests. Exact [CI 45706550124](https://github.com/sali5610/tam-quoc-chi/actions/runs/45706550124) IN_PROGRESS at verification.
+- Chat02 remains QA PENDING; no new browser PASS, no Chat03 transition yet. No main merge/deploy, main 59be7599e6cbd07ba96f1fa679f56b1395b93b6c, last verified live SHA inherited 5af8a0885fdfa50aefdc4510a83c29a19b67fc0c. Fresh live/physical devices NOT TESTED. Next check exact corrected CI and fix any remaining scoped blockers, then close Chat02 before Atlas. Preserve DEC-UX-043.
+
+---
+
 # Navigation & IA / 02 — Home, Library & Reader — CODED / QA PENDING (2026-11-26)
 
 - Scope authorized by PO Next. Branch ui/navigation-ia-02 based on design 920df8b337dbcf7e45094827f45309029b4179b5 including main 59be7599e6cbd07ba96f1fa679f56b1395b93b6c and DEC-UX-043. Exact app candidate 391c7cf805ae53d6fd6a657e4a88882d06b3f0cc, initial implementation 2229db1fd869258140121b588c2e8cd48f778597.
