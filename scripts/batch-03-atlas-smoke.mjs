@@ -3,6 +3,8 @@ import fs from 'node:fs';
 const pilot=JSON.parse(fs.readFileSync('content/atlas/pilot.json','utf8'));
 const entities=JSON.parse(fs.readFileSync('src/entities.json','utf8'));
 const quotes=JSON.parse(fs.readFileSync('content/wiki/quotes.json','utf8'));
+const manifest=JSON.parse(fs.readFileSync('content/manifest.json','utf8'));
+const episodeIds=manifest.eras.flatMap(e=>e.arcs.flatMap(a=>a.chapters.flatMap(c=>c.episodes.map(ep=>ep.id))));
 const base=process.env.TQC_TEST_BASE||'http://localhost:4173/tam-quoc-chi/';
 const check=(x,m)=>{if(!x)throw Error(m)};
 async function checkWidth(page,stage){const data=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,offenders:[...document.querySelectorAll('main *,header *')].filter(e=>!e.closest('.leaflet-container')&&e.getClientRects().length).map(e=>({tag:e.tagName,cls:String(e.className?.baseVal??e.className),text:e.textContent?.trim().slice(0,75),left:e.getBoundingClientRect().left,right:e.getBoundingClientRect().right,scroll:e.scrollWidth,client:e.clientWidth})).filter(e=>e.right>innerWidth+1||e.left< -1).sort((a,b)=>b.right-a.right).slice(0,15)}));check(data.scroll<=data.width+1,'Overflow '+stage+' '+JSON.stringify(data));}
@@ -40,7 +42,8 @@ for(const engine of [chromium,webkit]){
   console.log('PASS 67 Wiki profiles and 29 quote/backlink counts',engine.name());await page.close();
 
   const nav=await browser.newPage({viewport:{width:390,height:844},hasTouch:true,reducedMotion:'reduce'});
-  for(const [ep,query,prev,next] of [['ep-0007','dung the luc','ep-0006','ep-0008'],['ep-0008','bao thu tu chau','ep-0007','ep-0009'],['ep-0009','lay lai duyen chau','ep-0008',null]]){
+  for(const [ep,query] of [['ep-0007','dung the luc'],['ep-0008','bao thu tu chau'],['ep-0009','lay lai duyen chau']]){
+    const index=episodeIds.indexOf(ep);check(index>0,'Manifest episode missing '+ep);const prev=episodeIds[index-1],next=episodeIds[index+1];
     await nav.goto(base+'#/search');await nav.getByRole('textbox',{name:'Tìm tập'}).fill(query);
     // EP07 search is by source text as well as title; use unaccented title for deterministic coverage.
     if(ep==='ep-0007')await nav.getByRole('textbox',{name:'Tìm tập'}).fill('tu mot quan den ca mot chau');
