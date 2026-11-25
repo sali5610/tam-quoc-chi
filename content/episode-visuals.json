@@ -1504,8 +1504,8 @@
       {
         "name": "Đổng Chiêu",
         "text": "Đề xuất chuyển đô",
-        "pendingPerson": "Đổng Chiêu",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Đổng Chiêu"
       },
       {
         "name": "Tào Tháo",
@@ -1567,8 +1567,8 @@
       {
         "name": "Nhậm Tuấn",
         "text": "Tổ chức canh tác",
-        "pendingPerson": "Nhậm Tuấn",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Nhậm Tuấn"
       },
       {
         "name": "Dân canh tác",
@@ -1621,8 +1621,8 @@
       {
         "name": "Trương Phi",
         "text": "Xung đột với Báo theo các dị bản",
-        "pendingPerson": "Trương Phi",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Trương Phi"
       },
       {
         "name": "Lữ Bố",
@@ -1674,8 +1674,8 @@
       {
         "name": "Mi Trúc",
         "text": "Dùng gia sản giúp quân",
-        "pendingPerson": "Mi Trúc",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "My Trúc"
       },
       {
         "name": "Lưu Bị",
@@ -1726,8 +1726,8 @@
       {
         "name": "Kỷ Linh",
         "text": "Chỉ huy quân đánh Lưu",
-        "pendingPerson": "Kỷ Linh",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Kỷ Linh"
       },
       {
         "name": "Lưu Bị",
@@ -1767,20 +1767,20 @@
       {
         "name": "Hác Manh",
         "text": "Nổi dậy theo Anh hùng ký",
-        "pendingPerson": "Hác Manh",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Hác Manh"
       },
       {
         "name": "Cao Thuận",
         "text": "Dẹp phản loạn",
-        "pendingPerson": "Cao Thuận",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Cao Thuận"
       },
       {
         "name": "Cao Tính",
         "text": "Chống Hác, tố có người liên quan",
-        "pendingPerson": "Cao Tính",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Cao Tính"
       },
       {
         "name": "Trần Cung",
@@ -1915,26 +1915,26 @@
       {
         "name": "Vương Lãng",
         "text": "Thất bại, rút khỏi Cối Kê",
-        "pendingPerson": "Vương Lãng",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Vương Lãng"
       },
       {
         "name": "Ngô Cảnh",
         "text": "Giữ Đan Dương",
-        "pendingPerson": "Ngô Cảnh",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Ngô Cảnh"
       },
       {
         "name": "Chu Trị",
         "text": "Giữ Ngô",
-        "pendingPerson": "Chu Trị",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Chu Trị"
       },
       {
         "name": "Trình Phổ",
         "text": "Đô úy phụ trách quân sự",
-        "pendingPerson": "Trình Phổ",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Trình Phổ"
       }
     ],
     "sources": [
@@ -2029,14 +2029,14 @@
       {
         "name": "Ngô Cảnh",
         "text": "Bỏ chức ở Quảng Lăng",
-        "pendingPerson": "Ngô Cảnh",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Ngô Cảnh"
       },
       {
         "name": "Tôn Bí",
         "text": "Từ chối chức Thuật phong",
-        "pendingPerson": "Tôn Bí",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Tôn Bí"
       }
     ],
     "sources": [
@@ -2086,8 +2086,8 @@
       {
         "name": "Trần Khuê",
         "text": "Khuyên không theo Thuật",
-        "pendingPerson": "Trần Khuê",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Trần Khuê"
       },
       {
         "name": "Trần Đăng",
@@ -2129,8 +2129,8 @@
       {
         "name": "Trần Khuê",
         "text": "Đề xuất tách đồng minh của Thuật",
-        "pendingPerson": "Trần Khuê",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Trần Khuê"
       },
       {
         "name": "Hàn Xiêm",
@@ -2145,8 +2145,8 @@
       {
         "name": "Trương Huân",
         "text": "Thất bại",
-        "pendingPerson": "Trương Huân",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Trương Huân"
       }
     ],
     "sources": [
@@ -2191,8 +2191,8 @@
       {
         "name": "Trương Tú",
         "text": "Tiếp quản lực lượng của chú",
-        "pendingPerson": "Trương Tú",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Trương Tú"
       },
       {
         "name": "Lưu Biểu",
@@ -2232,8 +2232,8 @@
       {
         "name": "Trương Tú",
         "text": "Đầu hàng rồi quay lại chống Tào",
-        "pendingPerson": "Trương Tú",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Trương Tú"
       },
       {
         "name": "Tào Tháo",
@@ -2279,13 +2279,12 @@
       {
         "name": "Tào Ngang",
         "text": "Con Tào, được cử Hiếu liêm, không gán quyền chỉ huy",
-        "pendingPerson": "Tào Ngang",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Tào Ngang"
       },
       {
         "name": "Tào An Dân",
         "text": "Cháu Tào, chết trong biến cố",
-        "pendingPerson": "Tào An Dân",
         "icon": "scroll"
       },
       {
@@ -2296,7 +2295,6 @@
       {
         "name": "Đinh phu nhân",
         "text": "Bùi chú kể hậu quả trong gia đình",
-        "pendingPerson": "Đinh phu nhân",
         "icon": "scroll"
       }
     ],
@@ -2348,8 +2346,8 @@
       {
         "name": "Vu Cấm",
         "text": "Giữ quân có tổ chức",
-        "pendingPerson": "Vu Cấm",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Vu Cấm"
       },
       {
         "name": "Kỷ luật",
@@ -2389,8 +2387,8 @@
       {
         "name": "Trương Tú",
         "text": "Còn lực lượng riêng",
-        "pendingPerson": "Trương Tú",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Trương Tú"
       },
       {
         "name": "Lưu Biểu",
@@ -2437,8 +2435,8 @@
       {
         "name": "Cao Thuận",
         "text": "Đánh Lưu, bắt gia đình",
-        "pendingPerson": "Cao Thuận",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Cao Thuận"
       },
       {
         "name": "Hạ Hầu Đôn",
@@ -2586,14 +2584,14 @@
       {
         "name": "Cao Thuận",
         "text": "Bị xử tử",
-        "pendingPerson": "Cao Thuận",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Cao Thuận"
       },
       {
         "name": "Trương Liêu",
         "text": "Theo Tào, được bổ chức",
-        "pendingPerson": "Trương Liêu",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Trương Liêu"
       },
       {
         "name": "Lưu Bị",
@@ -2701,20 +2699,20 @@
       {
         "name": "Viên Đàm",
         "text": "Thanh Châu, chức danh có dị bản",
-        "pendingPerson": "Viên Đàm",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Viên Đàm"
       },
       {
         "name": "Viên Hy",
         "text": "U Châu",
-        "pendingPerson": "Viên Hy",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Viên Hy"
       },
       {
         "name": "Cao Cán",
         "text": "Tịnh Châu",
-        "pendingPerson": "Cao Cán",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Cao Cán"
       }
     ],
     "sources": [
@@ -2759,8 +2757,8 @@
       {
         "name": "Tuy Cố",
         "text": "Giết Dương Xú, định theo Thiệu",
-        "pendingPerson": "Tuy Cố",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Tuy Cố"
       },
       {
         "name": "Lực lượng Tào",
@@ -2770,8 +2768,8 @@
       {
         "name": "Ngụy Chủng",
         "text": "Được dùng làm Hà Nội thái thú",
-        "pendingPerson": "Ngụy Chủng",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Ngụy Chủng"
       }
     ],
     "sources": [
@@ -2833,8 +2831,8 @@
       {
         "name": "Từ Cầu",
         "text": "Đưa ấn về triều đình theo Hậu Hán thư",
-        "pendingPerson": "Từ Cầu",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Từ Cầu"
       }
     ],
     "sources": [
@@ -2923,14 +2921,14 @@
       {
         "name": "Quan Vũ",
         "text": "Giữ Hạ Bì, hành thái thú sự",
-        "pendingPerson": "Quan Vũ",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Quan Vũ"
       },
       {
         "name": "Tôn Càn",
         "text": "Được sai liên hệ Thiệu",
-        "pendingPerson": "Tôn Càn",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Tôn Càn"
       },
       {
         "name": "Tiểu Bái",
@@ -3021,8 +3019,8 @@
     "center": {
       "name": "Trương Tú",
       "text": "Lần hàng thứ hai, tháng 11 năm 199",
-      "pendingPerson": "Trương Tú",
-      "icon": "scroll"
+      "icon": "scroll",
+      "person": "Trương Tú"
     }
   },
   {
@@ -3104,8 +3102,8 @@
       {
         "name": "Quan Vũ",
         "text": "Bị bắt, được bổ Thiên tướng quân",
-        "pendingPerson": "Quan Vũ",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Quan Vũ"
       },
       {
         "name": "Viên Thiệu",
@@ -3170,14 +3168,14 @@
       {
         "name": "Tôn Quyền",
         "text": "Tham gia chiến dịch 199",
-        "pendingPerson": "Tôn Quyền",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Tôn Quyền"
       },
       {
         "name": "Lưu Huân",
         "text": "Mất địa bàn, dẫn quân hàng Tào",
-        "pendingPerson": "Lưu Huân",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Lưu Huân"
       },
       {
         "name": "Hoàn (皖)",
@@ -3229,20 +3227,20 @@
       {
         "name": "Hoa Hâm",
         "text": "Ra đón Sách sau thương lượng",
-        "pendingPerson": "Hoa Hâm",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Hoa Hâm"
       },
       {
         "name": "Tôn Bí",
         "text": "Dự Chương thái thú",
-        "pendingPerson": "Tôn Bí",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Tôn Bí"
       },
       {
         "name": "Tôn Phụ",
         "text": "Lư Lăng thái thú",
-        "pendingPerson": "Tôn Phụ",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Tôn Phụ"
       }
     ],
     "sources": [
@@ -3326,8 +3324,8 @@
       {
         "name": "Trương Chiêu",
         "text": "Tập hợp quan lại, thúc tiếp quản",
-        "pendingPerson": "Trương Chiêu",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Trương Chiêu"
       },
       {
         "name": "Chu Du",
@@ -3337,14 +3335,14 @@
       {
         "name": "Ngô phu nhân",
         "text": "Hỗ trợ việc quân quốc theo tiểu truyện",
-        "pendingPerson": "Ngô phu nhân",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Ngô phu nhân"
       },
       {
         "name": "Trương Hoành",
         "text": "Khuyên Tào không nhân lúc có tang mà đánh",
-        "pendingPerson": "Trương Hoành",
-        "icon": "scroll"
+        "icon": "scroll",
+        "person": "Trương Hoành"
       }
     ],
     "sources": [
@@ -3386,8 +3384,8 @@
     "center": {
       "name": "Tôn Quyền",
       "text": "Tiếp quản cơ nghiệp",
-      "pendingPerson": "Tôn Quyền",
-      "icon": "scroll"
+      "icon": "scroll",
+      "person": "Tôn Quyền"
     }
   }
 ]

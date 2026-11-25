@@ -1051,6 +1051,222 @@
     {
       "id": "duan-wei",
       "name": "Đoàn Ổi"
+    },
+    {
+      "id": "dong-zhao",
+      "name": "Đổng Chiêu"
+    },
+    {
+      "id": "zhang-fei",
+      "name": "Trương Phi"
+    },
+    {
+      "id": "gao-shun",
+      "name": "Cao Thuận"
+    },
+    {
+      "id": "liu-yao",
+      "name": "Lưu Do"
+    },
+    {
+      "id": "taishi-ci",
+      "name": "Thái Sử Từ"
+    },
+    {
+      "id": "wang-lang",
+      "name": "Vương Lãng"
+    },
+    {
+      "id": "zhang-xiu",
+      "name": "Trương Tú"
+    },
+    {
+      "id": "xun-you",
+      "name": "Tuân Du"
+    },
+    {
+      "id": "guo-jia",
+      "name": "Quách Gia"
+    },
+    {
+      "id": "guan-yu",
+      "name": "Quan Vũ"
+    },
+    {
+      "id": "sun-quan",
+      "name": "Tôn Quyền"
+    },
+    {
+      "id": "zhang-zhao",
+      "name": "Trương Chiêu"
+    },
+    {
+      "id": "ren-jun",
+      "name": "Nhậm Tuấn"
+    },
+    {
+      "id": "zhang-liao",
+      "name": "Trương Liêu"
+    },
+    {
+      "id": "wu-jing",
+      "name": "Ngô Cảnh"
+    },
+    {
+      "id": "sun-ben",
+      "name": "Tôn Bí"
+    },
+    {
+      "id": "cheng-pu",
+      "name": "Trình Phổ"
+    },
+    {
+      "id": "zhang-hong",
+      "name": "Trương Hoành"
+    },
+    {
+      "id": "sun-fu",
+      "name": "Tôn Phụ"
+    },
+    {
+      "id": "sun-qian",
+      "name": "Tôn Càn"
+    },
+    {
+      "id": "yue-jin",
+      "name": "Nhạc Tiến"
+    },
+    {
+      "id": "chen-gui",
+      "name": "Trần Khuê"
+    },
+    {
+      "id": "wu-furen",
+      "name": "Ngô phu nhân"
+    },
+    {
+      "id": "cao-ren",
+      "name": "Tào Nhân"
+    },
+    {
+      "id": "zang-ba",
+      "name": "Tang Bá"
+    },
+    {
+      "id": "yuan-tan",
+      "name": "Viên Đàm"
+    },
+    {
+      "id": "tian-feng",
+      "name": "Điền Phong"
+    },
+    {
+      "id": "liu-xun",
+      "name": "Lưu Huân"
+    },
+    {
+      "id": "huang-zu",
+      "name": "Hoàng Tổ"
+    },
+    {
+      "id": "hua-xin",
+      "name": "Hoa Hâm"
+    },
+    {
+      "id": "yu-fan",
+      "name": "Ngu Phiên"
+    },
+    {
+      "id": "zhu-zhi",
+      "name": "Chu Trị"
+    },
+    {
+      "id": "ji-ling",
+      "name": "Kỷ Linh"
+    },
+    {
+      "id": "zhang-xun",
+      "name": "Trương Huân"
+    },
+    {
+      "id": "guan-jing",
+      "name": "Quan Tĩnh"
+    },
+    {
+      "id": "wei-zhong",
+      "name": "Ngụy Chủng"
+    },
+    {
+      "id": "hou-cheng",
+      "name": "Hầu Thành"
+    },
+    {
+      "id": "cao-xing",
+      "name": "Cao Tính"
+    },
+    {
+      "id": "cao-ang",
+      "name": "Tào Ngang"
+    },
+    {
+      "id": "zhu-ling",
+      "name": "Chu Linh"
+    },
+    {
+      "id": "xu-qiu",
+      "name": "Từ Cầu"
+    },
+    {
+      "id": "sui-gu",
+      "name": "Tuy Cố"
+    },
+    {
+      "id": "shi-huan",
+      "name": "Sử Hoán"
+    },
+    {
+      "id": "xu-gong",
+      "name": "Hứa Cống"
+    },
+    {
+      "id": "yan-xiang",
+      "name": "Diêm Tượng"
+    },
+    {
+      "id": "yu-jin",
+      "name": "Vu Cấm"
+    },
+    {
+      "id": "xu-huang",
+      "name": "Từ Hoảng"
+    },
+    {
+      "id": "zhang-he",
+      "name": "Trương Hợp"
+    },
+    {
+      "id": "liu-dai-199",
+      "name": "Lưu Đại (Công Sơn)"
+    },
+    {
+      "id": "wang-zhong",
+      "name": "Vương Trung"
+    },
+    {
+      "id": "hao-meng",
+      "name": "Hác Manh"
+    },
+    {
+      "id": "wei-xu",
+      "name": "Ngụy Tục"
+    },
+    {
+      "id": "yuan-xi",
+      "name": "Viên Hy"
+    },
+    {
+      "id": "gao-gan",
+      "name": "Cao Cán"
     }
   ],
   "events": [
