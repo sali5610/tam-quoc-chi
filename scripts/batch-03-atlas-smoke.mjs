@@ -27,6 +27,26 @@ for(const engine of [chromium,webkit]){
     const markerEvents=await board.locator('.atlas-person-marker').evaluateAll(es=>es.flatMap(e=>(e.getAttribute('data-event-group')||'').split(',')));
     check(markerEvents.every(id=>expected.some(e=>e.id===id)),'Cross-episode marker '+ep);
     check(new Set(markerEvents).size===expected.filter(e=>e.people.length).length&&expected.filter(e=>!e.people.length).every(e=>!markerEvents.includes(e.id)),'Missing/duplicated resolved event or contextual pin '+ep);
+    if(ep>='ep-0010'&&width<=390){
+      // Initial Reader focus must fit all documented pins. Check rendered avatar
+      // seals, not text bounding boxes or geographic locations. Intentional user
+      // panning may move a real anchor out of view.
+      await page.waitForFunction(({ep})=>{
+        const map=document.querySelector('section[data-atlas-episode="'+ep+'"] .strategy-board');
+        if(!map)return false;const bounds=map.getBoundingClientRect();
+        const groups=[...map.querySelectorAll('.atlas-person-marker')];
+        if(!groups.length)return false;
+        const inside=el=>{const r=el.getBoundingClientRect();return r.left>=bounds.left+4&&r.top>=bounds.top+4&&r.right<=bounds.right-4&&r.bottom<=bounds.bottom-4};
+        const intersects=(a,b)=>a.left<b.right-1&&a.right>b.left+1&&a.top<b.bottom-1&&a.bottom>b.top+1;
+        const seals=groups.map(g=>[...g.querySelectorAll('.atlas-portrait-seal')]);
+        if(!seals.flat().every(inside))return false;
+        if(groups.some(g=>g.hasAttribute('data-callout-offset')&&!g.querySelector('.atlas-callout-leader circle')))return false;
+        return seals.every((group,i)=>group.every(a=>seals.slice(i+1).flat().every(b=>!intersects(a.getBoundingClientRect(),b.getBoundingClientRect()))));
+      },{ep},{timeout:10000});
+      await board.locator('.strategy-board').scrollIntoViewIfNeeded();
+      await page.screenshot({path:'qa-b04/'+engine.name()+'-'+width+'-'+ep+'-initial-layout.png',fullPage:false});
+      console.log('PASS narrow initial Atlas avatar geometry',engine.name(),width,ep);
+    }
     await checkWidth(page,ep+' initial');await board.getByText('Mốc sự kiện trong tập',{exact:true}).click();await checkWidth(page,ep+' events opened');
     for(const e of expected){await board.locator('[data-atlas-event="'+e.id+'"]').click();const sheet=board.getByRole('dialog',{name:'Chi tiết sự kiện'});await sheet.waitFor();check((await sheet.innerText()).includes(e.title),'Wrong event '+e.id);await sheet.locator('.atlas-event-sources summary').click();check(await sheet.locator('.atlas-event-sources a[href*="wikisource.org"]').count()>=1,'Missing sources '+e.id);check(!(await sheet.innerText()).includes('EVD-'),'Internal evidence exposed '+e.id);await checkWidth(page,ep+' event '+e.id);await sheet.getByRole('button',{name:'Đóng sự kiện'}).click();}
     await board.getByText('Địa danh trong tập',{exact:true}).click();check(await board.getByText('Địa danh trong tập',{exact:true}).locator('..').locator('p button').count()===pilot.placeRefsByEpisode[ep].length,'Place coverage '+ep);
