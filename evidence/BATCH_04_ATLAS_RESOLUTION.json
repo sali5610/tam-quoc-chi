@@ -1,0 +1,222 @@
+{
+  "status": "PARTIAL_RESEARCH_NOT_RUNTIME",
+  "dataset": {
+    "url": "https://swordandstate.com/history-open/atlas.json",
+    "license": "CC-BY-SA-4.0",
+    "access": "JSON response observed; full feature matching and coordinates not validated"
+  },
+  "policy": "Reuse verified existing IDs. New names remain text/region until matched by exact historical identity and time. No new coordinates, routes or geometry.",
+  "existing": [
+    {
+      "id": "anyi",
+      "ep": 10,
+      "evidence": "EVD-B04-001",
+      "precision": "reuse existing metadata; no new coordinates"
+    },
+    {
+      "id": "luoyang",
+      "ep": 10,
+      "evidence": "EVD-B04-003",
+      "precision": "reuse existing metadata; no new coordinates"
+    },
+    {
+      "id": "xiapi",
+      "ep": 11,
+      "evidence": "EVD-B04-011",
+      "precision": "reuse existing metadata; no new coordinates"
+    },
+    {
+      "id": "xiaopei",
+      "ep": 11,
+      "evidence": "EVD-B04-014",
+      "precision": "reuse existing metadata; no new coordinates"
+    },
+    {
+      "id": "liyang",
+      "ep": 12,
+      "evidence": "EVD-B04-017",
+      "precision": "reuse existing metadata; no new coordinates"
+    },
+    {
+      "id": "xiapi",
+      "ep": 13,
+      "evidence": "EVD-B04-023",
+      "precision": "reuse existing metadata; no new coordinates"
+    },
+    {
+      "id": "wan",
+      "ep": 14,
+      "evidence": "EVD-B04-028",
+      "precision": "reuse existing metadata; no new coordinates"
+    },
+    {
+      "id": "xiaopei",
+      "ep": 15,
+      "evidence": "EVD-B04-033",
+      "precision": "reuse existing metadata; no new coordinates"
+    },
+    {
+      "id": "pengcheng",
+      "ep": 15,
+      "evidence": "EVD-B04-033",
+      "precision": "reuse existing metadata; no new coordinates"
+    },
+    {
+      "id": "xiapi",
+      "ep": 15,
+      "evidence": "EVD-B04-035",
+      "precision": "reuse existing metadata; no new coordinates"
+    },
+    {
+      "id": "henei",
+      "ep": 16,
+      "evidence": "EVD-B04-041",
+      "precision": "reuse existing metadata; no new coordinates"
+    },
+    {
+      "id": "xiapi",
+      "ep": 17,
+      "evidence": "EVD-B04-047",
+      "precision": "reuse existing metadata; no new coordinates"
+    },
+    {
+      "id": "xiaopei",
+      "ep": 17,
+      "evidence": "EVD-B04-047",
+      "precision": "reuse existing metadata; no new coordinates"
+    },
+    {
+      "id": "pingyuan",
+      "ep": 17,
+      "evidence": "EVD-B04-051",
+      "precision": "reuse existing metadata; no new coordinates"
+    }
+  ],
+  "unresolved": [
+    {
+      "name": "Xu 許/許縣",
+      "ep": 10,
+      "evidence": "EVD-B04-005",
+      "precision": "unresolved/text-only; individual anchors require dataset match"
+    },
+    {
+      "name": "Wenxi 聞喜",
+      "ep": 10,
+      "evidence": "EVD-B04-003",
+      "precision": "unresolved/text-only; individual anchors require dataset match"
+    },
+    {
+      "name": "Xuyi 盱眙 / Huaiyin 淮陰",
+      "ep": 11,
+      "evidence": "EVD-B04-011",
+      "precision": "unresolved/text-only; individual anchors require dataset match"
+    },
+    {
+      "name": "Guangling 廣陵 / Haixi 海西",
+      "ep": 11,
+      "evidence": "EVD-B04-014",
+      "precision": "unresolved/text-only; individual anchors require dataset match"
+    },
+    {
+      "name": "Danyang 丹楊 / Qu'a 曲阿 / Kuaiji 會稽 / Wu 吳",
+      "ep": 12,
+      "evidence": "EVD-B04-019",
+      "precision": "unresolved/text-only; individual anchors require dataset match"
+    },
+    {
+      "name": "Niuzhu 牛渚 / Hengjiang 橫江 / Dangli 當利 / Moling 秣陵 / Hushu 湖孰 / Jiangcheng 江乘",
+      "ep": 12,
+      "evidence": "EVD-B04-018",
+      "precision": "unresolved/text-only; individual anchors require dataset match"
+    },
+    {
+      "name": "Chen 陳 / Huainan 淮南",
+      "ep": 13,
+      "evidence": "EVD-B04-026",
+      "precision": "unresolved/text-only; individual anchors require dataset match"
+    },
+    {
+      "name": "Rang 穰 / Wuyin 舞陰 / Huyang 湖陽 / Anzhong 安眾",
+      "ep": 14,
+      "evidence": "EVD-B04-032",
+      "precision": "unresolved/text-only; individual anchors require dataset match"
+    },
+    {
+      "name": "Sishui 泗 / Yishui 沂 / White Gate 白門樓",
+      "ep": 15,
+      "evidence": "EVD-B04-034",
+      "precision": "unresolved/text-only; individual anchors require dataset match"
+    },
+    {
+      "name": "Yijing 易京 / Shequan 射犬 / Shouchun 壽春 / Jiangting 江亭 / Qianshan 潛山 / Guandu 官渡",
+      "ep": 16,
+      "evidence": "EVD-B04-039",
+      "precision": "unresolved/text-only; individual anchors require dataset match"
+    },
+    {
+      "name": "Xu 許",
+      "ep": 17,
+      "evidence": "EVD-B04-045",
+      "precision": "unresolved/text-only; individual anchors require dataset match"
+    },
+    {
+      "name": "Wan 皖 (not 宛) / Juchao 居巢 / Jiangxia 江夏 / Shaxian 沙羨 / Yuzhang 豫章 / Luling 廬陵 / Jiaoqiu 椒丘 / Dantu 丹徒 / Wu 吳",
+      "ep": 18,
+      "evidence": "EVD-B04-053",
+      "precision": "unresolved/text-only; individual anchors require dataset match"
+    }
+  ],
+  "journeys": [
+    {
+      "ep": 10,
+      "sequence": [
+        "Anyi",
+        "Wenxi",
+        "Luoyang",
+        "Xu"
+      ],
+      "evidence": [
+        "EVD-B04-001",
+        "EVD-B04-003",
+        "EVD-B04-005",
+        "EVD-B04-006"
+      ],
+      "status": "candidate, month conflict and stop matching unresolved; no line"
+    },
+    {
+      "ep": 12,
+      "sequence": [
+        "Liyang",
+        "Hengjiang",
+        "Dangli",
+        "Moling",
+        "Hushu",
+        "Jiangcheng",
+        "Qu'a"
+      ],
+      "evidence": [
+        "EVD-B04-019"
+      ],
+      "status": "source order only; no line"
+    },
+    {
+      "ep": 17,
+      "sequence": [
+        "Xiapi/Từ Châu",
+        "Thanh Châu",
+        "Pingyuan"
+      ],
+      "evidence": [
+        "EVD-B04-050",
+        "EVD-B04-051"
+      ],
+      "status": "regional sequence only, no line"
+    }
+  ],
+  "forbidden": [
+    "Sun Ce planned Xu attack as completed route",
+    "Wan 皖 merged into existing wan 宛",
+    "invented White Gate coordinates",
+    "flood engineering geometry"
+  ]
+}

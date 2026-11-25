@@ -76,6 +76,19 @@ I = 資治通鑑 卷063 https://zh.wikisource.org/wiki/資治通鑑/卷063
 | EVD-B04-060 | 18 | [Chính sử] E 孫權 建安五年 | 張昭、周瑜等謂權可與共成大業 | Trương Chiêu thúc Quyền tiếp quản, Chu Du và các tướng hỗ trợ, Tào biểu làm Thảo lỗ tướng quân kiêm Cối Kê thái thú, đóng Ngô; năm quận chưa hoàn toàn phục. Chưa gọi nước Ngô. | Ngô; Cối Kê; năm quận |
 | EVD-B04-061 | 18 | [Chính sử] F 周瑜 建安五年 | 與長史張昭共掌眾事 | Chu Du đem quân về chịu tang và cùng Trương Chiêu quản việc chung; không suy ra cơ chế nhiếp chính chính thức. | Ngô |
 
+
+## Supplemental witnessed passages (same stable ID namespace)
+| ID | EP | Layer / work / section | Original locator | Interpretation / chronology | Place precision |
+|---|---|---|---|---|---|
+| EVD-B04-062 | 14 | [Chính sử] 三國志卷08 張繡 https://zh.wikisource.org/wiki/三國志/卷08 | 太祖納濟妻 | Tào nạp vợ Trương Tế (không phải vợ Trương Tú), Tú bất bình; sử chép kế giết Tú bị lộ và phản kích. Không đặt tên Trâu thị. | Uyển |
+| EVD-B04-063 | 14 | [Chính sử] 三國志卷18 典韋 https://zh.wikisource.org/wiki/三國志/卷18 | 瞋目大罵而死 | Điển Vi tử trận che chở chủ; Tào tìm thi thể, thương tiếc. Không xác nhận Hồ Xa Nhi trộm song kích. | Uyển |
+| EVD-B04-064 | 17 | [Chính sử] 三國志卷08 張繡 https://zh.wikisource.org/wiki/三國志/卷08 | 從賈詡計 | Tú theo lời Giả Hủ về Tào; được phong Dương Vũ tướng quân, con Tào Quân cưới con gái Tú. | Hứa, điểm tiếp nhận chưa rõ |
+| EVD-B04-065 | 12 | [Chính sử] 三國志卷46 孫策 | 策自領會稽太守 | Tôn Sách tự lĩnh Cối Kê thái thú, phân Ngô Cảnh giữ Đan Dương, Chu Trị giữ Ngô; Trương Chiêu, Trương Hoành, Tần Tùng, Trần Đoan tham mưu. Không dồn Dự Chương/Lư Lăng 199 vào 196. | Cối Kê, Đan Dương, Ngô cấp quận |
+| EVD-B04-066 | 15 | [Chính sử] 三國志卷10 荀彧 https://zh.wikisource.org/wiki/三國志/卷10 | 度勝、謀勝、武勝、德勝 | Tuân Úc phân tích lợi thế Tào trước Viên, đề nghị giải quyết Lữ trước; không trình bày như kết quả Quan Độ đã định. | Hứa |
+| EVD-B04-067 | 18 | [Chính sử] 三國志卷52 張昭 https://zh.wikisource.org/wiki/三國志/卷52 | 昭率群僚立而輔之 | Chiêu tập hợp quan lại phụ tá Quyền, báo Hán đình và các thành thuộc quyền, thúc Quyền ra tiếp quản. | Ngô |
+| EVD-B04-068 | 12 | [Chính sử] 三國志卷13 王朗 https://zh.wikisource.org/wiki/三國志/卷13 | 朗自曲阿展轉江海 | Vương Lãng sau thất bại ở Cối Kê được triệu về Tào nhưng đi nhiều năm mới tới. [Bùi chú] Hán Tấn xuân thu đặt triệu năm 198, ghi lời nhận xét về Sách, Chiêu, Du. | Khúc A; hải trình không định tuyến |
+| EVD-B04-069 | 18 | [Chính sử] 三國志卷54 周瑜 | 中護軍，領江夏太守 | Chức vụ Chu Du năm 199; lĩnh chức Giang Hạ không đồng nghĩa kiểm soát cả quận. Bùi chú phân biệt Ba Khâu ở hai thời điểm. | Giang Hạ vùng |
+
 ## Unclosed research gaps (do not infer PASS)
-- 卷06 direct fetch timed out; CText 袁術傳 search excerpt returned but full page 403. Verify actual main-text seal tradition, title 仲氏, dates; use alternate witnesses. 卷08 公孫瓚、張繡、張楊, 卷10 荀彧/賈詡, 卷16 任峻, 卷18 典韋, 卷17 張遼, 卷38 麋竺, 卷49 太史慈, 卷51 宗室, 卷52 張昭/張紘, 卷53 劉繇/王朗, 卷55 程普 and other biographical passages need direct close reading. Especially EP12 王朗、太史慈; EP14 典韋 death, 張繡妻/濟妻 source and Jia Xu's advice; EP17 Jia Xu surrender reasons. Do not use unverified quotations or film versions. Secondary literature and historical-geography exact resolver verification pending.
+- 卷06 direct fetch timed out; CText 袁術傳 search excerpt returned but full page 403. Verify actual main-text seal tradition, title 仲氏, dates; use alternate witnesses. 卷08 公孫瓚、張楊, 卷10 賈詡, 卷16 任峻, 卷17 張遼, 卷38 麋竺, 卷49 劉繇/太史慈, 卷51 宗室, 卷53 張紘, 卷55 程普 and other biographical passages need direct close reading. EP12 太史慈 narrative still needs close passage verification; EP14 death and wife identity now supported by 062–063; EP17 surrender and marriage now supported by 064. Full Jia Xu advice and ancillary biographical chronology remain open. Do not use unverified quotations or film versions. Secondary literature and historical-geography exact resolver verification pending.
 - Romance catalog located https://wuguo.org/novel/16/catalog; chapters 14–25, 29 relevant, but passage-by-passage validation not yet completed. No community quote researched; omit.

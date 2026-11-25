@@ -44,3 +44,17 @@ Status: editorial continuity tracker, 2026-11-25, Chat 02 BATCH-03. OPEN means f
 - PAID indicates narrative callback, not that one event has been proved to cause the other.
 - A source-supported future role may be foreshadowed; don't invent actors' knowledge of their own future.
 - Keep payoff in the body prose, not solely in this tracker.
+
+## BATCH-04 planned payoff mapping — research checkpoint (2026-11-25)
+All below OPEN/PARTIAL, not prose completion. EVD-B04 IDs in evidence/BATCH_04_EVIDENCE_REGISTRY.md.
+| Setup | Payoff target | Evidence | Status |
+|---|---|---|---|
+| EP09 court at Anyi; Mao Jie counsel | EP10 court at Xu and farming policy, separate actors | 001–010 | OPEN |
+| EP09 Liyang mobilization | EP12 Sun Ce expansion, no replay | 017–020,065 | OPEN |
+| EP08–09 Liu's base and Lü shelter | EP11 Xiapi reversal; EP15 Lü collapse | 011–016,033–036 | OPEN |
+| EP11 temporary Lü/Liu cooperation | EP13 Lü's realignment; EP15 reversal | 015,023–025,033–035 | OPEN |
+| EP09 Zhang Ji, Jia Xu and court violence | EP14 Zhang Xiu inherits force; EP17 surrender | 027–032,044,062–064 | OPEN |
+| Yuan rivalry and fragmentation | EP13 rival emperor; EP16 demise; EP17 Liu mission | 021–026,039–043,047 | OPEN |
+| EP10 imperial legitimacy versus real power | EP17 edict conspiracy; competing historical framing | 005–007,045,049 | OPEN |
+| EP12 Sun Ce/ Zhou Yu regional base | EP18 succession, Zhou Yu and Zhang Zhao | 019,053–061,067 | OPEN |
+| EP16 north consolidation | subsequent batch Guandu campaign; no premature battle | 043,052 | OPEN |
