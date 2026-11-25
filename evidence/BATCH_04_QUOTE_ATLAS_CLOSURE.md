@@ -35,3 +35,87 @@ B04-Q04 superseded by QTE-0038; do not duplicate. 124 preserves Fuzi layer for t
 ## Quote disposition — checked exact witness
 - QTE-0031 exact SGZ32 L135 (今天下英雄，唯使君與操耳), pre-interception 199; no wine implied. QTE-0035 exact SGZ10 賈詡 Siku 魏志卷10 (不如從曹公); year 199 from SGZ1; narrative context 官渡 in biography not decisive battle. QTE-0036 exact SGZ52 張昭 (方今天下鼎沸，群盜滿山); after Sun Ce death. QTE-0037 exact SGZ13 王朗 L153, Bùi chú 漢晉春秋, retrospective after summons 198; retain date uncertainty. QTE-0038 exact SGZ46 孫策. All nine reserved IDs QTE-0030–0038 distinct from existing 29. QTE-0037 only show at retrospective beat; if not written leave reservation, no forced display.
 - 129 and 130 close remaining specific grain steward / physician literary comparison; no verified date for 129, omit from dated sequence. Do not create quotes from literary-only doctors. No quote quotas; per-person remaining audit below remains required.
+
+## Additional exact quote candidates (unique reservation)
+| ID | Person / EP | Original | Translation | Source/context |
+|---|---|---|---|---|
+| QTE-0039 | dong-zhao / 10 | 惟有移駕幸許耳。 | Chỉ còn cách dời xa giá tới Hứa. | 135 chính văn, 196 court relocation advice |
+| QTE-0040 | gao-shun / 15 | 但患不見用耳。 | Chỉ lo người có tài không được dùng mà thôi. | 136 Bùi chú dẫn Anh hùng ký, repeated advice, no exact date |
+| QTE-0041 | chen-gong / 15 | 老母在公，不在宮也。 | Mẹ già sống hay không ở ngài, không còn ở Cung. | 137 chính văn, after capture; do not merge with Điển lược |
+
+## Per-person quote coverage disposition
+Reviewed packet disposition, not proof that a person never spoke or that no other passage exists. Existing runtime quotes untouched; do not create a blank fake section. Additional quote research for material identities may still be required if a relevant primary passage remains unchecked.
+| Person ID | Existing/reserved IDs | Reviewed evidence refs (B04 unless noted) | Disposition |
+|---|---|---|---|
+| cao-bao | No selected verified new quote in reviewed packet | 011–013 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| cao-cao | QTE-0001, QTE-0002, QTE-0003, QTE-0015; QTE-0031 | 004–009; 028–032,062–063; 033–037,066; 049–050 | Exact candidate witness above; check display date |
+| cao-ren | No selected verified new quote in reviewed packet | 132; 041,132 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| cao-xing | No selected verified new quote in reviewed packet | 016 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| chen-deng | QTE-0023 | 024; 024,057,138; 138,024 | Preserve existing; no new quote selected from packet |
+| chen-gong | QTE-0019, QTE-0020; QTE-0041 | 035–036 | Exact candidate witness above; check display date |
+| chen-gui | No selected verified new quote in reviewed packet | 023–025; 097,023–025 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| cheng-pu | No selected verified new quote in reviewed packet | 093; 094 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| cheng-yu | QTE-0021 | 004; prior B03 | Preserve existing; no new quote selected from packet |
+| chunyu-qiong | No selected verified new quote in reviewed packet | 080; prior 195 snapshot | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| dian-wei | QTE-0013 | 063 | Preserve existing; no new quote selected from packet |
+| dong-cheng | No selected verified new quote in reviewed packet | 001–002; 045,049,134 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| dong-zhao | QTE-0039 | 005 | Exact candidate witness above; check display date |
+| duan-wei | No selected verified new quote in reviewed packet | 038 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| gao-shun | QTE-0040 | 016; 033,035–036 | Exact candidate witness above; check display date |
+| gongsun-zan | No selected verified new quote in reviewed packet | 039 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| guan-jing | No selected verified new quote in reviewed packet | 086 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| guan-yu | No selected verified new quote in reviewed packet | 047,120; 095,120 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| guo-jia | No selected verified new quote in reviewed packet | 034 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| guo-si | No selected verified new quote in reviewed packet | 133; prior 195 snapshot | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| guo-tu | No selected verified new quote in reviewed packet | 079–080 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| han-hao | QTE-0028 | 008; B03-070 | Preserve existing; no new quote selected from packet |
+| han-xian | No selected verified new quote in reviewed packet | 025 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| hou-cheng | No selected verified new quote in reviewed packet | 035,139 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| hua-xin | No selected verified new quote in reviewed packet | 055 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| huang-zu | No selected verified new quote in reviewed packet | 054 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| ji-ling | No selected verified new quote in reviewed packet | 015 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| jia-xu | QTE-0035 | 076; 077 | Exact candidate witness above; check display date |
+| ju-shou | QTE-0026 | 079–080 | Preserve existing; no new quote selected from packet |
+| li-jue | No selected verified new quote in reviewed packet | 038 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| liu-bei | QTE-0008, QTE-0022 | 011,014–015; 045–048; 050–051 | Preserve existing; no new quote selected from packet |
+| liu-biao | No selected verified new quote in reviewed packet | 030,032,076; prior B03 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| liu-xun | No selected verified new quote in reviewed packet | 053–054 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| liu-yao | No selected verified new quote in reviewed packet | 017,019,070–072 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| lu-bu | QTE-0025; QTE-0030 | 011–016; 023–025; 033–036 | Exact candidate witness above; check display date |
+| mi-zhu | No selected verified new quote in reviewed packet | 014 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| ren-jun | No selected verified new quote in reviewed packet | 081–082 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| sun-ben | No selected verified new quote in reviewed packet | 116,017; 116 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| sun-ce | QTE-0027; QTE-0033, QTE-0038 | 017–020,065,070–071,078; 022,065,074; 053–059 | Exact candidate witness above; check display date |
+| sun-fu | No selected verified new quote in reviewed packet | 091 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| sun-qian | No selected verified new quote in reviewed packet | 089 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| sun-quan | No selected verified new quote in reviewed packet | 054,060–061,067; 054 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| taishi-ci | QTE-0034 | 070–072 | Exact candidate witness above; check display date |
+| tian-feng | No selected verified new quote in reviewed packet | 052 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| tian-kai | No selected verified new quote in reviewed packet | 039 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| wang-lang | QTE-0037 | 078 | Exact candidate witness above; check display date |
+| wei-zhong | No selected verified new quote in reviewed packet | 041 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| wu-furen | No selected verified new quote in reviewed packet | 118 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| wu-jing | No selected verified new quote in reviewed packet | 017,117 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| xiahou-dun | No selected verified new quote in reviewed packet | 033,122 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| xiandi | QTE-0016 | 001–003,005–010 | Preserve existing; no new quote selected from packet |
+| xun-you | No selected verified new quote in reviewed packet | 034 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| xun-yu | QTE-0011 | 004–005 | Preserve existing; no new quote selected from packet |
+| yang-feng | No selected verified new quote in reviewed packet | 025 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| yu-fan | No selected verified new quote in reviewed packet | 078; 055 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| yuan-shao | QTE-0007 | 007; prior B03-072/073; 039,043 | Preserve existing; no new quote selected from packet |
+| yuan-shu | QTE-0032 | 021–026,073–074; 042,075 | Exact candidate witness above; check display date |
+| yuan-tan | No selected verified new quote in reviewed packet | 051,088 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| yue-jin | No selected verified new quote in reviewed packet | 090 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| zang-ba | No selected verified new quote in reviewed packet | 037 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| zao-zhi | No selected verified new quote in reviewed packet | 008–009; B03-069 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| zhang-fei | No selected verified new quote in reviewed packet | 012–013; 131 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| zhang-hong | No selected verified new quote in reviewed packet | 092 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| zhang-ji | No selected verified new quote in reviewed packet | 027 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| zhang-liao | No selected verified new quote in reviewed packet | 114 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| zhang-xiu | No selected verified new quote in reviewed packet | 027–032,062,076; 044,064,077 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| zhang-xun | No selected verified new quote in reviewed packet | 025 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| zhang-yan | No selected verified new quote in reviewed packet | 039,087; prior 192 snapshot | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| zhang-yang | No selected verified new quote in reviewed packet | 040–041 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| zhang-zhao | QTE-0036 | 065,067 | Exact candidate witness above; check display date |
+| zhou-yu | No selected verified new quote in reviewed packet | 019; 053,061,069 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+| zhu-zhi | No selected verified new quote in reviewed packet | 065 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |

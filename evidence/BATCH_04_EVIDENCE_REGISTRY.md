@@ -175,3 +175,12 @@ Open: chapter 23–24 medical conspiracy exact passage and Cao Man Zhuan grain s
 | EVD-B04-132 | 15 | [Chính sử] 三國志卷09 曹仁 https://zh.wikisource.org/zh-hant/三國志/卷09 | 仁別攻句陽 | Tào Nhân được giao đánh riêng ở chiến dịch Lữ; từng làm nhiệm vụ ở chiến dịch Trương Tú. Không nhập chiến dịch năm sau. | Câu Dương chưa định điểm |
 | EVD-B04-133 | 14 | [Sử liệu khác] 資治通鑑卷062 https://zh.wikisource.org/zh-hant/資治通鑑/卷062 | 郭汜為其將伍習所殺 | Quách Dĩ bị bộ tướng Ngũ Tập giết năm 197; nhắc kết cục riêng của cựu thuộc Đổng Trác, không gộp với cái chết Lý Giác năm 198. | Quan Trung vùng |
 | EVD-B04-134 | 17 | [Chính sử] 三國志卷32 先主 L134–137 https://zh.wikisource.org/zh-hant/三國志/卷32 | 督朱靈、路招要擊術 | Lưu Bị làm Tả tướng quân sau Hạ Bì, dẫn Chu Linh/Lộ Chiêu chặn Thuật; Ngô Tử Lan, Vương Tử Phục và Chủng Tập trong âm mưu, Bùi dẫn Khởi cư chú nêu thêm Ngô Thạc; tách lớp. Viên Đàm đón tại Thanh Châu, không coi vị trí gặp Viên Thiệu là thành Nghiệp. | Hứa, Từ Châu, Bình Nguyên, vị trí gặp không rõ |
+
+## Final targeted quotations and role correction
+| ID | EP | Layer / work / section | Original locator | Interpretation / chronology | Place precision |
+|---|---|---|---|---|---|
+| EVD-B04-135 | 10 | [Chính sử] 三國志 魏志卷14 董昭 (Siku witness) https://zh.wikisource.org/wiki/三國志_(四庫全書本)/魏志/卷14 | 惟有移駕幸許耳 | Đổng Chiêu đề nghị dời vua tới Hứa, thừa nhận thiên hạ vừa mong ổn định tại kinh cũ; không dựng lời đối thoại ngoài đoạn sử. | Lạc Dương/Hứa |
+| EVD-B04-136 | 15 | [Bùi chú] 三國志卷07 呂布 引英雄記 L146 https://zh.wikisource.org/zh-hant/三國志/卷07 | 但患不見用耳 | Cao Thuận can Lữ nhiều lần, có lực lượng Hãm Trận doanh; sau vụ Hác Manh bị xa lánh, quân chuyển sang Ngụy Tục. Không gọi con số 700 chính xác tuyệt đối; không cố định ngày lời can. | Từ Châu vùng |
+| EVD-B04-137 | 15 | [Chính sử] 三國志卷07 陳宮 L151 https://zh.wikisource.org/zh-hant/三國志/卷07 | 老母在公，不在宮也 | Trần Cung nói về mẹ già sau bị bắt; Tào nuôi mẹ và gả con gái. Điển lược bổ sung đối thoại khác; không trộn lời hai lớp. | Hạ Bì |
+| EVD-B04-138 | 15 | [Chính sử] 三國志卷07 陳登 L155 https://zh.wikisource.org/zh-hant/三國志/卷07 | 又掎角呂布有功，加伏波將軍 | Trần Đăng có công phối hợp chống Lữ và được gia Phục Ba tướng quân; Bùi chú dẫn Tiên hiền hành trạng thêm dẫn quân Quảng Lăng và chuyện em bị giữ làm con tin. | Hạ Bì/Quảng Lăng |
+| EVD-B04-139 | 15 | [Bùi chú] 三國志卷07 呂布 引九州春秋 L146 https://zh.wikisource.org/zh-hant/三國志/卷07 | 布禁酒，卿釀酒 | Hầu Thành tìm lại ngựa, tặng rượu thịt, bị Lữ nghi ngờ; tách chi tiết tiểu thuyết trộm Xích Thố. | Hạ Bì |

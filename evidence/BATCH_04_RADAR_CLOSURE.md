@@ -89,7 +89,7 @@ Low-confidence ratings measure demonstrated remit, not innate aptitude. Prior Ch
 | chunyu-qiong | 10 / 196 retrospective | 3*/3*/2/3/2/3 | 080; prior 195 snapshot | advisory view in one witness; earlier military remit retained; staff coalition; opposes Ju in annotation; subordinate; Yuan/Han service |
 | zhang-yan | 16 / 199 | 3/3/4/3/3/3 | 039,087; prior 192 snapshot | tries relief; field force remains; retains following; links Gongsun; independent armed base; earlier recognized title retained provisionally |
 | tian-kai | 16 / 199 last supported moment | 2*/3/2/2/1/3* | 039 | fights in failing coalition; death in struggle; command lost; alignment persists; territorial power lost; earlier office not demonstrably revoked |
-| chen-deng | 18 / 200 before attack plan | 4/2*/3/4/3/4 | 024,057 | strategic eastern opponent; governor role not new campaign proof here; maintains base; Cao intermediary; Guangling remit; Han appointment continues |
+| chen-deng | 18 / 200 before attack plan | 4/3/3/4/3/4 | 024,057,138 | strategic eastern opponent; previous anti-Lü campaign merit; maintains base; Cao intermediary; Guangling remit; Han-appointed general and governor |
 | gao-shun | 15 / 198 before capture | 4/4/3/2/2/2* | 033,035–036 | offensive success but patron defeated; defeats Liu and relief; disciplined contingent; limited court influence; subordinate command; Lü-appointed role |
 | zhang-fei | 15 / late 198 | 3*/3/3/2*/2/3 | 131 | campaign subordinate; participates defeat of Lü; delegated unit; follows Liu; no independent territory; middle general appointment |
 | cao-ren | 15 / 198 | 3/4/3/2*/2/3* | 132 | separate task; captures target in Lü campaign; leads troops; officer remit; delegated command; Cao service |
@@ -147,3 +147,46 @@ Latest prior year/levels (axis order contract) for 34 existing IDs with candidat
 - han-xian: 195, 2/3/3/2/2/2
 - duan-wei: 195, 3/3/3/3/3/3
 Mao Jie: prior 192 advice is callback, not evidence of active 196 role; no new snapshot. Kong Rong: no materially changed role researched here; retain prior 194 snapshot, do not invent a new episode action. Prior existing portraits unchanged. Remaining open candidates require individual disposition and evidence; no forced six-axis completion from absence. Cao Ang and Cao Anmin particularly sparse; keep deaths in story but do not manufacture full ability scores.
+
+| Person ID | EP / time | Six ratings | Evidence | Six reasons (same order) |
+|---|---|---|---|---|
+| chen-deng | 15 / late 198 | 4/3/4/4/3/4 | 138,024 | coordinates eastern pressure; documented campaign merit; leads commandery forces in annotation; collaborates with court/Cao; holds Guangling; appointed Phục Ba general |
+| hou-cheng | 15 / 198 | 3/3/3/2/2/2* | 035,139 | recovers horses and switches allegiance; cavalry command; leads contingent in surrender; local officer politics; delegated force; previous Lü service not independent claim |
+| cao-xing | 11 / 196 | 3/3/2*/2/2/2* | 016 | opposes Hao revolt; fights rebel commander; subordinate leadership remit; reports alleged plot; local contingent; Lü service |
+
+## Remaining identity dispositions — editorial proposals (not PO scope waiver)
+All names remain eligible for their attested role in Reader. No separate profile/radar may be created for sparse text-only candidates until the full six-axis evidentiary basis is established. This avoids inventing metrics; it does not silently remove anyone from story scope. Confirm inclusion of material-loss profiles and other significant candidates against delivery contract before declaring full research complete.
+| ID | Proposed treatment | Reason/source |
+|---|---|---|
+| mao-jie | carry | EP10 callback to 192 policy, no newly attested office/action; retain prior snapshot and QTE-0010 |
+| kong-rong | carry | prior 194 snapshot and quote; no new role established in scoped episode beats |
+| hao-meng | text-only candidate | 016 named mutiny and death; independent authority/legitimacy and leadership evidence too sparse |
+| han-yin | text-only candidate | 023 envoy executed; limited diplomatic action alone not full biographical basis |
+| cao-ang | text-only candidate / material loss | 028–029 death and alternate horse story; no defensible six-dimensional evaluation from these passages |
+| cao-anmin | text-only candidate / material loss | 028 death; do not invent office, military rank or achievements |
+| song-xian | text-only candidate | 035 joint surrender; independent role not evidenced |
+| wei-xu | text-only candidate | 035–036,136 kinship transfer and surrender; sparse individual authority/office |
+| pei-mao | text-only candidate | 038 court envoy punitive mission; insufficient independent six-axis context |
+| gongsun-xu | text-only candidate | 039,087 appeal for aid; no separate territory/office |
+| yang-chou | text-only candidate | 040–041 subordinate killed Zhang Yang then killed by Sui Gu |
+| sui-gu | text-only candidate | 041 succeeds Yang Chou briefly, joins Yuan, defeated; needs fuller biographical review before Wiki |
+| shi-huan | text-only candidate | 041 delegated campaign with Cao Ren; no independent political remit in current excerpt |
+| zhu-ling | text-only candidate | 042,134 escort mission with Liu; not enough independent timeline evidence in current packet |
+| xu-qiu | text-only candidate | 042 returning seal, no other act established in batch |
+| che-zhou | text-only candidate | 047 appointed inspector killed; no verified further agency |
+| liu-dai-199 | text-only candidate | 047, distinct from old liu-dai; failed campaign under Cao; sparse evidence |
+| wang-zhong | text-only candidate | 047 joint failed mission; limited source remit |
+| wang-fu | text-only candidate | 045,049,134 conspirator (王子服/王服 source variant); resolve exact naming before profile |
+| zhong-ji | text-only candidate | 045,049,134 conspirator, 長水校尉; limited personal context |
+| xu-gong | text-only candidate | 056 assassins described as former retainers; memorial/source variants; no forced personality score |
+| yu-ji | variant-only candidate | 058,112 divergent tradition; no factual radar for supernatural narrative |
+| qin-song | text-only candidate | 065 advisory group, no individualized decision in batch passage |
+| chen-duan | text-only candidate | 065 advisory group, no individualized decision in batch passage |
+| yan-xiang | text-only candidate | 083 remonstrance against imperial claim; fuller biographical context sparse |
+| zhang-jiong | text-only candidate | 083 attributed omen; no invented office or personal ambitions |
+| yuan-xi | text-only candidate | 088 northern appointments, no other personal action in batch |
+| gao-gan | text-only candidate | 088 northern appointments, no other personal action in batch |
+| dong-guiren | text-only candidate / material loss | 127 unnamed imperial consort; political victim, no inferred agency or military skill |
+| lu-zhao | text-only candidate | 134 joint interception mission, no separate role |
+| wu-zilan | text-only candidate | 134 conspiracy participant, limited personal evidence |
+| wu-shuo | annotation-only candidate | 134 Qiju Zhu separately named, not silently merged with Wu Zilan |

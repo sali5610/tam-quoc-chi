@@ -27,3 +27,6 @@ EP11 Mi Trúc's assistance 115; EP12 Ngô Cảnh 117; EP13 Tôn Bí 116; EP15 Tr
 
 ## Further coverage
 Add 129–134 distinctions, including Quách Dĩ death (EP14 background), Trương Phi post-Hạ Bì title, Tào Nhân campaigns, Lộ Chiêu (lu-zhao), Ngô Tử Lan (wu-zilan), Ngô Thạc (wu-shuo; annotation only). Keep names of incidental actors as text unless Wiki inclusion and metrics justified. B04-Q05 is a paraphrase, not direct quote. No date forced for Cao Man Zhuan grain anecdote.
+
+## Roster and quotation handoff
+135–139 close targeted Dong Zhao, Gao Shun, Chen Gong, Chen Deng military appointment and Hou Cheng comparison. Proposed candidate inclusion/exclusion explicitly listed in radar closure; every identified candidate has a disposition, with sparse actors retained in Reader. Quote disposition table covers all rated candidate IDs against existing 29 quotes and 12 reserved new IDs. Proposed text-only treatment is not approval to bypass mandatory profiles; material figures with insufficient evidence remain open pending editorial resolution. No prose or UI changes.
