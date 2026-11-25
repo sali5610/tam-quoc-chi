@@ -31,7 +31,7 @@ Quan Vũ, thuộc tướng thân cận đã theo Lưu Bị từ những năm đ�
 
 **Lưu Bị giết Xa Trụ và quay lại nắm một phần Từ Châu.**
 
-Tào sai Lưu Đại và Vương Trung đi đánh nhưng không thắng. Lưu Đại ở đây là người Bái, tự Công Sơn, từng làm Tư không trưởng sử; khác hẳn Duyện Châu thứ sử Lưu Đại chết năm 192 ở tập 7. Vương Trung từng tập hợp quân theo Tào, được bổ trung lang tướng theo nguồn chú dẫn.
+Tào sai Lưu Đại (Công Sơn) và Vương Trung đi đánh nhưng không thắng. Lưu Đại ở đây là người Bái, tự Công Sơn, từng làm Tư không trưởng sử; khác hẳn Duyện Châu thứ sử Lưu Đại chết năm 192 ở tập 7. Vương Trung từng tập hợp quân theo Tào, được bổ trung lang tướng theo nguồn chú dẫn.
 
 > [Bùi chú] Ngô lịch kể Lưu Bị trồng rau rồi bỏ trốn. Bùi Tùng Chi phản bác cách kể ấy vì chính văn đã ghi nhiệm vụ đi chặn Viên Thuật. Không dùng màn trồng rau làm sự kiện chắc chắn.
 
@@ -53,7 +53,7 @@ Vũ Đế kỷ ghi rõ mốc tháng mười một năm Kiến An thứ tư. Gi�
 
 ## Chuyện trong đai áo
 
-Quay lại thời Lưu Bị chưa rời Hứa. Tiên chủ truyện ghi Đổng Thừa nói mình nhận mật chiếu trong đai áo của hoàng đế để giết Tào Tháo, và Lưu Bị tham gia âm mưu. Đổng Thừa từng tham gia hộ tống vua về phía đông ở tập 9–10. Ông còn có quan hệ thông gia với Hiến Đế: con gái ông là quý nhân trong cung.
+Quay lại thời Lưu Bị chưa rời Hứa. Tiên chủ truyện ghi Đổng Thừa nói mình nhận mật chiếu trong đai áo của hoàng đế để giết Tào Tháo, và Lưu Bị tham gia âm mưu. Đổng Thừa từng tham gia hộ tống vua về phía đông ở tập 9–10. Ông còn có quan hệ thông gia với Hán Hiến Đế: con gái ông là quý nhân trong cung.
 
 Đây là mặt trái của việc thiên tử có nơi ở mới. Tào Tháo giúp triều đình ổn định hơn, nhưng những người ở trong cung không vì vậy mà mất mọi khả năng chống lại ông.
 
