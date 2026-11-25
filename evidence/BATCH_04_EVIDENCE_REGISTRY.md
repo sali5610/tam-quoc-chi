@@ -144,3 +144,24 @@ Traditional digital witnesses directly checked, including SGZ6 traditional displ
 
 ## Remaining gaps
 - SGZ6 access CLOSED. Direct text inspected. Distinguish 仲氏 (典略) / 仲家 (HHS75), no conflation of 195 deliberation and 197 title. Major literary variants above directly located. Still need verify novel chapter 16 Wan detail (Hú Xa Nhi/unnamed wife), chapter 18 Xiahou Dun eye, chapter 21 green plum wine precise locator, chapter 24 medical conspiracy plot; verify additional biographical passages, quote completeness and every affected existing profile. No community quotes used. Do not infer full closure from these supplemental rows.
+
+## Continuation — final source checks
+| ID | EP | Layer / work / section | Original locator | Interpretation / chronology | Place precision |
+|---|---|---|---|---|---|
+| EVD-B04-114 | 15 | [Chính sử] 三國志/卷17 張遼 https://zh.wikisource.org/wiki/三國志/卷17 | 遼將其衆降，拜中郎將 | Trương Liêu theo Lữ, dẫn quân hàng Tào sau Hạ Bì, được trung lang tướng, Quan nội hầu; không kể Bạch Lang Sơn trước mốc. | Hạ Bì |
+| EVD-B04-115 | 11 | [Chính sử] 三國志/卷38 麋竺 https://zh.wikisource.org/wiki/三國志/卷38 | 奴客二千，金銀貨幣以助軍資 | Mi Trúc cấp tài sản, nô khách và em gái làm vợ Lưu Bị khi khốn; không gọi toàn bộ 2.000 người là binh sĩ. | Hải Tây vùng |
+| EVD-B04-116 | 13 | [Chính sử] 三國志/卷51 孫賁 https://zh.wikisource.org/wiki/三國志/卷51 | 賁不就，棄妻孥還江南 | Tôn Bí từ chối Cửu Giang thái thú do Thuật phong, về Giang Nam; năm 199 tham chiến và giữ Dự Chương. | Giang Nam/Dự Chương |
+| EVD-B04-117 | 12 | [Chính sử] 三國志/卷50 吳夫人 https://zh.wikisource.org/wiki/三國志/卷50 | 術以景為丹楊太守 | Ngô Cảnh cậu Tôn Sách, làm Đan Dương thái thú; sau theo Sách chống Lưu Do; bỏ chức Quảng Lăng khi Sách tuyệt Thuật. | Đan Dương/Quảng Lăng |
+| EVD-B04-118 | 18 | [Chính sử] 三國志/卷50 吳夫人 https://zh.wikisource.org/wiki/三國志/卷50 | 夫人助治軍國，甚有補益 | Ngô phu nhân trợ giúp chính sự khi Quyền mới thống nghiệp; không tự đặt tên riêng hoặc vai trò chỉ huy quân. | Giang Đông vùng |
+| EVD-B04-119 | 18 | [Chính sử] 三國志/卷49 劉繇 https://zh.wikisource.org/wiki/三國志/卷49 | 策收繇喪 | Sau chiến dịch Giang Hạ, Sách thu nhận di hài Lưu Do và hậu đãi gia thuộc; không suy diễn động cơ. | Giang Đông vùng |
+| EVD-B04-120 | 17 | [Chính sử] 三國志/卷36 關羽 https://zh.wikisource.org/wiki/三國志/卷36 | 行太守事 | Quan Vũ giữ Hạ Bì và hành thái thú sự; lúc bị bắt được phong thiên tướng quân (偏將軍). | Hạ Bì |
+| EVD-B04-121 | 14 | [Tiểu thuyết] 三國演義 第016回 https://zh.wikisource.org/wiki/三國演義/第016回 | 偷入帳房，盜其戟 | Hú Xa Nhi trộm kích, tên Trâu thị là chi tiết tiểu thuyết; đối chiếu 027–029,062–063; không xác nhận lịch sử. | không tọa độ |
+| EVD-B04-122 | 15 | [Chính sử] 三國志/卷09 夏侯惇 https://zh.wikisource.org/wiki/三國志/卷09 | 爲流矢所中，傷左目 | Hạ Hầu Đôn bị tên lạc làm thương mắt trái trong chiến dịch chống Lữ sau khi Tào trở về từ Từ Châu (mạch 194); không gán cho Tào Tính năm 198. | không định điểm |
+| EVD-B04-123 | 15 | [Tiểu thuyết] 三國演義 第018回 https://zh.wikisource.org/wiki/三國演義/第018回 | 父精母血，不可棄也 | Cảnh nuốt mắt và Tào Tính bắn là văn học; 122 chỉ xác nhận thương mắt do tên lạc. | không tọa độ |
+| EVD-B04-124 | 15 | [Bùi chú] 三國志/卷14 郭嘉 引傅子 https://zh.wikisource.org/wiki/三國志/卷14 | 紹有十敗，公有十勝 | Thập thắng thập bại có chứng bản Phó tử trong Bùi chú, không phải chính văn Trần Thọ, không nhập với tứ thắng Tuân Úc. | Hứa vùng |
+| EVD-B04-125 | 17 | [Tiểu thuyết] 三國演義 第021回 https://zh.wikisource.org/wiki/三國演義/第021回 | 盤置青梅，一樽煮酒 | Thanh mai nấu rượu là khung cảnh tiểu thuyết; câu anh hùng có chính văn, sấm thuộc chú, xem 046/110. | không tọa độ |
+| EVD-B04-126 | 17 | [Tiểu thuyết] 三國演義 第024回 https://zh.wikisource.org/wiki/三國演義/第024回 | 董貴妃 | Tiểu thuyết cho là em gái Đổng Thừa và thêm tình tiết y án; HHS ghi con gái, không nhập y án như sự kiện lịch sử. | không tọa độ |
+| EVD-B04-127 | 17 | [Sử liệu khác] 後漢書/卷10下 皇后紀 https://zh.wikisource.org/wiki/後漢書/卷10下 | 董承女為貴人 | Đổng quý nhân là con gái Đổng Thừa, đang mang thai khi bị giết sau vụ mưu; không đồng nhất tên riêng tiểu thuyết. | Hứa |
+| EVD-B04-128 | 18 | [Chính sử] 三國志/卷46 孫策 https://zh.wikisource.org/wiki/三國志/卷46 | 舉賢任能，各盡其心，以保江東，我不如卿 | Lời trăn trối phân biệt sở trường, không phải câu nội sự/ngoại sự của tiểu thuyết; source-reported speech. | Giang Đông |
+
+Open: chapter 23–24 medical conspiracy exact passage and Cao Man Zhuan grain steward witness not independently closed; do not narrate as verified. Earlier gaps list is chronological; 121–128 supersede the specified literary/source issues only.

@@ -27,3 +27,7 @@ QTE-0037 should be linked to EP18/198 bridge or withheld rather than prematurely
 
 ## Source and geography continuation
 Full SGZ6 retrieved; see EVD-B04-079–080,083–085,088,097. Literary comparisons now recorded with exact chapter and locators EVD-B04-098–113; still outstanding chapter16/18/21/24 specifics. Atlas artifact resolution supersedes previous grouped unresolved list; inspect BATCH_04_ATLAS_RESOLUTION.json. Dataset site/region match is not historical coordinate proof.
+
+## Further quote closure
+| QTE-0038 | sun-ce / EP18 | 舉賢任能，各盡其心，以保江東，我不如卿。 | Cất nhắc hiền tài, để mỗi người tận tâm bảo vệ Giang Đông, ta không bằng em. | SGZ46 孫策 chính văn, EVD-B04-128; source-reported speech, not Romance division of duties. |
+B04-Q04 superseded by QTE-0038; do not duplicate. 124 preserves Fuzi layer for ten victories. 121/123/125/126–127 distinguish literary additions. QTE-0031/0035/0036/0037 still require exact witness recheck before runtime import.

@@ -424,7 +424,8 @@
         "ep-0012"
       ],
       "evidence": [
-        "EVD-B04-019"
+        "EVD-B04-019",
+        "EVD-B04-018"
       ],
       "aliases": [],
       "atlasIds": [],
@@ -1128,6 +1129,24 @@
       "regionAliases": [],
       "display": "unresolved",
       "note": "Commandery spans north/south dataset regions; display both polygons/context, not a representative city pin."
+    },
+    {
+      "id": "qingzhou-region-unresolved",
+      "name": "Thanh Châu",
+      "historicalNames": [
+        "青州"
+      ],
+      "episodes": [
+        "ep-0017"
+      ],
+      "evidence": [
+        "EVD-B04-051"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "Province-wide refuge transition, no single coordinate; no route through unresolved stop."
     }
   ],
   "journeys": [

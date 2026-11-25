@@ -42,7 +42,8 @@
 | zhang-xiu | 17 / 199 | 4/3/3/4/2/4 | 044,064,077 | accepts favorable option; retains followers; brings troops into Cao coalition; marriage and reconciliation; independent base surrendered; Han-derived title |
 | jia-xu | 17 / 199 | 5/3*/3/5/3/4 | 077 | three reasons for choosing Cao; military planning role; shifts patron coalition; high-level negotiation; central staff influence; new Han official service |
 | liu-bei | 17 / 199 | 3/3/4/3/3/2 | 045–048 | breaks from Cao and takes base; seizes Xu; gathers followers; conspiracy and independent action; Xiapi/Tiểu Bái; kills appointed inspector |
-| guan-yu | 17 / 199–200 | 2*/3/3/2*/2/2* | 047,050 | entrusted Xiapi defense; captured/hands over; holds garrison; switches status under defeat; subordinate force lost; no new title until sourced |
+| guan-yu | 17 / 199 | 2*/3/3/2*/2/3 | 047,120 | local defense remit; commands garrison; entrusted administration; subordinate to Liu; local delegated authority; acting governor | 
+| guan-yu | 17 / early 200 | 2*/3/2*/2*/2/3 | 095,120 | no independent plan established at capture; prior garrison role; new subordinate command scope; entered Cao's service; limited delegated force; appointed 偏將軍 |
 | liu-bei | 17 / 200 month 1 | 2/2/3/3/1/2* | 050–051 | defeated; loses base; escapes with patron contacts; seeks Yuan refuge; no independent territorial control; prior appointment disputed by rebellion |
 | cao-cao | 17 / 200 month 1 | 4/5/4/4/4/4 | 049–050 | eastern campaign decision; defeats Liu; maintains army; controls court amid conspiracy; retains base; Han office, accusations separate |
 | sun-ce | 18 / 199–200 predeath | 5/5/5/4/4/4 | 053–059 | expands and appoints; defeats regional enemies; builds governing coalition; succession arrangement; several commanderies, not entire south; Hán affiliation |
@@ -52,3 +53,22 @@
  
 ## Open assessment queue
 These 47 candidate rows are editorial drafts, not PASS. Verify prior ratings for continuity and review every low-confidence proxy against policy, particularly civilians. Full remaining roster requires explicit inclusion/exclusion and grounded snapshots (e.g. Dong Cheng, Zhang Yang, Han Xian, Yang Feng, Ji Ling, Hao Meng, Cao Xing, Wu Jing, Sun Ben, Zhu Zhi, Han Yin, Zhang Xun, Cao Ang, Cao Anmin, Hou Cheng, Song Xian, Wei Xu, Zang Ba, Pei Mao, Gongsun Xu, Guan Jing, Yang Chou, Sui Gu, Cao Ren, Shi Huan, Wei Zhong, Yuan Tan, Zhu Ling, Xu Qiu, Che Zhou, Liu Dai-199, Wang Zhong, Wang Fu, Zhong Ji, Tian Feng, Liu Xun, Huang Zu, Hua Xin, Yu Fan, Sun Fu, Xu Gong, Yu Ji, Zhang Hong, Qin Song, Chen Duan and existing roles affected). Do not manufacture six numbers for sparse incidental biographies. Distinguish research candidate vs rendered Wiki profile, justify exclusions.
+
+## Supplemental six-axis candidate snapshots
+| Person ID | EP / time | Six ratings | Evidence | Six reasons (same order) |
+|---|---|---|---|---|
+| ren-jun | 10 / 196 | 3/2*/4/3/2/4 | 081–082 | implements provisioning; logistics not field command; supervises cultivation; official administration; delegated authority; appointed 典農中郎將 |
+| zhang-liao | 15 / 198 | 3*/3/3/3/2/3 | 114 | negotiates allegiance via surrender; commands soldiers; leads own contingent; transfers service; subordinate authority; appointed 中郎將 |
+| wu-jing | 12 / 195–196 | 3/3/3/3/3/3 | 017,117 | coordinates against Liu Yao; serves military campaign; leads troops; family and office ties; commandery remit; Yuan-appointed office |
+| sun-ben | 13 / 197 | 3/3*/3/3/2/3 | 116,017 | rejects rival office; prior campaigning; retains family following; joins Sun coalition; no Cửu Giang control; prior appointed role |
+| sun-ben | 18 / 199 | 3/4/3/3/3/3 | 116 | expansion participant; campaign service; commands troops; assigned commandery; Yuzhang administration; Sun coalition office |
+| cheng-pu | 12 / 195–196 | 3*/4/3/2*/3/3 | 093 | campaign role; veteran service; commands county defense; delegated administrative role; local remit; appointed đô úy |
+| cheng-pu | 18 / 200 | 3/4/4/3/3/3 | 094 | supports succession; campaign record; joins senior supporters; coalition continuity; delegated command; continued officer role |
+| zhang-hong | 18 / 199–200 | 4/1*/3/4/2/4 | 092 | counsels nonattack; envoy not field remit; represents Sun administration; diplomacy at court; advisory influence; appointed thị ngự sử |
+| sun-fu | 18 / 199 | 3/3/3/3/3/3 | 091 | holds Liyang and joins campaign; regional defense; commands forces; appointed administrator; commandery remit; Sun appointment |
+| sun-qian | 17 / 199–200 | 3/1*/2*/4/2/3* | 089 | diplomatic connection; civilian envoy remit; represents patron; negotiates with Yuan; delegated influence; Liu tòng sự |
+| yue-jin | 15 / 198 | 3*/4/3/2*/2/3* | 090 | campaign duties not independent plan; documented merit; subordinate command; officer role; delegated force; Cao service |
+| chen-gui | 13 / 197 supplement | 4/1*/2*/4/2/4 | 097,023–025 | rejects coercion and splits alliance; civilian office remit; influences local coalition; remonstrance; commandery official not sovereign; Han Bái tướng |
+| wu-furen | 18 / 200 | 3*/1*/3/4/3/3 | 118 | assists governance; no direct military remit claimed; supports young ruler; documented political assistance; family influence; mother of successor |
+| xiahou-dun | 15 / 198 | 3*/3/3/2*/3/3 | 033,122 | reinforcement assignment; defeated but commands field force; leads soldiers; officer remit; delegated command; Cao/Han service |
+Low-confidence ratings measure demonstrated remit, not innate aptitude. Prior Chen Gui row superseded by supplement, not duplicate. Still open: roster reconciliation, sparse biographies, prior-score comparison and explicit decision per incidental figure; do not import or claim PASS.

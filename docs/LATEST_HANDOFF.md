@@ -1,3 +1,9 @@
+# BATCH-04 / 01 — Historical Research / PARTIAL (continuation)
+- Continued from ad54c086b23d2c3fdb6c3c382d805e389c988386; same research branch, no runtime edits or deployment. Evidence 128 records; added direct biographical/variant witnesses, corrected Guan Yu title/time slices, Hạ Hầu Đôn eye chronology, Sun Ce succession quote. 56 Atlas records, all site/region keys and evidence refs and journey stop IDs statically checked against pinned artifact keys: PASS. 18 site, 19 region, 19 unresolved; no forced coordinates. Runtime resolver NOT TESTED. Existing live SHA inherited 5d7b2c2704b1ece80d9ac6354f080fd70454b242.
+- 14 supplemental radar rows and one extra Guan Yu time slice (prior Chen Gui row superseded); still not full roster coverage or continuity audit. QTE-0038 reserved; four earlier exact-witness checks remain, medical plot/grain steward primary-text comparison remains. Scope unchanged. No storytelling before research closure; next continue only missing radar/quote/roster checks, not restart.
+
+---
+
 # BATCH-04 / 01 — Historical Research / PARTIAL (continuation, 2026-11-25)
 - Continued from 60ddfd38f23c08f246ad338fa7e2dd23bba52a3a, same branch docs/batch-04-research-01, no main merge/deploy. Inherited main 8eda37f6a2785adf4a303351d647a3adf47e4c52 and verified live 5d7b2c2704b1ece80d9ac6354f080fd70454b242; runtime unchanged.
 - Evidence registry now 113 records (78 prior + 19 historical + 16 literary), direct SGZ6 traditional full passage access recovered, including 195/197 title difference, Ju Shou/Guo Tu, Yuan Shu death wording. Additional biographies, Zhang Hong, Ren Jun, Cheng Pu, Guan Yu post-capture office; no invented prose. Corrected quoted Lü Bu and Yuan Shu to actual inspected witnesses. 
