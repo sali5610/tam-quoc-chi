@@ -72,3 +72,78 @@ These 47 candidate rows are editorial drafts, not PASS. Verify prior ratings for
 | wu-furen | 18 / 200 | 3*/1*/3/4/3/3 | 118 | assists governance; no direct military remit claimed; supports young ruler; documented political assistance; family influence; mother of successor |
 | xiahou-dun | 15 / 198 | 3*/3/3/2*/3/3 | 033,122 | reinforcement assignment; defeated but commands field force; leads soldiers; officer remit; delegated command; Cao/Han service |
 Low-confidence ratings measure demonstrated remit, not innate aptitude. Prior Chen Gui row superseded by supplement, not duplicate. Still open: roster reconciliation, sparse biographies, prior-score comparison and explicit decision per incidental figure; do not import or claim PASS.
+
+## Material role-change supplement
+| Person ID | EP / time | Six ratings | Evidence | Six reasons (same order) |
+|---|---|---|---|---|
+| dong-cheng | 10 / 196 | 3/3*/3/4/3/4 | 001–002 | coordinates palace restoration; armed escort background not new field success; supervises repair; court coalition; delegated court/escort authority; imperial service |
+| dong-cheng | 17 / 200 pre-execution | 3/2*/2/4/2/3* | 045,049,134 | organizes secret plot; official military title without demonstrated new command; small conspirator coalition; challenges Cao; limited actual leverage; edict attribution disputed |
+| zhang-yang | 16 / late 198 | 2*/3/2/3/2/4 | 040–041 | intended Lü aid fails; prior force; killed by subordinate; prior political standing; control collapses; existing 大司馬 title |
+| han-xian | 13 / 197 | 3/3/3/3/2/2* | 025 | switches side under Chen advice; joins combat; brings contingent; coalition bargaining; subordinate force; earlier escort role not evidence of current court approval |
+| yang-feng | 13 / 197 | 3/3/3/3/2/2* | 025 | switches alliance; joins combat; brings contingent; coalition bargaining; no independent commandery proven; previous Han commission does not validate current alignment |
+| zhang-ji | 14 / 196 last supported moment | 2/3/2/2/2/3* | 027 | moves troops to Nanyang; military action; dies before securing base; no new court role; contingent passes to nephew; earlier Han office |
+| li-jue | 15 / 198 last supported moment | 2/2/1/1/1/1 | 038 | fails to retain power; defeated by punitive force; coalition disintegrates; declared enemy; base lost; court punitive action |
+| duan-wei | 15 / 198 | 3/3/3/3/3/4 | 038 | executes court punitive mission; military success; commands contingent; cooperates with envoy; regional remit; court mandate |
+| ju-shou | 10 / 196 retrospective | 4/2*/2/4/2/3 | 079–080 | court strategy in annotation; staff role; advice not independent troops; legitimacy-centered advice; Yuan adviser; Han-derived affiliation |
+| guo-tu | 10 / 196 retrospective | 3*/2*/2/3/2/3 | 079–080 | sources disagree on advice; staff remit; advisory influence; political counsel disputed; subordinate; Yuan/Han service |
+| chunyu-qiong | 10 / 196 retrospective | 3*/3*/2/3/2/3 | 080; prior 195 snapshot | advisory view in one witness; earlier military remit retained; staff coalition; opposes Ju in annotation; subordinate; Yuan/Han service |
+| zhang-yan | 16 / 199 | 3/3/4/3/3/3 | 039,087; prior 192 snapshot | tries relief; field force remains; retains following; links Gongsun; independent armed base; earlier recognized title retained provisionally |
+| tian-kai | 16 / 199 last supported moment | 2*/3/2/2/1/3* | 039 | fights in failing coalition; death in struggle; command lost; alignment persists; territorial power lost; earlier office not demonstrably revoked |
+| chen-deng | 18 / 200 before attack plan | 4/2*/3/4/3/4 | 024,057 | strategic eastern opponent; governor role not new campaign proof here; maintains base; Cao intermediary; Guangling remit; Han appointment continues |
+| gao-shun | 15 / 198 before capture | 4/4/3/2/2/2* | 033,035–036 | offensive success but patron defeated; defeats Liu and relief; disciplined contingent; limited court influence; subordinate command; Lü-appointed role |
+| zhang-fei | 15 / late 198 | 3*/3/3/2*/2/3 | 131 | campaign subordinate; participates defeat of Lü; delegated unit; follows Liu; no independent territory; middle general appointment |
+| cao-ren | 15 / 198 | 3/4/3/2*/2/3* | 132 | separate task; captures target in Lü campaign; leads troops; officer remit; delegated command; Cao service |
+| cao-ren | 16 / 199 | 3/4/3/2*/3/3* | 041,132 | seizes objective; defeats Sui Gu; commands troops; delegated military rather than civil role; Henei operation remit; Cao service |
+| zang-ba | 15 / 198 | 3/3/4/3/3/3 | 037 | chooses accommodation; regional armed following; maintains local coalition; integrates with Cao; regional force; recognized by Cao |
+| yuan-tan | 17 / early 200 | 3/3*/3/4/3/3 | 051,088 | arranges Liu refuge; commands escort troops; provincial administration; facilitates father alliance; Qingzhou authority; inspector under Yuan |
+| tian-feng | 17 / early 200 | 4/2*/2/3/2/3* | 052 | recommends opportunity against Cao; advisory rather than field remit; influence limited by rejection; court politics through Yuan; subordinate; Yuan service |
+| liu-xun | 18 / 199 | 2/2/2/2/2/3* | 053–054 | loses base to Sun campaign; defeated; remaining followers limited; shifts patron context; commandery lost; earlier Lujiang appointment |
+| huang-zu | 18 / 199 | 3*/3/3/3/3/3 | 054 | defends Jiangxia; campaign opposition; retains regional force despite defeat; Liu Biao alignment; regional command; delegated office context |
+| hua-xin | 18 / 199 | 3/1*/3/4/2/4 | 055 | chooses negotiated transfer; civil governor remit; administers commandery; accepts Sun control; loses independent commandery; Han governor |
+| yu-fan | 12 / 196 | 4/1*/2/3/2/3 | 078 | advises retreat against stronger force; civil 功曹 remit; adviser not autonomous commander; serves Wang; delegated authority; commandery staff |
+| yu-fan | 18 / 199 | 4/1*/3/4/2/3 | 055 | persuades Hua to yield; negotiation role not field command; represents Sun; political mediation; delegated influence; Sun staff |
+| zhu-zhi | 12 / 196 | 3*/3*/3/3/3/3 | 065 | takes Wu administration; regional military-administrative remit; organizes commandery; serves Sun; local authority; delegated office |
+| sun-quan | 18 / 199 pre-succession | 3*/3/2*/2*/2/3* | 054 | campaign participation not independent plan; follows Sun Ce; subordinate remit; family coalition member; limited delegated power; serving Sun/Han coalition |
+| guo-si | 14 / 197 last supported moment | 2*/2/1/1/1/2* | 133; prior 195 snapshot | fails to preserve force; killed by subordinate; command collapses; prior court influence gone; loss of control; previous title does not prove current recognition |
+| ji-ling | 11 / 196 | 3*/3/3/2*/2/2* | 015 | leads Yuan's intervention; field command; commands force; follows patron; delegated army; no separate Han title sourced |
+| zhang-xun | 13 / 197 | 2/2/2/2*/2/1 | 025 | alliance disintegrates; defeated; contingent loses coordination; officer in Yuan coalition; subordinate authority; rebel ruler's military |
+| guan-jing | 16 / 199 | 2/2*/2/3/2/3* | 086 | advises holding position; staff role under siege; supports commander; counsel to Gongsun; chief clerk influence; prior office context |
+| wei-zhong | 16 / 199 | 3*/1*/3/3/3/4 | 041 | assigned Henei administration; civil remit at appointment; leads commandery administration; reinstated trust; delegated territory; governor appointed by Cao/Han |
+
+## Prior baseline crosscheck (not runtime changes)
+Latest prior year/levels (axis order contract) for 34 existing IDs with candidate assessments; preserve all original 116 rows. For each change use evidence in the corresponding new row rather than retroactive edits. Same-stage supplements (Chen Gui) replace earlier draft only.
+- cao-cao: 195, 4/4/4/4/4/4
+- yuan-shao: 195, 3/4/4/3/4/4
+- liu-bei: 194, 3/3/4/4/4/4
+- xiandi: 195, 2/1/2/2/1/4
+- lu-bu: 195, 2/3/2/2/1/2
+- jia-xu: 195, 4/2/3/4/3/3
+- yuan-shu: 195, 3/3/3/3/4/3
+- li-jue: 195, 2/3/3/2/3/2
+- guo-si: 195, 2/3/3/2/3/2
+- liu-biao: 193, 3/3/3/3/4/3
+- chen-gong: 194, 3/2/3/3/3/2
+- xun-yu: 195, 4/3/4/4/3/3
+- cheng-yu: 194, 4/3/4/4/3/3
+- gongsun-zan: 195, 2/3/3/2/3/3
+- tian-kai: 194, 2/3/3/2/2/3
+- mi-zhu: 194, 3/1/3/4/3/3
+- chen-deng: 194, 3/1/2/4/2/3
+- xiahou-dun: 194, 3/3/3/3/3/3
+- dian-wei: 194, 2/4/2/1/2/2
+- zhang-ji: 195, 3/3/3/4/3/3
+- yang-feng: 195, 3/3/4/3/3/3
+- dong-cheng: 195, 3/3/3/3/3/3
+- ju-shou: 195, 4/2/2/3/2/3
+- sun-ce: 195, 3/4/4/3/3/3
+- zhou-yu: 195, 3/2/3/3/2/2
+- cao-bao: 194, 2/2/2/2/2/2
+- zhang-yang: 195, 3/3/3/4/3/4
+- zhang-yan: 192, 3/3/4/3/3/3
+- zao-zhi: 194, 3/3/3/3/2/3
+- han-hao: 194, 4/3/4/3/2/3
+- guo-tu: 195, 3/2/2/3/2/3
+- chunyu-qiong: 195, 3/3/2/3/2/3
+- han-xian: 195, 2/3/3/2/2/2
+- duan-wei: 195, 3/3/3/3/3/3
+Mao Jie: prior 192 advice is callback, not evidence of active 196 role; no new snapshot. Kong Rong: no materially changed role researched here; retain prior 194 snapshot, do not invent a new episode action. Prior existing portraits unchanged. Remaining open candidates require individual disposition and evidence; no forced six-axis completion from absence. Cao Ang and Cao Anmin particularly sparse; keep deaths in story but do not manufacture full ability scores.

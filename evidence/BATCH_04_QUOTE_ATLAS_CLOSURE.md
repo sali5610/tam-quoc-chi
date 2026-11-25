@@ -31,3 +31,7 @@ Full SGZ6 retrieved; see EVD-B04-079–080,083–085,088,097. Literary compariso
 ## Further quote closure
 | QTE-0038 | sun-ce / EP18 | 舉賢任能，各盡其心，以保江東，我不如卿。 | Cất nhắc hiền tài, để mỗi người tận tâm bảo vệ Giang Đông, ta không bằng em. | SGZ46 孫策 chính văn, EVD-B04-128; source-reported speech, not Romance division of duties. |
 B04-Q04 superseded by QTE-0038; do not duplicate. 124 preserves Fuzi layer for ten victories. 121/123/125/126–127 distinguish literary additions. QTE-0031/0035/0036/0037 still require exact witness recheck before runtime import.
+
+## Quote disposition — checked exact witness
+- QTE-0031 exact SGZ32 L135 (今天下英雄，唯使君與操耳), pre-interception 199; no wine implied. QTE-0035 exact SGZ10 賈詡 Siku 魏志卷10 (不如從曹公); year 199 from SGZ1; narrative context 官渡 in biography not decisive battle. QTE-0036 exact SGZ52 張昭 (方今天下鼎沸，群盜滿山); after Sun Ce death. QTE-0037 exact SGZ13 王朗 L153, Bùi chú 漢晉春秋, retrospective after summons 198; retain date uncertainty. QTE-0038 exact SGZ46 孫策. All nine reserved IDs QTE-0030–0038 distinct from existing 29. QTE-0037 only show at retrospective beat; if not written leave reservation, no forced display.
+- 129 and 130 close remaining specific grain steward / physician literary comparison; no verified date for 129, omit from dated sequence. Do not create quotes from literary-only doctors. No quote quotas; per-person remaining audit below remains required.

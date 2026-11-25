@@ -24,3 +24,6 @@ EP10 receiving emperor: avoid treating '挾天子以令諸侯' as verbatim Cao q
 
 ## Additional verified identities and variants
 EP11 Mi Trúc's assistance 115; EP12 Ngô Cảnh 117; EP13 Tôn Bí 116; EP15 Trương Liêu 張遼 (zhang-liao) 114, Hạ Hầu Đôn eye chronology 122–123, ten victories 124; EP17 Quan Vũ 120 and Đổng quý nhân (dong-guiren, unnamed) 127; EP18 Ngô phu nhân (wu-furen, unnamed) 118, Lưu Do's family 119, Tôn Sách last words 128. No identity or portrait duplicated. 121–126 distinguish source and novel. Do not introduce invented physician dialogue or label unnamed women with novel names.
+
+## Further coverage
+Add 129–134 distinctions, including Quách Dĩ death (EP14 background), Trương Phi post-Hạ Bì title, Tào Nhân campaigns, Lộ Chiêu (lu-zhao), Ngô Tử Lan (wu-zilan), Ngô Thạc (wu-shuo; annotation only). Keep names of incidental actors as text unless Wiki inclusion and metrics justified. B04-Q05 is a paraphrase, not direct quote. No date forced for Cao Man Zhuan grain anecdote.

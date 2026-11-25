@@ -1,4 +1,10 @@
 # BATCH-04 / 01 — Historical Research / PARTIAL (continuation)
+- Continued from 15d05202d6b406831ce4dbe58f69794e8b2c150b, docs-only branch; no code, runtime JSON or deployment. 134 evidence records, source variants expanded; 9 reserved quote IDs QTE-0030–0038 exact witnesses checked; per-person quote/no-quote audit still open. Atlas 56 place records, static key/link PASS from prior commit, 19 unresolved honest fallback, runtime NOT TESTED. Last verified live inherited 5d7b2c2704b1ece80d9ac6354f080fd70454b242.
+- Radar: 95 draft rows (70 distinct people, 36 not in prior atlas registry), 6-axis shape/reason-count PASS; one superseded Chen Gui draft retained for traceability. Prior baseline 34 existing profiles compared by last stage; no retroactive modifications. Individual confidence/chronology and remaining sparse actors/quotes still need review, not a release-ready dataset. No forced ratings for Cao Ang/Cao Anmin. Scope stays EP10–18. Next: only close remaining in-scope Wiki roster/dispositions and quote audit, then Chat02; not authorized to start storytelling yet.
+
+---
+
+# BATCH-04 / 01 — Historical Research / PARTIAL (continuation)
 - Continued from ad54c086b23d2c3fdb6c3c382d805e389c988386; same research branch, no runtime edits or deployment. Evidence 128 records; added direct biographical/variant witnesses, corrected Guan Yu title/time slices, Hạ Hầu Đôn eye chronology, Sun Ce succession quote. 56 Atlas records, all site/region keys and evidence refs and journey stop IDs statically checked against pinned artifact keys: PASS. 18 site, 19 region, 19 unresolved; no forced coordinates. Runtime resolver NOT TESTED. Existing live SHA inherited 5d7b2c2704b1ece80d9ac6354f080fd70454b242.
 - 14 supplemental radar rows and one extra Guan Yu time slice (prior Chen Gui row superseded); still not full roster coverage or continuity audit. QTE-0038 reserved; four earlier exact-witness checks remain, medical plot/grain steward primary-text comparison remains. Scope unchanged. No storytelling before research closure; next continue only missing radar/quote/roster checks, not restart.
 

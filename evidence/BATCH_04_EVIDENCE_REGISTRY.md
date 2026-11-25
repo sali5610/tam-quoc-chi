@@ -165,3 +165,13 @@ Traditional digital witnesses directly checked, including SGZ6 traditional displ
 | EVD-B04-128 | 18 | [Chính sử] 三國志/卷46 孫策 https://zh.wikisource.org/wiki/三國志/卷46 | 舉賢任能，各盡其心，以保江東，我不如卿 | Lời trăn trối phân biệt sở trường, không phải câu nội sự/ngoại sự của tiểu thuyết; source-reported speech. | Giang Đông |
 
 Open: chapter 23–24 medical conspiracy exact passage and Cao Man Zhuan grain steward witness not independently closed; do not narrate as verified. Earlier gaps list is chronological; 121–128 supersede the specified literary/source issues only.
+
+## Closure supplement
+| ID | EP | Layer / work / section | Original locator | Interpretation / chronology | Place precision |
+|---|---|---|---|---|---|
+| EVD-B04-129 | 13 | [Bùi chú] 三國志卷01 引曹瞞傳 https://zh.wikisource.org/wiki/三國志/卷01 | 特當借君死以猒衆 | Tào Man truyện có tích quản lương không tên bị giết để xoa dịu quân; không gán năm 197 hoặc tên Vương Hậu chỉ từ tiểu thuyết. | không định điểm |
+| EVD-B04-130 | 17 | [Tiểu thuyết] 三國演義 第023回 https://zh.wikisource.org/wiki/三國演義/第023回 | 國舅知吉平事乎 | Cát Bình/thuốc độc và việc lục phòng tìm chiếu là văn học, không được xác nhận trong các bản lịch sử 045,049. | không tọa độ |
+| EVD-B04-131 | 15 | [Chính sử] 三國志卷36 張飛 https://zh.wikisource.org/zh-hant/三國志/卷36 | 曹公拜飛為中郎將 | Sau khi theo Lưu phá Lữ, Trương Phi được Tào bổ trung lang tướng; không dùng chức tướng thời Thục sau này. | Hứa vùng |
+| EVD-B04-132 | 15 | [Chính sử] 三國志卷09 曹仁 https://zh.wikisource.org/zh-hant/三國志/卷09 | 仁別攻句陽 | Tào Nhân được giao đánh riêng ở chiến dịch Lữ; từng làm nhiệm vụ ở chiến dịch Trương Tú. Không nhập chiến dịch năm sau. | Câu Dương chưa định điểm |
+| EVD-B04-133 | 14 | [Sử liệu khác] 資治通鑑卷062 https://zh.wikisource.org/zh-hant/資治通鑑/卷062 | 郭汜為其將伍習所殺 | Quách Dĩ bị bộ tướng Ngũ Tập giết năm 197; nhắc kết cục riêng của cựu thuộc Đổng Trác, không gộp với cái chết Lý Giác năm 198. | Quan Trung vùng |
+| EVD-B04-134 | 17 | [Chính sử] 三國志卷32 先主 L134–137 https://zh.wikisource.org/zh-hant/三國志/卷32 | 督朱靈、路招要擊術 | Lưu Bị làm Tả tướng quân sau Hạ Bì, dẫn Chu Linh/Lộ Chiêu chặn Thuật; Ngô Tử Lan, Vương Tử Phục và Chủng Tập trong âm mưu, Bùi dẫn Khởi cư chú nêu thêm Ngô Thạc; tách lớp. Viên Đàm đón tại Thanh Châu, không coi vị trí gặp Viên Thiệu là thành Nghiệp. | Hứa, Từ Châu, Bình Nguyên, vị trí gặp không rõ |
