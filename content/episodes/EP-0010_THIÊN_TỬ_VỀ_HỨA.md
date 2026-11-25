@@ -3,7 +3,7 @@
 
 **Hoàng đế có thể ban chức cho người khác, nhưng đầu năm 196, ngay cả chỗ ở của mình cũng chưa chắc tự chọn được.**
 
-Ở tập trước, Hiến Đế tới An Ấp, sau khi triều đình chạy khỏi Trường An và vượt Hoàng Hà. Tào Tháo vừa lấy lại Duyện Châu; Viên Thiệu có thế lực lớn ở phía bắc. Lúc này, câu hỏi không phải ai có thể tự xưng vua trước, mà là ai có thể đưa vị vua đang tồn tại trở lại một nơi đủ sức vận hành triều đình.
+Ở tập trước, Hán Hiến Đế tới An Ấp, sau khi triều đình chạy khỏi Trường An và vượt Hoàng Hà. Tào Tháo vừa lấy lại Duyện Châu; Viên Thiệu có thế lực lớn ở phía bắc. Lúc này, câu hỏi không phải ai có thể tự xưng vua trước, mà là ai có thể đưa vị vua đang tồn tại trở lại một nơi đủ sức vận hành triều đình.
 
 ## Về kinh đô mà chưa có kinh đô
 
