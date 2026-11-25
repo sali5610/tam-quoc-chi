@@ -45,16 +45,23 @@ Status: editorial continuity tracker, 2026-11-25, Chat 02 BATCH-03. OPEN means f
 - A source-supported future role may be foreshadowed; don't invent actors' knowledge of their own future.
 - Keep payoff in the body prose, not solely in this tracker.
 
-## BATCH-04 planned payoff mapping — research checkpoint (2026-11-25)
-All below OPEN/PARTIAL, not prose completion. EVD-B04 IDs in evidence/BATCH_04_EVIDENCE_REGISTRY.md.
-| Setup | Payoff target | Evidence | Status |
+## BATCH-04 — reconciled after prose (Chat02, 2026-11-25)
+The following supersedes the earlier BATCH-04 OPEN planning rows and updates the relevant earlier promises. PAID means written in prose, not historical causal proof or PO acceptance.
+
+| Setup | Payoff in prose | Evidence (B04) | Status |
 |---|---|---|---|
-| EP09 court at Anyi; Mao Jie counsel | EP10 court at Xu and farming policy, separate actors | 001–010 | OPEN |
-| EP09 Liyang mobilization | EP12 Sun Ce expansion, no replay | 017–020,065 | OPEN |
-| EP08–09 Liu's base and Lü shelter | EP11 Xiapi reversal; EP15 Lü collapse | 011–016,033–036 | OPEN |
-| EP11 temporary Lü/Liu cooperation | EP13 Lü's realignment; EP15 reversal | 015,023–025,033–035 | OPEN |
-| EP09 Zhang Ji, Jia Xu and court violence | EP14 Zhang Xiu inherits force; EP17 surrender | 027–032,044,062–064 | OPEN |
-| Yuan rivalry and fragmentation | EP13 rival emperor; EP16 demise; EP17 Liu mission | 021–026,039–043,047 | OPEN |
-| EP10 imperial legitimacy versus real power | EP17 edict conspiracy; competing historical framing | 005–007,045,049 | OPEN |
-| EP12 Sun Ce/ Zhou Yu regional base | EP18 succession, Zhou Yu and Zhang Zhao | 019,053–061,067 | OPEN |
-| EP16 north consolidation | subsequent batch Guandu campaign; no premature battle | 043,052 | OPEN |
+| EP07 Mao Giới; EP09 An Ấp, Cư Thụ/Quách Đồ | EP10 vua về Lạc Dương rồi Hứa; chức triều đình khác thực quyền; Táo Chi, Hàn Hạo, Nhậm Tuấn và đồn điền | 001–010,079–082,135 | PAID for reception and grain; imperial autonomy remains OPEN |
+| EP08–09 Lưu nhận Từ Châu, đón Lữ | EP11 Hạ Bì bị chiếm; Mi Trúc cứu lực lượng; Lưu cầu hòa, được trả gia đình | 011–016,115,161 | PAID |
+| EP09 Lịch Dương / Tôn Kiên | EP12 Tôn Sách, Chu Du vượt sông; tuyển người và tổ chức quận | 017–020,065,070–072,078 | PAID for regional expansion; state formation OPEN |
+| EP11 Lữ cứu Lưu trước Viên Thuật | EP13 đổi liên minh; EP15 Lưu mất Tiểu Bái rồi phối hợp Tào đánh Lữ | 015,023–025,033–035 | PAID |
+| EP11 gia đình Lưu được trả | EP15 lại bị bắt rồi được trả sau Hạ Bì | 161 | PAID |
+| EP09 Trương Tế, Giả Hủ, triều đình chạy loạn | EP14 Trương Tú kế quân; EP17 chọn hàng Tào, lý lẽ Giả Hủ | 027–032,044,062–064,077 | PAID |
+| EP13 Viên Thuật tự xưng đế | EP16 mất chỗ dựa, qua đời; Từ Cầu trả ngọc tỷ; EP17 nhiệm vụ Lưu Bị đổi hướng | 021–026,042,085,134,144 | PAID |
+| EP03–09 Viên Thiệu/Công Tôn Toản | EP16 Dịch Kinh, Viên kiểm soát bốn châu; Hà Nội đổi chủ | 039–043,086–088,145–157 | PAID for Công Tôn Toản; Quan Độ OPEN |
+| EP10 danh nghĩa thiên tử/thực quyền | EP17 mật chiếu và cách gọi mưu phản đối lập; không quyết án thay nguồn | 005–007,045,049,142 | PAID for this crisis; autonomy remains OPEN |
+| EP12–13 Tôn Sách/Chu Du và mạng lưới Giang Đông | EP18 Tôn Sách mất, Tôn Quyền tiếp quản, Trương Chiêu/Chu Du hỗ trợ | 019,053–061,067,118,128 | PAID for succession; Ngô state formation OPEN |
+| EP16 bố trí bốn châu, EP17 Tào đánh Lưu | BATCH-05: thế đối đầu miền bắc, Quan Độ (song song xuân 200) | 043,088,052 | OPEN |
+| EP17 Quan Vũ được phong thiên tướng quân bên Tào, Lưu sang Viên | BATCH-05: quan hệ và lựa chọn tiếp theo | 050–051,095,120 | OPEN |
+| EP18 Tôn Quyền tiếp quản, các quận chưa hoàn toàn phục | Future Jiangdong consolidation; no formal Ngô yet | 060–061,067 | OPEN |
+
+Three trajectories from EP01–02 remain PARTIAL: Cao's northern unification, Liu's future base and the formation of the three states are not yet written. Dates within the same period are parallel, not causal links.
