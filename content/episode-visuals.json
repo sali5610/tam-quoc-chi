@@ -1583,11 +1583,11 @@
     ],
     "sources": [
       {
-        "label": "[Chính sử] 三國志 · 卷01 / [Bùi",
+        "label": "[Chính sử] 三國志 · 卷01 / [Bùi chú]",
         "url": "https://zh.wikisource.org/wiki/三國志/卷01"
       },
       {
-        "label": "[Chính sử] 三國志 · 卷16 / [Bùi",
+        "label": "[Chính sử] 三國志 · 卷16 / [Bùi chú]",
         "url": "https://zh.wikisource.org/wiki/三國志/卷16"
       }
     ],
@@ -1632,7 +1632,7 @@
     ],
     "sources": [
       {
-        "label": "[Chính sử] 三國志 · 卷32 / [Bùi",
+        "label": "[Chính sử] 三國志 · 卷32 / [Bùi chú]",
         "url": "https://zh.wikisource.org/wiki/三國志/卷32"
       },
       {
@@ -1835,7 +1835,7 @@
     ],
     "sources": [
       {
-        "label": "[Chính sử] 三國志 · 卷46 / [Bùi",
+        "label": "[Chính sử] 三國志 · 卷46 / [Bùi chú]",
         "url": "https://zh.wikisource.org/wiki/三國志/卷46"
       },
       {
@@ -1886,7 +1886,7 @@
     ],
     "sources": [
       {
-        "label": "[Chính sử] 三國志 · 卷49 / [Bùi",
+        "label": "[Chính sử] 三國志 · 卷49 / [Bùi chú]",
         "url": "https://zh.wikisource.org/wiki/三國志/卷49"
       },
       {
@@ -1995,7 +1995,7 @@
         "url": "https://zh.wikisource.org/wiki/後漢書/卷75"
       },
       {
-        "label": "[Chính sử] 三國志 · 卷06 / [Bùi",
+        "label": "[Chính sử] 三國志 · 卷06 / [Bùi chú]",
         "url": "https://zh.wikisource.org/wiki/三國志/卷06"
       },
       {
@@ -2248,7 +2248,7 @@
     ],
     "sources": [
       {
-        "label": "[Chính sử] 三國志 · 卷01 / [Bùi",
+        "label": "[Chính sử] 三國志 · 卷01 / [Bùi chú]",
         "url": "https://zh.wikisource.org/wiki/三國志/卷01"
       },
       {
@@ -2302,7 +2302,7 @@
     ],
     "sources": [
       {
-        "label": "[Chính sử] 三國志 · 卷01 / [Bùi",
+        "label": "[Chính sử] 三國志 · 卷01 / [Bùi chú]",
         "url": "https://zh.wikisource.org/wiki/三國志/卷01"
       },
       {
@@ -2547,7 +2547,7 @@
         "url": "https://zh.wikisource.org/wiki/三國志/卷01"
       },
       {
-        "label": "[Chính sử] 三國志 · 卷07 / [Bùi",
+        "label": "[Chính sử] 三國志 · 卷07 / [Bùi chú]",
         "url": "https://zh.wikisource.org/wiki/三國志/卷07"
       },
       {
@@ -2603,7 +2603,7 @@
     ],
     "sources": [
       {
-        "label": "[Chính sử] 三國志 · 卷07 / [Bùi",
+        "label": "[Chính sử] 三國志 · 卷07 / [Bùi chú]",
         "url": "https://zh.wikisource.org/wiki/三國志/卷07"
       },
       {
@@ -2669,7 +2669,7 @@
         "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
       },
       {
-        "label": "[Chính sử] 三國志 · 卷08 / [Bùi",
+        "label": "[Chính sử] 三國志 · 卷08 / [Bùi chú]",
         "url": "https://zh.wikisource.org/wiki/三國志/卷08"
       },
       {
@@ -2893,7 +2893,7 @@
     ],
     "sources": [
       {
-        "label": "[Chính sử] 三國志 · 卷32",
+        "label": "[Chính sử] 三國志 · 卷32 / [Bùi chú]",
         "url": "https://zh.wikisource.org/wiki/三國志/卷32"
       },
       {
@@ -3072,6 +3072,10 @@
       {
         "label": "[Sử liệu khác] 後漢書 · 卷10下",
         "url": "https://zh.wikisource.org/zh-hant/後漢書/卷10下"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
       }
     ],
     "note": "Không có bản mật chiếu được chứng thực, không khẳng định chiếu máu.",
@@ -3296,7 +3300,7 @@
     ],
     "sources": [
       {
-        "label": "[Chính sử] 三國志 · 卷46 / [Bùi",
+        "label": "[Chính sử] 三國志 · 卷46 / [Bùi chú]",
         "url": "https://zh.wikisource.org/wiki/三國志/卷46"
       },
       {
