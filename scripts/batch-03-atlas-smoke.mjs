@@ -5,7 +5,8 @@ const entities=JSON.parse(fs.readFileSync('src/entities.json','utf8'));
 const quotes=JSON.parse(fs.readFileSync('content/wiki/quotes.json','utf8'));
 const visuals=JSON.parse(fs.readFileSync('content/episode-visuals.json','utf8'));
 const manifest=JSON.parse(fs.readFileSync('content/manifest.json','utf8'));
-const episodeIds=manifest.eras.flatMap(e=>e.arcs.flatMap(a=>a.chapters.flatMap(c=>c.episodes.map(ep=>ep.id))));
+const episodes=manifest.eras.flatMap(e=>e.arcs.flatMap(a=>a.chapters.flatMap(c=>c.episodes)));
+const episodeIds=episodes.map(ep=>ep.id);
 fs.mkdirSync('qa-b04',{recursive:true});
 const base=process.env.TQC_TEST_BASE||'http://localhost:4173/tam-quoc-chi/';
 const check=(x,m)=>{if(!x)throw Error(m)};
@@ -55,7 +56,7 @@ for(const engine of [chromium,webkit]){
   console.log('PASS all 121 Wiki profiles and 49 quote/backlink counts',engine.name());await page.close();
 
   const nav=await browser.newPage({viewport:{width:390,height:844},hasTouch:true,reducedMotion:'reduce'});
-  for(const [ep,query] of [['ep-0007','dung the luc'],['ep-0008','bao thu tu chau'],['ep-0009','lay lai duyen chau']]){
+  for(const [ep,query] of [['ep-0007','dung the luc'],['ep-0008','bao thu tu chau'],['ep-0009','lay lai duyen chau'],...episodes.filter(e=>e.id>='ep-0010').map(e=>[e.id,e.title])]){
     const index=episodeIds.indexOf(ep);check(index>0,'Manifest episode missing '+ep);const prev=episodeIds[index-1],next=episodeIds[index+1];
     await nav.goto(base+'#/search');await nav.getByRole('textbox',{name:'Tìm tập'}).fill(query);
     // EP07 search is by source text as well as title; use unaccented title for deterministic coverage.
@@ -88,7 +89,7 @@ for(const engine of [chromium,webkit]){
     await nav.getByRole('button',{name:'Trong tập',exact:true}).waitFor();await nav.waitForFunction(y=>Math.abs(scrollY-y)<20,position.y);
     await nav.goto(base+'#/collection');const bookmark=nav.locator('main a[href="#/read/'+ep+'"]');await bookmark.click();await nav.getByRole('button',{name:'Trong tập',exact:true}).waitFor();await nav.waitForFunction(y=>Math.abs(scrollY-y)<20,position.y);
     await nav.goto(base+'#/collection');await nav.locator('main p').filter({has:nav.locator('a[href="#/read/'+ep+'"]')}).getByRole('button',{name:'Xóa'}).click();check(await nav.locator('main a[href="#/read/'+ep+'"]').count()===0,'Delete bookmark '+ep);
-    console.log('PASS B03 navigation, search, resume, bookmark, Reader/Wiki links',engine.name(),ep);
+    console.log('PASS B03+B04 navigation, search, resume, bookmark, Reader/Wiki links',engine.name(),ep);
   }await nav.close();
 
  }finally{await browser.close()}
