@@ -9,3 +9,5 @@
 
 ## QA continuation
 - CI 45689901557 FAILED: Chromium 320px EP14 initial avatar geometry timeout; EP10–13 geometry PASS; build and legacy smoke PASS; downstream suites skipped. Exact failing geometry not logged, so root cause not yet confirmed. Candidate f539ef6ec2ac5c2f25432445fd8b1bac4c076000 includes more conservative initial fit (maxZoom -1, increased padding) and failure geometry/screenshot diagnostics; pan behavior preserved. Assertions unchanged. Await exact new CI; no release authorization or deployment. Chat05 remains IN PROGRESS.
+
+- CI 45690725443 FAILED at EP11 Chromium 320px after conservative zoom change; two callouts shifted, third unshifted. New candidate ce6745a54fc6748711a331ffbef086cc06197e06 restores original fit, packs largest first and caps narrow callout scale. Runtime and readability verification pending; no deployment.
