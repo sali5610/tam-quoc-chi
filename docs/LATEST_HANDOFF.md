@@ -1,3 +1,14 @@
+# BATCH-04 / 06 — Production release — IN PROGRESS (2026-11-26)
+
+- PO explicitly authorized BATCH-04 EP10–18 publication, no redesign/features/B05. DEC-B04-041 below in Decision Log.
+- Exact tested candidate e5a84d7d970a4df7fa869d0add9b2a3b6b5e3abc; [CI 45691861514](https://github.com/sali5610/tam-quoc-chi/actions/runs/45691861514) SUCCESS, verified exact head and job 139479099458. Delta to PR head 6a9479cdfcaaa90d1f2ed67c332185a97dc226c0 is exclusively docs/LATEST_HANDOFF.md. Main pre-merge 8eda37f6a2785adf4a303351d647a3adf47e4c52; branch ahead 75, behind 0. Manifest EP01–18 confirmed.
+- [PR #7](https://github.com/sali5610/tam-quoc-chi/pull/7) marked ready and merged with expected head; merge SHA 5af8a0885fdfa50aefdc4510a83c29a19b67fc0c; compare PR head to merge has zero file changes. Main workflow path changed in QA, so main push automatically triggered [Publish Tam Quốc Chí 45694080738](https://github.com/sali5610/tam-quoc-chi/actions/runs/45694080738), attempt 1, exact merge SHA; no manual dispatch. Separate non-deploy integration run 45694080746 is not a second publication.
+- Evidence inherited from exact tested candidate: build, structural/history anchors, Reader EP01–18 visual coverage, Wiki 121 profiles/230 radar snapshots/49 quotes, Atlas 59 events/103 relations/100 places/6 journeys/5 graph contexts, visual/motion, mobile initial geometry and navigation regression PASS (see Chat05 evidence). Physical iPhone/iPad NOT TESTED; compact Atlas labels at 320px remain small, arbitrary pan crowding not universally verified.
+- Production release job 139486789958 build IN PROGRESS at last observation; deploy and verify-live NOT TESTED. Public release SHA and retired preview 404 NOT VERIFIED directly (HTTP/DNS access unavailable in this session). Last previously verified production SHA 5d7b2c2704b1ece80d9ac6354f080fd70454b242, current live SHA unknown until release runner verifies. One release run only; no retry/dispatch without inspecting outcome.
+- Next: finish Chat06 only. Read release run 45694080738 build/deploy/verify-live jobs and logs; require public SHA 5af8a0885fdfa50aefdc4510a83c29a19b67fc0c, retired preview 404 and live Chromium/WebKit EP01–18 Reader/Wiki/Atlas/visual/navigation evidence. Resolve any in-scope blocker without weakening tests; update handoff with final observed status. Do not open BATCH-05.
+
+## Prior QA evidence
+
 # BATCH-04 / 05 — Integration & QA — COMPLETE (2026-11-26)
 
 - Exact release candidate: e5a84d7d970a4df7fa869d0add9b2a3b6b5e3abc. [CI 45691861514](https://github.com/sali5610/tam-quoc-chi/actions/runs/45691861514) SUCCESS, job 139479099458. All build, structural, Atlas/Wiki, all-episode visual, hybrid responsive and motion gates PASS. PR #7 open/draft, mergeable=true, base main 8eda37f6a2785adf4a303351d647a3adf47e4c52 at verification. No merge/deploy.
