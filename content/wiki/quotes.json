@@ -391,5 +391,305 @@
     "evidenceIds": [
       "EVD-B03-069"
     ]
+  },
+  {
+    "id": "QTE-0030",
+    "personId": "lu-bu",
+    "layer": "Chính sử",
+    "original": "術若破備，則北連太山諸將，吾爲在術圍中，不得不救也。",
+    "translation": "Nếu Thuật phá Bị, rồi nối thế lực phía bắc với Thái Sơn, ta sẽ bị vây trong thế của Thuật, không thể không cứu.",
+    "context": "196, Lữ Bố giải thích lý do can thiệp khi Kỷ Linh đánh Lưu Bị.",
+    "source": "三國志/卷07 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "episodeId": "ep-0011",
+    "evidence": "EVD-B04-015",
+    "evidenceIds": [
+      "EVD-B04-015"
+    ]
+  },
+  {
+    "id": "QTE-0031",
+    "personId": "cao-cao",
+    "layer": "Chính sử",
+    "original": "今天下英雄，唯使君與操耳。",
+    "translation": "Anh hùng thiên hạ hôm nay chỉ có sứ quân và Tháo.",
+    "context": "199, trước nhiệm vụ chặn Viên Thuật; không gán khung cảnh rượu mơ xanh của tiểu thuyết.",
+    "source": "三國志/卷32 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
+    "episodeId": "ep-0017",
+    "evidence": "EVD-B04-046",
+    "evidenceIds": [
+      "EVD-B04-046"
+    ]
+  },
+  {
+    "id": "QTE-0032",
+    "personId": "yuan-shu",
+    "layer": "Bùi chú",
+    "original": "袁術至於此乎！",
+    "translation": "Viên Thuật lại đến nông nỗi này sao!",
+    "context": "199, lời than của Viên Thuật theo Ngô thư do Bùi chú dẫn; có dị bản ở các sử liệu khác.",
+    "source": "三國志/卷06 · Bùi chú",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "episodeId": "ep-0016",
+    "evidence": "EVD-B04-085",
+    "evidenceIds": [
+      "EVD-B04-085"
+    ]
+  },
+  {
+    "id": "QTE-0033",
+    "personId": "sun-ce",
+    "layer": "Chính sử",
+    "original": "今日之事，當與卿共之。",
+    "translation": "Việc hôm nay, ta sẽ cùng ông làm.",
+    "context": "Sau khi Thái Sử Từ bị bắt; ngày tháng chưa chắc.",
+    "source": "三國志/卷49 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷49",
+    "episodeId": "ep-0012",
+    "evidence": "EVD-B04-071",
+    "evidenceIds": [
+      "EVD-B04-071"
+    ]
+  },
+  {
+    "id": "QTE-0034",
+    "personId": "taishi-ci",
+    "layer": "Chính sử",
+    "original": "未可量也。",
+    "translation": "Chưa thể đoán được.",
+    "context": "Thái Sử Từ đáp câu hỏi giả định về cuộc gặp trước đó, không phải lời tự khoe.",
+    "source": "三國志/卷49 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷49",
+    "episodeId": "ep-0012",
+    "evidence": "EVD-B04-071",
+    "evidenceIds": [
+      "EVD-B04-071"
+    ]
+  },
+  {
+    "id": "QTE-0035",
+    "personId": "jia-xu",
+    "layer": "Chính sử",
+    "original": "不如從曹公。",
+    "translation": "Chi bằng theo Tào công.",
+    "context": "199, Giả Hủ khuyên Trương Tú theo Tào, sau đó nêu ba lý do.",
+    "source": "三國志/卷10 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷10",
+    "episodeId": "ep-0017",
+    "evidence": "EVD-B04-077",
+    "evidenceIds": [
+      "EVD-B04-077"
+    ]
+  },
+  {
+    "id": "QTE-0036",
+    "personId": "zhang-zhao",
+    "layer": "Chính sử",
+    "original": "方今天下鼎沸，群盜滿山。",
+    "translation": "Nay thiên hạ sôi sục, giặc khắp núi.",
+    "context": "200, Trương Chiêu thúc đẩy Tôn Quyền tiếp quản cơ nghiệp.",
+    "source": "三國志/卷52 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷52",
+    "episodeId": "ep-0018",
+    "evidence": "EVD-B04-067",
+    "evidenceIds": [
+      "EVD-B04-067"
+    ]
+  },
+  {
+    "id": "QTE-0038",
+    "personId": "sun-ce",
+    "layer": "Chính sử",
+    "original": "舉賢任能，各盡其心，以保江東，我不如卿。",
+    "translation": "Cất nhắc hiền tài, để mỗi người tận tâm bảo vệ Giang Đông, ta không bằng em.",
+    "context": "200, lời trăn trối được tiểu truyện thuật lại, khác phân công nội sự/ngoại sự của tiểu thuyết.",
+    "source": "三國志/卷46 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷46",
+    "episodeId": "ep-0018",
+    "evidence": "EVD-B04-128",
+    "evidenceIds": [
+      "EVD-B04-128"
+    ]
+  },
+  {
+    "id": "QTE-0039",
+    "personId": "dong-zhao",
+    "layer": "Chính sử",
+    "original": "惟有移駕幸許耳。",
+    "translation": "Chỉ còn cách dời xa giá tới Hứa.",
+    "context": "196, Đổng Chiêu đề nghị chuyển vua về Hứa.",
+    "source": "三國志_(四庫全書本)/魏志/卷14 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志_(四庫全書本)/魏志/卷14",
+    "episodeId": "ep-0010",
+    "evidence": "EVD-B04-135",
+    "evidenceIds": [
+      "EVD-B04-135"
+    ]
+  },
+  {
+    "id": "QTE-0040",
+    "personId": "gao-shun",
+    "layer": "Bùi chú",
+    "original": "但患不見用耳。",
+    "translation": "Chỉ lo người có tài không được dùng mà thôi.",
+    "context": "Anh hùng ký do Bùi chú dẫn, Cao Thuận nhiều lần can Lữ; không rõ ngày.",
+    "source": "三國志/卷07 · Bùi chú",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "episodeId": "ep-0015",
+    "evidence": "EVD-B04-136",
+    "evidenceIds": [
+      "EVD-B04-136"
+    ]
+  },
+  {
+    "id": "QTE-0041",
+    "personId": "chen-gong",
+    "layer": "Chính sử",
+    "original": "老母在公，不在宮也。",
+    "translation": "Mẹ già sống hay không ở ngài, không còn ở Cung.",
+    "context": "Sau khi bị bắt ở Hạ Bì; chính văn kể lời Trần Cung về mẹ, không trộn lời Điển lược.",
+    "source": "三國志/卷07 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "episodeId": "ep-0015",
+    "evidence": "EVD-B04-137",
+    "evidenceIds": [
+      "EVD-B04-137"
+    ]
+  },
+  {
+    "id": "QTE-0042",
+    "personId": "xu-qiu",
+    "layer": "Sử liệu khác",
+    "original": "昔蘇武困於匈奴，不隊七尺之節，況此方寸印乎？",
+    "translation": "Xưa Tô Vũ gặp nạn nơi Hung Nô còn không đánh mất tiết trượng bảy thước, huống gì ấn nhỏ vuông tấc này?",
+    "context": "199, Từ Cầu sau khi trả ấn; chữ 隊 mang nghĩa rơi/mất.",
+    "source": "後漢書/卷48 · Sử liệu khác",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷48",
+    "episodeId": "ep-0016",
+    "evidence": "EVD-B04-144",
+    "evidenceIds": [
+      "EVD-B04-144"
+    ]
+  },
+  {
+    "id": "QTE-0043",
+    "personId": "zhu-ling",
+    "layer": "Chính sử",
+    "original": "今已遇，復何之？",
+    "translation": "Nay đã gặp được người ấy, còn đi đâu nữa?",
+    "context": "Hồi tưởng chiến dịch Đào Khiêm, khi Chu Linh ở lại theo Tào; không đặt vào năm 199.",
+    "source": "三國志/卷17 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷17",
+    "episodeId": "ep-0017",
+    "evidence": "EVD-B04-143",
+    "evidenceIds": [
+      "EVD-B04-143"
+    ]
+  },
+  {
+    "id": "QTE-0044",
+    "personId": "yan-xiang",
+    "layer": "Chính sử",
+    "original": "漢室雖微，未若殷紂之暴也。",
+    "translation": "Nhà Hán tuy suy yếu nhưng chưa tàn bạo như Trụ nhà Ân.",
+    "context": "Cuối 195, Diêm Tượng can Viên Thuật; được nhắc lại trong tập xưng đế năm 197.",
+    "source": "三國志/卷06 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "episodeId": "ep-0013",
+    "evidence": "EVD-B04-148",
+    "evidenceIds": [
+      "EVD-B04-148"
+    ]
+  },
+  {
+    "id": "QTE-0045",
+    "personId": "yu-jin",
+    "layer": "Chính sử",
+    "original": "青州兵同屬曹公，而還為賊乎！",
+    "translation": "Quân Thanh Châu cũng thuộc Tào công, sao lại làm giặc?",
+    "context": "197, Vu Cấm phản ứng trước báo cáo cướp bóc của một số Thanh Châu binh.",
+    "source": "三國志/卷17 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷17",
+    "episodeId": "ep-0014",
+    "evidence": "EVD-B04-149",
+    "evidenceIds": [
+      "EVD-B04-149"
+    ]
+  },
+  {
+    "id": "QTE-0046",
+    "personId": "zhang-yang",
+    "layer": "Chính sử",
+    "original": "天子當與天下共之",
+    "translation": "Thiên tử phải cùng thiên hạ phụng sự.",
+    "context": "196, Trương Dương không chủ trương độc chiếm thiên tử.",
+    "source": "三國志/卷08 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷08",
+    "episodeId": "ep-0010",
+    "evidence": "EVD-B04-154",
+    "evidenceIds": [
+      "EVD-B04-154"
+    ]
+  },
+  {
+    "id": "QTE-0047",
+    "personId": "xu-gong",
+    "layer": "Bùi chú",
+    "original": "若放於外必作世患。",
+    "translation": "Nếu để ở ngoài, ắt thành mối họa cho đời.",
+    "context": "Tấu biểu của Hứa Cống được Giang biểu truyện thuật lại; trước 200, không có bản gốc được xác nhận.",
+    "source": "三國志/卷46 · Bùi chú",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷46",
+    "episodeId": "ep-0018",
+    "evidence": "EVD-B04-147",
+    "evidenceIds": [
+      "EVD-B04-147"
+    ]
+  },
+  {
+    "id": "QTE-0048",
+    "personId": "cao-xing",
+    "layer": "Bùi chú",
+    "original": "不意萌狂惑不止。",
+    "translation": "Không ngờ Manh cứ mê muội không dừng.",
+    "context": "196, lời Cao Tính được Anh hùng ký thuật lại; không chứng minh mọi cáo buộc.",
+    "source": "三國志/卷07 · Bùi chú",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "episodeId": "ep-0011",
+    "evidence": "EVD-B04-158",
+    "evidenceIds": [
+      "EVD-B04-158"
+    ]
+  },
+  {
+    "id": "QTE-0049",
+    "personId": "chen-gui",
+    "layer": "Chính sử",
+    "original": "勢不俱棲，可解離也。",
+    "translation": "Thế ấy không thể cùng đậu một chỗ, có thể chia rẽ.",
+    "context": "197, kế Trần Khuê tách Hàn Xiêm và Dương Phụng khỏi Viên Thuật.",
+    "source": "三國志/卷07 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "episodeId": "ep-0013",
+    "evidence": "EVD-B04-025",
+    "evidenceIds": [
+      "EVD-B04-025"
+    ]
+  },
+  {
+    "id": "QTE-0050",
+    "personId": "lu-bu",
+    "layer": "Chính sử",
+    "original": "明公將步，令布將騎，則天下不足定也。",
+    "translation": "Minh công chỉ huy bộ binh, để Bố chỉ huy kỵ binh, thì bình định thiên hạ không khó.",
+    "context": "Sau khi Lữ Bố đầu hàng năm Kiến An 3; lời đề nghị không phải kế hoạch đã thực hiện.",
+    "source": "三國志/卷07 · Chính văn",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "episodeId": "ep-0015",
+    "evidence": "EVD-B04-035",
+    "evidenceIds": [
+      "EVD-B04-035"
+    ]
   }
 ]
