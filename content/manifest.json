@@ -106,6 +106,84 @@
               ]
             }
           ]
+        },
+        {
+          "id": "arc-imperial-rivalry",
+          "title": "Thiên tử, chư hầu và cuộc tranh quyền",
+          "chapters": [
+            {
+              "id": "ch-court-and-regions",
+              "title": "Thiên tử về Hứa, chư hầu giữ đất",
+              "episodes": [
+                {
+                  "id": "ep-0010",
+                  "title": "Người đón được thiên tử",
+                  "years": "196",
+                  "source": "content/episodes/EP-0010_THIÊN_TỬ_VỀ_HỨA.md"
+                },
+                {
+                  "id": "ep-0011",
+                  "title": "Khách chiếm Hạ Bì, chủ nhà phải đi ở nhờ",
+                  "years": "196",
+                  "source": "content/episodes/EP-0011_KHÁCH_CHIẾM_HẠ_BÌ.md"
+                },
+                {
+                  "id": "ep-0012",
+                  "title": "Con trai Tôn Kiên dựng cơ nghiệp bên kia sông",
+                  "years": "195–196",
+                  "source": "content/episodes/EP-0012_TÔN_SÁCH_VƯỢT_SÔNG.md"
+                }
+              ]
+            },
+            {
+              "id": "ch-rival-claims",
+              "title": "Đế hiệu, liên minh và những lần phản bội",
+              "episodes": [
+                {
+                  "id": "ep-0013",
+                  "title": "Viên Thuật tự làm hoàng đế, đồng minh tự rút",
+                  "years": "197",
+                  "source": "content/episodes/EP-0013_VIÊN_THUẬT_XƯNG_ĐẾ.md"
+                },
+                {
+                  "id": "ep-0014",
+                  "title": "Cái giá của một lần nhận hàng ở Uyển",
+                  "years": "197–198",
+                  "source": "content/episodes/EP-0014_CÁI_GIÁ_Ở_UYỂN.md"
+                },
+                {
+                  "id": "ep-0015",
+                  "title": "Hạ Bì thất thủ: Lữ Bố hết đường đổi chủ",
+                  "years": "198",
+                  "source": "content/episodes/EP-0015_HẠ_BÌ_THẤT_THỦ.md"
+                }
+              ]
+            },
+            {
+              "id": "ch-northern-and-southern-transition",
+              "title": "Hai miền đổi thế",
+              "episodes": [
+                {
+                  "id": "ep-0016",
+                  "title": "Hai người họ Viên, hai kết cục",
+                  "years": "199",
+                  "source": "content/episodes/EP-0016_HAI_VIÊN_HAI_KẾT_CỤC.md"
+                },
+                {
+                  "id": "ep-0017",
+                  "title": "Lưu Bị rời Hứa, triều đình lộ một âm mưu",
+                  "years": "199–200",
+                  "source": "content/episodes/EP-0017_LƯU_BỊ_RỜI_HỨA.md"
+                },
+                {
+                  "id": "ep-0018",
+                  "title": "Giang Đông đổi chủ khi cơ nghiệp còn dang dở",
+                  "years": "198–200",
+                  "source": "content/episodes/EP-0018_GIANG_ĐÔNG_ĐỔI_CHỦ.md"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
