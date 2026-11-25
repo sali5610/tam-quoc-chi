@@ -11,7 +11,8 @@
       "atlasIds": [
         "luoyang",
         "loyang"
-      ]
+      ],
+      "display": "site"
     },
     {
       "id": "changshe",
@@ -106,19 +107,13 @@
     {
       "id": "wan",
       "name": "Uyển",
-      "aliases": [
-        "宛",
-        "宛城"
-      ],
+      "aliases": [],
       "atlasIds": [
-        "wan",
-        "wancheng"
+        "wan"
       ],
-      "regionAliases": [
-        "南陽・宛",
-        "南陽·宛",
-        "南陽"
-      ]
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point."
     },
     {
       "id": "changan",
@@ -319,7 +314,7 @@
         "河內"
       ],
       "display": "region",
-      "note": "Suppress exact-name city match intentionally: historical claims here concern commandery/region, not precise city. historicalNames must NOT be copied into resolver aliases."
+      "note": "Suppress exact-name city match intentionally: historical claims here concern commandery/region, not precise city. historicalNames must NOT be copied into resolver aliases. B04 cũng sử dụng phạm vi quận, không thay bằng điểm thành."
     },
     {
       "id": "shanyang",
@@ -781,6 +776,1100 @@
         "https://zh.wikisource.org/wiki/後漢書/卷9"
       ],
       "note": "Crossing documented between Thiểm and Đại Dương, actual crossing site unresolved. Retain textual step; MUST break the journey line across it."
+    },
+    {
+      "id": "xu",
+      "name": "Hứa",
+      "historicalNames": [
+        "許"
+      ],
+      "episodes": [
+        "ep-0010",
+        "ep-0013",
+        "ep-0017"
+      ],
+      "evidence": [
+        "EVD-B04-005",
+        "EVD-B04-006",
+        "EVD-B04-007",
+        "EVD-B04-023",
+        "EVD-B04-045",
+        "EVD-B04-049"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "xuchang"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Historical Xu county; dataset label 許昌; HHS110 許; display Hứa, not later formal renamed site.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷01",
+        "https://zh.wikisource.org/wiki/後漢書/卷9",
+        "https://zh.wikisource.org/wiki/三國志/卷07",
+        "https://zh.wikisource.org/wiki/三國志/卷32"
+      ]
+    },
+    {
+      "id": "wenxi",
+      "name": "Văn Hỷ",
+      "historicalNames": [
+        "聞喜"
+      ],
+      "episodes": [
+        "ep-0010"
+      ],
+      "evidence": [
+        "EVD-B04-003"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "河東"
+      ],
+      "display": "region",
+      "note": "Region-level representative anchor only; group equal markers; no claim of actual location.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/後漢書/卷9"
+      ]
+    },
+    {
+      "id": "xuyi",
+      "name": "Hu Di",
+      "historicalNames": [
+        "盱眙"
+      ],
+      "episodes": [
+        "ep-0011"
+      ],
+      "evidence": [
+        "EVD-B04-011"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "xuyi"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷32"
+      ]
+    },
+    {
+      "id": "huaiyin",
+      "name": "Hoài Âm",
+      "historicalNames": [
+        "淮陰"
+      ],
+      "episodes": [
+        "ep-0011"
+      ],
+      "evidence": [
+        "EVD-B04-011"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "huaiyin"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷32"
+      ]
+    },
+    {
+      "id": "guangling",
+      "name": "Quảng Lăng",
+      "historicalNames": [
+        "廣陵"
+      ],
+      "episodes": [
+        "ep-0011",
+        "ep-0013",
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-014",
+        "EVD-B04-024",
+        "EVD-B04-057"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "guangling"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Use site only for city; regional appointment distinct.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/資治通鑑/卷062",
+        "https://zh.wikisource.org/wiki/三國志/卷07",
+        "https://zh.wikisource.org/wiki/三國志/卷46"
+      ]
+    },
+    {
+      "id": "guangling-region",
+      "name": "Quảng Lăng (quận)",
+      "historicalNames": [
+        "廣陵"
+      ],
+      "episodes": [
+        "ep-0013"
+      ],
+      "evidence": [
+        "EVD-B04-024"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "廣陵"
+      ],
+      "display": "region",
+      "note": "Region-level representative anchor only; group equal markers; no claim of actual location.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷07"
+      ]
+    },
+    {
+      "id": "haixi",
+      "name": "Hải Tây",
+      "historicalNames": [
+        "海西"
+      ],
+      "episodes": [
+        "ep-0011"
+      ],
+      "evidence": [
+        "EVD-B04-014"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "廣陵"
+      ],
+      "display": "region",
+      "note": "HHS111 lists Haixi under Guangling, not same site as capital.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/資治通鑑/卷062"
+      ]
+    },
+    {
+      "id": "danyang-region",
+      "name": "Đan Dương (quận)",
+      "historicalNames": [
+        "丹楊"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-017",
+        "EVD-B04-019",
+        "EVD-B04-065"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "丹陽・秣陵"
+      ],
+      "display": "region",
+      "note": "Not a pin at a county named Danyang.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷46",
+        "https://zh.wikisource.org/wiki/三國志/卷54"
+      ]
+    },
+    {
+      "id": "qua",
+      "name": "Khúc A",
+      "historicalNames": [
+        "曲阿"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-019",
+        "EVD-B04-068"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "吳郡"
+      ],
+      "display": "region",
+      "note": "HHS112 lists under Wu; use region only, not modern Jingkou pin.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷54",
+        "https://zh.wikisource.org/wiki/三國志/卷13"
+      ]
+    },
+    {
+      "id": "kuaiji-region",
+      "name": "Cối Kê (quận)",
+      "historicalNames": [
+        "會稽"
+      ],
+      "episodes": [
+        "ep-0012",
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-065",
+        "EVD-B04-078",
+        "EVD-B04-060"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "會稽北部"
+      ],
+      "display": "region",
+      "note": "Northern seat context only; no assertion whole commandery.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷46",
+        "https://zh.wikisource.org/wiki/三國志/卷13",
+        "https://zh.wikisource.org/wiki/三國志/卷47"
+      ]
+    },
+    {
+      "id": "wu-region",
+      "name": "Ngô (quận)",
+      "historicalNames": [
+        "吳郡"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-065"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "吳郡"
+      ],
+      "display": "region",
+      "note": "Region-level representative anchor only; group equal markers; no claim of actual location.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷46"
+      ]
+    },
+    {
+      "id": "wu",
+      "name": "Ngô huyện",
+      "historicalNames": [
+        "吳"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-060",
+        "EVD-B04-061",
+        "EVD-B04-067"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "wu"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷47",
+        "https://zh.wikisource.org/wiki/三國志/卷54",
+        "https://zh.wikisource.org/wiki/三國志/卷52"
+      ]
+    },
+    {
+      "id": "moling",
+      "name": "Mạt Lăng",
+      "historicalNames": [
+        "秣陵"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-019"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "moling"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷54"
+      ]
+    },
+    {
+      "id": "niuzhu",
+      "name": "Ngưu Chử",
+      "historicalNames": [
+        "牛渚"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-019",
+        "EVD-B04-018"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷54",
+        "https://zh.wikisource.org/wiki/三國志/卷46"
+      ]
+    },
+    {
+      "id": "hengjiang",
+      "name": "Hoành Giang",
+      "historicalNames": [
+        "橫江"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-019"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷54"
+      ]
+    },
+    {
+      "id": "dangli",
+      "name": "Đương Lợi",
+      "historicalNames": [
+        "當利"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-019"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷54"
+      ]
+    },
+    {
+      "id": "hushu",
+      "name": "Hồ Thục",
+      "historicalNames": [
+        "湖孰"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-019"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷54"
+      ]
+    },
+    {
+      "id": "jiangcheng",
+      "name": "Giang Thừa",
+      "historicalNames": [
+        "江乘"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-019"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷54"
+      ]
+    },
+    {
+      "id": "shen-ting",
+      "name": "Thần Đình",
+      "historicalNames": [
+        "神亭"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-070"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷49"
+      ]
+    },
+    {
+      "id": "wuhu",
+      "name": "Vu Hồ",
+      "historicalNames": [
+        "蕪湖"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-071"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷49"
+      ]
+    },
+    {
+      "id": "jingxian",
+      "name": "Kính huyện",
+      "historicalNames": [
+        "涇縣"
+      ],
+      "episodes": [
+        "ep-0012"
+      ],
+      "evidence": [
+        "EVD-B04-071"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset city; keep historical name in text, do not infer route.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷49"
+      ]
+    },
+    {
+      "id": "chen",
+      "name": "Trần",
+      "historicalNames": [
+        "陳"
+      ],
+      "episodes": [
+        "ep-0013"
+      ],
+      "evidence": [
+        "EVD-B04-026"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "chen"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷01"
+      ]
+    },
+    {
+      "id": "huainan",
+      "name": "Hoài Nam",
+      "historicalNames": [
+        "淮南"
+      ],
+      "episodes": [
+        "ep-0013",
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-021",
+        "EVD-B04-026",
+        "EVD-B04-042"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "九江・淮南"
+      ],
+      "display": "region",
+      "note": "Regional context, not entire territory.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/後漢書/卷9",
+        "https://zh.wikisource.org/wiki/三國志/卷01",
+        "https://zh.wikisource.org/wiki/資治通鑑/卷063"
+      ]
+    },
+    {
+      "id": "rang",
+      "name": "Nhương",
+      "historicalNames": [
+        "穰"
+      ],
+      "episodes": [
+        "ep-0014"
+      ],
+      "evidence": [
+        "EVD-B04-030"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "南陽・宛"
+      ],
+      "display": "region",
+      "note": "HHS112 Nanyang; no city pinpoint; equal anchors group, never draw intra-region path.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷01"
+      ]
+    },
+    {
+      "id": "wuyin",
+      "name": "Vũ Âm",
+      "historicalNames": [
+        "舞陰"
+      ],
+      "episodes": [
+        "ep-0014"
+      ],
+      "evidence": [
+        "EVD-B04-030"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "南陽・宛"
+      ],
+      "display": "region",
+      "note": "HHS112 Nanyang; no city pinpoint; equal anchors group, never draw intra-region path.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷01"
+      ]
+    },
+    {
+      "id": "huyang",
+      "name": "Hồ Dương",
+      "historicalNames": [
+        "湖陽"
+      ],
+      "episodes": [
+        "ep-0014"
+      ],
+      "evidence": [
+        "EVD-B04-031"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "南陽・宛"
+      ],
+      "display": "region",
+      "note": "HHS112 Nanyang; no city pinpoint; equal anchors group, never draw intra-region path.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷01"
+      ]
+    },
+    {
+      "id": "anzhong",
+      "name": "An Chúng",
+      "historicalNames": [
+        "安眾"
+      ],
+      "episodes": [
+        "ep-0014"
+      ],
+      "evidence": [
+        "EVD-B04-032"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "南陽・宛"
+      ],
+      "display": "region",
+      "note": "HHS112 Nanyang; no city pinpoint; equal anchors group, never draw intra-region path.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷01"
+      ]
+    },
+    {
+      "id": "sishui",
+      "name": "Tứ Thủy",
+      "historicalNames": [
+        "泗"
+      ],
+      "episodes": [
+        "ep-0015"
+      ],
+      "evidence": [
+        "EVD-B04-034"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "Named river or structure; no site coordinates; HHS111 Xiapi regional context.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷01"
+      ]
+    },
+    {
+      "id": "yishui",
+      "name": "Nghi Thủy",
+      "historicalNames": [
+        "沂"
+      ],
+      "episodes": [
+        "ep-0015"
+      ],
+      "evidence": [
+        "EVD-B04-034"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "Named river or structure; no site coordinates; HHS111 Xiapi regional context.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷01"
+      ]
+    },
+    {
+      "id": "white-gate",
+      "name": "Bạch Môn Lâu",
+      "historicalNames": [
+        "白門樓"
+      ],
+      "episodes": [
+        "ep-0015"
+      ],
+      "evidence": [
+        "EVD-B04-035"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "Named river or structure; no site coordinates; HHS111 Xiapi regional context.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷07"
+      ]
+    },
+    {
+      "id": "henei-region",
+      "name": "Hà Nội (quận)",
+      "historicalNames": [
+        "河內"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-040",
+        "EVD-B04-041"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "河內"
+      ],
+      "display": "region",
+      "note": "Region-level representative anchor only; group equal markers; no claim of actual location.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/後漢書/卷9",
+        "https://zh.wikisource.org/wiki/三國志/卷01"
+      ]
+    },
+    {
+      "id": "yijing",
+      "name": "Dịch Kinh",
+      "historicalNames": [
+        "易京"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-039"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset match; text only; no fabricated coordinates.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/後漢書/卷9"
+      ]
+    },
+    {
+      "id": "shequan",
+      "name": "Xạ Khuyển",
+      "historicalNames": [
+        "射犬"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-041"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset match; text only; no fabricated coordinates.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷01"
+      ]
+    },
+    {
+      "id": "jiangting",
+      "name": "Giang Đình",
+      "historicalNames": [
+        "江亭"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-042"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset match; text only; no fabricated coordinates.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/資治通鑑/卷063"
+      ]
+    },
+    {
+      "id": "guandu",
+      "name": "Quan Độ",
+      "historicalNames": [
+        "官渡"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-043"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "No exact dataset match; text only; no fabricated coordinates.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷01"
+      ]
+    },
+    {
+      "id": "shouchun",
+      "name": "Thọ Xuân",
+      "historicalNames": [
+        "壽春"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-042"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "shouchun"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Dataset site anchor, not archaeological point.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/資治通鑑/卷063"
+      ]
+    },
+    {
+      "id": "qianshan",
+      "name": "Tiềm Sơn",
+      "historicalNames": [
+        "灊山"
+      ],
+      "episodes": [
+        "ep-0016"
+      ],
+      "evidence": [
+        "EVD-B04-042",
+        "EVD-B04-085"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "廬江"
+      ],
+      "display": "region",
+      "note": "HHS112 潛/天柱山 context; exact camp unresolved.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/資治通鑑/卷063",
+        "https://zh.wikisource.org/wiki/三國志/卷06"
+      ]
+    },
+    {
+      "id": "wancheng",
+      "name": "Hoàn Thành",
+      "historicalNames": [
+        "皖城"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-053",
+        "EVD-B04-054"
+      ],
+      "aliases": [],
+      "atlasIds": [
+        "wancheng"
+      ],
+      "regionAliases": [],
+      "display": "site",
+      "note": "Distinct from wan 宛; HHS112 皖 in Lujiang; dataset city anchor only.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷54",
+        "https://zh.wikisource.org/wiki/三國志/卷47"
+      ]
+    },
+    {
+      "id": "juchao",
+      "name": "Cư Sào",
+      "historicalNames": [
+        "居巢"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-053"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "廬江"
+      ],
+      "display": "region",
+      "note": "Region-level representative anchor only; group equal markers; no claim of actual location.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷54"
+      ]
+    },
+    {
+      "id": "lujiang-region",
+      "name": "Lư Giang",
+      "historicalNames": [
+        "廬江"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-053",
+        "EVD-B04-054"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "廬江"
+      ],
+      "display": "region",
+      "note": "Region-level representative anchor only; group equal markers; no claim of actual location.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷54",
+        "https://zh.wikisource.org/wiki/三國志/卷47"
+      ]
+    },
+    {
+      "id": "shaxian",
+      "name": "Sa Tiện",
+      "historicalNames": [
+        "沙羨"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-054",
+        "EVD-B04-094"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "HHS112 Jiangxia; split dataset regions do not select one without independent location.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷47",
+        "https://zh.wikisource.org/wiki/三國志/卷55"
+      ]
+    },
+    {
+      "id": "yuzhang-region",
+      "name": "Dự Chương",
+      "historicalNames": [
+        "豫章"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-055"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "豫章"
+      ],
+      "display": "region",
+      "note": "Region-level representative anchor only; group equal markers; no claim of actual location.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/資治通鑑/卷063"
+      ]
+    },
+    {
+      "id": "luling-region",
+      "name": "Lư Lăng",
+      "historicalNames": [
+        "廬陵"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-055",
+        "EVD-B04-091"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "廬陵・贛南"
+      ],
+      "display": "region",
+      "note": "New commandery chronology from campaign biographies; HHS112 annotation 興平元年 conflicts, record disagreement.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/資治通鑑/卷063",
+        "https://zh.wikisource.org/wiki/三國志/卷51"
+      ]
+    },
+    {
+      "id": "jiaoqiu",
+      "name": "Tiêu Khâu",
+      "historicalNames": [
+        "椒丘"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-055"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "Not a dataset city.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/資治通鑑/卷063"
+      ]
+    },
+    {
+      "id": "dantu",
+      "name": "Đan Đồ",
+      "historicalNames": [
+        "丹徒"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-057"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [
+        "吳郡"
+      ],
+      "display": "region",
+      "note": "HHS112; disputed source place; no exact coordinate.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷46"
+      ]
+    },
+    {
+      "id": "jiangxia-region",
+      "name": "Giang Hạ",
+      "historicalNames": [
+        "江夏"
+      ],
+      "episodes": [
+        "ep-0018"
+      ],
+      "evidence": [
+        "EVD-B04-054",
+        "EVD-B04-069"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "Commandery spans north/south dataset regions; display both polygons/context, not a representative city pin.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷47",
+        "https://zh.wikisource.org/wiki/三國志/卷54"
+      ]
+    },
+    {
+      "id": "qingzhou-region-unresolved",
+      "name": "Thanh Châu",
+      "historicalNames": [
+        "青州"
+      ],
+      "episodes": [
+        "ep-0017"
+      ],
+      "evidence": [
+        "EVD-B04-051"
+      ],
+      "aliases": [],
+      "atlasIds": [],
+      "regionAliases": [],
+      "display": "unresolved",
+      "note": "Province-wide refuge transition, no single coordinate; no route through unresolved stop.",
+      "sources": [
+        "https://zh.wikisource.org/wiki/三國志/卷32"
+      ]
     }
   ],
   "people": [
@@ -2869,6 +3958,2589 @@
           "role": "Hỗ trợ"
         }
       }
+    },
+    {
+      "id": "b04-ev-10-01",
+      "episode": "ep-0010",
+      "year": 196,
+      "dateLabel": "Tháng 7 âm lịch",
+      "anchor": "Tháng bảy, vua trở về Lạc Dương, nhưng triều đình vẫn thiếu nơi ở và lương ăn.",
+      "title": "Triều đình trở về",
+      "place": "luoyang",
+      "placeIds": [
+        "anyi",
+        "wenxi",
+        "luoyang"
+      ],
+      "precision": "site",
+      "note": "An Ấp → Văn Hỷ → Lạc Dương; cung ứng thiếu, các nhóm hộ giá khác nhau. Mốc tháng bảy là Lạc Dương; An Ấp và Văn Hỷ là các chặng trước.",
+      "evidenceIds": [
+        "EVD-B04-001",
+        "EVD-B04-002",
+        "EVD-B04-003",
+        "EVD-B04-010"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "xiandi"
+      ],
+      "roles": {
+        "xiandi": {
+          "rank": 5,
+          "influence": 2,
+          "faction": "han",
+          "factionLabel": "Triều đình Hán",
+          "title": "Hoàng đế",
+          "role": "Vua Hán"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "zhang-yang",
+          "role": "Hộ giá và hỗ trợ",
+          "marker": false
+        },
+        {
+          "person": "dong-cheng",
+          "role": "Hộ giá",
+          "marker": false
+        }
+      ],
+      "source": "[Sử liệu khác] G 建安元年 · 後漢書/卷9",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "label": "[Sử liệu khác] G 建安元年 · 後漢書/卷9"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷062",
+          "label": "[Sử liệu khác] H 196 mục 4 · 資治通鑑/卷062"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-10-02",
+      "episode": "ep-0010",
+      "year": 196,
+      "dateLabel": "196",
+      "anchor": "Triều đình chuyển từ Lạc Dương về Hứa, nơi Tào Tháo có thể cung ứng và bảo vệ.",
+      "title": "Danh nghĩa và thực quyền",
+      "place": "luoyang",
+      "placeIds": [
+        "luoyang",
+        "xu"
+      ],
+      "precision": "site",
+      "note": "Đổng Chiêu đề xuất; Tào đón vua; Hứa trở thành trung tâm. Không ngụ ý vua tự nguyện trao hết quyền.",
+      "evidenceIds": [
+        "EVD-B04-004",
+        "EVD-B04-005",
+        "EVD-B04-006",
+        "EVD-B04-007",
+        "EVD-B04-135",
+        "EVD-B04-151"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "xiandi",
+        "cao-cao"
+      ],
+      "roles": {
+        "xiandi": {
+          "rank": 5,
+          "influence": 2,
+          "faction": "han",
+          "factionLabel": "Triều đình Hán",
+          "title": "Hoàng đế",
+          "role": "Hoàng đế"
+        },
+        "cao-cao": {
+          "rank": 4,
+          "influence": 4,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Được tiết việt, Lục thượng thư sự",
+          "role": "Trụ cột quân sự"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "dong-zhao",
+          "role": "Đề xuất dời đô",
+          "marker": false
+        },
+        {
+          "person": "xu-huang",
+          "role": "Đổi chủ",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] A 建安元年 · 三國志/卷01",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安元年 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "label": "[Sử liệu mâu thuẫn] G 建安元年 · 後漢書/卷9"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志_(四庫全書本)/魏志/卷14",
+          "label": "[Chính sử] 三國志 魏志卷14 董昭 (Siku witness)"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷17",
+          "label": "[Chính sử] 三國志/卷17 徐晃 L162–163 · 三國志/卷17"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-10-03",
+      "episode": "ep-0010",
+      "year": 196,
+      "dateLabel": "196 · khu vực Hứa",
+      "anchor": "Đồn điền biến bài toán quân lương thành một công việc tổ chức sản xuất dài hạn.",
+      "title": "Đồn điền",
+      "place": "xu",
+      "placeIds": [
+        "xu"
+      ],
+      "precision": "site",
+      "note": "Táo Chi đề xuất, Hàn Hạo được ghi cùng chủ trương, Nhậm Tuấn tổ chức; thu hoạch hỗ trợ quân lương.",
+      "evidenceIds": [
+        "EVD-B04-008",
+        "EVD-B04-009",
+        "EVD-B04-081",
+        "EVD-B04-082"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [],
+      "roles": {},
+      "contextParticipants": [
+        {
+          "person": "zao-zhi",
+          "role": "Đề xuất",
+          "marker": false
+        },
+        {
+          "person": "han-hao",
+          "role": "Tham gia chủ trương",
+          "marker": false
+        },
+        {
+          "person": "ren-jun",
+          "role": "Tổ chức",
+          "marker": false
+        },
+        {
+          "person": "cao-cao",
+          "role": "Chấp thuận",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] A 建安元年 · 三國志/卷01",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安元年 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷16",
+          "label": "[Chính sử] 三國志/卷16 任峻 · 三國志/卷16"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-11-01",
+      "episode": "ep-0011",
+      "year": 196,
+      "dateLabel": "196",
+      "anchor": "Lữ Bố chiếm Hạ Bì khi Lưu Bị đang chống Viên Thuật.",
+      "title": "Chủ nhà mất căn cứ",
+      "place": "xiapi",
+      "placeIds": [
+        "xiapi",
+        "xuyi",
+        "huaiyin"
+      ],
+      "precision": "site",
+      "note": "Lưu chống Thuật, Tào Báo và Trương Phi xung đột, Lữ chiếm Hạ Bì. Dị bản chi tiết khác nhau.",
+      "evidenceIds": [
+        "EVD-B04-011",
+        "EVD-B04-012",
+        "EVD-B04-013",
+        "EVD-B04-014",
+        "EVD-B04-161"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "lu-bu",
+        "zhang-fei",
+        "cao-bao"
+      ],
+      "roles": {
+        "lu-bu": {
+          "rank": 3,
+          "influence": 4,
+          "faction": "lu-bu",
+          "factionLabel": "Lực lượng Lữ Bố",
+          "title": "Chủ lực chiếm Hạ Bì",
+          "role": "Chiếm Hạ Bì"
+        },
+        "zhang-fei": {
+          "rank": 2,
+          "influence": 2,
+          "faction": "liubei",
+          "factionLabel": "Lực lượng Lưu Bị",
+          "title": "Thuộc tướng giữ hậu phương",
+          "role": "Giữ hậu phương"
+        },
+        "cao-bao": {
+          "rank": 2,
+          "influence": 2,
+          "faction": "liubei",
+          "factionLabel": "Lực lượng Lưu Bị",
+          "title": "Tướng giữ thành, liên kết đổi",
+          "role": "Xung đột"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "liu-bei",
+          "role": "Mất căn cứ",
+          "marker": false
+        },
+        {
+          "person": "yuan-shu",
+          "role": "Đối địch",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] C 建安元年 · 三國志/卷32",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "label": "[Chính sử] C 建安元年 · 三國志/卷32"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Bùi chú] B 英雄記 · 三國志/卷07"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷062",
+          "label": "[Sử liệu khác] H 196 mục 5 · 資治通鑑/卷062"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-11-02",
+      "episode": "ep-0011",
+      "year": 196,
+      "dateLabel": "196",
+      "anchor": "Mi Trúc dùng gia sản để giúp Lưu Bị duy trì lực lượng sau khi mất Hạ Bì.",
+      "title": "Gia sản thành nguồn lực",
+      "place": "haixi",
+      "placeIds": [
+        "haixi",
+        "xiaopei"
+      ],
+      "precision": "region",
+      "note": "Mi Trúc giúp Lưu; Lưu cầu hòa, gia đình được trả, về Tiểu Bái.",
+      "evidenceIds": [
+        "EVD-B04-014",
+        "EVD-B04-115",
+        "EVD-B04-161"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "liu-bei"
+      ],
+      "roles": {
+        "liu-bei": {
+          "rank": 3,
+          "influence": 2,
+          "faction": "liubei",
+          "factionLabel": "Lực lượng Lưu Bị",
+          "title": "Trấn Đông tướng quân (bổ nhiệm trong năm)",
+          "role": "Tiếp nhận"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "mi-zhu",
+          "role": "Cấp nguồn lực",
+          "marker": false
+        }
+      ],
+      "source": "[Sử liệu khác] H 196 mục 5 · 資治通鑑/卷062",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷062",
+          "label": "[Sử liệu khác] H 196 mục 5 · 資治通鑑/卷062"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷38",
+          "label": "[Chính sử] 三國志/卷38 麋竺 · 三國志/卷38"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "label": "[Chính sử] 三國志卷32 先主 · 三國志/卷32"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-11-03",
+      "episode": "ep-0011",
+      "year": 196,
+      "dateLabel": "196",
+      "anchor": "Lữ Bố cứu Lưu Bị vì một Viên Thuật mạnh hơn cũng có thể đe dọa Lữ Bố.",
+      "title": "Cân bằng ba phe",
+      "place": "xiaopei",
+      "placeIds": [
+        "xiaopei"
+      ],
+      "precision": "site",
+      "note": "Lữ cứu Lưu trước Kỷ Linh để tránh Viên Thuật mạnh hơn; không diễn cảnh tiểu thuyết như chính sử.",
+      "evidenceIds": [
+        "EVD-B04-015",
+        "EVD-B04-102"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "lu-bu",
+        "liu-bei",
+        "ji-ling"
+      ],
+      "roles": {
+        "lu-bu": {
+          "rank": 3,
+          "influence": 4,
+          "faction": "lu-bu",
+          "factionLabel": "Lực lượng Lữ Bố",
+          "title": "Chủ lực Hạ Bì",
+          "role": "Can thiệp"
+        },
+        "liu-bei": {
+          "rank": 3,
+          "influence": 2,
+          "faction": "liubei",
+          "factionLabel": "Lực lượng Lưu Bị",
+          "title": "Trấn Đông tướng quân",
+          "role": "Được cứu"
+        },
+        "ji-ling": {
+          "rank": 2,
+          "influence": 2,
+          "faction": "yuan-shu",
+          "factionLabel": "Lực lượng Viên Thuật",
+          "title": "Tướng Viên Thuật",
+          "role": "Quân Viên Thuật"
+        }
+      },
+      "contextParticipants": [],
+      "source": "[Chính sử] B 紀靈攻備 · 三國志/卷07",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 紀靈攻備 · 三國志/卷07"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國演義/第016回",
+          "label": "[Tiểu thuyết] 三國演義 第016回 · 三國演義/第016回"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-11-04",
+      "episode": "ep-0011",
+      "year": 196,
+      "dateLabel": "196",
+      "anchor": "Lữ Bố giữ được Hạ Bì, nhưng ngay trong quân của mình đã có một cuộc nổi dậy.",
+      "title": "Bộ máy Lữ rạn",
+      "place": "xiapi",
+      "placeIds": [
+        "xiapi"
+      ],
+      "precision": "site",
+      "note": "Hác Manh nổi dậy; Cao Thuận dẹp; lời Cao Tính là chứng từ riêng.",
+      "evidenceIds": [
+        "EVD-B04-016",
+        "EVD-B04-158"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "lu-bu",
+        "hao-meng",
+        "gao-shun",
+        "cao-xing"
+      ],
+      "roles": {
+        "lu-bu": {
+          "rank": 3,
+          "influence": 4,
+          "faction": "lu-bu",
+          "factionLabel": "Lực lượng Lữ Bố",
+          "title": "Chủ lực Hạ Bì",
+          "role": "Chủ lực"
+        },
+        "hao-meng": {
+          "rank": 2,
+          "influence": 2,
+          "faction": "lu-bu",
+          "factionLabel": "Lực lượng Lữ Bố",
+          "title": "Tướng có quân riêng, nổi dậy",
+          "role": "Nổi dậy"
+        },
+        "gao-shun": {
+          "rank": 2,
+          "influence": 2,
+          "faction": "lu-bu",
+          "factionLabel": "Lực lượng Lữ Bố",
+          "title": "Thuộc tướng",
+          "role": "Dẹp loạn"
+        },
+        "cao-xing": {
+          "rank": 2,
+          "influence": 2,
+          "faction": "lu-bu",
+          "factionLabel": "Lực lượng Lữ Bố",
+          "title": "Thuộc tướng, sau được giao quân Hác",
+          "role": "Khai báo"
+        }
+      },
+      "contextParticipants": [],
+      "source": "[Bùi chú] B 英雄記 建安元年 · 三國志/卷07",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Bùi chú] B 英雄記 建安元年 · 三國志/卷07"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷07",
+          "label": "[Bùi chú] 三國志/卷07 呂布 引英雄記 L142 · 三國志/卷07"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-12-01",
+      "episode": "ep-0012",
+      "year": 196,
+      "dateLabel": "195–196 · niên đại dị bản",
+      "anchor": "Tôn Sách và Chu Du mở đường từ Lịch Dương vào các địa bàn của Lưu Do.",
+      "title": "Qua sông dựng thế",
+      "place": "liyang",
+      "placeIds": [
+        "liyang",
+        "moling",
+        "qua",
+        "danyang-region"
+      ],
+      "precision": "site",
+      "note": "Lịch Dương, Mạt Lăng, Khúc A là các mốc; đoạn chưa định vị không vẽ.",
+      "evidenceIds": [
+        "EVD-B04-017",
+        "EVD-B04-018",
+        "EVD-B04-019",
+        "EVD-B04-020",
+        "EVD-B04-117"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "sun-ce",
+        "zhou-yu"
+      ],
+      "roles": {
+        "sun-ce": {
+          "rank": 3,
+          "influence": 3,
+          "faction": "sun-ce",
+          "factionLabel": "Lực lượng Tôn Sách",
+          "title": "Tạm hành Điện khấu tướng quân",
+          "role": "Chỉ huy"
+        },
+        "zhou-yu": {
+          "rank": 1,
+          "influence": 2,
+          "faction": "sun-ce",
+          "factionLabel": "Lực lượng Tôn Sách",
+          "title": "Mang quân hỗ trợ",
+          "role": "Phối hợp"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "liu-yao",
+          "role": "Đối địch",
+          "marker": false
+        },
+        {
+          "person": "wu-jing",
+          "role": "Hỗ trợ",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] D 孫策 劉繇爲揚州刺史 · 三國志/卷46",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷46",
+          "label": "[Chính sử] D 孫策 劉繇爲揚州刺史 · 三國志/卷46"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "label": "[Chính sử] F 周瑜 初 · 三國志/卷54"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷50",
+          "label": "[Chính sử] 三國志/卷50 吳夫人 · 三國志/卷50"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-12-02",
+      "episode": "ep-0012",
+      "year": 196,
+      "dateLabel": "195–196+ · chưa chắc năm",
+      "anchor": "Cuộc giao tranh ở Thần Đình chưa phải lúc Thái Sử Từ đầu hàng.",
+      "title": "Thần Đình khác lúc thu hàng",
+      "place": null,
+      "placeIds": [
+        "shen-ting",
+        "wuhu",
+        "jingxian"
+      ],
+      "precision": "text-only",
+      "note": "Tách giao tranh Thần Đình và lần bắt/thu dùng sau đó; không định ngày.",
+      "evidenceIds": [
+        "EVD-B04-070",
+        "EVD-B04-071",
+        "EVD-B04-072",
+        "EVD-B04-100",
+        "EVD-B04-101"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [],
+      "roles": {},
+      "contextParticipants": [
+        {
+          "person": "sun-ce",
+          "role": "Thu dùng",
+          "marker": false
+        },
+        {
+          "person": "taishi-ci",
+          "role": "Đối địch rồi theo Sách",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] 三國志卷49 太史慈 · 三國志/卷49",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷49",
+          "label": "[Chính sử] 三國志卷49 太史慈 · 三國志/卷49"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國演義/第015回",
+          "label": "[Tiểu thuyết] 三國演義 第015回 · 三國演義/第015回"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-12-03",
+      "episode": "ep-0012",
+      "year": 196,
+      "dateLabel": "195–196",
+      "anchor": "Các quận Giang Đông bắt đầu được giao cho những người thuộc mạng lưới của Tôn Sách.",
+      "title": "Quản lý quận",
+      "place": "kuaiji-region",
+      "placeIds": [
+        "kuaiji-region",
+        "wu-region",
+        "danyang-region"
+      ],
+      "precision": "region",
+      "note": "Vương Lãng rút; Trình Phổ, Chu Trị, Ngô Cảnh và các đầu mối; không tô biên giới nhà nước.",
+      "evidenceIds": [
+        "EVD-B04-065",
+        "EVD-B04-068",
+        "EVD-B04-078",
+        "EVD-B04-093"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "sun-ce",
+        "wang-lang"
+      ],
+      "roles": {
+        "sun-ce": {
+          "rank": 3,
+          "influence": 4,
+          "faction": "sun-ce",
+          "factionLabel": "Lực lượng Tôn Sách",
+          "title": "Tự lĩnh Cối Kê thái thú",
+          "role": "Phân công"
+        },
+        "wang-lang": {
+          "rank": 3,
+          "influence": 2,
+          "faction": "han",
+          "factionLabel": "Triều đình Hán",
+          "title": "Cối Kê thái thú do Hán bổ",
+          "role": "Chống cự"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "yu-fan",
+          "role": "Khuyên",
+          "marker": false
+        },
+        {
+          "person": "cheng-pu",
+          "role": "Quản quân",
+          "marker": false
+        },
+        {
+          "person": "zhu-zhi",
+          "role": "Quản quận",
+          "marker": false
+        },
+        {
+          "person": "wu-jing",
+          "role": "Quản quận",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] 三國志卷46 孫策 · 三國志/卷46",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷46",
+          "label": "[Chính sử] 三國志卷46 孫策 · 三國志/卷46"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷13",
+          "label": "[Chính sử] 三國志卷13 王朗 · 三國志/卷13"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷55",
+          "label": "[Chính sử] 三國志/卷55 程普 L140–142 · 三國志/卷55"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-13-01",
+      "episode": "ep-0013",
+      "year": 197,
+      "dateLabel": "197",
+      "anchor": "Viên Thuật tự lập một triều đình trong khi triều đình nhà Hán vẫn tồn tại.",
+      "title": "Hai trung tâm xưng đế",
+      "place": "huainan",
+      "placeIds": [
+        "huainan",
+        "xu"
+      ],
+      "precision": "region",
+      "note": "Hán Hiến Đế ở Hứa; Viên Thuật tự xưng tại Hoài Nam. Tước hiệu không phải thực quyền.",
+      "evidenceIds": [
+        "EVD-B04-021",
+        "EVD-B04-073",
+        "EVD-B04-074",
+        "EVD-B04-083",
+        "EVD-B04-084",
+        "EVD-B04-148"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "yuan-shu"
+      ],
+      "roles": {
+        "yuan-shu": {
+          "rank": 5,
+          "influence": 3,
+          "faction": "yuan-shu",
+          "factionLabel": "Lực lượng Viên Thuật",
+          "title": "Tự xưng đế, không phải chức Hán",
+          "role": "Tự xưng"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "xiandi",
+          "role": "Vua Hán",
+          "marker": false
+        },
+        {
+          "person": "yan-xiang",
+          "role": "Can trước đó (195)",
+          "marker": false
+        }
+      ],
+      "source": "[Sử liệu khác] G 建安二年 · 後漢書/卷9",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "label": "[Sử liệu khác] G 建安二年 · 後漢書/卷9"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷75",
+          "label": "[Sử liệu khác] 後漢書卷75 袁術 · 後漢書/卷75"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷06",
+          "label": "[Chính sử] 三國志/卷06 袁術 L183 · 三國志/卷06"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷06",
+          "label": "[Chính sử] 三國志/卷06 袁術 L183 · 三國志/卷06"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-13-02",
+      "episode": "ep-0013",
+      "year": 197,
+      "dateLabel": "197",
+      "anchor": "Tôn Sách cắt quan hệ với người từng cấp quân cho mình.",
+      "title": "Tôn Sách cắt quan hệ",
+      "place": "huainan",
+      "placeIds": [
+        "huainan",
+        "liyang"
+      ],
+      "precision": "region",
+      "note": "Tách khỏi người từng cấp quân, Tôn Bí/Ngô Cảnh có lựa chọn riêng.",
+      "evidenceIds": [
+        "EVD-B04-022",
+        "EVD-B04-116",
+        "EVD-B04-117"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [],
+      "roles": {},
+      "contextParticipants": [
+        {
+          "person": "sun-ce",
+          "role": "Cắt quan hệ",
+          "marker": false
+        },
+        {
+          "person": "yuan-shu",
+          "role": "Người bảo trợ cũ",
+          "marker": false
+        },
+        {
+          "person": "sun-ben",
+          "role": "Không theo Thuật",
+          "marker": false
+        },
+        {
+          "person": "wu-jing",
+          "role": "Không theo Thuật",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] D 孫策 僭號 · 三國志/卷46",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷46",
+          "label": "[Chính sử] D 孫策 僭號 · 三國志/卷46"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷51",
+          "label": "[Chính sử] 三國志/卷51 孫賁 · 三國志/卷51"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷50",
+          "label": "[Chính sử] 三國志/卷50 吳夫人 · 三國志/卷50"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-13-03",
+      "episode": "ep-0013",
+      "year": 197,
+      "dateLabel": "197",
+      "anchor": "Con gái Lữ Bố chưa tới nhà trai thì hôn ước chính trị đã bị hủy.",
+      "title": "Hôn ước và ngoại giao",
+      "place": "xiapi",
+      "placeIds": [
+        "xiapi",
+        "xu",
+        "guangling-region"
+      ],
+      "precision": "site",
+      "note": "Hủy hôn; Hàn Dận bị giết; Trần Khuê/Trần Đăng thay đổi quan hệ.",
+      "evidenceIds": [
+        "EVD-B04-023",
+        "EVD-B04-024",
+        "EVD-B04-097"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "lu-bu"
+      ],
+      "roles": {
+        "lu-bu": {
+          "rank": 4,
+          "influence": 4,
+          "faction": "lu-bu",
+          "factionLabel": "Lực lượng Lữ Bố",
+          "title": "Tả tướng quân (triều đình công nhận trong diễn biến)",
+          "role": "Hủy hôn"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "yuan-shu",
+          "role": "Muốn kết minh",
+          "marker": false
+        },
+        {
+          "person": "chen-gui",
+          "role": "Khuyên",
+          "marker": false
+        },
+        {
+          "person": "chen-deng",
+          "role": "Đi sứ",
+          "marker": false
+        },
+        {
+          "person": "han-yin",
+          "role": "Sứ giả",
+          "marker": false,
+          "name": "Hàn Dận"
+        }
+      ],
+      "source": "[Chính sử] B 術欲結布爲援 · 三國志/卷07",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 術欲結布爲援 · 三國志/卷07"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷06",
+          "label": "[Chính sử] 三國志/卷06 袁術 L182 · 三國志/卷06"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-13-04",
+      "episode": "ep-0013",
+      "year": 197,
+      "dateLabel": "197",
+      "anchor": "Hàn Xiêm và Dương Phụng đổi phe, khiến liên minh đánh Lữ Bố tan vỡ.",
+      "title": "Liên minh đổi phe",
+      "place": "xiapi",
+      "placeIds": [
+        "xiapi",
+        "huainan",
+        "chen"
+      ],
+      "precision": "site",
+      "note": "Hàn Xiêm, Dương Phụng chuyển sang Lữ; Trương Huân thất bại; không minh họa chiến thuật giả.",
+      "evidenceIds": [
+        "EVD-B04-025",
+        "EVD-B04-026",
+        "EVD-B04-148"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [],
+      "roles": {},
+      "contextParticipants": [
+        {
+          "person": "han-xian",
+          "role": "Đổi phe",
+          "marker": false
+        },
+        {
+          "person": "yang-feng",
+          "role": "Đổi phe",
+          "marker": false
+        },
+        {
+          "person": "lu-bu",
+          "role": "Được hỗ trợ",
+          "marker": false
+        },
+        {
+          "person": "zhang-xun",
+          "role": "Chỉ huy Viên Thuật",
+          "marker": false
+        },
+        {
+          "person": "cao-cao",
+          "role": "Chống Thuật",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] B 術怒 · 三國志/卷07",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 術怒 · 三國志/卷07"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安二年秋九月 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷06",
+          "label": "[Chính sử] 三國志/卷06 袁術 L183 · 三國志/卷06"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-14-01",
+      "episode": "ep-0014",
+      "year": 196,
+      "dateLabel": "196",
+      "anchor": "Trương Tú tiếp quản quân của Trương Tế và trở thành một thế lực ở Nam Dương.",
+      "title": "Trương Tú kế quân",
+      "place": "wan",
+      "placeIds": [
+        "wan"
+      ],
+      "precision": "site",
+      "note": "Trương Tế mất; cháu kế quân; dựa vào Lưu Biểu. Nam Dương là bối cảnh; không gán nơi chết Trương Tế hay thời điểm kế quân tại Uyển.",
+      "evidenceIds": [
+        "EVD-B04-027",
+        "EVD-B04-062",
+        "EVD-B04-076"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [],
+      "roles": {},
+      "contextParticipants": [
+        {
+          "person": "zhang-ji",
+          "role": "Chủ quân trước",
+          "marker": false
+        },
+        {
+          "person": "zhang-xiu",
+          "role": "Kế quân",
+          "marker": false
+        },
+        {
+          "person": "liu-biao",
+          "role": "Chỗ dựa",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] A 建安元年 · 三國志/卷01",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安元年 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷08",
+          "label": "[Chính sử] 三國志卷08 張繡 · 三國志/卷08"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷10",
+          "label": "[Chính sử] 三國志卷10 賈詡 · 三國志/卷10"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-14-02",
+      "episode": "ep-0014",
+      "year": 197,
+      "dateLabel": "Tháng giêng âm lịch 197",
+      "anchor": "Trương Tú quay lại chống Tào sau khi đã đầu hàng.",
+      "title": "Hàng rồi phản",
+      "place": "wan",
+      "placeIds": [
+        "wan"
+      ],
+      "precision": "site",
+      "note": "Đầu hàng không bền; các nguyên nhân theo từng nguồn, không tái dựng cảnh bạo lực.",
+      "evidenceIds": [
+        "EVD-B04-028",
+        "EVD-B04-029",
+        "EVD-B04-062"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "cao-cao",
+        "zhang-xiu"
+      ],
+      "roles": {
+        "cao-cao": {
+          "rank": 4,
+          "influence": 4,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Tư không, hành Xa kỵ tướng quân",
+          "role": "Bị đánh bất ngờ"
+        },
+        "zhang-xiu": {
+          "rank": 3,
+          "influence": 3,
+          "faction": "zhang-xiu",
+          "factionLabel": "Lực lượng Trương Tú",
+          "title": "Chủ quân Nam Dương",
+          "role": "Phản"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "jia-xu",
+          "role": "Trong bộ máy Trương Tú",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] A 建安二年春正月 · 三國志/卷01",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安二年春正月 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷08",
+          "label": "[Chính sử] 三國志卷08 張繡 · 三國志/卷08"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-14-03",
+      "episode": "ep-0014",
+      "year": 197,
+      "dateLabel": "197",
+      "anchor": "Tào Ngang, Tào An Dân và Điển Vi không trở về từ Uyển.",
+      "title": "Ba người không về",
+      "place": "wan",
+      "placeIds": [
+        "wan"
+      ],
+      "precision": "site",
+      "note": "Tào Ngang, Tào An Dân, Điển Vi; ghi cái chết theo nguồn, không dựng lời thoại.",
+      "evidenceIds": [
+        "EVD-B04-028",
+        "EVD-B04-029",
+        "EVD-B04-063",
+        "EVD-B04-140",
+        "EVD-B04-141"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "cao-cao",
+        "cao-ang",
+        "dian-wei"
+      ],
+      "roles": {
+        "cao-cao": {
+          "rank": 4,
+          "influence": 4,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Tư không, hành Xa kỵ tướng quân",
+          "role": "Mất người thân và hộ vệ"
+        },
+        "cao-ang": {
+          "rank": 1,
+          "influence": 1,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Hiếu liêm, theo cha nam chinh",
+          "role": "Tử trận"
+        },
+        "dian-wei": {
+          "rank": 2,
+          "influence": 2,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Cận vệ chỉ huy thuộc hạ",
+          "role": "Tử trận"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "cao-anmin",
+          "role": "Tử trận",
+          "marker": false,
+          "name": "Tào An Dân"
+        }
+      ],
+      "source": "[Chính sử] A 建安二年春正月 · 三國志/卷01",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安二年春正月 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷18",
+          "label": "[Chính sử] 三國志卷18 典韋 · 三國志/卷18"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷20",
+          "label": "[Chính sử] 三國志/卷20 豐愍王昂 L155–161 · 三國志/卷20"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷05",
+          "label": "[Bùi chú] 三國志/卷05 武宣卞皇后 引魏略 L139 · 三國志/卷05"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-14-04",
+      "episode": "ep-0014",
+      "year": 197,
+      "dateLabel": "197",
+      "anchor": "Vu Cấm duy trì trật tự khi quân Tào rơi vào cảnh thất bại.",
+      "title": "Giữ kỷ luật",
+      "place": null,
+      "placeIds": [],
+      "precision": "text-only",
+      "note": "Vu Cấm tập hợp quân, xử lý cướp bóc; không diễn tập chiến thuật. Địa điểm cụ thể trong lúc thu quân chưa đủ căn cứ để ghim tại Uyển.",
+      "evidenceIds": [
+        "EVD-B04-149"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [],
+      "roles": {},
+      "contextParticipants": [
+        {
+          "person": "yu-jin",
+          "role": "Giữ kỷ luật",
+          "marker": false
+        },
+        {
+          "person": "cao-cao",
+          "role": "Chủ lực",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] 三國志/卷17 于禁 L145 · 三國志/卷17",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷17",
+          "label": "[Chính sử] 三國志/卷17 于禁 L145 · 三國志/卷17"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-14-05",
+      "episode": "ep-0014",
+      "year": 198,
+      "dateLabel": "197–198",
+      "anchor": "Đến năm 198, Trương Tú vẫn còn lực lượng riêng và vẫn liên kết với Lưu Biểu.",
+      "title": "Mặt trận nam vẫn mở",
+      "place": "rang",
+      "placeIds": [
+        "rang",
+        "wuyin",
+        "huyang",
+        "anzhong"
+      ],
+      "precision": "region",
+      "note": "Tào đánh lại, Trương Tú còn quân và liên kết Lưu Biểu; năm 198 không phải đã hàng.",
+      "evidenceIds": [
+        "EVD-B04-030",
+        "EVD-B04-031",
+        "EVD-B04-032",
+        "EVD-B04-076"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "cao-cao",
+        "zhang-xiu"
+      ],
+      "roles": {
+        "cao-cao": {
+          "rank": 4,
+          "influence": 4,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Tư không, hành Xa kỵ tướng quân",
+          "role": "Tiến quân"
+        },
+        "zhang-xiu": {
+          "rank": 3,
+          "influence": 3,
+          "faction": "zhang-xiu",
+          "factionLabel": "Lực lượng Trương Tú",
+          "title": "Chủ quân Nam Dương",
+          "role": "Chống"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "liu-biao",
+          "role": "Chi viện",
+          "marker": false
+        },
+        {
+          "person": "jia-xu",
+          "role": "Tham mưu",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] A 建安二年 · 三國志/卷01",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安二年 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷10",
+          "label": "[Chính sử] 三國志卷10 賈詡 · 三國志/卷10"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-15-01",
+      "episode": "ep-0015",
+      "year": 198,
+      "dateLabel": "198",
+      "anchor": "Lưu Bị mất Tiểu Bái và tìm sự hỗ trợ của Tào Tháo.",
+      "title": "Tiểu Bái đổi chủ",
+      "place": "xiaopei",
+      "placeIds": [
+        "xiaopei"
+      ],
+      "precision": "site",
+      "note": "Cao Thuận đánh Lưu; gia đình Lưu bị bắt; Hạ Hầu Đôn trợ chiến.",
+      "evidenceIds": [
+        "EVD-B04-033",
+        "EVD-B04-122",
+        "EVD-B04-161"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "gao-shun",
+        "liu-bei"
+      ],
+      "roles": {
+        "gao-shun": {
+          "rank": 2,
+          "influence": 2,
+          "faction": "lu-bu",
+          "factionLabel": "Lực lượng Lữ Bố",
+          "title": "Tướng đánh Lưu Bị",
+          "role": "Đánh Lưu"
+        },
+        "liu-bei": {
+          "rank": 3,
+          "influence": 2,
+          "faction": "liubei",
+          "factionLabel": "Lực lượng Lưu Bị",
+          "title": "Chủ lực Tiểu Bái",
+          "role": "Mất căn cứ"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "xiahou-dun",
+          "role": "Cứu viện",
+          "marker": false
+        },
+        {
+          "person": "lu-bu",
+          "role": "Chủ quân",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] A 建安三年 · 三國志/卷01",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安三年 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷09",
+          "label": "[Chính sử] 三國志/卷09 夏侯惇 · 三國志/卷09"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "label": "[Chính sử] 三國志卷32 先主 · 三國志/卷32"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-15-02",
+      "episode": "ep-0015",
+      "year": 198,
+      "dateLabel": "198",
+      "anchor": "Trần Đăng từ người đi xin chức cho Lữ Bố trở thành người phối hợp đánh Lữ Bố.",
+      "title": "Trần Đăng đổi vai",
+      "place": "pengcheng",
+      "placeIds": [
+        "pengcheng",
+        "xiapi"
+      ],
+      "precision": "site",
+      "note": "Từ sứ giả thành người phối hợp Tào; không gán lời hứa ngoài nguồn.",
+      "evidenceIds": [
+        "EVD-B04-034",
+        "EVD-B04-138"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "cao-cao"
+      ],
+      "roles": {
+        "cao-cao": {
+          "rank": 4,
+          "influence": 4,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Tư không, hành Xa kỵ tướng quân",
+          "role": "Tiến quân"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "chen-deng",
+          "role": "Phối hợp",
+          "marker": false
+        },
+        {
+          "person": "lu-bu",
+          "role": "Đối địch",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] A 建安三年 · 三國志/卷01",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安三年 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷07",
+          "label": "[Chính sử] 三國志卷07 陳登 L155 · 三國志/卷07"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-15-03",
+      "episode": "ep-0015",
+      "year": 198,
+      "dateLabel": "198",
+      "anchor": "Quân Tào tiếp tục vây Hạ Bì và dùng nước gây sức ép lên thành.",
+      "title": "Áp lực lên Hạ Bì",
+      "place": "xiapi",
+      "placeIds": [
+        "xiapi",
+        "sishui",
+        "yishui"
+      ],
+      "precision": "site",
+      "note": "Quây thành và dùng nước theo sử; biểu tượng nước, không mô phỏng công trình hoặc hướng dòng.",
+      "evidenceIds": [
+        "EVD-B04-034",
+        "EVD-B04-035",
+        "EVD-B04-036",
+        "EVD-B04-136",
+        "EVD-B04-139",
+        "EVD-B04-159"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "cao-cao",
+        "lu-bu",
+        "hou-cheng",
+        "wei-xu"
+      ],
+      "roles": {
+        "cao-cao": {
+          "rank": 4,
+          "influence": 4,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Tư không, hành Xa kỵ tướng quân",
+          "role": "Vây"
+        },
+        "lu-bu": {
+          "rank": 4,
+          "influence": 3,
+          "faction": "lu-bu",
+          "factionLabel": "Lực lượng Lữ Bố",
+          "title": "Tả tướng quân, đang bị vây",
+          "role": "Bị vây"
+        },
+        "hou-cheng": {
+          "rank": 2,
+          "influence": 2,
+          "faction": "lu-bu",
+          "factionLabel": "Lực lượng Lữ Bố",
+          "title": "Thuộc tướng",
+          "role": "Đổi phe"
+        },
+        "wei-xu": {
+          "rank": 2,
+          "influence": 2,
+          "faction": "lu-bu",
+          "factionLabel": "Lực lượng Lữ Bố",
+          "title": "Thuộc tướng",
+          "role": "Đổi phe"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "xun-you",
+          "role": "Hiến kế",
+          "marker": false
+        },
+        {
+          "person": "guo-jia",
+          "role": "Hiến kế",
+          "marker": false
+        },
+        {
+          "person": "song-xian",
+          "role": "Đổi phe",
+          "marker": false,
+          "name": "Tống Hiến"
+        }
+      ],
+      "source": "[Chính sử] A 建安三年 · 三國志/卷01",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安三年 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 建安三年 · 三國志/卷07"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷07",
+          "label": "[Bùi chú] 三國志卷07 呂布 引英雄記 L146 · 三國志/卷07"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-15-04",
+      "episode": "ep-0015",
+      "year": 198,
+      "dateLabel": "Tháng chạp Kiến An 3",
+      "anchor": "Lữ Bố không còn một cuộc đổi chủ nào nữa.",
+      "title": "Một lực lượng tan rã",
+      "place": "xiapi",
+      "placeIds": [
+        "xiapi",
+        "white-gate"
+      ],
+      "precision": "site",
+      "note": "Lữ, Trần Cung, Cao Thuận bị xử tử; Trương Liêu theo Tào; gia đình Lưu được trả; không định tọa độ Bạch Môn.",
+      "evidenceIds": [
+        "EVD-B04-035",
+        "EVD-B04-036",
+        "EVD-B04-037",
+        "EVD-B04-114",
+        "EVD-B04-137",
+        "EVD-B04-161"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "lu-bu",
+        "chen-gong",
+        "gao-shun",
+        "zhang-liao",
+        "cao-cao",
+        "liu-bei"
+      ],
+      "roles": {
+        "lu-bu": {
+          "rank": 4,
+          "influence": 1,
+          "faction": "lu-bu",
+          "factionLabel": "Lực lượng Lữ Bố",
+          "title": "Tả tướng quân trước khi bị xử tử",
+          "role": "Bị xử tử"
+        },
+        "chen-gong": {
+          "rank": 2,
+          "influence": 1,
+          "faction": "lu-bu",
+          "factionLabel": "Lực lượng Lữ Bố",
+          "title": "Mưu sĩ bị bắt",
+          "role": "Bị xử tử"
+        },
+        "gao-shun": {
+          "rank": 2,
+          "influence": 1,
+          "faction": "lu-bu",
+          "factionLabel": "Lực lượng Lữ Bố",
+          "title": "Thuộc tướng bị bắt",
+          "role": "Bị xử tử"
+        },
+        "zhang-liao": {
+          "rank": 3,
+          "influence": 2,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Sau khi hàng: Trung lang tướng, Quan nội hầu",
+          "role": "Theo Tào"
+        },
+        "cao-cao": {
+          "rank": 4,
+          "influence": 4,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Tư không, hành Xa kỵ tướng quân",
+          "role": "Thắng"
+        },
+        "liu-bei": {
+          "rank": 3,
+          "influence": 2,
+          "faction": "liubei",
+          "factionLabel": "Lực lượng Lưu Bị",
+          "title": "Lực lượng đồng minh",
+          "role": "Được trả gia đình"
+        }
+      },
+      "contextParticipants": [],
+      "source": "[Chính sử] B 建安三年 · 三國志/卷07",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 建安三年 · 三國志/卷07"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安三年 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷17",
+          "label": "[Chính sử] 三國志/卷17 張遼 · 三國志/卷17"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷07",
+          "label": "[Chính sử] 三國志卷07 陳宮 L151 · 三國志/卷07"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "label": "[Chính sử] 三國志卷32 先主 · 三國志/卷32"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-16-01",
+      "episode": "ep-0016",
+      "year": 199,
+      "dateLabel": "Tháng 3 âm lịch",
+      "anchor": "Tháng ba năm 199, Viên Thiệu đánh bại Công Tôn Toản tại Dịch Kinh.",
+      "title": "Dịch Kinh kết thúc",
+      "place": null,
+      "placeIds": [
+        "yijing"
+      ],
+      "precision": "text-only",
+      "note": "Viên Thiệu thắng, Công Tôn Toản mất; Dịch Kinh chưa có điểm xác định.",
+      "evidenceIds": [
+        "EVD-B04-039",
+        "EVD-B04-086",
+        "EVD-B04-087",
+        "EVD-B04-153"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [],
+      "roles": {},
+      "contextParticipants": [
+        {
+          "person": "yuan-shao",
+          "role": "Thắng",
+          "marker": false
+        },
+        {
+          "person": "gongsun-zan",
+          "role": "Thua và chết",
+          "marker": false
+        },
+        {
+          "person": "guan-jing",
+          "role": "Thuộc hạ",
+          "marker": false
+        },
+        {
+          "person": "gongsun-xu",
+          "role": "Cầu viện",
+          "marker": false,
+          "name": "Công Tôn Tục"
+        },
+        {
+          "person": "zhang-yan",
+          "role": "Cứu viện",
+          "marker": false
+        },
+        {
+          "person": "zhang-he",
+          "role": "Tham chiến",
+          "marker": false
+        }
+      ],
+      "source": "[Sử liệu khác] G 建安四年春三月 · 後漢書/卷9",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "label": "[Sử liệu khác] G 建安四年春三月 · 後漢書/卷9"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷08",
+          "label": "[Chính sử] 三國志/卷08 公孫瓚 L145 · 三國志/卷08"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷17",
+          "label": "[Chính sử] 三國志/卷17 張郃 L152 · 三國志/卷17"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-16-02",
+      "episode": "ep-0016",
+      "year": 199,
+      "dateLabel": "199 · địa bàn miền bắc",
+      "anchor": "Viên Thiệu có thế lực trên bốn châu, nhưng các vùng ấy được quản qua những đầu mối khác nhau.",
+      "title": "Bốn châu, nhiều đầu mối",
+      "place": null,
+      "placeIds": [],
+      "precision": "text-only",
+      "note": "Chỉ sơ đồ đầu mối, không tô đa giác biên giới; danh hiệu Viên Đàm có dị bản.",
+      "evidenceIds": [
+        "EVD-B04-043",
+        "EVD-B04-088",
+        "EVD-B04-157"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [],
+      "roles": {},
+      "contextParticipants": [
+        {
+          "person": "yuan-shao",
+          "role": "Trung tâm",
+          "marker": false
+        },
+        {
+          "person": "yuan-tan",
+          "role": "Thanh",
+          "marker": false
+        },
+        {
+          "person": "yuan-xi",
+          "role": "U",
+          "marker": false
+        },
+        {
+          "person": "gao-gan",
+          "role": "Tịnh",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] A 建安四年 · 三國志/卷01",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安四年 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷06",
+          "label": "[Chính sử] 三國志/卷06 袁紹 L167 · 三國志/卷06"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷06",
+          "label": "[Bùi chú] 三國志/卷06 袁紹 引九州春秋 L167 · 三國志/卷06"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-16-03",
+      "episode": "ep-0016",
+      "year": 199,
+      "dateLabel": "Cuối 198–199",
+      "anchor": "Hà Nội đổi chủ sau khi lực lượng của Trương Dương tan rã.",
+      "title": "Hà Nội đổi chủ",
+      "place": "henei-region",
+      "placeIds": [
+        "henei-region",
+        "shequan"
+      ],
+      "precision": "region",
+      "note": "Trương Dương bị giết, Dương Xú/Tuy Cố đổi thế; Tào tiếp nhận, Ngụy Chủng quản quận.",
+      "evidenceIds": [
+        "EVD-B04-040",
+        "EVD-B04-041",
+        "EVD-B04-145",
+        "EVD-B04-146",
+        "EVD-B04-150",
+        "EVD-B04-152",
+        "EVD-B04-154"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "sui-gu",
+        "cao-ren",
+        "shi-huan",
+        "yu-jin",
+        "xu-huang"
+      ],
+      "roles": {
+        "sui-gu": {
+          "rank": 2,
+          "influence": 2,
+          "faction": "zhang-yang",
+          "factionLabel": "Lực lượng Trương Dương",
+          "title": "Bộ tướng nắm quân cũ",
+          "role": "Giết Dương Xú"
+        },
+        "cao-ren": {
+          "rank": 2,
+          "influence": 3,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Tướng được giao nhiệm vụ",
+          "role": "Tham chiến"
+        },
+        "shi-huan": {
+          "rank": 2,
+          "influence": 2,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Hành Trung quân hiệu úy",
+          "role": "Tham chiến"
+        },
+        "yu-jin": {
+          "rank": 3,
+          "influence": 3,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Ích Thọ đình hầu, chỉ huy quân",
+          "role": "Tham chiến"
+        },
+        "xu-huang": {
+          "rank": 3,
+          "influence": 3,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Đô đình hầu, tướng thuộc Tào",
+          "role": "Tham chiến"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "zhang-yang",
+          "role": "Chủ cũ",
+          "marker": false
+        },
+        {
+          "person": "yang-chou",
+          "role": "Giết Trương Dương",
+          "marker": false,
+          "name": "Dương Xú"
+        },
+        {
+          "person": "wei-zhong",
+          "role": "Quản quận",
+          "marker": false
+        }
+      ],
+      "source": "[Sử liệu khác] G 建安三年冬十一月 · 後漢書/卷9",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "label": "[Sử liệu khác] G 建安三年冬十一月 · 後漢書/卷9"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安四年春 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷08",
+          "label": "[Chính sử] 三國志/卷08 張楊 L159 · 三國志/卷08"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷09",
+          "label": "[Bùi chú] 三國志/卷09 韓浩、史渙 引魏書 L148 · 三國志/卷09"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷17",
+          "label": "[Chính sử] 三國志/卷17 于禁 L145 · 三國志/卷17"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-16-04",
+      "episode": "ep-0016",
+      "year": 199,
+      "dateLabel": "Tháng 6 âm lịch",
+      "anchor": "Viên Thuật chết mà không duy trì được triều đình mình tự lập.",
+      "title": "Đế hiệu không giữ được đất",
+      "place": "shouchun",
+      "placeIds": [
+        "shouchun",
+        "qianshan",
+        "jiangting"
+      ],
+      "precision": "site",
+      "note": "Viên Thuật mất chỗ dựa, chết; Từ Cầu trả ấn; không ghép đường chạy. Thọ Xuân chỉ là căn cứ cũ; nơi chết Giang Đình chưa định vị.",
+      "evidenceIds": [
+        "EVD-B04-042",
+        "EVD-B04-075",
+        "EVD-B04-085",
+        "EVD-B04-144"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [],
+      "roles": {},
+      "contextParticipants": [
+        {
+          "person": "yuan-shu",
+          "role": "Mất thế lực",
+          "marker": false
+        },
+        {
+          "person": "xu-qiu",
+          "role": "Trả ấn",
+          "marker": false
+        },
+        {
+          "person": "liu-bei",
+          "role": "Được giao chặn",
+          "marker": false
+        },
+        {
+          "person": "zhu-ling",
+          "role": "Tham gia",
+          "marker": false
+        }
+      ],
+      "source": "[Sử liệu khác] I 199 tháng 6 · 資治通鑑/卷063",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷063",
+          "label": "[Sử liệu khác] I 199 tháng 6 · 資治通鑑/卷063"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷75",
+          "label": "[Sử liệu khác] 後漢書卷75 袁術 · 後漢書/卷75"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷06",
+          "label": "[Bùi chú] 三國志/卷06 袁術 引吳書 L183 · 三國志/卷06"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/後漢書/卷48",
+          "label": "[Sử liệu khác] 後漢書/卷48 徐璆 L221–223 · 後漢書/卷48"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-17-01",
+      "episode": "ep-0017",
+      "year": 199,
+      "dateLabel": "199 · trước nhiệm vụ chặn Thuật",
+      "anchor": "Tào Tháo nhận xét Lưu Bị là một trong hai anh hùng đương thời.",
+      "title": "Lời nhận xét về anh hùng",
+      "place": "xu",
+      "placeIds": [
+        "xu"
+      ],
+      "precision": "site",
+      "note": "Lời chính văn khác bối cảnh Thanh mai chửu tửu; không vẽ rượu như sự thật.",
+      "evidenceIds": [
+        "EVD-B04-046",
+        "EVD-B04-110"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [],
+      "roles": {},
+      "contextParticipants": [
+        {
+          "person": "cao-cao",
+          "role": "Nhận xét",
+          "marker": false
+        },
+        {
+          "person": "liu-bei",
+          "role": "Được nhận xét",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] C 先主未出時 · 三國志/卷32",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "label": "[Chính sử] C 先主未出時 · 三國志/卷32"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國演義/第021回",
+          "label": "[Tiểu thuyết] 三國演義 第021回 · 三國演義/第021回"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-17-02",
+      "episode": "ep-0017",
+      "year": 199,
+      "dateLabel": "199",
+      "anchor": "Lưu Bị giết Xa Trụ và quay lại nắm một phần Từ Châu.",
+      "title": "Lưu Bị rời mạng lưới Tào",
+      "place": "xiapi",
+      "placeIds": [
+        "xiapi",
+        "xiaopei"
+      ],
+      "precision": "site",
+      "note": "Nhiệm vụ chặn Thuật, giết Xa Trụ, lấy một phần Từ Châu; không giả định đường đi.",
+      "evidenceIds": [
+        "EVD-B04-047",
+        "EVD-B04-089",
+        "EVD-B04-134",
+        "EVD-B04-143",
+        "EVD-B04-155"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "guan-yu"
+      ],
+      "roles": {
+        "guan-yu": {
+          "rank": 3,
+          "influence": 2,
+          "faction": "liubei",
+          "factionLabel": "Lực lượng Lưu Bị",
+          "title": "Hành thái thú sự Hạ Bì",
+          "role": "Giữ Hạ Bì"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "liu-bei",
+          "role": "Đổi phe",
+          "marker": false
+        },
+        {
+          "person": "che-zhou",
+          "role": "Bị giết",
+          "marker": false,
+          "name": "Xa Trụ"
+        },
+        {
+          "person": "sun-qian",
+          "role": "Liên hệ Viên",
+          "marker": false
+        },
+        {
+          "person": "zhu-ling",
+          "role": "Được giao quân",
+          "marker": false
+        },
+        {
+          "person": "liu-dai-199",
+          "role": "Đánh Lưu",
+          "marker": false
+        },
+        {
+          "person": "wang-zhong",
+          "role": "Đánh Lưu",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] C 先主據下邳 · 三國志/卷32",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "label": "[Chính sử] C 先主據下邳 · 三國志/卷32"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷38",
+          "label": "[Chính sử] 三國志/卷38 孫乾 L152 · 三國志/卷38"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷32",
+          "label": "[Chính sử] 三國志卷32 先主 L134–137 · 三國志/卷32"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷17",
+          "label": "[Chính sử] 三國志/卷17 徐晃附朱靈 L171 · 三國志/卷17"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷01",
+          "label": "[Bùi chú] 三國志/卷01 建安四年 引魏武故事／魏略 L186 · 三國志/卷01"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-17-03",
+      "episode": "ep-0017",
+      "year": 199,
+      "dateLabel": "Tháng 11 âm lịch",
+      "anchor": "Trương Tú đầu hàng lần thứ hai, lần này được Tào tiếp nhận vào mạng lưới của mình.",
+      "title": "Lần đầu hàng thứ hai",
+      "place": null,
+      "placeIds": [
+        "xu"
+      ],
+      "precision": "text-only",
+      "note": "Giả Hủ khuyên Trương Tú theo Tào, Tào tiếp nhận; hôn nhân sau đó là quan hệ riêng. Không rõ điểm tiếp nhận; Hứa là bối cảnh triều đình.",
+      "evidenceIds": [
+        "EVD-B04-044",
+        "EVD-B04-064",
+        "EVD-B04-077"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [],
+      "roles": {},
+      "contextParticipants": [
+        {
+          "person": "zhang-xiu",
+          "role": "Đầu hàng",
+          "marker": false
+        },
+        {
+          "person": "jia-xu",
+          "role": "Khuyên",
+          "marker": false
+        },
+        {
+          "person": "cao-cao",
+          "role": "Tiếp nhận",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] A 建安四年冬十一月 · 三國志/卷01",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安四年冬十一月 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷08",
+          "label": "[Chính sử] 三國志卷08 張繡 · 三國志/卷08"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷10",
+          "label": "[Chính sử] 卷10 賈詡 · 三國志/卷10"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-17-04",
+      "episode": "ep-0017",
+      "year": 200,
+      "dateLabel": "Tháng giêng âm lịch",
+      "anchor": "Cùng một âm mưu được các sử liệu đặt trong hai cách nhìn chính trị khác nhau.",
+      "title": "Mật chiếu và mưu phản",
+      "place": "xu",
+      "placeIds": [
+        "xu"
+      ],
+      "precision": "site",
+      "note": "Tách Hậu Hán thư, Tam Quốc chí, dị bản; không xác thực chiếu máu tiểu thuyết.",
+      "evidenceIds": [
+        "EVD-B04-045",
+        "EVD-B04-049",
+        "EVD-B04-108",
+        "EVD-B04-127",
+        "EVD-B04-142"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "xiandi",
+        "cao-cao",
+        "dong-cheng"
+      ],
+      "roles": {
+        "xiandi": {
+          "rank": 5,
+          "influence": 2,
+          "faction": "han",
+          "factionLabel": "Triều đình Hán",
+          "title": "Hoàng đế",
+          "role": "Vua"
+        },
+        "cao-cao": {
+          "rank": 4,
+          "influence": 4,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Tư không",
+          "role": "Trấn áp"
+        },
+        "dong-cheng": {
+          "rank": 4,
+          "influence": 2,
+          "faction": "han",
+          "factionLabel": "Triều đình Hán",
+          "title": "Xa kỵ tướng quân, liên quan mật chiếu",
+          "role": "Liên quan mật chiếu"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "dong-guiren",
+          "role": "Nạn nhân",
+          "marker": false,
+          "name": "Đổng quý nhân"
+        },
+        {
+          "person": "wang-fu",
+          "role": "Liên quan",
+          "marker": false,
+          "name": "Vương Phục (Vương Tử Phục)"
+        },
+        {
+          "person": "zhong-ji",
+          "role": "Liên quan",
+          "marker": false,
+          "name": "Chủng Tập"
+        }
+      ],
+      "source": "[Chính sử] C 先主未出時 · 三國志/卷32",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "label": "[Chính sử] C 先主未出時 · 三國志/卷32"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "label": "[Sử liệu khác] G 建安五年春正月 · 後漢書/卷9"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國演義/第020回",
+          "label": "[Tiểu thuyết] 三國演義 第020回 · 三國演義/第020回"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷10下",
+          "label": "[Sử liệu khác] 後漢書/卷10下 皇后紀 · 後漢書/卷10下"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/後漢書/卷10下",
+          "label": "[Sử liệu khác] 後漢書/卷10下 獻帝伏皇后 L244 · 後漢書/卷10下"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-17-05",
+      "episode": "ep-0017",
+      "year": 200,
+      "dateLabel": "Tháng giêng âm lịch",
+      "anchor": "Quan Vũ bị bắt và nhận chức trong quân Tào, còn Lưu Bị sang với Viên Thiệu.",
+      "title": "Hai người bị chia ra",
+      "place": "xiapi",
+      "placeIds": [
+        "xiapi",
+        "xiaopei",
+        "pingyuan",
+        "qingzhou-region-unresolved"
+      ],
+      "precision": "site",
+      "note": "Quan Vũ theo Tào, Lưu Bị đến Viên Thiệu; chưa kể chiến công Bạch Mã.",
+      "evidenceIds": [
+        "EVD-B04-050",
+        "EVD-B04-051",
+        "EVD-B04-052",
+        "EVD-B04-095",
+        "EVD-B04-120"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "guan-yu"
+      ],
+      "roles": {
+        "guan-yu": {
+          "rank": 3,
+          "influence": 2,
+          "faction": "caocao",
+          "factionLabel": "Lực lượng Tào Tháo",
+          "title": "Sau bị bắt: Thiên tướng quân",
+          "role": "Bị bắt, được phong"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "liu-bei",
+          "role": "Sang Viên",
+          "marker": false
+        },
+        {
+          "person": "cao-cao",
+          "role": "Thắng",
+          "marker": false
+        },
+        {
+          "person": "yuan-shao",
+          "role": "Tiếp nhận",
+          "marker": false
+        },
+        {
+          "person": "yuan-tan",
+          "role": "Đón Lưu",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] A 建安五年春正月 · 三國志/卷01",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安五年春正月 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "label": "[Chính sử] C 先主走青州 · 三國志/卷32"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷063",
+          "label": "[Sử liệu khác] I 200 tháng 1 · 資治通鑑/卷063"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志_(四庫全書本)/蜀志/卷06",
+          "label": "[Chính sử] 三國志_(四庫全書本)/蜀志/卷06 關羽"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷36",
+          "label": "[Chính sử] 三國志/卷36 關羽 · 三國志/卷36"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-18-01",
+      "episode": "ep-0018",
+      "year": 199,
+      "dateLabel": "198–199",
+      "anchor": "Chu Du trở lại với Tôn Sách, còn Tôn Quyền tham gia các chiến dịch của anh.",
+      "title": "Nhà Tôn mở rộng",
+      "place": "wancheng",
+      "placeIds": [
+        "juchao",
+        "wancheng",
+        "lujiang-region",
+        "shaxian",
+        "jiangxia-region"
+      ],
+      "precision": "site",
+      "note": "Chu Du về, Tôn Quyền tham chiến, Lưu Huân mất địa bàn; Hoàn và Uyển khác nhau. Điểm neo Hoàn Thành cho chiến dịch 199; Cư Sào là bối cảnh trước đó.",
+      "evidenceIds": [
+        "EVD-B04-053",
+        "EVD-B04-054",
+        "EVD-B04-069",
+        "EVD-B04-091",
+        "EVD-B04-156"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "sun-ce",
+        "zhou-yu"
+      ],
+      "roles": {
+        "sun-ce": {
+          "rank": 4,
+          "influence": 4,
+          "faction": "sun-ce",
+          "factionLabel": "Lực lượng Tôn Sách",
+          "title": "Thảo nghịch tướng quân, Ngô hầu",
+          "role": "Chủ lực"
+        },
+        "zhou-yu": {
+          "rank": 3,
+          "influence": 3,
+          "faction": "sun-ce",
+          "factionLabel": "Lực lượng Tôn Sách",
+          "title": "Trung hộ quân (199)",
+          "role": "Phối hợp"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "sun-quan",
+          "role": "Tham chiến",
+          "marker": false
+        },
+        {
+          "person": "liu-xun",
+          "role": "Đối địch",
+          "marker": false
+        },
+        {
+          "person": "huang-zu",
+          "role": "Đối địch",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] F 周瑜 建安三年 · 三國志/卷54",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "label": "[Chính sử] F 周瑜 建安三年 · 三國志/卷54"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷47",
+          "label": "[Chính sử] E 孫權 建安四年 · 三國志/卷47"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷51",
+          "label": "[Chính sử] 三國志/卷51 孫輔 L166 · 三國志/卷51"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷01",
+          "label": "[Chính sử] 三國志/卷01 建安四年 L188 · 三國志/卷01"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-18-02",
+      "episode": "ep-0018",
+      "year": 199,
+      "dateLabel": "199",
+      "anchor": "Dự Chương và Lư Lăng được tổ chức lại trong mạng lưới của Tôn Sách.",
+      "title": "Tổ chức Dự Chương và Lư Lăng",
+      "place": "yuzhang-region",
+      "placeIds": [
+        "yuzhang-region",
+        "luling-region"
+      ],
+      "precision": "region",
+      "note": "Hoa Hâm tiếp nhận thương lượng; Tôn Bí, Tôn Phụ được giao quản; không mặc định mọi nơi giao chiến.",
+      "evidenceIds": [
+        "EVD-B04-055",
+        "EVD-B04-091",
+        "EVD-B04-119"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "hua-xin",
+        "yu-fan",
+        "sun-ben"
+      ],
+      "roles": {
+        "hua-xin": {
+          "rank": 3,
+          "influence": 2,
+          "faction": "han",
+          "factionLabel": "Triều đình Hán",
+          "title": "Dự Chương thái thú trước chuyển giao",
+          "role": "Tiếp nhận thuyết phục"
+        },
+        "yu-fan": {
+          "rank": 2,
+          "influence": 2,
+          "faction": "sun-ce",
+          "factionLabel": "Lực lượng Tôn Sách",
+          "title": "Phụ tá làm nhiệm vụ thuyết phục",
+          "role": "Thuyết phục"
+        },
+        "sun-ben": {
+          "rank": 3,
+          "influence": 3,
+          "faction": "sun-ce",
+          "factionLabel": "Lực lượng Tôn Sách",
+          "title": "Dự Chương thái thú sau phân công",
+          "role": "Quản quận"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "sun-ce",
+          "role": "Phân công",
+          "marker": false
+        },
+        {
+          "person": "sun-fu",
+          "role": "Quản quận",
+          "marker": false
+        }
+      ],
+      "source": "[Sử liệu khác] I 199 · 資治通鑑/卷063",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷063",
+          "label": "[Sử liệu khác] I 199 · 資治通鑑/卷063"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷51",
+          "label": "[Chính sử] 三國志/卷51 孫輔 L166 · 三國志/卷51"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷49",
+          "label": "[Chính sử] 三國志/卷49 劉繇 · 三國志/卷49"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-18-03",
+      "episode": "ep-0018",
+      "year": 200,
+      "dateLabel": "Đầu 200 · kế hoạch",
+      "anchor": "Sử liệu bất đồng về mục tiêu trước mắt của Tôn Sách; không có trận đánh Hứa nào của ông được thực hiện.",
+      "title": "Kế hoạch chưa xảy ra",
+      "place": null,
+      "placeIds": [
+        "dantu",
+        "guangling"
+      ],
+      "precision": "text-only",
+      "note": "Hứa / Trần Đăng theo nguồn khác nhau; không vẽ hành trình chưa thực hiện. Các địa danh là bối cảnh/đối tượng dự định, không phải địa điểm xảy ra cuộc tấn công.",
+      "evidenceIds": [
+        "EVD-B04-056",
+        "EVD-B04-057",
+        "EVD-B04-147"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [],
+      "roles": {},
+      "contextParticipants": [
+        {
+          "person": "sun-ce",
+          "role": "Dự định",
+          "marker": false
+        },
+        {
+          "person": "chen-deng",
+          "role": "Mục tiêu theo dị bản",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] D 建安五年 · 三國志/卷46",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷46",
+          "label": "[Chính sử] D 建安五年 · 三國志/卷46"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷46",
+          "label": "[Bùi chú] 三國志/卷46 孫策 引江表傳 L152 · 三國志/卷46"
+        }
+      ],
+      "kind": "historical"
+    },
+    {
+      "id": "b04-ev-18-04",
+      "episode": "ep-0018",
+      "year": 200,
+      "dateLabel": "Tháng tư âm lịch và sau đó",
+      "anchor": "Tôn Quyền nhận cơ nghiệp với sự trợ giúp của cả quan lại và tướng lĩnh cũ.",
+      "title": "Người em tiếp quản",
+      "place": "wu",
+      "placeIds": [
+        "wu",
+        "kuaiji-region"
+      ],
+      "precision": "site",
+      "note": "Tôn Quyền nhận quyền; Trương Chiêu, Chu Du, Ngô phu nhân hỗ trợ; không dùng câu nội sự/ngoại sự như chính sử.",
+      "evidenceIds": [
+        "EVD-B04-059",
+        "EVD-B04-060",
+        "EVD-B04-061",
+        "EVD-B04-067",
+        "EVD-B04-094",
+        "EVD-B04-118",
+        "EVD-B04-128"
+      ],
+      "markerPolicy": "Chỉ pin người có mặt trong mốc hoặc phạm vi được ghi nhận; các vai trò còn lại là bối cảnh.",
+      "people": [
+        "sun-quan",
+        "zhang-zhao",
+        "zhou-yu"
+      ],
+      "roles": {
+        "sun-quan": {
+          "rank": 4,
+          "influence": 4,
+          "faction": "sunquan",
+          "factionLabel": "Lực lượng Tôn Quyền",
+          "title": "Thảo lỗ tướng quân, Cối Kê thái thú",
+          "role": "Tiếp quản"
+        },
+        "zhang-zhao": {
+          "rank": 3,
+          "influence": 3,
+          "faction": "sunquan",
+          "factionLabel": "Lực lượng Tôn Quyền",
+          "title": "Trưởng sử",
+          "role": "Hỗ trợ"
+        },
+        "zhou-yu": {
+          "rank": 3,
+          "influence": 3,
+          "faction": "sunquan",
+          "factionLabel": "Lực lượng Tôn Quyền",
+          "title": "Trung hộ quân, cùng quản việc",
+          "role": "Hỗ trợ"
+        }
+      },
+      "contextParticipants": [
+        {
+          "person": "sun-ce",
+          "role": "Người tiền nhiệm",
+          "marker": false
+        },
+        {
+          "person": "wu-furen",
+          "role": "Hỗ trợ",
+          "marker": false
+        },
+        {
+          "person": "cheng-pu",
+          "role": "Hỗ trợ",
+          "marker": false
+        }
+      ],
+      "source": "[Chính sử] D 孫策 臨終 · 三國志/卷46",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷46",
+          "label": "[Chính sử] D 孫策 臨終 · 三國志/卷46"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷47",
+          "label": "[Chính sử] E 孫權 建安五年 · 三國志/卷47"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "label": "[Chính sử] F 周瑜 建安五年 · 三國志/卷54"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷52",
+          "label": "[Chính sử] 三國志卷52 張昭 · 三國志/卷52"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷55",
+          "label": "[Chính sử] 三國志/卷55 程普 L142–144 · 三國志/卷55"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷50",
+          "label": "[Chính sử] 三國志/卷50 吳夫人 · 三國志/卷50"
+        }
+      ],
+      "kind": "historical"
     }
   ],
   "relations": [
@@ -3739,6 +7411,1101 @@
           "label": "三國志/卷46"
         }
       ]
+    },
+    {
+      "id": "b04-rel-001",
+      "event": "b04-ev-10-02",
+      "from": "dong-zhao",
+      "to": "cao-cao",
+      "label": "Đề xuất dời đô",
+      "evidenceIds": [
+        "EVD-B04-135"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志_(四庫全書本)/魏志/卷14",
+          "label": "[Chính sử] 三國志 魏志卷14 董昭 (Siku witness)"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-002",
+      "event": "b04-ev-10-02",
+      "from": "cao-cao",
+      "to": "xiandi",
+      "label": "Đón thiên tử; thực quyền khác danh nghĩa",
+      "evidenceIds": [
+        "EVD-B04-004",
+        "EVD-B04-005",
+        "EVD-B04-006",
+        "EVD-B04-007"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安元年 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "label": "[Sử liệu mâu thuẫn] G 建安元年 · 後漢書/卷9"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-003",
+      "event": "b04-ev-10-03",
+      "from": "zao-zhi",
+      "to": "cao-cao",
+      "label": "Đề xuất đồn điền",
+      "evidenceIds": [
+        "EVD-B04-008"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安元年 · 三國志/卷01"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-004",
+      "event": "b04-ev-10-03",
+      "from": "han-hao",
+      "to": "cao-cao",
+      "label": "Tham gia chủ trương",
+      "evidenceIds": [
+        "EVD-B04-009"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Bùi chú] A 建安元年 魏書 · 三國志/卷01"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-005",
+      "event": "b04-ev-10-03",
+      "from": "ren-jun",
+      "to": "cao-cao",
+      "label": "Tổ chức đồn điền",
+      "evidenceIds": [
+        "EVD-B04-081",
+        "EVD-B04-082"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷16",
+          "label": "[Chính sử] 三國志/卷16 任峻 · 三國志/卷16"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-006",
+      "event": "b04-ev-11-01",
+      "from": "lu-bu",
+      "to": "liu-bei",
+      "label": "Chiếm hậu phương",
+      "evidenceIds": [
+        "EVD-B04-011"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "label": "[Chính sử] C 建安元年 · 三國志/卷32"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-007",
+      "event": "b04-ev-11-02",
+      "from": "mi-zhu",
+      "to": "liu-bei",
+      "label": "Giúp nguồn lực",
+      "evidenceIds": [
+        "EVD-B04-115"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷38",
+          "label": "[Chính sử] 三國志/卷38 麋竺 · 三國志/卷38"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-008",
+      "event": "b04-ev-11-03",
+      "from": "lu-bu",
+      "to": "liu-bei",
+      "label": "Can thiệp chống Viên Thuật",
+      "evidenceIds": [
+        "EVD-B04-015"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 紀靈攻備 · 三國志/卷07"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-009",
+      "event": "b04-ev-11-03",
+      "from": "ji-ling",
+      "to": "liu-bei",
+      "label": "Đối địch",
+      "evidenceIds": [
+        "EVD-B04-015"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 紀靈攻備 · 三國志/卷07"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-010",
+      "event": "b04-ev-11-04",
+      "from": "gao-shun",
+      "to": "hao-meng",
+      "label": "Dẹp nổi dậy",
+      "evidenceIds": [
+        "EVD-B04-016",
+        "EVD-B04-158"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Bùi chú] B 英雄記 建安元年 · 三國志/卷07"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷07",
+          "label": "[Bùi chú] 三國志/卷07 呂布 引英雄記 L142 · 三國志/卷07"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-011",
+      "event": "b04-ev-12-01",
+      "from": "zhou-yu",
+      "to": "sun-ce",
+      "label": "Hỗ trợ vượt sông",
+      "evidenceIds": [
+        "EVD-B04-019"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "label": "[Chính sử] F 周瑜 初 · 三國志/卷54"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-012",
+      "event": "b04-ev-12-01",
+      "from": "sun-ce",
+      "to": "liu-yao",
+      "label": "Đối địch",
+      "evidenceIds": [
+        "EVD-B04-017",
+        "EVD-B04-018",
+        "EVD-B04-019",
+        "EVD-B04-020"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷46",
+          "label": "[Chính sử] D 孫策 劉繇爲揚州刺史 · 三國志/卷46"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "label": "[Chính sử] F 周瑜 初 · 三國志/卷54"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-013",
+      "event": "b04-ev-12-02",
+      "from": "sun-ce",
+      "to": "taishi-ci",
+      "label": "Đối địch rồi thu dùng",
+      "evidenceIds": [
+        "EVD-B04-070",
+        "EVD-B04-071",
+        "EVD-B04-072"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷49",
+          "label": "[Chính sử] 三國志卷49 太史慈 · 三國志/卷49"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-014",
+      "event": "b04-ev-12-03",
+      "from": "yu-fan",
+      "to": "wang-lang",
+      "label": "Khuyên rút",
+      "evidenceIds": [
+        "EVD-B04-078"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷13",
+          "label": "[Chính sử] 三國志卷13 王朗 · 三國志/卷13"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-015",
+      "event": "b04-ev-12-03",
+      "from": "sun-ce",
+      "to": "zhu-zhi",
+      "label": "Giao quản quận",
+      "evidenceIds": [
+        "EVD-B04-065"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷46",
+          "label": "[Chính sử] 三國志卷46 孫策 · 三國志/卷46"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-016",
+      "event": "b04-ev-13-02",
+      "from": "sun-ce",
+      "to": "yuan-shu",
+      "label": "Cắt quan hệ",
+      "evidenceIds": [
+        "EVD-B04-022"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷46",
+          "label": "[Chính sử] D 孫策 僭號 · 三國志/卷46"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-017",
+      "event": "b04-ev-13-03",
+      "from": "lu-bu",
+      "to": "yuan-shu",
+      "label": "Hủy hôn ước",
+      "evidenceIds": [
+        "EVD-B04-023"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 術欲結布爲援 · 三國志/卷07"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-018",
+      "event": "b04-ev-13-03",
+      "from": "chen-gui",
+      "to": "lu-bu",
+      "label": "Khuyên đổi hướng",
+      "evidenceIds": [
+        "EVD-B04-023"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 術欲結布爲援 · 三國志/卷07"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-019",
+      "event": "b04-ev-13-03",
+      "from": "chen-deng",
+      "to": "cao-cao",
+      "label": "Đi sứ và nhận chức",
+      "evidenceIds": [
+        "EVD-B04-024"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 陳登見太祖 · 三國志/卷07"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-020",
+      "event": "b04-ev-13-04",
+      "from": "han-xian",
+      "to": "lu-bu",
+      "label": "Đổi phe",
+      "evidenceIds": [
+        "EVD-B04-025"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 術怒 · 三國志/卷07"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-021",
+      "event": "b04-ev-13-04",
+      "from": "yang-feng",
+      "to": "lu-bu",
+      "label": "Đổi phe",
+      "evidenceIds": [
+        "EVD-B04-025"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 術怒 · 三國志/卷07"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-022",
+      "event": "b04-ev-14-01",
+      "from": "zhang-xiu",
+      "to": "zhang-ji",
+      "label": "Kế quân",
+      "evidenceIds": [
+        "EVD-B04-027"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安元年 · 三國志/卷01"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-023",
+      "event": "b04-ev-14-02",
+      "from": "zhang-xiu",
+      "to": "cao-cao",
+      "label": "Hàng rồi phản",
+      "evidenceIds": [
+        "EVD-B04-028",
+        "EVD-B04-062"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安二年春正月 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷08",
+          "label": "[Chính sử] 三國志卷08 張繡 · 三國志/卷08"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-024",
+      "event": "b04-ev-14-03",
+      "from": "dian-wei",
+      "to": "cao-cao",
+      "label": "Hộ vệ tử trận",
+      "evidenceIds": [
+        "EVD-B04-063"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷18",
+          "label": "[Chính sử] 三國志卷18 典韋 · 三國志/卷18"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-025",
+      "event": "b04-ev-14-03",
+      "from": "cao-ang",
+      "to": "cao-cao",
+      "label": "Con, tử trận",
+      "evidenceIds": [
+        "EVD-B04-140"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷20",
+          "label": "[Chính sử] 三國志/卷20 豐愍王昂 L155–161 · 三國志/卷20"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-026",
+      "event": "b04-ev-14-03",
+      "from": "cao-anmin",
+      "to": "cao-cao",
+      "label": "Cháu, tử trận",
+      "evidenceIds": [
+        "EVD-B04-028"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安二年春正月 · 三國志/卷01"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-027",
+      "event": "b04-ev-14-04",
+      "from": "yu-jin",
+      "to": "cao-cao",
+      "label": "Giữ kỷ luật quân",
+      "evidenceIds": [
+        "EVD-B04-149"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷17",
+          "label": "[Chính sử] 三國志/卷17 于禁 L145 · 三國志/卷17"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-028",
+      "event": "b04-ev-14-05",
+      "from": "zhang-xiu",
+      "to": "liu-biao",
+      "label": "Liên kết",
+      "evidenceIds": [
+        "EVD-B04-030",
+        "EVD-B04-031",
+        "EVD-B04-032"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安二年 · 三國志/卷01"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-029",
+      "event": "b04-ev-15-01",
+      "from": "gao-shun",
+      "to": "liu-bei",
+      "label": "Đánh Tiểu Bái",
+      "evidenceIds": [
+        "EVD-B04-033"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安三年 · 三國志/卷01"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-030",
+      "event": "b04-ev-15-02",
+      "from": "chen-deng",
+      "to": "cao-cao",
+      "label": "Phối hợp",
+      "evidenceIds": [
+        "EVD-B04-138"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷07",
+          "label": "[Chính sử] 三國志卷07 陳登 L155 · 三國志/卷07"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-031",
+      "event": "b04-ev-15-03",
+      "from": "hou-cheng",
+      "to": "lu-bu",
+      "label": "Đổi phe",
+      "evidenceIds": [
+        "EVD-B04-035",
+        "EVD-B04-139"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 建安三年 · 三國志/卷07"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷07",
+          "label": "[Bùi chú] 三國志卷07 呂布 引九州春秋 L146 · 三國志/卷07"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-032",
+      "event": "b04-ev-15-03",
+      "from": "wei-xu",
+      "to": "lu-bu",
+      "label": "Đổi phe",
+      "evidenceIds": [
+        "EVD-B04-035",
+        "EVD-B04-159"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 建安三年 · 三國志/卷07"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷07",
+          "label": "[Bùi chú] 三國志/卷07 呂布 引英雄記 L146 · 三國志/卷07"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-033",
+      "event": "b04-ev-15-03",
+      "from": "song-xian",
+      "to": "lu-bu",
+      "label": "Đổi phe",
+      "evidenceIds": [
+        "EVD-B04-035"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 建安三年 · 三國志/卷07"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-034",
+      "event": "b04-ev-15-04",
+      "from": "zhang-liao",
+      "to": "cao-cao",
+      "label": "Theo Tào",
+      "evidenceIds": [
+        "EVD-B04-114"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷17",
+          "label": "[Chính sử] 三國志/卷17 張遼 · 三國志/卷17"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-035",
+      "event": "b04-ev-15-04",
+      "from": "cao-cao",
+      "to": "lu-bu",
+      "label": "Thắng, xử tử",
+      "evidenceIds": [
+        "EVD-B04-035"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+          "label": "[Chính sử] B 建安三年 · 三國志/卷07"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-036",
+      "event": "b04-ev-16-01",
+      "from": "yuan-shao",
+      "to": "gongsun-zan",
+      "label": "Đánh bại",
+      "evidenceIds": [
+        "EVD-B04-039"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "label": "[Sử liệu khác] G 建安四年春三月 · 後漢書/卷9"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-037",
+      "event": "b04-ev-16-02",
+      "from": "yuan-shao",
+      "to": "yuan-tan",
+      "label": "Bố trí Thanh Châu",
+      "evidenceIds": [
+        "EVD-B04-088",
+        "EVD-B04-157"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷06",
+          "label": "[Chính sử] 三國志/卷06 袁紹 L167 · 三國志/卷06"
+        },
+        {
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷06",
+          "label": "[Bùi chú] 三國志/卷06 袁紹 引九州春秋 L167 · 三國志/卷06"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-038",
+      "event": "b04-ev-16-02",
+      "from": "yuan-shao",
+      "to": "yuan-xi",
+      "label": "Bố trí U Châu",
+      "evidenceIds": [
+        "EVD-B04-088"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷06",
+          "label": "[Chính sử] 三國志/卷06 袁紹 L167 · 三國志/卷06"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-039",
+      "event": "b04-ev-16-02",
+      "from": "yuan-shao",
+      "to": "gao-gan",
+      "label": "Bố trí Tịnh Châu",
+      "evidenceIds": [
+        "EVD-B04-088"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷06",
+          "label": "[Chính sử] 三國志/卷06 袁紹 L167 · 三國志/卷06"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-040",
+      "event": "b04-ev-16-03",
+      "from": "yang-chou",
+      "to": "zhang-yang",
+      "label": "Giết chủ",
+      "evidenceIds": [
+        "EVD-B04-040"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "label": "[Sử liệu khác] G 建安三年冬十一月 · 後漢書/卷9"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-041",
+      "event": "b04-ev-16-03",
+      "from": "sui-gu",
+      "to": "yang-chou",
+      "label": "Giết Dương Xú",
+      "evidenceIds": [
+        "EVD-B04-041"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安四年春 · 三國志/卷01"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-042",
+      "event": "b04-ev-16-04",
+      "from": "xu-qiu",
+      "to": "xiandi",
+      "label": "Trả ngọc tỷ triều đình",
+      "evidenceIds": [
+        "EVD-B04-144"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/zh-hant/後漢書/卷48",
+          "label": "[Sử liệu khác] 後漢書/卷48 徐璆 L221–223 · 後漢書/卷48"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-043",
+      "event": "b04-ev-17-02",
+      "from": "liu-bei",
+      "to": "che-zhou",
+      "label": "Giết, chiếm địa bàn",
+      "evidenceIds": [
+        "EVD-B04-047"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "label": "[Chính sử] C 先主據下邳 · 三國志/卷32"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-044",
+      "event": "b04-ev-17-03",
+      "from": "jia-xu",
+      "to": "zhang-xiu",
+      "label": "Khuyên hàng Tào",
+      "evidenceIds": [
+        "EVD-B04-077"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷10",
+          "label": "[Chính sử] 卷10 賈詡 · 三國志/卷10"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-045",
+      "event": "b04-ev-17-03",
+      "from": "zhang-xiu",
+      "to": "cao-cao",
+      "label": "Đầu hàng",
+      "evidenceIds": [
+        "EVD-B04-044",
+        "EVD-B04-064"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安四年冬十一月 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷08",
+          "label": "[Chính sử] 三國志卷08 張繡 · 三國志/卷08"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-046",
+      "event": "b04-ev-17-04",
+      "from": "dong-cheng",
+      "to": "cao-cao",
+      "label": "Mật chiếu / mưu phản theo nguồn",
+      "evidenceIds": [
+        "EVD-B04-045",
+        "EVD-B04-049"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "label": "[Chính sử] C 先主未出時 · 三國志/卷32"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "label": "[Sử liệu khác] G 建安五年春正月 · 後漢書/卷9"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-047",
+      "event": "b04-ev-17-04",
+      "from": "dong-guiren",
+      "to": "dong-cheng",
+      "label": "Con gái, nạn nhân",
+      "evidenceIds": [
+        "EVD-B04-142"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/zh-hant/後漢書/卷10下",
+          "label": "[Sử liệu khác] 後漢書/卷10下 獻帝伏皇后 L244 · 後漢書/卷10下"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-048",
+      "event": "b04-ev-17-05",
+      "from": "guan-yu",
+      "to": "cao-cao",
+      "label": "Bị bắt, nhận chức",
+      "evidenceIds": [
+        "EVD-B04-050",
+        "EVD-B04-095",
+        "EVD-B04-120"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "label": "[Chính sử] A 建安五年春正月 · 三國志/卷01"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志_(四庫全書本)/蜀志/卷06",
+          "label": "[Chính sử] 三國志_(四庫全書本)/蜀志/卷06 關羽"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷36",
+          "label": "[Chính sử] 三國志/卷36 關羽 · 三國志/卷36"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-049",
+      "event": "b04-ev-17-05",
+      "from": "liu-bei",
+      "to": "yuan-shao",
+      "label": "Đến nương",
+      "evidenceIds": [
+        "EVD-B04-051"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "label": "[Chính sử] C 先主走青州 · 三國志/卷32"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-050",
+      "event": "b04-ev-18-01",
+      "from": "zhou-yu",
+      "to": "sun-ce",
+      "label": "Trở lại hỗ trợ",
+      "evidenceIds": [
+        "EVD-B04-053"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "label": "[Chính sử] F 周瑜 建安三年 · 三國志/卷54"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-051",
+      "event": "b04-ev-18-01",
+      "from": "sun-quan",
+      "to": "sun-ce",
+      "label": "Em, tham chiến",
+      "evidenceIds": [
+        "EVD-B04-054"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷47",
+          "label": "[Chính sử] E 孫權 建安四年 · 三國志/卷47"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-052",
+      "event": "b04-ev-18-02",
+      "from": "sun-ben",
+      "to": "sun-ce",
+      "label": "Giao quản quận",
+      "evidenceIds": [
+        "EVD-B04-055"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷063",
+          "label": "[Sử liệu khác] I 199 · 資治通鑑/卷063"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-053",
+      "event": "b04-ev-18-02",
+      "from": "sun-fu",
+      "to": "sun-ce",
+      "label": "Giao quản quận",
+      "evidenceIds": [
+        "EVD-B04-055",
+        "EVD-B04-091"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷063",
+          "label": "[Sử liệu khác] I 199 · 資治通鑑/卷063"
+        },
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷51",
+          "label": "[Chính sử] 三國志/卷51 孫輔 L166 · 三國志/卷51"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-054",
+      "event": "b04-ev-18-04",
+      "from": "sun-quan",
+      "to": "sun-ce",
+      "label": "Kế quyền",
+      "evidenceIds": [
+        "EVD-B04-059"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷46",
+          "label": "[Chính sử] D 孫策 臨終 · 三國志/卷46"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-055",
+      "event": "b04-ev-18-04",
+      "from": "zhang-zhao",
+      "to": "sun-quan",
+      "label": "Phò tá",
+      "evidenceIds": [
+        "EVD-B04-067"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷52",
+          "label": "[Chính sử] 三國志卷52 張昭 · 三國志/卷52"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-056",
+      "event": "b04-ev-18-04",
+      "from": "zhou-yu",
+      "to": "sun-quan",
+      "label": "Phò tá",
+      "evidenceIds": [
+        "EVD-B04-061"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "label": "[Chính sử] F 周瑜 建安五年 · 三國志/卷54"
+        }
+      ]
+    },
+    {
+      "id": "b04-rel-057",
+      "event": "b04-ev-18-04",
+      "from": "wu-furen",
+      "to": "sun-quan",
+      "label": "Mẹ, hỗ trợ",
+      "evidenceIds": [
+        "EVD-B04-118"
+      ],
+      "type": "documented",
+      "direction": "directed",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷50",
+          "label": "[Chính sử] 三國志/卷50 吳夫人 · 三國志/卷50"
+        }
+      ]
     }
   ],
   "trajectories": [
@@ -4033,6 +8800,213 @@
         ]
       ],
       "allApproximate": true
+    },
+    {
+      "id": "xiandi-196",
+      "person": "xiandi",
+      "episode": "ep-0010",
+      "year": 196,
+      "faction": "han",
+      "kind": "documented-event-sequence",
+      "allApproximate": true,
+      "expectedSegments": [
+        [
+          "anyi",
+          "wenxi"
+        ],
+        [
+          "wenxi",
+          "luoyang"
+        ],
+        [
+          "luoyang",
+          "xu"
+        ]
+      ],
+      "stops": [
+        {
+          "place": "anyi",
+          "order": 1,
+          "year": 196,
+          "precision": "month",
+          "lunarMonth": "1",
+          "title": "Triều đình tại An Ấp",
+          "evidence": "郊祀上帝於安邑 · 196 tháng 1 âm lịch đổi niên hiệu Kiến An, triều đình tại An Ấp; tháng 2 Hàn Xiêm đánh Đổng Thừa.",
+          "source": "[Sử liệu khác] G 建安元年 · 後漢書/卷9",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "evidenceId": "EVD-B04-001"
+        },
+        {
+          "place": "wenxi",
+          "order": 2,
+          "year": 196,
+          "precision": "month",
+          "lunarMonth": "6",
+          "title": "Xa giá tới Văn Hỷ",
+          "evidence": "車駕至洛陽 · Tháng 6 tới Văn Hỷ, tháng 7 tới Lạc Dương; kinh thành hư hại và quan thiếu ăn.",
+          "source": "[Sử liệu khác] G 建安元年 · 後漢書/卷9",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "evidenceId": "EVD-B04-003"
+        },
+        {
+          "place": "luoyang",
+          "order": 3,
+          "year": 196,
+          "precision": "month",
+          "lunarMonth": "7",
+          "title": "Xa giá tới Lạc Dương",
+          "evidence": "車駕至洛陽 · Tháng 6 tới Văn Hỷ, tháng 7 tới Lạc Dương; kinh thành hư hại và quan thiếu ăn.",
+          "source": "[Sử liệu khác] G 建安元年 · 後漢書/卷9",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "evidenceId": "EVD-B04-003"
+        },
+        {
+          "place": "xu",
+          "order": 4,
+          "year": 196,
+          "precision": "year",
+          "lunarMonth": "8–9",
+          "title": "Dời đô Hứa, hai nguồn khác tháng",
+          "evidence": "庚申，遷都許 · Hậu Hán thư đặt chuyển đô tháng 8; Vũ đế kỷ tháng 9 xa giá ra Hoàn Viên; ghi khác biệt tháng, không đồng nhất cưỡng ép.",
+          "source": "[Sử liệu mâu thuẫn] G 建安元年 · 後漢書/卷9",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "evidenceId": "EVD-B04-006"
+        }
+      ]
+    },
+    {
+      "id": "sun-ce-195-196",
+      "person": "sun-ce",
+      "episode": "ep-0012",
+      "year": 196,
+      "faction": "sun-ce",
+      "kind": "documented-event-sequence",
+      "allApproximate": true,
+      "expectedSegments": [],
+      "stops": [
+        {
+          "place": "liyang",
+          "order": 1,
+          "year": 196,
+          "precision": "year",
+          "title": "Trình tự trong Chu Du truyện; niên đại 195–196 có dị bản",
+          "evidence": "瑜將兵迎策 · Chu Du mang quân giúp bạn ở Lịch Dương, cùng đánh Hoành Giang, Đương Lợi, Mạt Lăng, Hồ Thục, Giang Thừa, tiến Khúc A; Lưu Do chạy. Chu Du về Đan Dương.",
+          "source": "[Chính sử] F 周瑜 初 · 三國志/卷54",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "evidenceId": "EVD-B04-019"
+        },
+        {
+          "place": "hengjiang",
+          "order": 2,
+          "year": 196,
+          "precision": "year",
+          "title": "Trình tự trong Chu Du truyện; niên đại 195–196 có dị bản",
+          "evidence": "瑜將兵迎策 · Chu Du mang quân giúp bạn ở Lịch Dương, cùng đánh Hoành Giang, Đương Lợi, Mạt Lăng, Hồ Thục, Giang Thừa, tiến Khúc A; Lưu Do chạy. Chu Du về Đan Dương.",
+          "source": "[Chính sử] F 周瑜 初 · 三國志/卷54",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "evidenceId": "EVD-B04-019"
+        },
+        {
+          "place": "dangli",
+          "order": 3,
+          "year": 196,
+          "precision": "year",
+          "title": "Trình tự trong Chu Du truyện; niên đại 195–196 có dị bản",
+          "evidence": "瑜將兵迎策 · Chu Du mang quân giúp bạn ở Lịch Dương, cùng đánh Hoành Giang, Đương Lợi, Mạt Lăng, Hồ Thục, Giang Thừa, tiến Khúc A; Lưu Do chạy. Chu Du về Đan Dương.",
+          "source": "[Chính sử] F 周瑜 初 · 三國志/卷54",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "evidenceId": "EVD-B04-019"
+        },
+        {
+          "place": "moling",
+          "order": 4,
+          "year": 196,
+          "precision": "year",
+          "title": "Trình tự trong Chu Du truyện; niên đại 195–196 có dị bản",
+          "evidence": "瑜將兵迎策 · Chu Du mang quân giúp bạn ở Lịch Dương, cùng đánh Hoành Giang, Đương Lợi, Mạt Lăng, Hồ Thục, Giang Thừa, tiến Khúc A; Lưu Do chạy. Chu Du về Đan Dương.",
+          "source": "[Chính sử] F 周瑜 初 · 三國志/卷54",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "evidenceId": "EVD-B04-019"
+        },
+        {
+          "place": "hushu",
+          "order": 5,
+          "year": 196,
+          "precision": "year",
+          "title": "Trình tự trong Chu Du truyện; niên đại 195–196 có dị bản",
+          "evidence": "瑜將兵迎策 · Chu Du mang quân giúp bạn ở Lịch Dương, cùng đánh Hoành Giang, Đương Lợi, Mạt Lăng, Hồ Thục, Giang Thừa, tiến Khúc A; Lưu Do chạy. Chu Du về Đan Dương.",
+          "source": "[Chính sử] F 周瑜 初 · 三國志/卷54",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "evidenceId": "EVD-B04-019"
+        },
+        {
+          "place": "jiangcheng",
+          "order": 6,
+          "year": 196,
+          "precision": "year",
+          "title": "Trình tự trong Chu Du truyện; niên đại 195–196 có dị bản",
+          "evidence": "瑜將兵迎策 · Chu Du mang quân giúp bạn ở Lịch Dương, cùng đánh Hoành Giang, Đương Lợi, Mạt Lăng, Hồ Thục, Giang Thừa, tiến Khúc A; Lưu Do chạy. Chu Du về Đan Dương.",
+          "source": "[Chính sử] F 周瑜 初 · 三國志/卷54",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "evidenceId": "EVD-B04-019"
+        },
+        {
+          "place": "qua",
+          "order": 7,
+          "year": 196,
+          "precision": "year",
+          "title": "Trình tự trong Chu Du truyện; niên đại 195–196 có dị bản",
+          "evidence": "瑜將兵迎策 · Chu Du mang quân giúp bạn ở Lịch Dương, cùng đánh Hoành Giang, Đương Lợi, Mạt Lăng, Hồ Thục, Giang Thừa, tiến Khúc A; Lưu Do chạy. Chu Du về Đan Dương.",
+          "source": "[Chính sử] F 周瑜 初 · 三國志/卷54",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "evidenceId": "EVD-B04-019"
+        }
+      ]
+    },
+    {
+      "id": "liu-bei-200",
+      "person": "liu-bei",
+      "episode": "ep-0017",
+      "year": 200,
+      "faction": "liubei",
+      "kind": "documented-event-sequence",
+      "allApproximate": true,
+      "expectedSegments": [],
+      "stops": [
+        {
+          "place": "xiaopei",
+          "order": 1,
+          "year": 200,
+          "precision": "year",
+          "title": "Thế lực Tiểu Bái thất bại; điểm xuất phát cuộc chạy chưa chắc",
+          "evidence": "郭嘉亦勸公 · Tào đánh Lưu Bị; Quan Vũ hàng ở Hạ Bì, Lưu chạy tới Viên Thiệu. Không nhập ba điều kiện quy hàng của diễn nghĩa hay quá ngũ quan (sau mốc).",
+          "source": "[Chính sử] A 建安五年春正月 · 三國志/卷01",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
+          "evidenceId": "EVD-B04-050"
+        },
+        {
+          "place": "qingzhou-region-unresolved",
+          "order": 2,
+          "year": 200,
+          "precision": "year",
+          "title": "Lưu Bị chạy tới Thanh Châu",
+          "evidence": "袁譚先主故茂才也 · Viên Đàm đón Lưu ở Thanh Châu, đến Bình Nguyên, Viên Thiệu ra đón; quan hệ tiến cử trước đây được ghi.",
+          "source": "[Chính sử] C 先主走青州 · 三國志/卷32",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "evidenceId": "EVD-B04-051"
+        },
+        {
+          "place": "pingyuan",
+          "order": 3,
+          "year": 200,
+          "precision": "year",
+          "title": "Đến Bình Nguyên",
+          "evidence": "袁譚先主故茂才也 · Viên Đàm đón Lưu ở Thanh Châu, đến Bình Nguyên, Viên Thiệu ra đón; quan hệ tiến cử trước đây được ghi.",
+          "source": "[Chính sử] C 先主走青州 · 三國志/卷32",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "evidenceId": "EVD-B04-051"
+        }
+      ]
     }
   ],
   "timelinePolicy": {
@@ -4102,6 +9076,92 @@
       "yongqiu",
       "liyang",
       "xiapi"
+    ],
+    "ep-0010": [
+      "anyi",
+      "luoyang",
+      "xu",
+      "wenxi"
+    ],
+    "ep-0011": [
+      "xiapi",
+      "xiaopei",
+      "xuyi",
+      "huaiyin",
+      "guangling",
+      "haixi"
+    ],
+    "ep-0012": [
+      "liyang",
+      "danyang-region",
+      "qua",
+      "kuaiji-region",
+      "wu-region",
+      "moling",
+      "niuzhu",
+      "hengjiang",
+      "dangli",
+      "hushu",
+      "jiangcheng",
+      "shen-ting",
+      "wuhu",
+      "jingxian"
+    ],
+    "ep-0013": [
+      "xu",
+      "xiapi",
+      "guangling",
+      "guangling-region",
+      "liyang",
+      "chen",
+      "huainan"
+    ],
+    "ep-0014": [
+      "wan",
+      "rang",
+      "wuyin",
+      "huyang",
+      "anzhong"
+    ],
+    "ep-0015": [
+      "xiapi",
+      "xiaopei",
+      "pengcheng",
+      "sishui",
+      "yishui",
+      "white-gate"
+    ],
+    "ep-0016": [
+      "huainan",
+      "henei",
+      "henei-region",
+      "yijing",
+      "shequan",
+      "jiangting",
+      "guandu",
+      "shouchun",
+      "qianshan"
+    ],
+    "ep-0017": [
+      "xu",
+      "xiapi",
+      "xiaopei",
+      "pingyuan",
+      "qingzhou-region-unresolved"
+    ],
+    "ep-0018": [
+      "guangling",
+      "kuaiji-region",
+      "wu",
+      "wancheng",
+      "juchao",
+      "lujiang-region",
+      "shaxian",
+      "yuzhang-region",
+      "luling-region",
+      "jiaoqiu",
+      "dantu",
+      "jiangxia-region"
     ]
   },
   "additionalGraphContexts": [
@@ -4179,6 +9239,115 @@
           "direction": "directed"
         }
       ]
+    },
+    {
+      "episode": "ep-0010",
+      "year": 196,
+      "label": "Hồi tưởng năm 195: các lời khuyên đón thiên tử có dị bản",
+      "people": [
+        "ju-shou",
+        "guo-tu",
+        "chunyu-qiong",
+        "yuan-shao"
+      ],
+      "edges": [
+        {
+          "from": "ju-shou",
+          "to": "yuan-shao",
+          "label": "Khuyên đón vua theo Bùi chú",
+          "direction": "directed"
+        },
+        {
+          "from": "guo-tu",
+          "to": "yuan-shao",
+          "label": "Chính văn: khuyên; Bùi chú: phản đối",
+          "direction": "directed"
+        },
+        {
+          "from": "chunyu-qiong",
+          "to": "yuan-shao",
+          "label": "Phản đối theo Bùi chú",
+          "direction": "directed"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷06",
+          "label": "[Chính sử] 三國志/卷06 袁紹 L167 · 三國志/卷06"
+        }
+      ]
+    },
+    {
+      "episode": "ep-0015",
+      "year": 198,
+      "label": "Quan Trung: triều đình thảo phạt Lý Giác",
+      "people": [
+        "duan-wei",
+        "li-jue"
+      ],
+      "edges": [
+        {
+          "from": "pei-mao",
+          "to": "duan-wei",
+          "label": "Dẫn lệnh thảo phạt",
+          "direction": "directed"
+        },
+        {
+          "from": "duan-wei",
+          "to": "li-jue",
+          "label": "Thảo phạt",
+          "direction": "directed"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
+          "label": "[Sử liệu khác] G 建安三年 · 後漢書/卷9"
+        }
+      ]
+    },
+    {
+      "episode": "ep-0018",
+      "year": 200,
+      "label": "Kế hoạch chưa thành: mục tiêu theo dị bản",
+      "people": [
+        "sun-ce",
+        "chen-deng"
+      ],
+      "edges": [
+        {
+          "from": "sun-ce",
+          "to": "chen-deng",
+          "label": "Mục tiêu theo Giang biểu truyện, chưa thực hiện",
+          "direction": "directed"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/三國志/卷46",
+          "label": "[Chính sử] D 建安五年 · 三國志/卷46"
+        }
+      ]
     }
-  ]
+  ],
+  "contextualPeople": {
+    "han-yin": "Hàn Dận",
+    "cao-anmin": "Tào An Dân",
+    "song-xian": "Tống Hiến",
+    "gongsun-xu": "Công Tôn Tục",
+    "yang-chou": "Dương Xú",
+    "che-zhou": "Xa Trụ",
+    "dong-guiren": "Đổng quý nhân",
+    "wang-fu": "Vương Phục (Vương Tử Phục)",
+    "zhong-ji": "Chủng Tập",
+    "pei-mao": "Bùi Mậu",
+    "ding-yuan": "Đinh Nguyên",
+    "qin-song": "Tần Tùng",
+    "chen-duan": "Trần Đoan",
+    "zhang-jiong": "Trương Quýnh",
+    "lu-zhao": "Lộ Chiêu",
+    "wu-zilan": "Ngô Tử Lan",
+    "wu-shuo": "Ngô Thạc",
+    "yu-ji": "Vu Cát"
+  }
 }
