@@ -27,7 +27,9 @@ Lúc ấy Mi Trúc, người từng góp phần mời Lưu Bị tiếp quản T�
 
 **Mi Trúc dùng gia sản để giúp Lưu Bị duy trì lực lượng sau khi mất Hạ Bì.**
 
-Lữ Bố cho Lưu trở về Tiểu Bái. Nơi ấy đã từng là căn cứ của Lưu Bị trước khi được nhận cả Từ Châu. Lưu trở lại một địa bàn nhỏ hơn, còn quyền quyết định ở Hạ Bì nằm bên phía người khách cũ.
+Lưu Bị phải cầu hòa với Lữ Bố. Tiên chủ truyện ghi Lữ trả lại vợ con ông, rồi Lưu về Tiểu Bái. Cũng trong mạch năm 196, Lưu được bổ Trấn Đông tướng quân, phong Nghi Thành đình hầu. Có tước của nhà Hán, có gia đình trở về, nhưng căn cứ lớn thì vẫn nằm trong tay người khách cũ.
+
+[Chính sử] EVD-B04-161 — 《三國志》[卷32〈先主傳〉](https://zh.wikisource.org/wiki/三國志/卷32). Nơi ấy đã từng là căn cứ của Lưu Bị trước khi được nhận cả Từ Châu. Lưu trở lại một địa bàn nhỏ hơn, còn quyền quyết định ở Hạ Bì nằm bên phía người khách cũ.
 
 [Chính sử] EVD-B04-115 — 《三國志》[卷38〈麋竺傳〉](https://zh.wikisource.org/wiki/三國志/卷38). [Sử liệu khác] EVD-B04-014 — 《資治通鑑》[卷62](https://zh.wikisource.org/wiki/資治通鑑/卷062).
 
