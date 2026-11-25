@@ -1,5 +1,5 @@
 # EP-0018 — Giang Đông đổi chủ khi cơ nghiệp còn dang dở
-*Đông Hán · 198 – xuân 200 (tuyến song song)*
+*Đông Hán · 198 – tháng tư âm lịch 200 (tuyến song song)*
 
 **Tôn Sách giành được một cơ nghiệp từ những lực lượng không cùng một chủ. Đến năm 200, câu hỏi là liệu những người từng theo ông có chịu cùng đứng dưới quyền người em trai hay không.**
 
@@ -59,7 +59,7 @@ Hứa Cống từng giữ Ngô quận. Chính văn ghi ông bị Tôn Sách gi�
 
 Tôn Sách qua đời năm 200, tuổi hai mươi sáu theo cách tính của sách. Chí lâm trong Bùi chú ghi ngày mồng bốn tháng tư âm lịch; không tự chuyển thành ngày dương lịch nếu chưa đối chiếu lịch. Chính văn không đủ để xác định địa điểm chết chính xác.
 
-> [Đối chiếu] Giang biểu truyện và Sưu thần ký kể khác nhau về Vu Cát. Ngô lịch có chuyện Sách soi gương sau bị thương nhưng không đưa hồn Vu Cát vào như Sưu thần ký. Hồi 29 Diễn nghĩa phát triển chuyện cầu mưa và oán hồn. Bùi Tùng Chi đã lưu ý sự khác biệt giữa các nguồn. Không coi lời nguyền hoặc bóng trong gương là nguyên nhân lịch sử được xác nhận.
+> [Đối chiếu] Giang biểu truyện kể người theo Tôn Sách ra chào Vu Cát, khiến Sách coi ảnh hưởng của ông là vấn đề đối với trật tự dưới quyền mình; mẹ Sách còn xin tha. Sưu thần ký lại đặt câu chuyện trong cảnh hạn hán, kể Vu Cát cầu mưa rồi vẫn bị giết. Đó là hai truyền bản khác nhau, không phải hai đoạn có thể tự động ghép thành một sự kiện. Ngô lịch có chuyện Sách soi gương sau bị thương nhưng không đưa hồn Vu Cát vào như Sưu thần ký. Hồi 29 Diễn nghĩa phát triển chuyện cầu mưa và oán hồn. Bùi Tùng Chi đã lưu ý sự khác biệt giữa các nguồn. Không coi lời nguyền hoặc bóng trong gương là nguyên nhân lịch sử được xác nhận.
 
 [Chính sử] EVD-B04-056,059 — 《三國志》[卷46](https://zh.wikisource.org/wiki/三國志/卷46). [Bùi chú] EVD-B04-058,147,160 — quyển 46 dẫn 《江表傳》, 《吳歷》, 《搜神記》, 《志林》. [Tiểu thuyết] EVD-B04-112 — [hồi 29](https://zh.wikisource.org/wiki/三國演義/第029回).
 
@@ -96,6 +96,6 @@ Tập sau quay lại tuyến miền bắc mùa xuân năm 200, song song với b
 ### Mốc đọc và nhân vật
 - 198–199: Chu Du trở lại; Tôn Sách, Tôn Quyền, Lưu Huân, Hoàng Tổ, Trình Phổ, hai con gái họ Kiều.
 - 199: Dự Chương, Lư Lăng; Hoa Hâm, Ngu Phiên, Tôn Bí, Tôn Phụ; Lưu Do và Thái Sử Từ (mốc liên quan sau khi Lưu Do chết).
-- Xuân 200: Hứa Cống, kế hoạch Hứa/Trần Đăng theo dị bản; Tôn Sách mất, Vu Cát thuộc truyền thống dị bản.
+- Đầu 200 đến tháng tư âm lịch: Hứa Cống, kế hoạch Hứa/Trần Đăng theo dị bản; Tôn Sách mất, Vu Cát thuộc truyền thống dị bản.
 - 200: Tôn Quyền, Trương Chiêu, Chu Du, Trương Hoành, Trình Phổ, Ngô phu nhân; tiếp quản ở Ngô.
 - Đọc trước: [EP-0017](EP-0017_LƯU_BỊ_RỜI_HỨA.md). Đọc sau: BATCH-05 (chưa viết).
