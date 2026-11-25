@@ -95,7 +95,7 @@ Low-confidence ratings measure demonstrated remit, not innate aptitude. Prior Ch
 | cao-ren | 15 / 198 | 3/4/3/2*/2/3* | 132 | separate task; captures target in Lü campaign; leads troops; officer remit; delegated command; Cao service |
 | cao-ren | 16 / 199 | 3/4/3/2*/3/3* | 041,132 | seizes objective; defeats Sui Gu; commands troops; delegated military rather than civil role; Henei operation remit; Cao service |
 | zang-ba | 15 / 198 | 3/3/4/3/3/3 | 037 | chooses accommodation; regional armed following; maintains local coalition; integrates with Cao; regional force; recognized by Cao |
-| yuan-tan | 17 / early 200 | 3/3*/3/4/3/3 | 051,088 | arranges Liu refuge; commands escort troops; provincial administration; facilitates father alliance; Qingzhou authority; inspector under Yuan |
+| yuan-tan | 17 / early 200 | 3/3*/3/4/3/3 | 051,088,157 | arranges Liu refuge; regional force escort; provincial administration; facilitates father alliance; Qingzhou authority; initially 都督, later 刺史 appointment timing uncertain |
 | tian-feng | 17 / early 200 | 4/2*/2/3/2/3* | 052 | recommends opportunity against Cao; advisory rather than field remit; influence limited by rejection; court politics through Yuan; subordinate; Yuan service |
 | liu-xun | 18 / 199 | 2/2/2/2/2/3* | 053–054 | loses base to Sun campaign; defeated; remaining followers limited; shifts patron context; commandery lost; earlier Lujiang appointment |
 | huang-zu | 18 / 199 | 3*/3/3/3/3/3 | 054 | defends Jiangxia; campaign opposition; retains regional force despite defeat; Liu Biao alignment; regional command; delegated office context |
@@ -152,7 +152,7 @@ Mao Jie: prior 192 advice is callback, not evidence of active 196 role; no new s
 |---|---|---|---|---|
 | chen-deng | 15 / late 198 | 4/3/4/4/3/4 | 138,024 | coordinates eastern pressure; documented campaign merit; leads commandery forces in annotation; collaborates with court/Cao; holds Guangling; appointed Phục Ba general |
 | hou-cheng | 15 / 198 | 3/3/3/2/2/2* | 035,139 | recovers horses and switches allegiance; cavalry command; leads contingent in surrender; local officer politics; delegated force; previous Lü service not independent claim |
-| cao-xing | 11 / 196 | 3/3/2*/2/2/2* | 016 | opposes Hao revolt; fights rebel commander; subordinate leadership remit; reports alleged plot; local contingent; Lü service |
+| cao-xing | 11 / 196 | 3/3/3/2/2/2* | 016,158 | opposes Hao revolt; fights rebel commander; entrusted former contingent; reports alleged plot; local delegated force; Lü service |
 
 ## Remaining identity dispositions — editorial proposals (not PO scope waiver)
 All names remain eligible for their attested role in Reader. No separate profile/radar may be created for sparse text-only candidates until the full six-axis evidentiary basis is established. This avoids inventing metrics; it does not silently remove anyone from story scope. Confirm inclusion of material-loss profiles and other significant candidates against delivery contract before declaring full research complete.
@@ -190,3 +190,56 @@ All names remain eligible for their attested role in Reader. No separate profile
 | lu-zhao | text-only candidate | 134 joint interception mission, no separate role |
 | wu-zilan | text-only candidate | 134 conspiracy participant, limited personal evidence |
 | wu-shuo | annotation-only candidate | 134 Qiju Zhu separately named, not silently merged with Wu Zilan |
+
+## Targeted closure assessments (supersede earlier text-only proposals for listed IDs)
+| Person ID | EP / time | Six ratings | Evidence | Six reasons (same order) |
+|---|---|---|---|---|
+| cao-ang | 14 / 197 before death | 2*/2*/2*/2*/2*/3 | 140,028–029 | local personal decision in Shiyu account only, not generalship; joins southern campaign, no unit assigned in record; family entourage and rescue of father per variant, no independent command; nominated filial-incorrupt candidate, not appointed minister; dependent adult member of Cao household, no independent territorial remit; recommended 孝廉 under Han |
+| zhu-ling | 17 / 199 | 3/3/4/3/2/3* | 143,042,134 | chooses continued service after former joint campaign; proven command of three units earlier; soldiers follow his shift; changes patrons and accepts delegated mission; contingent not regional sovereign; Cao service, contemporary title unclear |
+| xu-qiu | 16 / 199 | 3/3/3/4/2/4 | 144 | refuses Yuan claim and returns seals; prior Yellow Turban service, no new field command; former provincial administration; rejects rival appointment and restores seals; summoned official in transit rather than independent territory; Han judicial appointment |
+| sui-gu | 16 / 199 | 2/3/3/2/2/2* | 145 | takes over after killing Yang Chou but fails to link Yuan; commands forces; retains Zhang Yang's contingent briefly; alliance shift; local transient authority; former Zhang subordinate, no new Han commission |
+| shi-huan | 16 / 199 | 3/4/3/3/2/3* | 146,145,041 | intercepts opposing force; documented field command and victory; monitors multiple officers per Wei Shu; trusted delegated military role; subordinate army scope; early 行中軍校尉, promotion date unclear |
+| xu-gong | 18 / before 200 death | 3/2*/3/4/3/4* | 147,056 | petition urges summons per annotation; commandery governor remit not demonstrated battlefield skill; holds commandery; appeals to Han court; regional office before death; former Wu governor, exact appointment path unconfirmed |
+| yan-xiang | 13 / late 195 callback | 4/1*/2*/3/2/3* | 148 | identifies legitimacy and timing risk; civil chief clerk remit, no field assignment asserted; advises ruler within staff hierarchy; publicly remonstrates; subordinate office; then Yuan Shu's pre-imperial administration |
+| yu-jin | 14 / 197 | 4/4/4/3/3/4 | 149 | prioritizes preserving discipline and order; retains contingent despite wider defeat; organizes troops and prevents plunder; maintains accountability to Cao; commands troops but no territory; awarded Han-derived marquis title |
+| yu-jin | 16 / 199 | 4/4/4/3/3/4 | 149–150 | earlier documented judgment remains relevant; campaign merit in Rang/Xiapi/Shequan; continuing command; no demonstrated political remit change; delegated force; prior marquis title remains |
+| xu-huang | 10 / 196 | 4/3/3/4/2/4 | 151 | advises return to Luoyang and affiliation; earlier service and appointment; leads delegated force; court restoration and patron transition; subordinate authority; 都亭侯 and 騎都尉 then transfer |
+| xu-huang | 16 / 199 | 4/4/3/3/3/4 | 151–152 | previous judgment plus independent assignment; Xiapi and Henei merit; commands delegated troops; serves Cao's coalition; force not territorial rule; subordinate Han-derived rank |
+| zhang-he | 16 / 199 | 3*/4/3/2*/3/3 | 153 | opposition to Gongsun under delegated campaign remit; documented merit; commands troops; serves Yuan rather than independent policymaking; delegated military authority; appointed 寧國中郎將 |
+| zhang-yang | 10 / 196 | 4/3/3/4/3/4 | 154,002 | supplies court and proposes external security remit; maintains troops; provides supplies and escort; recognizes shared court rather than seizing it; Henei base; appointment 大司馬 |
+| liu-dai-199 | 17 / 199 | 2/2/3/3/2/3 | 155,047 | fails delegated expedition; earlier campaign merit but current defeat; commands assigned force; Tư không trưởng sử context; subordinate authority; Han-derived staff office, marquis date uncertain |
+| wang-zhong | 17 / 199 | 2/2/3/2*/2/3 | 155,047 | failed expedition; previous gathering troops and current campaign; organized a contingent; officer service rather than central policymaking; delegated force; appointed 中郎將 |
+| liu-xun | 18 / late 199 after loss | 2/2/3/3/2/3 | 156,054 | accepts Cao as patron; earlier defeat but retains troops; brings contingent; realigns; delegated not independent territory; Liệt hầu |
+| hao-meng | 11 / 196 before death | 2/2/2/2/2/2* | 158 | unsuccessful uprising; commands rebel troops but defeated; own contingent fragments; conspiracy attributed by Cao Xing; local troop power; Lü officer authority contested by revolt |
+| wei-xu | 15 / 198 | 3*/3*/3/2/2/2* | 159,035 | participates collective surrender; entrusted prior unit, no separate field feat; commands reassigned troops; kinship and alliance shift; subordinate authority; Lü officer remit |
+| yuan-xi | 16 / 199 | 2*/2*/3*/3/3/3* | 157,088 | delegated provincial policy, no individual plan asserted; regional administration during armed consolidation not specific personal campaign; delegated provincial hierarchy; holds office under father; Youzhou remit; Yuan appointment not independent sovereign |
+| gao-gan | 16 / 199 | 2*/2*/3*/3/3/3* | 157,088 | delegated provincial policy, no personal plan asserted; frontier command remit not battle proof; provincial administration; nephew under Yuan; Bingzhou remit; Yuan appointment context |
+
+## Effective roster disposition (research editorial scope; supersedes previous proposals)
+Profile inclusion is based on independent agency, recurring character role, actual office or force, not whether person was famous or liked. All existing profiles remain; each named contextual person retains evidence, role, relevant relationship and episode appearance when written. Do not use an unresolved score as an excuse to omit a material decision-maker. Distinct Wiki profiles for contextual-only people are not required by the scoped beats; if Chat02 introduces a material independent role for one, research must be extended before adding that profile. This is an editorial scope decision, not a new PO rule or waiver. Scores are low-confidence scope estimates, never tests of inherent capability. In particular Cao Ang's strategy/leadership are personal/local remit, not proof of independent command; if UI implies measured talent, preserve uncertainty and do not import without correction.
+| ID | Disposition |
+|---|---|
+| mao-jie | Carry existing 192 profile/radar, QTE-0010; EP10 callback, not a new action. |
+| kong-rong | Existing profile remains; 157 notes earlier attack by Yuan Tan, date uncertain; callback only, no date-assigned new snapshot unless story explicitly covers it. |
+| han-yin | 023 messenger, executed; retain named diplomatic victim, no independent policy authority claimed. |
+| cao-anmin | Contextual casualty and Cao nephew in EP14; 028, no independent choice or role recorded. Named in Reader/relations as loss, not separate decision-making profile. No six axes can be inferred from kinship alone. |
+| song-xian | 035 collective capitulation; no distinct individual role needed to explain beyond shared action. Keep named relation to Lü and surrender event. |
+| pei-mao | 038, court envoy leading punitive order; named role in EP15, no independent biographical arc in this batch; distinguish envoy from Duan Wei military commander. |
+| gongsun-xu | 087, messenger/son seeking relief; relationship and mission retained; no standalone role beyond that task. |
+| yang-chou | 040–041, one reversal in Henei; named as actor/relationship, no independent storyline apart from death of patron and own fall. |
+| che-zhou | 047, governor killed; role and fate retained; no independent action recorded in this episode. |
+| wang-fu | 045,049,134 named conspirator; title/name variants maintained, no separate action from conspiracy in packet. |
+| zhong-ji | 045,049,134 named officer in conspiracy; group participation only. |
+| yu-ji | 058,160 ritualist and conflicting accounts; named comparison only, no historical action timeline based on miracles. |
+| qin-song | 065 named advisor in collective staff; not a separate decision-maker in scoped beats. |
+| chen-duan | 065 named advisor in collective staff; not a separate decision-maker in scoped beats. |
+| zhang-jiong | 083 omen attributed to him; quote not his own attributable statement; no standalone role established. |
+| dong-guiren | Contextual political victim in EP17, 142 and 127; court rank, pregnancy and kinship remain visible; no recorded independent political act. Do not rate her as weak or invent her voice. |
+| lu-zhao | 134 jointly sent to intercept; name and subordinate mission preserved, no independent decision attested. |
+| wu-zilan | 134 conspiracy group; no independent act attested. |
+| wu-shuo | 134 alternate annotation, not merged with Wu Zilan. |
+
+### Continuity corrections and confidence constraints
+- 196 Tuân Úc and Trình Dục: retain military/leadership levels from prior 195/194 snapshots unless evidence shows reduced remit, not merely because this beat is advice. Tuân Úc 4/3*/4/4/3/3 and Trình Dục 4/3/4/4/3/3 are conservative carry values; strategy change to 5 for Xun Yu is optional editorial emphasis only, no objectively measured improvement. Táo Chi military 3* from prior defense, leadership 3; Hàn Hạo leadership 4 from prior actual command. Hiến Đế legitimacy 5 as reigning emperor, prior 4 reflects constrained recognition; actual authority remains limited. These are explicit effective overrides for Chat02, not modifications to older snapshots.
+- Lữ Bố's final score reflects loss of control before execution, not posthumous ability. Similarly Yuan Shu and Gongsun Zan; death is not a score. Cao Ang provisional estimates use nomination, kinship, campaign participation and Shiyu variant, not later posthumous rank. Keep all original 116 runtime rows.
+- Prior 陈珪 197 row superseded by supplement; pre-capture Guan Yu 199 distinct from 200; Yuan Tan title source caveat 157; Liu Xun post-loss stage distinct from defeated phase. Sun Ce's 195/196 stage remains interval, not a precise date. Ju Shou/Guo Tu/Chunyu Qiong retrospective 195 advice should be attached to existing 195 stage unless new action is actually narrated; don't create a false 196 promotion or event. All ratings with * carry low confidence; scope proxies for civilian roles do not prove low battlefield aptitude. No full runtime import here.

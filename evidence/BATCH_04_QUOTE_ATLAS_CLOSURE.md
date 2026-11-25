@@ -119,3 +119,110 @@ Reviewed packet disposition, not proof that a person never spoke or that no othe
 | zhang-zhao | QTE-0036 | 065,067 | Exact candidate witness above; check display date |
 | zhou-yu | No selected verified new quote in reviewed packet | 019; 053,061,069 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
 | zhu-zhi | No selected verified new quote in reviewed packet | 065 | Current evidence describes actions/office or insufficient exact attributable speech; no fake quote; broader biography quote search not exhaustive |
+
+## Targeted quote recheck — 9 additional reservations
+| ID | Person / EP | Original | Translation | Layer / source / evidence / context |
+|---|---|---|---|---|
+| QTE-0042 | xu-qiu / 16 | 昔蘇武困於匈奴，不隊七尺之節，況此方寸印乎？ | Xưa Tô Vũ gặp nạn nơi Hung Nô còn không đánh mất tiết trượng bảy thước, huống gì ấn nhỏ vuông tấc này? | [Sử liệu khác] 後漢書卷48 徐璆 L222 https://zh.wikisource.org/zh-hant/後漢書/卷48 · EVD-B04-144 · 199 sau trả ấn; 隊 nghĩa rơi/mất, không phải quân đội |
+| QTE-0043 | zhu-ling / 17 | 今已遇，復何之？ | Nay đã gặp được người ấy, còn đi đâu nữa? | [Chính sử] 三國志卷17 朱靈 L171 https://zh.wikisource.org/zh-hant/三國志/卷17 · EVD-B04-143 · hồi tưởng lúc ở lại theo Tào sau chiến dịch Đào Khiêm; không gán năm 199 |
+| QTE-0044 | yan-xiang / 13 | 漢室雖微，未若殷紂之暴也。 | Nhà Hán tuy suy yếu nhưng chưa tàn bạo như Trụ nhà Ân. | [Chính sử] 三國志卷06 袁術 L183 https://zh.wikisource.org/zh-hant/三國志/卷06 · EVD-B04-148 · cuối 195, hồi tưởng khi Thuật xưng đế |
+| QTE-0045 | yu-jin / 14 | 青州兵同屬曹公，而還為賊乎！ | Quân Thanh Châu cũng thuộc Tào công, sao lại làm giặc? | [Chính sử] 三國志卷17 于禁 L145 https://zh.wikisource.org/zh-hant/三國志/卷17 · EVD-B04-149 · 197, phản ứng trước báo cáo cướp bóc, không quy cho toàn bộ lực lượng |
+| QTE-0046 | zhang-yang / 10 | 天子當與天下共之 | Thiên tử phải cùng thiên hạ phụng sự. | [Chính sử] 三國志卷08 張楊 L159 https://zh.wikisource.org/zh-hant/三國志/卷08 · EVD-B04-154 · 196, không độc chiếm vua; dịch ý theo đoạn tiếp |
+| QTE-0047 | xu-gong / 18 | 若放於外必作世患。 | Nếu để ở ngoài, ắt thành mối họa cho đời. | [Bùi chú] 三國志卷46 孫策 引江表傳 L152 https://zh.wikisource.org/zh-hant/三國志/卷46 · EVD-B04-147 · tấu biểu được thuật lại, trước 200; không có bản gốc còn được xác nhận |
+| QTE-0048 | cao-xing / 11 | 不意萌狂惑不止。 | Không ngờ Manh cứ mê muội không dừng. | [Bùi chú] 三國志卷07 呂布 引英雄記 L142 https://zh.wikisource.org/zh-hant/三國志/卷07 · EVD-B04-158 · 196, lời tường thuật của Cao Tính, không chứng minh mọi cáo buộc |
+| QTE-0049 | chen-gui / 13 | 勢不俱棲，可解離也。 | Thế ấy không thể cùng đậu một chỗ, có thể chia rẽ. | [Chính sử] 三國志卷07 呂布 L145 https://zh.wikisource.org/zh-hant/三國志/卷07 · EVD-B04-025 · 197, kế tách Hàn Xiêm/Dương Phụng khỏi Thuật |
+| QTE-0050 | lu-bu / 15 | 明公將步，令布將騎，則天下不足定也。 | Minh công chỉ huy bộ binh, để Bố chỉ huy kỵ binh, thì bình định thiên hạ không khó. | [Chính sử] 三國志卷07 呂布 L146 https://zh.wikisource.org/zh-hant/三國志/卷07 · EVD-B04-035 · sau đầu hàng, lời đề nghị chứ không phải kế hoạch đã thực hiện |
+
+## Effective per-person quote disposition (supersedes previous packet table where new records found)
+| Person | Available existing/reserved QTE | Disposition |
+|---|---|---|
+| cao-ang | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| cao-bao | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| cao-cao | QTE-0001, QTE-0002, QTE-0003, QTE-0015, QTE-0031 | Use only the attested context and date; preserve old records |
+| cao-ren | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| cao-xing | QTE-0048 | Use only the attested context and date; preserve old records |
+| chen-deng | QTE-0023 | Use only the attested context and date; preserve old records |
+| chen-gong | QTE-0019, QTE-0020, QTE-0041 | Use only the attested context and date; preserve old records |
+| chen-gui | QTE-0049 | Use only the attested context and date; preserve old records |
+| cheng-pu | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| cheng-yu | QTE-0021 | Use only the attested context and date; preserve old records |
+| chunyu-qiong | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| dian-wei | QTE-0013 | Use only the attested context and date; preserve old records |
+| dong-cheng | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| dong-zhao | QTE-0039 | Use only the attested context and date; preserve old records |
+| duan-wei | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| gao-gan | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| gao-shun | QTE-0040 | Use only the attested context and date; preserve old records |
+| gongsun-zan | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| guan-jing | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| guan-yu | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| guo-jia | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| guo-si | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| guo-tu | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| han-hao | QTE-0028 | Use only the attested context and date; preserve old records |
+| han-xian | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| hao-meng | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| hou-cheng | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| hua-xin | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| huang-zu | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| ji-ling | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| jia-xu | QTE-0035 | Use only the attested context and date; preserve old records |
+| ju-shou | QTE-0026 | Use only the attested context and date; preserve old records |
+| kong-rong | QTE-0024 | Use only the attested context and date; preserve old records |
+| li-jue | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| liu-bei | QTE-0008, QTE-0022 | Use only the attested context and date; preserve old records |
+| liu-biao | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| liu-dai-199 | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| liu-xun | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| liu-yao | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| lu-bu | QTE-0025, QTE-0030, QTE-0050 | Use only the attested context and date; preserve old records |
+| mao-jie | QTE-0010 | Use only the attested context and date; preserve old records |
+| mi-zhu | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| ren-jun | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| shi-huan | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| sui-gu | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| sun-ben | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| sun-ce | QTE-0027, QTE-0033, QTE-0038 | Use only the attested context and date; preserve old records |
+| sun-fu | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| sun-qian | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| sun-quan | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| taishi-ci | QTE-0034 | Use only the attested context and date; preserve old records |
+| tian-feng | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| tian-kai | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| wang-lang | QTE-0037 | Use only the attested context and date; preserve old records |
+| wang-zhong | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| wei-xu | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| wei-zhong | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| wu-furen | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| wu-jing | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| xiahou-dun | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| xiandi | QTE-0016 | Use only the attested context and date; preserve old records |
+| xu-gong | QTE-0047 | Use only the attested context and date; preserve old records |
+| xu-huang | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| xu-qiu | QTE-0042 | Use only the attested context and date; preserve old records |
+| xun-you | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| xun-yu | QTE-0011 | Use only the attested context and date; preserve old records |
+| yan-xiang | QTE-0044 | Use only the attested context and date; preserve old records |
+| yang-feng | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| yu-fan | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| yu-jin | QTE-0045 | Use only the attested context and date; preserve old records |
+| yuan-shao | QTE-0007 | Use only the attested context and date; preserve old records |
+| yuan-shu | QTE-0032 | Use only the attested context and date; preserve old records |
+| yuan-tan | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| yuan-xi | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| yue-jin | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| zang-ba | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| zao-zhi | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| zhang-fei | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| zhang-he | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| zhang-hong | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| zhang-ji | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| zhang-liao | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| zhang-xiu | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| zhang-xun | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| zhang-yan | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| zhang-yang | QTE-0046 | Use only the attested context and date; preserve old records |
+| zhang-zhao | QTE-0036 | Use only the attested context and date; preserve old records |
+| zhou-yu | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
+| zhu-ling | QTE-0043 | Use only the attested context and date; preserve old records |
+| zhu-zhi | No selected attributable quote in reviewed evidence | No verified suitable new speech from reviewed packet; optional quote absence, not assertion of exhaustive search or silence in all histories |
