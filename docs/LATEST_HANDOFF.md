@@ -1,3 +1,9 @@
+# PO decision — Wiki continuity — recorded (2026-11-26)
+
+- PO approved DEC-UX-043: dynamic Wiki faction history and multi-role categories are permanent per-batch deliverables, including existing character changes; AGENTS.md and BATCH_DELIVERY_RULES.md updated. Design accepted for this requirement, implementation Chat04, QA Chat05; next Chat02 unchanged. Docs-only, no production or B05 changes; last verified live SHA remains inherited 5af8a0885fdfa50aefdc4510a83c29a19b67fc0c (fresh live NOT TESTED).
+
+---
+
 # Navigation & IA audit — COMPLETE / proposal pending PO (2026-11-26)
 
 - Scope: read-only product/code audit after BATCH-04; no app code, content, historical data, redesign implementation or release authorized. Main audited: 5cd132e3c84046a7f82812952331611f143d061e. Last verified live SHA from B04 release: 5af8a0885fdfa50aefdc4510a83c29a19b67fc0c / run 45694080738 SUCCESS (inherited); fresh live HTTP/render NOT TESTED (direct network and web fetch unavailable). Existing automated B04 regression PASS remains inherited, not a new UX acceptance.
