@@ -28,7 +28,7 @@ for(const engine of [chromium,webkit]){
     await checkWidth(page,ep+' places opened');const rel=page.locator('#reader-atlas > details');await rel.locator('summary').first().click();await checkWidth(page,ep+' relations opened');const selector=rel.locator('select');check(await selector.evaluate(e=>e.getBoundingClientRect().right<=e.closest('details').getBoundingClientRect().right+1),'Event select exceeds panel '+ep);
     for(const e of expected){await rel.locator('select').selectOption(e.id);check(await rel.locator('[data-relation-id]').count()===pilot.relations.filter(r=>r.event===e.id).length,'Relation coverage '+e.id);await checkWidth(page,ep+' relation '+e.id);}
     if(ep==='ep-0009'){
-      for(const c of pilot.additionalGraphContexts){const context=rel.getByText(c.label,{exact:true}).locator('..');await context.locator('summary').click();check(await context.locator('.batch-relation-edge').count()===c.edges.length,'Context coverage '+c.label);}
+      for(const c of pilot.additionalGraphContexts.filter(c=>c.episode===ep)){const context=rel.getByText(c.label,{exact:true}).locator('..');await context.locator('summary').click();check(await context.locator('.batch-relation-edge').count()===c.edges.length,'Context coverage '+c.label);}
       const journey=board.getByTestId('atlas-journey-select');check(await board.locator('.atlas-journey-line').count()===0,'Journey on by default');await journey.selectOption('xiandi-195');await board.locator('.atlas-journey-panel').waitFor();check(await board.locator('.atlas-journey-list li').count()===11,'Missing stops');check(await board.locator('.atlas-journey-list li button:disabled').count()===1,'Unknown crossing');check((await board.locator('.atlas-journey-list li button:disabled').innerText()).includes('Vượt Hoàng Hà'),'Wrong text-only stop');await page.waitForFunction(()=>document.querySelectorAll('.atlas-journey-line').length===3);check(await board.locator('.atlas-journey-list li details a').count()===22,'Journey source coverage');await journey.selectOption('');await page.waitForFunction(()=>!document.querySelector('.atlas-journey-line,.atlas-journey-stop,.atlas-journey-panel'));
     }
     await checkWidth(page,ep+' final '+width);
@@ -39,7 +39,7 @@ for(const engine of [chromium,webkit]){
   }
   const page=await browser.newPage({viewport:{width:390,height:844},hasTouch:true,reducedMotion:'reduce'});await page.goto(base+'#/people');await page.locator('.people-grid button').first().waitFor();
   for(const person of pilot.people){await page.locator('.people-grid button').filter({has:page.locator('[data-person-name="'+person.name+'"]')}).click();const dialog=page.locator('dialog.person-sheet[open]');await dialog.waitFor();check(await dialog.locator('.person-related a').count()===entities.references[person.name].episodes.length,'Wiki backlinks '+person.id);check(await dialog.locator('.character-quote').count()===quotes.filter(q=>q.personId===person.id).length,'Wiki quotes '+person.id);await dialog.getByRole('button',{name:'Đóng'}).click();}
-  console.log('PASS 67 Wiki profiles and 29 quote/backlink counts',engine.name());await page.close();
+  console.log('PASS all 121 Wiki profiles and 49 quote/backlink counts',engine.name());await page.close();
 
   const nav=await browser.newPage({viewport:{width:390,height:844},hasTouch:true,reducedMotion:'reduce'});
   for(const [ep,query] of [['ep-0007','dung the luc'],['ep-0008','bao thu tu chau'],['ep-0009','lay lai duyen chau']]){
