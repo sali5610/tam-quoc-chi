@@ -209,3 +209,9 @@ Open: chapter 23–24 medical conspiracy exact passage and Cao Man Zhuan grain s
 | EVD-B04-158 | 11 | [Bùi chú] 三國志/卷07 呂布 引英雄記 L142 https://zh.wikisource.org/zh-hant/三國志/卷07 | 使安撫萌故營，領其衆 | Hác Manh là tướng có quân riêng, phản Lữ tháng 6 năm 196 theo nguồn này; Cao Tính chống lại Hác, được Lữ giao quân cũ sau khi lành thương. Lời tố Trần Cung đồng mưu chưa được xác minh độc lập. | Hạ Bì |
 | EVD-B04-159 | 15 | [Bùi chú] 三國志/卷07 呂布 引英雄記 L146 https://zh.wikisource.org/zh-hant/三國志/卷07 | 以魏續有外內之親 | Ngụy Tục có quan hệ thông gia/nội ngoại với Lữ (không tự định quan hệ cụ thể), được giao quân Cao Thuận; Cao Thuận vẫn được dùng khi giao chiến; chính văn 035 ghi Ngụy Tục/Tống Hiến/Hầu Thành cùng bắt Trần Cung và hàng. | Hạ Bì |
 | EVD-B04-160 | 18 | [Bùi chú] 三國志/卷46 孫策 引江表傳、吳曆、搜神記 L151–152 https://zh.wikisource.org/zh-hant/三國志/卷46 | 案江表傳、搜神記于吉事不同 | Phân biệt Giang biểu truyện và Sưu thần ký về Vu Cát; Ngô lịch kể Tôn Sách soi gương sau bị thương nhưng không đưa hồn Vu Cát vào; Sưu thần ký kể hiện hồn, không chứng cứ siêu nhiên. Tôn Thịnh/Bùi bất đồng kế hoạch và niên biểu; không dùng lời kể như độc lập xác nhận mưu sát chi tiết. | Giang Đông, nơi cụ thể dị bản |
+
+
+## Chat02 — continuity supplement
+| ID | EP | Layer / work / section | Original locator | Interpretation / chronology | Place precision |
+|---|---|---|---|---|---|
+| EVD-B04-161 | 11,15 | [Chính sử] 三國志卷32 先主 https://zh.wikisource.org/wiki/三國志/卷32 | 先主求和於呂布，布還其妻子；復虜先主妻子送布；先主復得妻子 | Năm 196 Lưu Bị được bổ Trấn Đông tướng quân, Nghi Thành đình hầu; cầu hòa, được trả vợ con; năm 198 Cao Thuận bắt họ lần nữa, sau Hạ Bì Lưu nhận lại. Không tự định danh từng người vợ/con. | Từ Châu, Tiểu Bái/Hạ Bì; nơi giam giữ không rõ |
