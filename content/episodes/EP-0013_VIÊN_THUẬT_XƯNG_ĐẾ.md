@@ -1,7 +1,7 @@
 # EP-0013 — Viên Thuật tự làm hoàng đế, đồng minh tự rút
 *Đông Hán · 197 (Kiến An nhị niên)*
 
-**Năm 197, nhà Hán vẫn có hoàng đế ở Hứa. Nhưng tại Hoài Nam, Viên Thuật quyết định thiên hạ cần thêm một hoàng đế nữa: chính ông.**
+**Năm 197, nhà Hán vẫn có Hán Hiến Đế ở Hứa. Nhưng tại Hoài Nam, Viên Thuật quyết định thiên hạ cần thêm một hoàng đế nữa: chính ông.**
 
 Viên Thuật vốn xuất thân từ gia tộc Viên có nhiều đời giữ chức cao. Ông không phải người mới có quân vài tháng, mà đã tranh địa bàn với Tào Tháo, Lưu Biểu và Lưu Bị, từng là người bảo trợ Tôn Sách. Chính vì thế, quyết định của ông không chỉ là thay một danh hiệu. Nó đẩy cả mạng lưới tướng lĩnh, quan lại và thông gia vào câu hỏi họ đang phục vụ ai.
 
