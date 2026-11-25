@@ -17,14 +17,14 @@ function SceneArt({art}:{art:(typeof sceneArt)[number]}){const [failed,setFailed
 export function PersonSheet({name,close}:{name:string;close:()=>void}){
  const ref=useRef<HTMLDialogElement>(null);
  useEffect(()=>{const d=ref.current;const previous=document.activeElement as HTMLElement|null;d?.showModal();return()=>{d?.close();requestAnimationFrame(()=>{if(previous?.isConnected)previous.focus({preventScroll:true})})}},[]);
- const p=people[name];const related=entities.references[name as keyof typeof entities.references];
+ const p=people[name];const related=entities.references[name as keyof typeof entities.references] as {episodes:string[];evidence:string[];sources?:{url:string;label:string}[]};
  return <dialog className="person-sheet" aria-label={name} ref={ref} onCancel={close}>
  <div className="person-sheet-top"><span>Hồ sơ nhân vật</span><button onClick={close} autoFocus>Đóng <X size={17} aria-hidden="true"/></button></div>
  <div className="person-nameplate"><Portrait key={name} name={name}/><div className="person-identity"><span className="person-hanzi" lang="zh-Hant">{p[0]}</span><h2>{name}</h2><p>{p[1]}</p></div></div>
  <p className="person-biography">{p[2]}</p>
  <CharacterRadar key={name} name={name} close={close}/><CharacterQuotes name={name}/>
  {related&&<section className="person-related"><h3>Tập liên quan</h3>{related.episodes.map(id=><a key={id} href={'#/read/'+id} onClick={close}>{episodes.find(e=>e.id===id)?.title||id}<ArrowRight size={16} aria-hidden="true"/></a>)}</section>}
- <details className="wiki-sources"><summary>Nguồn tham khảo</summary>{portraitForName(name)&&<p className="portrait-credit"><a href={portraitForName(name)?.sourceUrl} target="_blank" rel="noreferrer">{portraitForName(name)?.credit}</a> · Tranh đời sau, không phải chân dung đương thời.</p>}<a href={'https://zh.wikisource.org/wiki/'+p[3]} target="_blank" rel="noreferrer">{p[3].startsWith('三國志')?'[Chính sử]':'[Sử liệu khác]'} {p[3]}</a></details>
+ <details className="wiki-sources"><summary>Nguồn tham khảo</summary>{portraitForName(name)&&<p className="portrait-credit"><a href={portraitForName(name)?.sourceUrl} target="_blank" rel="noreferrer">{portraitForName(name)?.credit}</a> · Tranh đời sau, không phải chân dung đương thời.</p>}<a href={'https://zh.wikisource.org/wiki/'+p[3]} target="_blank" rel="noreferrer">{p[3].startsWith('三國志')?'[Chính sử]':'[Sử liệu khác]'} {p[3]}</a>{related?.sources?.filter(s=>s.url!=='https://zh.wikisource.org/wiki/'+p[3]).map(s=><p key={s.url}><a href={s.url} target="_blank" rel="noreferrer">{s.label}</a></p>)}</details>
  </dialog>
 }
 export function People(){
