@@ -27,7 +27,7 @@ function layoutNarrowMarkers(m:L.Map,entries:MarkerLayout[]){
   el.removeAttribute('data-callout-offset');
   if(!narrow)continue;
   const p=m.latLngToContainerPoint(marker.getLatLng());
-  if(!m.getContainer().closest('.compact-board')&&(p.x<0||p.x>size.x||p.y<0||p.y>size.y))continue;
+  if(p.x<0||p.x>size.x||p.y<0||p.y>size.y)continue;
   const right=size.x-w-8,bottom=size.y-h-20;
   if(right<8||bottom<8)continue;
   const native={x:p.x-ax,y:p.y-ay,w,h};
