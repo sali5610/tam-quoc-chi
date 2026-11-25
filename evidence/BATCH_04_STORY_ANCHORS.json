@@ -667,14 +667,14 @@
       ],
       "decisions": [
         {
-          "anchor": "Đồn điền biến bài toán quân lương thành một công việc tổ chức sản xuất dài hạn.",
-          "label": "Đồn điền"
+          "anchor": "Triều đình chuyển từ Lạc Dương về Hứa, nơi Tào Tháo có thể cung ứng và bảo vệ.",
+          "label": "Dời triều đình về Hứa"
         }
       ],
       "reveal": {
-        "anchor": "Tháng bảy, vua trở về Lạc Dương, nhưng triều đình vẫn thiếu nơi ở và lương ăn.",
-        "title": "Đối chiếu nguồn và bối cảnh",
-        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+        "anchor": "[Sử liệu mâu thuẫn] Chính văn Viên Thiệu truyện ghi Quách Đồ từng khuyên đón vua về Nghiệp. Hiến đế truyện trong Bùi chú lại ghi Quách Đồ và Thuần Vu Quỳnh phản đối đề nghị của Cư Thụ. Bùi Tùng Chi chỉ ra sự khác biệt. Câu thường được nhắc là “挾天子而令諸侯” — mượn thế thiên tử để ra lệnh chư hầu — nằm trong lời bàn ở nguồn chú dẫn, không phải lời tuyên bố nguyên văn của Tào Tháo.",
+        "title": "Đối chiếu sử liệu",
+        "policy": "Optional expansion only; no essential story or source evidence hidden."
       },
       "reducedMotion": "Static state, no required animation; no automatic sound."
     },
@@ -689,14 +689,14 @@
       ],
       "decisions": [
         {
-          "anchor": "Lữ Bố giữ được Hạ Bì, nhưng ngay trong quân của mình đã có một cuộc nổi dậy.",
-          "label": "Bộ máy Lữ rạn"
+          "anchor": "Lữ Bố cứu Lưu Bị vì một Viên Thuật mạnh hơn cũng có thể đe dọa Lữ Bố.",
+          "label": "Can thiệp vì cân bằng lực lượng"
         }
       ],
       "reveal": {
-        "anchor": "Lữ Bố chiếm Hạ Bì khi Lưu Bị đang chống Viên Thuật.",
-        "title": "Đối chiếu nguồn và bối cảnh",
-        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+        "anchor": "[Tiểu thuyết] Hồi 14 Diễn nghĩa biến việc này thành màn Trương Phi say rượu, đánh Tào Báo, người có con rể là Lữ Bố. Những chi tiết say rượu và quan hệ cha vợ không được các đoạn sử trên xác nhận. Chính sử và Bùi chú đủ cho thấy hậu phương chia rẽ mà không cần bịa một buổi tiệc.",
+        "title": "Đối chiếu sử liệu",
+        "policy": "Optional expansion only; no essential story or source evidence hidden."
       },
       "reducedMotion": "Static state, no required animation; no automatic sound."
     },
@@ -710,14 +710,14 @@
       ],
       "decisions": [
         {
-          "anchor": "Các quận Giang Đông bắt đầu được giao cho những người thuộc mạng lưới của Tôn Sách.",
-          "label": "Quản lý quận"
+          "anchor": "Tôn Sách và Chu Du mở đường từ Lịch Dương vào các địa bàn của Lưu Do.",
+          "label": "Mở thế lực qua sông"
         }
       ],
       "reveal": {
-        "anchor": "Cuộc giao tranh ở Thần Đình chưa phải lúc Thái Sử Từ đầu hàng.",
-        "title": "Đối chiếu nguồn và bối cảnh",
-        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+        "anchor": "[Sử liệu mâu thuẫn] Như tập 9 đã nói, niên biểu việc qua sông khác nhau: Vũ Đế kỷ ghi 193, Hậu Hán thư tóm lược 194, Giang biểu truyện ghi 195. Tập này nối tuyến 195 của Giang biểu truyện và Tư trị thông giám, không khẳng định mọi trận hay chức vụ diễn ra trong một năm duy nhất.",
+        "title": "Đối chiếu sử liệu",
+        "policy": "Optional expansion only; no essential story or source evidence hidden."
       },
       "reducedMotion": "Static state, no required animation; no automatic sound."
     },
@@ -732,14 +732,14 @@
       ],
       "decisions": [
         {
-          "anchor": "Hàn Xiêm và Dương Phụng đổi phe, khiến liên minh đánh Lữ Bố tan vỡ.",
-          "label": "Liên minh đổi phe"
+          "anchor": "Tôn Sách cắt quan hệ với người từng cấp quân cho mình.",
+          "label": "Cắt quan hệ với Viên Thuật"
         }
       ],
       "reveal": {
-        "anchor": "Viên Thuật tự lập một triều đình trong khi triều đình nhà Hán vẫn tồn tại.",
-        "title": "Đối chiếu nguồn và bối cảnh",
-        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+        "anchor": "[Sử liệu mâu thuẫn] Điển lược trong Bùi chú ghi tên gọi 仲氏 (Trọng thị), Hậu Hán thư ghi 仲家 (Trọng gia). Không mặc định một quốc hiệu chính thức duy nhất chỉ vì cách gọi quen thuộc. Lời sấm được người đương thời diễn giải theo tên Thuật không phải bằng chứng thiên mệnh.",
+        "title": "Đối chiếu sử liệu",
+        "policy": "Optional expansion only; no essential story or source evidence hidden."
       },
       "reducedMotion": "Static state, no required animation; no automatic sound."
     },
@@ -755,14 +755,14 @@
       ],
       "decisions": [
         {
-          "anchor": "Đến năm 198, Trương Tú vẫn còn lực lượng riêng và vẫn liên kết với Lưu Biểu.",
-          "label": "Mặt trận nam vẫn mở"
+          "anchor": "Trương Tú quay lại chống Tào sau khi đã đầu hàng.",
+          "label": "Trương Tú phản Tào"
         }
       ],
       "reveal": {
-        "anchor": "Trương Tú tiếp quản quân của Trương Tế và trở thành một thế lực ở Nam Dương.",
-        "title": "Đối chiếu nguồn và bối cảnh",
-        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+        "anchor": "[Bùi chú] Thế ngữ kể Ngang nhường ngựa cho cha và chết. Đây là dị bản về tình tiết hy sinh, không phải điều Vũ Đế kỷ xác nhận trực tiếp.",
+        "title": "Đối chiếu sử liệu",
+        "policy": "Optional expansion only; no essential story or source evidence hidden."
       },
       "reducedMotion": "Static state, no required animation; no automatic sound."
     },
@@ -777,14 +777,14 @@
       ],
       "decisions": [
         {
-          "anchor": "Lữ Bố không còn một cuộc đổi chủ nào nữa.",
-          "label": "Một lực lượng tan rã"
+          "anchor": "Quân Tào tiếp tục vây Hạ Bì và dùng nước gây sức ép lên thành.",
+          "label": "Tiếp tục vây Hạ Bì"
         }
       ],
       "reveal": {
-        "anchor": "Lưu Bị mất Tiểu Bái và tìm sự hỗ trợ của Tào Tháo.",
-        "title": "Đối chiếu nguồn và bối cảnh",
-        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+        "anchor": "[Đối chiếu] Hồi 18 Diễn nghĩa nổi tiếng với chuyện Hạ Hầu Đôn bị Tào Tính bắn vào mắt rồi nuốt mắt. Chính văn Hạ Hầu Đôn truyện ghi ông bị tên lạc làm thương mắt trái trong mạch chiến sự chống Lữ ở giai đoạn 194. Không xác nhận người bắn là Tào Tính, màn nuốt mắt, hay gán việc mất mắt vào năm 198.",
+        "title": "Đối chiếu sử liệu",
+        "policy": "Optional expansion only; no essential story or source evidence hidden."
       },
       "reducedMotion": "Static state, no required animation; no automatic sound."
     },
@@ -799,14 +799,14 @@
       ],
       "decisions": [
         {
-          "anchor": "Viên Thuật chết mà không duy trì được triều đình mình tự lập.",
-          "label": "Đế hiệu không giữ được đất"
+          "anchor": "Viên Thiệu có thế lực trên bốn châu, nhưng các vùng ấy được quản qua những đầu mối khác nhau.",
+          "label": "Bố trí các đầu mối miền bắc"
         }
       ],
       "reveal": {
-        "anchor": "Tháng ba năm 199, Viên Thiệu đánh bại Công Tôn Toản tại Dịch Kinh.",
-        "title": "Đối chiếu nguồn và bối cảnh",
-        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+        "anchor": "[Bùi chú] Ngô thư trong Viên Thuật truyện kể lúc khốn khó không có mật để uống, Thuật than: “Viên Thuật đến nỗi này sao?” Hậu Hán thư và Tư trị thông giám có cách ghi khác về lời than. Không tự xác định bệnh, lượng lương còn lại hay vị trí Giang Đình theo bản đồ hiện đại.",
+        "title": "Đối chiếu sử liệu",
+        "policy": "Optional expansion only; no essential story or source evidence hidden."
       },
       "reducedMotion": "Static state, no required animation; no automatic sound."
     },
@@ -822,14 +822,14 @@
       ],
       "decisions": [
         {
-          "anchor": "Quan Vũ bị bắt và nhận chức trong quân Tào, còn Lưu Bị sang với Viên Thiệu.",
-          "label": "Hai người bị chia ra"
+          "anchor": "Trương Tú đầu hàng lần thứ hai, lần này được Tào tiếp nhận vào mạng lưới của mình.",
+          "label": "Trương Tú chọn theo Tào"
         }
       ],
       "reveal": {
-        "anchor": "Tào Tháo nhận xét Lưu Bị là một trong hai anh hùng đương thời.",
-        "title": "Đối chiếu nguồn và bối cảnh",
-        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+        "anchor": "[Đối chiếu] Hoa Dương quốc chí được Bùi chú dẫn thêm tiếng sấm. Hồi 21 Diễn nghĩa đặt cả cuộc đối thoại trong cảnh thanh mai nấu rượu, có lời giải thích và các nhân vật khác xuất hiện. Câu nhận xét có chính văn; bữa rượu mơ xanh như truyện kể không được xác nhận là khung cảnh lịch sử.",
+        "title": "Đối chiếu sử liệu",
+        "policy": "Optional expansion only; no essential story or source evidence hidden."
       },
       "reducedMotion": "Static state, no required animation; no automatic sound."
     },
@@ -845,13 +845,13 @@
       "decisions": [
         {
           "anchor": "Tôn Quyền nhận cơ nghiệp với sự trợ giúp của cả quan lại và tướng lĩnh cũ.",
-          "label": "Người em tiếp quản"
+          "label": "Chuyển giao quyền lực"
         }
       ],
       "reveal": {
-        "anchor": "Sử liệu bất đồng về mục tiêu trước mắt của Tôn Sách; không có trận đánh Hứa nào của ông được thực hiện.",
-        "title": "Đối chiếu nguồn và bối cảnh",
-        "policy": "Only optional source/variant detail; core prose always readable; no forced reveal."
+        "anchor": "[Đối chiếu] Giang biểu truyện kể người theo Tôn Sách ra chào Vu Cát, khiến Sách coi ảnh hưởng của ông là vấn đề đối với trật tự dưới quyền mình; mẹ Sách còn xin tha. Sưu thần ký lại đặt câu chuyện trong cảnh hạn hán, kể Vu Cát cầu mưa rồi vẫn bị giết. Đó là hai truyền bản khác nhau, không phải hai đoạn có thể tự động ghép thành một sự kiện. Ngô lịch có chuyện Sách soi gương sau bị thương nhưng không đưa hồn Vu Cát vào như Sưu thần ký. Hồi 29 Diễn nghĩa phát triển chuyện cầu mưa và oán hồn. Bùi Tùng Chi đã lưu ý sự khác biệt giữa các nguồn. Không coi lời nguyền hoặc bóng trong gương là nguyên nhân lịch sử được xác nhận.",
+        "title": "Đối chiếu sử liệu",
+        "policy": "Optional expansion only; no essential story or source evidence hidden."
       },
       "reducedMotion": "Static state, no required animation; no automatic sound."
     }
@@ -2747,12 +2747,10 @@
         "dateLabel": "197",
         "anchor": "Vu Cấm duy trì trật tự khi quân Tào rơi vào cảnh thất bại.",
         "title": "Giữ kỷ luật",
-        "place": "wan",
-        "placeIds": [
-          "wan"
-        ],
-        "precision": "site",
-        "note": "Vu Cấm tập hợp quân, xử lý cướp bóc; không diễn tập chiến thuật.",
+        "place": null,
+        "placeIds": [],
+        "precision": "text-only",
+        "note": "Vu Cấm tập hợp quân, xử lý cướp bóc; không diễn tập chiến thuật. Địa điểm cụ thể trong lúc thu quân chưa đủ căn cứ để ghim tại Uyển.",
         "evidenceIds": [
           "EVD-B04-149"
         ],
@@ -3479,13 +3477,13 @@
         "dateLabel": "Đầu 200 · kế hoạch",
         "anchor": "Sử liệu bất đồng về mục tiêu trước mắt của Tôn Sách; không có trận đánh Hứa nào của ông được thực hiện.",
         "title": "Kế hoạch chưa xảy ra",
-        "place": "dantu",
+        "place": null,
         "placeIds": [
           "dantu",
           "guangling"
         ],
-        "precision": "region",
-        "note": "Hứa / Trần Đăng theo nguồn khác nhau; không vẽ hành trình chưa thực hiện.",
+        "precision": "text-only",
+        "note": "Hứa / Trần Đăng theo nguồn khác nhau; không vẽ hành trình chưa thực hiện. Các địa danh là bối cảnh/đối tượng dự định, không phải địa điểm xảy ra cuộc tấn công.",
         "evidenceIds": [
           "EVD-B04-056",
           "EVD-B04-057",
