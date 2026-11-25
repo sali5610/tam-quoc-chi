@@ -52,6 +52,18 @@ for(const engine of [chromium,webkit]){
     if(next)check(await nav.locator('.pager a[href="#/read/'+next+'"]').count()===1,'Next link '+ep);
     await nav.getByRole('button',{name:'Cỡ chữ',exact:true}).click();check(await nav.getByRole('button',{name:'Âm thanh: Tắt'}).getAttribute('aria-pressed')==='false','Sound default '+ep);await nav.keyboard.press('Escape');
     await nav.getByRole('button',{name:'Trong tập',exact:true}).click();const context=nav.getByRole('dialog',{name:'Trong tập này'});await context.waitFor();
+    const expectedPeople=Object.keys(entities.people).filter(name=>entities.references[name]?.episodes.includes(ep));
+    const inline=await nav.locator('.story-content button.inline-person').allTextContents();
+    check(expectedPeople.every(name=>inline.includes(name)),'Missing inline Wiki link '+ep+' '+expectedPeople.filter(name=>!inline.includes(name)).join(','));
+    await context.locator('.context-people summary').click();
+    const contextNames=await context.locator('.context-people button').allTextContents();
+    check(contextNames.length===expectedPeople.length&&expectedPeople.every(name=>contextNames.includes(name)),'Reader Wiki membership '+ep);
+    await context.locator('.context-people').getByRole('button',{name:'Tào Tháo',exact:true}).click();
+    const profile=nav.getByRole('dialog',{name:'Tào Tháo',exact:true});await profile.waitFor();
+    check(await profile.locator('.person-related a[href="#/read/'+ep+'"]').count()===1,'Missing return backlink '+ep);
+    await profile.getByRole('button',{name:'Đóng'}).click();
+    await context.locator('.context-people summary').click();
+
     await context.locator('.scene-strip button').nth(1).click();await context.waitFor({state:'detached'});
     await nav.waitForFunction(id=>{const p=JSON.parse(localStorage.getItem('tqc-v2-position')||'null');return p?.id===id&&p.y>100&&Math.abs(scrollY-p.y)<5},ep);
     const position=await nav.evaluate(()=>JSON.parse(localStorage.getItem('tqc-v2-position')));
@@ -60,7 +72,7 @@ for(const engine of [chromium,webkit]){
     await nav.getByRole('button',{name:'Trong tập',exact:true}).waitFor();await nav.waitForFunction(y=>Math.abs(scrollY-y)<20,position.y);
     await nav.goto(base+'#/collection');const bookmark=nav.locator('main a[href="#/read/'+ep+'"]');await bookmark.click();await nav.getByRole('button',{name:'Trong tập',exact:true}).waitFor();await nav.waitForFunction(y=>Math.abs(scrollY-y)<20,position.y);
     await nav.goto(base+'#/collection');await nav.locator('main p').filter({has:nav.locator('a[href="#/read/'+ep+'"]')}).getByRole('button',{name:'Xóa'}).click();check(await nav.locator('main a[href="#/read/'+ep+'"]').count()===0,'Delete bookmark '+ep);
-    console.log('PASS B03 navigation, search, resume, bookmark',engine.name(),ep);
+    console.log('PASS B03 navigation, search, resume, bookmark, Reader/Wiki links',engine.name(),ep);
   }await nav.close();
 
  }finally{await browser.close()}
