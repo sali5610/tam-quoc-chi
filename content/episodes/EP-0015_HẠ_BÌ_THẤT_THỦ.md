@@ -13,7 +13,9 @@ Tào Tháo sai Hạ Hầu Đôn cứu Lưu Bị nhưng không thành công. Lưu
 
 > [Đối chiếu] Hồi 18 Diễn nghĩa nổi tiếng với chuyện Hạ Hầu Đôn bị Tào Tính bắn vào mắt rồi nuốt mắt. Chính văn Hạ Hầu Đôn truyện ghi ông bị tên lạc làm thương mắt trái trong mạch chiến sự chống Lữ ở giai đoạn 194. Không xác nhận người bắn là Tào Tính, màn nuốt mắt, hay gán việc mất mắt vào năm 198.
 
-**Lưu Bị mất Tiểu Bái và tìm sự hỗ trợ của Tào Tháo.**
+**Lưu Bị mất Tiểu Bái và tìm sự hỗ trợ của Tào Tháo.** Vợ con ông lại bị Cao Thuận bắt và đưa về cho Lữ Bố. Lần trước, ở tập 11, họ được trả lại sau khi Lưu cầu hòa; lần này ông phải chờ kết cục cuộc chiến ở Hạ Bì.
+
+[Chính sử] EVD-B04-161 — 《三國志》[卷32](https://zh.wikisource.org/wiki/三國志/卷32).
 
 [Chính sử] EVD-B04-033,122 — 《三國志》[卷1](https://zh.wikisource.org/wiki/三國志/卷01), [卷9〈夏侯惇傳〉](https://zh.wikisource.org/wiki/三國志/卷09). [Bùi chú] EVD-B04-136 — [卷7](https://zh.wikisource.org/wiki/三國志/卷07) dẫn 《英雄記》. [Tiểu thuyết] EVD-B04-123 — [hồi 18](https://zh.wikisource.org/wiki/三國演義/第018回).
 
@@ -53,7 +55,9 @@ Hai cái tên đó đã xuất hiện từ đầu câu chuyện: Lữ Bố từn
 
 Lữ Bố, Trần Cung và Cao Thuận bị xử tử. Chính văn Trần Cung truyện ghi lời ông về mẹ già, đặt việc chăm sóc bà vào tay Tào. Tào nuôi mẹ và gả con gái của Cung. Không pha trộn lời đối đáp của Điển lược vào lời chính văn, cũng không bịa một cuộc đoàn tụ giữa hai người từng cùng phe.
 
-**Lữ Bố không còn một cuộc đổi chủ nào nữa.**
+**Lữ Bố không còn một cuộc đổi chủ nào nữa.** Tiên chủ truyện ghi Lưu Bị lại có được vợ con sau chiến dịch. Với nhà Lưu, thắng lợi ấy không chỉ là chuyện ai nắm Hạ Bì.
+
+[Chính sử] EVD-B04-161 — 《三國志》[卷32](https://zh.wikisource.org/wiki/三國志/卷32).
 
 Trương Liêu, một tướng thuộc phe Lữ, dẫn quân hàng Tào và được bổ trung lang tướng, phong Quan nội hầu. Trương Phi sau khi theo Lưu phá Lữ cũng được Tào bổ trung lang tướng. Tang Bá và những lực lượng ven biển Thanh–Từ được Tào dung nạp. Người đứng đầu cũ chết, nhưng thuộc hạ không biến mất cùng ông; họ trở thành một phần của trật tự mới.
 
