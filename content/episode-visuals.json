@@ -1450,5 +1450,1942 @@
       "EVD-B03-050",
       "EVD-B03-055"
     ]
+  },
+  {
+    "id": "B04-V10-01",
+    "episode": "ep-0010",
+    "anchor": "Tháng bảy, vua trở về Lạc Dương, nhưng triều đình vẫn thiếu nơi ở và lương ăn.",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Triều đình trở về",
+    "items": [
+      {
+        "name": "An Ấp",
+        "text": "Tháng giêng đổi niên hiệu Kiến An",
+        "icon": "scroll"
+      },
+      {
+        "name": "Văn Hỷ",
+        "text": "Tháng sáu đoàn vua tới",
+        "icon": "scroll"
+      },
+      {
+        "name": "Lạc Dương",
+        "text": "Tháng bảy về kinh, thiếu chỗ ở và lương",
+        "icon": "scroll"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Sử liệu khác] 後漢書 · 卷9",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "label": "[Sử liệu khác] 資治通鑑 · 卷062",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷062"
+      }
+    ],
+    "note": "Thứ tự văn bản, không phải đường đi phục dựng.",
+    "evidenceIds": [
+      "EVD-B04-001",
+      "EVD-B04-002",
+      "EVD-B04-003",
+      "EVD-B04-010"
+    ]
+  },
+  {
+    "id": "B04-V10-02",
+    "episode": "ep-0010",
+    "anchor": "Triều đình chuyển từ Lạc Dương về Hứa, nơi Tào Tháo có thể cung ứng và bảo vệ.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Danh nghĩa và thực quyền",
+    "items": [
+      {
+        "name": "Đổng Chiêu",
+        "text": "Đề xuất chuyển đô",
+        "icon": "scroll",
+        "person": "Đổng Chiêu"
+      },
+      {
+        "name": "Tào Tháo",
+        "text": "Đón vua, có thêm quyền điều hành",
+        "person": "Tào Tháo"
+      },
+      {
+        "name": "Hứa",
+        "text": "Căn cứ cung ứng và bảo vệ",
+        "icon": "scroll"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Sử liệu mâu thuẫn] 後漢書 · 卷9",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "label": "[Chính sử] 魏志 · 卷14",
+        "url": "https://zh.wikisource.org/wiki/三國志_(四庫全書本)/魏志/卷14"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷17",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷17"
+      }
+    ],
+    "note": "Ổn định chỗ ở không đồng nghĩa vua tự nguyện trao hết quyền.",
+    "evidenceIds": [
+      "EVD-B04-004",
+      "EVD-B04-005",
+      "EVD-B04-006",
+      "EVD-B04-007",
+      "EVD-B04-135",
+      "EVD-B04-151"
+    ],
+    "center": {
+      "name": "Triều đình Hán",
+      "text": "Chuyển về Hứa",
+      "icon": "scroll"
+    }
+  },
+  {
+    "id": "B04-V10-03",
+    "episode": "ep-0010",
+    "anchor": "Ngụy thư trong Bùi chú kể việc chiêu mộ",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Đồn điền",
+    "items": [
+      {
+        "name": "Táo Chi và Hàn Hạo",
+        "text": "Đề xuất đồn điền",
+        "icon": "grain"
+      },
+      {
+        "name": "Nhậm Tuấn",
+        "text": "Tổ chức canh tác",
+        "icon": "scroll",
+        "person": "Nhậm Tuấn"
+      },
+      {
+        "name": "Dân canh tác",
+        "text": "Chiêu mộ quanh Hứa theo Ngụy thư",
+        "icon": "grain"
+      },
+      {
+        "name": "Quân lương",
+        "text": "Nguồn cung dài hạn",
+        "icon": "grain"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷01 / [Bùi chú]",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷16 / [Bùi chú]",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷16"
+      }
+    ],
+    "note": "Không coi dân canh tác là binh lính hoặc áp một tỷ lệ thu tô cho mọi nơi.",
+    "evidenceIds": [
+      "EVD-B04-008",
+      "EVD-B04-009",
+      "EVD-B04-081",
+      "EVD-B04-082"
+    ],
+    "plannedAnchor": "Đồn điền biến bài toán quân lương thành một công việc tổ chức sản xuất dài hạn."
+  },
+  {
+    "id": "B04-V11-01",
+    "episode": "ep-0011",
+    "anchor": "Lữ Bố chiếm Hạ Bì khi Lưu Bị đang chống Viên Thuật.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Chủ nhà mất căn cứ",
+    "items": [
+      {
+        "name": "Lưu Bị",
+        "text": "Đang chống Viên Thuật",
+        "person": "Lưu Bị"
+      },
+      {
+        "name": "Tào Báo",
+        "text": "Chính văn ghi phản và đón Lữ",
+        "person": "Tào Báo"
+      },
+      {
+        "name": "Trương Phi",
+        "text": "Xung đột với Báo theo các dị bản",
+        "icon": "scroll",
+        "person": "Trương Phi"
+      },
+      {
+        "name": "Lữ Bố",
+        "text": "Chiếm căn cứ, giữ gia đình Lưu",
+        "person": "Lữ Bố"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷32 / [Bùi chú]",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷32"
+      },
+      {
+        "label": "[Bùi chú] 三國志 · 卷07",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷07"
+      },
+      {
+        "label": "[Sử liệu khác] 資治通鑑 · 卷062",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷062"
+      }
+    ],
+    "note": "Hai lời kể về cái chết Tào Báo khác nhau.",
+    "evidenceIds": [
+      "EVD-B04-011",
+      "EVD-B04-012",
+      "EVD-B04-013",
+      "EVD-B04-014",
+      "EVD-B04-161"
+    ],
+    "center": {
+      "name": "Hạ Bì",
+      "text": "Căn cứ đổi chủ",
+      "icon": "banner"
+    }
+  },
+  {
+    "id": "B04-V11-02",
+    "episode": "ep-0011",
+    "anchor": "Lưu Bị phải cầu hòa với Lữ Bố.",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Gia sản thành nguồn lực",
+    "items": [
+      {
+        "name": "Hải Tây",
+        "text": "Lực lượng Lưu thiếu thốn",
+        "icon": "grain"
+      },
+      {
+        "name": "Mi Trúc",
+        "text": "Dùng gia sản giúp quân",
+        "icon": "scroll",
+        "person": "My Trúc"
+      },
+      {
+        "name": "Lưu Bị",
+        "text": "Cầu hòa, được trả vợ con",
+        "person": "Lưu Bị"
+      },
+      {
+        "name": "Tiểu Bái",
+        "text": "Căn cứ nhỏ hơn Hạ Bì",
+        "icon": "grain"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Sử liệu khác] 資治通鑑 · 卷062",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷062"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷38",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷38"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷32",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷32"
+      }
+    ],
+    "note": "Nô khách không mặc nhiên là lính.",
+    "evidenceIds": [
+      "EVD-B04-014",
+      "EVD-B04-115",
+      "EVD-B04-161"
+    ],
+    "plannedAnchor": "Mi Trúc dùng gia sản để giúp Lưu Bị duy trì lực lượng sau khi mất Hạ Bì."
+  },
+  {
+    "id": "B04-V11-03",
+    "episode": "ep-0011",
+    "anchor": "Lữ Bố cứu Lưu Bị vì một Viên Thuật mạnh hơn cũng có thể đe dọa Lữ Bố.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Cân bằng ba phe",
+    "items": [
+      {
+        "name": "Viên Thuật",
+        "text": "Sai Kỷ Linh đánh Lưu",
+        "person": "Viên Thuật"
+      },
+      {
+        "name": "Kỷ Linh",
+        "text": "Chỉ huy quân đánh Lưu",
+        "icon": "scroll",
+        "person": "Kỷ Linh"
+      },
+      {
+        "name": "Lưu Bị",
+        "text": "Cầu viện, hai bên giải binh",
+        "person": "Lưu Bị"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷07",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷07"
+      },
+      {
+        "label": "[Tiểu thuyết] 三國演義 · 第016回",
+        "url": "https://zh.wikisource.org/wiki/三國演義/第016回"
+      }
+    ],
+    "note": "Không phải liên minh bền vững.",
+    "evidenceIds": [
+      "EVD-B04-015",
+      "EVD-B04-102"
+    ],
+    "center": {
+      "name": "Lữ Bố",
+      "text": "Can thiệp để giữ cân bằng",
+      "person": "Lữ Bố"
+    }
+  },
+  {
+    "id": "B04-V11-04",
+    "episode": "ep-0011",
+    "anchor": "Lữ Bố giữ được Hạ Bì, nhưng ngay trong quân của mình đã có một cuộc nổi dậy.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Bộ máy Lữ rạn",
+    "items": [
+      {
+        "name": "Hác Manh",
+        "text": "Nổi dậy theo Anh hùng ký",
+        "icon": "scroll",
+        "person": "Hác Manh"
+      },
+      {
+        "name": "Cao Thuận",
+        "text": "Dẹp phản loạn",
+        "icon": "scroll",
+        "person": "Cao Thuận"
+      },
+      {
+        "name": "Cao Tính",
+        "text": "Chống Hác, tố có người liên quan",
+        "icon": "scroll",
+        "person": "Cao Tính"
+      },
+      {
+        "name": "Trần Cung",
+        "text": "Bị nêu trong lời tố chưa xác minh",
+        "person": "Trần Cung"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Bùi chú] 三國志 · 卷07",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷07"
+      },
+      {
+        "label": "[Bùi chú] 三國志 · 卷07",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷07"
+      }
+    ],
+    "note": "Theo nguồn Bùi chú, không ép thứ tự so với lần giải binh.",
+    "evidenceIds": [
+      "EVD-B04-016",
+      "EVD-B04-158"
+    ],
+    "center": {
+      "name": "Lữ Bố",
+      "text": "Nội bộ có biến",
+      "person": "Lữ Bố"
+    }
+  },
+  {
+    "id": "B04-V12-01",
+    "episode": "ep-0012",
+    "anchor": "Chu Du truyện kể những địa danh",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Qua sông dựng thế",
+    "items": [
+      {
+        "name": "Lịch Dương",
+        "text": "Tập hợp quân",
+        "icon": "banner"
+      },
+      {
+        "name": "Mạt Lăng",
+        "text": "Một địa danh trong Chu Du truyện",
+        "icon": "banner"
+      },
+      {
+        "name": "Khúc A",
+        "text": "Lưu Do rút, Chu Du sau đó về Đan Dương",
+        "icon": "banner"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷46 / [Bùi chú]",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷46"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷54",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷54"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷50",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷50"
+      }
+    ],
+    "note": "Chọn ba mốc văn bản, không phải tuyến đường liên tục; niên đại có dị bản.",
+    "evidenceIds": [
+      "EVD-B04-017",
+      "EVD-B04-018",
+      "EVD-B04-019",
+      "EVD-B04-020",
+      "EVD-B04-117"
+    ],
+    "plannedAnchor": "Tôn Sách và Chu Du mở đường từ Lịch Dương vào các địa bàn của Lưu Do."
+  },
+  {
+    "id": "B04-V12-02",
+    "episode": "ep-0012",
+    "anchor": "Thái Sử Từ từ một thuộc hạ",
+    "placement": "paragraph",
+    "kind": "comparison",
+    "title": "Thần Đình khác lúc thu hàng",
+    "items": [
+      {
+        "name": "Thần Đình",
+        "text": "Giao tranh rồi tách ra",
+        "icon": "scroll",
+        "label": "[Chính sử]"
+      },
+      {
+        "name": "Lần thu dùng sau",
+        "text": "Bị bắt, được tha và bổ chức",
+        "icon": "scroll",
+        "label": "[Chính sử]"
+      },
+      {
+        "name": "Ngô lịch",
+        "text": "Gắn lần bắt với Thần Đình, Bùi Tùng Chi nghi sai",
+        "icon": "scroll",
+        "label": "[Bùi chú]"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷49 / [Bùi chú]",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷49"
+      },
+      {
+        "label": "[Tiểu thuyết] 三國演義 · 第015回",
+        "url": "https://zh.wikisource.org/wiki/三國演義/第015回"
+      }
+    ],
+    "note": "Không định ngày bắt hoặc số hiệp giao đấu.",
+    "evidenceIds": [
+      "EVD-B04-070",
+      "EVD-B04-071",
+      "EVD-B04-072",
+      "EVD-B04-100",
+      "EVD-B04-101"
+    ],
+    "plannedAnchor": "Cuộc giao tranh ở Thần Đình chưa phải lúc Thái Sử Từ đầu hàng."
+  },
+  {
+    "id": "B04-V12-03",
+    "episode": "ep-0012",
+    "anchor": "Các quận Giang Đông bắt đầu được giao cho những người thuộc mạng lưới của Tôn Sách.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Quản lý quận",
+    "items": [
+      {
+        "name": "Vương Lãng",
+        "text": "Thất bại, rút khỏi Cối Kê",
+        "icon": "scroll",
+        "person": "Vương Lãng"
+      },
+      {
+        "name": "Ngô Cảnh",
+        "text": "Giữ Đan Dương",
+        "icon": "scroll",
+        "person": "Ngô Cảnh"
+      },
+      {
+        "name": "Chu Trị",
+        "text": "Giữ Ngô",
+        "icon": "scroll",
+        "person": "Chu Trị"
+      },
+      {
+        "name": "Trình Phổ",
+        "text": "Đô úy phụ trách quân sự",
+        "icon": "scroll",
+        "person": "Trình Phổ"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷46",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷46"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷13",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷13"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷55",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷55"
+      }
+    ],
+    "note": "Đầu mối quận, không phải biên giới nước Ngô.",
+    "evidenceIds": [
+      "EVD-B04-065",
+      "EVD-B04-068",
+      "EVD-B04-078",
+      "EVD-B04-093"
+    ],
+    "center": {
+      "name": "Tôn Sách",
+      "text": "Tự lĩnh Cối Kê thái thú",
+      "person": "Tôn Sách"
+    }
+  },
+  {
+    "id": "B04-V13-01",
+    "episode": "ep-0013",
+    "anchor": "Viên Thuật tự lập một triều đình trong khi triều đình nhà Hán vẫn tồn tại.",
+    "placement": "paragraph",
+    "kind": "comparison",
+    "title": "Hai trung tâm xưng đế",
+    "items": [
+      {
+        "name": "Hán Hiến Đế",
+        "text": "Triều đình nhà Hán ở Hứa",
+        "person": "Hán Hiến Đế",
+        "label": "Nhà Hán"
+      },
+      {
+        "name": "Viên Thuật",
+        "text": "Tự xưng đế, lập công khanh tại Hoài Nam",
+        "person": "Viên Thuật",
+        "label": "Tự lập"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Sử liệu khác] 後漢書 · 卷9",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "label": "[Sử liệu khác] 後漢書 · 卷75",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷75"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷06 / [Bùi chú]",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷06"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷06",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷06"
+      }
+    ],
+    "note": "Danh hiệu không đồng nhất với thực quyền.",
+    "evidenceIds": [
+      "EVD-B04-021",
+      "EVD-B04-073",
+      "EVD-B04-074",
+      "EVD-B04-083",
+      "EVD-B04-084",
+      "EVD-B04-148"
+    ]
+  },
+  {
+    "id": "B04-V13-02",
+    "episode": "ep-0013",
+    "anchor": "Tôn Sách cắt quan hệ với người từng cấp quân cho mình.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Tôn Sách cắt quan hệ",
+    "items": [
+      {
+        "name": "Tôn Sách",
+        "text": "Gửi thư trách, tuyệt giao",
+        "person": "Tôn Sách"
+      },
+      {
+        "name": "Ngô Cảnh",
+        "text": "Bỏ chức ở Quảng Lăng",
+        "icon": "scroll",
+        "person": "Ngô Cảnh"
+      },
+      {
+        "name": "Tôn Bí",
+        "text": "Từ chối chức Thuật phong",
+        "icon": "scroll",
+        "person": "Tôn Bí"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷46",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷46"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷51",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷51"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷50",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷50"
+      }
+    ],
+    "note": "Ba quyết định riêng, không mặc định cùng lúc.",
+    "evidenceIds": [
+      "EVD-B04-022",
+      "EVD-B04-116",
+      "EVD-B04-117"
+    ],
+    "center": {
+      "name": "Viên Thuật",
+      "text": "Người cấp quân trước kia",
+      "person": "Viên Thuật"
+    }
+  },
+  {
+    "id": "B04-V13-03",
+    "episode": "ep-0013",
+    "anchor": "Lữ không nhận được chức Từ Châu mục",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Hôn ước và ngoại giao",
+    "items": [
+      {
+        "name": "Viên Thuật",
+        "text": "Muốn kết thân với Lữ",
+        "person": "Viên Thuật"
+      },
+      {
+        "name": "Lữ Bố",
+        "text": "Đón con gái về, Hàn Dận bị đưa đến Hứa và xử tử",
+        "person": "Lữ Bố"
+      },
+      {
+        "name": "Trần Khuê",
+        "text": "Khuyên không theo Thuật",
+        "icon": "scroll",
+        "person": "Trần Khuê"
+      },
+      {
+        "name": "Trần Đăng",
+        "text": "Được bổ Quảng Lăng thái thú",
+        "person": "Trần Đăng"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷07",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷07"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷06",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷06"
+      }
+    ],
+    "note": "Không gán tên, mẹ hay ý muốn cho con gái Lữ.",
+    "evidenceIds": [
+      "EVD-B04-023",
+      "EVD-B04-024",
+      "EVD-B04-097"
+    ],
+    "center": {
+      "name": "Hôn ước",
+      "text": "Liên kết hai nhà bị hủy",
+      "icon": "scroll"
+    },
+    "plannedAnchor": "Con gái Lữ Bố chưa tới nhà trai thì hôn ước chính trị đã bị hủy."
+  },
+  {
+    "id": "B04-V13-04",
+    "episode": "ep-0013",
+    "anchor": "Hàn Xiêm và Dương Phụng đổi phe, khiến liên minh đánh Lữ Bố tan vỡ.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Liên minh đổi phe",
+    "items": [
+      {
+        "name": "Trần Khuê",
+        "text": "Đề xuất tách đồng minh của Thuật",
+        "icon": "scroll",
+        "person": "Trần Khuê"
+      },
+      {
+        "name": "Hàn Xiêm",
+        "text": "Đổi phe",
+        "person": "Hàn Xiêm"
+      },
+      {
+        "name": "Dương Phụng",
+        "text": "Đổi phe",
+        "person": "Dương Phụng"
+      },
+      {
+        "name": "Trương Huân",
+        "text": "Thất bại",
+        "icon": "scroll",
+        "person": "Trương Huân"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷07",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷07"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷06",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷06"
+      }
+    ],
+    "note": "Sơ đồ quan hệ, không phải chiến thuật.",
+    "evidenceIds": [
+      "EVD-B04-025",
+      "EVD-B04-026",
+      "EVD-B04-148"
+    ],
+    "center": {
+      "name": "Liên minh đánh Lữ",
+      "text": "Thành phần thay đổi",
+      "icon": "banner"
+    }
+  },
+  {
+    "id": "B04-V14-01",
+    "episode": "ep-0014",
+    "anchor": "Trương Tú tiếp quản quân của Trương Tế và trở thành một thế lực ở Nam Dương.",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Trương Tú kế quân",
+    "items": [
+      {
+        "name": "Trương Tế",
+        "text": "Chuyển quân vào Nam Dương rồi chết",
+        "person": "Trương Tế"
+      },
+      {
+        "name": "Trương Tú",
+        "text": "Tiếp quản lực lượng của chú",
+        "icon": "scroll",
+        "person": "Trương Tú"
+      },
+      {
+        "name": "Lưu Biểu",
+        "text": "Liên kết với Tú theo lời khuyên Giả Hủ",
+        "person": "Lưu Biểu"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷08",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷08"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷10",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷10"
+      }
+    ],
+    "note": "Kế thừa một lực lượng, không phải lập quốc.",
+    "evidenceIds": [
+      "EVD-B04-027",
+      "EVD-B04-062",
+      "EVD-B04-076"
+    ]
+  },
+  {
+    "id": "B04-V14-02",
+    "episode": "ep-0014",
+    "anchor": "Trương Tú quay lại chống Tào sau khi đã đầu hàng.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Hàng rồi phản",
+    "items": [
+      {
+        "name": "Trương Tú",
+        "text": "Đầu hàng rồi quay lại chống Tào",
+        "icon": "scroll",
+        "person": "Trương Tú"
+      },
+      {
+        "name": "Tào Tháo",
+        "text": "Truyện Trương Tú ghi việc nạp vợ Trương Tế và định giết Tú",
+        "person": "Tào Tháo"
+      },
+      {
+        "name": "Vợ Trương Tế",
+        "text": "Không rõ tên riêng, ý muốn hoặc vai trò trong âm mưu",
+        "icon": "banner"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷01 / [Bùi chú]",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷08",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷08"
+      }
+    ],
+    "note": "Phân biệt bản kỷ với tiểu truyện, không tái dựng cảnh tấn công.",
+    "evidenceIds": [
+      "EVD-B04-028",
+      "EVD-B04-029",
+      "EVD-B04-062"
+    ],
+    "center": {
+      "name": "Quan hệ Tào – Tú",
+      "text": "Hàng rồi phản",
+      "icon": "banner"
+    }
+  },
+  {
+    "id": "B04-V14-03",
+    "episode": "ep-0014",
+    "anchor": "Tào Ngang, Tào An Dân và Điển Vi không trở về từ Uyển.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Ba người không về",
+    "items": [
+      {
+        "name": "Tào Ngang",
+        "text": "Con Tào, được cử Hiếu liêm, không gán quyền chỉ huy",
+        "icon": "scroll",
+        "person": "Tào Ngang"
+      },
+      {
+        "name": "Tào An Dân",
+        "text": "Cháu Tào, chết trong biến cố",
+        "icon": "scroll"
+      },
+      {
+        "name": "Điển Vi",
+        "text": "Hộ vệ, tử trận bảo vệ chủ",
+        "person": "Điển Vi"
+      },
+      {
+        "name": "Đinh phu nhân",
+        "text": "Bùi chú kể hậu quả trong gia đình",
+        "icon": "scroll"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷01 / [Bùi chú]",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷18",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷18"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷20",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷20"
+      },
+      {
+        "label": "[Bùi chú] 三國志 · 卷05",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷05"
+      }
+    ],
+    "note": "Không hợp nhất các dị bản hy sinh.",
+    "evidenceIds": [
+      "EVD-B04-028",
+      "EVD-B04-029",
+      "EVD-B04-063",
+      "EVD-B04-140",
+      "EVD-B04-141"
+    ],
+    "center": {
+      "name": "Hậu quả tại Uyển",
+      "text": "Ba mất mát trong phe Tào",
+      "icon": "scroll"
+    }
+  },
+  {
+    "id": "B04-V14-04",
+    "episode": "ep-0014",
+    "anchor": "Vu Cấm duy trì trật tự khi quân Tào rơi vào cảnh thất bại.",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Giữ kỷ luật",
+    "items": [
+      {
+        "name": "Quân Tào thất thế",
+        "text": "Đơn vị rơi vào hỗn loạn",
+        "icon": "banner"
+      },
+      {
+        "name": "Vu Cấm",
+        "text": "Giữ quân có tổ chức",
+        "icon": "scroll",
+        "person": "Vu Cấm"
+      },
+      {
+        "name": "Kỷ luật",
+        "text": "Xử lý người cướp bóc",
+        "icon": "banner"
+      },
+      {
+        "name": "Ghi nhận",
+        "text": "Được khen và phong hầu",
+        "icon": "banner"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷17",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷17"
+      }
+    ],
+    "note": "Không quy hành vi một bộ phận cho cả Thanh Châu binh.",
+    "evidenceIds": [
+      "EVD-B04-149"
+    ]
+  },
+  {
+    "id": "B04-V14-05",
+    "episode": "ep-0014",
+    "anchor": "Đến năm 198, Trương Tú vẫn còn lực lượng riêng và vẫn liên kết với Lưu Biểu.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Mặt trận nam vẫn mở",
+    "items": [
+      {
+        "name": "Tào Tháo",
+        "text": "Tiếp tục đánh phía nam",
+        "person": "Tào Tháo"
+      },
+      {
+        "name": "Trương Tú",
+        "text": "Còn lực lượng riêng",
+        "icon": "scroll",
+        "person": "Trương Tú"
+      },
+      {
+        "name": "Lưu Biểu",
+        "text": "Vẫn liên kết với Tú",
+        "person": "Lưu Biểu"
+      },
+      {
+        "name": "Giả Hủ",
+        "text": "Lời khuyên thay đổi theo tình thế",
+        "person": "Giả Hủ"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷10",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷10"
+      }
+    ],
+    "note": "Chưa kể lần hàng năm 199.",
+    "evidenceIds": [
+      "EVD-B04-030",
+      "EVD-B04-031",
+      "EVD-B04-032",
+      "EVD-B04-076"
+    ],
+    "center": {
+      "name": "Nam Dương · 198",
+      "text": "Mặt trận chưa kết thúc",
+      "icon": "banner"
+    }
+  },
+  {
+    "id": "B04-V15-01",
+    "episode": "ep-0015",
+    "anchor": "Lưu Bị mất Tiểu Bái và tìm sự hỗ trợ của Tào Tháo.",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Tiểu Bái đổi chủ",
+    "items": [
+      {
+        "name": "Cao Thuận",
+        "text": "Đánh Lưu, bắt gia đình",
+        "icon": "scroll",
+        "person": "Cao Thuận"
+      },
+      {
+        "name": "Hạ Hầu Đôn",
+        "text": "Được sai trợ chiến",
+        "person": "Hạ Hầu Đôn"
+      },
+      {
+        "name": "Lưu Bị",
+        "text": "Mất Tiểu Bái, tìm trợ giúp của Tào",
+        "person": "Lưu Bị"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷09",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷09"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷32",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷32"
+      }
+    ],
+    "note": "Không gắn việc mất mắt Hạ Hầu Đôn vào 198.",
+    "evidenceIds": [
+      "EVD-B04-033",
+      "EVD-B04-122",
+      "EVD-B04-161"
+    ]
+  },
+  {
+    "id": "B04-V15-02",
+    "episode": "ep-0015",
+    "anchor": "Trần Đăng từ người đi xin chức cho Lữ Bố trở thành người phối hợp đánh Lữ Bố.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Trần Đăng đổi vai",
+    "items": [
+      {
+        "name": "197",
+        "text": "Đi xin chức cho Lữ, được bổ Quảng Lăng",
+        "icon": "scroll"
+      },
+      {
+        "name": "198",
+        "text": "Phối hợp Tào đánh Lữ",
+        "icon": "scroll"
+      },
+      {
+        "name": "Tào Tháo",
+        "text": "Dùng đầu mối Quảng Lăng",
+        "person": "Tào Tháo"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷07",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷07"
+      }
+    ],
+    "note": "Không gán thêm lời hứa hay động cơ.",
+    "evidenceIds": [
+      "EVD-B04-034",
+      "EVD-B04-138"
+    ],
+    "center": {
+      "name": "Trần Đăng",
+      "text": "Vai trò đổi theo thời điểm",
+      "person": "Trần Đăng"
+    }
+  },
+  {
+    "id": "B04-V15-03",
+    "episode": "ep-0015",
+    "anchor": "Quân Tào tiếp tục vây Hạ Bì và dùng nước gây sức ép lên thành.",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Áp lực lên Hạ Bì",
+    "items": [
+      {
+        "name": "Vây Hạ Bì",
+        "text": "Quân Tào mệt mỏi",
+        "icon": "grain"
+      },
+      {
+        "name": "Tuân Du và Quách Gia",
+        "text": "Khuyên tiếp tục",
+        "icon": "grain"
+      },
+      {
+        "name": "Sức ép",
+        "text": "Sử ghi dùng nước gây ngập",
+        "icon": "grain"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷07 / [Bùi chú]",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷07"
+      },
+      {
+        "label": "[Bùi chú] 三國志 · 卷07",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷07"
+      }
+    ],
+    "note": "Không tái dựng công trình, hướng dòng hay trận địa.",
+    "evidenceIds": [
+      "EVD-B04-034",
+      "EVD-B04-035",
+      "EVD-B04-036",
+      "EVD-B04-136",
+      "EVD-B04-139",
+      "EVD-B04-159"
+    ]
+  },
+  {
+    "id": "B04-V15-04",
+    "episode": "ep-0015",
+    "anchor": "Trương Liêu, một tướng thuộc phe Lữ",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Một lực lượng tan rã",
+    "items": [
+      {
+        "name": "Lữ Bố",
+        "text": "Bị xử tử",
+        "person": "Lữ Bố"
+      },
+      {
+        "name": "Trần Cung",
+        "text": "Bị xử tử",
+        "person": "Trần Cung"
+      },
+      {
+        "name": "Cao Thuận",
+        "text": "Bị xử tử",
+        "icon": "scroll",
+        "person": "Cao Thuận"
+      },
+      {
+        "name": "Trương Liêu",
+        "text": "Theo Tào, được bổ chức",
+        "icon": "scroll",
+        "person": "Trương Liêu"
+      },
+      {
+        "name": "Lưu Bị",
+        "text": "Nhận lại vợ con",
+        "person": "Lưu Bị"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷07 / [Bùi chú]",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷07"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷17",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷17"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷07",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷07"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷32",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷32"
+      }
+    ],
+    "note": "Bạch Môn Lâu chưa xác định vị trí khảo cổ.",
+    "evidenceIds": [
+      "EVD-B04-035",
+      "EVD-B04-036",
+      "EVD-B04-037",
+      "EVD-B04-114",
+      "EVD-B04-137",
+      "EVD-B04-161"
+    ],
+    "center": {
+      "name": "Hạ Bì thất thủ",
+      "text": "Phe Lữ tan",
+      "icon": "scroll"
+    },
+    "plannedAnchor": "Lữ Bố không còn một cuộc đổi chủ nào nữa."
+  },
+  {
+    "id": "B04-V16-01",
+    "episode": "ep-0016",
+    "anchor": "Tháng ba năm 199, Viên Thiệu đánh bại Công Tôn Toản tại Dịch Kinh.",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Dịch Kinh kết thúc",
+    "items": [
+      {
+        "name": "Dịch Kinh",
+        "text": "Căn cứ cuối Công Tôn Toản",
+        "icon": "banner"
+      },
+      {
+        "name": "Cầu viện",
+        "text": "Không thành theo nguồn chú dẫn",
+        "icon": "banner"
+      },
+      {
+        "name": "Tháng ba 199",
+        "text": "Viên Thiệu thắng, Công Tôn Toản chết",
+        "icon": "banner"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Sử liệu khác] 後漢書 · 卷9",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷08 / [Bùi chú]",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷08"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷17",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷17"
+      }
+    ],
+    "note": "Không xác định tọa độ hoặc đường đưa tin.",
+    "evidenceIds": [
+      "EVD-B04-039",
+      "EVD-B04-086",
+      "EVD-B04-087",
+      "EVD-B04-153"
+    ]
+  },
+  {
+    "id": "B04-V16-02",
+    "episode": "ep-0016",
+    "anchor": "Viên Thiệu có thế lực trên bốn châu, nhưng các vùng ấy được quản qua những đầu mối khác nhau.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Bốn châu, nhiều đầu mối",
+    "items": [
+      {
+        "name": "Ký Châu",
+        "text": "Đầu mối của Thiệu",
+        "icon": "scroll"
+      },
+      {
+        "name": "Viên Đàm",
+        "text": "Thanh Châu, chức danh có dị bản",
+        "icon": "scroll",
+        "person": "Viên Đàm"
+      },
+      {
+        "name": "Viên Hy",
+        "text": "U Châu",
+        "icon": "scroll",
+        "person": "Viên Hy"
+      },
+      {
+        "name": "Cao Cán",
+        "text": "Tịnh Châu",
+        "icon": "scroll",
+        "person": "Cao Cán"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷06",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷06"
+      },
+      {
+        "label": "[Bùi chú] 三國志 · 卷06",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷06"
+      }
+    ],
+    "note": "Không vẽ biên giới hoặc coi bổ nhiệm cùng ngày.",
+    "evidenceIds": [
+      "EVD-B04-043",
+      "EVD-B04-088",
+      "EVD-B04-157"
+    ],
+    "center": {
+      "name": "Viên Thiệu",
+      "text": "Thế lực trên bốn châu",
+      "person": "Viên Thiệu"
+    }
+  },
+  {
+    "id": "B04-V16-03",
+    "episode": "ep-0016",
+    "anchor": "Hà Nội đổi chủ sau khi lực lượng của Trương Dương tan rã.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Hà Nội đổi chủ",
+    "items": [
+      {
+        "name": "Trương Dương",
+        "text": "Bị Dương Xú giết",
+        "person": "Trương Dương"
+      },
+      {
+        "name": "Tuy Cố",
+        "text": "Giết Dương Xú, định theo Thiệu",
+        "icon": "scroll",
+        "person": "Tuy Cố"
+      },
+      {
+        "name": "Lực lượng Tào",
+        "text": "Đánh phe Tuy Cố",
+        "icon": "banner"
+      },
+      {
+        "name": "Ngụy Chủng",
+        "text": "Được dùng làm Hà Nội thái thú",
+        "icon": "scroll",
+        "person": "Ngụy Chủng"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Sử liệu khác] 後漢書 · 卷9",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷08",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷08"
+      },
+      {
+        "label": "[Bùi chú] 三國志 · 卷09",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷09"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷17",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷17"
+      }
+    ],
+    "note": "Không suy thành kiểm soát toàn bờ bắc Hoàng Hà.",
+    "evidenceIds": [
+      "EVD-B04-040",
+      "EVD-B04-041",
+      "EVD-B04-145",
+      "EVD-B04-146",
+      "EVD-B04-150",
+      "EVD-B04-152",
+      "EVD-B04-154"
+    ],
+    "center": {
+      "name": "Hà Nội",
+      "text": "Đổi đầu mối quyền lực",
+      "icon": "banner"
+    }
+  },
+  {
+    "id": "B04-V16-04",
+    "episode": "ep-0016",
+    "anchor": "Hậu Hán thư ghi sau khi Thuật chết",
+    "placement": "paragraph",
+    "kind": "sequence",
+    "title": "Đế hiệu không giữ được đất",
+    "items": [
+      {
+        "name": "Viên Thuật",
+        "text": "Mất chỗ dựa, không đến được Thiệu",
+        "person": "Viên Thuật"
+      },
+      {
+        "name": "Tháng sáu 199",
+        "text": "Thuật chết, gia thuộc tìm Lưu Huân",
+        "icon": "scroll"
+      },
+      {
+        "name": "Từ Cầu",
+        "text": "Đưa ấn về triều đình theo Hậu Hán thư",
+        "icon": "scroll",
+        "person": "Từ Cầu"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Sử liệu khác] 資治通鑑 · 卷063",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷063"
+      },
+      {
+        "label": "[Sử liệu khác] 後漢書 · 卷75",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷75"
+      },
+      {
+        "label": "[Bùi chú] 三國志 · 卷06",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷06"
+      },
+      {
+        "label": "[Sử liệu khác] 後漢書 · 卷48",
+        "url": "https://zh.wikisource.org/zh-hant/後漢書/卷48"
+      }
+    ],
+    "note": "Không dựng đường chạy hay chuỗi chuyển giao ấn trước đó.",
+    "evidenceIds": [
+      "EVD-B04-042",
+      "EVD-B04-075",
+      "EVD-B04-085",
+      "EVD-B04-144"
+    ],
+    "plannedAnchor": "Viên Thuật chết mà không duy trì được triều đình mình tự lập."
+  },
+  {
+    "id": "B04-V17-01",
+    "episode": "ep-0017",
+    "anchor": "Tào Tháo nhận xét Lưu Bị là một trong hai anh hùng đương thời.",
+    "placement": "paragraph",
+    "kind": "comparison",
+    "title": "Lời nhận xét về anh hùng",
+    "items": [
+      {
+        "name": "Tiên chủ truyện",
+        "text": "Ghi lời nhận xét hai anh hùng và việc Lưu đánh rơi đũa thìa",
+        "icon": "scroll",
+        "label": "[Chính sử]"
+      },
+      {
+        "name": "Hoa Dương quốc chí",
+        "text": "Thêm tiếng sấm",
+        "icon": "scroll",
+        "label": "[Bùi chú]"
+      },
+      {
+        "name": "Thanh mai nấu rượu",
+        "text": "Khung cảnh tiểu thuyết phát triển",
+        "icon": "scroll",
+        "label": "[Tiểu thuyết]"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷32 / [Bùi chú]",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷32"
+      },
+      {
+        "label": "[Tiểu thuyết] 三國演義 · 第021回",
+        "url": "https://zh.wikisource.org/wiki/三國演義/第021回"
+      }
+    ],
+    "note": "Không biến khung cảnh văn học thành sự kiện xác nhận.",
+    "evidenceIds": [
+      "EVD-B04-046",
+      "EVD-B04-110"
+    ]
+  },
+  {
+    "id": "B04-V17-02",
+    "episode": "ep-0017",
+    "anchor": "Lưu Bị giết Xa Trụ và quay lại nắm một phần Từ Châu.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Lưu Bị rời mạng lưới Tào",
+    "items": [
+      {
+        "name": "Lưu Bị",
+        "text": "Được sai chặn Thuật, sau giết Xa Trụ",
+        "person": "Lưu Bị"
+      },
+      {
+        "name": "Quan Vũ",
+        "text": "Giữ Hạ Bì, hành thái thú sự",
+        "icon": "scroll",
+        "person": "Quan Vũ"
+      },
+      {
+        "name": "Tôn Càn",
+        "text": "Được sai liên hệ Thiệu",
+        "icon": "scroll",
+        "person": "Tôn Càn"
+      },
+      {
+        "name": "Tiểu Bái",
+        "text": "Nơi Lưu đóng",
+        "icon": "banner"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷32",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷32"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷38",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷38"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷32",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷32"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷17",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷17"
+      },
+      {
+        "label": "[Bùi chú] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷01"
+      }
+    ],
+    "note": "Không dựng tuyến đi hay coi toàn châu thống nhất.",
+    "evidenceIds": [
+      "EVD-B04-047",
+      "EVD-B04-089",
+      "EVD-B04-134",
+      "EVD-B04-143",
+      "EVD-B04-155"
+    ],
+    "center": {
+      "name": "Từ Châu",
+      "text": "Lưu nắm một phần địa bàn",
+      "icon": "banner"
+    }
+  },
+  {
+    "id": "B04-V17-03",
+    "episode": "ep-0017",
+    "anchor": "Trương Tú đầu hàng lần thứ hai, lần này được Tào tiếp nhận vào mạng lưới của mình.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Lần đầu hàng thứ hai",
+    "items": [
+      {
+        "name": "Giả Hủ",
+        "text": "Khuyên theo Tào",
+        "person": "Giả Hủ"
+      },
+      {
+        "name": "Tào Tháo",
+        "text": "Tiếp nhận và phong hầu",
+        "person": "Tào Tháo"
+      },
+      {
+        "name": "Hôn nhân",
+        "text": "Con Tào cưới con gái Tú",
+        "icon": "scroll"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷08",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷08"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷10",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷10"
+      }
+    ],
+    "note": "Không gán quyết định cho kết quả Quan Độ chưa diễn ra.",
+    "evidenceIds": [
+      "EVD-B04-044",
+      "EVD-B04-064",
+      "EVD-B04-077"
+    ],
+    "center": {
+      "name": "Trương Tú",
+      "text": "Lần hàng thứ hai, tháng 11 năm 199",
+      "icon": "scroll",
+      "person": "Trương Tú"
+    }
+  },
+  {
+    "id": "B04-V17-04",
+    "episode": "ep-0017",
+    "anchor": "Hậu Hán thư ghi họ nhận mật chiếu",
+    "placement": "paragraph",
+    "kind": "comparison",
+    "title": "Mật chiếu và mưu phản",
+    "items": [
+      {
+        "name": "Hậu Hán thư",
+        "text": "Nhận mật chiếu giết Tào",
+        "icon": "scroll",
+        "label": "[Sử liệu khác]"
+      },
+      {
+        "name": "Vũ Đế kỷ",
+        "text": "Gọi sự việc là mưu phản",
+        "icon": "scroll",
+        "label": "[Chính sử]"
+      },
+      {
+        "name": "Tiên chủ truyện",
+        "text": "Ghi Đổng Thừa nói nhận mật chiếu, Lưu tham gia",
+        "icon": "scroll",
+        "label": "[Chính sử]"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷32",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷32"
+      },
+      {
+        "label": "[Sử liệu khác] 後漢書 · 卷9",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+      },
+      {
+        "label": "[Tiểu thuyết] 三國演義 · 第020回",
+        "url": "https://zh.wikisource.org/wiki/三國演義/第020回"
+      },
+      {
+        "label": "[Sử liệu khác] 後漢書 · 卷10下",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷10下"
+      },
+      {
+        "label": "[Sử liệu khác] 後漢書 · 卷10下",
+        "url": "https://zh.wikisource.org/zh-hant/後漢書/卷10下"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      }
+    ],
+    "note": "Không có bản mật chiếu được chứng thực, không khẳng định chiếu máu.",
+    "evidenceIds": [
+      "EVD-B04-045",
+      "EVD-B04-049",
+      "EVD-B04-108",
+      "EVD-B04-127",
+      "EVD-B04-142"
+    ],
+    "plannedAnchor": "Cùng một âm mưu được các sử liệu đặt trong hai cách nhìn chính trị khác nhau."
+  },
+  {
+    "id": "B04-V17-05",
+    "episode": "ep-0017",
+    "anchor": "Quan Vũ bị bắt và nhận chức trong quân Tào, còn Lưu Bị sang với Viên Thiệu.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Hai người bị chia ra",
+    "items": [
+      {
+        "name": "Lưu Bị",
+        "text": "Sang phía Viên Thiệu",
+        "person": "Lưu Bị"
+      },
+      {
+        "name": "Quan Vũ",
+        "text": "Bị bắt, được bổ Thiên tướng quân",
+        "icon": "scroll",
+        "person": "Quan Vũ"
+      },
+      {
+        "name": "Viên Thiệu",
+        "text": "Đón Lưu",
+        "person": "Viên Thiệu"
+      },
+      {
+        "name": "Tào Tháo",
+        "text": "Tiếp nhận Quan Vũ",
+        "person": "Tào Tháo"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷32",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷32"
+      },
+      {
+        "label": "[Sử liệu khác] 資治通鑑 · 卷063",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷063"
+      },
+      {
+        "label": "[Chính sử] 蜀志 · 卷06",
+        "url": "https://zh.wikisource.org/wiki/三國志_(四庫全書本)/蜀志/卷06"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷36",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷36"
+      }
+    ],
+    "note": "Chưa kể Bạch Mã hoặc việc Quan Vũ rời Tào.",
+    "evidenceIds": [
+      "EVD-B04-050",
+      "EVD-B04-051",
+      "EVD-B04-052",
+      "EVD-B04-095",
+      "EVD-B04-120"
+    ],
+    "center": {
+      "name": "Lưu Bị và Quan Vũ",
+      "text": "Hai mạng lưới đối đầu",
+      "icon": "banner"
+    }
+  },
+  {
+    "id": "B04-V18-01",
+    "episode": "ep-0018",
+    "anchor": "Chu Du truyện ghi sau khi đánh Hoàn",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Nhà Tôn mở rộng",
+    "items": [
+      {
+        "name": "Chu Du",
+        "text": "Trở về năm 198, giữ chức quân sự",
+        "person": "Chu Du"
+      },
+      {
+        "name": "Tôn Quyền",
+        "text": "Tham gia chiến dịch 199",
+        "icon": "scroll",
+        "person": "Tôn Quyền"
+      },
+      {
+        "name": "Lưu Huân",
+        "text": "Mất địa bàn, dẫn quân hàng Tào",
+        "icon": "scroll",
+        "person": "Lưu Huân"
+      },
+      {
+        "name": "Hoàn (皖)",
+        "text": "Không phải Uyển (宛) ở Nam Dương",
+        "icon": "banner"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷54",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷54"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷47",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷47"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷51",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷51"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷01",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷01"
+      }
+    ],
+    "note": "Không gán toàn bộ chiến công cho Quyền.",
+    "evidenceIds": [
+      "EVD-B04-053",
+      "EVD-B04-054",
+      "EVD-B04-069",
+      "EVD-B04-091",
+      "EVD-B04-156"
+    ],
+    "center": {
+      "name": "Tôn Sách",
+      "text": "Mạng lưới mở rộng về phía tây",
+      "person": "Tôn Sách"
+    },
+    "plannedAnchor": "Chu Du trở lại với Tôn Sách, còn Tôn Quyền tham gia các chiến dịch của anh."
+  },
+  {
+    "id": "B04-V18-02",
+    "episode": "ep-0018",
+    "anchor": "Dự Chương và Lư Lăng được tổ chức lại trong mạng lưới của Tôn Sách.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Tổ chức Dự Chương và Lư Lăng",
+    "items": [
+      {
+        "name": "Hoa Hâm",
+        "text": "Ra đón Sách sau thương lượng",
+        "icon": "scroll",
+        "person": "Hoa Hâm"
+      },
+      {
+        "name": "Tôn Bí",
+        "text": "Dự Chương thái thú",
+        "icon": "scroll",
+        "person": "Tôn Bí"
+      },
+      {
+        "name": "Tôn Phụ",
+        "text": "Lư Lăng thái thú",
+        "icon": "scroll",
+        "person": "Tôn Phụ"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Sử liệu khác] 資治通鑑 · 卷063",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷063"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷51",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷51"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷49",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷49"
+      }
+    ],
+    "note": "Không mặc định mọi nơi đổi chủ qua giao chiến.",
+    "evidenceIds": [
+      "EVD-B04-055",
+      "EVD-B04-091",
+      "EVD-B04-119"
+    ],
+    "center": {
+      "name": "Tôn Sách",
+      "text": "Tổ chức lại quận",
+      "person": "Tôn Sách"
+    }
+  },
+  {
+    "id": "B04-V18-03",
+    "episode": "ep-0018",
+    "anchor": "Sử liệu bất đồng về mục tiêu trước mắt của Tôn Sách; không có trận đánh Hứa nào của ông được thực hiện.",
+    "placement": "paragraph",
+    "kind": "comparison",
+    "title": "Kế hoạch chưa xảy ra",
+    "items": [
+      {
+        "name": "Hứa",
+        "text": "Kế hoạch đánh Hứa, đón thiên tử",
+        "icon": "scroll",
+        "label": "[Chính sử]"
+      },
+      {
+        "name": "Quảng Lăng",
+        "text": "Giang biểu truyện nêu mục tiêu Trần Đăng",
+        "icon": "scroll",
+        "label": "[Bùi chú]"
+      },
+      {
+        "name": "Nhận xét Bùi Tùng Chi",
+        "text": "Trình tự hai mục tiêu chỉ là khả năng",
+        "icon": "scroll",
+        "label": "[Suy luận]"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷46 / [Bùi chú]",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷46"
+      },
+      {
+        "label": "[Bùi chú] 三國志 · 卷46",
+        "url": "https://zh.wikisource.org/zh-hant/三國志/卷46"
+      }
+    ],
+    "note": "Không vẽ hành trình hoặc trận đánh chưa thực hiện.",
+    "evidenceIds": [
+      "EVD-B04-056",
+      "EVD-B04-057",
+      "EVD-B04-147"
+    ]
+  },
+  {
+    "id": "B04-V18-04",
+    "episode": "ep-0018",
+    "anchor": "Tôn Quyền nhận cơ nghiệp với sự trợ giúp của cả quan lại và tướng lĩnh cũ.",
+    "placement": "paragraph",
+    "kind": "network",
+    "title": "Người em tiếp quản",
+    "items": [
+      {
+        "name": "Trương Chiêu",
+        "text": "Tập hợp quan lại, thúc tiếp quản",
+        "icon": "scroll",
+        "person": "Trương Chiêu"
+      },
+      {
+        "name": "Chu Du",
+        "text": "Về chịu tang, cùng quản công việc",
+        "person": "Chu Du"
+      },
+      {
+        "name": "Ngô phu nhân",
+        "text": "Hỗ trợ việc quân quốc theo tiểu truyện",
+        "icon": "scroll",
+        "person": "Ngô phu nhân"
+      },
+      {
+        "name": "Trương Hoành",
+        "text": "Khuyên Tào không nhân lúc có tang mà đánh",
+        "icon": "scroll",
+        "person": "Trương Hoành"
+      }
+    ],
+    "sources": [
+      {
+        "label": "[Chính sử] 三國志 · 卷46",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷46"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷47",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷47"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷54",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷54"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷52",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷52"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷55",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷55"
+      },
+      {
+        "label": "[Chính sử] 三國志 · 卷50",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷50"
+      }
+    ],
+    "note": "Không coi câu nội sự/ngoại sự tiểu thuyết là cơ chế lịch sử.",
+    "evidenceIds": [
+      "EVD-B04-059",
+      "EVD-B04-060",
+      "EVD-B04-061",
+      "EVD-B04-067",
+      "EVD-B04-094",
+      "EVD-B04-118",
+      "EVD-B04-128"
+    ],
+    "center": {
+      "name": "Tôn Quyền",
+      "text": "Tiếp quản cơ nghiệp",
+      "icon": "scroll",
+      "person": "Tôn Quyền"
+    }
   }
 ]

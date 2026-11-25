@@ -1,0 +1,6229 @@
+{
+  "status": "Story-stage handoff; not runtime data",
+  "baseline": "v6 / DEC-B04-040",
+  "sources": [
+    "evidence/BATCH_04_EVIDENCE_REGISTRY.md",
+    "evidence/BATCH_04_RADAR_CLOSURE.md",
+    "evidence/BATCH_04_QUOTE_ATLAS_CLOSURE.md",
+    "evidence/BATCH_04_STORY_ANCHORS.json"
+  ],
+  "profiles": [
+    {
+      "personId": "cao-cao",
+      "episodes": [
+        "ep-0010",
+        "ep-0013",
+        "ep-0014",
+        "ep-0015",
+        "ep-0016",
+        "ep-0017",
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "See dated research candidate 197–198"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "See dated research candidate 200 month 1"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Trụ cột quân sự"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Chấp thuận"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Chống Thuật"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Bị đánh bất ngờ"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Mất người thân và hộ vệ"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Chủ lực"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Tiến quân"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Tiến quân"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Vây"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Thắng"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Nhận xét"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Tiếp nhận"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Trấn áp"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Thắng"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Quote context QTE-0031"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "xiandi",
+      "episodes": [
+        "ep-0010",
+        "ep-0013",
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Vua Hán"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Hoàng đế"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Vua Hán"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Vua"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "xun-yu",
+      "episodes": [
+        "ep-0010",
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "cheng-yu",
+      "episodes": [
+        "ep-0010"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "dong-zhao",
+      "episodes": [
+        "ep-0010"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Đề xuất dời đô"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Quote context QTE-0039"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zao-zhi",
+      "episodes": [
+        "ep-0010"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Đề xuất"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "han-hao",
+      "episodes": [
+        "ep-0010"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Tham gia chủ trương"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "yuan-shao",
+      "episodes": [
+        "ep-0010",
+        "ep-0015",
+        "ep-0016",
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196–197"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Thắng"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Trung tâm"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Tiếp nhận"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "liu-bei",
+      "episodes": [
+        "ep-0011",
+        "ep-0015",
+        "ep-0016",
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0011",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "See dated research candidate 200 month 1"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Mất căn cứ"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Tiếp nhận"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Được cứu"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Mất căn cứ"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Được trả gia đình"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Được giao chặn"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Được nhận xét"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Đổi phe"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Sang Viên"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "lu-bu",
+      "episodes": [
+        "ep-0011",
+        "ep-0013",
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0011",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "See dated research candidate 197"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198 last supported moment"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Chiếm Hạ Bì"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Can thiệp"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Chủ lực"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Hủy hôn"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Được hỗ trợ"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Chủ quân"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Đối địch"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Bị vây"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Bị xử tử"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Quote context QTE-0030"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Quote context QTE-0050"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zhang-fei",
+      "episodes": [
+        "ep-0011",
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0011",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate late 198"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Giữ hậu phương"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "cao-bao",
+      "episodes": [
+        "ep-0011"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0011",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Xung đột"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "mi-zhu",
+      "episodes": [
+        "ep-0011"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0011",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Cấp nguồn lực"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "gao-shun",
+      "episodes": [
+        "ep-0011",
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0011",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198 before capture"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Dẹp loạn"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Đánh Lưu"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Bị xử tử"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Quote context QTE-0040"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "sun-ce",
+      "episodes": [
+        "ep-0012",
+        "ep-0013",
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0012",
+          "role": "See dated research candidate 195–196"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "See dated research candidate 197"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 199–200 predeath"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Chỉ huy"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Thu dùng"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Phân công"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Cắt quan hệ"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Chủ lực"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Phân công"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Dự định"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Người tiền nhiệm"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Quote context QTE-0033"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Quote context QTE-0038"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zhou-yu",
+      "episodes": [
+        "ep-0012",
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0012",
+          "role": "See dated research candidate 195–196"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 199–200"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Phối hợp"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Phối hợp"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Hỗ trợ"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "liu-yao",
+      "episodes": [
+        "ep-0012",
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0012",
+          "role": "See dated research candidate 195–196"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Đối địch"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "taishi-ci",
+      "episodes": [
+        "ep-0012",
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0012",
+          "role": "See dated research candidate 195–196+"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Đối địch rồi theo Sách"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Quote context QTE-0034"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "wang-lang",
+      "episodes": [
+        "ep-0012"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0012",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Chống cự"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "yuan-shu",
+      "episodes": [
+        "ep-0011",
+        "ep-0012",
+        "ep-0013",
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0013",
+          "role": "See dated research candidate 197"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199 last supported moment"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Đối địch"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Tự xưng"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Người bảo trợ cũ"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Muốn kết minh"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Mất thế lực"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Quote context QTE-0032"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "chen-deng",
+      "episodes": [
+        "ep-0013",
+        "ep-0015",
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0013",
+          "role": "See dated research candidate 197"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 200 before attack plan"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate late 198"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Đi sứ"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Phối hợp"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Mục tiêu theo dị bản"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zhang-xiu",
+      "episodes": [
+        "ep-0014",
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0014",
+          "role": "See dated research candidate 197–198"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Kế quân"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Phản"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Chống"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Đầu hàng"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "jia-xu",
+      "episodes": [
+        "ep-0014",
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0014",
+          "role": "See dated research candidate 197–198"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Trong bộ máy Trương Tú"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Tham mưu"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Khuyên"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Quote context QTE-0035"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "dian-wei",
+      "episodes": [
+        "ep-0014"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0014",
+          "role": "See dated research candidate 197 last supported moment"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Tử trận"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "liu-biao",
+      "episodes": [
+        "ep-0014"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0014",
+          "role": "See dated research candidate 197–198"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Chỗ dựa"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Chi viện"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "chen-gong",
+      "episodes": [
+        "ep-0011",
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198 last supported moment"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Bị xử tử"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Quote context QTE-0041"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "xun-you",
+      "episodes": [
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Hiến kế"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "guo-jia",
+      "episodes": [
+        "ep-0015",
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Hiến kế"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "gongsun-zan",
+      "episodes": [
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199 last supported moment"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Thua và chết"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "guan-yu",
+      "episodes": [
+        "ep-0015",
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0017",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "See dated research candidate early 200"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Giữ Hạ Bì"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Bị bắt, được phong"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "sun-quan",
+      "episodes": [
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 200"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 199 pre-succession"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Tham chiến"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Tiếp quản"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zhang-zhao",
+      "episodes": [
+        "ep-0012",
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 200"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Hỗ trợ"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Quote context QTE-0036"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "ren-jun",
+      "episodes": [
+        "ep-0010"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Tổ chức"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zhang-liao",
+      "episodes": [
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Theo Tào"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "wu-jing",
+      "episodes": [
+        "ep-0012",
+        "ep-0013"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0012",
+          "role": "See dated research candidate 195–196"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Hỗ trợ"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Quản quận"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Không theo Thuật"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "sun-ben",
+      "episodes": [
+        "ep-0012",
+        "ep-0013",
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0013",
+          "role": "See dated research candidate 197"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Không theo Thuật"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Quản quận"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "cheng-pu",
+      "episodes": [
+        "ep-0012",
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0012",
+          "role": "See dated research candidate 195–196"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 200"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Quản quân"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Hỗ trợ"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zhang-hong",
+      "episodes": [
+        "ep-0012",
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 199–200"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "sun-fu",
+      "episodes": [
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Quản quận"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "sun-qian",
+      "episodes": [
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0017",
+          "role": "See dated research candidate 199–200"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Liên hệ Viên"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "yue-jin",
+      "episodes": [
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "chen-gui",
+      "episodes": [
+        "ep-0013"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0013",
+          "role": "See dated research candidate 197 supplement"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Khuyên"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Quote context QTE-0049"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "wu-furen",
+      "episodes": [
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 200"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Hỗ trợ"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "xiahou-dun",
+      "episodes": [
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Cứu viện"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "dong-cheng",
+      "episodes": [
+        "ep-0010",
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "See dated research candidate 200 pre-execution"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Hộ giá"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Liên quan mật chiếu"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zhang-yang",
+      "episodes": [
+        "ep-0010",
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate late 198"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Hộ giá và hỗ trợ"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Chủ cũ"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Quote context QTE-0046"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "han-xian",
+      "episodes": [
+        "ep-0010",
+        "ep-0013"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0013",
+          "role": "See dated research candidate 197"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Đổi phe"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "yang-feng",
+      "episodes": [
+        "ep-0010",
+        "ep-0013"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0013",
+          "role": "See dated research candidate 197"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Đổi phe"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zhang-ji",
+      "episodes": [
+        "ep-0014"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0014",
+          "role": "See dated research candidate 196 last supported moment"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Chủ quân trước"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "li-jue",
+      "episodes": [
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198 last supported moment"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "duan-wei",
+      "episodes": [
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "ju-shou",
+      "episodes": [
+        "ep-0010",
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196 retrospective"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "guo-tu",
+      "episodes": [
+        "ep-0010"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196 retrospective"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "chunyu-qiong",
+      "episodes": [
+        "ep-0010"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196 retrospective"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zhang-yan",
+      "episodes": [
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Cứu viện"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "tian-kai",
+      "episodes": [
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199 last supported moment"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "cao-ren",
+      "episodes": [
+        "ep-0015",
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Tham chiến"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zang-ba",
+      "episodes": [
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "yuan-tan",
+      "episodes": [
+        "ep-0016",
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0017",
+          "role": "See dated research candidate early 200"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Thanh"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Đón Lưu"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "tian-feng",
+      "episodes": [
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0017",
+          "role": "See dated research candidate early 200"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "liu-xun",
+      "episodes": [
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate late 199 after loss"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Đối địch"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "huang-zu",
+      "episodes": [
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Đối địch"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "hua-xin",
+      "episodes": [
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Tiếp nhận thuyết phục"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "yu-fan",
+      "episodes": [
+        "ep-0012",
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0012",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Khuyên"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Thuyết phục"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zhu-zhi",
+      "episodes": [
+        "ep-0012"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0012",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0012",
+          "role": "Quản quận"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "guo-si",
+      "episodes": [
+        "ep-0014"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0014",
+          "role": "See dated research candidate 197 last supported moment"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "ji-ling",
+      "episodes": [
+        "ep-0011"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0011",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Quân Viên Thuật"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zhang-xun",
+      "episodes": [
+        "ep-0013"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0013",
+          "role": "See dated research candidate 197"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Chỉ huy Viên Thuật"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "guan-jing",
+      "episodes": [
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Thuộc hạ"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "wei-zhong",
+      "episodes": [
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Quản quận"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "hou-cheng",
+      "episodes": [
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Đổi phe"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "cao-xing",
+      "episodes": [
+        "ep-0011"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0011",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Khai báo"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Quote context QTE-0048"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "cao-ang",
+      "episodes": [
+        "ep-0014"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0014",
+          "role": "See dated research candidate 197 before death"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Tử trận"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zhu-ling",
+      "episodes": [
+        "ep-0016",
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0017",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Tham gia"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Được giao quân"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Quote context QTE-0043"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "xu-qiu",
+      "episodes": [
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Trả ấn"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Quote context QTE-0042"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "sui-gu",
+      "episodes": [
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Giết Dương Xú"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "shi-huan",
+      "episodes": [
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Tham chiến"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "xu-gong",
+      "episodes": [
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0018",
+          "role": "See dated research candidate before 200 death"
+        },
+        {
+          "episode": "ep-0018",
+          "role": "Quote context QTE-0047"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "yan-xiang",
+      "episodes": [
+        "ep-0013"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0013",
+          "role": "See dated research candidate late 195 callback"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Can trước đó (195)"
+        },
+        {
+          "episode": "ep-0013",
+          "role": "Quote context QTE-0044"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "yu-jin",
+      "episodes": [
+        "ep-0014",
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0014",
+          "role": "See dated research candidate 197"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Giữ kỷ luật"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Tham chiến"
+        },
+        {
+          "episode": "ep-0014",
+          "role": "Quote context QTE-0045"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "xu-huang",
+      "episodes": [
+        "ep-0010",
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "See dated research candidate 196"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0010",
+          "role": "Đổi chủ"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Tham chiến"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "zhang-he",
+      "episodes": [
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Tham chiến"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "liu-dai-199",
+      "episodes": [
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0017",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Đánh Lưu"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "wang-zhong",
+      "episodes": [
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0017",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0017",
+          "role": "Đánh Lưu"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "hao-meng",
+      "episodes": [
+        "ep-0011"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0011",
+          "role": "See dated research candidate 196 before death"
+        },
+        {
+          "episode": "ep-0011",
+          "role": "Nổi dậy"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "wei-xu",
+      "episodes": [
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "See dated research candidate 198"
+        },
+        {
+          "episode": "ep-0015",
+          "role": "Đổi phe"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "yuan-xi",
+      "episodes": [
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "U"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "gao-gan",
+      "episodes": [
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0016",
+          "role": "See dated research candidate 199"
+        },
+        {
+          "episode": "ep-0016",
+          "role": "Tịnh"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "han-yin",
+      "episodes": [
+        "ep-0013"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0013",
+          "role": "Sứ giả"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "cao-anmin",
+      "episodes": [
+        "ep-0014"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0014",
+          "role": "Tử trận"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "song-xian",
+      "episodes": [
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "Đổi phe"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "gongsun-xu",
+      "episodes": [
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0016",
+          "role": "Cầu viện"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "yang-chou",
+      "episodes": [
+        "ep-0016"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0016",
+          "role": "Giết Trương Dương"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "che-zhou",
+      "episodes": [
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0017",
+          "role": "Bị giết"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "dong-guiren",
+      "episodes": [
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0017",
+          "role": "Nạn nhân"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "wang-fu",
+      "episodes": [
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0017",
+          "role": "Liên quan"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "zhong-ji",
+      "episodes": [
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0017",
+          "role": "Liên quan"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "mao-jie",
+      "episodes": [
+        "ep-0010"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0010",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "carry existing profile and prior radar; no invented new action"
+    },
+    {
+      "personId": "sun-jian",
+      "episodes": [
+        "ep-0012"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0012",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "qin-song",
+      "episodes": [
+        "ep-0012"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0012",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "chen-duan",
+      "episodes": [
+        "ep-0012"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0012",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "zhang-jiong",
+      "episodes": [
+        "ep-0013"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0013",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "ding-yuan",
+      "episodes": [
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "dong-zhuo",
+      "episodes": [
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "existing or new assessed identity; match stable ID before integration"
+    },
+    {
+      "personId": "pei-mao",
+      "episodes": [
+        "ep-0015"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0015",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "lu-zhao",
+      "episodes": [
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0017",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "wu-zilan",
+      "episodes": [
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0017",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "wu-shuo",
+      "episodes": [
+        "ep-0017"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0017",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "yu-ji",
+      "episodes": [
+        "ep-0018"
+      ],
+      "roles": [
+        {
+          "episode": "ep-0018",
+          "role": "Related narrative context; verify exact dated role against evidence"
+        }
+      ],
+      "disposition": "context only per DEC-B04-040; no new standalone profile/radar required"
+    },
+    {
+      "personId": "kong-rong",
+      "episodes": [],
+      "roles": [],
+      "disposition": "carry existing profile and prior radar; no invented new action"
+    }
+  ],
+  "radarCandidates": [
+    {
+      "personId": "cao-cao",
+      "episode": "ep-0010",
+      "stage": "196",
+      "scores": [
+        5,
+        4,
+        4,
+        5,
+        4,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "004–009",
+      "reasons": [
+        "accepts court strategy",
+        "mobilizes reception forces",
+        "sustains administration and food policy",
+        "obtains central offices",
+        "controls court and regional troops",
+        "Hán appointment but coercion noted"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "xiandi",
+      "episode": "ep-0010",
+      "stage": "196",
+      "scores": [
+        2,
+        1,
+        2,
+        3,
+        2,
+        5
+      ],
+      "confidence": [
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "001–003,005–010",
+      "reasons": [
+        "negotiates restoration through escorts",
+        "dependent on armed protectors",
+        "court persists",
+        "imperial appointments",
+        "limited direct control",
+        "reigning Hán emperor"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "xun-yu",
+      "episode": "ep-0010",
+      "stage": "196",
+      "scores": [
+        4,
+        3,
+        4,
+        4,
+        3,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "004–005",
+      "reasons": [
+        "recommends reception",
+        "staff role not field command",
+        "participates governing coalition",
+        "court policy",
+        "advisory influence",
+        "imperial restoration"
+      ],
+      "disposition": "candidate; verify at Chat04",
+      "continuityOverride": true,
+      "overrideNote": "Use final research continuity constraints, not early table."
+    },
+    {
+      "personId": "cheng-yu",
+      "episode": "ep-0010",
+      "stage": "196",
+      "scores": [
+        4,
+        3,
+        4,
+        4,
+        3,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "004; prior B03",
+      "reasons": [
+        "advises reception",
+        "earlier local defense retained",
+        "earlier organization plus counsel",
+        "joins policy",
+        "influence through Cao",
+        "existing official affiliation"
+      ],
+      "disposition": "candidate; verify at Chat04",
+      "continuityOverride": true,
+      "overrideNote": "Use final research continuity constraints, not early table."
+    },
+    {
+      "personId": "dong-zhao",
+      "episode": "ep-0010",
+      "stage": "196",
+      "scores": [
+        4,
+        1,
+        2,
+        4,
+        3,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "005",
+      "reasons": [
+        "recommends move",
+        "administrative not field remit",
+        "coordinates political advice",
+        "court transfer",
+        "decision influence not army",
+        "court official context"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zao-zhi",
+      "episode": "ep-0010",
+      "stage": "196",
+      "scores": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "008–009; B03-069",
+      "reasons": [
+        "food policy",
+        "earlier local defense",
+        "organizes cultivation",
+        "policy advocacy",
+        "local implementation",
+        "serving Cao's Han administration"
+      ],
+      "disposition": "candidate; verify at Chat04",
+      "continuityOverride": true,
+      "overrideNote": "Use final research continuity constraints, not early table."
+    },
+    {
+      "personId": "han-hao",
+      "episode": "ep-0010",
+      "stage": "196",
+      "scores": [
+        4,
+        3,
+        4,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "008; B03-070",
+      "reasons": [
+        "food policy",
+        "earlier restores camp",
+        "earlier troop discipline",
+        "advises policy",
+        "subordinate command",
+        "established office context"
+      ],
+      "disposition": "candidate; verify at Chat04",
+      "continuityOverride": true,
+      "overrideNote": "Use final research continuity constraints, not early table."
+    },
+    {
+      "personId": "yuan-shao",
+      "episode": "ep-0010",
+      "stage": "196–197",
+      "scores": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "confidence": [
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "007; prior B03-072/073",
+      "reasons": [
+        "competing court options",
+        "prior regional campaigns",
+        "multi-command organization",
+        "contests senior office",
+        "northern base",
+        "Han title"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "liu-bei",
+      "episode": "ep-0011",
+      "stage": "196",
+      "scores": [
+        2,
+        3,
+        3,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "011,014–015",
+      "reasons": [
+        "loses rear base",
+        "fights Yuan then retreats",
+        "retains followers with Mi help",
+        "negotiates accommodation",
+        "reduced to Xiaopei",
+        "recognized regional post context"
+      ],
+      "disposition": "candidate; verify at Chat04",
+      "additionalEvidence": [
+        "EVD-B04-161"
+      ],
+      "officeNote": "Trấn Đông tướng quân, Nghi Thành đình hầu; territorial control reduced despite formal rank"
+    },
+    {
+      "personId": "lu-bu",
+      "episode": "ep-0011",
+      "stage": "196",
+      "scores": [
+        4,
+        4,
+        3,
+        3,
+        4,
+        2
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "011–016",
+      "reasons": [
+        "exploits opening and buffer logic",
+        "takes Xiapi and mediates standoff",
+        "controls force despite mutiny",
+        "negotiates shifting alliances",
+        "regional base",
+        "disputed seizure"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhang-fei",
+      "episode": "ep-0011",
+      "stage": "196",
+      "scores": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "confidence": [
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "012–013",
+      "reasons": [
+        "conflict with Cao Bao",
+        "entrusted garrison but failure",
+        "loses control",
+        "internal discord",
+        "subordinate force",
+        "Liu-appointed role not independent mandate"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "cao-bao",
+      "episode": "ep-0011",
+      "stage": "196",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "confidence": [
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "011–013",
+      "reasons": [
+        "summons Lü",
+        "garrison affiliation",
+        "limited following",
+        "changes alignment",
+        "local not regional authority",
+        "disputed subordinate role"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "mi-zhu",
+      "episode": "ep-0011",
+      "stage": "196",
+      "scores": [
+        3,
+        1,
+        3,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "014",
+      "reasons": [
+        "financial rescue",
+        "civilian support not battlefield remit",
+        "mobilizes resources",
+        "sustains patron relationship",
+        "private wealth not territorial rule",
+        "established service to Liu"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "gao-shun",
+      "episode": "ep-0011",
+      "stage": "196",
+      "scores": [
+        3,
+        4,
+        4,
+        2,
+        2,
+        2
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "016",
+      "reasons": [
+        "reacts to mutiny",
+        "suppresses uprising",
+        "maintains troop order",
+        "subordinate to Lü",
+        "garrison command",
+        "local command not central title"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "sun-ce",
+      "episode": "ep-0012",
+      "stage": "195–196",
+      "scores": [
+        4,
+        5,
+        4,
+        4,
+        4,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "017–020,065,070–071,078",
+      "reasons": [
+        "crosses and consolidates",
+        "wins regional conflict",
+        "absorbs soldiers",
+        "assigns civil offices",
+        "expanding Jiangdong control",
+        "local self-held posts vs Yuan commission"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhou-yu",
+      "episode": "ep-0012",
+      "stage": "195–196",
+      "scores": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "019",
+      "reasons": [
+        "joins coordinated campaign",
+        "commands troops",
+        "brings his own following",
+        "family and patron networks",
+        "subordinate regional force",
+        "early service status"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "liu-yao",
+      "episode": "ep-0012",
+      "stage": "195–196",
+      "scores": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "017,019,070–072",
+      "reasons": [
+        "opposed Yuan but loses base",
+        "defeated",
+        "followers fragment",
+        "imperial appointment",
+        "retreat",
+        "Hán inspector"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "taishi-ci",
+      "episode": "ep-0012",
+      "stage": "195–196+",
+      "scores": [
+        3,
+        4,
+        3,
+        3,
+        2,
+        2
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "070–072",
+      "reasons": [
+        "builds local force after separation",
+        "duels and fights",
+        "attracts Sơn Việt",
+        "accepts new patron",
+        "local not sovereign authority",
+        "self-styled office then Sách appointment, date imprecise"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "wang-lang",
+      "episode": "ep-0012",
+      "stage": "196",
+      "scores": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "078",
+      "reasons": [
+        "rejects avoidance advice",
+        "resists and loses",
+        "retains limited following",
+        "insists on Han responsibility",
+        "loses Kuaiji",
+        "centrally appointed governor"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "yuan-shu",
+      "episode": "ep-0013",
+      "stage": "197",
+      "scores": [
+        2,
+        3,
+        2,
+        2,
+        3,
+        1
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "021–026,073–074",
+      "reasons": [
+        "overextends claims",
+        "campaigns fail",
+        "allies depart",
+        "rival title",
+        "retains army and base",
+        "usurps Han"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "lu-bu",
+      "episode": "ep-0013",
+      "stage": "197",
+      "scores": [
+        3,
+        4,
+        3,
+        3,
+        4,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "023–025",
+      "reasons": [
+        "marriage reversal and opponent split",
+        "repels Yuan force",
+        "retains local forces",
+        "seeks court recognition",
+        "controls Xiapi",
+        "Left General title, contested rule"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "chen-deng",
+      "episode": "ep-0013",
+      "stage": "197",
+      "scores": [
+        4,
+        2,
+        3,
+        4,
+        3,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "024",
+      "reasons": [
+        "acts as political intermediary",
+        "governor not proven field skill here",
+        "entrusted administration",
+        "obtains Cao confidence",
+        "Guangling office",
+        "court appointment"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "sun-ce",
+      "episode": "ep-0013",
+      "stage": "197",
+      "scores": [
+        4,
+        5,
+        4,
+        4,
+        4,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "022,065,074",
+      "reasons": [
+        "separates from Yuan",
+        "recent demonstrated campaign",
+        "retains coalition",
+        "remonstrates and aligns with Han",
+        "Jiangdong base",
+        "tribute to court"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhang-xiu",
+      "episode": "ep-0014",
+      "stage": "197–198",
+      "scores": [
+        3,
+        4,
+        3,
+        3,
+        3,
+        2
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "027–032,062,076",
+      "reasons": [
+        "accepts Jia counsel imperfectly",
+        "defeats Cao then pressured",
+        "inherits troop base",
+        "allies Liu Biao",
+        "Nanyang base",
+        "fluid surrender/local authority"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "jia-xu",
+      "episode": "ep-0014",
+      "stage": "197–198",
+      "scores": [
+        5,
+        3,
+        3,
+        4,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "076",
+      "reasons": [
+        "anticipates pursuit reversals",
+        "military advice not personal command",
+        "supports patron cohesion",
+        "alliance brokerage",
+        "influence not independent base",
+        "serves regional leader, earlier Han office"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "cao-cao",
+      "episode": "ep-0014",
+      "stage": "197–198",
+      "scores": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "028–032,062–063",
+      "reasons": [
+        "strategic setback then recovery",
+        "retains field command",
+        "reorganizes after loss",
+        "central office retained",
+        "regional base retained",
+        "no office revoked"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "dian-wei",
+      "episode": "ep-0014",
+      "stage": "197 last supported moment",
+      "scores": [
+        2,
+        5,
+        3,
+        1,
+        2,
+        3
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "research estimate",
+        "low",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "063",
+      "reasons": [
+        "close guard role",
+        "documented combat defense",
+        "protects camp with followers",
+        "guard not political remit",
+        "subordinate command",
+        "Cao service"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "liu-biao",
+      "episode": "ep-0014",
+      "stage": "197–198",
+      "scores": [
+        3,
+        3,
+        4,
+        4,
+        4,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "030,032,076; prior B03",
+      "reasons": [
+        "alliance defense",
+        "sends relief",
+        "regional coalition",
+        "bargains with Zhang Xiu",
+        "Jingzhou base",
+        "prior Han office"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "cao-cao",
+      "episode": "ep-0015",
+      "stage": "198",
+      "scores": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "033–037,066",
+      "reasons": [
+        "acts on advisers",
+        "captures Xiapi",
+        "maintains campaigns",
+        "incorporates Zang Ba",
+        "enlarges domain",
+        "Han office retained"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "lu-bu",
+      "episode": "ep-0015",
+      "stage": "198 last supported moment",
+      "scores": [
+        2,
+        3,
+        1,
+        2,
+        1,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "033–036",
+      "reasons": [
+        "isolated in siege",
+        "prior offensive but defeated",
+        "officers defect",
+        "negotiation fails",
+        "base lost",
+        "title not shown revoked before capture"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "chen-gong",
+      "episode": "ep-0015",
+      "stage": "198 last supported moment",
+      "scores": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "confidence": [
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "035–036",
+      "reasons": [
+        "strategic adviser under siege",
+        "not independently commanding in final account",
+        "unable to preserve coalition",
+        "patron loses",
+        "captured",
+        "subordinate allegiance"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "xun-you",
+      "episode": "ep-0015",
+      "stage": "198",
+      "scores": [
+        5,
+        3,
+        2,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "034",
+      "reasons": [
+        "recommends continuing siege",
+        "advisory campaign role",
+        "joint influence not independent leadership",
+        "staff counsel",
+        "influence via Cao",
+        "military-administrative service"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "guo-jia",
+      "episode": "ep-0015",
+      "stage": "198",
+      "scores": [
+        5,
+        3,
+        2,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "034",
+      "reasons": [
+        "co-advises siege",
+        "planning not field command",
+        "joint advisory role",
+        "Cao staff",
+        "no territorial office",
+        "patron's administration"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "yuan-shao",
+      "episode": "ep-0016",
+      "stage": "199",
+      "scores": [
+        4,
+        5,
+        4,
+        4,
+        5,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "039,043",
+      "reasons": [
+        "northern consolidation",
+        "defeats Gongsun",
+        "commands multi-region forces",
+        "holds senior office",
+        "four provinces reported",
+        "Han general"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "gongsun-zan",
+      "episode": "ep-0016",
+      "stage": "199 last supported moment",
+      "scores": [
+        2,
+        2,
+        1,
+        2,
+        1,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "039",
+      "reasons": [
+        "loses siege and relief",
+        "final defeat",
+        "coalition collapses",
+        "political isolation",
+        "loses base",
+        "prior office not proof new revocation"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "yuan-shu",
+      "episode": "ep-0016",
+      "stage": "199 last supported moment",
+      "scores": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "042,075",
+      "reasons": [
+        "failed escape",
+        "forces disperse",
+        "refused by former subordinates",
+        "relinquishes claim",
+        "no viable base",
+        "unrecognized claimant"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhang-xiu",
+      "episode": "ep-0017",
+      "stage": "199",
+      "scores": [
+        4,
+        3,
+        3,
+        4,
+        2,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "044,064,077",
+      "reasons": [
+        "accepts favorable option",
+        "retains followers",
+        "brings troops into Cao coalition",
+        "marriage and reconciliation",
+        "independent base surrendered",
+        "Han-derived title"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "jia-xu",
+      "episode": "ep-0017",
+      "stage": "199",
+      "scores": [
+        5,
+        3,
+        3,
+        5,
+        3,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "077",
+      "reasons": [
+        "three reasons for choosing Cao",
+        "military planning role",
+        "shifts patron coalition",
+        "high-level negotiation",
+        "central staff influence",
+        "new Han official service"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "liu-bei",
+      "episode": "ep-0017",
+      "stage": "199",
+      "scores": [
+        3,
+        3,
+        4,
+        3,
+        3,
+        2
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "045–048",
+      "reasons": [
+        "breaks from Cao and takes base",
+        "seizes Xu",
+        "gathers followers",
+        "conspiracy and independent action",
+        "Xiapi/Tiểu Bái",
+        "kills appointed inspector"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "guan-yu",
+      "episode": "ep-0017",
+      "stage": "199",
+      "scores": [
+        2,
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "047,120",
+      "reasons": [
+        "local defense remit",
+        "commands garrison",
+        "entrusted administration",
+        "subordinate to Liu",
+        "local delegated authority",
+        "acting governor"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "guan-yu",
+      "episode": "ep-0017",
+      "stage": "early 200",
+      "scores": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        3
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "low",
+        "low",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "095,120",
+      "reasons": [
+        "no independent plan established at capture",
+        "prior garrison role",
+        "new subordinate command scope",
+        "entered Cao's service",
+        "limited delegated force",
+        "appointed 偏將軍"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "liu-bei",
+      "episode": "ep-0017",
+      "stage": "200 month 1",
+      "scores": [
+        2,
+        2,
+        3,
+        3,
+        1,
+        2
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "050–051",
+      "reasons": [
+        "defeated",
+        "loses base",
+        "escapes with patron contacts",
+        "seeks Yuan refuge",
+        "no independent territorial control",
+        "prior appointment disputed by rebellion"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "cao-cao",
+      "episode": "ep-0017",
+      "stage": "200 month 1",
+      "scores": [
+        4,
+        5,
+        4,
+        4,
+        4,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "049–050",
+      "reasons": [
+        "eastern campaign decision",
+        "defeats Liu",
+        "maintains army",
+        "controls court amid conspiracy",
+        "retains base",
+        "Han office, accusations separate"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "sun-ce",
+      "episode": "ep-0018",
+      "stage": "199–200 predeath",
+      "scores": [
+        5,
+        5,
+        5,
+        4,
+        4,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "053–059",
+      "reasons": [
+        "expands and appoints",
+        "defeats regional enemies",
+        "builds governing coalition",
+        "succession arrangement",
+        "several commanderies, not entire south",
+        "Hán affiliation"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhou-yu",
+      "episode": "ep-0018",
+      "stage": "199–200",
+      "scores": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "053,061,069",
+      "reasons": [
+        "campaign planning",
+        "military command",
+        "brings troops and shares administration",
+        "succession support",
+        "subordinate force and office",
+        "assigned title not whole Jiangxia control"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "sun-quan",
+      "episode": "ep-0018",
+      "stage": "200",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        4,
+        4
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "054,060–061,067",
+      "reasons": [
+        "accepts inherited administration",
+        "prior campaign participation",
+        "gathers officials under support",
+        "recognized successor",
+        "inherited territories with resistance",
+        "Han title"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhang-zhao",
+      "episode": "ep-0018",
+      "stage": "200",
+      "scores": [
+        4,
+        2,
+        4,
+        5,
+        3,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "065,067",
+      "reasons": [
+        "organizes continuity",
+        "administrative rather than battlefield remit",
+        "mobilizes officials",
+        "reports court and stabilizes succession",
+        "staff influence",
+        "recognized chief clerk"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "ren-jun",
+      "episode": "ep-0010",
+      "stage": "196",
+      "scores": [
+        3,
+        2,
+        4,
+        3,
+        2,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "081–082",
+      "reasons": [
+        "implements provisioning",
+        "logistics not field command",
+        "supervises cultivation",
+        "official administration",
+        "delegated authority",
+        "appointed 典農中郎將"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhang-liao",
+      "episode": "ep-0015",
+      "stage": "198",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "114",
+      "reasons": [
+        "negotiates allegiance via surrender",
+        "commands soldiers",
+        "leads own contingent",
+        "transfers service",
+        "subordinate authority",
+        "appointed 中郎將"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "wu-jing",
+      "episode": "ep-0012",
+      "stage": "195–196",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "017,117",
+      "reasons": [
+        "coordinates against Liu Yao",
+        "serves military campaign",
+        "leads troops",
+        "family and office ties",
+        "commandery remit",
+        "Yuan-appointed office"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "sun-ben",
+      "episode": "ep-0013",
+      "stage": "197",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "116,017",
+      "reasons": [
+        "rejects rival office",
+        "prior campaigning",
+        "retains family following",
+        "joins Sun coalition",
+        "no Cửu Giang control",
+        "prior appointed role"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "sun-ben",
+      "episode": "ep-0018",
+      "stage": "199",
+      "scores": [
+        3,
+        4,
+        3,
+        3,
+        3,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "116",
+      "reasons": [
+        "expansion participant",
+        "campaign service",
+        "commands troops",
+        "assigned commandery",
+        "Yuzhang administration",
+        "Sun coalition office"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "cheng-pu",
+      "episode": "ep-0012",
+      "stage": "195–196",
+      "scores": [
+        3,
+        4,
+        3,
+        2,
+        3,
+        3
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "093",
+      "reasons": [
+        "campaign role",
+        "veteran service",
+        "commands county defense",
+        "delegated administrative role",
+        "local remit",
+        "appointed đô úy"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "cheng-pu",
+      "episode": "ep-0018",
+      "stage": "200",
+      "scores": [
+        3,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "094",
+      "reasons": [
+        "supports succession",
+        "campaign record",
+        "joins senior supporters",
+        "coalition continuity",
+        "delegated command",
+        "continued officer role"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhang-hong",
+      "episode": "ep-0018",
+      "stage": "199–200",
+      "scores": [
+        4,
+        1,
+        3,
+        4,
+        2,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "092",
+      "reasons": [
+        "counsels nonattack",
+        "envoy not field remit",
+        "represents Sun administration",
+        "diplomacy at court",
+        "advisory influence",
+        "appointed thị ngự sử"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "sun-fu",
+      "episode": "ep-0018",
+      "stage": "199",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "091",
+      "reasons": [
+        "holds Liyang and joins campaign",
+        "regional defense",
+        "commands forces",
+        "appointed administrator",
+        "commandery remit",
+        "Sun appointment"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "sun-qian",
+      "episode": "ep-0017",
+      "stage": "199–200",
+      "scores": [
+        3,
+        1,
+        2,
+        4,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "089",
+      "reasons": [
+        "diplomatic connection",
+        "civilian envoy remit",
+        "represents patron",
+        "negotiates with Yuan",
+        "delegated influence",
+        "Liu tòng sự"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "yue-jin",
+      "episode": "ep-0015",
+      "stage": "198",
+      "scores": [
+        3,
+        4,
+        3,
+        2,
+        2,
+        3
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "research estimate",
+        "low",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "090",
+      "reasons": [
+        "campaign duties not independent plan",
+        "documented merit",
+        "subordinate command",
+        "officer role",
+        "delegated force",
+        "Cao service"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "chen-gui",
+      "episode": "ep-0013",
+      "stage": "197 supplement",
+      "scores": [
+        4,
+        1,
+        2,
+        4,
+        2,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "097,023–025",
+      "reasons": [
+        "rejects coercion and splits alliance",
+        "civilian office remit",
+        "influences local coalition",
+        "remonstrance",
+        "commandery official not sovereign",
+        "Han Bái tướng"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "wu-furen",
+      "episode": "ep-0018",
+      "stage": "200",
+      "scores": [
+        3,
+        1,
+        3,
+        4,
+        3,
+        3
+      ],
+      "confidence": [
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "118",
+      "reasons": [
+        "assists governance",
+        "no direct military remit claimed",
+        "supports young ruler",
+        "documented political assistance",
+        "family influence",
+        "mother of successor"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "xiahou-dun",
+      "episode": "ep-0015",
+      "stage": "198",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "033,122",
+      "reasons": [
+        "reinforcement assignment",
+        "defeated but commands field force",
+        "leads soldiers",
+        "officer remit",
+        "delegated command",
+        "Cao/Han service"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "dong-cheng",
+      "episode": "ep-0010",
+      "stage": "196",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "001–002",
+      "reasons": [
+        "coordinates palace restoration",
+        "armed escort background not new field success",
+        "supervises repair",
+        "court coalition",
+        "delegated court/escort authority",
+        "imperial service"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "dong-cheng",
+      "episode": "ep-0017",
+      "stage": "200 pre-execution",
+      "scores": [
+        3,
+        2,
+        2,
+        4,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "045,049,134",
+      "reasons": [
+        "organizes secret plot",
+        "official military title without demonstrated new command",
+        "small conspirator coalition",
+        "challenges Cao",
+        "limited actual leverage",
+        "edict attribution disputed"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhang-yang",
+      "episode": "ep-0016",
+      "stage": "late 198",
+      "scores": [
+        2,
+        3,
+        2,
+        3,
+        2,
+        4
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "040–041",
+      "reasons": [
+        "intended Lü aid fails",
+        "prior force",
+        "killed by subordinate",
+        "prior political standing",
+        "control collapses",
+        "existing 大司馬 title"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "han-xian",
+      "episode": "ep-0013",
+      "stage": "197",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "025",
+      "reasons": [
+        "switches side under Chen advice",
+        "joins combat",
+        "brings contingent",
+        "coalition bargaining",
+        "subordinate force",
+        "earlier escort role not evidence of current court approval"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "yang-feng",
+      "episode": "ep-0013",
+      "stage": "197",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "025",
+      "reasons": [
+        "switches alliance",
+        "joins combat",
+        "brings contingent",
+        "coalition bargaining",
+        "no independent commandery proven",
+        "previous Han commission does not validate current alignment"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhang-ji",
+      "episode": "ep-0014",
+      "stage": "196 last supported moment",
+      "scores": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "027",
+      "reasons": [
+        "moves troops to Nanyang",
+        "military action",
+        "dies before securing base",
+        "no new court role",
+        "contingent passes to nephew",
+        "earlier Han office"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "li-jue",
+      "episode": "ep-0015",
+      "stage": "198 last supported moment",
+      "scores": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "038",
+      "reasons": [
+        "fails to retain power",
+        "defeated by punitive force",
+        "coalition disintegrates",
+        "declared enemy",
+        "base lost",
+        "court punitive action"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "duan-wei",
+      "episode": "ep-0015",
+      "stage": "198",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "038",
+      "reasons": [
+        "executes court punitive mission",
+        "military success",
+        "commands contingent",
+        "cooperates with envoy",
+        "regional remit",
+        "court mandate"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "ju-shou",
+      "episode": "ep-0010",
+      "stage": "196 retrospective",
+      "scores": [
+        4,
+        2,
+        2,
+        4,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "079–080",
+      "reasons": [
+        "court strategy in annotation",
+        "staff role",
+        "advice not independent troops",
+        "legitimacy-centered advice",
+        "Yuan adviser",
+        "Han-derived affiliation"
+      ],
+      "disposition": "carry 195; not a new snapshot"
+    },
+    {
+      "personId": "guo-tu",
+      "episode": "ep-0010",
+      "stage": "196 retrospective",
+      "scores": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "079–080",
+      "reasons": [
+        "sources disagree on advice",
+        "staff remit",
+        "advisory influence",
+        "political counsel disputed",
+        "subordinate",
+        "Yuan/Han service"
+      ],
+      "disposition": "carry 195; not a new snapshot"
+    },
+    {
+      "personId": "chunyu-qiong",
+      "episode": "ep-0010",
+      "stage": "196 retrospective",
+      "scores": [
+        3,
+        3,
+        2,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "080; prior 195 snapshot",
+      "reasons": [
+        "advisory view in one witness",
+        "earlier military remit retained",
+        "staff coalition",
+        "opposes Ju in annotation",
+        "subordinate",
+        "Yuan/Han service"
+      ],
+      "disposition": "carry 195; not a new snapshot"
+    },
+    {
+      "personId": "zhang-yan",
+      "episode": "ep-0016",
+      "stage": "199",
+      "scores": [
+        3,
+        3,
+        4,
+        3,
+        3,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "039,087; prior 192 snapshot",
+      "reasons": [
+        "tries relief",
+        "field force remains",
+        "retains following",
+        "links Gongsun",
+        "independent armed base",
+        "earlier recognized title retained provisionally"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "tian-kai",
+      "episode": "ep-0016",
+      "stage": "199 last supported moment",
+      "scores": [
+        2,
+        3,
+        2,
+        2,
+        1,
+        3
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "039",
+      "reasons": [
+        "fights in failing coalition",
+        "death in struggle",
+        "command lost",
+        "alignment persists",
+        "territorial power lost",
+        "earlier office not demonstrably revoked"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "chen-deng",
+      "episode": "ep-0018",
+      "stage": "200 before attack plan",
+      "scores": [
+        4,
+        3,
+        3,
+        4,
+        3,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "024,057,138",
+      "reasons": [
+        "strategic eastern opponent",
+        "previous anti-Lü campaign merit",
+        "maintains base",
+        "Cao intermediary",
+        "Guangling remit",
+        "Han-appointed general and governor"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "gao-shun",
+      "episode": "ep-0015",
+      "stage": "198 before capture",
+      "scores": [
+        4,
+        4,
+        3,
+        2,
+        2,
+        2
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "033,035–036",
+      "reasons": [
+        "offensive success but patron defeated",
+        "defeats Liu and relief",
+        "disciplined contingent",
+        "limited court influence",
+        "subordinate command",
+        "Lü-appointed role"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhang-fei",
+      "episode": "ep-0015",
+      "stage": "late 198",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "131",
+      "reasons": [
+        "campaign subordinate",
+        "participates defeat of Lü",
+        "delegated unit",
+        "follows Liu",
+        "no independent territory",
+        "middle general appointment"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "cao-ren",
+      "episode": "ep-0015",
+      "stage": "198",
+      "scores": [
+        3,
+        4,
+        3,
+        2,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "132",
+      "reasons": [
+        "separate task",
+        "captures target in Lü campaign",
+        "leads troops",
+        "officer remit",
+        "delegated command",
+        "Cao service"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "cao-ren",
+      "episode": "ep-0016",
+      "stage": "199",
+      "scores": [
+        3,
+        4,
+        3,
+        2,
+        3,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "041,132",
+      "reasons": [
+        "seizes objective",
+        "defeats Sui Gu",
+        "commands troops",
+        "delegated military rather than civil role",
+        "Henei operation remit",
+        "Cao service"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zang-ba",
+      "episode": "ep-0015",
+      "stage": "198",
+      "scores": [
+        3,
+        3,
+        4,
+        3,
+        3,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "037",
+      "reasons": [
+        "chooses accommodation",
+        "regional armed following",
+        "maintains local coalition",
+        "integrates with Cao",
+        "regional force",
+        "recognized by Cao"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "yuan-tan",
+      "episode": "ep-0017",
+      "stage": "early 200",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "051,088,157",
+      "reasons": [
+        "arranges Liu refuge",
+        "regional force escort",
+        "provincial administration",
+        "facilitates father alliance",
+        "Qingzhou authority",
+        "initially 都督, later 刺史 appointment timing uncertain"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "tian-feng",
+      "episode": "ep-0017",
+      "stage": "early 200",
+      "scores": [
+        4,
+        2,
+        2,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "052",
+      "reasons": [
+        "recommends opportunity against Cao",
+        "advisory rather than field remit",
+        "influence limited by rejection",
+        "court politics through Yuan",
+        "subordinate",
+        "Yuan service"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "liu-xun",
+      "episode": "ep-0018",
+      "stage": "199",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "053–054",
+      "reasons": [
+        "loses base to Sun campaign",
+        "defeated",
+        "remaining followers limited",
+        "shifts patron context",
+        "commandery lost",
+        "earlier Lujiang appointment"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "huang-zu",
+      "episode": "ep-0018",
+      "stage": "199",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "054",
+      "reasons": [
+        "defends Jiangxia",
+        "campaign opposition",
+        "retains regional force despite defeat",
+        "Liu Biao alignment",
+        "regional command",
+        "delegated office context"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "hua-xin",
+      "episode": "ep-0018",
+      "stage": "199",
+      "scores": [
+        3,
+        1,
+        3,
+        4,
+        2,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "055",
+      "reasons": [
+        "chooses negotiated transfer",
+        "civil governor remit",
+        "administers commandery",
+        "accepts Sun control",
+        "loses independent commandery",
+        "Han governor"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "yu-fan",
+      "episode": "ep-0012",
+      "stage": "196",
+      "scores": [
+        4,
+        1,
+        2,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "078",
+      "reasons": [
+        "advises retreat against stronger force",
+        "civil 功曹 remit",
+        "adviser not autonomous commander",
+        "serves Wang",
+        "delegated authority",
+        "commandery staff"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "yu-fan",
+      "episode": "ep-0018",
+      "stage": "199",
+      "scores": [
+        4,
+        1,
+        3,
+        4,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "055",
+      "reasons": [
+        "persuades Hua to yield",
+        "negotiation role not field command",
+        "represents Sun",
+        "political mediation",
+        "delegated influence",
+        "Sun staff"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhu-zhi",
+      "episode": "ep-0012",
+      "stage": "196",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "confidence": [
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "065",
+      "reasons": [
+        "takes Wu administration",
+        "regional military-administrative remit",
+        "organizes commandery",
+        "serves Sun",
+        "local authority",
+        "delegated office"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "sun-quan",
+      "episode": "ep-0018",
+      "stage": "199 pre-succession",
+      "scores": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        3
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "low",
+        "low",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "054",
+      "reasons": [
+        "campaign participation not independent plan",
+        "follows Sun Ce",
+        "subordinate remit",
+        "family coalition member",
+        "limited delegated power",
+        "serving Sun/Han coalition"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "guo-si",
+      "episode": "ep-0014",
+      "stage": "197 last supported moment",
+      "scores": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "133; prior 195 snapshot",
+      "reasons": [
+        "fails to preserve force",
+        "killed by subordinate",
+        "command collapses",
+        "prior court influence gone",
+        "loss of control",
+        "previous title does not prove current recognition"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "ji-ling",
+      "episode": "ep-0011",
+      "stage": "196",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "research estimate",
+        "low",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "015",
+      "reasons": [
+        "leads Yuan's intervention",
+        "field command",
+        "commands force",
+        "follows patron",
+        "delegated army",
+        "no separate Han title sourced"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhang-xun",
+      "episode": "ep-0013",
+      "stage": "197",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "025",
+      "reasons": [
+        "alliance disintegrates",
+        "defeated",
+        "contingent loses coordination",
+        "officer in Yuan coalition",
+        "subordinate authority",
+        "rebel ruler's military"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "guan-jing",
+      "episode": "ep-0016",
+      "stage": "199",
+      "scores": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "086",
+      "reasons": [
+        "advises holding position",
+        "staff role under siege",
+        "supports commander",
+        "counsel to Gongsun",
+        "chief clerk influence",
+        "prior office context"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "wei-zhong",
+      "episode": "ep-0016",
+      "stage": "199",
+      "scores": [
+        3,
+        1,
+        3,
+        3,
+        3,
+        4
+      ],
+      "confidence": [
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "041",
+      "reasons": [
+        "assigned Henei administration",
+        "civil remit at appointment",
+        "leads commandery administration",
+        "reinstated trust",
+        "delegated territory",
+        "governor appointed by Cao/Han"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "chen-deng",
+      "episode": "ep-0015",
+      "stage": "late 198",
+      "scores": [
+        4,
+        3,
+        4,
+        4,
+        3,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "138,024",
+      "reasons": [
+        "coordinates eastern pressure",
+        "documented campaign merit",
+        "leads commandery forces in annotation",
+        "collaborates with court/Cao",
+        "holds Guangling",
+        "appointed Phục Ba general"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "hou-cheng",
+      "episode": "ep-0015",
+      "stage": "198",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "035,139",
+      "reasons": [
+        "recovers horses and switches allegiance",
+        "cavalry command",
+        "leads contingent in surrender",
+        "local officer politics",
+        "delegated force",
+        "previous Lü service not independent claim"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "cao-xing",
+      "episode": "ep-0011",
+      "stage": "196",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "016,158",
+      "reasons": [
+        "opposes Hao revolt",
+        "fights rebel commander",
+        "entrusted former contingent",
+        "reports alleged plot",
+        "local delegated force",
+        "Lü service"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "cao-ang",
+      "episode": "ep-0014",
+      "stage": "197 before death",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "confidence": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "research estimate"
+      ],
+      "evidence": "140,028–029",
+      "reasons": [
+        "local personal decision in Shiyu account only, not generalship",
+        "joins southern campaign, no unit assigned in record",
+        "family entourage and rescue of father per variant, no independent command",
+        "nominated filial-incorrupt candidate, not appointed minister",
+        "dependent adult member of Cao household, no independent territorial remit",
+        "recommended 孝廉 under Han"
+      ],
+      "disposition": "review before import: no independent military command or governance; remit estimate only"
+    },
+    {
+      "personId": "zhu-ling",
+      "episode": "ep-0017",
+      "stage": "199",
+      "scores": [
+        3,
+        3,
+        4,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "143,042,134",
+      "reasons": [
+        "chooses continued service after former joint campaign",
+        "proven command of three units earlier",
+        "soldiers follow his shift",
+        "changes patrons and accepts delegated mission",
+        "contingent not regional sovereign",
+        "Cao service, contemporary title unclear"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "xu-qiu",
+      "episode": "ep-0016",
+      "stage": "199",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        2,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "144",
+      "reasons": [
+        "refuses Yuan claim and returns seals",
+        "prior Yellow Turban service, no new field command",
+        "former provincial administration",
+        "rejects rival appointment and restores seals",
+        "summoned official in transit rather than independent territory",
+        "Han judicial appointment"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "sui-gu",
+      "episode": "ep-0016",
+      "stage": "199",
+      "scores": [
+        2,
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "145",
+      "reasons": [
+        "takes over after killing Yang Chou but fails to link Yuan",
+        "commands forces",
+        "retains Zhang Yang's contingent briefly",
+        "alliance shift",
+        "local transient authority",
+        "former Zhang subordinate, no new Han commission"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "shi-huan",
+      "episode": "ep-0016",
+      "stage": "199",
+      "scores": [
+        3,
+        4,
+        3,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "146,145,041",
+      "reasons": [
+        "intercepts opposing force",
+        "documented field command and victory",
+        "monitors multiple officers per Wei Shu",
+        "trusted delegated military role",
+        "subordinate army scope",
+        "early 行中軍校尉, promotion date unclear"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "xu-gong",
+      "episode": "ep-0018",
+      "stage": "before 200 death",
+      "scores": [
+        3,
+        2,
+        3,
+        4,
+        3,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "147,056",
+      "reasons": [
+        "petition urges summons per annotation",
+        "commandery governor remit not demonstrated battlefield skill",
+        "holds commandery",
+        "appeals to Han court",
+        "regional office before death",
+        "former Wu governor, exact appointment path unconfirmed"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "yan-xiang",
+      "episode": "ep-0013",
+      "stage": "late 195 callback",
+      "scores": [
+        4,
+        1,
+        2,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "148",
+      "reasons": [
+        "identifies legitimacy and timing risk",
+        "civil chief clerk remit, no field assignment asserted",
+        "advises ruler within staff hierarchy",
+        "publicly remonstrates",
+        "subordinate office",
+        "then Yuan Shu's pre-imperial administration"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "yu-jin",
+      "episode": "ep-0014",
+      "stage": "197",
+      "scores": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "149",
+      "reasons": [
+        "prioritizes preserving discipline and order",
+        "retains contingent despite wider defeat",
+        "organizes troops and prevents plunder",
+        "maintains accountability to Cao",
+        "commands troops but no territory",
+        "awarded Han-derived marquis title"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "yu-jin",
+      "episode": "ep-0016",
+      "stage": "199",
+      "scores": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "149–150",
+      "reasons": [
+        "earlier documented judgment remains relevant",
+        "campaign merit in Rang/Xiapi/Shequan",
+        "continuing command",
+        "no demonstrated political remit change",
+        "delegated force",
+        "prior marquis title remains"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "xu-huang",
+      "episode": "ep-0010",
+      "stage": "196",
+      "scores": [
+        4,
+        3,
+        3,
+        4,
+        2,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "151",
+      "reasons": [
+        "advises return to Luoyang and affiliation",
+        "earlier service and appointment",
+        "leads delegated force",
+        "court restoration and patron transition",
+        "subordinate authority",
+        "都亭侯 and 騎都尉 then transfer"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "xu-huang",
+      "episode": "ep-0016",
+      "stage": "199",
+      "scores": [
+        4,
+        4,
+        3,
+        3,
+        3,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "151–152",
+      "reasons": [
+        "previous judgment plus independent assignment",
+        "Xiapi and Henei merit",
+        "commands delegated troops",
+        "serves Cao's coalition",
+        "force not territorial rule",
+        "subordinate Han-derived rank"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhang-he",
+      "episode": "ep-0016",
+      "stage": "199",
+      "scores": [
+        3,
+        4,
+        3,
+        2,
+        3,
+        3
+      ],
+      "confidence": [
+        "low",
+        "research estimate",
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "153",
+      "reasons": [
+        "opposition to Gongsun under delegated campaign remit",
+        "documented merit",
+        "commands troops",
+        "serves Yuan rather than independent policymaking",
+        "delegated military authority",
+        "appointed 寧國中郎將"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "zhang-yang",
+      "episode": "ep-0010",
+      "stage": "196",
+      "scores": [
+        4,
+        3,
+        3,
+        4,
+        3,
+        4
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "154,002",
+      "reasons": [
+        "supplies court and proposes external security remit",
+        "maintains troops",
+        "provides supplies and escort",
+        "recognizes shared court rather than seizing it",
+        "Henei base",
+        "appointment 大司馬"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "liu-dai-199",
+      "episode": "ep-0017",
+      "stage": "199",
+      "scores": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "155,047",
+      "reasons": [
+        "fails delegated expedition",
+        "earlier campaign merit but current defeat",
+        "commands assigned force",
+        "Tư không trưởng sử context",
+        "subordinate authority",
+        "Han-derived staff office, marquis date uncertain"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "wang-zhong",
+      "episode": "ep-0017",
+      "stage": "199",
+      "scores": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "155,047",
+      "reasons": [
+        "failed expedition",
+        "previous gathering troops and current campaign",
+        "organized a contingent",
+        "officer service rather than central policymaking",
+        "delegated force",
+        "appointed 中郎將"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "liu-xun",
+      "episode": "ep-0018",
+      "stage": "late 199 after loss",
+      "scores": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        3
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate"
+      ],
+      "evidence": "156,054",
+      "reasons": [
+        "accepts Cao as patron",
+        "earlier defeat but retains troops",
+        "brings contingent",
+        "realigns",
+        "delegated not independent territory",
+        "Liệt hầu"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "hao-meng",
+      "episode": "ep-0011",
+      "stage": "196 before death",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "confidence": [
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "158",
+      "reasons": [
+        "unsuccessful uprising",
+        "commands rebel troops but defeated",
+        "own contingent fragments",
+        "conspiracy attributed by Cao Xing",
+        "local troop power",
+        "Lü officer authority contested by revolt"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "wei-xu",
+      "episode": "ep-0015",
+      "stage": "198",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "confidence": [
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "159,035",
+      "reasons": [
+        "participates collective surrender",
+        "entrusted prior unit, no separate field feat",
+        "commands reassigned troops",
+        "kinship and alliance shift",
+        "subordinate authority",
+        "Lü officer remit"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "yuan-xi",
+      "episode": "ep-0016",
+      "stage": "199",
+      "scores": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "confidence": [
+        "low",
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "157,088",
+      "reasons": [
+        "delegated provincial policy, no individual plan asserted",
+        "regional administration during armed consolidation not specific personal campaign",
+        "delegated provincial hierarchy",
+        "holds office under father",
+        "Youzhou remit",
+        "Yuan appointment not independent sovereign"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    },
+    {
+      "personId": "gao-gan",
+      "episode": "ep-0016",
+      "stage": "199",
+      "scores": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "confidence": [
+        "low",
+        "low",
+        "low",
+        "research estimate",
+        "research estimate",
+        "low"
+      ],
+      "evidence": "157,088",
+      "reasons": [
+        "delegated provincial policy, no personal plan asserted",
+        "frontier command remit not battle proof",
+        "provincial administration",
+        "nephew under Yuan",
+        "Bingzhou remit",
+        "Yuan appointment context"
+      ],
+      "disposition": "candidate; verify at Chat04"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "QTE-0030",
+      "personId": "lu-bu",
+      "episode": "ep-0011",
+      "original": "術若破備，則北連太山諸將，吾爲在術圍中，不得不救也。",
+      "translation": "Nếu Thuật phá Bị, rồi nối thế lực phía bắc với Thái Sơn, ta sẽ bị vây trong thế của Thuật, không thể không cứu.",
+      "source": "SGZ7 呂布 L142, EVD-B04-015; Chính sử https://zh.wikisource.org/wiki/三國志/卷07",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0031",
+      "personId": "cao-cao",
+      "episode": "ep-0017",
+      "original": "今天下英雄，唯使君與操耳。",
+      "translation": "Anh hùng thiên hạ hôm nay chỉ có sứ quân và Tháo.",
+      "source": "SGZ32 046 chính văn",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0032",
+      "personId": "yuan-shu",
+      "episode": "ep-0016",
+      "original": "袁術至於此乎！",
+      "translation": "Viên Thuật lại đến nông nỗi này sao!",
+      "source": "SGZ6 袁術 Bùi chú dẫn 吳書, L183, EVD-B04-085; reported speech",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0033",
+      "personId": "sun-ce",
+      "episode": "ep-0012",
+      "original": "今日之事，當與卿共之。",
+      "translation": "Việc hôm nay, ta sẽ cùng ông làm.",
+      "source": "SGZ49 太史慈 071; after capture, exact date unclear",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0034",
+      "personId": "taishi-ci",
+      "episode": "ep-0012",
+      "original": "未可量也。",
+      "translation": "Chưa thể đoán được.",
+      "source": "SGZ49 071; response to hypothetical encounter, not self praise",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0035",
+      "personId": "jia-xu",
+      "episode": "ep-0017",
+      "original": "不如從曹公。",
+      "translation": "Chi bằng theo Tào công.",
+      "source": "SGZ10 賈詡 077; followed by three reasons",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0036",
+      "personId": "zhang-zhao",
+      "episode": "ep-0018",
+      "original": "方今天下鼎沸，群盜滿山。",
+      "translation": "Nay thiên hạ sôi sục, giặc khắp núi.",
+      "source": "SGZ52 張昭 067; short speech excerpt",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0037",
+      "personId": "wang-lang",
+      "episode": "ep-0012",
+      "original": "策勇冠一世，有儁才大志。",
+      "translation": "Sách dũng khí hơn người cùng thời, có tài xuất chúng và chí lớn.",
+      "source": "SGZ13 王朗 Bùi chú dẫn Hán Tấn xuân thu 068; retrospective, audience date uncertain; display timeline as 198+ not 196",
+      "disposition": "reserved; withhold from EP12; 198+ retrospective only if appropriate"
+    },
+    {
+      "id": "QTE-0038",
+      "personId": "sun-ce",
+      "episode": "ep-0018",
+      "original": "舉賢任能，各盡其心，以保江東，我不如卿。",
+      "translation": "Cất nhắc hiền tài, để mỗi người tận tâm bảo vệ Giang Đông, ta không bằng em.",
+      "source": "SGZ46 孫策 chính văn, EVD-B04-128; source-reported speech, not Romance division of duties.",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0039",
+      "personId": "dong-zhao",
+      "episode": "ep-0010",
+      "original": "惟有移駕幸許耳。",
+      "translation": "Chỉ còn cách dời xa giá tới Hứa.",
+      "source": "135 chính văn, 196 court relocation advice",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0040",
+      "personId": "gao-shun",
+      "episode": "ep-0015",
+      "original": "但患不見用耳。",
+      "translation": "Chỉ lo người có tài không được dùng mà thôi.",
+      "source": "136 Bùi chú dẫn Anh hùng ký, repeated advice, no exact date",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0041",
+      "personId": "chen-gong",
+      "episode": "ep-0015",
+      "original": "老母在公，不在宮也。",
+      "translation": "Mẹ già sống hay không ở ngài, không còn ở Cung.",
+      "source": "137 chính văn, after capture; do not merge with Điển lược",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0042",
+      "personId": "xu-qiu",
+      "episode": "ep-0016",
+      "original": "昔蘇武困於匈奴，不隊七尺之節，況此方寸印乎？",
+      "translation": "Xưa Tô Vũ gặp nạn nơi Hung Nô còn không đánh mất tiết trượng bảy thước, huống gì ấn nhỏ vuông tấc này?",
+      "source": "[Sử liệu khác] 後漢書卷48 徐璆 L222 https://zh.wikisource.org/zh-hant/後漢書/卷48 · EVD-B04-144 · 199 sau trả ấn; 隊 nghĩa rơi/mất, không phải quân đội",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0043",
+      "personId": "zhu-ling",
+      "episode": "ep-0017",
+      "original": "今已遇，復何之？",
+      "translation": "Nay đã gặp được người ấy, còn đi đâu nữa?",
+      "source": "[Chính sử] 三國志卷17 朱靈 L171 https://zh.wikisource.org/zh-hant/三國志/卷17 · EVD-B04-143 · hồi tưởng lúc ở lại theo Tào sau chiến dịch Đào Khiêm; không gán năm 199",
+      "disposition": "retrospective earlier campaign; never date 199"
+    },
+    {
+      "id": "QTE-0044",
+      "personId": "yan-xiang",
+      "episode": "ep-0013",
+      "original": "漢室雖微，未若殷紂之暴也。",
+      "translation": "Nhà Hán tuy suy yếu nhưng chưa tàn bạo như Trụ nhà Ân.",
+      "source": "[Chính sử] 三國志卷06 袁術 L183 https://zh.wikisource.org/zh-hant/三國志/卷06 · EVD-B04-148 · cuối 195, hồi tưởng khi Thuật xưng đế",
+      "disposition": "195 retrospective, EP13 context only"
+    },
+    {
+      "id": "QTE-0045",
+      "personId": "yu-jin",
+      "episode": "ep-0014",
+      "original": "青州兵同屬曹公，而還為賊乎！",
+      "translation": "Quân Thanh Châu cũng thuộc Tào công, sao lại làm giặc?",
+      "source": "[Chính sử] 三國志卷17 于禁 L145 https://zh.wikisource.org/zh-hant/三國志/卷17 · EVD-B04-149 · 197, phản ứng trước báo cáo cướp bóc, không quy cho toàn bộ lực lượng",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0046",
+      "personId": "zhang-yang",
+      "episode": "ep-0010",
+      "original": "天子當與天下共之",
+      "translation": "Thiên tử phải cùng thiên hạ phụng sự.",
+      "source": "[Chính sử] 三國志卷08 張楊 L159 https://zh.wikisource.org/zh-hant/三國志/卷08 · EVD-B04-154 · 196, không độc chiếm vua; dịch ý theo đoạn tiếp",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0047",
+      "personId": "xu-gong",
+      "episode": "ep-0018",
+      "original": "若放於外必作世患。",
+      "translation": "Nếu để ở ngoài, ắt thành mối họa cho đời.",
+      "source": "[Bùi chú] 三國志卷46 孫策 引江表傳 L152 https://zh.wikisource.org/zh-hant/三國志/卷46 · EVD-B04-147 · tấu biểu được thuật lại, trước 200; không có bản gốc còn được xác nhận",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0048",
+      "personId": "cao-xing",
+      "episode": "ep-0011",
+      "original": "不意萌狂惑不止。",
+      "translation": "Không ngờ Manh cứ mê muội không dừng.",
+      "source": "[Bùi chú] 三國志卷07 呂布 引英雄記 L142 https://zh.wikisource.org/zh-hant/三國志/卷07 · EVD-B04-158 · 196, lời tường thuật của Cao Tính, không chứng minh mọi cáo buộc",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0049",
+      "personId": "chen-gui",
+      "episode": "ep-0013",
+      "original": "勢不俱棲，可解離也。",
+      "translation": "Thế ấy không thể cùng đậu một chỗ, có thể chia rẽ.",
+      "source": "[Chính sử] 三國志卷07 呂布 L145 https://zh.wikisource.org/zh-hant/三國志/卷07 · EVD-B04-025 · 197, kế tách Hàn Xiêm/Dương Phụng khỏi Thuật",
+      "disposition": "candidate; use exact source layer and date precision"
+    },
+    {
+      "id": "QTE-0050",
+      "personId": "lu-bu",
+      "episode": "ep-0015",
+      "original": "明公將步，令布將騎，則天下不足定也。",
+      "translation": "Minh công chỉ huy bộ binh, để Bố chỉ huy kỵ binh, thì bình định thiên hạ không khó.",
+      "source": "[Chính sử] 三國志卷07 呂布 L146 https://zh.wikisource.org/zh-hant/三國志/卷07 · EVD-B04-035 · sau đầu hàng, lời đề nghị chứ không phải kế hoạch đã thực hiện",
+      "disposition": "candidate; use exact source layer and date precision"
+    }
+  ],
+  "contextualNarrative": "Additional incidental names, kinship and unnamed victims are recorded in prose/evidence; retain contextual facts without inventing IDs, roles or scores. Existing identities must be reused. No automatic historical portrait additions.",
+  "atlas": "Use story anchors and resolution file, verify marker location, dated title, faction, formal rank and actual influence separately. Not all context participants are markers; no inferred exact point.",
+  "validation": {
+    "researchCandidates": 117,
+    "distinctAssessed": 88,
+    "retrospectiveCarry": 3,
+    "quoteReservations": 21,
+    "approvedContextual": 17,
+    "profileLinkCandidates": 110,
+    "priorRuntimeRowsPreserve": 116
+  }
+}

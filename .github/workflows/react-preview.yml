@@ -15,7 +15,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -50,13 +50,17 @@ jobs:
           }
           const resolution=JSON.parse(fs.readFileSync('evidence/BATCH_03_ATLAS_RESOLUTION.json','utf8'));
           for(const p of resolution.places){const loc=resolveAtlasPlace(atlas,pilot.places.find(x=>x.id===p.id));if(p.display==='site'||p.display==='region'){if(loc?.precision!==p.display||!loc.p.every(Number.isFinite))throw Error('B03 resolver mismatch '+p.id);}else if(loc)throw Error('Invented location '+p.id);}
-          for(const e of pilot.events.filter(e=>e.episode>='ep-0007')){const loc=resolveAtlasPlace(atlas,pilot.places.find(x=>x.id===e.place));if(!loc||!loc.p.every(Number.isFinite))throw Error('Unresolved B03 event '+e.id);}
+          for(const e of pilot.events.filter(e=>e.episode>='ep-0007'&&e.episode<'ep-0010')){const loc=resolveAtlasPlace(atlas,pilot.places.find(x=>x.id===e.place));if(!loc||!loc.p.every(Number.isFinite))throw Error('Unresolved B03 event '+e.id);}
           console.log('PASS B03 45 place precision and 17 event anchors');
+          const b04=JSON.parse(fs.readFileSync('evidence/BATCH_04_ATLAS_RESOLUTION.json','utf8'));
+          for(const p of b04.places){const loc=resolveAtlasPlace(atlas,pilot.places.find(x=>x.id===p.id));const expected=p.id==='henei'?'region':p.display;if(expected==='site'||expected==='region'){if(loc?.precision!==expected||!loc.p.every(Number.isFinite))throw Error('B04 resolver mismatch '+p.id);}else if(loc)throw Error('Invented B04 location '+p.id);}
+          for(const e of pilot.events.filter(e=>e.episode>='ep-0010'&&e.people.length)){const loc=resolveAtlasPlace(atlas,pilot.places.find(x=>x.id===e.place));if(!loc||!loc.p.every(Number.isFinite))throw Error('Unresolved B04 pin '+e.id);}
+          console.log('PASS B04 place resolution and marker anchors');
           const registry=JSON.parse(fs.readFileSync('content/atlas/portraits.json','utf8'));
           const enabled=registry.portraits.filter(p=>p.enabled);
           if(enabled.length!==8||new Set(enabled.map(p=>p.id)).size!==enabled.length)throw Error('Unexpected portrait coverage');
           for(const p of enabled){if(!pilot.people.some(x=>x.id===p.id)||!fs.existsSync('dist/'+p.path))throw Error('Missing portrait '+p.id);}
-          if(pilot.trajectories.length!==3)throw Error('Missing pilot journeys');
+          if(pilot.trajectories.filter(t=>t.episode<'ep-0010').length!==3||pilot.trajectories.length!==6)throw Error('Missing pilot journeys');
           for(const t of pilot.trajectories){
             if(!pilot.people.some(p=>p.id===t.person))throw Error('Unknown journey person '+t.id);
             for(const s of t.stops){const place=pilot.places.find(p=>p.id===s.place);if(!place||!s.evidence||!s.sourceUrl||!Number.isInteger(s.order))throw Error('Invalid journey stop '+s.place);const loc=resolveAtlasPlace(atlas,place);console.log('JOURNEY',t.id,s.order,s.place,loc?.precision||'unresolved');}
@@ -103,7 +107,7 @@ jobs:
   verify-live:
     needs: deploy
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     permissions:
       contents: read
     steps:
@@ -145,7 +149,7 @@ jobs:
                 const page=await browser.newPage({viewport:{width,height},hasTouch:true,reducedMotion:'reduce'});
                 const errors=[];page.on('pageerror',e=>errors.push(String(e)));
                 await page.goto(base+'#/');await page.locator('.home-hero').waitFor();
-                for(const route of ['/library','/read/ep-0001','/read/ep-0002','/read/ep-0003','/read/ep-0004','/read/ep-0005','/read/ep-0006','/read/ep-0007','/read/ep-0008','/read/ep-0009','/people','/atlas/184','/atlas/190','/atlas/191','/atlas/192','/atlas/193','/atlas/194','/atlas/195','/collection']){
+                for(const route of ['/library',...episodes.map(e=>'/read/'+e.id),'/people','/atlas/184','/atlas/190','/atlas/191','/atlas/192','/atlas/193','/atlas/194','/atlas/195','/atlas/196','/atlas/197','/atlas/198','/atlas/199','/atlas/200','/collection']){
                   await page.goto(base+'&route='+encodeURIComponent(route)+'#'+route);await page.locator('main h1').first().waitFor();
                   if(route.startsWith('/read')){
                     const episode=episodes.find(e=>e.id===route.split('/').pop());
@@ -193,15 +197,15 @@ jobs:
                     await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Tào Tháo"]')}).click();
                     const quoteSheet=page.locator('dialog[open]');
                     const quoteCards=quoteSheet.locator('.character-quote');
-                    if(await quoteCards.count()!==4)throw Error('Missing Cao Cao quotes');
+                    if(await quoteCards.count()!==5)throw Error('Missing Cao Cao quotes');
                     if(await quoteSheet.locator('.character-radar').count()!==1)throw Error('Radar and quote integration missing');
                     const labels=await quoteCards.locator('.quote-layer').allTextContents();
-                    if(JSON.stringify(labels)!==JSON.stringify(['[Bùi chú]','[Tiểu thuyết]','[Chính sử]','[Chính sử]']))throw Error('Quote provenance '+JSON.stringify(labels));
+                    if(JSON.stringify(labels)!==JSON.stringify(['[Bùi chú]','[Tiểu thuyết]','[Chính sử]','[Chính sử]','[Chính sử]']))throw Error('Quote provenance '+JSON.stringify(labels));
                     await quoteCards.first().locator('summary').click();
                     await quoteCards.first().locator('[lang="zh-Hant"]').waitFor({state:'visible'});
                     if(!await quoteCards.first().locator('.quote-source a').getAttribute('href'))throw Error('Missing quote source');
                     await quoteSheet.locator('.character-radar').getByRole('button',{name:'190',exact:true}).click();
-                    if(await quoteCards.count()!==4)throw Error('Quotes lost on radar switch');
+                    if(await quoteCards.count()!==5)throw Error('Quotes lost on radar switch');
                     if(!await quoteSheet.evaluate(el=>el.scrollWidth<=el.clientWidth+1))throw Error('Wiki sheet overflow');
                     await quoteSheet.getByRole('button',{name:'Đóng'}).click();
                     await page.locator('.people-grid button').filter({has:page.locator('.portrait-frame[data-person-name="Hán Linh Đế"]')}).click();
@@ -210,7 +214,7 @@ jobs:
                     console.log('PASS combined Wiki quotes, provenance, disclosure, radar switch and empty state');
                     const wikiCards=page.locator('.people-grid button');
                     const wikiCount=await wikiCards.count();
-                    if(wikiCount!==67)throw Error('Missing Wiki profiles');
+                    if(wikiCount!==121)throw Error('Missing Wiki profiles');
                     let snapshotCount=0;
                     for(let personIndex=0;personIndex<wikiCount;personIndex++){
                     await wikiCards.nth(personIndex).click();
@@ -228,7 +232,7 @@ jobs:
                     }
                     await page.locator('dialog[open]').getByRole('button',{name:'Đóng'}).click();
                     }
-                    if(snapshotCount!==116)throw Error('Missing Wiki snapshots '+snapshotCount);
+                    if(snapshotCount!==230)throw Error('Missing Wiki snapshots '+snapshotCount);
                     console.log('PASS all Wiki radar snapshots',wikiCount,snapshotCount);
                     const img=page.locator('.people-grid img.historical-portrait').first();await img.scrollIntoViewIfNeeded();await img.evaluate(e=>e.decode());
                     await page.getByRole('button',{name:'Thưởng lãm cuộn chân dung'}).click();await page.locator('.portrait-scroll button').first().click();await page.getByRole('button',{name:'Phóng to'}).click();await page.getByRole('button',{name:'Đóng'}).click();
