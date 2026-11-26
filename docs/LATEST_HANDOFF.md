@@ -1,3 +1,12 @@
+# Navigation & IA / 02 — Home, Library & Reader — COMPLETE (2026-11-26)
+
+- Exact tested candidate a8f8b549d3c241fe312838fa6389d8f8e58aea08, [CI 45706550124](https://github.com/sali5610/tam-quoc-chi/actions/runs/45706550124) SUCCESS, job 139529896386. Verified workflow head and all steps completed successfully. Comparison to branch head 632353d070a3647cf50c3815b7e33f3aef0eca62: only docs/LATEST_HANDOFF.md changed.
+- PASS: Home/Library/Reader dedicated smoke in Chromium and WebKit at 320x720, 390x844, 834x1194, 1194x834, 1440x900 (10 cases); chapter reachability all 18 episodes, active TOC, Escape/focus, titled pager, Back expansion retention and five tabs. B03/B04 navigation, search, resume, bookmark and Reader/Wiki links EP07–18 both engines PASS; all episode visual coverage at five sizes/both engines PASS; all 121 Wiki profiles/230 radar snapshots, existing Atlas and portrait regression, motion/reduced motion and capture PASS per logs. Build, structural validation PASS. Earlier test locator failure resolved without weakening coverage.
+- Remaining integration acceptance gates (Chat05): 100/200 synthetic scale fixtures, exact scene restoration after same-width layout/image changes, per-history-entry scroll rather than per-route scroll, full cross-surface origin/return behavior. Physical devices and fresh live NOT TESTED. No production workflow changes or deploy; last verified live SHA inherited 5af8a0885fdfa50aefdc4510a83c29a19b67fc0c; main 59be7599e6cbd07ba96f1fa679f56b1395b93b6c unchanged. No PO production acceptance implied.
+- STOP. Next separate work package: Chat03 Atlas Navigation based on ui/navigation-ia-02 latest handoff, preserve exact tested Chat02 code. Canonical time/event state, manifest-derived published years, evidence precision, map/graph/URL synchronization, explicit origin and return; no Wiki filter implementation until Chat04 (DEC-UX-043), no B05 or release. Chat05 owns final integration/release validation.
+
+---
+
 # Navigation & IA / 02 — QA follow-up — corrected test, exact CI pending (2026-11-26)
 
 - Exact previous CI 45703158602 on 391c7cf805ae53d6fd6a657e4a88882d06b3f0cc completed FAILURE, job 139518212787. Build/TypeScript/content/Atlas structural validation PASS. Browser test stopped in navigation-ia-smoke.mjs at locator('.ia-arc[aria-expanded=false]').nth(2) timeout: locator.all() produces live nth locators and each open removes a match, shifting indices. Subsequent gates SKIPPED, not PASS.
