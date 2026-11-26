@@ -2425,16 +2425,16 @@
     "id": "WIK-tian-kai-CTX-0007-B03-006",
     "personId": "tian-kai",
     "episode": "ep-0007",
-    "year": 192,
+    "year": null,
     "faction": "gongsun-zan",
     "categories": [
       "Võ tướng"
     ],
-    "title": "Lực lượng Điền Khải tại Bình Nguyên trong tuyến đối đầu năm 192",
-    "evidence": "EVD-B03-006",
-    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
-    "sourceLabel": "[Chính sử] Bản ghi nghiên cứu · 三國志 卷01",
-    "basis": "| EVD-B03-006 | [Chính sử] A 初平三年: 太祖與紹會擊，皆破之 | Yuan Shu seeks Gongsun Zan aid; Liu Bei at Cao Đường, Thiền Kinh at Bình Nguyên, Tao Qian at Phát Can; Cao and Yuan Shao defeat opponents. Do not conflate Cao Đường with Gaotang modern exact site | regional named counties; no linked route |"
+    "title": "Thanh Châu thứ sử, cùng Lưu Bị đối phó Viên Thiệu theo Công Tôn Toản; chưa rõ năm bổ nhiệm",
+    "evidence": "EVD-UX-005",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
+    "sourceLabel": "[Chính sử] 三國志 卷32 先主傳",
+    "basis": "| EVD-UX-005 | [Chính sử] 三國志卷32 先主傳 https://zh.wikisource.org/wiki/三國志/卷32 | 使與青州刺史田楷以拒冀州牧袁紹 | Điền Khải giữ chức Thanh Châu thứ sử, cùng Lưu Bị đối phó Viên Thiệu theo Công Tôn Toản. Niên đại tương đối trước cứu Từ Châu; không đồng nhất với Thiền Kinh (單經) tại Bình Nguyên năm 192 trong Vũ Đế kỷ. |"
   },
   {
     "id": "WIK-zhang-yang-CTX-0007-B03-011",

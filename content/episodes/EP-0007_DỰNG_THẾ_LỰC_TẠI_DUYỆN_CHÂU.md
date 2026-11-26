@@ -59,7 +59,7 @@ Rồi đến **Mao Giới**, một người được dùng làm trị trung tòn
 
 Ở tập 5, Viên Thiệu lấy Ký Châu, còn Viên Thuật từng cắt lương của Tôn Kiên. Giờ đây hai ông họ Viên tiếp tục nằm ở hai phía đối địch. Viên Thiệu và Tào Tháo phối hợp đánh đối phương; Viên Thuật tìm sự trợ giúp của Công Tôn Toản, tướng có quân mạnh ở miền bắc.
 
-Trong mạng lưới ấy còn có **Lưu Bị**. Năm 184, ông xuất hiện với vai trò người tham gia dẹp Khăn Vàng. Đến giai đoạn này, sử nhắc quân của ông ở Cao Đường trong liên kết với Công Tôn Toản, cùng Điền Khải ở Bình Nguyên và Đào Khiêm ở Phát Can trong bối cảnh các lực lượng đối địch. Điền Khải là người được Công Tôn Toản giao việc ở Thanh Châu. Những địa danh cổ này nói về các vị trí được chép, không chứng minh một đường hành quân liền mạch. Quân của Tào và Viên Thiệu thắng trong cuộc đối đầu ấy.
+Trong mạng lưới ấy còn có **Lưu Bị**. Năm 184, ông xuất hiện với vai trò người tham gia dẹp Khăn Vàng. Đến giai đoạn này, sử nhắc quân của ông ở Cao Đường trong liên kết với Công Tôn Toản, cùng Thiền Kinh (單經) ở Bình Nguyên và Đào Khiêm ở Phát Can trong bối cảnh các lực lượng đối địch. Tiên chủ truyện còn ghi Lưu Bị cùng Điền Khải, thứ sử Thanh Châu, chống Viên Thiệu theo sự điều động của Công Tôn Toản; không đồng nhất Điền Khải với Thiền Kinh hoặc đặt cả hai vào cùng vị trí. Những địa danh cổ này nói về các vị trí được chép, không chứng minh một đường hành quân liền mạch. Quân của Tào và Viên Thiệu thắng trong cuộc đối đầu ấy.
 
 Sang mùa xuân năm 193, **Lưu Biểu**, người đứng đầu Kinh Châu mà ta đã gặp ở tập trước, chặn đường tiếp tế của Viên Thuật. Viên Thuật chuyển sang đất Trần Lưu, nhưng lại bị Tào Tháo đánh bại trong chiến sự quanh Phong Khâu và sau đó đi về phía Cửu Giang. Mùa hè, Tào trở lại Định Đào.
 
@@ -67,7 +67,7 @@ Sang mùa xuân năm 193, **Lưu Biểu**, người đứng đầu Kinh Châu m�
 
 [Châm biếm của biên tập] Liên minh chống Đổng Trác năm nào giờ giống một nhóm làm chung đã tan dự án nhưng chưa ai chịu trả tài nguyên. Câu đùa là cách nhìn hiện đại, không phải lời của các nhân vật.
 
-[Chính sử] EVD-B03-006–007 — 《三國志》卷1, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷01). Không gộp các chiến sự thành một trận duy nhất hay biến quan hệ đồng minh thành cam kết vĩnh viễn.
+[Chính sử] EVD-B03-006–007 — 《三國志》卷1, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷01); EVD-UX-005 — 《三國志》卷32〈先主傳〉, [nguyên văn](https://zh.wikisource.org/wiki/三國志/卷32). Không gộp các chiến sự thành một trận duy nhất hay biến quan hệ đồng minh thành cam kết vĩnh viễn.
 
 ## Miền bắc: có danh nghĩa chưa chắc giữ được mạng
 
