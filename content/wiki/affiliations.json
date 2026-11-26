@@ -3159,5 +3159,127 @@
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷46",
     "sourceLabel": "[Bùi chú] Bản ghi nghiên cứu · 三國志 卷46",
     "basis": "| EVD-B04-057 | 18 | [Bùi chú] D 江表傳／孫盛異同評／臣松之案 | 理應先圖陳登 | Giang biểu truyện đặt mục tiêu Trần Đăng, tại Đan Đồ đợi lương; Tôn Thịnh phản đối đánh Hứa và niên biểu Quan Độ, Bùi cho rằng có thể đánh Đăng trước, Hứa sau; loại dị bản Liễu Thành 207 vì sai năm. | Đan Đồ là địa điểm theo dị bản; không pinpoint |"
+  },
+  {
+    "id": "WIK-dong-zhuo-CTX-0002-0036",
+    "personId": "dong-zhuo",
+    "episode": "ep-0002",
+    "year": 184,
+    "faction": "han",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Trung lang tướng, chống Khăn Vàng trong chiến dịch riêng",
+    "evidence": "EVD-0036",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Sử liệu theo bản ghi nghiên cứu · 三國志 卷06",
+    "basis": "| EVD-0036 | Dong Zhuo earlier sent against Yellow Turbans and defeated | 遷中郎將，討黃巾，軍敗抵罪 | SRC-0012, 董卓 base | Dong Zhuo belongs in EP-0002 as a sourced cameo; not only EP-0003 |"
+  },
+  {
+    "id": "WIK-yuan-shao-CTX-0008-B03-029",
+    "personId": "yuan-shao",
+    "episode": "ep-0008",
+    "year": 194,
+    "faction": "yuanshao",
+    "categories": [
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Theo Hiến đế xuân thu, tán thành Lưu Bị tiếp quản Từ Châu; không phải chiếu bổ nhiệm",
+    "evidence": "EVD-B03-029",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
+    "sourceLabel": "Sử liệu theo bản ghi nghiên cứu · 三國志 卷32",
+    "basis": "| EVD-B03-029 | [Bùi chú] C 獻帝春秋: 劉玄德弘雅有信義 | attributed letter from Yuan Shao approves local succession; not equivalent to court appointment | no proven envoy route |"
+  },
+  {
+    "id": "WIK-liu-bei-CTX-0010-B04-011",
+    "personId": "liu-bei",
+    "episode": "ep-0010",
+    "year": 196,
+    "faction": "liubei",
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Đối phó Viên Thuật, căn cứ Hạ Bì bị uy hiếp",
+    "evidence": "EVD-B04-011",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
+    "sourceLabel": "Sử liệu theo bản ghi nghiên cứu · 三國志 卷32",
+    "basis": "| EVD-B04-011 | 11 | [Chính sử] C 建安元年 | 曹豹反，閒迎布 | Lưu Bị chống Viên Thuật ở Hu Di, Hoài Âm; Tào Báo phản, đón Lữ Bố; vợ con Lưu bị bắt. | Hu Di; Hoài Âm; Hạ Bì |"
+  },
+  {
+    "id": "WIK-yuan-shu-CTX-0010-B04-011",
+    "personId": "yuan-shu",
+    "episode": "ep-0010",
+    "year": 196,
+    "faction": "yuan-shu",
+    "categories": [
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Đối đầu Lưu Bị tại tuyến Từ Châu",
+    "evidence": "EVD-B04-011",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
+    "sourceLabel": "Sử liệu theo bản ghi nghiên cứu · 三國志 卷32",
+    "basis": "| EVD-B04-011 | 11 | [Chính sử] C 建安元年 | 曹豹反，閒迎布 | Lưu Bị chống Viên Thuật ở Hu Di, Hoài Âm; Tào Báo phản, đón Lữ Bố; vợ con Lưu bị bắt. | Hu Di; Hoài Âm; Hạ Bì |"
+  },
+  {
+    "id": "WIK-lu-bu-CTX-0010-B04-011",
+    "personId": "lu-bu",
+    "episode": "ep-0010",
+    "year": 196,
+    "faction": "lu-bu",
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Nương nhờ Lưu Bị trước khi chiếm Hạ Bì",
+    "evidence": "EVD-B04-011",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
+    "sourceLabel": "Sử liệu theo bản ghi nghiên cứu · 三國志 卷32",
+    "basis": "| EVD-B04-011 | 11 | [Chính sử] C 建安元年 | 曹豹反，閒迎布 | Lưu Bị chống Viên Thuật ở Hu Di, Hoài Âm; Tào Báo phản, đón Lữ Bố; vợ con Lưu bị bắt. | Hu Di; Hoài Âm; Hạ Bì |"
+  },
+  {
+    "id": "WIK-wu-jing-CTX-0013-B04-117",
+    "personId": "wu-jing",
+    "episode": "ep-0013",
+    "year": 197,
+    "faction": "sun-ce",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Bỏ chức Quảng Lăng khi Tôn Sách tuyệt Viên Thuật",
+    "evidence": "EVD-B04-117",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷50",
+    "sourceLabel": "Sử liệu theo bản ghi nghiên cứu · 三國志 卷50",
+    "basis": "| EVD-B04-117 | 12 | [Chính sử] 三國志/卷50 吳夫人 https://zh.wikisource.org/wiki/三國志/卷50 | 術以景為丹楊太守 | Ngô Cảnh cậu Tôn Sách, làm Đan Dương thái thú; sau theo Sách chống Lưu Do; bỏ chức Quảng Lăng khi Sách tuyệt Thuật. | Đan Dương/Quảng Lăng |"
+  },
+  {
+    "id": "WIK-taishi-ci-CTX-0018-B04-072",
+    "personId": "taishi-ci",
+    "episode": "ep-0018",
+    "year": null,
+    "faction": "sun-ce",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Đi chiêu phủ Dự Chương sau khi Lưu Do chết; chưa định chính xác năm",
+    "evidence": "EVD-B04-072",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷49",
+    "sourceLabel": "Sử liệu theo bản ghi nghiên cứu · 三國志 卷49",
+    "basis": "| EVD-B04-072 | 12 | [Bùi chú] 卷49 太史慈 吳歷；臣松之案 | 與本傳大異，疑為謬誤 | Ngô lịch đặt việc bắt tại Thần Đình; Bùi cho rằng khác chính văn, nghi sai. Chính văn đặt chuyến chiêu phủ Dự Chương sau khi Lưu Do chết và ghi Từ trở về đúng hẹn. Không chuyển sự việc muộn này về 195. | Dự Chương, vùng |"
+  },
+  {
+    "id": "WIK-guan-yu-CTX-0015-B04-096",
+    "personId": "guan-yu",
+    "episode": "ep-0015",
+    "year": 198,
+    "faction": "unknown",
+    "categories": [
+      "Chưa xác định"
+    ],
+    "title": "Theo Thục ký, có lời xin cưới trong chiến dịch Hạ Bì; đoạn này không xác định chức hay phe",
+    "evidence": "EVD-B04-096",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志_(四庫全書本)/蜀志/卷06",
+    "sourceLabel": "Sử liệu theo bản ghi nghiên cứu · 三國志_(四庫全書本) 蜀志/卷06",
+    "basis": "| EVD-B04-096 | 15 | [Bùi chú] 三國志_(四庫全書本)/蜀志/卷06 關羽 引蜀記 https://zh.wikisource.org/wiki/三國志_(四庫全書本)/蜀志/卷06 | 乞娶其妻 | Thục ký kể Quan Vũ xin cưới vợ Tần Nghi Lộc trong chiến dịch Hạ Bì; Tào giữ người phụ nữ ấy; ghi rõ Bùi chú và không suy là nguyên nhân Quan Vũ rời Tào sau này. | Hạ Bì |"
   }
 ]

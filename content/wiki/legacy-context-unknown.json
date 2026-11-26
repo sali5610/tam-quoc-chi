@@ -21,11 +21,6 @@
   },
   {
     "personId": "dong-zhuo",
-    "episode": "ep-0002",
-    "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
-  },
-  {
-    "personId": "dong-zhuo",
     "episode": "ep-0007",
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
   },
@@ -87,11 +82,6 @@
   {
     "personId": "yuan-shao",
     "episode": "ep-0006",
-    "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
-  },
-  {
-    "personId": "yuan-shao",
-    "episode": "ep-0008",
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
   },
   {
@@ -161,11 +151,6 @@
   },
   {
     "personId": "liu-bei",
-    "episode": "ep-0010",
-    "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
-  },
-  {
-    "personId": "liu-bei",
     "episode": "ep-0012",
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
   },
@@ -236,11 +221,6 @@
   },
   {
     "personId": "yuan-shu",
-    "episode": "ep-0010",
-    "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
-  },
-  {
-    "personId": "yuan-shu",
     "episode": "ep-0014",
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
   },
@@ -287,11 +267,6 @@
   {
     "personId": "lu-bu",
     "episode": "ep-0004",
-    "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
-  },
-  {
-    "personId": "lu-bu",
-    "episode": "ep-0010",
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
   },
   {
@@ -465,11 +440,6 @@
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
   },
   {
-    "personId": "taishi-ci",
-    "episode": "ep-0018",
-    "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
-  },
-  {
     "personId": "wang-lang",
     "episode": "ep-0018",
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
@@ -506,11 +476,6 @@
   },
   {
     "personId": "guan-yu",
-    "episode": "ep-0015",
-    "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
-  },
-  {
-    "personId": "guan-yu",
     "episode": "ep-0018",
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
   },
@@ -522,11 +487,6 @@
   {
     "personId": "sun-quan",
     "episode": "ep-0005",
-    "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
-  },
-  {
-    "personId": "wu-jing",
-    "episode": "ep-0013",
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
   },
   {
