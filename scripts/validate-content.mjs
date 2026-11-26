@@ -76,11 +76,14 @@ for(const r of affiliations){if(!r.id||affiliationIds.has(r.id)||!peopleIds.has(
 for(const e of atlas.events){for(const [id,r] of Object.entries(e.roles)){if(!peopleIds.has(id)||!r.faction||!r.title||(!e.source&&!e.sources?.length))throw Error('Missing event faction evidence '+e.id+' '+id);affiliationPeople.add(id)}}
 for(const p of atlas.people)if(!affiliationPeople.has(p.id))throw Error('Missing Dynamic Wiki record '+p.id);
 const affectedRecords=new Set([...affiliations.map(r=>r.personId+'|'+r.episode),...atlas.events.flatMap(e=>Object.keys(e.roles).map(id=>id+'|'+e.episode))]);
-// B04 baseline has legacy contextual appearances without enough affiliation evidence. Freeze those exact pairs separately, not future episodes.
-const legacyUnknown=JSON.parse(fs.readFileSync('content/wiki/legacy-context-unknown.json','utf8'));
-const allowed=new Set(legacyUnknown.map(r=>r.personId+'|'+r.episode));
-for(const p of atlas.people){for(const ep of entities.references[p.name]?.episodes||[]){const key=p.id+'|'+ep;if(!affectedRecords.has(key)&&!allowed.has(key))throw Error('Missing new/affected Wiki context '+key+'; add sourced record or documented unknown with evidence');}}
-console.log('Validated DEC-UX-043 Dynamic Wiki records '+affiliations.length+' across '+affiliationPeople.size+' canonical profiles; legacy unknown pairs '+allowed.size);
+// Reference-only appearances are not historical role assertions; require exact reviewed text.
+const referenceContexts=JSON.parse(fs.readFileSync('content/wiki/context-references.json','utf8'));
+const referenceKeys=new Set();
+const referenceKinds=new Set(['recap','preview','literary','context','disambiguation']);
+for(const r of referenceContexts){const p=atlas.people.find(p=>p.id===r.personId),ep=visualEpisodes.find(e=>e.id===r.episode),key=r.personId+'|'+r.episode;if(!p||!ep||r.source!==ep.source||!referenceKinds.has(r.kind)||!r.reason?.trim()||r.id!=='WIK-REF-'+r.personId+'-'+r.episode||referenceKeys.has(key)||affectedRecords.has(key)||!entities.references[p.name]?.episodes.includes(r.episode)||!r.anchor?.includes(p.name)||!fs.readFileSync(ep.source,'utf8').split(/^---\s*$/m)[0].replaceAll('**','').includes(r.anchor))throw Error('Invalid Wiki reference-only context '+key);referenceKeys.add(key);}
+if(JSON.parse(fs.readFileSync('content/wiki/legacy-context-unknown.json','utf8')).length)throw Error('Legacy Wiki context exceptions are no longer allowed');
+for(const p of atlas.people){for(const ep of entities.references[p.name]?.episodes||[]){const key=p.id+'|'+ep;if(!affectedRecords.has(key)&&!referenceKeys.has(key))throw Error('Missing Wiki context '+key+'; add evidence-backed role or reviewed reference-only disposition');}}
+console.log('Validated Dynamic Wiki '+affiliations.length+' records across '+affiliationPeople.size+' canonical profiles; '+referenceKeys.size+' reviewed reference-only pairs; zero legacy exceptions');
 
 const sceneGates=JSON.parse(fs.readFileSync('content/wiki/scene-gates.json','utf8'));const sceneVisuals=JSON.parse(fs.readFileSync('content/episode-visuals.json','utf8'));for(const [id,g] of Object.entries(sceneGates)){const ev=eventIds.get(id);const ep=visualEpisodes.find(e=>e.id===g.episode);if(!ev||ev.episode!==g.episode||!ep)throw Error('Invalid Wiki spoiler event '+id);const story=fs.readFileSync(ep.source,'utf8').split(/^---\s*$/m)[0];if(g.kind==='paragraph'){if(g.source!==ev.source||JSON.stringify(g.evidenceIds)!==JSON.stringify(ev.evidenceIds||[])||story.replaceAll('**','').split(g.anchor).length!==2)throw Error('Invalid/ambiguous paragraph reveal anchor '+id)}else{const v=sceneVisuals.find(x=>x.id===g.visualId);if(!v||v.episode!==g.episode||v.anchor!==g.anchor||!story.includes(g.anchor))throw Error('Invalid Wiki visual spoiler anchor '+id)}}if(atlas.events.some(e=>!sceneGates[e.id]))throw Error('Missing event reveal anchor');console.log('Validated '+Object.keys(sceneGates).length+' safe event reveal anchors');
 
