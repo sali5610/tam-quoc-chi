@@ -93,12 +93,16 @@ for(const engine of [chromium,webkit]){
     const inline=await nav.locator('.story-content button.inline-person').allTextContents();
     check(expectedPeople.every(name=>inline.includes(name)),'Missing inline Wiki link '+ep+' '+expectedPeople.filter(name=>!inline.includes(name)).join(','));
     await context.locator('.context-people summary').click();
-    const contextNames=await context.locator('.context-people button').allTextContents();
+    const roster=context.locator('.context-people > div > button');const restrictedNames=await roster.allTextContents();check(restrictedNames.every(name=>expectedPeople.includes(name)),'Restricted Reader Wiki membership '+ep);
+    await context.getByRole('button',{name:'Xem nhân vật cả tập (có thể tiết lộ diễn biến)',exact:true}).click();
+    const contextNames=await roster.allTextContents();
     check(contextNames.length===expectedPeople.length&&expectedPeople.every(name=>contextNames.includes(name)),'Reader Wiki membership '+ep);
     await context.locator('.context-people').getByRole('button',{name:'Tào Tháo',exact:true}).click();
     const profile=nav.getByRole('dialog',{name:'Tào Tháo',exact:true});await profile.waitFor();
     check(await profile.locator('.person-related a[href="#/read/'+ep+'"]').count()===1,'Missing return backlink '+ep);
     await profile.getByRole('button',{name:'Đóng'}).click();
+    await context.getByRole('button',{name:'Chỉ xem cảnh đã đọc',exact:true}).click();
+    check(JSON.stringify(await roster.allTextContents())===JSON.stringify(restrictedNames),'Reader roster restrict again '+ep);
     await context.locator('.context-people summary').click();
 
     await context.locator('.scene-strip button').nth(1).click();await context.waitFor({state:'detached'});
