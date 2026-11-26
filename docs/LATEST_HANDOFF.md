@@ -1,3 +1,12 @@
+# Navigation & IA / 05 — final candidate frozen; exact regression pending (2026-11-27)
+
+- Candidate 26f1560e38efb3212393b31de3ebed518b169894, [CI 45875696117](https://github.com/sali5610/tam-quoc-chi/actions/runs/45875696117) IN_PROGRESS at recheck, job 140102080876. Build and Atlas structural validation SUCCESS. No full regression PASS yet unless exact CI completes SUCCESS; do not start another run or change app while this candidate remains valid.
+- Compared candidate with previous fully green 01be938: only Chronicle.yearSpan and atlas-time.eventLabel regex fixes, two strengthened browser test scripts and handoff. Compared current branch head 9f648c1ac9a1a3e496057d4f4628e90d8c947fce with candidate: docs/LATEST_HANDOFF.md only. Independently applied exact revised regex to actual manifest: all 13 hierarchy groups (1 era, 4 arcs, 8 chapters) now resolve year spans; era 168–200, arcs 168–189, 190–192, 192–195, 195–200. All six interval events now resolve explicit display-group label, including 195–196+ not asserted exact. Static logic PASS, not browser or manual visual PASS for this SHA.
+- Confirmed unresolved historical coverage counts directly from branch JSON: 186 person/episode appearance pairs affecting 67 canonical people, 21/59 events without safe reveal anchor. Unknown/withheld behavior is intentional and validated on prior green candidate; independent full claim/chronology verification and wider spoiler audit remain incomplete. Explicit PO acceptance required for any residual scope; not historical completeness. Physical device acceptance and fresh production NOT TESTED.
+- No further code changes this turn. Main remains 59be7599e6cbd07ba96f1fa679f56b1395b93b6c; no merge/deploy/PO release authorization. Next: check this exact CI once complete, review updated date label screenshots and present release decision. Reuse prior unaffected PASS. No B05 or Chat06 deployment without explicit authorization.
+
+---
+
 # Navigation & IA / 05 — full technical regression PASS on 01be938; date-label fix pending retest (2026-11-27)
 
 - Exact CI 45846856843 on 01be9381ab1c17b6297fe9ed37cb25e2c4b35a83 SUCCESS, job 140002669177. Verified all steps and log lines: 126 supplemental records, 121 canonical profiles, 97 explicit event role classifications, 38 reveal anchors, 186 legacy unknown pairs; full prior regression, distinct same-episode Reader history entries 4/4, 100/200 scale 8/8, Motion/Collage 4/4, visual capture 10/10. Four previous evidence corrections are in this exact tested candidate. Second consecutive full green CI.
