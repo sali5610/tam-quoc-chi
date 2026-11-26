@@ -85,6 +85,10 @@ jobs:
           server_pid=$!
           trap 'kill "$server_pid" 2>/dev/null || true' EXIT
           curl --fail --silent --show-error --retry 5 --retry-connrefused --retry-delay 1 --max-time 5 http://localhost:4173/tam-quoc-chi/ >/dev/null
+          node scripts/navigation-ia-smoke.mjs
+          node scripts/atlas-ia-smoke.mjs
+          node scripts/wiki-ia-smoke.mjs
+          node scripts/ia-scale-smoke.mjs
           node scripts/browser-smoke.mjs
           node scripts/batch-03-atlas-smoke.mjs
           mkdir -p qa-v6
@@ -212,7 +216,7 @@ jobs:
                     if(await quoteSheet.locator('.character-quotes').count())throw Error('Empty quote section');
                     await quoteSheet.getByRole('button',{name:'Đóng'}).click();
                     console.log('PASS combined Wiki quotes, provenance, disclosure, radar switch and empty state');
-                    const wikiCards=page.locator('.people-grid button');
+                    while(await page.locator('.wiki-more').count())await page.locator('.wiki-more').click();const wikiCards=page.locator('.people-grid button');
                     const wikiCount=await wikiCards.count();
                     if(wikiCount!==121)throw Error('Missing Wiki profiles');
                     let snapshotCount=0;
@@ -239,7 +243,7 @@ jobs:
                   }
                   if(route.startsWith('/atlas')){
                     await page.locator('.leaflet-container').waitFor();await page.locator('.atlas-person-marker').first().waitFor();
-                    if(route==='/atlas/184'){await page.locator('.atlas-anchor a').filter({hasText:'189'}).click();await page.locator('section[data-atlas-year="189"] .strategy-board').waitFor();}
+                    if(route==='/atlas/184'){await page.locator('#atlas-pilot-year').selectOption('189');await page.locator('section[data-atlas-year="189"] .strategy-board').waitFor();}
                   }
                   if(!await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1))throw Error('Live overflow '+width+' '+route);
                 }
