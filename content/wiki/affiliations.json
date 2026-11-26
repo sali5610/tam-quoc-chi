@@ -1535,5 +1535,406 @@
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷52",
     "sourceLabel": "Sử liệu trong evidence registry",
     "basis": "| EVD-B04-067 | 18 | [Chính sử] 三國志卷52 張昭 https://zh.wikisource.org/wiki/三國志/卷52 | 昭率群僚立而輔之 | Chiêu tập hợp quan lại phụ tá Quyền, báo Hán đình và các thành thuộc quyền, thúc Quyền ra tiếp quản. | Ngô |"
+  },
+  {
+    "id": "WIK-he-jin-0019-han",
+    "personId": "he-jin",
+    "year": 184,
+    "episode": "ep-0002",
+    "faction": "han",
+    "categories": [
+      "Võ tướng",
+      "Ngoại thích"
+    ],
+    "title": "Đại tướng quân",
+    "evidence": "EVD-0019",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷69",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-0019 | He Jin made general when Yellow Turbans rose | 中平元年，黃巾賊張角等起，以進為大將軍 | SRC-0003, biography base | 2 | Digital checked |"
+  },
+  {
+    "id": "WIK-yuan-shao-0027-han",
+    "personId": "yuan-shao",
+    "year": 189,
+    "episode": "ep-0003",
+    "faction": "han",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Cùng Hà Tiến bàn trừ hoạn quan",
+    "evidence": "EVD-0027",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-0027 | Yuan Shao participates in He Jin's anti-eunuch plan | 靈帝崩，太后兄大將軍何進與紹謀誅諸閹官 | SRC-0012, 袁紹 biography, base text | Online inspected |"
+  },
+  {
+    "id": "WIK-zhang-jue-0032-yellow",
+    "personId": "zhang-jue",
+    "year": 184,
+    "episode": "ep-0002",
+    "faction": "yellow",
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Tôn giáo"
+    ],
+    "title": "Tổ chức lực lượng Khăn Vàng, Thái Bình đạo",
+    "evidence": "EVD-0032",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷71",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-0032 | Zhang Jiao's movement described as organized into thirty-six 方 | 遂置三十六方 | SRC-0002, 皇甫嵩 | Source-reported organization; numbers are not independently measured |"
+  },
+  {
+    "id": "WIK-shisun-rui-B03-080-han",
+    "personId": "shisun-rui",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "han",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Vệ úy, trong cuộc chạy loạn",
+    "evidence": "EVD-B03-080",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-080|[Sử liệu khác] 資治通鑑卷061 興平二年 11, same URL — 衛尉士孫瑞為傕所殺; parallel 後漢書卷9 https://zh.wikisource.org/wiki/後漢書/卷9|Shi Sun Rui's recorded office and death in court flight; different chronological grouping; no exact death site/day. Reuse shisun-rui.|"
+  },
+  {
+    "id": "WIK-jia-xu-B03-079-unknown",
+    "personId": "jia-xu",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "unknown",
+    "categories": [
+      "Mưu sĩ"
+    ],
+    "title": "Thuyết phục các lực lượng, can thiệp cho quan lại theo yêu cầu vua",
+    "evidence": "EVD-B03-079",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-079|[Sử liệu khác] 資治通鑑卷061 興平二年 8,11, https://zh.wikisource.org/wiki/資治通鑑/卷061 — 宣義將軍賈詡；許以封賞；此皆大臣|Jia Xu acts on emperor's request, persuades armed groups to depart and protects detained officials. No sole authorship of peace. 195 capital and court flight.|"
+  },
+  {
+    "id": "WIK-cao-hong-B03-081-caocao",
+    "personId": "cao-hong",
+    "year": 194,
+    "episode": "ep-0008",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Hỗ trợ quân Tào và tập hợp lương thực",
+    "evidence": "EVD-B03-081",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷09",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-081|[Chính sử] 三國志卷09 曹洪傳, https://zh.wikisource.org/wiki/三國志/卷09 — 洪將兵在前；聚糧穀以繼軍|Cao Hong supports Cao in Yan crisis and obtains grain; distinguish from later command in other campaigns. Source text to use for 194 stage; region only.|"
+  },
+  {
+    "id": "WIK-mao-jie-B03-058-caocao",
+    "personId": "mao-jie",
+    "year": null,
+    "episode": "ep-0007",
+    "faction": "caocao",
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "192–193 · trị trung tòng sự, khuyên Tào",
+    "evidence": "EVD-B03-058",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷12",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "- **EVD-B03-058 — [Chính sử]** 《三國志》卷12 毛玠傳, https://zh.wikisource.org/wiki/三國志/卷12 : 「太祖臨兗州，辟爲治中從事」; 「宜奉天子以令不臣，脩耕植，畜軍資」. Mao Giới được vời làm trị trung tòng sự, khuyên tôn thiên tử, sửa việc cày cấy, tích quân lương; là lời khuyên, không phải chứng cứ đã thực thi đồn điền 192–195."
+  },
+  {
+    "id": "WIK-cao-song-B03-061-han",
+    "personId": "cao-song",
+    "year": null,
+    "episode": "ep-0008",
+    "faction": "han",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Cuối thời Linh Đế · làm Thái úy, không rõ năm",
+    "evidence": "EVD-B03-061",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷78",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-061|[Sử liệu khác] 後漢書卷78 曹騰傳, https://zh.wikisource.org/wiki/後漢書/卷78 — 貨賂中官；故位至太尉|Cao Song adopted by Cao Teng, inherited family status; Fan Ye records paying palace officials and treasury to obtain high office under Lingdi. Exact amount is the source's account, not audited wealth. Late Lingdi reign, capital context.|"
+  },
+  {
+    "id": "WIK-que-xuan-B03-063-que-xuan",
+    "personId": "que-xuan",
+    "year": 193,
+    "episode": "ep-0007",
+    "faction": "que-xuan",
+    "categories": [
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Tự xưng thiên tử; hợp tác rồi bị Đào Khiêm giết",
+    "evidence": "EVD-B03-063",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷08",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-063|[Chính sử] 三國志卷08 陶謙傳, https://zh.wikisource.org/wiki/三國志/卷08 — 謙初與合從寇鈔；後遂殺宣|Tao initially joins Que Xuan then kills him and absorbs followers. This qualifies prior conflict note 013: both phases attested in Chen Shou's biography; retain source-specific chronology. 193, Xiapi regional context.|"
+  },
+  {
+    "id": "WIK-zhang-yan-B03-066-heishan",
+    "personId": "zhang-yan",
+    "year": null,
+    "episode": "ep-0007",
+    "faction": "heishan",
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "192–193 · lực lượng Hắc Sơn",
+    "evidence": "EVD-B03-066",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷08",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "|EVD-B03-066|[Chính sử] 三國志卷08 張燕傳, same URL — 拜燕平難中郎將；燕遣將杜長等助瓚|Zhang Yan commanded Black Mountain forces, obtained Han appointment earlier, supported Gongsun against Yuan; source reports setbacks and dispersal. 192–193 period; do not date all events precisely. Changshan region.|"
+  },
+  {
+    "id": "WIK-guo-gong-B03-068-unknown",
+    "personId": "guo-gong",
+    "year": 194,
+    "episode": "ep-0008",
+    "faction": "unknown",
+    "categories": [
+      "Quan văn",
+      "Võ tướng"
+    ],
+    "title": "Dự Châu thứ sử, đem quân tới Quyên Thành",
+    "evidence": "EVD-B03-068",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-068|[Sử liệu khác] 資治通鑑卷061 興平元年 6, https://zh.wikisource.org/wiki/資治通鑑/卷061 — 豫州剌史郭貢；遂引兵去|Guo Gong leads army, meets Xun and withdraws; label title as source-reported, not central recognition of entire Yu. 194 Juancheng.|"
+  },
+  {
+    "id": "WIK-jin-yun-B03-069-caocao",
+    "personId": "jin-yun",
+    "year": 194,
+    "episode": "ep-0008",
+    "faction": "caocao",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Huyện lệnh Phạm, giữ thành",
+    "evidence": "EVD-B03-069",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "|EVD-B03-069|[Sử liệu khác] 資治通鑑卷061 興平元年 6–7, same URL — 歸，勒兵自守；棗祗已率厲吏民拒城堅守|Jin Yun, magistrate of Fan, remains with Cao under pressure involving family; Xu Zhong's critical assessment is commentary. Zao Zhi, magistrate of Dong A, mobilizes officials and people to defend. 194, Fan/Dong A (region).|"
+  },
+  {
+    "id": "WIK-zao-zhi-B03-069-caocao",
+    "personId": "zao-zhi",
+    "year": 194,
+    "episode": "ep-0008",
+    "faction": "caocao",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Huyện lệnh Đông A, phòng thủ",
+    "evidence": "EVD-B03-069",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "|EVD-B03-069|[Sử liệu khác] 資治通鑑卷061 興平元年 6–7, same URL — 歸，勒兵自守；棗祗已率厲吏民拒城堅守|Jin Yun, magistrate of Fan, remains with Cao under pressure involving family; Xu Zhong's critical assessment is commentary. Zao Zhi, magistrate of Dong A, mobilizes officials and people to defend. 194, Fan/Dong A (region).|"
+  },
+  {
+    "id": "WIK-han-hao-B03-070-caocao",
+    "personId": "han-hao",
+    "year": 194,
+    "episode": "ep-0008",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Thuộc tướng, giải quyết biến cố con tin",
+    "evidence": "EVD-B03-070",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷09",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-070|[Chính sử] 三國志卷09 夏侯惇傳, https://zh.wikisource.org/wiki/三國志/卷09 — 韓浩乃勒兵屯惇營門；惇既免|Han Hao subordinate commander restores order and frees Xiahou Dun in 194; Cao adopts policy after incident. Earlier recruiting/military background in Bùi chú 魏書 under 韓浩; distinguish layers, later 護軍 not imported. Puyang campaign context.|"
+  },
+  {
+    "id": "WIK-ma-teng-B03-071-ma-teng",
+    "personId": "ma-teng",
+    "year": 194,
+    "episode": "ep-0009",
+    "faction": "ma-teng",
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Lực lượng miền tây",
+    "evidence": "EVD-B03-071",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷72",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-071|[Sử liệu khác] 後漢書卷72 董卓傳, https://zh.wikisource.org/wiki/後漢書/卷72 ; 通鑑卷061 興平元年 4, https://zh.wikisource.org/wiki/資治通鑑/卷061 — 遂、騰敗；以騰為安狄將軍，遂為安降將軍|Ma Teng and Han Sui opposed Li Jue in 194; defeated, later pardoned and received offices. Han first comes to mediate then joins Ma per Tongjian; political motives source-specific. Changpingguan region.|"
+  },
+  {
+    "id": "WIK-han-sui-B03-071-han-sui",
+    "personId": "han-sui",
+    "year": 194,
+    "episode": "ep-0009",
+    "faction": "han-sui",
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hòa giải rồi cùng Mã Đằng chống Lý Giác",
+    "evidence": "EVD-B03-071",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷72",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-071|[Sử liệu khác] 後漢書卷72 董卓傳, https://zh.wikisource.org/wiki/後漢書/卷72 ; 通鑑卷061 興平元年 4, https://zh.wikisource.org/wiki/資治通鑑/卷061 — 遂、騰敗；以騰為安狄將軍，遂為安降將軍|Ma Teng and Han Sui opposed Li Jue in 194; defeated, later pardoned and received offices. Han first comes to mediate then joins Ma per Tongjian; political motives source-specific. Changpingguan region.|"
+  },
+  {
+    "id": "WIK-qu-yi-B03-072-yuanshao",
+    "personId": "qu-yi",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "yuanshao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Chỉ huy quân Viên Thiệu",
+    "evidence": "EVD-B03-072",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-072|[Sử liệu khác] 後漢書卷9 孝獻帝紀 興平二年, https://zh.wikisource.org/wiki/後漢書/卷9 — 袁紹遣將麴義與公孫瓉戰於鮑丘|Qu Yi leads Yuan's forces in 195 victory; earlier battle at Jieqiao in SGZ8 Gongsun biography. Baoqiu river region.|"
+  },
+  {
+    "id": "WIK-guo-tu-B03-073-yuanshao",
+    "personId": "guo-tu",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "yuanshao",
+    "categories": [
+      "Mưu sĩ"
+    ],
+    "title": "Tranh luận đón thiên tử; dị bản",
+    "evidence": "EVD-B03-073",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-073|[Chính sử]/[Bùi chú] 三國志卷06 袁紹傳, https://zh.wikisource.org/wiki/三國志/卷06 — 圖還說紹迎天子都鄴 (base); 郭圖、淳于瓊曰 (commentary 引獻帝傳)|Important conflicting Guo Tu roles: base history has him recommending welcoming emperor after mission to Hedong; commentary and Tongjian 195 have him and Chunyu Qiong opposing Ju Shou. Do not score correctness by one version, do not force a precise date for base account. Earlier Chunyu Qiong was 西園右校尉 (SGZ8 張楊 Bùi chú 引靈帝紀). Ye court-advice context, not physical co-location with emperor.|"
+  },
+  {
+    "id": "WIK-chunyu-qiong-B03-073-yuanshao",
+    "personId": "chunyu-qiong",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "yuanshao",
+    "categories": [
+      "Võ tướng",
+      "Mưu sĩ"
+    ],
+    "title": "Cựu hiệu úy, tham gia tranh luận",
+    "evidence": "EVD-B03-073",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-073|[Chính sử]/[Bùi chú] 三國志卷06 袁紹傳, https://zh.wikisource.org/wiki/三國志/卷06 — 圖還說紹迎天子都鄴 (base); 郭圖、淳于瓊曰 (commentary 引獻帝傳)|Important conflicting Guo Tu roles: base history has him recommending welcoming emperor after mission to Hedong; commentary and Tongjian 195 have him and Chunyu Qiong opposing Ju Shou. Do not score correctness by one version, do not force a precise date for base account. Earlier Chunyu Qiong was 西園右校尉 (SGZ8 張楊 Bùi chú 引靈帝紀). Ye court-advice context, not physical co-location with emperor.|"
+  },
+  {
+    "id": "WIK-fu-shou-B03-074-han",
+    "personId": "fu-shou",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "han",
+    "categories": [
+      "Hoàng tộc"
+    ],
+    "title": "Hoàng hậu, đi cùng đoàn triều đình",
+    "evidence": "EVD-B03-074",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷10下",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-074|[Sử liệu khác] 後漢書卷10下 伏皇后紀, https://zh.wikisource.org/wiki/後漢書/卷10下 — 興平二年，立為皇后；六宮皆步行出營|Fu Shou became empress 195, escaped with emperor, court and household under threat; no sovereign authority or armed command. No 214 incident imported. Capital/Anyi journey.|"
+  },
+  {
+    "id": "WIK-yang-ding-B03-075-unknown",
+    "personId": "yang-ding",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "unknown",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Hộ tống thiên tử, chưa gán phe cố định",
+    "evidence": "EVD-B03-075",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-075|[Sử liệu khác] 資治通鑑卷061 興平元年 14 / 興平二年 8,11, https://zh.wikisource.org/wiki/資治通鑑/卷061 — 楊定為安西將軍；楊定為後將軍；單騎亡走荊州|Yang Ding elevated 194, 195 escorts emperor but attacks Duan Wei and later flees to Jingzhou. Separate from Yang Feng. Chang'an/Huayin approximate, flight no route geometry.|"
+  },
+  {
+    "id": "WIK-hu-cai-B03-076-baibo",
+    "personId": "hu-cai",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "baibo",
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Thủ lĩnh Bạch Ba, hỗ trợ thiên tử",
+    "evidence": "EVD-B03-076",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "|EVD-B03-076|[Sử liệu khác] 資治通鑑卷061 興平二年 11, same URL — 招故白波帥李樂、韓暹、胡才；右賢王去卑|Li Le, Han Xian, Hu Cai and Qubei bring forces for emperor's relief; later coalition defeated. HHS9 title 左賢王 differs; label Qubei's Xiongnu royal title without choosing side. Hongnong region.|"
+  },
+  {
+    "id": "WIK-li-le-B03-077-baibo",
+    "personId": "li-le",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "baibo",
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Thủ lĩnh Bạch Ba, lo vượt Hoàng Hà",
+    "evidence": "EVD-B03-077",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "|EVD-B03-077|[Sử liệu khác] 資治通鑑卷061 興平二年 11, same URL — 李樂衛乘輿；李樂夜渡，潛具船|Li Le escorts emperor, arranges boats after Yang Biao's objection to river plan. Han Xian/Hu Cai/Qubei cover the rear per source; no award of 196 offices here. Exact crossing unknown.|"
+  },
+  {
+    "id": "WIK-han-xian-B03-076-baibo",
+    "personId": "han-xian",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "baibo",
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Thủ lĩnh Bạch Ba, hộ giá",
+    "evidence": "EVD-B03-076",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "|EVD-B03-076|[Sử liệu khác] 資治通鑑卷061 興平二年 11, same URL — 招故白波帥李樂、韓暹、胡才；右賢王去卑|Li Le, Han Xian, Hu Cai and Qubei bring forces for emperor's relief; later coalition defeated. HHS9 title 左賢王 differs; label Qubei's Xiongnu royal title without choosing side. Hongnong region.|"
+  },
+  {
+    "id": "WIK-qubei-B03-076-xiongnu",
+    "personId": "qubei",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "xiongnu",
+    "categories": [
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Vương Hung Nô, hỗ trợ thiên tử",
+    "evidence": "EVD-B03-076",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "|EVD-B03-076|[Sử liệu khác] 資治通鑑卷061 興平二年 11, same URL — 招故白波帥李樂、韓暹、胡才；右賢王去卑|Li Le, Han Xian, Hu Cai and Qubei bring forces for emperor's relief; later coalition defeated. HHS9 title 左賢王 differs; label Qubei's Xiongnu royal title without choosing side. Hongnong region.|"
+  },
+  {
+    "id": "WIK-duan-wei-B03-084-unknown",
+    "personId": "duan-wei",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "unknown",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Ninh Tập tướng quân, cung cấp lương",
+    "evidence": "EVD-B03-084",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "|EVD-B03-084|[Sử liệu khác] 資治通鑑卷061 興平二年 11, https://zh.wikisource.org/wiki/資治通鑑/卷061 — 寧輯將軍段煨；煨供給御膳，稟贍百官|Duan Wei supplies court and withstands attack from escort commanders, no guilt established; important contrasting actor if court thread includes Huayin. 195, Huayin region.|"
   }
 ]

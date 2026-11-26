@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState} from 'react';import {scopeEpisodes,personRecords,type WikiScope} from './wiki-data';
 import snapshots from '../content/wiki/character-metrics.json';
 import pilot from '../content/atlas/pilot.json';
 const axes=[['strategy','Mưu lược'],['military','Quân sự'],['leadership','Lãnh đạo'],['politics','Chính trị'],['power','Quyền lực'],['legitimacy','Chính danh']] as const;
@@ -7,9 +7,9 @@ type Rating={level:number;evidence:string;reason:string;confidence?:'low'};
 const levels=['','Hạn chế','Bước đầu','Có thực lực','Nổi bật','Rất cao'];
 const pt=(i:number,r:number)=>[170+Math.sin(i*Math.PI/3)*r,150-Math.cos(i*Math.PI/3)*r];
 const points=(r:number)=>axes.map((_,i)=>pt(i,r).join(',')).join(' ');
-export function CharacterRadar({name,close}:{name:string;close:()=>void}){
+export function CharacterRadar({name,close,scope}:{name:string;close:()=>void;scope?:WikiScope}){
  const id=pilot.people.find(p=>p.name===name)?.id;
- const timeline=snapshots.filter(s=>s.personId===id);
+ const allowed=scope?scopeEpisodes(scope).map(e=>e.id):[];const timeline=snapshots.filter(s=>s.personId===id&&(!scope||allowed.includes(s.episodeId)&&(!scope.year||s.year===+scope.year)&&(!scope.event||personRecords(id||'',scope).some(r=>r.episode===s.episodeId&&r.year===s.year))));
  const [index,setIndex]=useState(0);
  const snap=timeline[Math.min(index,timeline.length-1)];
  if(!snap)return null;

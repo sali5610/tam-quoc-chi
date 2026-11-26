@@ -54,7 +54,7 @@ try {
     const base='http://localhost:4173/tam-quoc-chi/';
     await page.goto(base+'#/people');
     await page.locator('.people-grid button').first().waitFor();
-    const cards=page.locator('.people-grid .portrait-frame');
+    while(await page.locator('.wiki-more').count())await page.locator('.wiki-more').click();const cards=page.locator('.people-grid .portrait-frame');
     if(await cards.count()!==121)throw Error('Unexpected person library count');
     const images=page.locator('.people-grid img.historical-portrait');
     if(await images.count()!==8||await page.locator('.people-grid .portrait-placeholder').count()!==113)throw Error('Unexpected portrait/fallback counts');
