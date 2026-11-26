@@ -1,0 +1,940 @@
+{
+  "court-168:lingdi": {
+    "categories": [
+      "Hoàng tộc",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hoàng đế",
+    "faction": "han",
+    "episode": "ep-0001",
+    "year": 168
+  },
+  "changshe-184:huangfu-song": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Chủ tướng",
+    "faction": "han",
+    "episode": "ep-0002",
+    "year": 184
+  },
+  "changshe-184:zhu-jun": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Chủ tướng",
+    "faction": "han",
+    "episode": "ep-0002",
+    "year": 184
+  },
+  "capital-189:dong-zhuo": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Quyền thần",
+    "faction": "dong",
+    "episode": "ep-0003",
+    "year": 189
+  },
+  "capital-189:xiandi": {
+    "categories": [
+      "Hoàng tộc",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hoàng đế",
+    "faction": "han",
+    "episode": "ep-0003",
+    "year": 189
+  },
+  "luoyang-190:dong-zhuo": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Quyền thần",
+    "faction": "dong",
+    "episode": "ep-0004",
+    "year": 190
+  },
+  "luoyang-191:sun-jian": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Phá Lỗ tướng quân (hành)",
+    "faction": "yuan-shu",
+    "episode": "ep-0005",
+    "year": 191
+  },
+  "changan-192:wang-yun": {
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Tư đồ",
+    "faction": "han",
+    "episode": "ep-0006",
+    "year": 192
+  },
+  "changan-192:lu-bu": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Trung lang tướng (trước biến cố)",
+    "faction": "dong",
+    "episode": "ep-0006",
+    "year": 192
+  },
+  "yan-invitation-192:cao-cao": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Duyện Châu mục theo lời mời địa phương (trước tháng 10/195)",
+    "faction": "caocao",
+    "episode": "ep-0007",
+    "year": 192
+  },
+  "yan-invitation-192:bao-xin": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Tế Bắc tướng",
+    "faction": "caocao",
+    "episode": "ep-0007",
+    "year": 192
+  },
+  "qingzhou-surrender-192:cao-cao": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Duyện Châu mục theo lời mời địa phương (trước tháng 10/195)",
+    "faction": "caocao",
+    "episode": "ep-0007",
+    "year": 192
+  },
+  "fengqiu-193:cao-cao": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Duyện Châu mục theo lời mời địa phương (trước tháng 10/195)",
+    "faction": "caocao",
+    "episode": "ep-0007",
+    "year": 193
+  },
+  "fengqiu-193:yuan-shu": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Thủ lĩnh thế lực Viên Thuật",
+    "faction": "yuan-shu",
+    "episode": "ep-0007",
+    "year": 193
+  },
+  "you-conflict-193:liu-yu": {
+    "categories": [
+      "Quan văn",
+      "Hoàng tộc"
+    ],
+    "title": "U Châu mục",
+    "faction": "han",
+    "episode": "ep-0007",
+    "year": 193
+  },
+  "you-conflict-193:gongsun-zan": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Tướng có lực lượng riêng ở miền bắc",
+    "faction": "gongsun-zan",
+    "episode": "ep-0007",
+    "year": 193
+  },
+  "xu-campaign-193:cao-cao": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Duyện Châu mục theo lời mời địa phương (trước tháng 10/195)",
+    "faction": "caocao",
+    "episode": "ep-0008",
+    "year": 193
+  },
+  "xu-campaign-193:tao-qian": {
+    "categories": [
+      "Quan văn",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Từ Châu mục",
+    "faction": "tao-qian",
+    "episode": "ep-0008",
+    "year": 193
+  },
+  "xu-relief-194:liu-bei": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Dự Châu thứ sử được tiến cử",
+    "faction": "liubei",
+    "episode": "ep-0008",
+    "year": 194
+  },
+  "yan-rebellion-194:lu-bu": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Duyện Châu mục theo lời mời phe nổi dậy (194–195)",
+    "faction": "lu-bu",
+    "episode": "ep-0008",
+    "year": 194
+  },
+  "three-holdings-194:xun-yu": {
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Tư mã / phụ tá phe Tào",
+    "faction": "caocao",
+    "episode": "ep-0008",
+    "year": 194
+  },
+  "xu-succession-194:liu-bei": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Nhận việc cai quản Từ Châu sau khi được địa phương đón",
+    "faction": "liubei",
+    "episode": "ep-0008",
+    "year": 194
+  },
+  "xu-succession-194:mi-zhu": {
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Biệt giá tòng sự Từ Châu",
+    "faction": "tao-qian",
+    "episode": "ep-0008",
+    "year": 194
+  },
+  "puyang-contest-194:cao-cao": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Duyện Châu mục theo lời mời địa phương (trước tháng 10/195)",
+    "faction": "caocao",
+    "episode": "ep-0009",
+    "year": 194
+  },
+  "puyang-contest-194:lu-bu": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Duyện Châu mục theo lời mời phe nổi dậy (194–195)",
+    "faction": "lu-bu",
+    "episode": "ep-0009",
+    "year": 194
+  },
+  "puyang-contest-194:dian-wei": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Thuộc tướng, được bổ đô úy sau Bộc Dương",
+    "faction": "caocao",
+    "episode": "ep-0009",
+    "year": 194
+  },
+  "capital-famine-194:xiandi": {
+    "categories": [
+      "Hoàng tộc",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hoàng đế",
+    "faction": "han",
+    "episode": "ep-0009",
+    "year": 194
+  },
+  "dingtao-recovery-195:cao-cao": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Duyện Châu mục theo lời mời địa phương (trước tháng 10/195)",
+    "faction": "caocao",
+    "episode": "ep-0009",
+    "year": 195
+  },
+  "dingtao-recovery-195:lu-bu": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Thất thế tại Duyện Châu, sau nương Lưu Bị",
+    "faction": "lu-bu",
+    "episode": "ep-0009",
+    "year": 195
+  },
+  "court-detained-195:li-jue": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Tướng nắm triều đình, tự nhận Đại tư mã tháng 5/195",
+    "faction": "li-jue",
+    "episode": "ep-0009",
+    "year": 195
+  },
+  "court-detained-195:guo-si": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hậu tướng quân theo chức năm 192; tướng nắm quân năm 195",
+    "faction": "guo-si",
+    "episode": "ep-0009",
+    "year": 195
+  },
+  "court-detained-195:xiandi": {
+    "categories": [
+      "Hoàng tộc",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hoàng đế",
+    "faction": "han",
+    "episode": "ep-0009",
+    "year": 195
+  },
+  "court-detained-195:yang-biao": {
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Thái úy",
+    "faction": "han",
+    "episode": "ep-0009",
+    "year": 195
+  },
+  "court-departure-195:xiandi": {
+    "categories": [
+      "Hoàng tộc",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hoàng đế",
+    "faction": "han",
+    "episode": "ep-0009",
+    "year": 195
+  },
+  "court-retreat-195:xiandi": {
+    "categories": [
+      "Hoàng tộc",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hoàng đế",
+    "faction": "han",
+    "episode": "ep-0009",
+    "year": 195
+  },
+  "court-retreat-195:zhang-yang": {
+    "categories": [
+      "Võ tướng",
+      "Quan văn",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hà Nội thái thú, được trao An Quốc tướng quân khi đến An Ấp",
+    "faction": "zhang-yang",
+    "episode": "ep-0009",
+    "year": 195
+  },
+  "yongqiu-195:zhang-chao": {
+    "categories": [
+      "Quan văn",
+      "Võ tướng"
+    ],
+    "title": "Cựu Quảng Lăng thái thú",
+    "faction": "zhang-miao",
+    "episode": "ep-0009",
+    "year": 195
+  },
+  "sun-ce-liyang-195:sun-ce": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Chiết Xung hiệu úy, tạm đảm nhiệm 行殄寇將軍",
+    "faction": "sun-ce",
+    "episode": "ep-0009",
+    "year": 195
+  },
+  "sun-ce-liyang-195:zhou-yu": {
+    "categories": [
+      "Chưa xác định"
+    ],
+    "title": "Người hỗ trợ Tôn Sách, chưa gán chức về sau",
+    "faction": "sun-ce",
+    "episode": "ep-0009",
+    "year": 195
+  },
+  "b04-ev-10-01:xiandi": {
+    "categories": [
+      "Hoàng tộc",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hoàng đế",
+    "faction": "han",
+    "episode": "ep-0010",
+    "year": 196
+  },
+  "b04-ev-10-02:xiandi": {
+    "categories": [
+      "Hoàng tộc",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hoàng đế",
+    "faction": "han",
+    "episode": "ep-0010",
+    "year": 196
+  },
+  "b04-ev-10-02:cao-cao": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng",
+      "Quan văn"
+    ],
+    "title": "Được tiết việt, Lục thượng thư sự",
+    "faction": "caocao",
+    "episode": "ep-0010",
+    "year": 196
+  },
+  "b04-ev-11-01:lu-bu": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Chủ lực chiếm Hạ Bì",
+    "faction": "lu-bu",
+    "episode": "ep-0011",
+    "year": 196
+  },
+  "b04-ev-11-01:zhang-fei": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Thuộc tướng giữ hậu phương",
+    "faction": "liubei",
+    "episode": "ep-0011",
+    "year": 196
+  },
+  "b04-ev-11-01:cao-bao": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Tướng giữ thành, liên kết đổi",
+    "faction": "liubei",
+    "episode": "ep-0011",
+    "year": 196
+  },
+  "b04-ev-11-02:liu-bei": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Trấn Đông tướng quân (bổ nhiệm trong năm)",
+    "faction": "liubei",
+    "episode": "ep-0011",
+    "year": 196
+  },
+  "b04-ev-11-03:lu-bu": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Chủ lực Hạ Bì",
+    "faction": "lu-bu",
+    "episode": "ep-0011",
+    "year": 196
+  },
+  "b04-ev-11-03:liu-bei": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Trấn Đông tướng quân",
+    "faction": "liubei",
+    "episode": "ep-0011",
+    "year": 196
+  },
+  "b04-ev-11-03:ji-ling": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Tướng Viên Thuật",
+    "faction": "yuan-shu",
+    "episode": "ep-0011",
+    "year": 196
+  },
+  "b04-ev-11-04:lu-bu": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Chủ lực Hạ Bì",
+    "faction": "lu-bu",
+    "episode": "ep-0011",
+    "year": 196
+  },
+  "b04-ev-11-04:hao-meng": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Tướng có quân riêng, nổi dậy",
+    "faction": "lu-bu",
+    "episode": "ep-0011",
+    "year": 196
+  },
+  "b04-ev-11-04:gao-shun": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Thuộc tướng",
+    "faction": "lu-bu",
+    "episode": "ep-0011",
+    "year": 196
+  },
+  "b04-ev-11-04:cao-xing": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Thuộc tướng, sau được giao quân Hác",
+    "faction": "lu-bu",
+    "episode": "ep-0011",
+    "year": 196
+  },
+  "b04-ev-12-01:sun-ce": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Tạm hành Điện khấu tướng quân",
+    "faction": "sun-ce",
+    "episode": "ep-0012",
+    "year": 196
+  },
+  "b04-ev-12-01:zhou-yu": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Mang quân hỗ trợ",
+    "faction": "sun-ce",
+    "episode": "ep-0012",
+    "year": 196
+  },
+  "b04-ev-12-03:sun-ce": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Quan văn"
+    ],
+    "title": "Tự lĩnh Cối Kê thái thú",
+    "faction": "sun-ce",
+    "episode": "ep-0012",
+    "year": 196
+  },
+  "b04-ev-12-03:wang-lang": {
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Cối Kê thái thú do Hán bổ",
+    "faction": "han",
+    "episode": "ep-0012",
+    "year": 196
+  },
+  "b04-ev-13-01:yuan-shu": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Tự xưng đế, không phải chức Hán",
+    "faction": "yuan-shu",
+    "episode": "ep-0013",
+    "year": 197
+  },
+  "b04-ev-13-03:lu-bu": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Tả tướng quân (triều đình công nhận trong diễn biến)",
+    "faction": "lu-bu",
+    "episode": "ep-0013",
+    "year": 197
+  },
+  "b04-ev-14-02:cao-cao": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng",
+      "Quan văn"
+    ],
+    "title": "Tư không, hành Xa kỵ tướng quân",
+    "faction": "caocao",
+    "episode": "ep-0014",
+    "year": 197
+  },
+  "b04-ev-14-02:zhang-xiu": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Chủ quân Nam Dương",
+    "faction": "zhang-xiu",
+    "episode": "ep-0014",
+    "year": 197
+  },
+  "b04-ev-14-03:cao-cao": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng",
+      "Quan văn"
+    ],
+    "title": "Tư không, hành Xa kỵ tướng quân",
+    "faction": "caocao",
+    "episode": "ep-0014",
+    "year": 197
+  },
+  "b04-ev-14-03:cao-ang": {
+    "categories": [
+      "Khác"
+    ],
+    "title": "Hiếu liêm, theo cha nam chinh",
+    "faction": "caocao",
+    "episode": "ep-0014",
+    "year": 197
+  },
+  "b04-ev-14-03:dian-wei": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Cận vệ chỉ huy thuộc hạ",
+    "faction": "caocao",
+    "episode": "ep-0014",
+    "year": 197
+  },
+  "b04-ev-14-05:cao-cao": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng",
+      "Quan văn"
+    ],
+    "title": "Tư không, hành Xa kỵ tướng quân",
+    "faction": "caocao",
+    "episode": "ep-0014",
+    "year": 198
+  },
+  "b04-ev-14-05:zhang-xiu": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Chủ quân Nam Dương",
+    "faction": "zhang-xiu",
+    "episode": "ep-0014",
+    "year": 198
+  },
+  "b04-ev-15-01:gao-shun": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Tướng đánh Lưu Bị",
+    "faction": "lu-bu",
+    "episode": "ep-0015",
+    "year": 198
+  },
+  "b04-ev-15-01:liu-bei": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Chủ lực Tiểu Bái",
+    "faction": "liubei",
+    "episode": "ep-0015",
+    "year": 198
+  },
+  "b04-ev-15-02:cao-cao": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng",
+      "Quan văn"
+    ],
+    "title": "Tư không, hành Xa kỵ tướng quân",
+    "faction": "caocao",
+    "episode": "ep-0015",
+    "year": 198
+  },
+  "b04-ev-15-03:cao-cao": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng",
+      "Quan văn"
+    ],
+    "title": "Tư không, hành Xa kỵ tướng quân",
+    "faction": "caocao",
+    "episode": "ep-0015",
+    "year": 198
+  },
+  "b04-ev-15-03:lu-bu": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Tả tướng quân, đang bị vây",
+    "faction": "lu-bu",
+    "episode": "ep-0015",
+    "year": 198
+  },
+  "b04-ev-15-03:hou-cheng": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Thuộc tướng",
+    "faction": "lu-bu",
+    "episode": "ep-0015",
+    "year": 198
+  },
+  "b04-ev-15-03:wei-xu": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Thuộc tướng",
+    "faction": "lu-bu",
+    "episode": "ep-0015",
+    "year": 198
+  },
+  "b04-ev-15-04:lu-bu": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Tả tướng quân trước khi bị xử tử",
+    "faction": "lu-bu",
+    "episode": "ep-0015",
+    "year": 198
+  },
+  "b04-ev-15-04:chen-gong": {
+    "categories": [
+      "Mưu sĩ"
+    ],
+    "title": "Mưu sĩ bị bắt",
+    "faction": "lu-bu",
+    "episode": "ep-0015",
+    "year": 198
+  },
+  "b04-ev-15-04:gao-shun": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Thuộc tướng bị bắt",
+    "faction": "lu-bu",
+    "episode": "ep-0015",
+    "year": 198
+  },
+  "b04-ev-15-04:zhang-liao": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Sau khi hàng: Trung lang tướng, Quan nội hầu",
+    "faction": "caocao",
+    "episode": "ep-0015",
+    "year": 198
+  },
+  "b04-ev-15-04:cao-cao": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng",
+      "Quan văn"
+    ],
+    "title": "Tư không, hành Xa kỵ tướng quân",
+    "faction": "caocao",
+    "episode": "ep-0015",
+    "year": 198
+  },
+  "b04-ev-15-04:liu-bei": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Lực lượng đồng minh",
+    "faction": "liubei",
+    "episode": "ep-0015",
+    "year": 198
+  },
+  "b04-ev-16-03:sui-gu": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Bộ tướng nắm quân cũ",
+    "faction": "zhang-yang",
+    "episode": "ep-0016",
+    "year": 199
+  },
+  "b04-ev-16-03:cao-ren": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Tướng được giao nhiệm vụ",
+    "faction": "caocao",
+    "episode": "ep-0016",
+    "year": 199
+  },
+  "b04-ev-16-03:shi-huan": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Hành Trung quân hiệu úy",
+    "faction": "caocao",
+    "episode": "ep-0016",
+    "year": 199
+  },
+  "b04-ev-16-03:yu-jin": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Ích Thọ đình hầu, chỉ huy quân",
+    "faction": "caocao",
+    "episode": "ep-0016",
+    "year": 199
+  },
+  "b04-ev-16-03:xu-huang": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Đô đình hầu, tướng thuộc Tào",
+    "faction": "caocao",
+    "episode": "ep-0016",
+    "year": 199
+  },
+  "b04-ev-17-02:guan-yu": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Hành thái thú sự Hạ Bì",
+    "faction": "liubei",
+    "episode": "ep-0017",
+    "year": 199
+  },
+  "b04-ev-17-04:xiandi": {
+    "categories": [
+      "Hoàng tộc",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hoàng đế",
+    "faction": "han",
+    "episode": "ep-0017",
+    "year": 200
+  },
+  "b04-ev-17-04:cao-cao": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng",
+      "Quan văn"
+    ],
+    "title": "Tư không",
+    "faction": "caocao",
+    "episode": "ep-0017",
+    "year": 200
+  },
+  "b04-ev-17-04:dong-cheng": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Xa kỵ tướng quân, liên quan mật chiếu",
+    "faction": "han",
+    "episode": "ep-0017",
+    "year": 200
+  },
+  "b04-ev-17-05:guan-yu": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Sau bị bắt: Thiên tướng quân",
+    "faction": "caocao",
+    "episode": "ep-0017",
+    "year": 200
+  },
+  "b04-ev-18-01:sun-ce": {
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Thảo nghịch tướng quân, Ngô hầu",
+    "faction": "sun-ce",
+    "episode": "ep-0018",
+    "year": 199
+  },
+  "b04-ev-18-01:zhou-yu": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Trung hộ quân (199)",
+    "faction": "sun-ce",
+    "episode": "ep-0018",
+    "year": 199
+  },
+  "b04-ev-18-02:hua-xin": {
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Dự Chương thái thú trước chuyển giao",
+    "faction": "han",
+    "episode": "ep-0018",
+    "year": 199
+  },
+  "b04-ev-18-02:yu-fan": {
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Phụ tá làm nhiệm vụ thuyết phục",
+    "faction": "sun-ce",
+    "episode": "ep-0018",
+    "year": 199
+  },
+  "b04-ev-18-02:sun-ben": {
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Dự Chương thái thú sau phân công",
+    "faction": "sun-ce",
+    "episode": "ep-0018",
+    "year": 199
+  },
+  "b04-ev-18-04:sun-quan": {
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng",
+      "Quan văn"
+    ],
+    "title": "Thảo lỗ tướng quân, Cối Kê thái thú",
+    "faction": "sunquan",
+    "episode": "ep-0018",
+    "year": 200
+  },
+  "b04-ev-18-04:zhang-zhao": {
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Trưởng sử",
+    "faction": "sunquan",
+    "episode": "ep-0018",
+    "year": 200
+  },
+  "b04-ev-18-04:zhou-yu": {
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Trung hộ quân, cùng quản việc",
+    "faction": "sunquan",
+    "episode": "ep-0018",
+    "year": 200
+  }
+}
