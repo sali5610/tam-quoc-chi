@@ -14,4 +14,5 @@ export function captureReaderScope(id:string,target?:HTMLElement|null):ReaderSco
 
 /** Capture the departure position before hash navigation replaces the Reader history entry. */
 export function rememberAtlasOrigin(id:string){const mark=captureMark(id);rememberReader(mark);sessionWrite('tqc-ia-atlas-origin',id);sessionWrite('tqc-ia-atlas-origin-mark',mark)}
+export function openAtlasFromReader(id:string,hash:string){const mark=captureMark(id);rememberReader(mark);history.pushState({tqcAtlasOrigin:id,tqcAtlasOriginMark:mark},'',hash);window.dispatchEvent(new Event('hashchange'))}
 export function restoreAtlasOrigin(mark:ReaderMark|null,id:string){if(mark?.id===id)sessionWrite('tqc-ia-explicit-mark',mark)}
