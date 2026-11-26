@@ -195,8 +195,8 @@
     ],
     "title": "Sau khi khuyên Trương Tú hàng Tào",
     "evidence": "EVD-B04-077",
-    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
-    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷10",
+    "sourceLabel": "[Chính sử] Tam Quốc chí · Ngụy thư 10 · Giả Hủ truyện",
     "basis": "| EVD-B04-077 | 17 | [Chính sử] 卷10 賈詡 | 夫曹公奉天子以令天下 | Ba lý do chọn Tào: danh nghĩa thiên tử, lực lượng nhỏ sẽ được coi trọng hơn, kỳ vọng bỏ tư oán để biểu đức. Tiểu truyện đặt bối cảnh Quan Độ, Vũ đế kỷ định hàng tháng 11 năm 199; dùng niên đại bản kỷ, không viết trận Quan Độ đã kết thúc. | Không rõ nơi đàm phán |"
   },
   {
@@ -1002,7 +1002,8 @@
     "evidence": "EVD-B04-053",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
     "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
-    "basis": "| EVD-B04-053 | 18 | [Chính sử] F 周瑜 建安三年 | 授建威中郎將 | Chu Du rời Viên Thuật về Tôn Sách năm 198, được Kiến uy trung lang tướng; 199 làm Trung hộ quân, đánh Hoàn, hai người lấy hai con gái họ Kiều. Không bịa đối thoại hay đồng thuận hôn nhân. | Cư Sào; Ngô; Hoàn |"
+    "basis": "| EVD-B04-053 | 18 | [Chính sử] F 周瑜 建安三年 | 授建威中郎將 | Chu Du rời Viên Thuật về Tôn Sách năm 198, được Kiến uy trung lang tướng; 199 làm Trung hộ quân, đánh Hoàn, hai người lấy hai con gái họ Kiều. Không bịa đối thoại hay đồng thuận hôn nhân. | Cư Sào; Ngô; Hoàn |",
+    "transitionOrder": 1
   },
   {
     "id": "WIK-liu-xun-B04-156-caocao",
@@ -1017,7 +1018,8 @@
     "evidence": "EVD-B04-156",
     "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷01",
     "sourceLabel": "Sử liệu trong evidence registry",
-    "basis": "| EVD-B04-156 | 18 | [Chính sử] 三國志/卷01 建安四年 L188 https://zh.wikisource.org/zh-hant/三國志/卷01 | 廬江太守劉勳率衆降 | Lưu Huân dẫn quân hàng Tào, phong liệt hầu sau mất Lư Giang. Điều chỉnh snapshot: không mất mọi quân quyền. | địa điểm nhận hàng không rõ |"
+    "basis": "| EVD-B04-156 | 18 | [Chính sử] 三國志/卷01 建安四年 L188 https://zh.wikisource.org/zh-hant/三國志/卷01 | 廬江太守劉勳率衆降 | Lưu Huân dẫn quân hàng Tào, phong liệt hầu sau mất Lư Giang. Điều chỉnh snapshot: không mất mọi quân quyền. | địa điểm nhận hàng không rõ |",
+    "transitionOrder": 2
   },
   {
     "id": "WIK-huang-zu-B04-054-liu-biao",
@@ -1321,7 +1323,9 @@
     "evidence": "EVD-B04-114",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷17",
     "sourceLabel": "Sử liệu trong evidence registry",
-    "basis": "| EVD-B04-114 | 15 | [Chính sử] 三國志/卷17 張遼 https://zh.wikisource.org/wiki/三國志/卷17 | 遼將其衆降，拜中郎將 | Trương Liêu theo Lữ, dẫn quân hàng Tào sau Hạ Bì, được trung lang tướng, Quan nội hầu; không kể Bạch Lang Sơn trước mốc. | Hạ Bì |"
+    "basis": "| EVD-B04-114 | 15 | [Chính sử] 三國志/卷17 張遼 https://zh.wikisource.org/wiki/三國志/卷17 | 遼將其衆降，拜中郎將 | Trương Liêu theo Lữ, dẫn quân hàng Tào sau Hạ Bì, được trung lang tướng, Quan nội hầu; không kể Bạch Lang Sơn trước mốc. | Hạ Bì |",
+    "transitionOrder": 1,
+    "dateLabel": "198 · trước khi hàng Tào"
   },
   {
     "id": "WIK-hou-cheng-B04-035-caocao",
@@ -1336,7 +1340,10 @@
     "evidence": "EVD-B04-035",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
     "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
-    "basis": "| EVD-B04-035 | 15 | [Chính sử] B 建安三年 | 侯成、宋憲、魏續縛陳宮 | Các tướng Hầu Thành, Tống Hiến, Ngụy Tục bắt Trần Cung và hàng; Lữ xuống Bạch Môn Lâu đầu hàng. Lưu nhắc Đinh Nguyên, Đổng Trác; Lữ, Cung, Thuận bị xử tử. | Hạ Bì; lầu chưa định vị |"
+    "basis": "| EVD-B04-035 | 15 | [Chính sử] B 建安三年 | 侯成、宋憲、魏續縛陳宮 | Các tướng Hầu Thành, Tống Hiến, Ngụy Tục bắt Trần Cung và hàng; Lữ xuống Bạch Môn Lâu đầu hàng. Lưu nhắc Đinh Nguyên, Đổng Trác; Lữ, Cung, Thuận bị xử tử. | Hạ Bì; lầu chưa định vị |",
+    "transitionOrder": 2,
+    "dateLabel": "198 · sau khi bắt Trần Cung và đầu hàng",
+    "eventId": "b04-ev-15-04"
   },
   {
     "id": "WIK-wei-xu-B04-035-caocao",
@@ -1351,7 +1358,10 @@
     "evidence": "EVD-B04-035",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
     "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
-    "basis": "| EVD-B04-035 | 15 | [Chính sử] B 建安三年 | 侯成、宋憲、魏續縛陳宮 | Các tướng Hầu Thành, Tống Hiến, Ngụy Tục bắt Trần Cung và hàng; Lữ xuống Bạch Môn Lâu đầu hàng. Lưu nhắc Đinh Nguyên, Đổng Trác; Lữ, Cung, Thuận bị xử tử. | Hạ Bì; lầu chưa định vị |"
+    "basis": "| EVD-B04-035 | 15 | [Chính sử] B 建安三年 | 侯成、宋憲、魏續縛陳宮 | Các tướng Hầu Thành, Tống Hiến, Ngụy Tục bắt Trần Cung và hàng; Lữ xuống Bạch Môn Lâu đầu hàng. Lưu nhắc Đinh Nguyên, Đổng Trác; Lữ, Cung, Thuận bị xử tử. | Hạ Bì; lầu chưa định vị |",
+    "transitionOrder": 2,
+    "dateLabel": "198 · sau khi bắt Trần Cung và đầu hàng",
+    "eventId": "b04-ev-15-04"
   },
   {
     "id": "WIK-zhang-xiu-B04-044-caocao",
