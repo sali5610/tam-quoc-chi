@@ -87,6 +87,7 @@ jobs:
           node scripts/navigation-ia-smoke.mjs
           node scripts/atlas-ia-smoke.mjs
           node scripts/wiki-ia-smoke.mjs
+          node scripts/ia-integration-smoke.mjs
           node scripts/ia-scale-smoke.mjs
           node scripts/browser-smoke.mjs
           node scripts/batch-03-atlas-smoke.mjs
