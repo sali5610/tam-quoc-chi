@@ -1,0 +1,1539 @@
+[
+  {
+    "id": "WIK-he-jin-0005-han",
+    "personId": "he-jin",
+    "year": 189,
+    "episode": "ep-0003",
+    "faction": "han",
+    "categories": [
+      "Võ tướng",
+      "Ngoại thích"
+    ],
+    "title": "Đại tướng quân; tranh quyền cung đình",
+    "evidence": "EVD-0005",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷69",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-0005 | He Jin killed during palace struggle, 189 | 「拔劍斬進於嘉德殿前」 | SRC-0003, 何進, 八月 paragraph | Hà Tiến bị giết trong cuộc xung đột với hoạn quan | Passage located |"
+  },
+  {
+    "id": "WIK-yuan-shao-B02-001-yuanshao",
+    "personId": "yuan-shao",
+    "year": 190,
+    "episode": "ep-0004",
+    "faction": "yuanshao",
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Minh chủ liên minh",
+    "evidence": "EVD-B02-001",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B02-001 | [Chính sử] SRC-0001 武帝紀 初平元年: 推紹爲盟主；太祖行奮武將軍 | Tháng 1/190: Viên Thiệu được tôn minh chủ; Tào Tháo hành Phấn Vũ tướng quân. EVD-0008 complements. | Quan Đông, region, not a single camp |"
+  },
+  {
+    "id": "WIK-yuan-shao-B02-021-yuanshao",
+    "personId": "yuan-shao",
+    "year": 191,
+    "episode": "ep-0005",
+    "faction": "yuanshao",
+    "categories": [
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Nắm Ký Châu",
+    "evidence": "EVD-B02-021",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B02-021 | [Chính sử] SRC-0001 初平二年: 袁紹脅韓馥，取冀州 | Tháng 7/191 Thiệu takes Ký Châu from Hàn Phức. Later in 191 nominates Tào as Đông quận thái thú after victory at Bộc Dương. Cooperation continues, no premature Quan Độ. | Ký Châu/Đông quận, Bộc Dương/Đông Vũ Dương locality |"
+  },
+  {
+    "id": "WIK-yuan-shao-B03-006-yuanshao",
+    "personId": "yuan-shao",
+    "year": 193,
+    "episode": "ep-0007",
+    "faction": "yuanshao",
+    "categories": [
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Phối hợp Tào chống đối thủ",
+    "evidence": "EVD-B03-006",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-006 | [Chính sử] A 初平三年: 太祖與紹會擊，皆破之 | Yuan Shu seeks Gongsun Zan aid; Liu Bei at Cao Đường, Thiền Kinh at Bình Nguyên, Tao Qian at Phát Can; Cao and Yuan Shao defeat opponents. Do not conflate Cao Đường with Gaotang modern exact site | regional named counties; no linked route |"
+  },
+  {
+    "id": "WIK-yuan-shao-B03-049-yuanshao",
+    "personId": "yuan-shao",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "yuanshao",
+    "categories": [
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Bàn việc đón thiên tử",
+    "evidence": "EVD-B03-049",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-049 | [Sử liệu khác] I 興平二年: 紹不從 | Cư Thụ advises Yuan Shao to welcome emperor; Quách Đồ and Thuần Vu Quỳnh oppose; Yuan does not adopt advice in this account. Setup 196, no claim Cao already controls emperor | Nghiệp/ Hà Bắc, proposed not traveled |"
+  },
+  {
+    "id": "WIK-yuan-shao-B04-007-yuanshao",
+    "personId": "yuan-shao",
+    "year": 196,
+    "episode": "ep-0010",
+    "faction": "yuanshao",
+    "categories": [
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Tranh vị trí với Tào",
+    "evidence": "EVD-B04-007",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-007 | 10 | [Chính sử] A 建安元年 | 以大將軍讓紹 | Tào nhường chức Đại tướng quân cho Viên Thiệu, giữ Tư không, hành Xa kỵ tướng quân. HHS đặt Tư không tháng 11, Viên tự làm đại tướng quân tháng 3 năm sau; phân biệt đề nghị với thực quyền. | Hứa; Hà Bắc |"
+  },
+  {
+    "id": "WIK-yuan-shao-B04-039-yuanshao",
+    "personId": "yuan-shao",
+    "year": 199,
+    "episode": "ep-0016",
+    "faction": "yuanshao",
+    "categories": [
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Thắng Công Tôn Toản",
+    "evidence": "EVD-B04-039",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-039 | 16 | [Sử liệu khác] G 建安四年春三月 | 袁紹攻公孫瓉于易京 | Viên Thiệu đánh bại Công Tôn Toản tại Dịch Kinh tháng 3 năm 199. Thông giám ghi Trương Yến/Công Tôn Tục cứu không thành, Điền Khải và Quan Tĩnh chết. | Dịch Kinh; địa điểm cổ cần resolver |"
+  },
+  {
+    "id": "WIK-han-fu-B02-002-han-fu",
+    "personId": "han-fu",
+    "year": 190,
+    "episode": "ep-0004",
+    "faction": "han-fu",
+    "categories": [
+      "Quan văn",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Ký Châu mục, cấp lương liên minh",
+    "evidence": "EVD-B02-002",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B02-002 | [Sử liệu khác] SRC-0008 初平元年: 諸將皆板授官號 | Viên Thiệu tự xưng Xa kỵ tướng quân; các tướng có danh hiệu tự/bổ nhiệm tạm; Thiệu và Vương Khuông ở Hà Nội, Hàn Phức cấp lương từ Nghiệp, Tào/Trương Mạc và các tướng ở Toan Tảo, Khổng Trụ ở Dĩnh Xuyên, Viên Thuật ở Lỗ Dương (thuộc Nam Dương). Tháng 1 | camps at named jurisdictions; not exact sites |"
+  },
+  {
+    "id": "WIK-han-fu-B02-021-han-fu",
+    "personId": "han-fu",
+    "year": 191,
+    "episode": "ep-0005",
+    "faction": "han-fu",
+    "categories": [
+      "Quan văn",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Trước khi mất Ký Châu",
+    "evidence": "EVD-B02-021",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B02-021 | [Chính sử] SRC-0001 初平二年: 袁紹脅韓馥，取冀州 | Tháng 7/191 Thiệu takes Ký Châu from Hàn Phức. Later in 191 nominates Tào as Đông quận thái thú after victory at Bộc Dương. Cooperation continues, no premature Quan Độ. | Ký Châu/Đông quận, Bộc Dương/Đông Vũ Dương locality |"
+  },
+  {
+    "id": "WIK-shisun-rui-B02-027-han",
+    "personId": "shisun-rui",
+    "year": 192,
+    "episode": "ep-0006",
+    "faction": "han",
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Bàn trừ Đổng Trác với Vương Doãn",
+    "evidence": "EVD-B02-027",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B02-027 | [Chính sử] SRC-B02-01 呂布: 允與僕射士孫瑞密謀誅卓 | Vương Doãn and Sĩ Tôn Thụy recruited Lữ Bố as insider. SRC-B02-02 王允 gives wider planning involving Hoàng Uyển, Dương Toản etc and failed prior attempt; distinguish roles and times, no invented conversation. | Chang'an capital |"
+  },
+  {
+    "id": "WIK-jia-xu-B02-032-unknown",
+    "personId": "jia-xu",
+    "year": 192,
+    "episode": "ep-0006",
+    "faction": "unknown",
+    "categories": [
+      "Mưu sĩ"
+    ],
+    "title": "Khuyên các tướng cũ Đổng Trác tập hợp; chưa gán chủ riêng",
+    "evidence": "EVD-B02-032",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B02-032 | [Chính sử] SRC-0012 李傕郭汜: 用賈詡策 | Dong's former commanders Lý Giác, Quách Dĩ, Trương Tế etc lose patron Ngưu Phụ, fear reprisals and regroup on Giả Hủ's advice. SRC-B02-03 192 provides reported advice and context; not quote as exact transcript. | 陝 district, not modern Shaanxi province as a single point; Trường An |"
+  },
+  {
+    "id": "WIK-jia-xu-B04-076-zhang-xiu",
+    "personId": "jia-xu",
+    "year": 197,
+    "episode": "ep-0014",
+    "faction": "zhang-xiu",
+    "categories": [
+      "Mưu sĩ"
+    ],
+    "title": "Mưu sĩ Trương Tú",
+    "evidence": "EVD-B04-076",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷10",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-076 | 14 | [Chính sử] 三國志卷10 賈詡 https://zh.wikisource.org/wiki/三國志/卷10 | 詡説繡與劉表連和 | Giả Hủ theo Trương Tú, khuyên liên kết Lưu Biểu; truyện ghi hai lời khuyên truy kích trái nhau theo tình thế. Không định ngày/địa điểm chính xác chỉ từ đoạn tiểu truyện. | Nam Dương vùng |"
+  },
+  {
+    "id": "WIK-jia-xu-B04-077-caocao",
+    "personId": "jia-xu",
+    "year": 199,
+    "episode": "ep-0017",
+    "faction": "caocao",
+    "categories": [
+      "Mưu sĩ"
+    ],
+    "title": "Sau khi khuyên Trương Tú hàng Tào",
+    "evidence": "EVD-B04-077",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-077 | 17 | [Chính sử] 卷10 賈詡 | 夫曹公奉天子以令天下 | Ba lý do chọn Tào: danh nghĩa thiên tử, lực lượng nhỏ sẽ được coi trọng hơn, kỳ vọng bỏ tư oán để biểu đức. Tiểu truyện đặt bối cảnh Quan Độ, Vũ đế kỷ định hàng tháng 11 năm 199; dùng niên đại bản kỷ, không viết trận Quan Độ đã kết thúc. | Không rõ nơi đàm phán |"
+  },
+  {
+    "id": "WIK-liu-biao-B02-023-liu-biao",
+    "personId": "liu-biao",
+    "year": null,
+    "episode": "ep-0005",
+    "faction": "liu-biao",
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Quan văn"
+    ],
+    "title": "191–192 · Kinh Châu, niên đại xung đột có dị bản",
+    "evidence": "EVD-B02-023",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷46",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B02-023 | [Sử liệu mâu thuẫn] SRC-0007 初平三年; SRC-0013 初平三年正月; SRC-B02-03 191 end | Tôn Kiên dies fighting Lưu Biểu's general Hoàng Tổ at Tương Dương campaign. Chen Shou dates 192; Fan Ye places lunar Jan 192; Sima Guang places late 191; Pei cites 英雄記 lunar Jan 7 193 and another death version involving Lữ Công. Mark date conflict, avoid precise CE day and disputed mechanics. Kiên's nephew Tôn Bí takes troops to Thuật (base vol46). Boundary: bridge at end EP5 with explicit 191–192 uncertainty, not a precise 191 death. | Tương Dương / Hiện Sơn area |"
+  },
+  {
+    "id": "WIK-liu-biao-B03-007-liu-biao",
+    "personId": "liu-biao",
+    "year": 193,
+    "episode": "ep-0007",
+    "faction": "liu-biao",
+    "categories": [
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Chặn đường tiếp tế Viên Thuật",
+    "evidence": "EVD-B03-007",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷46",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-007 | [Chính sử] A 初平四年: 荊州牧劉表斷術糧道 | Spring 193, Lưu Biểu interrupts Yuan Shu supplies; Yuan Shu enters Trần Lưu, Cao defeats him, Yuan moves toward Cửu Giang. Summer Cao returns Định Đào | Phong Khâu, Cửu Giang, Định Đào; county/regional |"
+  },
+  {
+    "id": "WIK-liu-biao-B04-030-liu-biao",
+    "personId": "liu-biao",
+    "year": 197,
+    "episode": "ep-0014",
+    "faction": "liu-biao",
+    "categories": [
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Liên kết Trương Tú, không đồng nhất phe",
+    "evidence": "EVD-B04-030",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷46",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-030 | 14 | [Chính sử] A 建安二年 | 繡奔穰，與劉表合 | Tào lui Vũ Âm; Tú về Nhương liên kết Lưu Biểu; Tào nói việc không lấy con tin là sai lầm của mình. | Vũ Âm; Nhương |"
+  },
+  {
+    "id": "WIK-cao-hong-B02-007-caocao",
+    "personId": "cao-hong",
+    "year": 190,
+    "episode": "ep-0004",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Cứu Tào Tháo",
+    "evidence": "EVD-B02-007",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B02-007 | [Chính sử] SRC-0001 初平元年: 到熒陽汴水，遇卓將徐榮 | 190, Tào Tháo được Vệ Tư (Trương Mạc) giúp, thua Từ Vinh ở Biện Thủy, Tào Hồng cứu bằng việc nhường ngựa; không xác định tháng riêng. | Huỳnh Dương/Biện Thủy, historical area |"
+  },
+  {
+    "id": "WIK-cao-hong-B04-004-caocao",
+    "personId": "cao-hong",
+    "year": 196,
+    "episode": "ep-0010",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Được sai đi đón thiên tử",
+    "evidence": "EVD-B04-004",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-004 | 10 | [Chính sử] A 建安元年 | 荀彧、程昱勸之 | Tào muốn đón vua, Tuân Úc và Trình Dục khuyên; Tào Hồng bị ngăn. Không kể như Tào một mình cứu vua. | hướng tây; không định tuyến |"
+  },
+  {
+    "id": "WIK-liu-dai-B02-019-unknown",
+    "personId": "liu-dai",
+    "year": 190,
+    "episode": "ep-0005",
+    "faction": "unknown",
+    "categories": [
+      "Quan văn",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Duyện Châu thứ sử",
+    "evidence": "EVD-B02-019",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B02-019 | [Chính sử] SRC-0001 初平元年: 岱殺瑁 | Lưu Đại kills Kiều Mạo, appoints Vương Quăng. 190 annal placement; exact month unspecified. Use as retrospective fracture in EP5, not falsely 191. | Đông quận, jurisdiction |"
+  },
+  {
+    "id": "WIK-cheng-yu-B03-009-caocao",
+    "personId": "cheng-yu",
+    "year": 192,
+    "episode": "ep-0007",
+    "faction": "caocao",
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Được Tào tuyển",
+    "evidence": "EVD-B03-009",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷14",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-009 | [Chính sử] E 程昱 初平中: 太祖臨兗州，辟昱 | Trình Dục declined Lưu Đại, recruited after Cao takes Duyện Châu, acting Thọ Trương magistrate. His earlier advice favored nearer Yuan Shao alliance over distant Gongsun | Duyện Châu / Thọ Trương |"
+  },
+  {
+    "id": "WIK-cheng-yu-B03-026-caocao",
+    "personId": "cheng-yu",
+    "year": 194,
+    "episode": "ep-0008",
+    "faction": "caocao",
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Tổ chức giữ các huyện",
+    "evidence": "EVD-B03-026",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷14",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-026 | [Chính sử] E 程昱 興平元年: 棗祗已率厲吏民 | Trình Dục persuades Cận Doãn; Táo Chi defends Đông A; Tiết Đễ cooperates. Pei 徐眾評 criticizes choice of loyalty over relatives; not simple moral victory | Phạm, Đông A, Thương Đình crossing relative |"
+  },
+  {
+    "id": "WIK-cheng-yu-B04-004-caocao",
+    "personId": "cheng-yu",
+    "year": 196,
+    "episode": "ep-0010",
+    "faction": "caocao",
+    "categories": [
+      "Mưu sĩ"
+    ],
+    "title": "Khuyên Tào đón vua",
+    "evidence": "EVD-B04-004",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷14",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-004 | 10 | [Chính sử] A 建安元年 | 荀彧、程昱勸之 | Tào muốn đón vua, Tuân Úc và Trình Dục khuyên; Tào Hồng bị ngăn. Không kể như Tào một mình cứu vua. | hướng tây; không định tuyến |"
+  },
+  {
+    "id": "WIK-tian-kai-B03-020-gongsun-zan",
+    "personId": "tian-kai",
+    "year": 194,
+    "episode": "ep-0008",
+    "faction": "gongsun-zan",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Cùng Lưu Bị cứu Từ Châu",
+    "evidence": "EVD-B03-020",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-020 | [Chính sử] C 先主傳: 楷與先主俱救之 | Tao requests aid from Điền Khải; Liu Bei joins. I situates relief by early 194; first campaign vs relief timing not exact day. Liu formerly allied with Gongsun, now gains Tao's support | Từ Châu / Tề region |"
+  },
+  {
+    "id": "WIK-tian-kai-B04-039-gongsun-zan",
+    "personId": "tian-kai",
+    "year": 199,
+    "episode": "ep-0016",
+    "faction": "gongsun-zan",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Cuộc đối đầu cuối với Viên Thiệu",
+    "evidence": "EVD-B04-039",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-039 | 16 | [Sử liệu khác] G 建安四年春三月 | 袁紹攻公孫瓉于易京 | Viên Thiệu đánh bại Công Tôn Toản tại Dịch Kinh tháng 3 năm 199. Thông giám ghi Trương Yến/Công Tôn Tục cứu không thành, Điền Khải và Quan Tĩnh chết. | Dịch Kinh; địa điểm cổ cần resolver |"
+  },
+  {
+    "id": "WIK-zhang-miao-B03-024-zhang-miao",
+    "personId": "zhang-miao",
+    "year": 194,
+    "episode": "ep-0008",
+    "faction": "zhang-miao",
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Quan văn"
+    ],
+    "title": "Đón Lữ Bố, nổi dậy ở Duyện Châu",
+    "evidence": "EVD-B03-024",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-024 | [Chính sử] B 張邈 興平元年: 共謀叛太祖 | 194 Zhang Miao, brother Zhang Chao, Chen Gong, Xu Si and Wang Kai welcome Lü Bu as Duyện Châu mục; recorded speech argues for independent position; text gives Miao fear of Cao siding with Yuan. No invented single motive or Diễn Nghĩa rescue debt | Trần Lưu/Duyện Châu/Bộc Dương |"
+  },
+  {
+    "id": "WIK-chen-deng-B03-028-unknown",
+    "personId": "chen-deng",
+    "year": 194,
+    "episode": "ep-0008",
+    "faction": "unknown",
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Khuyên Lưu Bị nhận Từ Châu",
+    "evidence": "EVD-B03-028",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-028 | [Chính sử] C 先主傳: 先主遂領徐州 | My Trúc leads local delegation, Trần Đăng and Khổng Dung urge Liu to accept; he initially suggests Yuan Shu. No hereditary transfer or formal imperial decree asserted; after rebellion, late 194 | Từ Châu |"
+  },
+  {
+    "id": "WIK-chen-deng-B04-024-caocao",
+    "personId": "chen-deng",
+    "year": 197,
+    "episode": "ep-0013",
+    "faction": "caocao",
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Được Tào giao nhiệm vụ nội ứng",
+    "evidence": "EVD-B04-024",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-024 | 13 | [Chính sử] B 陳登見太祖 | 拜登廣陵太守 | Trần Đăng làm Quảng Lăng thái thú, cha được tăng trật; Tào giao nhiệm vụ ở phía đông, bí mật làm nội ứng. Lữ bất mãn vì không được chức Từ Châu mục. | Hứa; Quảng Lăng |"
+  },
+  {
+    "id": "WIK-chen-deng-B04-138-caocao",
+    "personId": "chen-deng",
+    "year": 198,
+    "episode": "ep-0015",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Phối hợp chống Lữ, Phục Ba tướng quân",
+    "evidence": "EVD-B04-138",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷07",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-138 | 15 | [Chính sử] 三國志卷07 陳登 L155 https://zh.wikisource.org/zh-hant/三國志/卷07 | 又掎角呂布有功，加伏波將軍 | Trần Đăng có công phối hợp chống Lữ và được gia Phục Ba tướng quân; Bùi chú dẫn Tiên hiền hành trạng thêm dẫn quân Quảng Lăng và chuyện em bị giữ làm con tin. | Hạ Bì/Quảng Lăng |"
+  },
+  {
+    "id": "WIK-kong-rong-B03-028-unknown",
+    "personId": "kong-rong",
+    "year": 194,
+    "episode": "ep-0008",
+    "faction": "unknown",
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Bắc Hải tướng, khuyên Lưu Bị",
+    "evidence": "EVD-B03-028",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-028 | [Chính sử] C 先主傳: 先主遂領徐州 | My Trúc leads local delegation, Trần Đăng and Khổng Dung urge Liu to accept; he initially suggests Yuan Shu. No hereditary transfer or formal imperial decree asserted; after rebellion, late 194 | Từ Châu |"
+  },
+  {
+    "id": "WIK-xiahou-dun-B03-025-caocao",
+    "personId": "xiahou-dun",
+    "year": 194,
+    "episode": "ep-0008",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng",
+      "Quan văn"
+    ],
+    "title": "Đông quận thái thú, giữ hậu phương",
+    "evidence": "EVD-B03-025",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷09",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-025 | [Chính sử] D 荀彧 興平元年: 卒全三城 | Tuân Úc, Trình Dục retain Quyên Thành, Phạm, Đông A; Hạ Hầu Đôn supports; Tuân Úc deals with Quách Cống (does not establish ally); Cao returns. Preserve distinction between two counties and one city | three separate ancient sites; no precise map points until resolver check |"
+  },
+  {
+    "id": "WIK-xiahou-dun-B04-033-caocao",
+    "personId": "xiahou-dun",
+    "year": 198,
+    "episode": "ep-0015",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Được sai cứu Lưu Bị",
+    "evidence": "EVD-B04-033",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷09",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-033 | 15 | [Chính sử] A 建安三年 | 使高順攻劉備 | Cao Thuận đánh Lưu Bị; Hạ Hầu Đôn cứu không thành; Tào tiến đông tháng 9, Bành Thành bị tàn phá tháng 10, tới Hạ Bì. | Tiểu Bái; Bành Thành; Hạ Bì |"
+  },
+  {
+    "id": "WIK-fan-chou-B03-042-unknown",
+    "personId": "fan-chou",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "unknown",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Tướng cũ Đổng Trác, trước khi bị Lý Giác giết",
+    "evidence": "EVD-B03-042",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-042 | [Sử liệu khác] I 興平二年: 二月，傕請稠會議，便於坐殺稠 | Feb 195 Li Jue kills Fan Chou; mistrust grows; I links suspicion after campaign, not independently confirmed motive | Trường An region |"
+  },
+  {
+    "id": "WIK-zhang-ji-B03-046-zhang-ji",
+    "personId": "zhang-ji",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "zhang-ji",
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Tướng có lực lượng riêng, hòa giải",
+    "evidence": "EVD-B03-046",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-046 | [Sử liệu khác] G 興平二年: 張濟自陝來和傕、汜 | Lunar June mediation, July emperor departs east. Named escorts Guo Si, Yang Ding, Yang Feng, Dong Cheng; alliances change on journey; official titles vary between self-claim/appointment, follow G wording | Trường An → Tân Phong (Aug) → Hoa Âm (Oct) |"
+  },
+  {
+    "id": "WIK-zhang-ji-B04-027-zhang-ji",
+    "personId": "zhang-ji",
+    "year": 196,
+    "episode": "ep-0014",
+    "faction": "zhang-ji",
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Chuyển quân Nam Dương, trước khi mất",
+    "evidence": "EVD-B04-027",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-027 | 14 | [Chính sử] A 建安元年 | 濟死，從子繡領其衆 | Trương Tế chết sau khi chuyển vào Nam Dương; cháu Trương Tú tiếp quản quân, cầu nối EP09. | Nam Dương |"
+  },
+  {
+    "id": "WIK-yang-feng-B03-046-yang-feng",
+    "personId": "yang-feng",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "yang-feng",
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Rời Lý Giác, hộ giá cùng lực lượng riêng",
+    "evidence": "EVD-B03-046",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-046 | [Sử liệu khác] G 興平二年: 張濟自陝來和傕、汜 | Lunar June mediation, July emperor departs east. Named escorts Guo Si, Yang Ding, Yang Feng, Dong Cheng; alliances change on journey; official titles vary between self-claim/appointment, follow G wording | Trường An → Tân Phong (Aug) → Hoa Âm (Oct) |"
+  },
+  {
+    "id": "WIK-yang-feng-B04-025-yang-feng",
+    "personId": "yang-feng",
+    "year": 197,
+    "episode": "ep-0013",
+    "faction": "yang-feng",
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Đổi liên minh hỗ trợ Lữ; không coi là thuộc tướng Lữ",
+    "evidence": "EVD-B04-025",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-025 | 13 | [Chính sử] B 術怒 | 暹、奉從之 | Trần Khuê đề nghị tách Hàn Xiêm, Dương Phụng khỏi liên minh Thuật; họ chuyển phe, Trương Huân thất bại. | Từ Châu/Hoài Nam; chưa xác định chiến trường |"
+  },
+  {
+    "id": "WIK-ju-shou-B03-049-yuanshao",
+    "personId": "ju-shou",
+    "year": 195,
+    "episode": "ep-0009",
+    "faction": "yuanshao",
+    "categories": [
+      "Mưu sĩ"
+    ],
+    "title": "Đề nghị đón thiên tử",
+    "evidence": "EVD-B03-049",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-049 | [Sử liệu khác] I 興平二年: 紹不從 | Cư Thụ advises Yuan Shao to welcome emperor; Quách Đồ and Thuần Vu Quỳnh oppose; Yuan does not adopt advice in this account. Setup 196, no claim Cao already controls emperor | Nghiệp/ Hà Bắc, proposed not traveled |"
+  },
+  {
+    "id": "WIK-zhang-yan-B04-039-heishan",
+    "personId": "zhang-yan",
+    "year": 199,
+    "episode": "ep-0016",
+    "faction": "heishan",
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Tìm cách cứu Công Tôn Toản",
+    "evidence": "EVD-B04-039",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷08",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-039 | 16 | [Sử liệu khác] G 建安四年春三月 | 袁紹攻公孫瓉于易京 | Viên Thiệu đánh bại Công Tôn Toản tại Dịch Kinh tháng 3 năm 199. Thông giám ghi Trương Yến/Công Tôn Tục cứu không thành, Điền Khải và Quan Tĩnh chết. | Dịch Kinh; địa điểm cổ cần resolver |"
+  },
+  {
+    "id": "WIK-zao-zhi-B04-008-caocao",
+    "personId": "zao-zhi",
+    "year": 196,
+    "episode": "ep-0010",
+    "faction": "caocao",
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Đề xuất đồn điền",
+    "evidence": "EVD-B04-008",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-008 | 10 | [Chính sử] A 建安元年 | 用棗祗、韓浩等議，始興屯田 | 196 bắt đầu đồn điền theo đề xuất Táo Chi, Hàn Hạo. Không gán sáng kiến cho một mình Mao Giới. | Hứa và vùng canh tác |"
+  },
+  {
+    "id": "WIK-han-hao-B04-008-caocao",
+    "personId": "han-hao",
+    "year": 196,
+    "episode": "ep-0010",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng",
+      "Mưu sĩ"
+    ],
+    "title": "Tham gia chủ trương đồn điền",
+    "evidence": "EVD-B04-008",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷09",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-008 | 10 | [Chính sử] A 建安元年 | 用棗祗、韓浩等議，始興屯田 | 196 bắt đầu đồn điền theo đề xuất Táo Chi, Hàn Hạo. Không gán sáng kiến cho một mình Mao Giới. | Hứa và vùng canh tác |"
+  },
+  {
+    "id": "WIK-han-xian-B04-025-baibo",
+    "personId": "han-xian",
+    "year": 197,
+    "episode": "ep-0013",
+    "faction": "baibo",
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Chuyển liên minh hỗ trợ Lữ, không gán thuộc tướng",
+    "evidence": "EVD-B04-025",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-025 | 13 | [Chính sử] B 術怒 | 暹、奉從之 | Trần Khuê đề nghị tách Hàn Xiêm, Dương Phụng khỏi liên minh Thuật; họ chuyển phe, Trương Huân thất bại. | Từ Châu/Hoài Nam; chưa xác định chiến trường |"
+  },
+  {
+    "id": "WIK-duan-wei-B04-038-han",
+    "personId": "duan-wei",
+    "year": 198,
+    "episode": "ep-0015",
+    "faction": "han",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Tham gia thảo phạt Lý Giác theo lệnh triều đình",
+    "evidence": "EVD-B04-038",
+    "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷061",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-038 | 15 | [Sử liệu khác] G 建安三年 | 裴茂率中郎將段煨討李傕 | Tháng 4 Bùi Mậu và Đoàn Ổi đánh Lý Giác, diệt tộc; HHS tháng 12 ngày Quý Dậu ghi Lữ Bố chết, theo năm Kiến An 3 (có thể sang đầu 199 dương lịch, chưa chuyển lịch). | Quan Trung; Từ Châu |"
+  },
+  {
+    "id": "WIK-dong-zhao-B04-005-han",
+    "personId": "dong-zhao",
+    "year": 196,
+    "episode": "ep-0010",
+    "faction": "han",
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Quan Hán, khuyên chuyển đô Hứa",
+    "evidence": "EVD-B04-005",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志_(四庫全書本)/魏志/卷14",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-005 | 10 | [Chính sử] A 建安元年 | 洛陽殘破，董昭等勸太祖都許 | Tào đến Lạc Dương, được tiết việt và lục thượng thư sự; Đổng Chiêu khuyên chuyển đô Hứa. | Lạc Dương, Hứa |"
+  },
+  {
+    "id": "WIK-liu-yao-B04-017-liu-yao",
+    "personId": "liu-yao",
+    "year": null,
+    "episode": "ep-0012",
+    "faction": "liu-yao",
+    "categories": [
+      "Quan văn",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "195–196 · Dương Châu thứ sử, chống Tôn Sách",
+    "evidence": "EVD-B04-017",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷49",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-017 | 12 | [Chính sử] D 孫策 劉繇爲揚州刺史 | 比至歷陽 | Tôn Sách được Viên Thuật cho quân, tới Lịch Dương tăng lực lượng; Ngô Cảnh và Tôn Bí bị Lưu Do đẩy khỏi Đan Dương; không replay EP09. | Lịch Dương; Đan Dương |"
+  },
+  {
+    "id": "WIK-taishi-ci-B04-070-liu-yao",
+    "personId": "taishi-ci",
+    "year": null,
+    "episode": "ep-0012",
+    "faction": "liu-yao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "195–196 · trinh sát dưới Lưu Do",
+    "evidence": "EVD-B04-070",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷49",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-070 | 12 | [Chính sử] 三國志卷49 太史慈 https://zh.wikisource.org/wiki/三國志/卷49 | 正與策對 | Thái Sử Từ đang trinh sát dưới Lưu Do, đụng Tôn Sách tại Thần Đình; hai bên tiếp viện rồi tách ra. Không nói Từ bị bắt ngay tại đây. | Thần Đình, điểm chưa xác minh |"
+  },
+  {
+    "id": "WIK-taishi-ci-B04-071-sun-ce",
+    "personId": "taishi-ci",
+    "year": null,
+    "episode": "ep-0012",
+    "faction": "sun-ce",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Sau khi được Sách bắt và tha; chưa chắc năm",
+    "evidence": "EVD-B04-071",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷49",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-071 | 12 | [Chính sử] 卷49 太史慈 | 策躬自攻討，遂見囚執 | Sau khi Lưu Do chạy, Từ ở Vu Hồ rồi Kính huyện, được Sơn Việt theo; Sách bắt và tha, bổ Môn hạ đốc, sau Chiết xung trung lang tướng. Không ấn định năm chính xác. | Vu Hồ, Kính huyện |"
+  },
+  {
+    "id": "WIK-xun-you-B04-034-caocao",
+    "personId": "xun-you",
+    "year": 198,
+    "episode": "ep-0015",
+    "faction": "caocao",
+    "categories": [
+      "Mưu sĩ"
+    ],
+    "title": "Khuyên tiếp tục vây Lữ",
+    "evidence": "EVD-B04-034",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷10",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-034 | 15 | [Chính sử] A 建安三年 | 用荀攸、郭嘉計 | Tào muốn rút vì quân mệt, Tuân Du và Quách Gia đề nghị tiếp tục; dùng nước Tứ và Nghi ngập thành; không suy ra hệ thống đê hiện đại. | Hạ Bì; sông Tứ/Nghi |"
+  },
+  {
+    "id": "WIK-guo-jia-B04-034-caocao",
+    "personId": "guo-jia",
+    "year": 198,
+    "episode": "ep-0015",
+    "faction": "caocao",
+    "categories": [
+      "Mưu sĩ"
+    ],
+    "title": "Khuyên tiếp tục vây Lữ",
+    "evidence": "EVD-B04-034",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷14",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-034 | 15 | [Chính sử] A 建安三年 | 用荀攸、郭嘉計 | Tào muốn rút vì quân mệt, Tuân Du và Quách Gia đề nghị tiếp tục; dùng nước Tứ và Nghi ngập thành; không suy ra hệ thống đê hiện đại. | Hạ Bì; sông Tứ/Nghi |"
+  },
+  {
+    "id": "WIK-guo-jia-B04-050-caocao",
+    "personId": "guo-jia",
+    "year": 200,
+    "episode": "ep-0017",
+    "faction": "caocao",
+    "categories": [
+      "Mưu sĩ"
+    ],
+    "title": "Khuyên đánh Lưu Bị",
+    "evidence": "EVD-B04-050",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷14",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-050 | 17 | [Chính sử] A 建安五年春正月 | 郭嘉亦勸公 | Tào đánh Lưu Bị; Quan Vũ hàng ở Hạ Bì, Lưu chạy tới Viên Thiệu. Không nhập ba điều kiện quy hàng của diễn nghĩa hay quá ngũ quan (sau mốc). | Từ Châu; Hà Bắc |"
+  },
+  {
+    "id": "WIK-ren-jun-B04-081-caocao",
+    "personId": "ren-jun",
+    "year": 196,
+    "episode": "ep-0010",
+    "faction": "caocao",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Được Tào giao tổ chức đồn điền",
+    "evidence": "EVD-B04-081",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷16",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-081 | 10 | [Chính sử] 三國志/卷16 任峻 https://zh.wikisource.org/wiki/三國志/卷16 | 太祖以峻為典農中郎將 | Nhậm Tuấn được giao quản đồn điền dân sự ở vùng Hứa; Táo Chi khởi xướng, không quy công một người. | Hứa vùng |"
+  },
+  {
+    "id": "WIK-wu-jing-B04-117-yuan-shu",
+    "personId": "wu-jing",
+    "year": null,
+    "episode": "ep-0012",
+    "faction": "yuan-shu",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Trước khi theo Sách, được Thuật bổ Đan Dương",
+    "evidence": "EVD-B04-117",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷50",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-117 | 12 | [Chính sử] 三國志/卷50 吳夫人 https://zh.wikisource.org/wiki/三國志/卷50 | 術以景為丹楊太守 | Ngô Cảnh cậu Tôn Sách, làm Đan Dương thái thú; sau theo Sách chống Lưu Do; bỏ chức Quảng Lăng khi Sách tuyệt Thuật. | Đan Dương/Quảng Lăng |"
+  },
+  {
+    "id": "WIK-wu-jing-B04-117-sun-ce",
+    "personId": "wu-jing",
+    "year": null,
+    "episode": "ep-0012",
+    "faction": "sun-ce",
+    "categories": [
+      "Quan văn",
+      "Võ tướng"
+    ],
+    "title": "Hỗ trợ Sách chống Lưu Do",
+    "evidence": "EVD-B04-117",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷50",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-117 | 12 | [Chính sử] 三國志/卷50 吳夫人 https://zh.wikisource.org/wiki/三國志/卷50 | 術以景為丹楊太守 | Ngô Cảnh cậu Tôn Sách, làm Đan Dương thái thú; sau theo Sách chống Lưu Do; bỏ chức Quảng Lăng khi Sách tuyệt Thuật. | Đan Dương/Quảng Lăng |"
+  },
+  {
+    "id": "WIK-cheng-pu-B04-093-sun-ce",
+    "personId": "cheng-pu",
+    "year": null,
+    "episode": "ep-0012",
+    "faction": "sun-ce",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "195–196 · chiến dịch Giang Đông",
+    "evidence": "EVD-B04-093",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷55",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-093 | 12 | [Chính sử] 三國志/卷55 程普 L140–142 https://zh.wikisource.org/wiki/三國志/卷55 | 以普爲吳郡都尉 | Trình Phổ theo Tôn Kiên rồi Tôn Sách; đánh Giang Đông, được giao Ngô quận đô úy, trị Tiền Đường; sau Đan Dương đô úy. | Ngô quận/Đan Dương |"
+  },
+  {
+    "id": "WIK-cheng-pu-B04-094-sunquan",
+    "personId": "cheng-pu",
+    "year": 200,
+    "episode": "ep-0018",
+    "faction": "sunquan",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Hỗ trợ Quyền tiếp quản",
+    "evidence": "EVD-B04-094",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷55",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-094 | 18 | [Chính sử] 三國志/卷55 程普 L142–144 https://zh.wikisource.org/wiki/三國志/卷55 | 與張昭等共輔孫權 | Trình Phổ tham gia chiến dịch Lưu Huân/Hoàng Tổ và phụ tá Tôn Quyền sau khi Sách chết; không suy trước chức vụ Xích Bích. | Giang Đông |"
+  },
+  {
+    "id": "WIK-zhang-hong-B04-092-sun-ce",
+    "personId": "zhang-hong",
+    "year": 199,
+    "episode": "ep-0018",
+    "faction": "sun-ce",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Được Sách sai đi sứ",
+    "evidence": "EVD-B04-092",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷53",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-092 | 18 | [Chính sử] 三國志/卷53 張紘 L136–137 https://zh.wikisource.org/wiki/三國志/卷53 | 策遣紘奉章至許宮 | Trương Hoành chính nghị hiệu úy, năm 199 đi sứ Hứa, ở lại làm thị ngự sử; sau Sách chết khuyên Tào không nhân tang đánh Ngô, Tào biểu chức cho Quyền. | Hứa |"
+  },
+  {
+    "id": "WIK-zhang-hong-B04-092-unknown",
+    "personId": "zhang-hong",
+    "year": 200,
+    "episode": "ep-0018",
+    "faction": "unknown",
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Thị ngự sử ở Hứa; khuyên Tào không đánh Ngô, không suy allegiance",
+    "evidence": "EVD-B04-092",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷53",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-092 | 18 | [Chính sử] 三國志/卷53 張紘 L136–137 https://zh.wikisource.org/wiki/三國志/卷53 | 策遣紘奉章至許宮 | Trương Hoành chính nghị hiệu úy, năm 199 đi sứ Hứa, ở lại làm thị ngự sử; sau Sách chết khuyên Tào không nhân tang đánh Ngô, Tào biểu chức cho Quyền. | Hứa |"
+  },
+  {
+    "id": "WIK-sun-fu-B04-091-sun-ce",
+    "personId": "sun-fu",
+    "year": 199,
+    "episode": "ep-0018",
+    "faction": "sun-ce",
+    "categories": [
+      "Võ tướng",
+      "Quan văn"
+    ],
+    "title": "Theo Sách đánh Lưu Huân, giữ Lư Lăng",
+    "evidence": "EVD-B04-091",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷51",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-091 | 18 | [Chính sử] 三國志/卷51 孫輔 L166 https://zh.wikisource.org/wiki/三國志/卷51 | 策立輔為廬陵太守 | Tôn Phụ từng giữ Lịch Dương chống Viên Thuật, theo đánh Lưu Huân, sau được đặt làm Lư Lăng thái thú; không kể phản bội sau này. | Lịch Dương/Lư Lăng |"
+  },
+  {
+    "id": "WIK-sun-qian-B04-089-liubei",
+    "personId": "sun-qian",
+    "year": null,
+    "episode": "ep-0017",
+    "faction": "liubei",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "199–200 · tòng sự, đi liên hệ Viên Thiệu",
+    "evidence": "EVD-B04-089",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷38",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-089 | 17 | [Chính sử] 三國志/卷38 孫乾 L152 https://zh.wikisource.org/wiki/三國志/卷38 | 遣乾自結袁紹 | Tôn Càn là tòng sự được Lưu Bị tuyển khi lĩnh Từ Châu, đi liên hệ Viên Thiệu lúc Lưu Bị rời Tào; thời điểm trong khoảng 199–200. | Từ Châu/Hà Bắc |"
+  },
+  {
+    "id": "WIK-yue-jin-B04-090-caocao",
+    "personId": "yue-jin",
+    "year": 198,
+    "episode": "ep-0015",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Thuộc tướng Tào",
+    "evidence": "EVD-B04-090",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷17",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-090 | 15 | [Chính sử] 三國志/卷17 樂進 L140 https://zh.wikisource.org/wiki/三國志/卷17 | 圍呂布於下邳 | Nhạc Tiến có công trong các chiến dịch An Chúng, Hạ Bì, Xạ Khuyển, Tiểu Bái; không lấy chức năm 206 làm chức ở 198. | các địa danh |"
+  },
+  {
+    "id": "WIK-chen-gui-B04-097-unknown",
+    "personId": "chen-gui",
+    "year": 197,
+    "episode": "ep-0013",
+    "faction": "unknown",
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Bái tướng, khuyên Lữ, từ chối Thuật",
+    "evidence": "EVD-B04-097",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-097 | 13 | [Chính sử] 三國志/卷06 袁術 L182 https://zh.wikisource.org/wiki/三國志/卷06 | 時沛相下邳陳珪 | Trần Khuê làm Bái tướng, từng từ chối Viên Thuật dù con Trần Ứng bị ép làm con tin; thư phản đối xưng đế. Bối cảnh trước/đương 197, không đặt ngày. | Bái/Hạ Bì |"
+  },
+  {
+    "id": "WIK-wu-furen-B04-118-sunquan",
+    "personId": "wu-furen",
+    "year": 200,
+    "episode": "ep-0018",
+    "faction": "sunquan",
+    "categories": [
+      "Khác"
+    ],
+    "title": "Mẹ Quyền, hỗ trợ việc quân quốc; không phải tướng",
+    "evidence": "EVD-B04-118",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷50",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-118 | 18 | [Chính sử] 三國志/卷50 吳夫人 https://zh.wikisource.org/wiki/三國志/卷50 | 夫人助治軍國，甚有補益 | Ngô phu nhân trợ giúp chính sự khi Quyền mới thống nghiệp; không tự đặt tên riêng hoặc vai trò chỉ huy quân. | Giang Đông vùng |"
+  },
+  {
+    "id": "WIK-zang-ba-B04-037-zang-ba",
+    "personId": "zang-ba",
+    "year": 198,
+    "episode": "ep-0015",
+    "faction": "zang-ba",
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Lực lượng địa phương; sau Hạ Bì liên kết Tào",
+    "evidence": "EVD-B04-037",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷18",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-037 | 15 | [Chính sử] A 建安三年 | 公厚納待 | Tào dung nạp Tang Bá và các lực lượng ven biển Thanh/Từ; không coi Từ Châu hoàn toàn ổn định. | Thanh Châu/Từ Châu |"
+  },
+  {
+    "id": "WIK-yuan-tan-B04-051-yuanshao",
+    "personId": "yuan-tan",
+    "year": 200,
+    "episode": "ep-0017",
+    "faction": "yuanshao",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Đón Lưu Bị, được giao Thanh Châu",
+    "evidence": "EVD-B04-051",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-051 | 17 | [Chính sử] C 先主走青州 | 袁譚先主故茂才也 | Viên Đàm đón Lưu ở Thanh Châu, đến Bình Nguyên, Viên Thiệu ra đón; quan hệ tiến cử trước đây được ghi. | Thanh Châu; Bình Nguyên; Nghiệp vùng |"
+  },
+  {
+    "id": "WIK-tian-feng-B04-052-yuanshao",
+    "personId": "tian-feng",
+    "year": 200,
+    "episode": "ep-0017",
+    "faction": "yuanshao",
+    "categories": [
+      "Mưu sĩ"
+    ],
+    "title": "Khuyên tận dụng lúc Tào đánh Lưu",
+    "evidence": "EVD-B04-052",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-052 | 17 | [Sử liệu khác] I 200 tháng 1 | 紹辭以子疾 | Điền Phong đề nghị đánh khi Tào ở phía đông, Thiệu từ chối vì con bệnh theo Thông giám; không suy đoán bệnh của người con nào. | Hà Bắc |"
+  },
+  {
+    "id": "WIK-liu-xun-B04-053-liu-xun",
+    "personId": "liu-xun",
+    "year": 199,
+    "episode": "ep-0018",
+    "faction": "liu-xun",
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Quan văn"
+    ],
+    "title": "Lư Giang thái thú trước khi mất căn cứ",
+    "evidence": "EVD-B04-053",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-053 | 18 | [Chính sử] F 周瑜 建安三年 | 授建威中郎將 | Chu Du rời Viên Thuật về Tôn Sách năm 198, được Kiến uy trung lang tướng; 199 làm Trung hộ quân, đánh Hoàn, hai người lấy hai con gái họ Kiều. Không bịa đối thoại hay đồng thuận hôn nhân. | Cư Sào; Ngô; Hoàn |"
+  },
+  {
+    "id": "WIK-liu-xun-B04-156-caocao",
+    "personId": "liu-xun",
+    "year": 199,
+    "episode": "ep-0018",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Sau khi dẫn quân hàng Tào",
+    "evidence": "EVD-B04-156",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷01",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-156 | 18 | [Chính sử] 三國志/卷01 建安四年 L188 https://zh.wikisource.org/zh-hant/三國志/卷01 | 廬江太守劉勳率衆降 | Lưu Huân dẫn quân hàng Tào, phong liệt hầu sau mất Lư Giang. Điều chỉnh snapshot: không mất mọi quân quyền. | địa điểm nhận hàng không rõ |"
+  },
+  {
+    "id": "WIK-huang-zu-B04-054-liu-biao",
+    "personId": "huang-zu",
+    "year": 199,
+    "episode": "ep-0018",
+    "faction": "liu-biao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Giữ Giang Hạ",
+    "evidence": "EVD-B04-054",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷46",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-054 | 18 | [Chính sử] E 孫權 建安四年 | 從策征廬江太守劉勳 | Tôn Quyền theo anh đánh Lưu Huân, tiếp đánh Hoàng Tổ tại Sa Tiện; không chiếm toàn bộ Giang Hạ. | Lư Giang; Sa Tiện |"
+  },
+  {
+    "id": "WIK-zhu-zhi-B04-065-sun-ce",
+    "personId": "zhu-zhi",
+    "year": 196,
+    "episode": "ep-0012",
+    "faction": "sun-ce",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Ngô quận thái thú",
+    "evidence": "EVD-B04-065",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷51",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-065 | 12 | [Chính sử] 三國志卷46 孫策 | 策自領會稽太守 | Tôn Sách tự lĩnh Cối Kê thái thú, phân Ngô Cảnh giữ Đan Dương, Chu Trị giữ Ngô; Trương Chiêu, Trương Hoành, Tần Tùng, Trần Đoan tham mưu. Không dồn Dự Chương/Lư Lăng 199 vào 196. | Cối Kê, Đan Dương, Ngô cấp quận |"
+  },
+  {
+    "id": "WIK-zhang-xun-B04-025-yuan-shu",
+    "personId": "zhang-xun",
+    "year": 197,
+    "episode": "ep-0013",
+    "faction": "yuan-shu",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Chỉ huy quân chống Lữ",
+    "evidence": "EVD-B04-025",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-025 | 13 | [Chính sử] B 術怒 | 暹、奉從之 | Trần Khuê đề nghị tách Hàn Xiêm, Dương Phụng khỏi liên minh Thuật; họ chuyển phe, Trương Huân thất bại. | Từ Châu/Hoài Nam; chưa xác định chiến trường |"
+  },
+  {
+    "id": "WIK-guan-jing-B04-086-gongsun-zan",
+    "personId": "guan-jing",
+    "year": 199,
+    "episode": "ep-0016",
+    "faction": "gongsun-zan",
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Trưởng sử, khuyên cố thủ",
+    "evidence": "EVD-B04-086",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷08",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-086 | 16 | [Chính sử] 三國志/卷08 公孫瓚 L145 https://zh.wikisource.org/wiki/三國志/卷08 | 長史關靖說瓚曰 | Quan Tĩnh khuyên Công Tôn Toản ở lại; cuối cùng Dịch Kinh thất thủ, Công Tôn Toản tự sát; cái chết Quan Tĩnh là Bùi chú dẫn Hán Tấn xuân thu. | Dịch Kinh chưa định vị |"
+  },
+  {
+    "id": "WIK-wei-zhong-B04-041-caocao",
+    "personId": "wei-zhong",
+    "year": 199,
+    "episode": "ep-0016",
+    "faction": "caocao",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Được Tào giao Hà Nội",
+    "evidence": "EVD-B04-041",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-041 | 16 | [Chính sử] A 建安四年春 | 眭固又殺醜 | Dương Xú giết Trương Dương, Tuy Cố giết Dương Xú, theo Viên Thiệu; Tào Nhân và Sử Hoán đánh bại, Tào lấy Xạ Khuyển, dùng Ngụy Chủng làm Hà Nội thái thú. | Xạ Khuyển; Hà Nội |"
+  },
+  {
+    "id": "WIK-zhu-ling-B04-143-yuanshao",
+    "personId": "zhu-ling",
+    "year": null,
+    "episode": "ep-0017",
+    "faction": "yuanshao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Hồi cố trước 199 · tướng Viên Thiệu được sai trợ Tào",
+    "evidence": "EVD-B04-143",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷17",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-143 | 17 | [Chính sử] 三國志/卷17 徐晃附朱靈 L171 https://zh.wikisource.org/zh-hant/三國志/卷17 | 紹使靈督三營助太祖 | Chu Linh từng là tướng Viên Thiệu, được sai trợ Tào đánh Đào Khiêm, có công; ở lại cùng quân theo Tào. Dùng kết hợp 042/134 cho nhiệm vụ 199, không lấy chức Hậu tướng quân về sau. | Từ Châu vùng |"
+  },
+  {
+    "id": "WIK-zhu-ling-B04-134-caocao",
+    "personId": "zhu-ling",
+    "year": 199,
+    "episode": "ep-0017",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Ở lại theo Tào, được sai chặn Thuật",
+    "evidence": "EVD-B04-134",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷32",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-134 | 17 | [Chính sử] 三國志卷32 先主 L134–137 https://zh.wikisource.org/zh-hant/三國志/卷32 | 督朱靈、路招要擊術 | Lưu Bị làm Tả tướng quân sau Hạ Bì, dẫn Chu Linh/Lộ Chiêu chặn Thuật; Ngô Tử Lan, Vương Tử Phục và Chủng Tập trong âm mưu, Bùi dẫn Khởi cư chú nêu thêm Ngô Thạc; tách lớp. Viên Đàm đón tại Thanh Châu, không coi vị trí gặp Viên Thiệu là thành Nghiệp. | Hứa, Từ Châu, Bình Nguyên, vị trí gặp không rõ |"
+  },
+  {
+    "id": "WIK-xu-qiu-B04-144-han",
+    "personId": "xu-qiu",
+    "year": 199,
+    "episode": "ep-0016",
+    "faction": "han",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Không nhận chức Thuật, dâng ngọc tỷ triều đình",
+    "evidence": "EVD-B04-144",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/後漢書/卷48",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-144 | 16 | [Sử liệu khác] 後漢書/卷48 徐璆 L221–223 https://zh.wikisource.org/zh-hant/後漢書/卷48 | 術死軍破，璆得其盜國璽 | Từ Cầu từng làm Kinh Châu thứ sử, cùng Chu Tuấn phá Khăn Vàng tại Uyển năm 184, sau làm Nhữ Nam thái thú, Đông Hải tướng; được triệu làm Đình úy sau dời đô, bị Thuật giữ, không nhận thượng công, sau 199 đưa ngọc tỷ về Hứa. Không gán chức Thái thường ở mốc này. | Uyển hồi tưởng; Hứa, nơi bị giữ không rõ |"
+  },
+  {
+    "id": "WIK-xu-gong-B04-147-unknown",
+    "personId": "xu-gong",
+    "year": null,
+    "episode": "ep-0018",
+    "faction": "unknown",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Trước 200 · cựu Ngô quận thái thú",
+    "evidence": "EVD-B04-147",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷46",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-147 | 18 | [Bùi chú] 三國志/卷46 孫策 引江表傳 L152 https://zh.wikisource.org/zh-hant/三國志/卷46 | 吳郡太守許貢上表於漢帝 | Hứa Cống từng giữ Ngô quận; Giang biểu truyện chép tấu đề nghị triệu Tôn Sách về kinh, Sách biết và giết Cống; chính văn xác nhận Cống chết bởi Sách và khách trả thù. Không dùng chi tiết tấu biểu như chứng cứ chính văn. | Ngô quận vùng |"
+  },
+  {
+    "id": "WIK-yan-xiang-B04-148-yuan-shu",
+    "personId": "yan-xiang",
+    "year": 195,
+    "episode": "ep-0013",
+    "faction": "yuan-shu",
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Chủ bạ, can Thuật không xưng đế",
+    "evidence": "EVD-B04-148",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷06",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-148 | 13 | [Chính sử] 三國志/卷06 袁術 L183 https://zh.wikisource.org/zh-hant/三國志/卷06 | 主簿閻象進曰 | Diêm Tượng là chủ bạ, viện chuyện Chu Văn Vương can Thuật không xưng đế vào cuối 195. Không gán lời can năm 197; EP13 hồi tưởng rõ. | Hoài Nam vùng |"
+  },
+  {
+    "id": "WIK-zhang-he-B04-153-han-fu",
+    "personId": "zhang-he",
+    "year": null,
+    "episode": "ep-0016",
+    "faction": "han-fu",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Hồi cố trước 199 · từng thuộc Hàn Phức",
+    "evidence": "EVD-B04-153",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷17",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-153 | 16 | [Chính sử] 三國志/卷17 張郃 L152 https://zh.wikisource.org/zh-hant/三國志/卷17 | 瓚破，郃功多，遷寧國中郎將 | Trương Hợp từng thuộc Hàn Phức, theo Viên Thiệu, làm Hiệu úy chống Công Tôn Toản, có công được thăng Ninh Quốc trung lang tướng. Không kể đầu hàng Tào ở Quan Độ trong batch này. | U/Ký Châu vùng |"
+  },
+  {
+    "id": "WIK-zhang-he-B04-153-yuanshao",
+    "personId": "zhang-he",
+    "year": 199,
+    "episode": "ep-0016",
+    "faction": "yuanshao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Theo Viên Thiệu, Ninh Quốc trung lang tướng",
+    "evidence": "EVD-B04-153",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷17",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-153 | 16 | [Chính sử] 三國志/卷17 張郃 L152 https://zh.wikisource.org/zh-hant/三國志/卷17 | 瓚破，郃功多，遷寧國中郎將 | Trương Hợp từng thuộc Hàn Phức, theo Viên Thiệu, làm Hiệu úy chống Công Tôn Toản, có công được thăng Ninh Quốc trung lang tướng. Không kể đầu hàng Tào ở Quan Độ trong batch này. | U/Ký Châu vùng |"
+  },
+  {
+    "id": "WIK-liu-dai-199-B04-155-caocao",
+    "personId": "liu-dai-199",
+    "year": 199,
+    "episode": "ep-0017",
+    "faction": "caocao",
+    "categories": [
+      "Quan văn",
+      "Võ tướng"
+    ],
+    "title": "Tư không trưởng sử, được sai đánh Lưu Bị",
+    "evidence": "EVD-B04-155",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷01",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-155 | 17 | [Bùi chú] 三國志/卷01 建安四年 引魏武故事／魏略 L186 https://zh.wikisource.org/zh-hant/三國志/卷01 | 以司空長史從征伐有功 | Lưu Đại người Bái, tự Công Sơn, làm Tư không trưởng sử, theo chiến dịch có công, phong liệt hầu (ngày không rõ); Vương Trung từng là đình trưởng, tập hợp quân theo Tào, được trung lang tướng. Không nhập hai Lưu Đại khác nhau. | Tiểu Bái/Từ Châu |"
+  },
+  {
+    "id": "WIK-wang-zhong-B04-155-caocao",
+    "personId": "wang-zhong",
+    "year": 199,
+    "episode": "ep-0017",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Trung lang tướng Tào",
+    "evidence": "EVD-B04-155",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷01",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-155 | 17 | [Bùi chú] 三國志/卷01 建安四年 引魏武故事／魏略 L186 https://zh.wikisource.org/zh-hant/三國志/卷01 | 以司空長史從征伐有功 | Lưu Đại người Bái, tự Công Sơn, làm Tư không trưởng sử, theo chiến dịch có công, phong liệt hầu (ngày không rõ); Vương Trung từng là đình trưởng, tập hợp quân theo Tào, được trung lang tướng. Không nhập hai Lưu Đại khác nhau. | Tiểu Bái/Từ Châu |"
+  },
+  {
+    "id": "WIK-yuan-xi-B04-157-yuanshao",
+    "personId": "yuan-xi",
+    "year": 199,
+    "episode": "ep-0016",
+    "faction": "yuanshao",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Quanh 199 · được giao U Châu",
+    "evidence": "EVD-B04-157",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷06",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-157 | 16 | [Bùi chú] 三國志/卷06 袁紹 引九州春秋 L167 https://zh.wikisource.org/zh-hant/三國志/卷06 | 譚始至青州，為都督，未為刺史 | Viên Đàm ban đầu làm đô đốc, chưa là thứ sử, sau Tào bổ. Cần phân biệt thời điểm chức danh; bản chính ghi giao Thanh Châu, U Châu cho Viên Hy và Tịnh Châu cho Cao Cán. Viên Đàm đánh Điền Khải và Khổng Dung; không định mọi biến cố trong năm 199. | Thanh Châu/U Châu/Tịnh Châu |"
+  },
+  {
+    "id": "WIK-gao-gan-B04-157-yuanshao",
+    "personId": "gao-gan",
+    "year": 199,
+    "episode": "ep-0016",
+    "faction": "yuanshao",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Quanh 199 · được giao Tịnh Châu",
+    "evidence": "EVD-B04-157",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷06",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-157 | 16 | [Bùi chú] 三國志/卷06 袁紹 引九州春秋 L167 https://zh.wikisource.org/zh-hant/三國志/卷06 | 譚始至青州，為都督，未為刺史 | Viên Đàm ban đầu làm đô đốc, chưa là thứ sử, sau Tào bổ. Cần phân biệt thời điểm chức danh; bản chính ghi giao Thanh Châu, U Châu cho Viên Hy và Tịnh Châu cho Cao Cán. Viên Đàm đánh Điền Khải và Khổng Dung; không định mọi biến cố trong năm 199. | Thanh Châu/U Châu/Tịnh Châu |"
+  },
+  {
+    "id": "WIK-cao-cao-0003-han",
+    "personId": "cao-cao",
+    "year": 184,
+    "episode": "ep-0002",
+    "faction": "han",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Kỵ đô úy, chống Khăn Vàng",
+    "evidence": "EVD-0003",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-0003 | Cao Cao participated in suppression | 「拜騎都尉，討潁川賊」 | SRC-0001, 武帝紀, 光和末 paragraph, outside bracketed commentary | Trần Thọ ghi Tào Tháo được bổ nhiệm kỵ đô úy và tham chiến ở Dĩnh Xuyên | Passage located |"
+  },
+  {
+    "id": "WIK-cao-cao-B02-001-caocao",
+    "personId": "cao-cao",
+    "year": 190,
+    "episode": "ep-0004",
+    "faction": "caocao",
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Hành Phấn Vũ tướng quân, trong liên minh",
+    "evidence": "EVD-B02-001",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B02-001 | [Chính sử] SRC-0001 武帝紀 初平元年: 推紹爲盟主；太祖行奮武將軍 | Tháng 1/190: Viên Thiệu được tôn minh chủ; Tào Tháo hành Phấn Vũ tướng quân. EVD-0008 complements. | Quan Đông, region, not a single camp |"
+  },
+  {
+    "id": "WIK-xun-yu-B04-004-caocao",
+    "personId": "xun-yu",
+    "year": 196,
+    "episode": "ep-0010",
+    "faction": "caocao",
+    "categories": [
+      "Mưu sĩ"
+    ],
+    "title": "Khuyên đón thiên tử",
+    "evidence": "EVD-B04-004",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷10",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-004 | 10 | [Chính sử] A 建安元年 | 荀彧、程昱勸之 | Tào muốn đón vua, Tuân Úc và Trình Dục khuyên; Tào Hồng bị ngăn. Không kể như Tào một mình cứu vua. | hướng tây; không định tuyến |"
+  },
+  {
+    "id": "WIK-zhang-liao-B04-114-lu-bu",
+    "personId": "zhang-liao",
+    "year": 198,
+    "episode": "ep-0015",
+    "faction": "lu-bu",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Trước khi dẫn quân hàng Tào",
+    "evidence": "EVD-B04-114",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷17",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-114 | 15 | [Chính sử] 三國志/卷17 張遼 https://zh.wikisource.org/wiki/三國志/卷17 | 遼將其衆降，拜中郎將 | Trương Liêu theo Lữ, dẫn quân hàng Tào sau Hạ Bì, được trung lang tướng, Quan nội hầu; không kể Bạch Lang Sơn trước mốc. | Hạ Bì |"
+  },
+  {
+    "id": "WIK-hou-cheng-B04-035-caocao",
+    "personId": "hou-cheng",
+    "year": 198,
+    "episode": "ep-0015",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Sau khi bắt Trần Cung, đầu hàng Tào",
+    "evidence": "EVD-B04-035",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-035 | 15 | [Chính sử] B 建安三年 | 侯成、宋憲、魏續縛陳宮 | Các tướng Hầu Thành, Tống Hiến, Ngụy Tục bắt Trần Cung và hàng; Lữ xuống Bạch Môn Lâu đầu hàng. Lưu nhắc Đinh Nguyên, Đổng Trác; Lữ, Cung, Thuận bị xử tử. | Hạ Bì; lầu chưa định vị |"
+  },
+  {
+    "id": "WIK-wei-xu-B04-035-caocao",
+    "personId": "wei-xu",
+    "year": 198,
+    "episode": "ep-0015",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Sau khi bắt Trần Cung, đầu hàng Tào",
+    "evidence": "EVD-B04-035",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-035 | 15 | [Chính sử] B 建安三年 | 侯成、宋憲、魏續縛陳宮 | Các tướng Hầu Thành, Tống Hiến, Ngụy Tục bắt Trần Cung và hàng; Lữ xuống Bạch Môn Lâu đầu hàng. Lưu nhắc Đinh Nguyên, Đổng Trác; Lữ, Cung, Thuận bị xử tử. | Hạ Bì; lầu chưa định vị |"
+  },
+  {
+    "id": "WIK-zhang-xiu-B04-044-caocao",
+    "personId": "zhang-xiu",
+    "year": 199,
+    "episode": "ep-0017",
+    "faction": "caocao",
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Tháng 11 âm lịch, dẫn quân hàng Tào",
+    "evidence": "EVD-B04-044",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷08",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-044 | 17 | [Chính sử] A 建安四年冬十一月 | 張繡率衆降 | Tháng 11 Trương Tú hàng Tào, phong liệt hầu; không lẫn đầu hàng 197. | Hứa; điểm tiếp nhận không ghi |"
+  },
+  {
+    "id": "WIK-xu-huang-B04-151-yang-feng",
+    "personId": "xu-huang",
+    "year": null,
+    "episode": "ep-0010",
+    "faction": "yang-feng",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Trước khi chuyển theo Tào · Kỵ đô úy",
+    "evidence": "EVD-B04-151",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷17",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-151 | 10 | [Chính sử] 三國志/卷17 徐晃 L162–163 https://zh.wikisource.org/zh-hant/三國志/卷17 | 晃説奉，令與天子還洛陽 | Từ Hoảng từng giúp Dương Phụng, có chức Kỵ đô úy, được phong Đô đình hầu ở An Ấp; khuyên theo Tào; sau khi Tào đánh Phụng ở Lương thì về Tào, được giao quân, phong Bì tướng quân sau chiến công. Không đặt ngày chính xác nếu tiểu truyện không ghi. | An Ấp, Lạc Dương, Lương vùng |"
+  },
+  {
+    "id": "WIK-xu-huang-B04-151-caocao",
+    "personId": "xu-huang",
+    "year": null,
+    "episode": "ep-0010",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Sau khi chuyển theo Tào · chưa chắc ngày",
+    "evidence": "EVD-B04-151",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷17",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-151 | 10 | [Chính sử] 三國志/卷17 徐晃 L162–163 https://zh.wikisource.org/zh-hant/三國志/卷17 | 晃説奉，令與天子還洛陽 | Từ Hoảng từng giúp Dương Phụng, có chức Kỵ đô úy, được phong Đô đình hầu ở An Ấp; khuyên theo Tào; sau khi Tào đánh Phụng ở Lương thì về Tào, được giao quân, phong Bì tướng quân sau chiến công. Không đặt ngày chính xác nếu tiểu truyện không ghi. | An Ấp, Lạc Dương, Lương vùng |"
+  },
+  {
+    "id": "WIK-yu-fan-B04-078-wang-lang",
+    "personId": "yu-fan",
+    "year": null,
+    "episode": "ep-0012",
+    "faction": "wang-lang",
+    "categories": [
+      "Quan văn",
+      "Mưu sĩ"
+    ],
+    "title": "Công tào Vương Lãng, khuyên tránh giao chiến",
+    "evidence": "EVD-B04-078",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷57",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-078 | 12 | [Chính sử] 三國志卷13 王朗 | 朗自以身爲漢吏，宜保城邑 | Vương Lãng là Cối Kê thái thú do Hán phong, Ngu Phiên khuyên tránh; Lãng cố giữ rồi thua, chạy Đông Dã, hàng Sách; không kết luận Lãng thiếu chính danh vì thua trận. | Cối Kê, Đông Dã |"
+  },
+  {
+    "id": "WIK-chen-gong-B03-024-lu-bu",
+    "personId": "chen-gong",
+    "year": 194,
+    "episode": "ep-0008",
+    "faction": "lu-bu",
+    "categories": [
+      "Mưu sĩ"
+    ],
+    "title": "Đón Lữ Bố cùng Trương Mạc",
+    "evidence": "EVD-B03-024",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-024 | [Chính sử] B 張邈 興平元年: 共謀叛太祖 | 194 Zhang Miao, brother Zhang Chao, Chen Gong, Xu Si and Wang Kai welcome Lü Bu as Duyện Châu mục; recorded speech argues for independent position; text gives Miao fear of Cao siding with Yuan. No invented single motive or Diễn Nghĩa rescue debt | Trần Lưu/Duyện Châu/Bộc Dương |"
+  },
+  {
+    "id": "WIK-sun-ben-B04-116-sun-ce",
+    "personId": "sun-ben",
+    "year": 197,
+    "episode": "ep-0013",
+    "faction": "sun-ce",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Từ chối chức Viên Thuật, về Giang Nam",
+    "evidence": "EVD-B04-116",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷51",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-116 | 13 | [Chính sử] 三國志/卷51 孫賁 https://zh.wikisource.org/wiki/三國志/卷51 | 賁不就，棄妻孥還江南 | Tôn Bí từ chối Cửu Giang thái thú do Thuật phong, về Giang Nam; năm 199 tham chiến và giữ Dự Chương. | Giang Nam/Dự Chương |"
+  },
+  {
+    "id": "WIK-sun-ce-B04-021-sun-ce",
+    "personId": "sun-ce",
+    "year": 197,
+    "episode": "ep-0013",
+    "faction": "sun-ce",
+    "categories": [
+      "Quân chủ / Thủ lĩnh",
+      "Võ tướng"
+    ],
+    "title": "Cống triều đình sau tuyệt giao Thuật",
+    "evidence": "EVD-B04-021",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷46",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-021 | 13 | [Sử liệu khác] G 建安二年 | 袁術自稱天子 | Mùa xuân 197 Viên Thuật xưng thiên tử; năm đó nạn đói Giang Hoài, giết Trần vương Lưu Sủng; Tôn Sách cống triều đình. | Hoài Nam; Trần |"
+  },
+  {
+    "id": "WIK-liu-bei-B03-006-gongsun-zan",
+    "personId": "liu-bei",
+    "year": null,
+    "episode": "ep-0007",
+    "faction": "gongsun-zan",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "192–193 · phối hợp lực lượng Công Tôn Toản",
+    "evidence": "EVD-B03-006",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷32",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B03-006 | [Chính sử] A 初平三年: 太祖與紹會擊，皆破之 | Yuan Shu seeks Gongsun Zan aid; Liu Bei at Cao Đường, Thiền Kinh at Bình Nguyên, Tao Qian at Phát Can; Cao and Yuan Shao defeat opponents. Do not conflate Cao Đường with Gaotang modern exact site | regional named counties; no linked route |"
+  },
+  {
+    "id": "WIK-guan-yu-B04-120-liubei",
+    "personId": "guan-yu",
+    "year": 199,
+    "episode": "ep-0017",
+    "faction": "liubei",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Giữ Hạ Bì trước khi bị bắt",
+    "evidence": "EVD-B04-120",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷36",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-120 | 17 | [Chính sử] 三國志/卷36 關羽 https://zh.wikisource.org/wiki/三國志/卷36 | 行太守事 | Quan Vũ giữ Hạ Bì và hành thái thú sự; lúc bị bắt được phong thiên tướng quân (偏將軍). | Hạ Bì |"
+  },
+  {
+    "id": "WIK-guan-yu-B04-095-caocao",
+    "personId": "guan-yu",
+    "year": 200,
+    "episode": "ep-0017",
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Sau khi bị bắt, được bổ Thiên tướng quân",
+    "evidence": "EVD-B04-095",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志_(四庫全書本)/蜀志/卷06",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-095 | 17 | [Chính sử] 三國志_(四庫全書本)/蜀志/卷06 關羽 https://zh.wikisource.org/wiki/三國志_(四庫全書本)/蜀志/卷06 | 拜為偏將軍 | Quan Vũ giữ Hạ Bì, hành thái thú sự khi Lưu Bị chiếm Từ Châu; bị bắt 200, được Tào bổ Thiên tướng quân (偏將軍). Phải cập nhật 050 và radar, không chờ B05 mới ghi chức. Bạch Mã sau mốc. | Hạ Bì |"
+  },
+  {
+    "id": "WIK-sui-gu-B04-041-yuanshao",
+    "personId": "sui-gu",
+    "year": 199,
+    "episode": "ep-0016",
+    "faction": "yuanshao",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Sau khi giết Dương Xú, theo Viên Thiệu",
+    "evidence": "EVD-B04-041",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷08",
+    "sourceLabel": "Nguồn hồ sơ (đối chiếu evidence registry)",
+    "basis": "| EVD-B04-041 | 16 | [Chính sử] A 建安四年春 | 眭固又殺醜 | Dương Xú giết Trương Dương, Tuy Cố giết Dương Xú, theo Viên Thiệu; Tào Nhân và Sử Hoán đánh bại, Tào lấy Xạ Khuyển, dùng Ngụy Chủng làm Hà Nội thái thú. | Xạ Khuyển; Hà Nội |"
+  },
+  {
+    "id": "WIK-zhang-zhao-B04-067-sunquan",
+    "personId": "zhang-zhao",
+    "year": 200,
+    "episode": "ep-0018",
+    "faction": "sunquan",
+    "categories": [
+      "Quan văn"
+    ],
+    "title": "Trưởng sử hỗ trợ tiếp quản",
+    "evidence": "EVD-B04-067",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷52",
+    "sourceLabel": "Sử liệu trong evidence registry",
+    "basis": "| EVD-B04-067 | 18 | [Chính sử] 三國志卷52 張昭 https://zh.wikisource.org/wiki/三國志/卷52 | 昭率群僚立而輔之 | Chiêu tập hợp quan lại phụ tá Quyền, báo Hán đình và các thành thuộc quyền, thúc Quyền ra tiếp quản. | Ngô |"
+  }
+]
