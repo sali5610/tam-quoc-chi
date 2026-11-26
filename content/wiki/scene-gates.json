@@ -188,5 +188,205 @@
     "episode": "ep-0018",
     "visualId": "B04-V18-04",
     "anchor": "Tôn Quyền nhận cơ nghiệp với sự trợ giúp của cả quan lại và tướng lĩnh cũ."
+  },
+  "court-168": {
+    "episode": "ep-0001",
+    "anchor": "Hán Linh Đế lên ngôi khi còn nhỏ",
+    "kind": "paragraph",
+    "source": "後漢書/卷8",
+    "evidenceIds": []
+  },
+  "changshe-184": {
+    "episode": "ep-0002",
+    "anchor": "Rồi Tào Tháo đem quân đến",
+    "kind": "paragraph",
+    "source": "後漢書/卷71",
+    "evidenceIds": []
+  },
+  "capital-189": {
+    "episode": "ep-0003",
+    "anchor": "Đổng Trác đến kinh thành, nắm ảnh hưởng quân sự và thúc đẩy việc phế Hán Thiếu Đế",
+    "kind": "paragraph",
+    "source": "三國志/卷06",
+    "evidenceIds": []
+  },
+  "luoyang-190": {
+    "episode": "ep-0004",
+    "anchor": "Đổng Trác đốt cung miếu và nhà dân ở Lạc Dương",
+    "kind": "paragraph",
+    "source": "後漢書/卷9",
+    "evidenceIds": []
+  },
+  "luoyang-191": {
+    "episode": "ep-0005",
+    "anchor": "Tôn Kiên sửa sang các lăng mộ",
+    "kind": "paragraph",
+    "source": "三國志/卷46",
+    "evidenceIds": []
+  },
+  "changan-192": {
+    "episode": "ep-0006",
+    "anchor": "Lữ Bố và Lý Túc, một viên quan quân sự giữ chức kỵ đô úy, tham gia việc này",
+    "kind": "paragraph",
+    "source": "三國志/卷07",
+    "evidenceIds": []
+  },
+  "yan-invitation-192": {
+    "episode": "ep-0007",
+    "anchor": "Sau cái chết của Lưu Đại, Bảo Tín cùng các quan trong châu",
+    "kind": "paragraph",
+    "source": "三國志/卷01",
+    "evidenceIds": [
+      "EVD-B03-001",
+      "EVD-B03-002",
+      "EVD-B03-003"
+    ]
+  },
+  "qingzhou-surrender-192": {
+    "episode": "ep-0007",
+    "anchor": "Vũ Đế kỷ ghi lực lượng Khăn Vàng đầu hàng ở Tế Bắc.",
+    "kind": "paragraph",
+    "source": "三國志/卷01",
+    "evidenceIds": [
+      "EVD-B03-004",
+      "EVD-B03-005"
+    ]
+  },
+  "fengqiu-193": {
+    "episode": "ep-0007",
+    "anchor": "Đường tiếp tế bị chặn khiến Viên Thuật phải đổi địa bàn.",
+    "kind": "paragraph",
+    "source": "三國志/卷01",
+    "evidenceIds": [
+      "EVD-B03-007"
+    ]
+  },
+  "you-conflict-193": {
+    "episode": "ep-0007",
+    "anchor": "Lưu Ngu thất bại, bị bắt và bị giết trong mùa đông.",
+    "kind": "paragraph",
+    "source": "資治通鑑/卷060",
+    "evidenceIds": [
+      "EVD-B03-010",
+      "EVD-B03-060"
+    ]
+  },
+  "xu-campaign-193": {
+    "episode": "ep-0008",
+    "anchor": "Mùa thu năm 193, Tào Tháo đánh Từ Châu.",
+    "kind": "paragraph",
+    "source": "三國志/卷01",
+    "evidenceIds": [
+      "EVD-B03-015",
+      "EVD-B03-016",
+      "EVD-B03-017",
+      "EVD-B03-018",
+      "EVD-B03-019"
+    ]
+  },
+  "xu-relief-194": {
+    "episode": "ep-0008",
+    "anchor": "Ông được tiến cử làm Dự Châu thứ sử",
+    "kind": "paragraph",
+    "source": "三國志/卷32",
+    "evidenceIds": [
+      "EVD-B03-020",
+      "EVD-B03-021"
+    ]
+  },
+  "yan-rebellion-194": {
+    "episode": "ep-0008",
+    "anchor": "Trương Mạc và Trần Cung đón Lữ Bố làm Duyện Châu mục.",
+    "kind": "paragraph",
+    "source": "三國志/卷01",
+    "evidenceIds": [
+      "EVD-B03-022",
+      "EVD-B03-023",
+      "EVD-B03-024"
+    ]
+  },
+  "puyang-contest-194": {
+    "episode": "ep-0009",
+    "anchor": "sau đó được bổ đô úy",
+    "kind": "paragraph",
+    "source": "三國志/卷01",
+    "evidenceIds": [
+      "EVD-B03-032",
+      "EVD-B03-033",
+      "EVD-B03-034",
+      "EVD-B03-057"
+    ]
+  },
+  "capital-famine-194": {
+    "episode": "ep-0009",
+    "anchor": "Hạn hán và châu chấu gây thiếu đói nghiêm trọng tại vùng kinh đô.",
+    "kind": "paragraph",
+    "source": "後漢書/卷9",
+    "evidenceIds": [
+      "EVD-B03-036",
+      "EVD-B03-037"
+    ]
+  },
+  "dingtao-recovery-195": {
+    "episode": "ep-0009",
+    "anchor": "Lữ Bố nương nhờ Lưu Bị, chưa chiếm Hạ Bì.",
+    "kind": "paragraph",
+    "source": "三國志/卷01",
+    "evidenceIds": [
+      "EVD-B03-038",
+      "EVD-B03-039",
+      "EVD-B03-040"
+    ]
+  },
+  "court-detained-195": {
+    "episode": "ep-0009",
+    "anchor": "Lý Giác giữ hoàng đế, Quách Dĩ giữ các đại thần.",
+    "kind": "paragraph",
+    "source": "資治通鑑/卷061",
+    "evidenceIds": [
+      "EVD-B03-042",
+      "EVD-B03-043",
+      "EVD-B03-044",
+      "EVD-B03-045"
+    ]
+  },
+  "court-departure-195": {
+    "episode": "ep-0009",
+    "anchor": "Tháng bảy, hoàng đế được rời Trường An đi về phía đông.",
+    "kind": "paragraph",
+    "source": "後漢書/卷9",
+    "evidenceIds": [
+      "EVD-B03-046"
+    ]
+  },
+  "court-retreat-195": {
+    "episode": "ep-0009",
+    "anchor": "Tháng chạp năm 195, thiên tử tới An Ấp.",
+    "kind": "paragraph",
+    "source": "後漢書/卷9",
+    "evidenceIds": [
+      "EVD-B03-047",
+      "EVD-B03-048"
+    ]
+  },
+  "yongqiu-195": {
+    "episode": "ep-0009",
+    "anchor": "Tháng chạp, Ung Khâu thất thủ, Trương Siêu chết.",
+    "kind": "paragraph",
+    "source": "三國志/卷01",
+    "evidenceIds": [
+      "EVD-B03-041",
+      "EVD-B03-052"
+    ]
+  },
+  "sun-ce-liyang-195": {
+    "episode": "ep-0009",
+    "anchor": "Tôn Sách tập hợp lực lượng tại Lịch Dương.",
+    "kind": "paragraph",
+    "source": "三國志/卷01",
+    "evidenceIds": [
+      "EVD-B03-050",
+      "EVD-B03-055"
+    ]
   }
 }

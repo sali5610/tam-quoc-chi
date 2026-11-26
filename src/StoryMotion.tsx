@@ -4,9 +4,9 @@ import {annotate} from 'rough-notation';
 import {Grip,RotateCcw,ChevronDown,Stamp} from 'lucide-react';
 
 // The animation never conceals essential text or changes its document position.
-export function Unveil({children,as='div',className,id}:{children:ReactNode;as?:'div'|'p'|'h2';className?:string;id?:string}){
+export function Unveil({children,as='div',className,id,revealEvents}:{children:ReactNode;as?:'div'|'p'|'h2';className?:string;id?:string;revealEvents?:string}){
  const reduced=useReducedMotion();const Tag=as==='p'?motion.p:as==='h2'?motion.h2:motion.div;
- return <Tag id={id} className={className} data-unveil="" initial={reduced?false:{opacity:.76,y:6}} whileInView={{opacity:1,y:0}} viewport={{once:true,amount:.12}} transition={{duration:.38,ease:[.22,1,.36,1]}}>{children}</Tag>
+ return <Tag id={id} className={className} data-reveal-events={revealEvents} data-unveil="" initial={reduced?false:{opacity:.76,y:6}} whileInView={{opacity:1,y:0}} viewport={{once:true,amount:.12}} transition={{duration:.38,ease:[.22,1,.36,1]}}>{children}</Tag>
 }
 export function HandMark({children,type}:{children:ReactNode;type:'circle'|'underline'}){
  const ref=useRef<HTMLSpanElement>(null);const visible=useInView(ref,{once:true,amount:.1});const reduced=useReducedMotion();

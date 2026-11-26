@@ -1,3 +1,4 @@
+import sceneGates from '../content/wiki/scene-gates.json';
 import {EpisodeVisual,episodeVisuals} from './EpisodeVisual';
 import {List,Type,BookmarkPlus,BookmarkCheck,MapPin,ArrowDown,X,Minus,Plus,ArrowLeft,ArrowRight,Images,Volume2,VolumeX,Trash2,MessageSquare} from 'lucide-react';import {Unveil,HandMark,DecisionSeal,InkReveal,PaperScrap} from './StoryMotion';import {storyBeats} from './story-beats';
 import {CharacterQuotes} from './CharacterQuotes';
@@ -86,7 +87,7 @@ export function StoryBody({body,id,satire=true}:{body:string,id:string,satire?:b
 // Keep Markdown renderers and native disclosures mounted when the profile dialog changes.
 const StoryContent=memo(function StoryContent({body,id,satire,openPerson}:{body:string;id:string;satire:boolean;openPerson:(name:string,target:HTMLElement)=>void}){
  const {story,sources}=readerCopy(body);const list=scenes(story);
- const beats=storyBeats[id];const visuals=episodeVisuals.filter(v=>v.episode===id);const visual=(raw:string,placement:string)=>visuals.filter(v=>v.placement===placement&&(placement==='blockquote'?raw.includes(v.anchor):raw.startsWith(v.anchor))).map(v=><EpisodeVisual key={v.id} visual={v} person={n=><button className="v6-person" aria-label={'Hồ sơ '+n} onClick={e=>openPerson(n,e.currentTarget)}><Portrait name={n}/></button>}/>);const flatten=(n:any):string=>n?.value||n?.children?.map(flatten).join('')||'';
+ const beats=storyBeats[id];const visuals=episodeVisuals.filter(v=>v.episode===id);const visual=(raw:string,placement:string)=>visuals.filter(v=>v.placement===placement&&(placement==='blockquote'?raw.includes(v.anchor):raw.startsWith(v.anchor))).map(v=><EpisodeVisual key={v.id} visual={v} person={n=><button className="v6-person" aria-label={'Hồ sơ '+n} onClick={e=>openPerson(n,e.currentTarget)}><Portrait name={n}/></button>}/>);const flatten=(n:any):string=>n?.value||n?.children?.map(flatten).join('')||'';const revealIds=(raw:string)=>Object.entries(sceneGates as Record<string,{episode:string;anchor:string;kind?:string}>).filter(([_,g])=>g.kind==='paragraph'&&g.episode===id&&raw.includes(g.anchor)).map(([id])=>id).join(' ')||undefined;
  // B03 plain-text names with a canonical Wiki backlink may not have an
  // explicit bold marker. Link those names without changing source Markdown,
  // flattening, evidence anchors, or the existing visual and motion hierarchy.
@@ -109,7 +110,7 @@ const StoryContent=memo(function StoryContent({body,id,satire,openPerson}:{body:
  a:({href,children})=>{let decoded=href;try{decoded=href?decodeURIComponent(href):href}catch{}const target=episodes.find(e=>e.source.split('/').pop()===decoded);return <a href={target?'#/read/'+target.id:href}>{children}</a>},
  strong:({children})=>{const n=typeof children==='string'?children:'';if(n==='[Châm biếm của biên tập]'||n==='[Ngẫm chuyện nay · Góc nhìn hiện đại]')return null;const item=people[n]?<button className="inline-person" data-person-name={n} onClick={e=>openPerson(n,e.currentTarget)}>{n}</button>:<strong>{linkPlain(children)}</strong>;const type=beats?.circle.includes(n)?'circle':beats?.underline.includes(n)?'underline':null;return type?<HandMark type={type}>{item}</HandMark>:item},
  h1:()=>null,
- p:({children,node})=>{const raw=flatten(node);const decision=beats?.decisions.find(d=>raw.includes(d.anchor));const reveal=id<'ep-0010'&&beats?.reveal&&raw.startsWith(beats.reveal.anchor)?beats.reveal:null;if(reveal)return <InkReveal title={reveal.title}><p>{children}</p></InkReveal>;return <><Unveil as="p" id={node?.position?.start.line?id+'-block-'+node.position.start.line:undefined}>{markText(children)}{decision&&<DecisionSeal>{decision.label}</DecisionSeal>}</Unveil>{visual(raw,'paragraph')}</>},
+ p:({children,node})=>{const raw=flatten(node);const decision=beats?.decisions.find(d=>raw.includes(d.anchor));const reveal=id<'ep-0010'&&beats?.reveal&&raw.startsWith(beats.reveal.anchor)?beats.reveal:null;if(reveal)return <InkReveal title={reveal.title}><p>{children}</p></InkReveal>;return <><Unveil as="p" revealEvents={revealIds(raw)} id={node?.position?.start.line?id+'-block-'+node.position.start.line:undefined}>{markText(children)}{decision&&<DecisionSeal>{decision.label}</DecisionSeal>}</Unveil>{visual(raw,'paragraph')}</>},
  blockquote:({children,node})=>{
  const flatten=(n:any):string=>n?.value||n?.children?.map(flatten).join("")||"";
  const raw=flatten(node);const humor=raw.includes("[Châm biếm của biên tập]");const modern=raw.includes("[Ngẫm chuyện nay");
@@ -118,5 +119,5 @@ const StoryContent=memo(function StoryContent({body,id,satire,openPerson}:{body:
  return <>{humor?(satire?<blockquote className="story-aside story-humor">{children}</blockquote>:null):modern?(satire?<blockquote className="story-aside"><InkReveal title="Ngẫm chuyện nay">{children}</InkReveal></blockquote>:null):<blockquote className="story-aside"><InkReveal title={title&&title.length<85?title:raw.includes("Tiểu thuyết")?"Chuyện trong Tam Quốc diễn nghĩa":"Chuyện bên lề"}>{children}</InkReveal></blockquote>}{art.map(a=><SceneArt key={a.id} art={a}/>)}{visual(raw,'blockquote')}</>
  },
  h2:({children})=><><Unveil as="h2" className="scene-title" id={id+'-scene-'+list.indexOf(String(children))}>{children}</Unveil>{sceneArt.filter(a=>a.episode===id&&a.placement==='heading'&&childText(children)===a.anchor).map(a=><SceneArt key={a.id} art={a}/>)}</>
- }}>{story}</Markdown>{sources&&<details className="source episode-sources"><summary>Nguồn tham khảo</summary><Markdown>{sources}</Markdown></details>}</div></>
+ }}>{story}</Markdown><span data-reader-end={id} aria-hidden="true"/>{sources&&<details className="source episode-sources"><summary>Nguồn tham khảo</summary><Markdown>{sources}</Markdown></details>}</div></>
 })
