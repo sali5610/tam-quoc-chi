@@ -43,7 +43,7 @@ function readerCopy(body:string){
   if(/^>\s*EVD-/.test(line)){sources.push(line.replace(/^>\s*/,''));return false}
   return true
  }).join('\n');
- const clean=(s:string)=>s.replace(/\bEVD-B0[34]-\d{3}(?:[–-]\d{3})?(?:\s*,\s*\d{3}(?:[–-]\d{3})?)*/g,'').replace(/\bEVD-(?:B02-)?(?:L)?\d+(?:[–-](?:L)?\d+)?(?:\/\d+)*/g,'').replace(/^[ \t]*[—·][ \t]*/gm,'').replace(/,\s*,/g,',');
+ const clean=(s:string)=>s.replace(/\bEVD-(?:B0[34]|UX)-\d{3}(?:[–-]\d{3})?(?:\s*,\s*\d{3}(?:[–-]\d{3})?)*/g,'').replace(/\bEVD-(?:B02-)?(?:L)?\d+(?:[–-](?:L)?\d+)?(?:\/\d+)*/g,'').replace(/^[ \t]*[—·][ \t]*/gm,'').replace(/,\s*,/g,',');
  const copy=clean(story)
   .replace(/\*\*Câu hỏi của tập này:\*\* /g,'')
   .replace(/ Sử không cung cấp một tỷ lệ lạm phát để ta gắn con số hiện đại vào, nhưng những khó khăn của đời sống không chỉ nằm ở chuyện có quân đánh nhau\./g,'')
