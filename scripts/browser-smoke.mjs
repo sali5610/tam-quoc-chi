@@ -136,7 +136,7 @@ try {
     await page.locator('main a[href="#/read/ep-0006"]').click();await page.locator('.reader-hero h1').filter({hasText:titles['ep-0006']}).waitFor();
     await page.goto(base+'#/search');await page.getByRole('textbox',{name:'Tìm tập'}).fill('dong trac chet');
     await page.locator('main a[href="#/read/ep-0006"]').waitFor();
-    await page.goto(base+'#/people');await page.locator('main input').fill('Vương Doãn');
+    await page.goto(base+'#/people');await page.getByRole('textbox',{name:'Tìm nhân vật',exact:true}).fill('Vương Doãn');
     await page.locator('.people-grid button').filter({has:page.locator('[data-person-name="Vương Doãn"]')}).click();
     const detail=page.locator('dialog[open]');await detail.waitFor();
     check(await detail.locator('.portrait-placeholder').count()===1,'new wiki fallback');
