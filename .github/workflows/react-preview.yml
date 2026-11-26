@@ -257,3 +257,11 @@ jobs:
           }
           JS
           TQC_TEST_BASE="https://sali5610.github.io/tam-quoc-chi/?release=${GITHUB_SHA}" node scripts/batch-03-atlas-smoke.mjs
+          # Reuse the exact green IA assertions against canonical production (URL/history tests expect the bare root).
+          export TQC_TEST_BASE=https://sali5610.github.io/tam-quoc-chi/
+          node scripts/navigation-ia-smoke.mjs
+          node scripts/atlas-ia-smoke.mjs
+          node scripts/wiki-ia-smoke.mjs
+          node scripts/ia-integration-smoke.mjs
+          test "$(curl -fsSL --max-time 10 "${TQC_TEST_BASE}release-sha.txt?verified=${GITHUB_SHA}")" = "$GITHUB_SHA"
+          echo "PASS live IA and unchanged public SHA $GITHUB_SHA"

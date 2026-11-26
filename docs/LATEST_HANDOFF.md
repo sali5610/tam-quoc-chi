@@ -1,3 +1,11 @@
+# Navigation & IA / 06 — PO approves exact tested application for production (2026-11-27)
+
+- DEC-UX-045: PO replied “Duyệt” to explicit release approval request for exact candidate 6fde477a40850e20efddb8eadb7df83da26a6c4c / CI 45893094194 SUCCESS with disclosed residual acceptance limits. Main verified 59be7599e6cbd07ba96f1fa679f56b1395b93b6c, candidate descendant, prior post-candidate delta only Latest Handoff. Canonical site root; last verified public SHA 5af8a0885fdfa50aefdc4510a83c29a19b67fc0c inherited, not freshly verified.
+- Release-only delta: decision/handoff and workflow live verification calls for already-green navigation, Atlas, Wiki, Reader integration suites. Two smoke scripts accept TQC_TEST_BASE environment override with unchanged localhost default and assertions; no application, content, build, historical data or test expectation changes. Publish workflow pushes to main only when .github/workflows/react-preview.yml changes (or dispatch); use one fast-forward main push with verified expected SHA, no dispatch. Workflow rechecks before publish and verifies canonical public SHA, retired preview 404, EP01–18 and affected IA on live.
+- State at this commit: APPROVED, release not yet verified; do not treat approval or main integration as deployed. Inspect actual release run and update final evidence, no extra deploy or B05. Full manual visual, physical device and exhaustive independent historical review remain incomplete; no new functionality authorized.
+
+---
+
 # Navigation & IA / 05 — automated integration & QA COMPLETE; release approval pending (2026-11-27)
 
 - Exact tested candidate **6fde477a40850e20efddb8eadb7df83da26a6c4c** / [CI 45893094194](https://github.com/sali5610/tam-quoc-chi/actions/runs/45893094194) SUCCESS, job 140160296580; verified exact head SHA, overall conclusion and all job steps. Prior branch head 37baa48 differs only in docs/LATEST_HANDOFF.md. Main verified unchanged 59be7599e6cbd07ba96f1fa679f56b1395b93b6c. Last verified public SHA 5af8a0885fdfa50aefdc4510a83c29a19b67fc0c (inherited, not fresh live verification).
