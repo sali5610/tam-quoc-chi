@@ -3281,5 +3281,100 @@
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志_(四庫全書本)/蜀志/卷06",
     "sourceLabel": "Sử liệu theo bản ghi nghiên cứu · 三國志_(四庫全書本) 蜀志/卷06",
     "basis": "| EVD-B04-096 | 15 | [Bùi chú] 三國志_(四庫全書本)/蜀志/卷06 關羽 引蜀記 https://zh.wikisource.org/wiki/三國志_(四庫全書本)/蜀志/卷06 | 乞娶其妻 | Thục ký kể Quan Vũ xin cưới vợ Tần Nghi Lộc trong chiến dịch Hạ Bì; Tào giữ người phụ nữ ấy; ghi rõ Bùi chú và không suy là nguyên nhân Quan Vũ rời Tào sau này. | Hạ Bì |"
+  },
+  {
+    "id": "WIK-lingdi-CTX-0003-UX-001",
+    "personId": "lingdi",
+    "episode": "ep-0003",
+    "year": 189,
+    "faction": "han",
+    "categories": [
+      "Hoàng tộc",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hoàng đế nhà Hán trước khi qua đời",
+    "evidence": "EVD-UX-001",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "sourceLabel": "Bản ghi sử liệu · 三國志 卷01",
+    "basis": "| EVD-UX-001 | [Chính sử] 三國志卷01 武帝紀 https://zh.wikisource.org/wiki/三國志/卷01 | 會靈帝崩，太子即位 | Linh Đế mất năm 189; nguồn chính văn ghi chuyển ngôi. Không gán thêm quyền lực vào thời điểm qua đời. |"
+  },
+  {
+    "id": "WIK-cao-cao-CTX-0003-UX-002",
+    "personId": "cao-cao",
+    "episode": "ep-0003",
+    "year": 189,
+    "faction": "caocao",
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Tháng chạp âm lịch bắt đầu khởi binh ở Kỷ Ngô",
+    "evidence": "EVD-UX-002",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "sourceLabel": "Bản ghi sử liệu · 三國志 卷01",
+    "basis": "| EVD-UX-002 | [Chính sử] 三國志卷01 武帝紀 https://zh.wikisource.org/wiki/三國志/卷01 | 冬十二月，始起兵於己吾 | Tào Tháo tự tập hợp lực lượng chống Đổng Trác vào tháng chạp âm lịch Trung Bình 6 (189); không chuyển ngày dương lịch. |"
+  },
+  {
+    "id": "WIK-xiandi-CTX-0004-B02-005",
+    "personId": "xiandi",
+    "episode": "ep-0004",
+    "year": 190,
+    "faction": "han",
+    "categories": [
+      "Hoàng tộc",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hoàng đế, triều đình dời Trường An",
+    "evidence": "EVD-B02-005",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9",
+    "sourceLabel": "Bản ghi sử liệu · 後漢書 卷9",
+    "basis": "| EVD-B02-005 | [Sử liệu khác] SRC-0013 初平元年: 丁亥，遷都長安；三月乙巳，車駕入長安；己酉，董卓焚洛陽宮廟及人家 | Tháng 2 Đinh Hợi dời đô, dân bị cưỡng dời; tháng 3 Ất Tỵ vua đến Trường An, Kỷ Dậu đốt cung miếu và nhà dân Lạc Dương. SRC-0012 compresses sequence; SRC-0001 notes Dong remained behind. | Luoyang/Chang'an ancient city level, no coordinates |"
+  },
+  {
+    "id": "WIK-sun-ben-CTX-0005-B02-023",
+    "personId": "sun-ben",
+    "episode": "ep-0005",
+    "year": null,
+    "faction": "yuan-shu",
+    "categories": [
+      "Võ tướng"
+    ],
+    "title": "Sau khi Tôn Kiên mất, đem quân về với Viên Thuật; niên đại dị bản",
+    "evidence": "EVD-B02-023",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷46",
+    "sourceLabel": "Bản ghi sử liệu · 三國志 卷46",
+    "basis": "| EVD-B02-023 | [Sử liệu mâu thuẫn] SRC-0007 初平三年; SRC-0013 初平三年正月; SRC-B02-03 191 end | Tôn Kiên dies fighting Lưu Biểu's general Hoàng Tổ at Tương Dương campaign. Chen Shou dates 192; Fan Ye places lunar Jan 192; Sima Guang places late 191; Pei cites 英雄記 lunar Jan 7 193 and another death version involving Lữ Công. Mark date conflict, avoid precise CE day and disputed mechanics. Kiên's nephew Tôn Bí takes troops to Thuật (base vol46). Boundary: bridge at end EP5 with explicit 191–192 uncertainty, not a precise 191 death. | Tương Dương / Hiện Sơn area |"
+  },
+  {
+    "id": "WIK-yang-feng-CTX-0010-UX-003",
+    "personId": "yang-feng",
+    "episode": "ep-0010",
+    "year": 196,
+    "faction": "yang-feng",
+    "categories": [
+      "Võ tướng",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Xa kỵ tướng quân theo biên niên tháng tám",
+    "evidence": "EVD-UX-003",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9",
+    "sourceLabel": "Bản ghi sử liệu · 後漢書 卷9",
+    "basis": "| EVD-UX-003 | [Sử liệu khác] 後漢書卷9 孝獻帝紀 https://zh.wikisource.org/wiki/後漢書/卷9 | 楊奉爲車騎將軍 | Tháng tám âm lịch Kiến An 1 (196), Dương Phụng được bổ Xa kỵ tướng quân, không khẳng định quyền thực tế liên tục. |"
+  },
+  {
+    "id": "WIK-xiandi-CTX-0013-UX-004",
+    "personId": "xiandi",
+    "episode": "ep-0013",
+    "year": 197,
+    "faction": "han",
+    "categories": [
+      "Hoàng tộc",
+      "Quân chủ / Thủ lĩnh"
+    ],
+    "title": "Hoàng đế nhà Hán trong bối cảnh Viên Thuật xưng thiên tử",
+    "evidence": "EVD-UX-004",
+    "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷9",
+    "sourceLabel": "Bản ghi sử liệu · 後漢書 卷9",
+    "basis": "| EVD-UX-004 | [Sử liệu khác] 後漢書卷9 孝獻帝紀 https://zh.wikisource.org/wiki/後漢書/卷9 | 二年春，袁術自稱天子 | Kiến An 2 (197) nằm trong kỷ Hiến Đế; Viên Thuật xưng thiên tử không thay ngôi vua Hán. Năm 196 triều đình dời Hứa; không thêm quyền tự chủ cho Hiến Đế. |"
   }
 ]

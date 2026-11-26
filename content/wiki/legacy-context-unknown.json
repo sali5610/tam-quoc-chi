@@ -1,11 +1,6 @@
 [
   {
     "personId": "lingdi",
-    "episode": "ep-0003",
-    "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
-  },
-  {
-    "personId": "lingdi",
     "episode": "ep-0008",
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
   },
@@ -61,17 +56,7 @@
   },
   {
     "personId": "xiandi",
-    "episode": "ep-0004",
-    "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
-  },
-  {
-    "personId": "xiandi",
     "episode": "ep-0005",
-    "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
-  },
-  {
-    "personId": "xiandi",
-    "episode": "ep-0013",
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
   },
   {
@@ -107,11 +92,6 @@
   {
     "personId": "cao-cao",
     "episode": "ep-0001",
-    "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
-  },
-  {
-    "personId": "cao-cao",
-    "episode": "ep-0003",
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
   },
   {
@@ -380,11 +360,6 @@
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
   },
   {
-    "personId": "yang-feng",
-    "episode": "ep-0010",
-    "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
-  },
-  {
     "personId": "ju-shou",
     "episode": "ep-0010",
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
@@ -486,11 +461,6 @@
   },
   {
     "personId": "sun-quan",
-    "episode": "ep-0005",
-    "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
-  },
-  {
-    "personId": "sun-ben",
     "episode": "ep-0005",
     "reason": "Legacy appearance only; affiliation/role at this context not yet established. Do not infer."
   },
