@@ -1,3 +1,11 @@
+# Navigation & IA / 06 — main integrated, single release running (2026-11-27)
+
+- DEC-UX-045 approval recorded. Main fast-forwarded without force from 59be7599e6cbd07ba96f1fa679f56b1395b93b6c to **ba1c68c82ea20ed6bd15a1e5377ac3203272626c**. Exact app 6fde477a40850e20efddb8eadb7df83da26a6c4c unchanged; verified five-file delta limited to docs, release workflow and two smoke-script base URL overrides. No extra dispatch. One main push triggered [Publish Tam Quốc Chí 45899180985](https://github.com/sali5610/tam-quoc-chi/actions/runs/45899180985), build job 140180463256 IN_PROGRESS (npm install). Main non-deploy CI 45899181031 and branch non-deploy CI 45899165715 also triggered automatically. Neither is a deployment.
+- Release verification pending: inspect exact run 45899180985 build/deploy/verify-live; confirm public release-sha.txt equals ba1c68c82ea20ed6bd15a1e5377ac3203272626c, retired preview 404 and live smoke logs including new IA. No second dispatch. Last verified public SHA remains 5af8a0885fdfa50aefdc4510a83c29a19b67fc0c until current deployment is evidenced; no fresh public assertion. Physical device/full manual visual/exhaustive historical re-collation NOT TESTED/incomplete. Chat06 OPEN, no B05.
+- This handoff-only main commit is outside both workflows' push paths; it must not trigger deployment or alter the release SHA.
+
+---
+
 # Navigation & IA / 06 — PO approves exact tested application for production (2026-11-27)
 
 - DEC-UX-045: PO replied “Duyệt” to explicit release approval request for exact candidate 6fde477a40850e20efddb8eadb7df83da26a6c4c / CI 45893094194 SUCCESS with disclosed residual acceptance limits. Main verified 59be7599e6cbd07ba96f1fa679f56b1395b93b6c, candidate descendant, prior post-candidate delta only Latest Handoff. Canonical site root; last verified public SHA 5af8a0885fdfa50aefdc4510a83c29a19b67fc0c inherited, not freshly verified.
