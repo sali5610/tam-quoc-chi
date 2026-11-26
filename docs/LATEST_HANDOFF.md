@@ -1,3 +1,12 @@
+# Navigation & IA / 04 — QA follow-up — dedicated tests PASS, full regression PENDING (2026-11-26)
+
+- Exact CI 45776162178 on 1500d2b4abc43a418dac7f79d97fc0dd983a7ff3 completed FAILURE, job 139760209567. Build and Atlas structural validation PASS. Logs confirm all 10 Home/Library/Reader, all 10 Atlas IA and all 10 Wiki IA viewport/engine combinations PASS (Chromium + WebKit at 320x720, 390x844, 834x1194, 1194x834, 1440x900). Both previous responsive disclosure and evidence-specific transition order regressions PASS, as do combined filters, retained selection, Reader episode context, non-pin Jia Xu, and coverage check. Legacy browser-smoke.mjs Batch02 failed at main input fill: strict mode locator now matches 43 controls, not a user-facing app error. Subsequent exhaustive and visual/motion stages not yet run in this CI.
+- Fixed only the stale test locator to getByRole('textbox',{name:'Tìm nhân vật',exact:true}), preserving all original assertions and interaction, including Vương Doãn backlink. Reviewed other Wiki/search selectors across scripts and non-deploy CI; no other generic main input fill found. Exact candidate 1d468f60baa0837f4a0cd014ae56ccde2aec9b27, comparison with 1500d2b confirms only test and handoff changes, no app/data changes. [CI 45784873292](https://github.com/sali5610/tam-quoc-chi/actions/runs/45784873292) IN_PROGRESS at verification; no full PASS yet.
+- Main unchanged 59be7599e6cbd07ba96f1fa679f56b1395b93b6c; no release workflow change, main merge, production deployment or PO release authorization. Inherited live 5af8a0885fdfa50aefdc4510a83c29a19b67fc0c; fresh live/physical devices NOT TESTED. Earlier data/source audit and scene spoiler/integration gates remain open.
+- Next: verify exact CI 45784873292 and fix any further scoped failures before closing Chat04; then Chat05, preserving DEC-UX-043. No B05.
+
+---
+
 # Navigation & IA / 04 — QA follow-up — corrected candidate, QA PENDING (2026-11-26)
 
 - Exact CI 45771897280 on 34d19b403872cb711f09e989bca8d88d6aab8d45 completed FAILURE (job 139746268328). Build and Atlas structural validation PASS, Home/Library/Reader and Atlas IA dedicated tests PASS on Chromium and WebKit at all five viewports; Wiki IA Chromium 320x720 PASS. At Chromium 390x844 Playwright timed out on invisible faction-filter summary, subsequent regression stages SKIPPED. Not a full pass.
