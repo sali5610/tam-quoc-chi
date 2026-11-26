@@ -1,14 +1,19 @@
-import {restoreAtlasOrigin,type ReaderMark} from './navigation-state';
-import {useCallback,useEffect,useLayoutEffect,useRef,useState} from 'react';
+import {restoreAtlasOrigin,pushAtlasEntry,type ReaderMark} from './navigation-state';
+import {useCallback,useLayoutEffect,useRef,useState} from 'react';
 import {ArrowLeft,ChevronLeft,ChevronRight} from 'lucide-react';
 import StrategyMap from './StrategyMap';
 import {Atlas} from './features';
 import {episodes,sessionRead,sessionWrite} from './Chronicle';
 import {atlasPath,parseAtlas,rememberAtlas,counts,storyYears,defaultMonth,toLayerMonth,publishedEvents,type AtlasTime} from './atlas-time';
 export function AtlasWorkspace({path}:{path:string}){
- const t=parseAtlas(path);const [departure,setDeparture]=useState(()=>{const pending=sessionRead<string>('tqc-ia-atlas-origin','');const id=pending||history.state?.tqcAtlasOrigin||'';const mark=pending?sessionRead<ReaderMark|null>('tqc-ia-atlas-origin-mark',null):history.state?.tqcAtlasOriginMark||null;sessionWrite('tqc-ia-atlas-origin','');sessionWrite('tqc-ia-atlas-origin-mark',null);return {id:episodes.some(e=>e.id===id)?id:'',mark:mark?.id===id?mark:null}});const origin=departure.id;const originRef=useRef(departure);originRef.current=departure;const currentRef=useRef(t);currentRef.current=t;
- const navigate=useCallback((next:AtlasTime)=>{const hash='#'+atlasPath(next);if(location.hash!==hash){history.pushState({tqcAtlasOrigin:originRef.current.id,tqcAtlasOriginMark:originRef.current.mark},'',hash);window.dispatchEvent(new Event('hashchange'))}},[]);
- useLayoutEffect(()=>{rememberAtlas(t);const canonical='#'+atlasPath(t);const changed=location.hash!==canonical;history.replaceState({...history.state,tqcAtlasOrigin:originRef.current.id,tqcAtlasOriginMark:originRef.current.mark},'',canonical);if(changed)window.dispatchEvent(new Event('hashchange'))},[t.year,t.month,t.mode,t.event,path,departure]);useEffect(()=>{const onPop=()=>{if(location.hash.startsWith('#/atlas')&&history.state&&'tqcAtlasOrigin' in history.state){const id=history.state?.tqcAtlasOrigin;setDeparture({id:typeof id==='string'&&episodes.some(e=>e.id===id)?id:'',mark:history.state?.tqcAtlasOriginMark?.id===id?history.state.tqcAtlasOriginMark:null})}};window.addEventListener('popstate',onPop);return()=>window.removeEventListener('popstate',onPop)},[]);
+ const t=parseAtlas(path);
+ // The URL and its history entry are the single source of truth, including Back/Forward.
+ const hs=history.state;const pending=sessionRead<{hash:string;id:string;mark:ReaderMark}|null>('tqc-ia-atlas-pending',null);
+ const source=pending?.hash===location.hash?pending:{id:hs?.tqcAtlasOrigin||'',mark:hs?.tqcAtlasOriginMark||null};
+ const origin=episodes.some(e=>e.id===source.id)?source.id:'';const departure={id:origin,mark:source.mark?.id===origin?source.mark:null};
+ const originRef=useRef(departure);originRef.current=departure;const currentRef=useRef(t);currentRef.current=t;
+ const navigate=useCallback((next:AtlasTime)=>{const hash='#'+atlasPath(next);if(location.hash!==hash)pushAtlasEntry(hash,originRef.current.id,originRef.current.mark)},[]);
+ useLayoutEffect(()=>{if((location.hash.slice(1)||'/')!==path)return;rememberAtlas(t);const canonical='#'+atlasPath(t);const state={...history.state,tqcAtlasOrigin:origin,tqcAtlasOriginMark:departure.mark};if(location.hash!==canonical||history.state?.tqcAtlasOrigin!==origin||pending?.hash===location.hash){try{history.replaceState(state,'',canonical);sessionWrite('tqc-ia-atlas-pending',null);if(location.hash.slice(1)!==path)window.dispatchEvent(new Event('hashchange'))}catch{if(pending?.hash===location.hash&&canonical!==location.hash)sessionWrite('tqc-ia-atlas-pending',{...pending,hash:canonical});if(canonical!==location.hash)location.replace(canonical)}}},[t.year,t.month,t.mode,t.event,path,origin]);
  const setYear=(year:number,mode=t.mode)=>navigate({year,month:defaultMonth(year),event:'',mode});
  const setEvent=useCallback((id:string)=>{const c=currentRef.current;const e=publishedEvents.find(e=>e.id===id);if(id&&!e)return;navigate({...c,year:e?.year||c.year,month:e&&e.year!==c.year?defaultMonth(e.year):c.month,event:id,mode:e?'story':c.mode})},[navigate]);
  const index=storyYears.indexOf(t.year);const yearEvents=publishedEvents.filter(e=>e.year===t.year);const anchor=yearEvents.find(e=>e.people.length)||yearEvents[0];const initialFocus=useRef(anchor?.place||undefined);const max=Math.max(1,...Object.values(counts));const [advanced,setAdvanced]=useState(t.mode==='map');
