@@ -59,8 +59,12 @@ for(const engine of [chromium,webkit]){
   await sheet.locator('.radar-chart').scrollIntoViewIfNeeded();await shot('radar');
   if(!await sheet.evaluate(e=>e.scrollWidth<=e.clientWidth+1))throw Error('Profile overflow');
   await page.keyboard.press('Escape');await sheet.waitFor({state:'detached'});
+  await page.goto(base+'#/library');await page.locator('.ia-index').waitFor();await shot('library');
+  await page.goto(base+'#/collection');await page.locator('main h1').waitFor();await shot('collection');
+  await page.goto(base+'#/people');await page.getByRole('button',{name:'Phe phái',exact:true}).click();await shot('wiki-faction-filter');await page.getByRole('button',{name:'Phe phái',exact:true}).click();
   await page.goto(base+'#/atlas/189');await page.locator('.strategy-board').waitFor();await page.locator('.atlas-person-marker').first().waitFor();await shot('atlas');
   await page.locator('.atlas-person-marker').first().click();await page.locator('.atlas-event-sheet').waitFor();await page.locator('.atlas-event-sheet').scrollIntoViewIfNeeded();await shot('atlas-event');
+  await page.getByRole('button',{name:'Đóng sự kiện'}).click();await page.getByRole('button',{name:'Quan hệ',exact:true}).click();await page.locator('.atlas-relation-panel').scrollIntoViewIfNeeded();await shot('atlas-relations');
   console.log('PASS visual capture',engine.name(),width,height);
   await page.close();
  }

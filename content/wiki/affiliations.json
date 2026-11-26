@@ -49,7 +49,7 @@
   {
     "id": "WIK-yuan-shao-B03-006-yuanshao",
     "personId": "yuan-shao",
-    "year": 193,
+    "year": 192,
     "episode": "ep-0007",
     "faction": "yuanshao",
     "categories": [
@@ -59,7 +59,8 @@
     "evidence": "EVD-B03-006",
     "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷01",
     "sourceLabel": "[Chính sử] Sử liệu theo bản ghi nghiên cứu · 三國志 卷01",
-    "basis": "| EVD-B03-006 | [Chính sử] A 初平三年: 太祖與紹會擊，皆破之 | Yuan Shu seeks Gongsun Zan aid; Liu Bei at Cao Đường, Thiền Kinh at Bình Nguyên, Tao Qian at Phát Can; Cao and Yuan Shao defeat opponents. Do not conflate Cao Đường with Gaotang modern exact site | regional named counties; no linked route |"
+    "basis": "| EVD-B03-006 | [Chính sử] A 初平三年: 太祖與紹會擊，皆破之 | Yuan Shu seeks Gongsun Zan aid; Liu Bei at Cao Đường, Thiền Kinh at Bình Nguyên, Tao Qian at Phát Can; Cao and Yuan Shao defeat opponents. Do not conflate Cao Đường with Gaotang modern exact site | regional named counties; no linked route |",
+    "dateLabel": "192 · theo niên hiệu 初平三年"
   },
   {
     "id": "WIK-yuan-shao-B03-049-yuanshao",
@@ -1002,11 +1003,11 @@
       "Quân chủ / Thủ lĩnh",
       "Quan văn"
     ],
-    "title": "Lư Giang thái thú trước khi mất căn cứ",
-    "evidence": "EVD-B04-053",
-    "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷54",
-    "sourceLabel": "[Chính sử] Sử liệu theo bản ghi nghiên cứu · 三國志 卷54",
-    "basis": "| EVD-B04-053 | 18 | [Chính sử] F 周瑜 建安三年 | 授建威中郎將 | Chu Du rời Viên Thuật về Tôn Sách năm 198, được Kiến uy trung lang tướng; 199 làm Trung hộ quân, đánh Hoàn, hai người lấy hai con gái họ Kiều. Không bịa đối thoại hay đồng thuận hôn nhân. | Cư Sào; Ngô; Hoàn |",
+    "title": "Lư Giang thái thú trước khi dẫn quân hàng Tào",
+    "evidence": "EVD-B04-156",
+    "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷01",
+    "sourceLabel": "[Chính sử] Tam Quốc chí · Ngụy thư 1 · Vũ đế kỷ",
+    "basis": "| EVD-B04-156 | 18 | [Chính sử] 三國志/卷01 建安四年 L188 https://zh.wikisource.org/zh-hant/三國志/卷01 | 廬江太守劉勳率衆降 | Lưu Huân dẫn quân hàng Tào, phong liệt hầu sau mất Lư Giang. Điều chỉnh snapshot: không mất mọi quân quyền. | địa điểm nhận hàng không rõ |",
     "transitionOrder": 1
   },
   {
@@ -1241,7 +1242,7 @@
   {
     "id": "WIK-yuan-xi-B04-157-yuanshao",
     "personId": "yuan-xi",
-    "year": 199,
+    "year": null,
     "episode": "ep-0016",
     "faction": "yuanshao",
     "categories": [
@@ -1250,13 +1251,14 @@
     "title": "Quanh 199 · được giao U Châu",
     "evidence": "EVD-B04-157",
     "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷06",
-    "sourceLabel": "[Bùi chú] Sử liệu theo bản ghi nghiên cứu · 三國志 卷06",
-    "basis": "| EVD-B04-157 | 16 | [Bùi chú] 三國志/卷06 袁紹 引九州春秋 L167 https://zh.wikisource.org/zh-hant/三國志/卷06 | 譚始至青州，為都督，未為刺史 | Viên Đàm ban đầu làm đô đốc, chưa là thứ sử, sau Tào bổ. Cần phân biệt thời điểm chức danh; bản chính ghi giao Thanh Châu, U Châu cho Viên Hy và Tịnh Châu cho Cao Cán. Viên Đàm đánh Điền Khải và Khổng Dung; không định mọi biến cố trong năm 199. | Thanh Châu/U Châu/Tịnh Châu |"
+    "sourceLabel": "[Chính sử] và [Bùi chú] Tam Quốc chí · Ngụy thư 6 · Viên Thiệu truyện",
+    "basis": "| EVD-B04-157 | 16 | [Bùi chú] 三國志/卷06 袁紹 引九州春秋 L167 https://zh.wikisource.org/zh-hant/三國志/卷06 | 譚始至青州，為都督，未為刺史 | Viên Đàm ban đầu làm đô đốc, chưa là thứ sử, sau Tào bổ. Cần phân biệt thời điểm chức danh; bản chính ghi giao Thanh Châu, U Châu cho Viên Hy và Tịnh Châu cho Cao Cán. Viên Đàm đánh Điền Khải và Khổng Dung; không định mọi biến cố trong năm 199. | Thanh Châu/U Châu/Tịnh Châu |",
+    "dateLabel": "Quanh 199 · chưa xác định năm bổ nhiệm"
   },
   {
     "id": "WIK-gao-gan-B04-157-yuanshao",
     "personId": "gao-gan",
-    "year": 199,
+    "year": null,
     "episode": "ep-0016",
     "faction": "yuanshao",
     "categories": [
@@ -1265,8 +1267,9 @@
     "title": "Quanh 199 · được giao Tịnh Châu",
     "evidence": "EVD-B04-157",
     "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷06",
-    "sourceLabel": "[Bùi chú] Sử liệu theo bản ghi nghiên cứu · 三國志 卷06",
-    "basis": "| EVD-B04-157 | 16 | [Bùi chú] 三國志/卷06 袁紹 引九州春秋 L167 https://zh.wikisource.org/zh-hant/三國志/卷06 | 譚始至青州，為都督，未為刺史 | Viên Đàm ban đầu làm đô đốc, chưa là thứ sử, sau Tào bổ. Cần phân biệt thời điểm chức danh; bản chính ghi giao Thanh Châu, U Châu cho Viên Hy và Tịnh Châu cho Cao Cán. Viên Đàm đánh Điền Khải và Khổng Dung; không định mọi biến cố trong năm 199. | Thanh Châu/U Châu/Tịnh Châu |"
+    "sourceLabel": "[Chính sử] và [Bùi chú] Tam Quốc chí · Ngụy thư 6 · Viên Thiệu truyện",
+    "basis": "| EVD-B04-157 | 16 | [Bùi chú] 三國志/卷06 袁紹 引九州春秋 L167 https://zh.wikisource.org/zh-hant/三國志/卷06 | 譚始至青州，為都督，未為刺史 | Viên Đàm ban đầu làm đô đốc, chưa là thứ sử, sau Tào bổ. Cần phân biệt thời điểm chức danh; bản chính ghi giao Thanh Châu, U Châu cho Viên Hy và Tịnh Châu cho Cao Cán. Viên Đàm đánh Điền Khải và Khổng Dung; không định mọi biến cố trong năm 199. | Thanh Châu/U Châu/Tịnh Châu |",
+    "dateLabel": "Quanh 199 · chưa xác định năm bổ nhiệm"
   },
   {
     "id": "WIK-cao-cao-0003-han",
