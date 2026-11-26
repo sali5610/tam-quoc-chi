@@ -6,7 +6,7 @@ export type Episode=typeof episodes[number];
 type Item={id:string;title:string;years:string};
 const numbers=new Map(episodes.map((e,i)=>[e.id,i+1]));
 export const episodeNumber=(id:string)=>String(numbers.get(id)||0).padStart(2,'0');
-export function yearSpan(items:Item[]){const years=items.flatMap(e=>(e.years.match(/\d{4}/g)||[]).map(Number));return years.length?(Math.min(...years)===Math.max(...years)?String(Math.min(...years)):Math.min(...years)+'–'+Math.max(...years)):'Chưa xác định'}
+export function yearSpan(items:Item[]){const years=items.flatMap(e=>(e.years.match(/\b\d{3,4}\b/g)||[]).map(Number));return years.length?(Math.min(...years)===Math.max(...years)?String(Math.min(...years)):Math.min(...years)+'–'+Math.max(...years)):'Chưa xác định'}
 export function sessionRead<T>(key:string,fallback:T):T{try{return JSON.parse(sessionStorage.getItem(key)||'null')??fallback}catch{return fallback}}
 export function sessionWrite(key:string,value:unknown){try{sessionStorage.setItem(key,JSON.stringify(value))}catch{}}
 const lineage=(e:Episode)=>[e.era.id,e.arc.id,e.chapter.id];
