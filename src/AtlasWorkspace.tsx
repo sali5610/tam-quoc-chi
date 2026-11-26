@@ -5,9 +5,9 @@ import {Atlas} from './features';
 import {episodes,sessionRead,sessionWrite} from './Chronicle';
 import {atlasPath,parseAtlas,rememberAtlas,counts,storyYears,defaultMonth,toLayerMonth,publishedEvents,type AtlasTime} from './atlas-time';
 export function AtlasWorkspace({path}:{path:string}){
- const t=parseAtlas(path);const [origin]=useState(()=>{const pending=sessionRead<string>('tqc-ia-atlas-origin','');sessionWrite('tqc-ia-atlas-origin','');return episodes.some(e=>e.id===pending)?pending:''});const currentRef=useRef(t);currentRef.current=t;
- const navigate=useCallback((next:AtlasTime)=>{const p=atlasPath(next);if(location.hash!=='#'+p)location.hash=p},[]);
- useEffect(()=>{rememberAtlas(t)},[t.year,t.month,t.mode,t.event]);
+ const t=parseAtlas(path);const [origin,setOrigin]=useState(()=>{const pending=sessionRead<string>('tqc-ia-atlas-origin','')||history.state?.tqcAtlasOrigin||'';sessionWrite('tqc-ia-atlas-origin','');return episodes.some(e=>e.id===pending)?pending:''});const originRef=useRef(origin);originRef.current=origin;const currentRef=useRef(t);currentRef.current=t;
+ const navigate=useCallback((next:AtlasTime)=>{const p=atlasPath(next);if(location.hash!=='#'+p){location.hash=p;history.replaceState({...history.state,tqcAtlasOrigin:originRef.current},'')}},[]);
+ useEffect(()=>{rememberAtlas(t);const canonical='#'+atlasPath(t);if(location.hash!==canonical){location.replace(canonical)}history.replaceState({...history.state,tqcAtlasOrigin:originRef.current},'')},[t.year,t.month,t.mode,t.event,path]);useEffect(()=>{const onPop=()=>{if(location.hash.startsWith('#/atlas')&&history.state&&'tqcAtlasOrigin' in history.state){const id=history.state?.tqcAtlasOrigin;setOrigin(typeof id==='string'&&episodes.some(e=>e.id===id)?id:'')}};window.addEventListener('popstate',onPop);return()=>window.removeEventListener('popstate',onPop)},[]);
  const setYear=(year:number,mode=t.mode)=>navigate({year,month:defaultMonth(year),event:'',mode});
  const setEvent=useCallback((id:string)=>{const c=currentRef.current;const e=publishedEvents.find(e=>e.id===id);if(id&&!e)return;navigate({...c,year:e?.year||c.year,month:e&&e.year!==c.year?defaultMonth(e.year):c.month,event:id,mode:e?'story':c.mode})},[navigate]);
  const index=storyYears.indexOf(t.year);const yearEvents=publishedEvents.filter(e=>e.year===t.year);const anchor=yearEvents.find(e=>e.people.length)||yearEvents[0];const initialFocus=useRef(anchor?.place||undefined);const max=Math.max(1,...Object.values(counts));const [advanced,setAdvanced]=useState(t.mode==='map');
