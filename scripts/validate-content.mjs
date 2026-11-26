@@ -67,3 +67,17 @@ for(const p of b04.atlas.places){const a=atlas.places.find(x=>x.id===p.id);if(!a
 for(const [ep,places] of Object.entries(b04.atlas.placeRefsByEpisode))if(JSON.stringify(atlas.placeRefsByEpisode[ep])!==JSON.stringify(places)||places.some(p=>!placeIds.has(p)))throw Error('B04 place refs '+ep);
 for(const id of ['xiandi-196','sun-ce-195-196','liu-bei-200']){const t=atlas.trajectories.find(t=>t.id===id);if(!t||!t.allApproximate||t.stops.some(s=>!s.sourceUrl||!s.evidence||!placeIds.has(s.place)))throw Error('B04 journey '+id);}
 console.log('PASS B04 88 assessed identities, 114 snapshots, 20 imported quotes, 36 event and 57 relation candidates, 56 place dispositions, 3 journey dispositions');
+
+/* DEC-UX-043 — source-backed coverage gate for every published person/episode. */
+const affiliations=JSON.parse(fs.readFileSync('content/wiki/affiliations.json','utf8'));
+const wikiRoles=new Set(['Võ tướng','Mưu sĩ','Quân chủ / Thủ lĩnh','Quan văn','Hoàng tộc','Hoạn quan','Ngoại thích','Tôn giáo','Khác','Chưa xác định']);
+const affiliationIds=new Set();const affiliationPeople=new Set();const eventIds=new Map(atlas.events.map(e=>[e.id,e]));const episodeSet=new Set(m.eras.flatMap(e=>e.arcs.flatMap(a=>a.chapters.flatMap(c=>c.episodes.map(ep=>ep.id)))));
+for(const r of affiliations){if(!r.id||affiliationIds.has(r.id)||!peopleIds.has(r.personId)||!episodeSet.has(r.episode)||!r.faction||!r.title?.trim()||!Array.isArray(r.categories)||!r.categories.length||r.categories.some(v=>!wikiRoles.has(v))||r.year!==null&&!Number.isInteger(r.year)||!r.evidence||!allEvidence.includes(r.evidence)||!r.sourceUrl?.startsWith('https://zh.wikisource.org/')||!r.basis?.includes(r.evidence))throw Error('Invalid Wiki affiliation '+r.id);if(r.eventId){const e=eventIds.get(r.eventId);if(!e||e.episode!==r.episode||e.year!==r.year)throw Error('Wiki event mismatch '+r.id)}affiliationIds.add(r.id);affiliationPeople.add(r.personId)}
+for(const e of atlas.events){for(const [id,r] of Object.entries(e.roles)){if(!peopleIds.has(id)||!r.faction||!r.title||(!e.source&&!e.sources?.length))throw Error('Missing event faction evidence '+e.id+' '+id);affiliationPeople.add(id)}}
+for(const p of atlas.people)if(!affiliationPeople.has(p.id))throw Error('Missing Dynamic Wiki record '+p.id);
+const affectedRecords=new Set([...affiliations.map(r=>r.personId+'|'+r.episode),...atlas.events.flatMap(e=>Object.keys(e.roles).map(id=>id+'|'+e.episode))]);
+// B04 baseline has legacy contextual appearances without enough affiliation evidence. Freeze those exact pairs separately, not future episodes.
+const legacyUnknown=JSON.parse(fs.readFileSync('content/wiki/legacy-context-unknown.json','utf8'));
+const allowed=new Set(legacyUnknown.map(r=>r.personId+'|'+r.episode));
+for(const p of atlas.people){for(const ep of entities.references[p.name]?.episodes||[]){const key=p.id+'|'+ep;if(!affectedRecords.has(key)&&!allowed.has(key))throw Error('Missing new/affected Wiki context '+key+'; add sourced record or documented unknown with evidence');}}
+console.log('Validated DEC-UX-043 Dynamic Wiki records '+affiliations.length+' across '+affiliationPeople.size+' canonical profiles; legacy unknown pairs '+allowed.size);
