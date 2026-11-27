@@ -1,3 +1,10 @@
+# PWA & favicon — release smoke timeout, same-SHA retry (2026-11-27)
+
+- Publish 45948944713 attempt 1 FAILED before deployment, exact SHA 858281a436fe8553db48249b62bcc1ba6a287bdf. Build and brand validation PASS; job 140340047876 failed in scripts/batch-03-atlas-smoke.mjs:65:597 on WebKit after 390px pass: Cao Thuận profile Close button resolved but click stability wait exceeded 10s. Upload/deploy/verify-live SKIPPED. Same-SHA non-deploy CI 45948944717 SUCCESS, job 140340047856 logs show identical suite passes WebKit 320/390/834/1194/1440 and all 121 Wiki profiles. Evidence suggests intermittent timing/actionability; definitive cause not established. No app or test changes, no weakened gate. Retried failed jobs of same approved run once (API success), no new dispatch and zero successful deployments yet. Current attempt status in_progress / attempt 2.
+- Next: verify retry result; if same failure recurs, investigate actual dialog actionability before further retry. Confirm public SHA and all live asset checks after successful publish. Previous verified live SHA ba1c68c82ea20ed6bd15a1e5377ac3203272626c inherited; not freshly independently verified. Actual iPhone install/refresh and favicon visual NOT TESTED. No B05 or scope expansion.
+
+---
+
 # PWA & favicon identity — main integrated, production release running (2026-11-27)
 
 - DEC-UX-047 recorded. Main fast-forwarded from 3f1e61f0a4c23470de81d27ea1c8e29b9a438671 to **858281a436fe8553db48249b62bcc1ba6a287bdf**; exact tested candidate e7f40c3dc8932590e2d84727d553048b46077c72 / CI 45941834872 SUCCESS unchanged except verified docs and release-workflow-only live asset checks. Single main push triggered [Publish 45948944713](https://github.com/sali5610/tam-quoc-chi/actions/runs/45948944713), build job 140340047876 IN_PROGRESS at npm install; separate non-deploy CI 45948944717. No extra dispatch. Docs-only handoff update outside workflow push paths.
