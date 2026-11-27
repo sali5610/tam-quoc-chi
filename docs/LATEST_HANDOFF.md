@@ -1,3 +1,9 @@
+# PWA & favicon identity — implementation candidate (2026-11-27)
+
+- DEC-UX-046: PO said “Chốt” to the seal artwork. Scope: vectorized approved seal, PNG 16/32/180/192/512 and separate 512 maskable icon, web app manifest and HTML icon references; no offline/service worker or content changes. Branch `design/pwa-seal-brand` from main `3f1e61f0a4c23470de81d27ea1c8e29b9a438671`. PNGs rasterized from vector trace with antialiasing; maskable foreground within 40% radius. Run icon metadata validation via build, existing non-deploy CI. Full browser/device installation, CI and new live identity NOT TESTED at commit; no deploy authorization. Prior release 45899180985 build/deploy/verify-live SUCCESS (public SHA verification step green, previous candidate ba1c68c82ea20ed6bd15a1e5377ac3203272626c). No second deploy. Next: confirm branch CI then request explicit release approval; check actual iOS Home Screen and browser favicon after release.
+
+---
+
 # Navigation & IA / 06 — main integrated, single release running (2026-11-27)
 
 - DEC-UX-045 approval recorded. Main fast-forwarded without force from 59be7599e6cbd07ba96f1fa679f56b1395b93b6c to **ba1c68c82ea20ed6bd15a1e5377ac3203272626c**. Exact app 6fde477a40850e20efddb8eadb7df83da26a6c4c unchanged; verified five-file delta limited to docs, release workflow and two smoke-script base URL overrides. No extra dispatch. One main push triggered [Publish Tam Quốc Chí 45899180985](https://github.com/sali5610/tam-quoc-chi/actions/runs/45899180985), build job 140180463256 IN_PROGRESS (npm install). Main non-deploy CI 45899181031 and branch non-deploy CI 45899165715 also triggered automatically. Neither is a deployment.
