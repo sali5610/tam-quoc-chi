@@ -1,3 +1,10 @@
+# PWA & favicon identity — main integrated, production release running (2026-11-27)
+
+- DEC-UX-047 recorded. Main fast-forwarded from 3f1e61f0a4c23470de81d27ea1c8e29b9a438671 to **858281a436fe8553db48249b62bcc1ba6a287bdf**; exact tested candidate e7f40c3dc8932590e2d84727d553048b46077c72 / CI 45941834872 SUCCESS unchanged except verified docs and release-workflow-only live asset checks. Single main push triggered [Publish 45948944713](https://github.com/sali5610/tam-quoc-chi/actions/runs/45948944713), build job 140340047876 IN_PROGRESS at npm install; separate non-deploy CI 45948944717. No extra dispatch. Docs-only handoff update outside workflow push paths.
+- Release verification pending: inspect exact run build/deploy/verify-live, public release SHA 858281a436fe8553db48249b62bcc1ba6a287bdf, all eight identity asset byte comparisons and HTML links, retired preview 404 and regression. Last verified live SHA remains ba1c68c82ea20ed6bd15a1e5377ac3203272626c from prior release; not refreshed here. Physical iOS install/refresh and visual browser icon acceptance NOT TESTED. No extra scope, no B05, no second deploy. Stop after verification and final handoff.
+
+---
+
 # PWA & favicon identity — PO release approved (2026-11-27)
 
 - DEC-UX-047: PO replied “Duyệt” to explicit production approval request; exact tested candidate e7f40c3dc8932590e2d84727d553048b46077c72, CI 45941834872 SUCCESS. Branch head 7315160c453a18c8b109870f3239f69b29e7a675 differs only in handoff; main 3f1e61f0a4c23470de81d27ea1c8e29b9a438671. Release-only delta adds live byte comparison for all eight identity assets and HTML link verification to existing workflow; no tested app/asset changes. Existing release workflow pushes to main only on workflow-file change; one fast-forward to trigger it, no dispatch. Live identity and actual physical-device install NOT TESTED until release evidence. Previous verified public SHA ba1c68c82ea20ed6bd15a1e5377ac3203272626c from run 45899180985. Next verify exact release run, live SHA and regression; do not trigger a second deployment. No B05 or additional scope.
