@@ -1,3 +1,9 @@
+# PWA & favicon — deployed, live browser verification blocked by runner (2026-11-27)
+
+- Publish 45948944713 attempt 2: build 140484954426 PASS including all pre-deploy browser smoke; deploy 140490459254 SUCCESS (one successful production deployment). Verify-live 140490566165: exact public SHA **858281a436fe8553db48249b62bcc1ba6a287bdf** PASS, retired preview 404 PASS, all eight live identity assets byte-identical to repo and HTML links PASS. Live browser suite did not execute: Playwright dependency install failed on GitHub runner Ubuntu 26.04 Microsoft package repository HTTP 403, apt exit 100. This is runner infrastructure, not evidence of application regression. Retried verify-live job alone (API success); no build/deploy rerun or new dispatch. Full live browser regression pending, physical iPhone install/refresh NOT TESTED. No app changes. Check attempt 3; do not redeploy. Canonical site https://sali5610.github.io/tam-quoc-chi/.
+
+---
+
 # PWA & favicon — release smoke timeout, same-SHA retry (2026-11-27)
 
 - Publish 45948944713 attempt 1 FAILED before deployment, exact SHA 858281a436fe8553db48249b62bcc1ba6a287bdf. Build and brand validation PASS; job 140340047876 failed in scripts/batch-03-atlas-smoke.mjs:65:597 on WebKit after 390px pass: Cao Thuận profile Close button resolved but click stability wait exceeded 10s. Upload/deploy/verify-live SKIPPED. Same-SHA non-deploy CI 45948944717 SUCCESS, job 140340047856 logs show identical suite passes WebKit 320/390/834/1194/1440 and all 121 Wiki profiles. Evidence suggests intermittent timing/actionability; definitive cause not established. No app or test changes, no weakened gate. Retried failed jobs of same approved run once (API success), no new dispatch and zero successful deployments yet. Current attempt status in_progress / attempt 2.
