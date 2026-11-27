@@ -1,3 +1,9 @@
+# PWA & favicon identity — PO release approved (2026-11-27)
+
+- DEC-UX-047: PO replied “Duyệt” to explicit production approval request; exact tested candidate e7f40c3dc8932590e2d84727d553048b46077c72, CI 45941834872 SUCCESS. Branch head 7315160c453a18c8b109870f3239f69b29e7a675 differs only in handoff; main 3f1e61f0a4c23470de81d27ea1c8e29b9a438671. Release-only delta adds live byte comparison for all eight identity assets and HTML link verification to existing workflow; no tested app/asset changes. Existing release workflow pushes to main only on workflow-file change; one fast-forward to trigger it, no dispatch. Live identity and actual physical-device install NOT TESTED until release evidence. Previous verified public SHA ba1c68c82ea20ed6bd15a1e5377ac3203272626c from run 45899180985. Next verify exact release run, live SHA and regression; do not trigger a second deployment. No B05 or additional scope.
+
+---
+
 # PWA & favicon identity — QA COMPLETE, release approval pending (2026-11-27)
 
 - Exact tested candidate **e7f40c3dc8932590e2d84727d553048b46077c72**, [CI 45941834872](https://github.com/sali5610/tam-quoc-chi/actions/runs/45941834872) SUCCESS, job 140317658282. Verified actual job log: PASS brand icon dimensions, manifest and relative subpath metadata; all existing build, Atlas/portrait, Home/Library/Reader, Wiki, IA integration and scale, EP01–18 visual, mobile/tablet, motion/collage regression steps green on CI. Main remains 3f1e61f0a4c23470de81d27ea1c8e29b9a438671; comparison confirms candidate is one commit ahead, 13 expected files only, zero content/src/workflow changes. Previous live SHA ba1c68c82ea20ed6bd15a1e5377ac3203272626c verified by release 45899180985; not independently refreshed in this check.

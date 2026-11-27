@@ -137,6 +137,30 @@ jobs:
             sleep 5
           done
           echo "FAIL public release SHA: $actual"; exit 1
+      - name: Verify live PWA identity assets
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import assert from 'node:assert/strict';
+          const base=new URL('https://sali5610.github.io/tam-quoc-chi/');
+          async function get(path){
+            const url=new URL(path,base);
+            url.searchParams.set('release',process.env.GITHUB_SHA);
+            const response=await fetch(url,{signal:AbortSignal.timeout(15000)});
+            assert.ok(response.ok,url+' HTTP '+response.status);
+            return Buffer.from(await response.arrayBuffer());
+          }
+          const html=(await get('./')).toString('utf8');
+          const files=['manifest.webmanifest','brand/seal.svg','brand/favicon-16.png','brand/favicon-32.png','brand/apple-touch-icon.png','brand/icon-192.png','brand/icon-512.png','brand/icon-maskable-512.png'];
+          for(const path of files){
+            assert.deepEqual(await get(path),fs.readFileSync('public/'+path),'Live asset mismatch '+path);
+            console.log('PASS live identity asset',path);
+          }
+          for(const path of files.slice(0,5)){
+            assert.ok([...html.matchAll(/href="([^"]+)"/g)].some(m=>new URL(m[1],base).href===new URL(path,base).href),'Missing live HTML link '+path);
+          }
+          console.log('PASS live icon and manifest HTML references');
+          JS
       - name: Live Chromium and WebKit smoke
         run: |
           npm install --no-save --no-audit --no-fund playwright
